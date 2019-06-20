@@ -1,0 +1,461 @@
+﻿Sophocles, Antigone
+
+
+Editions consulted:
+-- Lloyd-Jones, Loeb edition (llj)
+-- Lloyd-Jones and Wilson, OCT text (llj-w)
+-- Jebb (j)
+-- Griffith (gr)
+-- Kamerbeek (kam)
+-- Campbell (cam)
+
+*********
+Abbreviazioni usate:
+- #a!...# = riferimento a testo antico
+- #b!...# = riferimento a bibliografia moderna
+- #g!...# = testo in greco
+
+*********
+
+
+2    οἶσθ᾽	(36282096)	the syntax of the sentence is difficult: we have to assume either a slight change of construction or a corruption in the manuscripts. Three interpretations of the transmitted text are possible: 1. #g!ὅ τι# is the first intended object ot #g!:τελεῖ#, which is taken up and somehow replaced by ὁποῖον  2. ὅ τι and ὁποῖον are two different interrogative particles, which are cumulated without a coordinating conjunction as often in Greek (#b!Seidler apud Hermann); see e.g. τίς πόθεν ἔσσι, lit. “who, from where are you”? Thus, here the two interrogatives would mean: “what” and “of what sort” (‘quod -- quo modo’, Seidler).  3.  ὅ τι is the subject of the elided copula "to be":  ὅ τι <ἐστιν> ὁποῖον οὐ τέλει ().
+Jebb (in the commentary) follows n. 1, but assumes that, in the end, the sentence is restructured and shifts towards construction n. 2: "The sentence begins as if it were to be, “ἆρ᾽ οἶσθ᾽ ὅ τι Ζεὺς οὐ τελεῖ”; But when, after an interval, “ὁποῖον” comes in, the Greek hearer would think of the direct form, “τί ὁποῖον οὐ τελεῖ”; and so his ear would not be offended." This interpretation is accepted in the treebank.
+All the explanations quoted presuppose the word-division attested in the manuscripts: ὅ τι, from ὅστις; others (Hermann, Campbell, Lloyd-Jones) prefer to read the conjunction ὅτι.
+
+3 νῷν	(36282106)	νῷν is annotated as dat. of disadvantage governed by τελεῖ, with ἔτι ζώσαιν as attributive participle: "to us who are still alive"; genitive absolute ("whil we still live") is also possible.
+
+3	τελεῖ	(36282109)	if we annotate the sentence with an elided ἐστίν (cf. above on 36282096), two solutions for the relative clause ὁποῖον οὐχὶ τελεῖ are possible: 1. "what ill there is [...] that Zeus fulfills not" (Jebb, in the translation): ὅ τι is therefore the subject and ὁποῖον... τελεῖ = ATR. 2. "which of the evil is such as Zeus will not accomplish": ὁποῖον... τελεῖ = (nominal) predicate with the elided copula. The latter is adopted.
+τελεῖ can be either present, or future (Kamerbeek), pointing at Antigone's expectations of the evil to come.
+
+4    ἄτερ    ἄτης ἄτερ (transmitted by all manuscritps) is in itself unobjectionable, but the meaning of the phrase is the opposite of what we expect: "without ruin" clearly does not fit with ἀλγεινόν, αἰσχρόν, and ἄτιμον. According to a scholion to L, the problem was already known to Didymos. The transmitted reading could be accepted only if we suppose that the negative conjunctions in the series are used with differet strenght: the second οὔτε loses any real negative meaning. This lack of coherence with negative particles is not unparalleled, and we may suppose that the strict logic is here sacrified to the balance of the clause (οὐδέν... οὔτε... οὔτε... οὔτε... οὔτε), to the strong emphasis on negative particles (an "insistent torrent of negatives": Griffith; see also on 36282130), and to the powerfull assonance in ἄτης ἄτερ: see Jebb's discussion (Appendix: ), Mazon (Revue de Philologie, 25 (1951):7) and Kamerbeek. But this is difficult, on account of the unquestionably coherent use of the other three οὔτε.
+No modern reconstruction gives good account of the supposed corruption (which in any case should be very old, predating the Hellenistic era). Lloyd-Jones, e.g., prints Hermann's ἄτης γέμον.
+
+6	οὐκ	(36282130)	note how "the negation is reinforced by repetition" (Kamerbeek). In this case, as often, the negative is placed at the beginning of the (relative) clause and then repeated before the verb: cf. Moorhouse 335.
+
+6    κακῶν    see Jebb: "sc. “ὄν”, possessive (or ‘partitive’) gen. with ὄπωπα,—‘which I have not seen as belonging to, being in the number of,’ our woes."
+
+7	καί	(36282135)	as often in tragic prologues, καί νῦν ("so now") marks the transition to the situation at the fictional moment when the play begins. The scenic events are thus described in continuity with a generic truth or a traditional situation that is known to the public and is evoked in the very first lines (in this case, the chains of evils that afflict the descendants of Labdacus). For other examples, see e.g. Ai. 3, A. Ag. 8, with Fraenkel's note.
+
+7	τοῦτο	(36282138)	the interrogative pronoun/ajective τίς is coupled with a demonstrative. The idiom is common in Greek; modern translators, though, must supply the verb "to be": "what is this edict that was decreed?"
+
+10	ἐχθρῶν	(36282161)	subjective genitive with κακά: "the evil devised by our enemies" (τά τῶν ἐχθρῶν μηχανήματα, scholia). Jebb takes it as possessive genitive: "the doom of our enemies", i.e. the denial of burial that was decreed to the Argive army. But this is certainly wrong: a reference to the Argive would be pointless here. The polar opposition between φίλοι (cf. 36282158) and ἐχθροί is strongly marked: those who plot evil against the closest in kin (φίλοι) are ipso facto identified as foes.
+
+11	μέν	(36282165)	not answered by a δέ. As a "sentence adverbial" (AuxY), it adds hints to a contrast between what is true for Ismene (cf. the emphatic ἐμοί: "to me (at least)") and an unspecified group of others (thus rightly Griffith).
+
+15    εὐτυχοῦσα    the construction is rightly explained by Jebb: "as οἶδ᾽ εὐτυχοῦσα = οἶδ᾽ ὅτι εὐτυχῶ, so the participles εὐτυχοῦσα and ἀτωμένη are epexegetic of οὐδὲν ὑπέρτερον, = οὔθ᾽ ὅτι εὐτυχῶ οὔθ᾽ ὅτι ἀτῶμαι."
+
+21    δ᾽    la frase ha due particolarità sintattiche: 1. la "distributive (partitive) apposition" dei complementi oggetti (τὼ κασιγνήτω... τὸν μέν... τὸν δέ); 2. la dipendenza "debole" del genitivo τάφου: "The place of τάφου before “τὼ κασιγνήτω” shows the first thought to have been,— ‘of a tomb, he has deemed our two brothers, the one worthy, the other unworthy’: but προτίσας, which has taken the place of a word in the sense of “ἀξιώσας”, substitutes the idea of preferring one brother to the other. Thus τάφου is left belonging, in strict grammar, to ἀτιμάσας only" (j). The "anacoluthical" (annotation) was chosen for κασιγνήτω (OBJ_ExD0_PRED_CO)
+
+
+22    ἔχει    this periphrasis is annotated as a periphrastic form of perfect (AuxK)
+
+
+23    σὺν    the transmitted text (σὺν δίκῃ χρησθεὶς δικαίᾳ καὶ νόμῳ) is corrupted: χρησθεὶς in middle sense is unattested for classical Greek, where it is only passive. G. H. Müller established the text printed by Jebb and Storr, which is excellent
+
+
+30    πρὸς    può andare con: 1. θησαυρὸν (j): "un tesoro in vista della loro soddisfazione per ciò che riguarda il cibo" 2.  εἰσορῶσι: "quando guardano giù alla ricerca di cibo" (llj); la seconda sembra preferibile
+
+
+61    τοῦτο    most likely τοῦτο μέν goes adverbially with the first object of ἐννοεῖν ('on the one hand'); it is answered then by ἔπειτα δέ (63). The other alternative is to take it as appositive/proleptic obj of ἐννοεῖν ('we must remember this, that we were born women').
+
+
+64    ἀκούειν    consecutive inf. without ὥστε
+
+
+69    ἔτι    "‘yet,’—at some future time" (j)
+
+
+71    ὁποῖά    read ὁποία (nom. sing.) instead of the adv
+
+
+75    τῶν    comparatio compendiaria, con molti sottintesi
+
+
+78    μὲν    emphasizing ἐγώ, according to Jebb and Griffith (denniston 168). Alternatively, gr suggests that the sentence could be equivalent to ἐγὼ ἄτιμα μὲν οὐ ποιοῦμαι. But the word-order seems hardly less natural.
+
+
+86    οἴμοι    here to express annoyance
+
+
+88    ἐπὶ    "in view of" (j)
+
+
+92    ἀρχήν    stressing the negative, according to gr (= 'absolutely not'): cf. LSJ A.1.c; Llj translates: 'to begin with'
+
+
+93    προσκείσει    "the word προσκείσει means literally, ‘will be attached to...,’ i.e., ‘will be brought into a lasting relation with’; and ἐχθρά defines the nature of that relation" (j)
+
+
+106    Ἀργόθεν    Ἀργόθεν ἐκβάντα (or ἐκ βάντα) Hermann, Ἀργόθεν βάντα codd (which is unmetrical). Gr accepts Ἀργολικὸν βάντα
+
+
+110    ὃς    ὃς... Πολυνείκους Scaliger; ὃν ἐφ᾽ ἡμετέρᾳ γᾷ Πολυνείκην codd. According to Jebb, the error was originated by the wrong interpretation of the schol; either Scaliger's correction or the mark of a lacuna is required (where the object is turned into the subject), since the images that follows cannot be referred to Polyneikes alone, but belong rather to the whole army.
+
+
+114    στεγανός    can be either (1) active: 'covering' (sc. the land) with his snow-white wing', gr.; or (2) passive: 'all covered', 'sheathed in his snow-white wings', j llj. In this last case, the reference is to the continuous row of white shields that leaves no open space. But the reference is rather obscure.
+
+
+117    φονώσαισιν    "with spears that longed for blood" (llj)
+
+
+120    ἔβα    absolute: 'departed', 'went away'.
+
+
+121    γἑνυσιν    "might be locative dat., in; but seems rather instrumental, with" (j)
+
+
+125    ἀντιπάλῳ    the gen. ἀντιπάλου is preserved by L (sl) and a (sl), according to llj-w. The variants most likely arose from the ambiguities in interpreting δυσχείρωμα.
+
+
+126    δυσχείρωμα    regularly, from χειρόομαι: 'a thing hard to conquer', 'a hard conquest' (lsj). According to Griffith, OT 560 and [A]. Th. 1022 bear traces of a false etymology from χείρ, that thus would mean 'deed of hand'; Gr renders 'a hard-won victory of his snake antagonist' (with ἀντιπάλου: see 125    ἀντιπάλῳ). But the first meaning is certainly more apt. Syntactically, the construction is (as usual) subject to the ambiguity between pure apposition (nominative) and accusative in apposition to the sentence. The last is accepted.
+
+
+130    καναχῆς    the cling of metal
+
+
+130    ὑπεροπλίαις    Vauvilliers, ὑπεροπτίας (vel -ας, vel -είας), codd. None of the transmitted readings gives acceptable sense. llj-w accept Musgrave's ὑπεροπτείαις.
+
+
+135    πυρφόρος    can be taken with the main clause (gr takes as a predicative: 'he fell, aflame'), or with the relative ('torch in hand', always gr).
+
+
+138    δ᾽    the text adopted is that by Erfurdt, which is very economical (ἄλλοις for ἄλλους); as gr writes, two different constructions are juxtaposed: 1. ἄλλᾳ μέν... ἄλλᾳ δέ 2. adverbial τὰ μέν... τὰ δέ. This explanation is entirely satisfactory
+
+
+149    ἀντιχαρεῖσα    in active sense, like the forms of the 2 aor. pass. ἐχάρην of the simple verb
+
+
+150    δὴ    in μὲν δὴ, δὴ can be interpreted as connective (AuxY) or as strengthening the μέν (AuxZ); according to D (258-9) the second is its primary function.
+
+
+151    θέσθαι    inf. per imperativo; è la lezione di L secondo J, ma Ll-J&W non ne danno alcuna traccia in apparato e leggono θέσθε
+
+
+153    Θήβας    1. "(gen. sing.) ἐλελίχθων, = ὁ τὴν Θήβης χθόνα ἐλελίζων, shaking the ground of Thebes (with his dances)": objective gen. with ἐλελίχθων epithet (jebb, gr.) 2. acc. plur. reading ἐλελίζων with the recentiores = 'the one who shakes'.
+
+
+156    [ἄρχων]    added to restore the anapest to a demeter and give a regency to νεοχμός; but the corruption may be deeper.
+
+
+159    ὅτι    lat. 'quod', slightly taking up τίνα μῆτιν but verging almost to a causal meaning: see Ellendt s.v.
+
+
+164    δίχα    "ἐκ πάντων, (chosen) out of all, δίχα adv. (with “ἱκέσθαι”) apart from them" (jebb); therefore, ἐκ πάντων = partitive with δίχα.
+
+
+165    ἱκέσθαι    epexegetic infinitive; it may be hard to distinguish between adv and obj
+
+
+196    ἀφαγνίσαι    codd. plerique, ἐφαγνίσαι LZot; the latter is clearly preferable, as J rightly argues: "ἀφαγνίζειν meant esp. to purify from guilt (expiare)", whereas "the force of the prep. is rightly given in the glosses, ἐπὶ τῷ τάφῳ ἁγνίσαι τὰ πάντα, and ἐπὶ τῷ τάφῳ ὁσίως ποιῆσαι" (J).
+
+
+205    δέμας    is perhaps best construed as acc. in apposition with the whole clause ἐᾶν δ᾽ ἄθαπτον ('and to leave him unburied, a body to be eaten by dog and birds and a shame to look upon'); therefore, ἄθαπτον is masc. predicative, with Πολυνείκη as implied obj. Other alternatives: 1. δέμας object and ἄθαπτον, ἐδεστόν and αἰκισθέν as predicative 2. reading αἰκισθέντ' instead of αἰκισθέν τ' (mss have no authority in word division) ἄθαπτον, ἐδεστόν and αἰκισθέντα are masculine predicative with Polyneikes implied and δέμας acc. of respect to ἐδεστόν (Jebb) 3. δέμας obj and ἄθαπτον predicative, with ἐδεστόν and αἰκισθέν as attributes of δέμας ('to leave his corpse unburied, eaten by dogs and buried and foul to see', Griffith).
+
+
+211    Κρέον    codd, ποιεῖν K in margin., ποεῖν coniecit Martin. Martin's conjecture is adopted by jebb, llj-w, llj, griffith). Jebb finds the construction difficult to accept: without an infinitive, the acc. must be governed by "σοὶ ταῦτ᾽ ἀρέσκει as = σὺ ταῦτα δρᾶσαι διανοεῖ". He adds: "Greek was bold in constructions “κατὰ σύνεσιν”, and might possibly have tolerated this: but it seems improbable". Gr. points to the redundant effect of proper name + patronymic; this objection is very weak; gr himself lists the parallel of "such formal address as Ph. 4, 1261, OT 85). All considered, the transmitted text may very well be right. Although the construction that results is much bolder than the parallels adduced by Campbell (and see EoL §16) that are discussed by Moorhouse p. 37: there, the complementary accusatives is almost always coupled with λόγος or a verbal noun of speech (like OC 1120 or El. 113).
+
+
+212    κἀς    Dindorf, καί codd; although the construction is very bold (cf. previous note), the transmitted text should be read.
+
+
+213    πάρεστί    Dindorf, τ' ἔνεστι codd, γ' ἔνεστι Erfurdt. The manuscripts' text is meaningless. Erfurdt correction gives a very good meaning, but word order πού γε is very unusual. It is accepted and defended by Griffith and may be the right choice.
+
+
+215    ὡς    ὡς...ἦτε is explained as: 1. ellipse of a verb like μέλεσθε, ὁρᾶτε (jebb, gr with bibliography) 2. aposiopesis/interruption (llj-w, llj)
+
+
+226    ὁδοῖς    "locative dat.; cp. O. C. 553 ὁδοῖς ἐν ταῖσδ', in this my coming." (jebb)
+
+
+231    σχολῇ    obscure for meaning and construction. Griffith suggests three options: 1. dat. of manner ('slowly'), with βραδύς predicative: "I was taking my time completing <the journey> [ἤνυτον (sc. ὁδὸν) βραδύς] slowly", "I made my way slowly, with delays" (llj); 2. reading ταχύς (γρ in LKS), with σχολῇ = 'hardly, at all' 3. or with ταχύς predicative in concessive sense ('quick tough I am', thus the Scholiast). N. 1 is clearly preferable.
+
+
+237    ἀνθ᾽    perhaps rather "at the price of, in return for" (LSJ 3) than "on account of which" (jebb)
+
+
+248    ,    note the asyndetic coordination οὔτε... οὐ; the comma (placed by the editors) is therefore the coordinator
+
+
+256    φεύγοντος    interpreted as possessive gen. (jebb) or of origin (griffith), but not as absolute
+
+
+258    οὐ    the negative with σπάσαντος is projected also on the preceding ἔλθοντος (see Jebb and next note)
+
+
+258    σπάσαντος    coordinated with ἔλθοντος: "of beast of prey or dog coming nay him, or torning him" (Jebb: see previous note for the negative); it can't be as if οὐ = οὔτε (like in 250), so as to give a structure: οὔτε...οὔτε...οὐ (camp, griffith), because σπάσαντος cannot be taken as a possessive genitive like θηρός and του κυνῶν.
+
+
+259    ἀλλήλοισιν    see next note for the structure of the sentence; the pronoun (= "on each other") is used here as if the subject were οἱ φύλακες or ἡμεῖς.
+
+
+260    φύλαξ    constructed as a "pars pro toto" distributive apposition of the subject; irregularly, because the subject is not "we" but λόγοι. See Jebb: "The regular form would be, λόγοις κακοῖς ἐρροθοῦμεν ἐν ἀλλήλοις, ἐλέγχοντες φύλαξ φύλακα (or ἄλλος ἄλλον), φύλαξ being the part in apposition with the whole (ἡμεῖς)". No better solution was at hand than annotating φύλαξ as sbj of the participle.
+
+
+276    ὅτι    "in Att. freq. represents a whole sentence, esp. in affirm. answers" (LSJ III); AuxY is the annotation chosen
+
+
+287    διασκεδῶν    doubts may remain on how to distribute the accusatives between the participles. Jebb considers either to take all the three coordinated with διασκεδῶν (ἀναθήματα, γῆν, νόμους) or just νόμους: he opts for this last because of the harsh semantic strain that the construction with γῆν would force to suppose by taking διασκεδῶν ('scatter (to the winds)') with γῆν. But this zeugma is very tempting (gr) and rhythmically the verse seems more natural; therefore, I accept the zeugma like gr and llj
+
+
+368    γεραίρων    conj. Reiske, παρείρων codd, defended by Campbell, Mazon, Knox (ht n. 46, pag. 185). Gr and Kam take it as indefensible
+
+
+375 ἔρδοι    the tradition waivers between optative and indicative (the situation in the mss is also not clear from the apparatus): the choice is not easy, but perhaps the indicative is slightly better (see J)
+
+
+376    ἐς    difficult construction. Generally, it is taken as in Tr 1243 and OT 980: 'in face of' (gr). But I think Kam is right in taking the construction as pregnant as if ἀμφινοῶ = ἀμφινοῶ (βλέπων)
+
+
+376    ἀμφινοῶ    hapax legomenon; it must mean "to have his mind split between two thoughts": see above for construction
+
+
+383    καὶ    "connects ἀπιστοῦσαν with καθελόντες": they should be both annotated as ADV indeed, but note how the two participle are referred to different persons and in different cases
+
+
+467        ἠνσχόμην        suspected and altered by many editors (see Jebb’s appendix). The verb shows indeed two peculiarities: 1. the omission of syllabic augment 2. the apocope of ἀνά. The form ἠνσχόμην is transmitted only by A. The Homeric forms ἄνσχεο, ἀνσχήσεσθαι give good support to it (thus Griffith, and pace Jebb).
+
+
+471        δηλοῖ        intransitive: “is showing itself”. The verb is typically constructed with a participle; here we can think of an ellipsis of ὄν
+
+
+475        περισκελῆ        proleptic: heated by fire  “<so as to become> extra-hard” (Griffith)
+
+
+483        δεδρακυῖαν        predicative part. with γελᾶν; Jebb compares Ar. Ve. 1007
+
+
+485        κράτη        has been variously understood: 1. Creon’s royal power 2. Creon’s edicts 3. Antigone’s victory i.e. her successful deed. 1 and 2 are impossible. But the notion of κράτη for Antigone mixes (as usual) both side: victorious achievement and (established) power. Rightly Mazon translates κείσεται as “s’assurer”, and Kam. recalls S. Ichn. 45 where κείμενον = ‘fixed’, ‘secured’.
+
+
+489        ἴσον        the construction of the clause is difficult (see next note). Campbell points out an ambiguity in the placement of ἴσον: 1. ἴσον ἐπαιτιῶμαι (“I charge her equally”) 2. ἴσον βουλεῦσαι (“of equally plotting”)
+
+
+490        τάφου        2 constructions are possible (Jebb): 1. (βουλεῦσαι) ἵσον τάφου: “of having an equal share in plotting this burial”; 2. ἐπαιτιῶμαι τάφου (βουλεῦσαι = epexegetic inf.): Griffith. But n.2 would be rather confusing for the position of the inf. I agree with Kam in preferring 1, ‘not without misgivings’.
+
+
+494        τεχνωμένων        either 1. gen. absol. in passive sense (“as nefarious plots are devised in the darkness”) or 2. possessive gen. with θυμός and middle sense: “the mind of those that plot not at all rightly in the dark”. N. 2 is better
+
+
+504        τούτοις        ambiguous: dat. of agent with λέγοιτο or object with ἁνδάνειν
+
+
+546        ἃ        for the accusative (instead of the genitive) with θιγγάνω cf. griffith; jebb supposes attraction of the relative
+
+
+552        ἀλλὰ        ἀλλὰ νῦν = ‘now at least’
+
+
+557        ᾽δόκουν        “some thought you were right, and some thought I was” (llj), i.e. Creon, on the one hand, and Polyneikes and Hades on the other. For the mere τοῖς, Jebb quotes Pl. Le. 701e
+
+
+561        παῖδε        distributive apposition: general accusative split in two μέν...δέ clauses; cf. v. 21 for Eteocles and Polyneikes
+
+
+565        σοὶ        governed by ἐξιστάναι, implied from the previous sentence
+
+
+577        τριβάς        sc. ποιεῖσθε
+
+
+578        τοῦδε        ἐκ τοῦδε = “henceforth”, “from now on” (llj), of time
+
+
+580        πέλας        sc. ὄντα, predicative; in some of these cases, the ADV annotation was used
+
+
+591        δυσάνεμοι        Hartung; δυσάνεμον codd. Note that if we accept Hartung’s conjecture (as it is best indeed), we must also change βρέμουσι δ’ to βρέμουσιν, otherwise the text (as it is digitalized in Perseus) doesn’t seem to have any possible construction nor any sense.
+
+
+593        ἀρχαῖα        all editors agree in making it predicative; this mean it has an adverbial value (“from a long time”) with the verb (“are heaped”)
+
+
+600        ὃ        Hermann, omitt. codd.; the text of the mss lacks one short syllable. The two possible solutions are: 1. ἐτέτατο 2. ὃ τέτατο. N. 1 supplies the syllabic augment; n. 2 wipes the asyndeton (which is eloquently advocated by Kam) between the two sentences away.
+
+
+600        φάος        hard as the image of a light that is hewn down may be, νιν must be certainly referred to φάος
+
+
+601        νιν        the construction is with proleptic object anticipated as subject of the relative, taken up by a demonstrative pronoun in the subordinate. The relative pronoun has been annotated as atr with the proleptic antecedent; the antecedent is sbj of the relative, which is thus attached to the demonstrative pronoun.
+
+
+604        τ᾽        it is not sure whether this τε is introductory of a two-member coordination (ἄνοια-ἐρινύς) or if it is already coordinating the first and a three-member clause (κόνις-ἄνοια-ἐρινύς). Kamerbeek adopts n.1 and takes ἄνοια καὶ ἐρινύς as apposition of κόνις. Jebb (in the transl.) accepts n. 2, which is also adopted for the treebank
+
+
+606        ἀγρεύων        παντ’ ἀγρεύων Jebb, παντογήρως codd, alii alia
+
+
+608        ἀγήρῳ        L(ac) A Σ, ἀγήρως L(pc) recc.; with almost all editors
+
+
+613        ἕρπει        the content of the law (with Heath’s text: see next note) is expressed with a main clause that takes up νόμος ὅδε; it is annotated, as in all the other cases of proleptic ὅδε, as SBJ_AP
+
+
+614        πάμπολύ γ᾽        Heath, πάμπολις codd. The transmitted lesson in taken by Kam as predicative with ἕρπει, with νόμος ὅδε as implied subj; but meaning and construction are hard indeed
+
+
+615        δὴ        reinforces γάρ (either progressive or assentient) in a very common idiom (GP 243-4).
+
+
+617        ἐρώτων        either gen. epexegeticum (a ‘deceit consisting of thoughtless desires’) or gen. of origin (‘a deceit arising from’)
+
+
+619        προσαύσῃ        otherwise unattested and not easily explicable (see Griffith); but there is no need to supposes a corruption
+
+
+632        κλύων        κλυών is perhaps better
+
+
+636        ἀπορθοῖς        the construction is not entirely clear; ἔχων should govern γνώμας χρηστάς and a second γνώμας should be implied as obj of ἀπορθοῖς as well; μοι is then an ethic dative (‘you set them down - as rules - before me’). Llj take a με as obj of ἀπορθοῖς, but that would make μοι depend on ἔχων, which is slightly more awkward (Jebb).
+
+
+638        ἀξιώσεται        mid. future in passive sense, ‘will be esteemed more important to win’ (Jebb). According to Gr., the construction conflates μείζων ἀξιωθήσεται and μείζων νομισθήσεται φέρεσθαι
+
+
+640        πάντ’        can be either 1. acc. of respect  or 2. sbj of ἑστάναι, dependending on the meaning of ἑστάναι. With n.1 the verb means ‘to stand behind’, i.e. to obey your father in every thing; the image is perhaps military, of a soldier who follows the leader in the rank (see Griffith). With n.2 the sense is: ‘that everything should be placed second, after your father’. With Jebb and Llj, I prefer n. 2.
+
+
+646        ἄλλο        as Jebb saw, the sentence mixes two constructions: τί ἄλλο φῦσαι ἤ... and τί ἄλλο ποιῆσαι πλὴν φῦσαι...
+
+
+660        τοὺς        sc. ἄκοσμα θρέψω: a full stop should be printed after it
+
+
+687        χἀτέρῳ        codd., χἀτέρᾳ Musgrave et K in linea; versum delevit Heimreich (llj probante)
+
+
+688        πέφυκα        codd plerique, πέφυκας Lγρ; this last solution is approved by Hermann and Llj (cf. his tranlsation: ‘it is not in your nature to foresee people’s words or actions or the objects of their censure’). Yet the reading of the majority of mss seems better, on account of Haemon’s insistence on his own role and on his own nature (Griffith).
+
+
+722        εἰ        elliptical εἰ δ’ οὖν, which is quite familiar in Attic idiom (Jebb); annotated as a standard expression (AuxY to εἰ with the “δ’ οὖν”-group together as AuxZ). In this case, the meaning of the ellipsis would have been εἰ δ᾽ οὖν, sc. “μὴ ἔφυ τοιοῦτος” (Jebb). 
+
+
+726        καί        “καὶ with διδαξ., shall we indeed be taught.” (jebb)
+
+
+727        φύσιν        here “age” (birth > gage; jebb); acc of relation (rather pleonastic and emphatic) with τηλικοῦδε.
+
+
+728        “μηδέν, sc. “διδάσκου”: τὸ μὴ δίκ. = ὃ μὴ δίκαιόν ἐστι: see on 360 οὐδὲν...τὸ μέλλον.” (jebb); but llj accepts Tournier’s γ’ ὃ.
+
+
+736        με        Dobree, γε codd. The dative (ἄλλῳ) is of interest.
+
+
+743        δίκαιά        internal accusative. ἐξαμαρτάνειν τι = “commit a fault”; so here “commit an unrighteous deed”.
+
+
+747        αἰσχρῶν        annotated as neuter (“you will not find me inferior to shameful things”, possibly “yielding to base inclinations”), but it can be also masculine (“being mastered by shameful people”).
+
+
+750        γαμεῖς        future (see 329 for οὐκ ἔστ’ ὅπως + fut)
+
+
+752        ἐπεξέρχει        (=ἐπεξέρχῃ) + part. “press on, doing”; it may be doubtful whether it should be considered a predicative part. (‘go as far as doing something’) or adverbial (“press ahead [the situation], by doing or while performing an action”).
+
+
+759        ἐπί        “This ἐπί with dat. is not merely ‘with,’ but implies a continuing strain of utterance: El. 108 “ἐπὶ κωκυτῷ τῶνδε πατρῴων ι πρὸ θυρῶν ἠχὼ πᾶσι προφωνεῖν”: Eur. Tro. 315 “ἐπὶ δάκρυσι καὶ ι γόοισι τὸν θανόντα πατέρα... καταστένουσ᾽ ἔχεις” (thou art ever lamenting)” (Jebb). But griffith and llj prefer Dobree’s ἔτι.
+
+
+761        ἄγαγε        L, ἄγετε rell.; Jebb argues for the latter, on account of the fact that the 2nd aor. imperative of ἄγειν does not seem to be used.
+
+
+775        ὡς        = ὥστε
+
+
+775        ἄγος        “ὡς ἄγος μόνον, sc. “εἶναι”, so much as to be barely an expiation” (jebb); griffith is right: “the construction is bold, but not in itself difficult. More troublesome is the usage of ἄγος”.
+
+
+785        δ᾽        the structure of these (hymnic) relative is debatable. The anaphora of the rel. pron. (ὃς...ὃς...) is another typical feature of the hymns (pars epica). So, here the structure seems to me to gravitate around the two legs of this anaphoric structure; the δέ-clause is added to the second element as an expansion.
+
+
+789        σέ        σέ γ’ Blaydes, ἐπ’ codd.
+
+
+791        ἀδίκους        proleptic predicative; note the antithesis with the possessive gen. δικαίων (“you drag away the minds of the righteous men <so as to make them> unjust”).
+
+
+803        δάκρυ        in the text of Perseus is clearly a typo. No trace of it can be found in the apparatuses that I could look at, nor the word can have any possible construction. δακρύων should be read instead (note that the morphological analysis has already been updated).
+
+
+814        τ’        “we expected “οὔτε ὑμνηθεῖσαν”: a finite verb is substituted for the second participial clause” (jebb); so, the first οὔτε introduces an atr. attached to ἐμέ (ἔγκληρον), while the following opens up a new main clause coordinated with the preceding.
+
+
+828        καί        logically, the following clauses continue the relative expansions, even if the καί introduces a new main clause.
+
+
+846        ὔμμ(ε)        Aeolic and epic accusative of ὑμεῖς
+
+
+855        πολύ        codd. plerique; πολύν LSV; ποδί Bruhn, accepted (rightly, perhaps) by llj and griffith
+
+
+859        οἶκτον        given that ψαύω cannot govern the acc (μεριμνάς is the genitive that we need), two constructions of the transmitted text alone are possible: 1. οἶκτον is governed by ἔψαυσας... μερίμνας, “as = ἐποίησάς με μεριμνᾶν” (jebb) 2. οἶκτον = acc. in apposition with the whole sentence (i.e.: “you touched on the most painful care for me, <a touching that is> a constantly-repeated source of lament...”, griffith; cf. also Moorhouse). The latter is adopted in the annotation. Llj prints his own τριπολίστου οἴτου, with the gen. apposition of μερίμνας.
+
+
+860        τού        of Perseus is clearly wrong; Storr has the gen. article τοῦ, which is right
+
+
+862        Λαβδακίδαισιν         “dat. of interest after πότμου, all the fate for (i.e. appointed for) us, the Labdacidae, instead of the possessive gen.” (jebb)
+
+
+883        χρείη        Dawes, χρεῖ’ ἦ codd, which is ungrammatical and against the metre (violation of Porson’s bridge). By adopting Dawes’ conjecture, syntax becomes complex but quite typical of Sophocles: the accusatives  start the sentence, but the word which is effectively governing them comes only at the end in a subordinate clause: ὡς, εἰ χρείη λέγειν ἀοιδὰς καὶ γόους πρὸ τοῦ θανεῖν, οὐ δ᾽ ἂν εἷς παύσαιτ᾽ ἄν (λέγων), Jebb; or οὐ δ᾽ ἂν εἷς παύσαιτ᾽ ἄν λέγων ἀοιδὰς καὶ γόους πρὸ τοῦ θανεῖν, εἰ χρείη; or even ἆρ᾽ ἴστ᾽ ἀοιδὰς ὡς μακραί εἰσι (with the proleptic acc., which though is typically only the sbj of the subordinate clause).
+
+
+931        τούτων        objective gen. or gen. of origin (‘trouble arising from those things’, griffith) with κλαύματα, rather than gen. of cause (jebb)
+
+
+1001        κλάζοντας        since “φθόγγον ὀρνίθων” = “ὄρνιθας φθεγγομένους” (jebb)
+
+
+1017        πλήρεις        in the sense of “defiled”, “infected”; it governs two arguments: 1. the gen. βορᾶς (the normal genitive complement: that of which a place is filled and thus defiled in that case) 2. an agent (ὑπό + gen.) that performs the defilement: see Jebb and LSJ
+
+
+1057        λέγων “λέγω τινά τι = to say something of him” (jebb)
+
+
+1068        τῶν        scil. ἔχεις μὲν <τινα> τῶν ἄνω βαλὼν κάτω; for the omission of τις after partitive gen. Jebb quotes El. 1322
+
+
+1069        κατῴκισας        codd. plerique, κατοικίσας Φ; the participle of the Roman family can be taken (with llj) with ἔχει βαλών as adverbial, but that involves Dawes’ change of τ’ into γ’.
+
+
+1072        ὧν        either masculine (οἱ νεκροί from νέκυν: Jebb) or neuter
+
+
+1077        τούτων        gen. of cause
+
+
+1080        ἐχθραὶ        predicative proleptic attribute (‘so that they will become enemy’); Ll-J&W and Griffith prefer Reiske’s ἔχθρᾳ
+
+
+1081        ὅσων        as the text stands, it can only be feminine with σπαράγματα, as possessive gen (with σπαράγματα = σώματα ἐσπαργμένα: ‘mangled bodies belonging to those cities’, Jebb). This is justifiable according to Jebb, but it is certainly hard. Ll-J&W prints a lacuna, which should have had a reference to ‘corpse’.
+
+
+1081        καθήγνισαν        ‘hallowed them, in the sense of, gave burial rites to them’ (Jebb)
+
+
+1084        σου        ‘at thee,’ with ἀφῆκα        (jebb)
+
+
+1085        θυμῷ        modal dat.: ‘with anger’.
+
+
+1090        φρενῶν        with the mss text, can only be joined with νοῦν (the νόος of the φρένες). griffith may be right in calling it “an unlikely expression”; this would involve changing ἤ to ὧν.
+
+
+1155        δόμων        is logically to be taken with both Κάδμου and Ἀμφίονος; linguistically, it belongs to just the latter
+
+
+1156        βίον        “is the antecedent drawn into the clause and case of the relative” (Jebb)
+
+
+1161        ἐμοί        for ὡς ἐμοί Jebb quotes Ai. 396 (ἔρεβος ὦ φαεννότατον ὡς ἐμοί).
+
+
+1163        note how the structure of the sentence is slightly unbalanced: instead of two participle explaining why Creon was enviable (σώσας, λαβών), we have a second main clause that adds a new dimension.
+
+
+1165        ἡδονὰς        codd., καί γὰρ ἡδοναί Seyffert; Seyffert’s conjecture, accepted by many, is said to have been inspired by the Scholia. Atheneus, though, seems to imply the text as it is transmitted.
+
+
+1167        τοῦτον        griffith finds the passage from plural (ἄνδρες) to singular (τοῦτον) difficult. Yet, sing and plur are interchangeable in the gnomic sentences.
