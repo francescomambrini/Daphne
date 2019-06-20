@@ -50,8 +50,8 @@ native tongue) and English. I'll polish them in due time.
 
 ## I notice treebank files are distributed in two formats, XML and CoNLL-U. Why?
 
-I use Perseids [Arethusa](https://www.perseids.org/tools/arethusa/app/#/) to tinkle 
-with the original AGDLT XML files. But we still don't have a nice, easy search interface 
+I use Perseids [Arethusa](https://www.perseids.org/tools/arethusa/app/#/) to edit 
+the original AGDLT XML files. But we still don't have a nice, easy search interface 
 to query the Greek treebanks.
 
 Now, it's very trivial to switch back and forth between ConLL-like formalisms and AGLDT XML. 
