@@ -1,0 +1,28 @@
+# Export the words of a text as a CSV
+# Usage:
+# arq --data /path/to/data.ttl [--data /path/to/data2.ttl...] \
+#     --query traverse_sent.rq \
+#     --results=TSV > output.tsv
+
+PREFIX daphne: <https://github.com/francescomambrini/Daphne/id/treebanks/>
+prefix conll: <http://ufal.mff.cuni.cz/conll2009-st/task-description.html#>
+prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#>
+prefix powla: <http://purl.org/powla/powla.owl#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+prefix cts: <http://cite-architecture.org/>
+
+SELECT ?s ?ord ?t ?form ?lemma ?pos ?head ?rel ?ctsurn  WHERE {
+    #daphne:urn:cite2:daphne:tlg0011tlg001_sentences.v1:s1_0 ^powla:hasRoot|powla:next+ ?t .
+    ?s a nif:Sentence ;
+       conll:ID ?sid ;
+       ^powla:hasRoot|powla:next+ ?t .
+    ?t conll:ID ?ord ;
+       conll:WORD ?form ;
+       conll:HEAD ?head ;
+       conll:EDGE ?rel .
+    OPTIONAL { ?t conll:LEMMA ?lemma ;
+         conll:XPOS ?pos ;
+         cts:ctsurn ?ctsurn .
+     }
+}
+ORDER BY xsd:integer(?sid) xsd:integer(?ord)
