@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>HookTest results : Testing result for CapiTainS (Provided by http://capitains.github.io )</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style type="text/css">
+
+    ol.logs {
+        counter-reset:li; /* Initiate a counter */
+        margin-left:0; /* Remove the default left margin */
+        padding-left:0; /* Remove the default left padding */
+        background-color:#1d1f21; color:#f0c674; margin:20px; border-radius:20px;
+        padding:15px;
+
+        font-family: monospace;
+        font-size:1em;
+        max-height:400px;
+        overflow: auto;
+    }
+    ol.logs > li {
+        position:relative; /* Create a positioning context */
+        margin:0 0 0px 4em; /* Give each list item a left margin to make room for the numbers */
+        padding:1px 2px; /* Add some spacing around the content */
+        list-style:none; /* Disable the normal item numbering */
+    }
+    ol.logs i {
+      padding-left:10px;
+    }
+    ol.logs .success {
+      color:#8c9440;
+    }
+    ol.logs .failed {
+      color:#a54242;
+    }
+    ol.logs .error {
+      color:#FF0000;
+    }
+    ol.logs .pending{
+      color:#dfb317;
+    }
+    ol.logs .verbose {
+      padding-left:15px;
+      font-size:0.9em;
+    }
+    ol.logs > li:before {
+        content:counter(li); /* Use the counter as content */
+        counter-increment:li; /* Increment the counter by 1 */
+        /* Position and style the number */
+        position:absolute;
+        top:-2px;
+        left:-4em;
+        -moz-box-sizing:border-box;
+        -webkit-box-sizing:border-box;
+        box-sizing:border-box;
+        width:4em;
+        /* Some space between the number and the content in browsers that support
+           generated content but not positioning it (Camino 2 is one example) */
+        margin-right:8px;
+        padding:4px;
+        color:#666;
+        text-align:center;
+    }
+
+    .card {
+      background-color: #fafaf8;
+      padding:0.2em 1em;
+      border-radius:1em;
+      position: relative;
+      padding-left:2.9em;
+      height: 5em;
+      color:gray;
+      font-family: "Source Sans Pro",Helvetica,sans-serif;
+    }
+
+    .card .dd {
+      font-weight:bold;
+    }
+    .card .dt {
+      font-weight:normal;
+    }
+
+    .filelist {
+        font-size:9px;
+        font-family:  Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+    }
+    .filelist .hookbadge {
+        height:15px;
+        line-height:15px;
+    }
+    .filelist a {
+        color:black;
+    }
+
+    h1 {
+      color:grey;
+      font-size: 1.9em;
+      padding:5px;
+    }
+    h1 .pull-left {
+      margin-right:10px;
+    }
+    h1 img {
+      float:right;
+      margin:5px;
+    }
+    h2 {
+      color:grey;
+      font-size: 1.5em;
+      padding:5px;
+    }
+</style>
+  </head>
+  <body>
+    <div class="container">
+        <div class="row">
+          <section class="col-md-12">
+            <div class="well">
+                <h1><span id="result-prct"></span> % coverage for <span id="nb-texts"></span> files</h1>
+            </div>
+            <div class="filelist dl-horizontal">
+              <table class="table">
+              </table>
+            </div>
+          </section>
+        </div>
+    </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    
+
+<script type="text/javascript">
+    var re = /(>>>>>>[^>]+)/gm;
+
+    var format_log = function(string) {
+        if (!string) {
+            return "";
+        } else if (startswith(string, ">>> ")) {
+            return "<u>" + string.replace(">>> ", "") + "</u>";
+        } else if (startswith(string, ">>>> ")) {
+            return "<b>" + string.replace(">>>> ", "") + "</b>";
+        } else if (startswith(string, ">>>>> ")) {
+            return "<i>" + string.replace(">>>>> ", "") + "</i>";
+        } else if (startswith(string, "[success]")) {
+            return "<span class='success'>" + string.replace("[success]", "") + "</span>";
+        } else if (startswith(string, "[failure]")) {
+            return "<span class='failure'>" + string.replace("[failure]", "") + "</span>";
+        } else {
+            var string2 = []
+            while ((m = re.exec(string)) !== null) {
+                string2.push("<span class='verbose'>" + m[0].replace(">>>>>> ", "") + "</span>");
+                if (m.index === re.lastIndex) {
+                    re.lastIndex++;
+                }
+            }
+            if (string2.length === 1) {
+                return string2[0];
+            } else if (string2.length > 1) {
+                return string2.join("</li><li>");
+            }
+        }
+        return string
+    }
+    var logs = function(target) {
+        target.toggle();
+    }
+    var startswith = function(string, start) {
+        return string.lastIndexOf(start, 0) === 0
+    }
+</script>
+<script type="text/javascript" src="result.json"></script>
+<script type="text/javascript">
+    $(document).ready(function() {
+
+        $("#nb-texts").text(data.units.length);
+        $("#result-prct").text(data.coverage);
+        var container = $(".table");
+        var template = '<tr class="{status-class}"><td><a name="{name}">{name}</a><div style="display:none;"><ol class="logs"><li>Run at {time}</li>{logs}</ol></div></td><td class="col-md-2">{status}</td></tr>';
+
+        for ( var i = 0; i < data.units.length; i++ ) {
+
+            var unit = data.units[i],
+                status = (unit.status) ? "success" : "failed",
+                status_class = (unit.status) ? "success" : "danger"
+                logs = "";
+
+            for ( var j = 0, l = unit.logs.length; j < l; j++ ) {
+                logs += "<li>" + format_log(unit.logs[j]) + "</li>";
+            }
+
+
+            container.append(
+                $(
+                    template
+                        .replace("\{status\}", status)
+                        .replace("\{status-class\}", status_class)
+                        .replace("\{name\}", unit.name)
+                        .replace("\{name\}", unit.name)
+                        .replace("\{time\}", unit.at)
+                        .replace("\{logs\}", logs)
+                )
+            );
+        }
+
+        $(".filelist a").on("click", function(e) {
+            e.preventDefault();
+            $(this).next().toggle();
+        });
+
+        if(window.location.hash) {
+            var hash = window.location.hash.substring(1), //Puts hash in variable, and removes the # character
+                element = $("a[name='"+hash+"']");
+            element.click();
+        }
+    });
+</script>
+
+  </body>
+</html>
