@@ -3,7 +3,7 @@
 import requests
 from lxml import etree
 
-u = "https://raw.githubusercontent.com/PerseusDL/treebank_data/master/v1/greek/data/tlg0011.tlg004.perseus-grc1.xml"
+u = "https://raw.githubusercontent.com/PerseusDL/treebank_data/master/v1/greek/data/tlg0011.tlg002.perseus-grc2.xml"
 
 def check_sent(sent, sent_id, tag_index=0):
     tag = f"_ExD{tag_index}_"

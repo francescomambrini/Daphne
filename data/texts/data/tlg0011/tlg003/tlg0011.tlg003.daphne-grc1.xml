@@ -5,41 +5,26 @@
       <fileDesc>
          <titleStmt>
             <title type="work" n="Aj">Ajax</title>
-            <title type="sub">Machine readable text</title>
+            <title type="sub">Text prepared for treebank annotation</title>
             <author n="Soph.">Sophocles</author>
-            <editor role="editor" n="Storr">Francis Storr</editor>
-            <sponsor>Perseus Project, Tufts University</sponsor>
-            <principal>Gregory Crane</principal>
-            <respStmt>
-               <resp>Prepared under the supervision of</resp>
-               <name>Lisa Cerrato</name>
-               <name>William Merrill</name>
-               <name>Elli Mylonas</name>
-               <name>David Smith</name>
-            </respStmt>
-            <funder n="org:AnnCPB">The Annenberg CPB/Project</funder>
+            <editor role="editor" n="Mambrini">Francesco Mambrini</editor>
          </titleStmt>
-         <extent>About 90Kb</extent>
          <publicationStmt>
-            <publisher>Trustees of Tufts University</publisher>
-            <pubPlace>Medford, MA</pubPlace>
-            <authority>Perseus Project</authority>
+            <p>Text published for the Daphne project, by F. Mambrini.</p>
          </publicationStmt>
          <sourceDesc>
-            <biblStruct>
-               <monogr>
-                  <author>Sophocles</author>
-                  <title>Sophocles. Vol 2: Ajax. Electra. Trachiniae. Philoctetes With an
-English translation by F. Storr. The Loeb classical library, 21.
-</title>
-                  <editor role="editor">Francis Storr</editor>
-                  <imprint>
-                     <pubPlace>London; New York</pubPlace>
-                     <publisher>William Heinemann Ltd.; The Macmillan Company</publisher>
-                     <date>1913</date>
-                  </imprint>
-               </monogr>
-            </biblStruct>
+           <p>This text is a modified version of the machine-readable digital edition published by
+               the Trustees of Tufts University, Medford, MA for the Perseus Project, 
+               under the supervision of Lisa Cerrato et al. That publication was 
+               fundedThe Annenberg CPB/Project.
+            </p>
+            <p>Perseus' machine readable text is a digitized version of: 
+               Sophocles. Vol 2: Ajax. Electra. Trachiniae. Philoctetes With an
+               English translation by F. Storr. The Loeb classical library, 21. 
+               London; New York: William Heinemann Ltd.; The Macmillan Company, 1913</p>
+          <p> 
+           <ptr target="http://data.perseus.org/catalog/urn:cts:greekLit:tlg0011.tlg003.perseus-grc1"/>
+          </p>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
@@ -63,53 +48,10 @@ English translation by F. Storr. The Loeb classical library, 21.
             <language ident="grc">Greek</language>
          </langUsage>
       </profileDesc>
-      <revisionDesc>
-         <change when="2017-02-06" who="Lisa Cerrato">revising structure to reflect break at lines</change>
-         <change when="2017-01-23" who="Lisa Cerrato">improvements to line numbering, change log, quotes, etc.</change>
-         <change when="2016-01-15" who="TDBuck">p4 to p5</change>
-         <change when="2013-09-13" who="balmas01">moving Greg's work-in-progress on CTS-izing greco-roman collection texts to a Work directory</change>
-         
-         <change when="2013-06-13" who="gcrane">tagging now should be compatible with CTS</change>
-         
-         <change when="2013-01-22" who="lcerrato">changed line 670 to reflect Jebb</change>
-         
-         <change when="2012-11-20" who="ajones06">Changed the bibliographic information in the headers to reflect Francesco's discovery that the Greek text for these files was taken from the two-volume public domain Loeb version edited by Francis Storr.</change>
-         
-         <change when="2011-09-07" who="rsingh04">adding rend=displayNum to lb tags</change>
-         
-         <change when="2010-12-25" who="gcrane">LB milestones instead of L tags</change>
-         
-         <change when="2010-12-24" who="gcrane">ADD tags for lt-gt entities; DEL tags for lsqb-rsqb entities</change>
-         
-         <change when="2010-12-24" who="gcrane">base files for SDL</change>
-         
-         <change when="2010-06-19" who="gcrane">accent error fixed</change>
-         
-         <change when="2009-12-08" who="rsingh04">moved more xml files around based on copyright status</change>
-         
-         <change when="2008-12-17" who="lcerrato">fixing typos</change>
-         
-         <change when="2005-08-01" who="packel">removed stray item tags</change>
-         
-         <change when="2005-07-25" who="packel">Converted to XML</change>
-         
-         <change when="2004-04-21" who="mimno">added card 1s</change>
-         
-         <change when="2003-07-01" who="yorkc">Updated texts to TEI P4 and Perseus P4 extensions; minor cleanup (esp. character encodings and typos.)</change>
-<change when="2000-03-04" who="dasmith">Added separate funder entity to TEI header.</change>
-<change when="2000-02-15" who="amahoney">use n attribute on sp element to carry over the speaker name when the speech is interrupted by a card break;  this also requires that the card break at the end come after the close of the sp, not within</change>
-<change when="1999-11-24" who="amahoney">Bring remaining files up to new DTD;  use part=i and part=f for antilabe in all files</change>
-<change when="1999-11-24" who="Anne Mahoney">Markup</change>
-         <change when="1995-06-01" who="Lisa Cerrato">Added missing speaker tags for cards which had none.</change>
-         <change when="1991-08-01" who="EM">Revise DTDs and recheck texts.</change>
-         <change when="1991-08-01" who="Bill Merrill">Check text against TLG Sophocles in order to discover if there are any missing namele words or lines.</change>
-<change when="1990-09-19" who="EM">Final check of cardbreaks, tags, and linenumbers.</change>
-<change when="1988" who="EM, Scott Ettinger and Roger Travis">Text scanned at U. Chicago in 1988. Basic SGML tagging by EM, Scott Ettinger and Roger Travis.</change>
-      </revisionDesc>
    </teiHeader>
    <text xml:lang="grc">
       <body n="Aj.">
-         <div type="edition" n="urn:cts:greekLit:tlg0011.tlg003.perseus-grc2" xml:lang="grc">
+         <div type="edition" n="urn:cts:greekLit:tlg0011.tlg003.daphne-grc1" xml:lang="grc">
          <milestone unit="card" n="1" resp="p"/>
          <div type="textpart" subtype="episode">
             

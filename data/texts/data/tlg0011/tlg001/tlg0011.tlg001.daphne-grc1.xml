@@ -3,28 +3,30 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
-            <titleStmt>
-                <title type="work" n="Trach.">Trachiniae</title>
-                <title type="sub">Machine readable text</title>
-                <author n="Soph.">Sophocles</author>
-                <editor role="editor" n="Mambrini">Francesco Mambrini</editor>
-            </titleStmt>
-            <sourceDesc>
-                <biblStruct>
-                    <monogr>
-                        <author>Sophocles</author>
-                        <title>Sophocles. Vol 2: Ajax. Electra. Trachiniae. Philoctetes With an
-                            English translation by F. Storr. The Loeb classical library, 21. </title>
-                        <editor role="editor">Francis Storr</editor>
-                        <imprint>
-                            <pubPlace>London; New York</pubPlace>
-                            <publisher>William Heinemann Ltd.; The Macmillan Company</publisher>
-                            <date>1913</date>
-                        </imprint>
-                    </monogr>
-                </biblStruct>
-            </sourceDesc>
-        </fileDesc>
+         <titleStmt>
+            <title type="work" n="Trach.">Trachiniae</title>
+            <title type="sub">Text prepared for treebank annotation</title>
+            <author n="Soph.">Sophocles</author>
+            <editor role="editor" n="Mambrini">Francesco Mambrini</editor>
+         </titleStmt>
+         <publicationStmt>
+            <p>Text published for the Daphne project, by F. Mambrini.</p>
+         </publicationStmt>
+         <sourceDesc>
+           <p>This text is a modified version of the machine-readable digital edition published by
+               the Trustees of Tufts University, Medford, MA for the Perseus Project, 
+               under the supervision of Lisa Cerrato et al. That publication was 
+               fundedThe Annenberg CPB/Project.
+            </p>
+            <p>Perseus' machine readable text is a digitized version of: 
+               Sophocles. Vol 2: Ajax. Electra. Trachiniae. Philoctetes With an
+               English translation by F. Storr. The Loeb classical library, 21. 
+               London; New York: William Heinemann Ltd.; The Macmillan Company, 1913</p>
+          <p> 
+           <ptr target="http://data.perseus.org/catalog/urn:cts:greekLit:tlg0011.tlg001.perseus-grc1"/>
+          </p>
+         </sourceDesc>
+      </fileDesc>
         <encodingDesc>
             <refsDecl n="CTS">
                 <cRefPattern n="line" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div//tei:l[@n='$1'])">
