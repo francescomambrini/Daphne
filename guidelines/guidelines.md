@@ -28,7 +28,7 @@ Our list and classification is based on that of Kuhner and Blass (pp. 579-ss), w
    * ὁ, ὅδε
    * αὐτός
    * οὗτος, ἐκεῖνος
-   * ~~ἄλλος~~
+   * ἄλλος
    * τόσος, τοσόσδε, τοσοῦτος
    * τοῖος, τοιόσδε, τοιοῦτος
    * τήλικος, τηλικόσδε, τηλικοῦτος
@@ -60,6 +60,24 @@ Our list and classification is based on that of Kuhner and Blass (pp. 579-ss), w
 Note that K-B correctly identifies a class of pronominal adverbs (together with pronominal adjectives and nouns); however they also rightly state that these pronouns behave more as adverbs and we will annotate them as such.
 
 Note also that other ambiguous words (like πᾶς or οὐδείς) are not tagged as pronounσ, but as adjectives. On οὐδείς in particular see under numerals, and note that οὔτις (which is composed with the pronoun τις) is in fact tagged as `p`.
+
+### Compound conjunctions
+
+By "compound conjunction" I mean those conjunctions that are formed by two particles (of which, one is usually the coordinating conjunction τε or δέ, the other often a negative particle) that perform two syntactically different functions. The most frequent are five: εἴτε, μηδέ, οὐδέ, οὔτε, μήτε.
+
+These words pose a few problems for treebanking, in several areas of the annotation process:
+
+* tokenization: tokenize the five words separating the two components: εἴ and τε, μη and δέ, οὐ and δέ, οὔ and τε, μή and τε. Separate the components as they are written, without adding diacritics like hyphens or accents/spirits;
+* morphology: annotate the two components as if you were annotanting the full word, e.g.:
+
+```xml 
+<word id="1" form="μη" lemma="μηδέ" postag="c--------" .../>
+<word id="2" form="δέ" lemma="μηδέ" postag="c--------" .../>
+```
+
+All the 5 words listed above are to be tagged as **conjunctions**, regardless of the annotation of the single components (e.g. δέ is usually tagged as adverb).
+
+For syntax, the two components must be annotated according to their function. See below for the special case of εἴτε.
 
 ### Numerals
 
@@ -188,6 +206,12 @@ When οἷος is used like ὡς, to introduce a comparison, in the sense of "a
 
 
 The governing nouns are then tagged as `ATV`/`AtvV`, while the participles are generally `ADV`.
+
+#### εἴτε
+
+εἴτε must be tokenized in its two components: εἴ + τε (see above Compound conjunctions for morphology). Sometimes εἰ performs the actual function of a conjunction, introducing two coordinated hypothetical subordinates. Other times, however, εἴτε is just equivalent to English "either", introducing a coordinated phrase that doesn't require a verb and has no hypothetical meaning.
+
+In the former case, treat εἴ as a an `AuxC` governing the verb of the subordinate (either a word or an artificial node); in the latter, attach it to the head of the coordinate phrase as an `AuxY`. Treat the τε according to its function in the coordination as usual (`COORD` for terminal coordinating node; `AuxY` for every non-terminal coordinator).
 
 #### Parenthetical expressions
 

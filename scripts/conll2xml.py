@@ -1,5 +1,5 @@
 """
-CAREFUL!!! This version of the script works only the first CoNLL-U files I generated,
+CAREFUL!!! This version of the script works only with the first CoNLL-U files I generated,
 the ones with the dependency to the artificials recorded in the DEPS column.
 The way it works is that it searches if there are DEPS, and if it finds them, it uses them to override the DEPREL
 

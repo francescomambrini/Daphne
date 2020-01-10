@@ -10,6 +10,8 @@ Made some changes to the text:
 Ἄρεά τε τὸν μαλερόν, ὃς / νῦν ἄχαλκος ἀσπίδων / φλέγει με περιβόητος ἀντιάζων, / παλίσσυτον δράμημα νωτίσαι πάτρας...
 ```
 - 201: comma changed to period
+- line 1511 has now been restored (it is missing in the Perseus edition); line numbering for 1511-4 has also
+been adjusted accordingly.
 
 Progress:
 
