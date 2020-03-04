@@ -144,6 +144,13 @@ Another example is Soph. *El.* 332-3:
 
 Where Jebb rightly notes: "κἀμαυτήν, ὅτι, instead of “ὅτι κἀγὼ”."
 
+Again, Soph. *Tr. 320-1* is similar:
+
+```
+ἐπεὶ / καὶ ξυμφορά τοι μὴ εἰδέναι σέ γ᾽ ἥτις εἶ.
+```
+(σέ is the subject of the interrogative clause ἥτις εἶ raised to become the object of εἰδέναι)
+
 Commentaries and grammars often refers to these arguments objects in "apposition" or "justapposed". However,
 the construction is a case of argument "raising" (while the annotation as apposition - with `OBJ_AP` would be wrong
 as the two arguemnts do not have the same semantic reference).
