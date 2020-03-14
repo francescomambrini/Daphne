@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 
 import sys
+import os
 from lxml import etree
 
 p = sys.argv[1]
@@ -28,6 +29,8 @@ for w in words:
         lemma = w.attrib["lemma"]
     except KeyError:
         continue
+    if w.attrib['postag'][0] == 'g':
+       w.attrib['postag'] = 'd--------'
     if lemma in pronouns:
         w.attrib["postag"] = "p" + w.attrib["postag"][1:]
         assert len(w.attrib["postag"]) == 9, "Woops! something wrong..."
@@ -44,5 +47,6 @@ for w in words:
         w.attrib["lemma"] = "μάλιστα"
         w.attrib["postag"] = "d-------s"
 
-x.write("../data/annotation/temp/treebank_pos_fixed.xml", pretty_print=True,
+fname = os.path.split(sys.argv[1])[-1]
+x.write(fname, pretty_print=True,
             xml_declaration=True, encoding='UTF-8')

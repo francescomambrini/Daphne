@@ -98,9 +98,52 @@ and superlative respectively.
 #### μή
 Like Latin *ne*, μή can be either a negative adverb or a subordinating conjunction (typically, when it is joined with a *verbum timendi*). It must be tagged either as a conjunction or adverb.
 
+However, note that μηδέ and μήτε are always conjunctions.
+
 #### ὡς
 
+We adopt a classification based on syntactic behaviour:
+
+* when it introduces a clause, ὡς is tagged as conjunction (note that LSJ classes some of the uses under A., ὡς as Adverb):
+    - comparative clauses, even with elided verbs (κινήθη δ᾽ ἀγορὴ ὡς κύματα μακρὰ θαλάσσης) and when it is correlated with other adverbs, such as οὕτως and even with other conjunctions (ὡς ὅτε)
+    - with substantive clauses (=ὅτι)
+    - with consecutive clauses (=ὥστε)
+    - with adverbial clauses (e.g. ὡς ἔοικε)
+    - with clausal clauses
+    - with final clauses
+    - with temporal clauses
+    - with elliptical sentences (LSJ F.)
+  To these protytpical examples, we also add:
+    - with participles, present and future, nominative and oblique cases (LSJ C.I)
+* when it is used adverbially in a clause, it is tagged as adverb:
+    - with numerals (to mark that they are taken as approximation)
+    - with other adverbs (ὡς ἀληθῶς)
+    - with superlatives (ὡς ῥᾷστα)
+    - with prepositions
+    - in indipendent clauses, as an exclamation, with adj., nouns and verbs
+    - in indipendent clauses, in wishes ("ὡς ἔρις . . ἀπόλοιτο", Il.18.107)
+* when it is used as a preposition (LSJ C.III), it is tagged as `p` accordingly.
+
+On the syntactic annotation, see below.
+
 ## Syntax
+
+### PNOM (and OCOMP)
+
+The label `PNOM` (and, to some extent, the corresponding `OCOMP` label)  has been somewhat 
+extended from the original design, which limited its application only to the predicate nominals 
+of standard grammar.
+
+The following is a list of constructions that are tagged as `PNOM`:
+
+* predicate nominals (with copular verbs or in nominal constructions);
+* raised complements with the nominative participles, in constructions where, 
+if attested with the infinitive, the subject of the infinitive is controlled by the 
+subject of the main verb) see below on ''raised'' complements;
+* datives in dative of possessions (**est mihi puella**...);
+* other predicative constructions with εἰμί (or nominal): e.g. with genitive (Τροίαν Ἀχαιῶν [`PNOM`] οὖσαν)
+* genitive of pertinence ('it is proper of, appropriate to'...); Aesch. Ag. 1665: 
+οὐκ ἂν Ἀργείων τόδ' εἴη ('this would not befit the Argives'; 'it would not be the Argive way', Sommerstein)
 
 ### Special cases
 
@@ -151,6 +194,12 @@ Again, Soph. *Tr. 320-1* is similar:
 ```
 (σέ is the subject of the interrogative clause ἥτις εἶ raised to become the object of εἰδέναι)
 
+Or Aesch. Ag. 1199-1200:
+
+```
+θαυμάζω δέ σου, πόντου πέραν τραφεῖσαν ἀλλόθρουν πόλιν κυρεῖν λέγουσαν
+```
+
 Commentaries and grammars often refers to these arguments objects in "apposition" or "justapposed". However,
 the construction is a case of argument "raising" (while the annotation as apposition - with `OBJ_AP` would be wrong
 as the two arguemnts do not have the same semantic reference).
@@ -175,8 +224,43 @@ the participle typically becomes the main verb, while the Greek main verb is ren
 Although the semantic weight is peculiarly distributed between main verb and participle, from the standpoint of syntax there is no reason not to annotate similar sentences with
 the usual syntactic structure reserved to verb + nominative participles. In other word, the verbs φαίνω, λανθάνω, τυγχάνω etc. is annotated according to its syntactic function (e.g. `PRED`, `OBJ`, `ATR` etc), while the participle is regularly tagged as `ADV`.
 
+Note that with the verb κυρέω, the participle can be tagged as either:
+* `ADV`, when the verb means 'it the mark in doing' (LSJ II.2)
+* or `PNOM` when the verb means 'turn out', 'be' and is equivalent to an auxiliary (σεσωσμένος κυρεῖ, Aesch. Pe. 503).
+
 #### Predicative participles in accusative (or indirect cases)
 The participle is tagged as `OCOMP`: see above under `"Raised" objects`.
+
+
+#### Arguments with nouns
+
+Some nouns (especially those meaning "report", "story", but also words for sentiments, such as θάρσος, αἰδώς ecc) 
+govern infinitives or clauses that describe their content. See e.g. Soph. Tr. 1-2:
+
+```
+λόγος μέν ἐστ᾽ [...] / ὡς οὐκ ἂν αἰῶν᾽ ἐκμάθοις βροτῶν
+```
+("there is a saying [...] that...")
+
+Those clauses must be annotated as `ATR`, as their function is to restrict the reference 
+of the governing noun (not just a saying whatsoever, but that saying that tells...) or 
+specify its features.
+
+This also goes for the very rare case where the "content" of a noun is provided by another noun in accusative:
+
+```
+θεοὶ [...] ἀνδροθνῆτας Ἰλίου φθορὰς
+ἐς αἱματηρὸν τεῦχος οὐ διχορρόπως
+ψήφους ἔθεντο 
+
+(Aesch. Ag. 813-6)
+```
+
+According to Hermann (1852: 434) Ἰλίου φθορὰς ψήφους ἔθεντο = ἐψηφίσαντο Ἰλίου φθοράς. 
+Note, however, that some editors (Sommerstein, West and, dubitatively, Denniston-Page) follow Dobree 
+in reading φθορᾶς (gen. sg.) instead of φθορὰς (acc. pl.). See West (1990: 204).
+
+Whatever reading, the syntactic function of the epexegetical/objective genitive and the accusative is the same.
 
 #### Proleptic pronouns, followed by clause
 
@@ -192,6 +276,23 @@ E.g. Soph, *El.* 988-9:
 ```
 (knowing *this*, that living a shameful life is shameful for those nobly born)
 
+Note that we adopt annotation style even in the rare cases when the clause is not an acc+inf, but an independent clause, as in Aesch. Ag. 1332-4:
+
+```
+ δακτυλοδείκτων δ' οὔτις ἀπειπὼν εἴργει μελάθρων, μηκέτ' ἐσέλθῃς, τάδε φωνῶν .
+```
+("and no one bans it and keeps it away from houses at which fingers are pointed, saying this: “Don’t come in here any more!”"; trans. adapted from Sommerstein)
+
+```
+φωνῶν-[OBJ]->τάδε-[ATR]->ἐσέλθῃς
+```
+
+#### Noun or AuxP?
+
+Certain nouns (in acc.) are used adverbially with a genitive; they appear to be on their way to lose they're full meaning and evolve to preposition. See for instance δίκην = "in the way of, after the manner of" (LSJ A.2).
+
+Anyway, since they have *not* undergone a full desemanticization, they still must be annotated as `ADV`, while the governed genitive is `ATR`.
+E.g. Aesch. Ag. 3 κυνὸς δίκην.
 
 #### ἔχω + adverb
 
@@ -206,6 +307,14 @@ It's a genitive of cause ("alas for..."), thus `ADV` attached to the exclamation
 γάρ is not a conjuction, and therefore it must **not** be annotated as `AuxC`. The particle is the typical sentence adverbial, and therefore is always annotated as `AuxY`. The fact thatin English it is often translated with the conjunction "for" is utterly irrelevant.
 
 Occasionally, γάρ occurs in the middle of a sentence within a parenthetical expression. In that case, use the appropriate rules for annotation of parenthetical expressions (see below).
+
+#### ὡς
+
+Syntactically, ὡς is annotated as:
+- `AuxY` when it used to "color" some other (especially function) words, such as prepositions or conjunctions
+- the same "coloring" function is also found with participles and numberals
+- `AuxC` when it is tagged conjunction and it introduces one of the clauses listed above
+- `ADV` when it is used in independent clauses in exclamations or wishes or with adjectives and nouns.
 
 #### οἷος + noun or participle
 
@@ -242,4 +351,4 @@ E.g.:
 
 (note that the first 2 sentences are both uttered by Menelaos in a very intense exchange over Teucer's right to bury Ajax)
 
-**Temporary solution**: the first object is tagged as `AuxY`; note that in the second sentence, as the first object is filled by a coordinating clause, we use the very rare tag `AuxY_CO`.
+**Temporary solution**: the first object is tagged as `AuxY`; note that in the second sentence, as the slot of the first (dangling) object is filled by a coordinating clause, we use the very rare tag `AuxY_CO`.
