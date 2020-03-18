@@ -120,11 +120,13 @@ We adopt a classification based on syntactic behaviour:
     - with other adverbs (ὡς ἀληθῶς)
     - with superlatives (ὡς ῥᾷστα)
     - with prepositions
+    - with adjectives ("such persons as"... Headlam, CR 17 (1903:243)); also
+    with pronouns: ὡς ἐμοί = "for such a person as I am" 
     - in indipendent clauses, as an exclamation, with adj., nouns and verbs
     - in indipendent clauses, in wishes ("ὡς ἔρις . . ἀπόλοιτο", Il.18.107)
 * when it is used as a preposition (LSJ C.III), it is tagged as `p` accordingly.
 
-On the syntactic annotation, see below.
+On the syntactic annotation, see the section on ὡς (syntax).
 
 ## Syntax
 
@@ -308,13 +310,36 @@ It's a genitive of cause ("alas for..."), thus `ADV` attached to the exclamation
 
 Occasionally, γάρ occurs in the middle of a sentence within a parenthetical expression. In that case, use the appropriate rules for annotation of parenthetical expressions (see below).
 
-#### ὡς
+#### ὡς (syntax)
 
 Syntactically, ὡς is annotated as:
 - `AuxY` when it used to "color" some other (especially function) words, such as prepositions or conjunctions
 - the same "coloring" function is also found with participles and numberals
+- `AuxY` is also used when it is joined with adjectives or nouns used as `ATV/AtvV` (meaning 'as (something)')
 - `AuxC` when it is tagged conjunction and it introduces one of the clauses listed above
-- `ADV` when it is used in independent clauses in exclamations or wishes or with adjectives and nouns.
+- `ADV` when it is used in independent clauses in exclamations or wishes or with adjectives and nouns .
+
+Note that the word governed by ὡς is generally tagged as `ADV`. This also goes for adjective/nouns, 
+even if in nominative. See for instance Ag. 1464-6:
+
+```
+μηδ᾿ εἰς Ἑλένην κότον ἐκτρέψῃς / ὡς ἀνδρολέτειρ᾿, ὡς μία πολλῶν ἀνδρῶν ψυχὰς Δαναῶν ὀλέσασ᾿ ἀξύστατον ἄλγος ἔπραξεν
+```
+
+Which Sommerstein aptly translates: "nor turn your anger against Helen, **calling her** 
+a destroyer of men, **saying that she** alone brought death to so many souls of Danaan men and caused pain too strong to stand"
+
+Here, according to our guidelines the two ὡς have two different PoS: the first is adverb, the second conjuncion. 
+Likewise, the syntactic annotation is different: it's `AuxY` with the adj. ἀνδρολέτειρα, 
+and an ordinary `AuxC` governing ἔπραξεν.
+
+However, the two clauses appear to be coordinated in asyndeton, with the repetition of ὡς. 
+The adj. ἀνδρολέτειρα is in nominative, so the word does not agree with Ἑλένην and 
+therefore cannot be made an `ATV` of it. However it would be clumsy to annotate 
+it as a nominal clause governed by an ὡς-AuxC and ἀνδρολέτειρα as `PNOM`. 
+The most natural solution, I believe, is to take this construction as an `ADV`, 
+pretty much as we annotate participles in nominative.
+
 
 #### οἷος + noun or participle
 

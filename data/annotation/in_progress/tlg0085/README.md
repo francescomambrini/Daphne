@@ -13,6 +13,11 @@
 * Constructions with εἶναι
 * Dative of possession
 * lemmatization of ἄντιος
+* adverbs annotated as OBJ --> ADV
+* pos of δέ
+* pos of ὡς
+* lemma of κἄν
+
 
 ## Versions:
 The following files have been uploaded to Arethusa. This means that the ** version 
