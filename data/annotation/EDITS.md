@@ -4,12 +4,15 @@ Here is a list of all the changes that must be made to the original XML texts
 
 ## All texts
 
+* πρέσβυς agg. instead of noun
 * Check sentence tokenization
 * fix tokenization
   * congiunzioni: οὔτε, μήτε, μηδέ, οὐδέ, εἴτε
 * POS of pronouns
 * Predicative participles
 * Arguments of nouns (e.g. λόγος + Acc/Inf)
+* οὕνεκα conj and prep
+* check μή: adv vs conj
 
 ## Specific author/texts
 
