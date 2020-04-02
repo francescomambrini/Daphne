@@ -70,7 +70,7 @@ These words pose a few problems for treebanking, in several areas of the annotat
 * tokenization: tokenize the five words separating the two components: εἴ and τε, μη and δέ, οὐ and δέ, οὔ and τε, μή and τε. Separate the components as they are written, without adding diacritics like hyphens or accents/spirits;
 * morphology: annotate the two components as if you were annotanting the full word, e.g.:
 
-```xml 
+```xml
 <word id="1" form="μη" lemma="μηδέ" postag="c--------" .../>
 <word id="2" form="δέ" lemma="μηδέ" postag="c--------" .../>
 ```
@@ -86,6 +86,9 @@ Numerals are tagged as adjectives. That goes also for compounds of εἷς, μί
 ### Irregular comparatives and superlatives
 Lemmatize irregular (i.e. polytematic) comparatives and superlatives under themselves; the proper
 degree (comp. or sup.) must be marked in the appropriate position of the pos-tag.
+
+Note that this goes only for *polytematic* comp/sup. Superlatives φίλτατος and ἔχθιστος are lemmatized under
+φίλος and ἐχθρός.
 
 ### Special words
 
@@ -121,10 +124,10 @@ We adopt a classification based on syntactic behaviour:
     - with superlatives (ὡς ῥᾷστα)
     - with prepositions
     - with adjectives ("such persons as"... Headlam, CR 17 (1903:243)); also
-    with pronouns: ὡς ἐμοί = "for such a person as I am" 
+    with pronouns: ὡς ἐμοί = "for such a person as I am"
     - in indipendent clauses, as an exclamation, with adj., nouns and verbs
     - in indipendent clauses, in wishes ("ὡς ἔρις . . ἀπόλοιτο", Il.18.107)
-* when it is used as a preposition (LSJ C.III), it is tagged as `p` accordingly.
+* when it is used as a preposition (LSJ C.III), it is tagged as `r` accordingly.
 
 On the syntactic annotation, see the section on ὡς (syntax).
 
@@ -132,19 +135,19 @@ On the syntactic annotation, see the section on ὡς (syntax).
 
 ### PNOM (and OCOMP)
 
-The label `PNOM` (and, to some extent, the corresponding `OCOMP` label)  has been somewhat 
-extended from the original design, which limited its application only to the predicate nominals 
+The label `PNOM` (and, to some extent, the corresponding `OCOMP` label)  has been somewhat
+extended from the original design, which limited its application only to the predicate nominals
 of standard grammar.
 
 The following is a list of constructions that are tagged as `PNOM`:
 
 * predicate nominals (with copular verbs or in nominal constructions);
-* raised complements with the nominative participles, in constructions where, 
-if attested with the infinitive, the subject of the infinitive is controlled by the 
+* raised complements with the nominative participles, in constructions where,
+if attested with the infinitive, the subject of the infinitive is controlled by the
 subject of the main verb) see below on ''raised'' complements;
 * datives in dative of possessions (**est mihi puella**...);
 * other predicative constructions with εἰμί (or nominal): e.g. with genitive (Τροίαν Ἀχαιῶν [`PNOM`] οὖσαν)
-* genitive of pertinence ('it is proper of, appropriate to'...); Aesch. Ag. 1665: 
+* genitive of pertinence ('it is proper of, appropriate to'...); Aesch. Ag. 1665:
 οὐκ ἂν Ἀργείων τόδ' εἴη ('this would not befit the Argives'; 'it would not be the Argive way', Sommerstein)
 
 ### Special cases
@@ -236,7 +239,7 @@ The participle is tagged as `OCOMP`: see above under `"Raised" objects`.
 
 #### Arguments with nouns
 
-Some nouns (especially those meaning "report", "story", but also words for sentiments, such as θάρσος, αἰδώς ecc) 
+Some nouns (especially those meaning "report", "story", but also words for sentiments, such as θάρσος, αἰδώς ecc)
 govern infinitives or clauses that describe their content. See e.g. Soph. Tr. 1-2:
 
 ```
@@ -244,8 +247,8 @@ govern infinitives or clauses that describe their content. See e.g. Soph. Tr. 1-
 ```
 ("there is a saying [...] that...")
 
-Those clauses must be annotated as `ATR`, as their function is to restrict the reference 
-of the governing noun (not just a saying whatsoever, but that saying that tells...) or 
+Those clauses must be annotated as `ATR`, as their function is to restrict the reference
+of the governing noun (not just a saying whatsoever, but that saying that tells...) or
 specify its features.
 
 This also goes for the very rare case where the "content" of a noun is provided by another noun in accusative:
@@ -253,13 +256,13 @@ This also goes for the very rare case where the "content" of a noun is provided 
 ```
 θεοὶ [...] ἀνδροθνῆτας Ἰλίου φθορὰς
 ἐς αἱματηρὸν τεῦχος οὐ διχορρόπως
-ψήφους ἔθεντο 
+ψήφους ἔθεντο
 
 (Aesch. Ag. 813-6)
 ```
 
-According to Hermann (1852: 434) Ἰλίου φθορὰς ψήφους ἔθεντο = ἐψηφίσαντο Ἰλίου φθοράς. 
-Note, however, that some editors (Sommerstein, West and, dubitatively, Denniston-Page) follow Dobree 
+According to Hermann (1852: 434) Ἰλίου φθορὰς ψήφους ἔθεντο = ἐψηφίσαντο Ἰλίου φθοράς.
+Note, however, that some editors (Sommerstein, West and, dubitatively, Denniston-Page) follow Dobree
 in reading φθορᾶς (gen. sg.) instead of φθορὰς (acc. pl.). See West (1990: 204).
 
 Whatever reading, the syntactic function of the epexegetical/objective genitive and the accusative is the same.
@@ -314,30 +317,30 @@ Occasionally, γάρ occurs in the middle of a sentence within a parenthetical e
 
 Syntactically, ὡς is annotated as:
 - `AuxY` when it used to "color" some other (especially function) words, such as prepositions or conjunctions
-- the same "coloring" function is also found with participles and numberals
+- the same "coloring" function is also found with participles and numerals
 - `AuxY` is also used when it is joined with adjectives or nouns used as `ATV/AtvV` (meaning 'as (something)')
 - `AuxC` when it is tagged conjunction and it introduces one of the clauses listed above
 - `ADV` when it is used in independent clauses in exclamations or wishes or with adjectives and nouns .
 
-Note that the word governed by ὡς is generally tagged as `ADV`. This also goes for adjective/nouns, 
+Note that the word governed by ὡς is generally tagged as `ADV`. This also goes for adjective/nouns,
 even if in nominative. See for instance Ag. 1464-6:
 
 ```
 μηδ᾿ εἰς Ἑλένην κότον ἐκτρέψῃς / ὡς ἀνδρολέτειρ᾿, ὡς μία πολλῶν ἀνδρῶν ψυχὰς Δαναῶν ὀλέσασ᾿ ἀξύστατον ἄλγος ἔπραξεν
 ```
 
-Which Sommerstein aptly translates: "nor turn your anger against Helen, **calling her** 
+Which Sommerstein aptly translates: "nor turn your anger against Helen, **calling her**
 a destroyer of men, **saying that she** alone brought death to so many souls of Danaan men and caused pain too strong to stand"
 
-Here, according to our guidelines the two ὡς have two different PoS: the first is adverb, the second conjuncion. 
-Likewise, the syntactic annotation is different: it's `AuxY` with the adj. ἀνδρολέτειρα, 
+Here, according to our guidelines the two ὡς have two different PoS: the first is adverb, the second conjuncion.
+Likewise, the syntactic annotation is different: it's `AuxY` with the adj. ἀνδρολέτειρα,
 and an ordinary `AuxC` governing ἔπραξεν.
 
-However, the two clauses appear to be coordinated in asyndeton, with the repetition of ὡς. 
-The adj. ἀνδρολέτειρα is in nominative, so the word does not agree with Ἑλένην and 
-therefore cannot be made an `ATV` of it. However it would be clumsy to annotate 
-it as a nominal clause governed by an ὡς-AuxC and ἀνδρολέτειρα as `PNOM`. 
-The most natural solution, I believe, is to take this construction as an `ADV`, 
+However, the two clauses appear to be coordinated in asyndeton, with the repetition of ὡς.
+The adj. ἀνδρολέτειρα is in nominative, so the word does not agree with Ἑλένην and
+therefore cannot be made an `ATV` of it. However it would be clumsy to annotate
+it as a nominal clause governed by an ὡς-AuxC and ἀνδρολέτειρα as `PNOM`.
+The most natural solution, I believe, is to take this construction as an `ADV`,
 pretty much as we annotate participles in nominative.
 
 
