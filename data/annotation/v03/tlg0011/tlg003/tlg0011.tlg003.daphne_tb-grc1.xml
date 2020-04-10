@@ -1,5 +1,15 @@
-<treebank xml:lang="grc" version="1.5" direction="ltr" format="aldt">
-
+<?xml version="1.0" encoding="UTF-8"?>
+<treebank xmlns:saxon="http://saxon.sf.net/"
+          xml:lang="grc"
+          version="1.5"
+          direction="ltr"
+          format="aldt">
+   <annotator>
+      <short>FrancescoM</short>
+      <name>Francesco Mambrini</name>
+      <address>f.mambrini@gmail.com</address>
+      <uri>http://data.perseus.org/sosol/users/FrancescoM</uri>
+  </annotator>
    <sentence id="1" document_id="urn:cts:greekLit:tlg0011.tlg003.daphne_tb-grc1" subdoc="1-2">
       <word id="1" form="ἀεὶ" lemma="ἀεί" postag="d--------" cite="1" head="8" relation="ADV"/>
       <word id="2" form="μέν" lemma="μέν" postag="d--------" cite="1" head="8" relation="AuxY"/>
@@ -11367,4 +11377,3 @@
       <word id="13" form="[0]" insertion_id="0012e" artificial="elliptic" head="0" relation="PRED"/>
    </sentence>
 </treebank>
-
