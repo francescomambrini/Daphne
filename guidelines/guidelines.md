@@ -14,7 +14,7 @@ In contrast to other POS (like adjectives or nouns), pronouns belong to a close 
 
 Thus, the list of pronouns varies considerably, depending on whether one considers syntactic, semantic or morphological (i.e. based on flexion) aspects to make the distinction.
 
-Our list and classification is based on that of Kuhner and Blass (pp. 579-ss), with some minor modifications (marked with *):
+Our list and classification is based on that of Kuhner and Blass (pp. 579-ss), with some modifications (marked with *):
 
 1. personal pronouns: ἐγώ, σύ, ἡμεῖς, ὑμεῖς, σφεῖς with various peculiar forms for the other persons and cases (ἕ, νῶϊ, οὗ etc.)
 
@@ -54,12 +54,16 @@ Our list and classification is based on that of Kuhner and Blass (pp. 579-ss), w
    * ὅστις
    * δεῖνα
    * ἑκάτερος, ἕκαστος (vedi K-B par 157.8)
+   * πᾶς*
    * ποσός
    * ποιός
+   * οὐδείς, μηδείς
 
 Note that K-B correctly identifies a class of pronominal adverbs (together with pronominal adjectives and nouns); however they also rightly state that these pronouns behave more as adverbs and we will annotate them as such.
 
-Note also that other ambiguous words (like πᾶς or οὐδείς) are not tagged as pronounσ, but as adjectives. On οὐδείς in particular see under numerals, and note that οὔτις (which is composed with the pronoun τις) is in fact tagged as `p`.
+It is worth noticing that (with the exception of the definite article, which has a POS for itself, and the personal pronoun which is distinguished in UD) our list largerly covers most of the same word types that are annotated with the tag [`DET`](https://universaldependencies.org/u/pos/DET.html) in Universal Dependency.
+
+~~Note also that other ambiguous words (like πᾶς) are not tagged as pronouns, but as adjectives.~~
 
 ### Compound conjunctions
 
@@ -68,20 +72,20 @@ By "compound conjunction" I mean those conjunctions that are formed by two parti
 These words pose a few problems for treebanking, in several areas of the annotation process:
 
 * tokenization: tokenize the five words separating the two components: εἴ and τε, μη and δέ, οὐ and δέ, οὔ and τε, μή and τε. Separate the components as they are written, without adding diacritics like hyphens or accents/spirits;
-* morphology: annotate the two components as if you were annotanting the full word, e.g.:
+* morphology: annotate the two components as if you were annotating the full word, e.g.:
 
 ```xml
 <word id="1" form="μη" lemma="μηδέ" postag="c--------" .../>
 <word id="2" form="δέ" lemma="μηδέ" postag="c--------" .../>
 ```
 
-All the 5 words listed above are to be tagged as **conjunctions**, regardless of the annotation of the single components (e.g. δέ is usually tagged as adverb).
+All the 5 words listed above are to be tagged as **conjunctions**, regardless of the annotation of the single components (e.g. δέ and οὐ are usually tagged as adverb).
 
 For syntax, the two components must be annotated according to their function. See below for the special case of εἴτε.
 
 ### Numerals
 
-Numerals are tagged as adjectives. That goes also for compounds of εἷς, μία, ἕν, like οὐδείς or μηδείς.
+Numerals are tagged as adjectives.
 
 ### Irregular comparatives and superlatives
 Lemmatize irregular (i.e. polytematic) comparatives and superlatives under themselves; the proper
@@ -294,10 +298,17 @@ Note that we adopt annotation style even in the rare cases when the clause is no
 
 #### Noun or AuxP?
 
-Certain nouns (in acc.) are used adverbially with a genitive; they appear to be on their way to lose they're full meaning and evolve to preposition. See for instance δίκην = "in the way of, after the manner of" (LSJ A.2).
+Certain nouns (typically in acc.) are used adverbially with a genitive; they appear to be on their way to lose they're full meaning and evolve to preposition. See for instance δίκην = "in the way of, after the manner of" (LSJ A.2).
 
 Anyway, since they have *not* undergone a full desemanticization, they still must be annotated as `ADV`, while the governed genitive is `ATR`.
 E.g. Aesch. Ag. 3 κυνὸς δίκην.
+
+### Multi-word conjunctions
+
+Expressions that means "except when", "as when" are tagged as multi-word conjunction groups.
+This means that:
+* the first conjuction is the head of the group
+* the "when" part is `AuxY`
 
 #### ἔχω + adverb
 

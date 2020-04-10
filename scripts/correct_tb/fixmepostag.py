@@ -1,4 +1,5 @@
 from udapi.core.block import Block
+import logging
 
 
 class FixMePostag(Block):
@@ -8,4 +9,5 @@ class FixMePostag(Block):
                   node.xpos[0] in ['g', 'c'])
 
         if all(checks):
+            logging.info(f'Changing μή in {node.address()}')
             node.xpos = f'd{node.xpos[1:]}'

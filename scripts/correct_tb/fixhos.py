@@ -27,9 +27,10 @@ class FixHos(Block):
 
     @staticmethod
     def is_with_part(node):
+        parentpostag = node.parent.xpos if node.parent.xpos != '_' else '_________' 
         conds = (not node.children,
                  node.parent.xpos[0] in ['v', 'p'],
-                 node.parent.xpos[4] == 'p',
+                 parentpostag[4] == 'p',
                  node.deprel == 'AuxY')
         return _check(conds)
 
@@ -42,7 +43,7 @@ class FixHos(Block):
 
     def process_node(self, node):
         if node.lemma == 'ὡς':
-            logging.debug(f'Found ὡς: {node.address()}')
+            logging.info(f'Found ὡς: {node.address()}')
             if self.is_prep(node):
                 node.xpos = 'r--------'
                 node.deprel = 'AuxP'
