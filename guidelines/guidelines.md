@@ -128,7 +128,8 @@ We adopt a classification based on syntactic behaviour:
     - with superlatives (ὡς ῥᾷστα)
     - with prepositions
     - with adjectives ("such persons as"... Headlam, CR 17 (1903:243)); also
-    with pronouns: ὡς ἐμοί = "for such a person as I am"
+    with pronouns: ὡς ἐμοί = "for such a person as I am", or with nouns: ὡς τειρομένου του, 
+    "as of suffering man" (S. Phil. 203).
     - in indipendent clauses, as an exclamation, with adj., nouns and verbs
     - in indipendent clauses, in wishes ("ὡς ἔρις . . ἀπόλοιτο", Il.18.107)
 * when it is used as a preposition (LSJ C.III), it is tagged as `r` accordingly.
