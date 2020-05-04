@@ -31,3 +31,6 @@ Here is a list of all the changes that must be made to the original XML texts
 ### Homer
 
 * get rid of the AP_ExD0_APOS
+
+| Author    | Title  | Sentences | Tokens (tot)     | Artificial  	|
+|---	|---	|---	|---	|--:	|
