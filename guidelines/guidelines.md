@@ -302,6 +302,7 @@ Note that we adopt annotation style even in the rare cases when the clause is no
 Certain nouns (typically in acc.) are used adverbially with a genitive; they appear to be on their way to lose they're full meaning and evolve to preposition. See for instance δίκην = "in the way of, after the manner of" (LSJ A.2).
 
 Anyway, since they have *not* undergone a full desemanticization, they still must be annotated as `ADV`, while the governed genitive is `ATR`.
+
 E.g. Aesch. Ag. 3 κυνὸς δίκην.
 
 ### Multi-word conjunctions
