@@ -1,6 +1,11 @@
-# Daphne -- version 0.3
+# Daphne -- version 0.4.1
 
 ## What's new:
+
+* Added `@speaker` attribute to the `sentence` element (S.Tr, Ant., Ai., OT, El.)
+
+
+## New in v. 0.3:
 
 * some Aeschylus added:
     * Eumenides
