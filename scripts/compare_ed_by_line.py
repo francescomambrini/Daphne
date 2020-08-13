@@ -2,18 +2,10 @@
 
 import argparse
 import os
-from capitain_corpus_reader import CapitainCorpusReader
+from itertools import groupby
+from operator import itemgetter
 from lxml import etree
-from nltk.tokenize.punkt import PunktLanguageVars, PunktSentenceTokenizer
-
-
-class NewAncientGreekPunktVar(PunktLanguageVars):
-    # note that there are two middle dots:
-    # \u00b7 and \u0387!
-
-    sent_end_chars = ("\u0387","·",'.', ';', ":", "#")
-    _re_non_word_chars = r"(?:[\";\*:@\'··])"
-
+import logging
 
 # Arg parsing
 
@@ -29,27 +21,30 @@ if not args.edition:
 if not os.path.isfile(e):
     raise FileNotFoundError("File {} not found. Try to pass the path with the -e option".format(e))
 
-r,f = os.path.split(e)
+r, f = os.path.split(e)
 
 # TEI file
-txt = CapitainCorpusReader(r,f, sent_tokenizer=PunktSentenceTokenizer(lang_vars=NewAncientGreekPunktVar()))
-tei_sents = [" ".join(s).replace("ʼ", "'") for s in txt.sents(f)]
+ns = {'tei' : 'http://www.tei-c.org/ns/1.0'}
+
+txt = etree.parse(e)
+tei_lines = txt.xpath("//tei:l/text()", namespaces=ns)
 
 # Treebank
 cpath = args.xmlfile
 tb = etree.parse(cpath)
-tb_sents = []
-for s in tb.xpath("//sentence"):
-    tks = [t.attrib.get("form") for t in s.xpath("word") if not t.attrib.get("insertion_id")]
-    tb_sents.append(" ".join(tks))
+_toks = [(w.attrib['form'], w.attrib.get('cite', '---').split('-')[0])
+           for w in tb.xpath("//word") if not w.attrib.get("insertion_id")]
+
+groups = groupby(_toks, itemgetter(1))
+tb_toks = [" ".join([item[0] for item in data]) for (key, data) in groups]
 
 # now we glue them
 # assert len(tei_sents) == len(tb_sents), "Nr. of sents does not correspond ({} tb vs {} tei)".format(len(tb_sents),
 #                                                                                                    len(tei_sents))
 
-if len(tei_sents) != len(tb_sents):
-    print("Nr. of sents does not correspond ({} tb vs {} tei)".format(len(tb_sents),
-                                                                                                        len(tei_sents)))
+if len(tei_lines) != len(tb_toks):
+    logging.warning("Nr. of sents does not correspond ({} tb vs {} tei)".format(len(tb_toks),
+                                                                      len(tei_lines)))
 #    with open("error_sents.txt", "w") as out:
 #        for s in tei_sents:
 #            out.write(s + "\n")
@@ -57,8 +52,8 @@ if len(tei_sents) != len(tb_sents):
 #                                                                                                    len(tei_sents)))
 
 else:
-    print("Proceeding to compare the sents")
+    logging.info("Proceeding to compare the sents")
 
 with open("comparison.txt", "w") as out:
-    for tb_s, tei_s in zip(tb_sents, tei_sents):
+    for tb_s, tei_s in zip(tb_toks, tei_lines):
         out.write(f"{tb_s}\n{tei_s}\n\n")

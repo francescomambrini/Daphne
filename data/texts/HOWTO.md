@@ -61,7 +61,7 @@ for possible solutions.
 I know, it's confusing! However, I set up the Daphne project as a general repository of 
 tools and texts dealing with complex linguistic annotation of Greek poetry. It seemed 
 only natural to me to set it up with a basic structure distinguishing: scripts, documentation, 
-data, each in its own directoru. The first `/data` folder is then organized to hold: editions, annotations and commentaries.
+data, each in its own directory. The first `/data` folder is then organized to hold: editions, annotations and commentaries.
 
 This seemed straightforward. However, I discovered later that the CaPiTains guidelines 
 require your CTS repository of editions to also have all your Epidoc texts into a folder named 
