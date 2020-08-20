@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-FS='!/home/francesco/Documents/work/Nextcloud/Documents/Projects/Daphne/data/annotation/*/*/*/*.xml'
+FS='!/home/francesco/Documents/work/Nextcloud/Documents/Projects/Daphne/data/annotation/latest/tlg0085/tlg007/*.xml'
 
 udapy read.Agldt files="$FS" \
   agldt.agldt_util.SetSpeakers \
