@@ -7,7 +7,7 @@ from lxml import etree
 
 if __name__ == '__main__':
     tbdir = os.path.dirname(os.path.abspath(__file__))
-    pth = os.path.join(tbdir, "../data/annotation/v*/*/*/tlg*.xml")
+    pth = os.path.join(tbdir, "../data/annotation/latest/*/*/tlg*.xml")
     tbs = sorted(glob(pth))
     s = """# Statistics
 
