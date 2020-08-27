@@ -297,6 +297,30 @@ Note that we adopt annotation style even in the rare cases when the clause is no
 φωνῶν-[OBJ]->τάδε-[ATR]->ἐσέλθῃς
 ```
 
+#### OCOMP or ATV/AttV?
+
+The chief difference between the two labels is that OCOMP's are argument, while predicatives are not. 
+ATV/AttV is left for generic predicative arguments whose presence or absence does not affect the meaning 
+of the predicacate in any sense.
+
+The difference is the same as the one pointed out in the UD guidelines between `xcomp` and `acl`. Thus:
+
+```
+(1) She entered the room sad
+
+(2) She usually eats her steak medium-rare
+
+(3) She painted the house red
+
+(4) She considered the offer adequate
+```
+
+The 3 sentences are placed in growing scale of "argumentness", with (1) being clearly 
+adjunct, and 4 clearly an argument. While 2 and 3 are debatable, a resultative (3) 
+leans more toward the argument, and (2) as well implies a slight change in the meaning 
+of "eat".
+
+
 #### Noun or AuxP?
 
 Certain nouns (typically in acc.) are used adverbially with a genitive; they appear to be on their way to lose they're full meaning and evolve to preposition. See for instance δίκην = "in the way of, after the manner of" (LSJ A.2).

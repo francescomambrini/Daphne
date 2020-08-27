@@ -1,9 +1,48 @@
 Philoctetes (tlg0011.tlg006)
 
+100 (57): τί οὖν μ' ἄνωγας, MSS; Storr reads with Wakefield and Hermann τί μ' οὖν ἄνωγας. But the hiatus after τί is acceptable, so the conjecture is not needed. See also on 733 (395).
 
 642: οὐκ, ἀλλά...: is the reading of the MSS. Several editors (LL-J, Avezzù-Pucci, 
 Schein) print Doederlein οἶδ'· ἀλλά... The sense is however clear even with the 
 transmitted text (Kam: "not so, but on the contrary"); it doesn't seem to me that 
 the conjecture improves on it.
+
+670-80 (382): I tentatively accept the reconstruction of the fist strophe printed 
+by Avezzù and Schein, though the text has been variously edited.
+
+685 (383): ἴσος ὢν ἴσοις ἀνήρ is Lachmann's correction of the unmetrical text 
+of the MSS ἴσος (L ἴσοως) ἐν ἴσοις. This correction is plausible and yields a balanced syntax that is much easier to treebank (although this is of course no ground on which to evaluate conjectures). Most editors, however, prefer Hermann's insertion of γε: ἴσος ἐν <γ'> ἴσοις ἀνήρ. 
+
+696 (386): I read with Avezzù and Schein; namely: 1) I retain the transmitted οὐδ' ὃς, 
+2) I delete τὰν 3) I read φορβάδος ἔκ τι γᾶς at line 700
+
+710 (388): see Daphne's guidelines for the annotation of the complex conjunction 
+"except if" (πλήν, though formally a preposition, is the head of the group, thus AuxC, 
+εἰ the second component, AuxY)
+
+711 (388): with Schein and the majority of the editors, I read Brunck's ἰοῖς 
+instead of the transmitted πτανοῖς, which is accepted by Campbell, Avezzú and Kam (dubitanter)
+
+727 (391): the unmetrical πᾶσι is emended to θεοῖς (Hermann) by virtually all editors.
+
+728 (391): Storr reads πατρὸς with Jebb; but the transmitted θεός is not to be altered. Note that θεός is predicative (ATV): "joined the gods as god" (LL-J), "dio raggiunge gli dei" (Cerri in Avezzù). I follow Avezzù and Schein in keeping the present πλάθει; Dawe and LL-J&W prefer the aorist πλάθη, attested in other MSS.
+
+733 (395): τί ἔστιν, the hiatus is acceptable; no need to insert δέ
+
+734 (398): τῆς παρεστώσης νόσου is interpreted either as: 1. a genitive absolute (LL-J: "because your sickness is with you"), or 2. as a genitive of origin with ἄλγος (Jebb: "Art thou in pain from the diseases that vexes thee", Kam., Schein). I go with 2, but 1 is also likely.
+
+736 (400): with Avezzù and Schein, I take line 736 to be extra metrum and thus I read ἰὼ θεοί
+
+753 (419): see on 100 (57), and 733 (395)
+
+760-762: line numbering is problematic here. Oddly enough, in the canonical numbering (Brunck's) line 760 (δύστηνε... φανείς.) is followed by 765 after 4 lines only. The editors differ on how they refer to lines: Jebb (followed by Schein and, apparently, Ll-J&W) skips 761 in the counting, Avezzù line 760. The reason for this odd situation goes back to an interpolation in the Aldina, that was printed by Brunck as the self-standing line 760 and then removed by the other editors without renumbering the following lines. In light of that, Avezzù's solution is perhaps the most appropriate (Brunck's line 760 is indeed deleted). But I will not change the vulgate numbering: Perseus' edition (as, it would seem, Pearson's) counts regularly from 760 then jumps from 763 to 765. So does the treebank.
+
+760 (431): see on 760-762 for the the line numbering. The second δύστηνε (word 6) is predicative with φανεῖς (PNOM) and attracted to vocative (thus Schein, following Moorhouse (p. 30).
+
+771 (438): there is no need to alter the transmitted μήτε to μηδέ with Dindorf and Storr. The first μήτε is projected also on the first element: (μήτε) ἑκόντα μήτ' ἄκοντα. The two phrases (μήτε) ἑκόντα μήτ' ἄκοντα and μήτε τῳ τέχνῃ are two adjuncts modifying the inf. μεθεῖναι; however, they are labeled differently: the first is a predicative complement agreing with the (implied) subject of the inf. (AtvV), the second is a regular circumstantial (ADV). It is therefore necessary to introduce ellipsis: ἑκόντα μήτ' ἄκοντα (μεθεῖναι ταῦτα), μήτε τῳ τέχνῃ κείνοις μεθεῖναι ταῦτα. The solution is not ideal, but it is the only one that respect the treebank's current formalism.
+
+782 (446): and next sentence; I follow the majority of the editors in accepting Philp's interpretation of the MSS ἀλλά as a corruption for the repeated interjection ἆ. The exclamation is then placed in a line (and a sentence) of its own. The following line/sentence (numbered 782a) is written by most editors as: δέδοικα <δ'>, ὦ παῖ, μὴ ἀτελὴς εὐχὴ <τύχῃ>. 
+
+ 
 
 
