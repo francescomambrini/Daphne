@@ -1,8 +1,13 @@
-# Daphne -- version 0.4.1
+# Daphne -- version 0.5
 
-## What's new:
+* Daphne now has switched to the [UD](https://universaldependencies.org/)
+annotation schema. If you want the old AGLDT-compliant XML files you can either:
+  - check out the version tagged `v0.4.1-agldt`
+  - retrieve them from the file `other/old_agldt_source.zip`
 
-* Added `@speaker` attribute to the `sentence` element for all the tragedies in 
+## New in v. 0.4.1:
+
+* Added `@speaker` attribute to the `sentence` element for all the tragedies in
 current distribution (With the exception of the Eum.)
 * Added texts for Aeschylus (with hook tests)
 * Ag. 1472-74 added (sentence 712)
