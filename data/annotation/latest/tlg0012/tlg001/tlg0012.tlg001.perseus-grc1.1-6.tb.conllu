@@ -209,7 +209,7 @@
 3	Ἀτρεΐδῃ	Ἀτρείδης	PROPN	n-s---md-	Case=Dat|Gender=Masc|Number=Sing	4	nmod	_	Ref=1.24
 4	Ἀγαμέμνονι	Ἀγαμέμνων	PROPN	n-s---md-	Case=Dat|Gender=Masc|Number=Sing	5	obj	_	Ref=1.24
 5	ἥνδανε	ἁνδάνω	VERB	v3siia---	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	0	root	_	Ref=1.24
-6	θυμῷ	θυμός	NOUN	n-s---md-	Case=Dat|Gender=Masc|Number=Sing	5	obj	_	Ref=1.24|SpaceAfter=No
+6	θυμῷ	θυμός	NOUN	n-s---md-	Case=Dat|Gender=Masc|Number=Sing	5	obl	_	Ref=1.24|SpaceAfter=No
 7	,	,	PUNCT	u--------	_	10	punct	_	Ref=1.24
 8	ἀλλὰ	ἀλλά	CCONJ	c--------	_	10	cc	_	Ref=1.25
 9	κακῶς	κακός	ADV	d--------	_	10	advmod	_	Ref=1.25
@@ -2028,7 +2028,7 @@
 # sent_id = 2274204
 # text = στῆ δ' ὄπιθεν, ξανθῆς δὲ κόμης ἕλε Πηλεΐωνα οἴῳ φαινομένη·
 1	στῆ	ἵστημι	VERB	v3saia---	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	Ref=1.197
-2	δ'	δέ	CCONJ	g--------	PartType=Ptcl	8	cc	_	Ref=1.197
+2	δ'	δέ	CCONJ	g--------	PartType=Ptcl	1	cc	_	Ref=1.197
 3	ὄπιθεν	ὄπισθεν	ADV	d--------	_	1	advmod	_	Ref=1.197|SpaceAfter=No
 4	,	,	PUNCT	u--------	_	8	punct	_	Ref=1.197
 5	ξανθῆς	ξανθός	ADJ	a-s---fg-	Case=Gen|Gender=Fem|Number=Sing	7	amod	_	Ref=1.197
@@ -3513,19 +3513,19 @@
 
 # sent_id = 2274294
 # text = τὼ μὲν ταρβήσαντε καὶ αἰδομένω βασιλῆα στήτην, οὐδέ τί μιν προσεφώνεον οὐδ' ἐρέοντο·
-1	τὼ	ὁ	PRON	p-d---mn-	Case=Nom|Definite=Def|Gender=Masc|Number=Dual|PronType=Art	13	nsubj	_	Ref=1.331
-2	μὲν	μέν	ADV	g--------	PartType=Ptcl	10	advmod	_	Ref=1.331
+1	τὼ	ὁ	PRON	p-d---mn-	Case=Nom|Definite=Def|Gender=Masc|Number=Dual|PronType=Art	7	nsubj	_	Ref=1.331
+2	μὲν	μέν	ADV	g--------	PartType=Ptcl	7	advmod	_	Ref=1.331
 3	ταρβήσαντε	ταρβέω	VERB	v-dapamn-	Case=Nom|Gender=Masc|Number=Dual|VerbForm=Part|Voice=Pass	7	advcl	_	Ref=1.331
 4	καὶ	καί	CCONJ	c--------	_	5	cc	_	Ref=1.331
 5	αἰδομένω	αἰδέομαι	VERB	v-dppemn-	Case=Nom|Gender=Masc|Number=Dual|Tense=Pres|VerbForm=Part|Voice=MidPass	3	conj	_	Ref=1.331
 6	βασιλῆα	βασιλεύς	NOUN	n-s---ma-	Case=Acc|Gender=Masc|Number=Sing	5	obj	_	Ref=1.331
-7	στήτην	ἵστημι	VERB	v3daia---	Mood=Ind|Number=Dual|Person=3|Tense=Past|Voice=Act	10	root	_	Ref=1.332|SpaceAfter=No
+7	στήτην	ἵστημι	VERB	v3daia---	Mood=Ind|Number=Dual|Person=3|Tense=Past|Voice=Act	0	root	_	Ref=1.332|SpaceAfter=No
 8	,	,	PUNCT	u--------	_	7	punct	_	Ref=1.332
 9	οὐ	οὐ	ADV	d--------	_	13	advmod:neg	_	Ref=1.332|SpaceAfter=No
 10	δέ	δέ	CCONJ	g--------	PartType=Ptcl	13	cc	_	Ref=1.332
 11	τί	τις	PRON	p-s---na-	Case=Acc|Gender=Neut|Number=Sing|PronType=Ind	13	obj	_	Ref=1.332
-12	μιν	μιν	PRON	p-s---ma-	Case=Acc|Gender=Masc|Number=Sing	13	obj	_	Ref=1.332
-13	προσεφώνεον	προσφωνέω	VERB	v3piia---	Mood=Ind|Number=Plur|Person=3|Tense=Imp|Voice=Act	0	root	_	Ref=1.332
+12	μιν	μιν	PRON	p-s---ma-	Case=Acc|Gender=Masc|Number=Sing	13	iobj	_	Ref=1.332
+13	προσεφώνεον	προσφωνέω	VERB	v3piia---	Mood=Ind|Number=Plur|Person=3|Tense=Imp|Voice=Act	7	root	_	Ref=1.332
 14	οὐ	οὐ	ADV	d--------	_	16	advmod:neg	_	Ref=1.332|SpaceAfter=No
 15	δ'	δέ	CCONJ	g--------	PartType=Ptcl	16	cc	_	Ref=1.332
 16	ἐρέοντο	ἔρομαι	VERB	v3piie---	Mood=Ind|Number=Plur|Person=3|Tense=Imp|Voice=MidPass	13	conj	_	Ref=1.332|SpaceAfter=No
