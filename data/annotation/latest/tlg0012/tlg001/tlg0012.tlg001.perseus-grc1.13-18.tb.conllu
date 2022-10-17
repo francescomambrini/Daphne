@@ -3829,8 +3829,8 @@
 8	ὑπ'	ὑπό	ADP	r--------	_	9	case	_	Ref=13.388
 9	ἀνθερεῶνα	ἀνθερεών	NOUN	n-s---ma-	Case=Acc|Gender=Masc|Number=Sing	5	obl	_	Ref=13.388|SpaceAfter=No
 10	,	,	PUNCT	u--------	_	15	punct	_	Ref=13.388
-11	διὰ	διά	ADV	r--------	_	12	compound:prt	_	Ref=13.388
-12	πρὸ	πρό	ADV	d--------	_	15	obj	_	Ref=13.388
+11	διὰ	διά	ADV	r--------	_	15	advmod	_	Ref=13.388
+12	πρὸ	πρό	ADV	d--------	_	11	fixed	_	Ref=13.388
 13	δὲ	δέ	CCONJ	g--------	PartType=Ptcl	15	cc	_	Ref=13.388
 14	χαλκὸν	χαλκός	NOUN	n-s---ma-	Case=Acc|Gender=Masc|Number=Sing	15	obj	_	Ref=13.388
 15	ἔλασσεν	ἐλαύνω	VERB	v3saia---	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	5	conj	_	Ref=13.388|SpaceAfter=No
@@ -5978,8 +5978,8 @@
 26	,	,	PUNCT	u--------	_	31	punct	_	Ref=13.607
 27	οὐ	οὐ	ADV	d--------	_	31	advmod:neg	_	Ref=13.607|SpaceAfter=No
 28	δὲ	δέ	CCONJ	g--------	PartType=Ptcl	31	cc	_	Ref=13.607
-29	διὰ	διά	ADV	r--------	_	30	compound:prt	_	Ref=13.607
-30	πρὸ	πρό	ADV	d--------	_	33	obj	_	Ref=13.607
+29	διὰ	διά	ADV	r--------	_	33	advmod	_	Ref=13.607
+30	πρὸ	πρό	ADV	d--------	_	29	fixed	_	Ref=13.607
 31	δυνήσατο	δύναμαι	VERB	v3saim---	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Mid	12	conj	_	Ref=13.607
 32	χαλκὸν	χαλκός	NOUN	n-s---ma-	Case=Acc|Gender=Masc|Number=Sing	33	obj	_	Ref=13.607
 33	ἐλάσσαι	ἐλαύνω	VERB	v--ana---	VerbForm=Inf|Voice=Act	31	ccomp	_	Ref=13.607|SpaceAfter=No
@@ -6137,7 +6137,7 @@
 20	οὐκ	οὐ	ADV	d--------	_	21	advmod:neg	21:advmod	Ref=13.622
 21	ἐπιδευεῖς	ἐπιδευής	ADJ	a-p---mn-	Case=Nom|Gender=Masc|Number=Plur	1	conj	1:conj	Ref=13.622
 22	ἣν	ὅς	PRON	p-s---fa-	Case=Acc|Gender=Fem|Number=Sing|PronType=Rel	24	obj	24:obj	Ref=13.623
-23	ἐμὲ	ἐγώ	PRON	p-s---ma-	Case=Acc|Gender=Masc|Number=Sing|Person=1|PronType=Prs	24	obj	24:obj	Ref=13.623
+23	ἐμὲ	ἐγώ	PRON	p-s---ma-	Case=Acc|Gender=Masc|Number=Sing|Person=1|PronType=Prs	24	iobj	24:obj	Ref=13.623
 24	λωβήσασθε	λωβάομαι	VERB	v2paie---	Mood=Ind|Number=Plur|Person=2|Tense=Past|Voice=MidPass	16	acl:relcl	16:acl	Ref=13.623
 25	κακαὶ	κακός	ADJ	a-p---fv-	Case=Voc|Gender=Fem|Number=Plur	26	amod	26:amod	Ref=13.623
 26	κύνες	κύων	NOUN	n-p---fv-	Case=Voc|Gender=Fem|Number=Plur	24	vocative	24:vocative	Ref=13.623|SpaceAfter=No
@@ -6376,8 +6376,8 @@
 10	,	,	PUNCT	u--------	_	15	punct	_	Ref=13.647
 11	οὐ	οὐ	ADV	d--------	_	15	advmod:neg	_	Ref=13.647|SpaceAfter=No
 12	δὲ	δέ	CCONJ	g--------	PartType=Ptcl	15	cc	_	Ref=13.647
-13	διὰ	διά	ADV	r--------	_	14	compound:prt	_	Ref=13.647
-14	πρὸ	πρό	ADV	d--------	_	17	obj	_	Ref=13.647
+13	διὰ	διά	ADV	r--------	_	17	advmod	_	Ref=13.647
+14	πρὸ	πρό	ADV	d--------	_	13	fixed	_	Ref=13.647
 15	δυνήσατο	δύναμαι	VERB	v3saim---	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Mid	7	conj	_	Ref=13.647
 16	χαλκὸν	χαλκός	NOUN	n-s---ma-	Case=Acc|Gender=Masc|Number=Sing	17	obj	_	Ref=13.647
 17	ἐλάσσαι	ἐλαύνω	VERB	v--ana---	VerbForm=Inf|Voice=Act	15	ccomp	_	Ref=13.647
@@ -16954,8 +16954,8 @@
 9	ἐν	ἐν	ADP	r--------	_	10	case	_	Ref=15.342
 10	προμάχοισι	πρόμαχος	ADJ	a-p---md-	Case=Dat|Gender=Masc|Number=Plur	8	obl	_	Ref=15.342|SpaceAfter=No
 11	,	,	PUNCT	u--------	_	16	punct	_	Ref=15.342
-12	διὰ	διά	ADV	r--------	_	13	compound:prt	_	Ref=15.342
-13	πρὸ	πρό	ADV	r--------	_	16	obj	_	Ref=15.342
+12	διὰ	διά	ADV	r--------	_	16	advmod	_	Ref=15.342
+13	πρὸ	πρό	ADV	r--------	_	12	fixed	_	Ref=15.342
 14	δὲ	δέ	CCONJ	g--------	PartType=Ptcl	16	cc	_	Ref=15.342
 15	χαλκὸν	χαλκός	NOUN	n-s---ma-	Case=Acc|Gender=Masc|Number=Sing	16	obj	_	Ref=15.342
 16	ἔλασσεν	ἐλαύνω	VERB	v3saia---	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	4	conj	_	Ref=15.342|SpaceAfter=No

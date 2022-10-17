@@ -26642,7 +26642,7 @@
 11	νίκης	νίκη	NOUN	n-s---fg-	Case=Gen|Gender=Fem|Number=Sing	9	obl	_	Ref=11.544|SpaceAfter=No
 12	,	,	PUNCT	u--------	_	16	punct	_	Ref=11.544
 13	τήν	ὁ	PRON	p-s---fa-	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	obj	_	Ref=11.545
-14	μιν	μιν	PRON	p-s---ma-	Case=Acc|Gender=Masc|Number=Sing	16	obj	_	Ref=11.545
+14	μιν	μιν	PRON	p-s---ma-	Case=Acc|Gender=Masc|Number=Sing	16	iobj	_	Ref=11.545
 15	ἐγὼ	ἐγώ	PRON	p-s---mn-	Case=Nom|Gender=Masc|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	Ref=11.545
 16	νίκησα	νικάω	VERB	v1saia---	Mood=Ind|Number=Sing|Person=1|Tense=Past|Voice=Act	11	acl:relcl	_	Ref=11.545
 17	δικαζόμενος	δικάζω	VERB	v-sppemn-	Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=MidPass	16	advcl	_	Ref=11.545
@@ -31193,19 +31193,19 @@
 # sent_id = 2188884
 # text = αὐτίκα δ' Ἠελίοιο βοῶν ἐλάσαντες ἀρίστας ἐγγύθεν, οὐ γὰρ τῆλε νεὸς κυανοπρῴροιο βοσκέσκονθ' ἕλικες καλαὶ βόες εὐρυμέτωποι·
 1	αὐτίκα	αὐτίκα	ADV	d--------	_	5	advmod	_	Ref=12.353
-2	δ'	δέ	CCONJ	g--------	PartType=Ptcl	0	root	_	Ref=12.353
+2	δ'	δέ	CCONJ	g--------	PartType=Ptcl	5	root	_	Ref=12.353
 3	Ἠελίοιο	ἠέλιος	PROPN	n-s---mg-	Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	Ref=12.353
 4	βοῶν	βοάω	VERB	v-sppamn-	Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	6	nmod	_	Ref=12.353
-5	ἐλάσαντες	ἐλαύνω	VERB	v-papamn-	Case=Nom|Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	2	advcl	_	Ref=12.353
+5	ἐλάσαντες	ἐλαύνω	VERB	v-papamn-	Case=Nom|Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	Ref=12.353
 6	ἀρίστας	ἄριστος	ADJ	a-p---fa-	Case=Acc|Gender=Fem|Number=Plur	5	obj	_	Ref=12.353
-7	ἐγγύθεν	ἐγγύθεν	ADV	d--------	_	5	obj	_	Ref=12.354|SpaceAfter=No
+7	ἐγγύθεν	ἐγγύθεν	ADV	d--------	_	5	advmod	_	Ref=12.354|SpaceAfter=No
 8	,	,	PUNCT	u--------	_	14	punct	_	Ref=12.354
 9	οὐ	οὐ	ADV	d--------	_	14	advmod:neg	_	Ref=12.354
 10	γὰρ	γάρ	ADV	g--------	PartType=Ptcl	14	advmod	_	Ref=12.354
 11	τῆλε	τῆλε	ADP	r--------	_	12	case	_	Ref=12.354
 12	νεὸς	ναῦς	NOUN	n-s---fg-	Case=Gen|Gender=Fem|Number=Sing	14	obl	_	Ref=12.354
 13	κυανοπρῴροιο	κυανόπρῳρος	ADJ	a-s---fg-	Case=Gen|Gender=Fem|Number=Sing	12	amod	_	Ref=12.354
-14	βοσκέσκονθ'	βόσκω	VERB	v3piie---	Mood=Ind|Number=Plur|Person=3|Tense=Imp|Voice=MidPass	2	orphan	_	Ref=12.355
+14	βοσκέσκονθ'	βόσκω	VERB	v3piie---	Mood=Ind|Number=Plur|Person=3|Tense=Imp|Voice=MidPass	5	parataxis	_	Ref=12.355
 15	ἕλικες	ἕλιξ	ADJ	a-p---fn-	Case=Nom|Gender=Fem|Number=Plur	17	amod	_	Ref=12.355
 16	καλαὶ	καλός	ADJ	a-p---fn-	Case=Nom|Gender=Fem|Number=Plur	17	amod	_	Ref=12.355
 17	βόες	βοῦς	NOUN	n-p---fn-	Case=Nom|Gender=Fem|Number=Plur	14	nsubj	_	Ref=12.355
