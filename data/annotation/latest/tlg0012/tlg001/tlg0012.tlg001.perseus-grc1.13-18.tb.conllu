@@ -6136,8 +6136,8 @@
 19	αἴσχεος	αἶσχος	NOUN	n-s---ng-	Case=Gen|Gender=Neut|Number=Sing	16	conj	16:conj	Ref=13.622
 20	οὐκ	οὐ	ADV	d--------	_	21	advmod:neg	21:advmod	Ref=13.622
 21	ἐπιδευεῖς	ἐπιδευής	ADJ	a-p---mn-	Case=Nom|Gender=Masc|Number=Plur	1	conj	1:conj	Ref=13.622
-22	ἣν	ὅς	PRON	p-s---fa-	Case=Acc|Gender=Fem|Number=Sing|PronType=Rel	24	obj	24:obj	Ref=13.623
-23	ἐμὲ	ἐγώ	PRON	p-s---ma-	Case=Acc|Gender=Masc|Number=Sing|Person=1|PronType=Prs	24	iobj	24:obj	Ref=13.623
+22	ἣν	ὅς	PRON	p-s---fa-	Case=Acc|Gender=Fem|Number=Sing|PronType=Rel	24	obl:arg	24:obj	Ref=13.623
+23	ἐμὲ	ἐγώ	PRON	p-s---ma-	Case=Acc|Gender=Masc|Number=Sing|Person=1|PronType=Prs	24	obj	24:obj	Ref=13.623
 24	λωβήσασθε	λωβάομαι	VERB	v2paie---	Mood=Ind|Number=Plur|Person=2|Tense=Past|Voice=MidPass	16	acl:relcl	16:acl	Ref=13.623
 25	κακαὶ	κακός	ADJ	a-p---fv-	Case=Voc|Gender=Fem|Number=Plur	26	amod	26:amod	Ref=13.623
 26	κύνες	κύων	NOUN	n-p---fv-	Case=Voc|Gender=Fem|Number=Plur	24	vocative	24:vocative	Ref=13.623|SpaceAfter=No
@@ -14418,10 +14418,10 @@
 # text = μή με θεὰ Θέμι ταῦτα διείρεο·
 # Speaker = Hera
 1	μή	μή	ADV	d--------	_	6	advmod:neg	_	Ref=15.93
-2	με	ἐγώ	PRON	p-s---fa-	Case=Acc|Gender=Fem|Number=Sing|Person=1|PronType=Prs	6	iobj	_	Ref=15.93
+2	με	ἐγώ	PRON	p-s---fa-	Case=Acc|Gender=Fem|Number=Sing|Person=1|PronType=Prs	6	obj	_	Ref=15.93
 3	θεὰ	θεά	NOUN	n-s---fv-	Case=Voc|Gender=Fem|Number=Sing	4	nmod	_	Ref=15.93
 4	Θέμι	θέμις	PROPN	n-s---fv-	Case=Voc|Gender=Fem|Number=Sing	6	vocative	_	Ref=15.93
-5	ταῦτα	οὗτος	PRON	a-p---na-	Case=Acc|Gender=Neut|Number=Plur|PronType=Dem	6	obj	_	Ref=15.93
+5	ταῦτα	οὗτος	PRON	a-p---na-	Case=Acc|Gender=Neut|Number=Plur|PronType=Dem	6	iobj	_	Ref=15.93
 6	διείρεο	διείρομαι	VERB	v2spme---	Mood=Imp|Number=Sing|Person=2|Tense=Pres|Voice=MidPass	0	root	_	Ref=15.93|SpaceAfter=No
 7	·	·	PUNCT	u--------	_	6	punct	_	Ref=15.93
 
