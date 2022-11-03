@@ -23164,9 +23164,9 @@
 16	,	,	PUNCT	u--------	_	5	punct	5:punct	Ref=4.383
 17	ἔνθ'	ἔνθα	ADV	d--------	_	22	advmod	22:advmod	Ref=4.384
 18	αὖτ'	αὖτε	ADV	d--------	_	22	advmod	22:advmod	Ref=4.384
-19	ἀγγελίην	ἀγγελία	NOUN	n-s---fa-	Case=Acc|Gender=Fem|Number=Sing	22	obj	22:obj	Ref=4.384
+19	ἀγγελίην	ἀγγελίης	NOUN	n-s---ma-	Case=Acc|Gender=Masc|Number=Sing	22	obj	22:obj	Ref=4.384
 20	ἐπὶ	ἐπί	ADV	r--------	_	22	compound:prt	22:compound	Ref=4.384
-21	Τυδῆ	Τυδεύς	PROPN	n-s---ma-	Case=Acc|Gender=Masc|Number=Sing	22	obj	22:obj	Ref=4.384
+21	Τυδῆ	Τυδεύς	PROPN	n-s---ma-	Case=Acc|Gender=Masc|Number=Sing	22	obl:arg	22:obj	Ref=4.384
 22	στεῖλαν	στέλλω	VERB	v3paia---	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	0:root	Ref=4.384
 23	Ἀχαιοί	Ἀχαιός	ADJ	a-p---mn-	Case=Nom|Gender=Masc|Number=Plur	1	appos	1:appos	Ref=4.384|SpaceAfter=No
 24	.	.	PUNCT	u--------	_	22	punct	0:punct	Ref=4.384
@@ -24230,7 +24230,7 @@
 9	ἐσθλὸν	ἐσθλός	ADJ	a-s---ma-	Case=Acc|Gender=Masc|Number=Sing	10	amod	10:amod	Ref=4.491
 10	ἑταῖρον	ἑταῖρος	NOUN	n-s---ma-	Case=Acc|Gender=Masc|Number=Sing	7	appos	7:appos	Ref=4.491
 11	βεβλήκει	βάλλω	VERB	v3slia---	Mood=Ind|Number=Sing|Person=3|Voice=Act	3	conj	3:conj	Ref=4.492
-12	βουβῶνα	βουβών	NOUN	n-s---ma-	Case=Acc|Gender=Masc|Number=Sing	11	obj	11:obj	Ref=4.492|SpaceAfter=No
+12	βουβῶνα	βουβών	NOUN	n-s---ma-	Case=Acc|Gender=Masc|Number=Sing	11	obl:arg	11:obj	Ref=4.492|SpaceAfter=No
 13	,	,	PUNCT	u--------	_	16	punct	16:punct	Ref=4.492
 14	νέκυν	νέκυς	NOUN	n-s---ma-	Case=Acc|Gender=Masc|Number=Sing	16	obj	16:obj	Ref=4.492
 15	ἑτέρωσ'	ἑτέρωσε	ADV	d--------	_	16	advmod	16:advmod	Ref=4.492
@@ -26991,8 +26991,8 @@
 # Speaker = Aeneas
 1	τὼ	ὁ	PRON	p-d---mn-	Case=Nom|Definite=Def|Gender=Masc|Number=Dual|PronType=Art	6	nsubj	_	Ref=5.224
 2	καὶ	καί	ADV	d--------	_	3	advmod	_	Ref=5.224
-3	νῶϊ	ἐγώ	PRON	p-d---ma-	Case=Acc|Gender=Masc|Number=Dual|Person=1|PronType=Prs	6	iobj	_	Ref=5.224
-4	πόλιν	πόλις	NOUN	n-s---fa-	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	Ref=5.224
+3	νῶϊ	ἐγώ	PRON	p-d---ma-	Case=Acc|Gender=Masc|Number=Dual|Person=1|PronType=Prs	6	obj	_	Ref=5.224
+4	πόλιν	πόλις	NOUN	n-s---fa-	Case=Acc|Gender=Fem|Number=Sing	6	obl:arg	_	Ref=5.224
 5	δὲ	δέ	ADV	g--------	PartType=Ptcl	4	advmod	_	Ref=5.224
 6	σαώσετον	σώζω	VERB	v3dfia---	Mood=Ind|Number=Dual|Person=3|Tense=Fut|Voice=Act	0	root	_	Ref=5.224|SpaceAfter=No
 7	,	,	PUNCT	u--------	_	17	punct	_	Ref=5.224
@@ -27959,7 +27959,7 @@
 4	φίλον	φίλος	ADJ	a-s---ma-	Case=Acc|Gender=Masc|Number=Sing	5	amod	_	Ref=5.314
 5	υἱὸν	υἱός	NOUN	n-s---ma-	Case=Acc|Gender=Masc|Number=Sing	6	obj	_	Ref=5.314
 6	ἐχεύατο	χέω	VERB	v3saim---	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Mid	0	root	_	Ref=5.314
-7	πήχεε	πῆχυς	NOUN	n-d---ma-	Case=Acc|Gender=Masc|Number=Dual	6	obj	_	Ref=5.314
+7	πήχεε	πῆχυς	NOUN	n-d---ma-	Case=Acc|Gender=Masc|Number=Dual	6	iobj	_	Ref=5.314
 8	λευκώ	λευκός	ADJ	a-d---ma-	Case=Acc|Gender=Masc|Number=Dual	7	amod	_	Ref=5.314|SpaceAfter=No
 9	,	,	PUNCT	u--------	_	16	punct	_	Ref=5.314
 10	πρόσθε	πρόσθεν	ADV	d--------	_	16	advmod	_	Ref=5.315
