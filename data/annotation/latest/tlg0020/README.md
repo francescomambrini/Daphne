@@ -20,4 +20,4 @@ error or missing information, please report everythin in the [issue](https://git
 
 The AGLDT files were converted to UD using the [tb2ud](https://github.com/francescomambrini/tb2ud) set of scripts.
 
-The UD files were reviewed by Francesco Mambrinia and Lorenzo Reina.
+The UD files were reviewed by Francesco Mambrini and Lorenzo Reina.
