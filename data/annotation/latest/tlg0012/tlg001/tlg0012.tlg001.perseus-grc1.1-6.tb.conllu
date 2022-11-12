@@ -1214,11 +1214,11 @@
 4	γε	γε	ADV	g--------	PartType=Ptcl	3	advmod	3:advmod	Ref=1.120
 5	πάντες	πᾶς	PRON	a-p---mn-	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	1	nsubj	1:nsubj	Ref=1.120
 6	ὅ	ὅς	PRON	p-s---na-	Case=Acc|Gender=Neut|Number=Sing|PronType=Rel	9	mark	9:mark	Ref=1.120
-7	μοι	ἐγώ	PRON	p-s---md-	Case=Dat|Gender=Masc|Number=Sing|Person=1|PronType=Prs	8	nmod	8:nmod	Ref=1.120
+7	μοι	ἐγώ	PRON	p-s---md-	Case=Dat|Gender=Masc|Number=Sing|Person=1|PronType=Prs	9	obl	_	Ref=1.120
 8	γέρας	γέρας	NOUN	n-s---nn-	Case=Nom|Gender=Neut|Number=Sing	9	nsubj	9:nsubj	Ref=1.120
-9	ἔρχεται	ἔρχομαι	VERB	v3spie---	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=MidPass	3	appos	3:appos	Ref=1.120
-10	ἄλλῃ	ἄλλῃ	ADV	d--------	_	9	obj	9:obj	Ref=1.120|SpaceAfter=No
-11	.	.	PUNCT	u--------	_	1	punct	0:punct	Ref=1.120
+9	ἔρχεται	ἔρχομαι	VERB	v3spie---	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=MidPass	3	parataxis	3:appos	Ref=1.120
+10	ἄλλῃ	ἄλλῃ	ADV	d--------	_	9	advmod	9:obj	Ref=1.120|SpaceAfter=No
+11	.	.	PUNCT	u--------	_	1	punct	_	Ref=1.120
 
 # sent_id = 2274166
 # text = τὸν δ' ἠμείβετ' ἔπειτα ποδάρκης δῖος Ἀχιλλεύς·

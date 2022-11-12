@@ -752,7 +752,7 @@
 8	νόστον	νόστος	NOUN	n-s---ma-	Case=Acc|Gender=Masc|Number=Sing	6	obj	_	Ref=1.77|SpaceAfter=No
 9	,	,	PUNCT	u--------	_	11	punct	_	Ref=1.77
 10	ὅπως	ὅπως	SCONJ	c--------	_	11	mark	_	Ref=1.77
-11	ἔλθῃσι	ἔρχομαι	VERB	v3sasa---	Mood=Sub|Number=Sing|Person=3|Voice=Act	8	appos	_	Ref=1.77|SpaceAfter=No
+11	ἔλθῃσι	ἔρχομαι	VERB	v3sasa---	Mood=Sub|Number=Sing|Person=3|Voice=Act	6	xcomp	_	Ref=1.77|SpaceAfter=No
 12	·	·	PUNCT	u--------	_	6	punct	_	Ref=1.77
 
 # sent_id = 2185580
@@ -4856,7 +4856,7 @@
 8	ὅτι	ὅστις	PRON	p-s---na-	Case=Acc|Gender=Neut|Number=Sing|PronType=Rel	11	obj	_	Ref=2.34
 9	φρεσὶν	φρήν	NOUN	n-p---fd-	Case=Dat|Gender=Fem|Number=Plur	11	iobj	_	Ref=2.34
 10	ᾗσι	ὅς	PRON	p-p---fd-	Case=Dat|Gender=Fem|Number=Plur|PronType=Rel	9	nmod	_	Ref=2.34
-11	μενοινᾷ	μενοινάω	VERB	v3spia---	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	appos	_	Ref=2.34|SpaceAfter=No
+11	μενοινᾷ	μενοινάω	VERB	v3spia---	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	acl	_	Ref=2.34|SpaceAfter=No
 12	.	.	PUNCT	u--------	_	6	punct	_	Ref=2.34
 13	"	"	PUNCT	u--------	_	6	punct	_	Ref=2.34
 
@@ -5725,15 +5725,15 @@
 12	φρονέουσ'	φρονέω	VERB	v-sppafn-	Case=Nom|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	4	advcl	4:advcl	Ref=2.116
 13	ἀνὰ	ἀνά	ADP	r--------	_	14	case	14:case	Ref=2.116
 14	θυμόν	θυμός	NOUN	n-s---ma-	Case=Acc|Gender=Masc|Number=Sing	12	obl:arg	12:obl	Ref=2.116|SpaceAfter=No
-15	,	,	PUNCT	u--------	_	16	punct	11:punct	Ref=2.116
-16	ὅ	ὅς	PRON	p-s---na-	Case=Acc|Gender=Neut|Number=Sing|PronType=Rel	11	obj	11:obj	Ref=2.116
-17	οἱ	ἕ	PRON	p-s---fd-	Case=Dat|Gender=Fem|Number=Sing|PronType=Prs	19	obj	19:obj	Ref=2.116
+15	,	,	PUNCT	u--------	_	19	punct	_	Ref=2.116
+16	ὅ	ὅς	PRON	p-s---na-	Case=Acc|Gender=Neut|Number=Sing|PronType=Rel	19	obj	_	Ref=2.116
+17	οἱ	ἕ	PRON	p-s---fd-	Case=Dat|Gender=Fem|Number=Sing|PronType=Prs	19	iobj	19:obj	Ref=2.116
 18	πέρι	περί	ADV	d--------	_	19	advmod	19:advmod	Ref=2.116
-19	δῶκεν	δίδωμι	VERB	v3saia---	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	11	appos	11:appos	Ref=2.116
+19	δῶκεν	δίδωμι	VERB	v3saia---	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	11	acl	11:appos	Ref=2.116
 20	Ἀθήνη	Ἀθήνη	PROPN	n-s---fn-	Case=Nom|Gender=Fem|Number=Sing	19	nsubj	19:nsubj	Ref=2.116
 21	ἔργα	ἔργον	NOUN	n-p---na-	Case=Acc|Gender=Neut|Number=Plur	23	obj	23:obj	Ref=2.117
 22	τ'	τε	CCONJ	c--------	_	23	cc	23:cc	Ref=2.117
-23	ἐπίστασθαι	ἐπίσταμαι	VERB	v--pne---	Tense=Pres|VerbForm=Inf|Voice=MidPass	11	appos	11:appos	Ref=2.117
+23	ἐπίστασθαι	ἐπίσταμαι	VERB	v--pne---	Tense=Pres|VerbForm=Inf|Voice=MidPass	11	parataxis	11:appos	Ref=2.117
 24	περικαλλέα	περικαλλής	ADJ	a-p---na-	Case=Acc|Gender=Neut|Number=Plur	21	amod	21:amod	Ref=2.117
 25	καὶ	καί	CCONJ	c--------	_	26	cc	26:cc	Ref=2.117
 26	φρένας	φρήν	NOUN	n-p---fa-	Case=Acc|Gender=Fem|Number=Plur	23	conj	23:conj	Ref=2.117
@@ -6204,8 +6204,8 @@
 8	,	,	PUNCT	u--------	_	7	punct	7:punct	Ref=2.161
 9	ὅττι	ὅστις	PRON	p-s---na-	Case=Acc|Gender=Neut|Number=Sing|PronType=Rel	11	obj	11:obj	Ref=2.161
 10	κεν	ἄν	ADV	g--------	PartType=Ptcl	11	advmod	11:advmod	Ref=2.161
-11	εἴπω	εἶπον	VERB	v1sasa---	Mood=Sub|Number=Sing|Person=1|Voice=Act	5	appos	5:appos	Ref=2.161|SpaceAfter=No
-12	·	·	PUNCT	u--------	_	2	punct	0:punct	Ref=2.161
+11	εἴπω	εἶπον	VERB	v1sasa---	Mood=Sub|Number=Sing|Person=1|Voice=Act	2	xcomp	_	Ref=2.161|SpaceAfter=No
+12	·	·	PUNCT	u--------	_	2	punct	_	Ref=2.161
 
 # sent_id = 2185867
 # text = μνηστῆρσιν δὲ μάλιστα πιφαυσκόμενος τάδε εἴρω·
@@ -6919,7 +6919,7 @@
 8	,	,	PUNCT	u--------	_	7	punct	_	Ref=2.229
 9	ὅττι	ὅστις	PRON	p-s---na-	Case=Acc|Gender=Neut|Number=Sing|PronType=Rel	11	obj	_	Ref=2.229
 10	κεν	ἄν	ADV	g--------	PartType=Ptcl	11	advmod	_	Ref=2.229
-11	εἴπω	εἶπον	VERB	v1sasa---	Mood=Sub|Number=Sing|Person=1|Voice=Act	5	appos	_	Ref=2.229|SpaceAfter=No
+11	εἴπω	εἶπον	VERB	v1sasa---	Mood=Sub|Number=Sing|Person=1|Voice=Act	2	xcomp	_	Ref=2.229|SpaceAfter=No
 12	·	·	PUNCT	u--------	_	2	punct	_	Ref=2.229
 
 # sent_id = 2185904
