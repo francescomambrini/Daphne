@@ -17847,15 +17847,14 @@
 18	χαλκήρεϊ	χαλκήρης	ADJ	a-s---fd-	Case=Dat|Gender=Fem|Number=Sing	17	amod	17:amod	Ref=3.316
 19	πάλλον	πάλλω	VERB	v3piia---	Mood=Ind|Number=Plur|Person=3|Tense=Imp|Voice=Act	11	conj	11:conj	Ref=3.316
 20	ἑλόντες	αἱρέω	VERB	v-papamn-	Case=Nom|Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	19	advcl	19:advcl	Ref=3.316|SpaceAfter=No
-20.1	E20.1	_	_	_	_	0	_	19:advmod	_
 21	,	,	PUNCT	u--------	_	25	punct	25:punct	Ref=3.316
 22	ὁππότερος	ὁπότερος	PRON	a-s---mn-	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	25	nsubj	25:nsubj	Ref=3.317
 23	δὴ	δή	ADV	g--------	PartType=Ptcl	22	advmod	22:advmod	Ref=3.317
 24	πρόσθεν	πρόσθεν	ADV	d--------	_	25	advmod	25:advmod	Ref=3.317
-25	ἀφείη	ἀφίημι	VERB	v3saoa---	Mood=Opt|Number=Sing|Person=3|Voice=Act	19	advmod	20.1:ccomp	Ref=3.317
+25	ἀφείη	ἀφίημι	VERB	v3saoa---	Mood=Opt|Number=Sing|Person=3|Voice=Act	19	advcl	_	Ref=3.317
 26	χάλκεον	χάλκεος	ADJ	a-s---na-	Case=Acc|Gender=Neut|Number=Sing	27	amod	27:amod	Ref=3.317
 27	ἔγχος	ἔγχος	NOUN	n-s---na-	Case=Acc|Gender=Neut|Number=Sing	25	obj	25:obj	Ref=3.317|SpaceAfter=No
-28	.	.	PUNCT	u--------	_	11	punct	0:punct	Ref=3.317
+28	.	.	PUNCT	u--------	_	11	punct	_	Ref=3.317
 
 # sent_id = 2275039
 # text = λαοὶ δ' ἠρήσαντο, θεοῖσι δὲ χεῖρας ἀνέσχον, ὧδε δέ τις εἴπεσκεν Ἀχαιῶν τε Τρώων τε·
@@ -18019,15 +18018,15 @@
 7	ἀργυρόηλον	ἀργυρόηλος	ADJ	a-s---na-	Case=Acc|Gender=Neut|Number=Sing	6	amod	6:amod	Ref=3.334
 8	χάλκεον	χάλκεος	ADJ	a-s---na-	Case=Acc|Gender=Neut|Number=Sing	6	amod	6:amod	Ref=3.335|SpaceAfter=No
 9	,	,	PUNCT	u--------	_	12	punct	12:punct	Ref=3.335
-10	αὐτὰρ	ἀτάρ	ADV	g--------	PartType=Ptcl	12	cc	10.1:cc	Ref=3.335
-10.1	E10.1	_	_	_	_	0	_	5:conj	_
-11	ἔπειτα	ἔπειτα	ADV	d--------	_	12	advmod	10.1:advmod	Ref=3.335
+10	αὐτὰρ	ἀτάρ	ADV	g--------	PartType=Ptcl	12	cc	12:cc	Ref=3.335
+10.1	E10.1	_	_	_	_	0	_	5:conj	EllType=Gapping
+11	ἔπειτα	ἔπειτα	ADV	d--------	_	12	advmod	12:advmod	Ref=3.335
 12	σάκος	σάκος	NOUN	n-s---na-	Case=Acc|Gender=Neut|Number=Sing	5	conj	10.1:obj	Ref=3.335
 13	μέγα	μέγας	ADJ	a-s---na-	Case=Acc|Gender=Neut|Number=Sing	12	amod	12:amod	Ref=3.335
 14	τε	τε	CCONJ	c--------	_	15	cc	15:cc	Ref=3.335
 15	στιβαρόν	στιβαρός	ADJ	a-s---na-	Case=Acc|Gender=Neut|Number=Sing	13	conj	13:conj	Ref=3.335
 16	τε	τε	CCONJ	c--------	_	15	cc	15:cc	Ref=3.335|SpaceAfter=No
-17	·	·	PUNCT	u--------	_	5	punct	0:punct	Ref=3.335
+17	·	·	PUNCT	u--------	_	5	punct	_	Ref=3.335
 
 # sent_id = 2275049
 # text = κρατὶ δ' ἐπ' ἰφθίμῳ κυνέην εὔτυκτον ἔθηκεν ἵππουριν·
