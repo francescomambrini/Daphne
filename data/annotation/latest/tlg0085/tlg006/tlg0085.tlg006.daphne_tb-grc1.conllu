@@ -615,7 +615,7 @@
 8	βροτοῖς	βροτός	NOUN	n-p---md-	Case=Dat|Gender=Masc|Number=Plur	7	obl	_	Ref=93|SpaceAfter=No
 9	,	,	PUNCT	u--------	_	11	punct	_	Ref=93
 10	ἔσθλ'	ἐσθλός	ADJ	a-p---na-	Case=Acc|Gender=Neut|Number=Plur	11	obj	_	Ref=94
-11	ἀντιδοῦναι	ἀντιδίδωμι	VERB	v--ana---	VerbForm=Inf|Voice=Act	4	appos	_	Ref=94
+11	ἀντιδοῦναι	ἀντιδίδωμι	VERB	v--ana---	VerbForm=Inf|Voice=Act	4	acl	_	Ref=94
 12	τοῖσι	ὁ	DET	l-p---md-	Case=Dat|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	Ref=94
 13	πέμπουσιν	πέμπω	VERB	v-pppamd-	Case=Dat|Gender=Masc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	11	iobj	_	Ref=94
 14	τάδε	ὅδε	DET	p-p---na-	Case=Acc|Gender=Neut|Number=Plur|PronType=Dem	15	det	_	Ref=94
@@ -2525,7 +2525,7 @@
 # text = δράσαντι παθεῖν, τριγέρων μῦθος τάδε φωνεῖ.
 0.1	E0.1	_	_	_	_	0	_	6:appos	_
 1	δράσαντι	δράω	VERB	v-sapamd-	Case=Dat|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	2	orphan	0.1:advcl	Ref=313
-2	παθεῖν	πάσχω	VERB	v--ana---	VerbForm=Inf|Voice=Act	6	appos	0.1:csubj	Ref=313|SpaceAfter=No
+2	παθεῖν	πάσχω	VERB	v--ana---	VerbForm=Inf|Voice=Act	6	parataxis	0.1:csubj	Ref=313|SpaceAfter=No
 3	,	,	PUNCT	u--------	_	2	punct	0.1:punct	Ref=313
 4	τριγέρων	τριγέρων	ADJ	a-s---mn-	Case=Nom|Gender=Masc|Number=Sing	5	amod	5:amod	Ref=314
 5	μῦθος	μῦθος	NOUN	n-s---mn-	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	7:nsubj	Ref=314
@@ -5695,7 +5695,7 @@
 17	,	,	PUNCT	u--------	_	19	punct	_	Ref=756
 18	ἢ	ἤ	CCONJ	c--------	_	19	cc	_	Ref=756
 19	λιψουρία	λιψουρία	NOUN	n-s---fn-	Case=Nom|Gender=Fem|Number=Sing	12	conj	_	Ref=756
-20	ἔχει	ἔχω	VERB	v3spia---	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	appos	_	Ref=757|SpaceAfter=No
+20	ἔχει	ἔχω	VERB	v3spia---	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	parataxis	_	Ref=757|SpaceAfter=No
 21	·	·	PUNCT	u--------	_	4	punct	_	Ref=757
 
 # sent_id = 376
@@ -7225,7 +7225,7 @@
 14	οἴκων	οἶκος	NOUN	n-p---mg-	Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	Ref=934
 15	μὴ	μή	ADV	g--------	_	17	advmod:neg	_	Ref=934
 16	πανώλεθρον	πανώλεθρος	ADJ	a-s---ma-	Case=Acc|Gender=Masc|Number=Sing	13	acl:compl	_	Ref=934
-17	πεσεῖν	πίπτω	VERB	v--ana---	VerbForm=Inf|Voice=Act	9	appos	_	Ref=934|SpaceAfter=No
+17	πεσεῖν	πίπτω	VERB	v--ana---	VerbForm=Inf|Voice=Act	9	parataxis	_	Ref=934|SpaceAfter=No
 18	.	.	PUNCT	u--------	_	11	punct	_	Ref=934
 
 # sent_id = 501

@@ -10,12 +10,14 @@ annotation schema. If you want the old AGLDT-compliant XML files you can either:
 ## What is it?
 
 A collection of treebanks of poetic Ancient Greek texts, starting with drama and
-archaic epos. For Aeschylus, Sophocles, Homer and (coming soon) Hesiod, the source
+archaic epos. For Aeschylus, Sophocles, Homer and Hesiod, the source
 of the annotation is Perseus' [Ancient Greek and Latin Dependency Treebank](https://perseusdl.github.io/treebank_data/).
+Euripides' *Medea* comes from [Pedalion](https://github.com/perseids-publications/pedalion-trees).
 
-Perseus' treebanks were converted to the
-[Universal Dependencies](https://universaldependencies.org/) (UD) format and annotation
-shema, with the help of my rule-based converted [tb2ud](https://github.com/francescomambrini/tb2ud). The UD conversion is constantly revised and reviewed by hand.
+The treebanks were converted from the original AGLDT-like formalism to
+[Universal Dependencies](https://universaldependencies.org/) (UD) with the help
+of my rule-based converted [tb2ud](https://github.com/francescomambrini/tb2ud).
+The UD conversion is constantly revised and reviewed by hand.
 
 ## What kind of modification were introduced?
 

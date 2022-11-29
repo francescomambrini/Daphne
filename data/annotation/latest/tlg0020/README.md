@@ -14,7 +14,7 @@ The Hesiodic corpus was originally annotated by:
 * Sam Zukoff
 
 See the original XML files for more information on the annotators. If you spot any
-error or missing information, please report everythin in the [issue](https://github.com/francescomambrini/Daphne/issues) section.
+error or missing information, please report everything in the [issue](https://github.com/francescomambrini/Daphne/issues) section.
 
 ## Conversion and revision
 
