@@ -4,20 +4,20 @@
 2	ὤφελ’	ὀφείλω	VERB	v3saia---	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	0:root	_
 3	Ἀργοῦς	Ἀργώ	PROPN	n-s---fg-	Case=Gen|Gender=Fem|Number=Sing	6	nmod	6:nmod	_
 4	μή	μή	ADV	d--------	_	2	advmod:neg	2:advmod:neg	_
-5	διαπτάσθαι	διαπέταμαι	VERB	v--anm---	VerbForm=Inf|Voice=Mid	2	ccomp	2:ccomp	_
+5	διαπτάσθαι	διαπέταμαι	VERB	v--anm---	VerbForm=Inf|Voice=Mid	2	xcomp	2:ccomp	_
 6	σκάφος	σκάφος	NOUN	n-s---nn-	Case=Nom|Gender=Neut|Number=Sing	2	nsubj	2:nsubj	_
 7	Κόλχων	Κόλχος	PROPN	n-p---mg-	Case=Gen|Gender=Masc|Number=Plur	9	nmod	9:nmod	_
 8	ἐς	εἰς	ADP	r--------	_	9	case	9:case	_
 9	αἶαν	αἶα	NOUN	n-s---fa-	Case=Acc|Gender=Fem|Number=Sing	5	obl:arg	5:obl:arg	_
 10	κυανέας	κυάνεος	ADJ	a-s---fg-	Case=Gen|Gender=Fem|Number=Sing	11	amod	11:amod	_
-11	Συμπληγάδας	Συμπληγάς	PROPN	n-p---fa-	Case=Acc|Gender=Fem|Number=Plur	5	obl	5:obl	SpaceAfter=No
+11	Συμπληγάδας	Συμπληγάς	PROPN	n-p---fa-	Case=Acc|Gender=Fem|Number=Plur	5	obj	5:obl	SpaceAfter=No
 12	,	,	PUNCT	u--------	_	13	punct	13:punct	_
 12.1	E12.1	_	_	_	_	_	_	2:conj	_
 13	μηδ’	μηδέ	ADV	d--------	_	2	conj	12.1:conj|12.1:advmod:neg	_
 14	ἐν	ἐν	ADP	r--------	_	15	case	15:case	_
 15	νάπαισι	νάπη	NOUN	n-p---fd-	Case=Dat|Gender=Fem|Number=Plur	17	obl	17:obl	_
 16	Πηλίου	Πήλιον	PROPN	n-s---ng-	Case=Gen|Gender=Neut|Number=Sing	15	nmod	15:nmod	_
-17	πεσεῖν	πίπτω	VERB	v--ana---	VerbForm=Inf|Voice=Act	13	orphan	12.1:ccomp|12.1:ccomp	_
+17	πεσεῖν	πίπτω	VERB	v--ana---	VerbForm=Inf|Voice=Act	2	conj	12.1:ccomp|12.1:ccomp	_
 18	ποτε	ποτέ	ADV	d--------	PartType=Ptcl	17	advmod	17:advmod	_
 19	τμηθεῖσα	τέμνω	VERB	v-sappfn-	Case=Nom|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	20	advcl	20:advcl	_
 20	πεύκη	πεύκη	NOUN	n-s---fn-	Case=Nom|Gender=Fem|Number=Sing	17	nsubj	17:nsubj	SpaceAfter=No
@@ -1221,9 +1221,9 @@
 # sent_id = 79
 # text = φεῦ φεῦ·
 0.1	E0.1	_	_	_	_	_	_	0:root	_
-1	φεῦ	φεῦ	INTJ	i--------	_	0	discourse	0.1:discourse|0.1:discourse	_
-2	φεῦ	φεῦ	INTJ	i--------	_	0	discourse	0.1:discourse|0.1:discourse	SpaceAfter=No
-3	·	·	PUNCT	u--------	_	0	punct	0.1:punct	_
+1	φεῦ	φεῦ	INTJ	i--------	_	0	root	0.1:discourse|0.1:discourse	_
+2	φεῦ	φεῦ	INTJ	i--------	_	0	root	0.1:discourse|0.1:discourse	SpaceAfter=No
+3	·	·	PUNCT	u--------	_	0	root	0.1:punct	_
 
 # sent_id = 80
 # text = θανάτῳ καταλυσαίμαν βιοτάν στυγεράν προλιποῦσα.
@@ -5117,7 +5117,7 @@
 4	λυπρός	λυπρός	ADJ	a-s---mn-	Case=Nom|Gender=Masc|Number=Sing	6	amod	6:amod	_
 5	εὐδαίμων	εὐδαίμων	ADJ	a-s---mn-	Case=Nom|Gender=Masc|Number=Sing	6	amod	6:amod	_
 6	βίος	βίος	NOUN	n-s---mn-	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	3:nsubj	_
-7	μηδ’	μηδέ	ADV	d--------	_	0	root:neg	0:root:neg	_
+7	μηδ’	μηδέ	ADV	d--------	_	0	root	0:root:neg	_
 7.1	E7.1	_	_	_	_	_	_	7:punct	_
 8	ὄλβος	ὄλβος	NOUN	n-s---mn-	Case=Nom|Gender=Masc|Number=Sing	7	punct	7.1:punct|7.1:nsubj	_
 9	ὅστις	ὅστις	PRON	p-s---mn-	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	12	nsubj	12:nsubj	_
@@ -11225,11 +11225,11 @@
 # sent_id = 752
 # text = ἐντός ἤ ’ξωθεν δόμων;
 0.1	E0.1	_	_	_	_	_	_	0:root	_
-1	ἐντός	ἐντός	ADP	r--------	_	0	case	0.1:case	_
+1	ἐντός	ἐντός	ADP	r--------	_	0	root	0.1:case	_
 2	ἤ	ἤ	X	b--------	_	3	cc	0.1:cc	_
 3	’ξωθεν	ἔξωθεν	ADP	r--------	_	1	conj	1:conj	_
 4	δόμων	δόμος	NOUN	n-p---mg-	Case=Gen|Gender=Masc|Number=Plur	1	obl	1:obl	SpaceAfter=No
-5	;	;	PUNCT	u--------	_	0	punct	0.1:punct	_
+5	;	;	PUNCT	u--------	_	0	root	0.1:punct	_
 
 # sent_id = 753
 # text = πύλας ἀνοίξας σῶν τέκνων ὄψῃ φόνον.
