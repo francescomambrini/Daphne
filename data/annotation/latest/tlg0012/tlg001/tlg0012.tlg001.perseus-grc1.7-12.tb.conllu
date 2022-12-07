@@ -31550,12 +31550,12 @@
 1	Πηλεὺς	Πηλεύς	PROPN	n-s---mn-	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	Ref=11.783
 2	μὲν	μέν	ADV	g--------	PartType=Ptcl	6	advmod	_	Ref=11.783
 3	ᾧ	ἑός	ADJ	a-s---md-	Case=Dat|Gender=Masc|Number=Sing	4	amod	_	Ref=11.783
-4	παιδὶ	παῖς	NOUN	n-s---md-	Case=Dat|Gender=Masc|Number=Sing	7	nmod	_	Ref=11.783
+4	παιδὶ	παῖς	NOUN	n-s---md-	Case=Dat|Gender=Masc|Number=Sing	6	obj	_	Ref=11.783
 5	γέρων	γέρων	NOUN	n-s---mn-	Case=Nom|Gender=Masc|Number=Sing	1	nmod	_	Ref=11.783
 6	ἐπέτελλ'	ἐπιτέλλω	VERB	v3siia---	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	0	root	_	Ref=11.783
-7	Ἀχιλῆϊ	Ἀχιλλεύς	PROPN	n-s---md-	Case=Dat|Gender=Masc|Number=Sing	6	obj	_	Ref=11.783
+7	Ἀχιλῆϊ	Ἀχιλλεύς	PROPN	n-s---md-	Case=Dat|Gender=Masc|Number=Sing	4	appos	_	Ref=11.783
 8	αἰὲν	ἀεί	ADV	d--------	_	9	advmod	_	Ref=11.784
-9	ἀριστεύειν	ἀριστεύω	VERB	v--pna---	Tense=Pres|VerbForm=Inf|Voice=Act	6	ccomp	_	Ref=11.784
+9	ἀριστεύειν	ἀριστεύω	VERB	v--pna---	Tense=Pres|VerbForm=Inf|Voice=Act	6	xcomp	_	Ref=11.784
 10	καὶ	καί	CCONJ	c--------	_	11	cc	_	Ref=11.784
 11	ὑπείροχον	ὑπέροχος	ADJ	a-s---ma-	Case=Acc|Gender=Masc|Number=Sing	9	conj	_	Ref=11.784
 12	ἔμμεναι	εἰμί	AUX	v--pna---	Tense=Pres|VerbForm=Inf|Voice=Act	11	cop	_	Ref=11.784
@@ -33058,7 +33058,7 @@
 8	εὖ	εὖ	ADV	d--------	_	11	advmod	_	Ref=12.85
 9	κατὰ	κατά	ADP	r--------	_	10	case	_	Ref=12.85
 10	κόσμον	κόσμος	NOUN	n-s---ma-	Case=Acc|Gender=Masc|Number=Sing	11	obl	_	Ref=12.85
-11	ἐρυκέμεν	ἐρύκω	VERB	v--pna---	Tense=Pres|VerbForm=Inf|Voice=Act	5	ccomp	_	Ref=12.85
+11	ἐρυκέμεν	ἐρύκω	VERB	v--pna---	Tense=Pres|VerbForm=Inf|Voice=Act	5	xcomp	_	Ref=12.85
 12	αὖθ'	αὖτε	ADV	d--------	_	11	obj	_	Ref=12.85
 13	ἐπὶ	ἐπί	ADP	r--------	_	14	case	_	Ref=12.85
 14	τάφρῳ	τάφρος	NOUN	n-s---fd-	Case=Dat|Gender=Fem|Number=Sing	11	iobj	_	Ref=12.85|SpaceAfter=No
@@ -34240,10 +34240,10 @@
 2	αὖτ'	αὖτε	ADV	d--------	_	3	advmod	_	Ref=12.215
 3	ἐξερέω	ἐξερέω	VERB	v1sfia---	Mood=Ind|Number=Sing|Person=1|Tense=Fut|Voice=Act	0	root	_	Ref=12.215
 4	ὥς	ὡς	ADV	c--------	_	6	advmod	_	Ref=12.215
-5	μοι	ἐγώ	PRON	p-s---md-	Case=Dat|Gender=Masc|Number=Sing|Person=1|PronType=Prs	6	obj	_	Ref=12.215
+5	μοι	ἐγώ	PRON	p-s---md-	Case=Dat|Gender=Masc|Number=Sing|Person=1|PronType=Prs	6	obl	_	Ref=12.215
 6	δοκεῖ	δοκέω	VERB	v3spia---	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	advcl	_	Ref=12.215
 7	εἶναι	εἰμί	AUX	v--pna---	Tense=Pres|VerbForm=Inf|Voice=Act	8	cop	_	Ref=12.215
-8	ἄριστα	ἄριστος	ADJ	a-p---nn-	Case=Nom|Gender=Neut|Number=Plur	6	ccomp	_	Ref=12.215|SpaceAfter=No
+8	ἄριστα	ἄριστος	ADJ	a-p---nn-	Case=Nom|Gender=Neut|Number=Plur	6	xcomp	_	Ref=12.215|SpaceAfter=No
 9	.	.	PUNCT	u--------	_	3	punct	_	Ref=12.215
 
 # sent_id = 2278000
