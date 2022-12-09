@@ -1081,17 +1081,17 @@
 
 # sent_id = 2187276
 # text = πέρι γάρ σφισι δῶκεν Ἀθήνη ἔργα τ' ἐπίστασθαι περικαλλέα καὶ φρένας ἐσθλάς.
-1	πέρι	περί	ADV	r--------	_	4	compound:prt	_	Ref=7.110
+1	πέρι	περί	ADV	r--------	_	4	advmod	_	Ref=7.110
 2	γάρ	γάρ	ADV	g--------	PartType=Ptcl	4	advmod	_	Ref=7.110
 3	σφισι	σφεῖς	PRON	p-p---fd-	Case=Dat|Gender=Fem|Number=Plur|PronType=Prs	4	obj	_	Ref=7.110
 4	δῶκεν	δίδωμι	VERB	v3saia---	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	Ref=7.110
 5	Ἀθήνη	Ἀθήνη	PROPN	n-s---fn-	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	Ref=7.110
-6	ἔργα	ἔργον	NOUN	n-p---na-	Case=Acc|Gender=Neut|Number=Plur	8	obj	_	Ref=7.111
-7	τ'	τε	CCONJ	c--------	_	8	cc	_	Ref=7.111
-8	ἐπίστασθαι	ἐπίσταμαι	VERB	v--pne---	Tense=Pres|VerbForm=Inf|Voice=MidPass	4	ccomp	_	Ref=7.111
+6	ἔργα	ἔργον	NOUN	n-p---na-	Case=Acc|Gender=Neut|Number=Plur	4	obj	_	Ref=7.111
+7	τ'	τε	CCONJ	c--------	_	6	cc	_	Ref=7.111
+8	ἐπίστασθαι	ἐπίσταμαι	VERB	v--pne---	Tense=Pres|VerbForm=Inf|Voice=MidPass	4	advcl	_	Ref=7.111
 9	περικαλλέα	περικαλλής	ADJ	a-p---na-	Case=Acc|Gender=Neut|Number=Plur	6	amod	_	Ref=7.111
 10	καὶ	καί	CCONJ	c--------	_	11	cc	_	Ref=7.111
-11	φρένας	φρήν	NOUN	n-p---fa-	Case=Acc|Gender=Fem|Number=Plur	8	conj	_	Ref=7.111
+11	φρένας	φρήν	NOUN	n-p---fa-	Case=Acc|Gender=Fem|Number=Plur	6	conj	_	Ref=7.111
 12	ἐσθλάς	ἐσθλός	ADJ	a-p---fa-	Case=Acc|Gender=Fem|Number=Plur	11	amod	_	Ref=7.111|SpaceAfter=No
 13	.	.	PUNCT	u--------	_	4	punct	_	Ref=7.111
 
@@ -1460,9 +1460,9 @@
 # text = τοῖσιν θεοὶ ὄλβια δοῖεν ζωέμεναι, καὶ παισὶν ἐπιτρέψειεν ἕκαστος κτήματ' ἐνὶ μεγάροισι γέρας θ' ὅ τι δῆμος ἔδωκεν·
 1	τοῖσιν	ὁ	PRON	p-p---md-	Case=Dat|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	obj	_	Ref=7.148
 2	θεοὶ	θεός	NOUN	n-p---mn-	Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	Ref=7.148
-3	ὄλβια	ὄλβιος	ADJ	a-p---na-	Case=Acc|Gender=Neut|Number=Plur	5	obl	_	Ref=7.148
+3	ὄλβια	ὄλβιος	ADJ	a-p---na-	Case=Acc|Gender=Neut|Number=Plur	5	advmod	_	Ref=7.148
 4	δοῖεν	δίδωμι	VERB	v3paoa---	Mood=Opt|Number=Plur|Person=3|Voice=Act	0	root	_	Ref=7.148
-5	ζωέμεναι	ζώω	VERB	v--pna---	Tense=Pres|VerbForm=Inf|Voice=Act	4	ccomp	_	Ref=7.149|SpaceAfter=No
+5	ζωέμεναι	ζώω	VERB	v--pna---	Tense=Pres|VerbForm=Inf|Voice=Act	4	xcomp	_	Ref=7.149|SpaceAfter=No
 6	,	,	PUNCT	u--------	_	9	punct	_	Ref=7.149
 7	καὶ	καί	CCONJ	c--------	_	9	cc	_	Ref=7.149
 8	παισὶν	παῖς	NOUN	n-p---md-	Case=Dat|Gender=Masc|Number=Plur	9	iobj	_	Ref=7.149
@@ -3897,7 +3897,7 @@
 5	πέρι	περί	ADV	r--------	_	8	compound:prt	_	Ref=8.44
 6	δῶκεν	δίδωμι	VERB	v3saia---	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	Ref=8.44
 7	ἀοιδὴν	ἀοιδή	NOUN	n-s---fa-	Case=Acc|Gender=Fem|Number=Sing	8	obl	_	Ref=8.44
-8	τέρπειν	τέρπω	VERB	v--pna---	Tense=Pres|VerbForm=Inf|Voice=Act	6	ccomp	_	Ref=8.45|SpaceAfter=No
+8	τέρπειν	τέρπω	VERB	v--pna---	Tense=Pres|VerbForm=Inf|Voice=Act	6	xcomp	_	Ref=8.45|SpaceAfter=No
 9	,	,	PUNCT	u--------	_	12	punct	_	Ref=8.45
 10	ὅππῃ	ὅπη	ADV	d--------	_	12	advmod	_	Ref=8.45
 11	θυμὸς	θυμός	NOUN	n-s---mn-	Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	Ref=8.45
@@ -7689,7 +7689,7 @@
 3	θεοὶ	θεός	NOUN	n-p---mn-	Case=Nom|Gender=Masc|Number=Plur	10	nsubj	_	Ref=8.410
 4	ἄλοχόν	ἄλοχος	NOUN	n-s---fa-	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	Ref=8.410
 5	τ'	τε	CCONJ	c--------	_	6	cc	_	Ref=8.410
-6	ἰδέειν	εἶδον	VERB	v--ana---	VerbForm=Inf|Voice=Act	10	ccomp	_	Ref=8.410
+6	ἰδέειν	εἶδον	VERB	v--ana---	VerbForm=Inf|Voice=Act	10	xcomp	_	Ref=8.410
 7	καὶ	καί	CCONJ	c--------	_	9	cc	_	Ref=8.410
 8	πατρίδ'	πατρίς	NOUN	n-s---fa-	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	Ref=8.410
 9	ἱκέσθαι	ἱκνέομαι	VERB	v--anm---	VerbForm=Inf|Voice=Mid	6	conj	_	Ref=8.410
@@ -19534,7 +19534,7 @@
 5	θυμὸς	θυμός	NOUN	n-s---mn-	Case=Nom|Gender=Masc|Number=Sing	1	nsubj	1:nsubj	Ref=10.415
 6	ὣς	ὡς	ADV	d--------	_	7	advmod	7:advmod	Ref=10.416
 7	ἔμεν	εἰμί	VERB	v--pna---	Tense=Pres|VerbForm=Inf|Voice=Act	1	xcomp	1:ccomp	Ref=10.416|SpaceAfter=No
-7.1	E7.1	_	_	_	_	_	_	7:advmod	_
+7.1	E7.1	_	_	_	_	0	_	7:advmod	_
 8	,	,	PUNCT	u--------	_	9	punct	9:punct	Ref=10.416
 9	ὡς	ὡς	ADV	d--------	_	7	advmod	7.1:advmod|7.1:advmod	Ref=10.416
 10	εἰ	εἰ	SCONJ	c--------	_	7	mark	7:mark	Ref=10.416

@@ -5042,7 +5042,7 @@
 11	ἄλλοι	ἄλλος	DET	a-p---mn-	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	10	det	_	Ref=14.53
 12	ὅττι	ὅτι	SCONJ	c--------	_	14	obj	_	Ref=14.54
 13	μάλιστ'	μάλιστα	ADV	d--------	_	14	advmod	_	Ref=14.54
-14	ἐθέλεις	ἐθέλω	VERB	v2spia---	Mood=Ind|Number=Sing|Person=2|Tense=Pres|Voice=Act	4	ccomp	_	Ref=14.54|SpaceAfter=No
+14	ἐθέλεις	ἐθέλω	VERB	v2spia---	Mood=Ind|Number=Sing|Person=2|Tense=Pres|Voice=Act	4	xcomp	_	Ref=14.54|SpaceAfter=No
 15	,	,	PUNCT	u--------	_	19	punct	_	Ref=14.54
 16	ὅτι	ὅτι	SCONJ	c--------	_	19	mark	_	Ref=14.54
 17	με	ἐγώ	PRON	p-s---ma-	Case=Acc|Gender=Masc|Number=Sing|Person=1|PronType=Prs	19	obj	_	Ref=14.54
@@ -27629,7 +27629,7 @@
 3	μοι	ἐγώ	PRON	p-s---md-	Case=Dat|Gender=Masc|Number=Sing|Person=1|PronType=Prs	1	obl:arg	1:obj	Ref=18.18
 4	εἶναι	εἰμί	AUX	v--pna---	Tense=Pres|VerbForm=Inf|Voice=Act	5	cop	5:cop	Ref=18.18
 5	ἀλήτης	ἀλήτης	NOUN	n-s---mn-	Case=Nom|Gender=Masc|Number=Sing	1	xcomp	1:ccomp	Ref=18.18
-5.1	E5.1	_	_	_	_	_	_	5:advmod	_
+5.1	E5.1	_	_	_	_	0	_	5:advmod	_
 6	ὥς	ὡς	ADV	d--------	_	8	advmod	5.1:advmod|5.1:advmod	Ref=18.19
 7	περ	πέρ	ADV	g--------	_	8	advmod	5.1:advmod|5.1:advmod	Ref=18.19
 8	ἐγών	ἐγώ	PRON	p-s---mn-	Case=Nom|Gender=Masc|Number=Sing|Person=1|PronType=Prs	5	advmod	5.1:advmod|5.1:nsubj	Ref=18.19|SpaceAfter=No

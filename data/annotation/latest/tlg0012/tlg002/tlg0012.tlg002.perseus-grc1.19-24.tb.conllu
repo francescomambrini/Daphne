@@ -13206,7 +13206,7 @@
 5.1	E5.1	_	_	_	_	_	_	8:obj	_
 6	ᾧ	ὅς	PRON	p-s---md-	Case=Dat|Gender=Masc|Number=Sing|PronType=Rel	8	obj	5.1:obj|5.1:obj	Ref=21.280
 7	κ'	ἄν	ADV	g--------	PartType=Ptcl	8	advmod	8:advmod	Ref=21.280
-8	ἐθέλῃσιν	ἐθέλω	VERB	v3spsa---	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	ccomp	4:ccomp	Ref=21.280|SpaceAfter=No
+8	ἐθέλῃσιν	ἐθέλω	VERB	v3spsa---	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	ccomp:relcl	4:ccomp	Ref=21.280|SpaceAfter=No
 9	.	.	PUNCT	u--------	_	4	punct	0:punct	Ref=21.280
 
 # sent_id = 2191442
@@ -13891,11 +13891,11 @@
 7	Ἀχαιῶν	Ἀχαιός	ADJ	a-p---mg-	Case=Gen|Gender=Masc|Number=Plur	9	amod	9:amod	Ref=21.344
 8	οὔ	οὐ	ADV	d--------	_	11	advmod:neg	11:advmod	Ref=21.344
 9	τις	τις	PRON	p-s---mn-	Case=Nom|Gender=Masc|Number=Sing|PronType=Ind	11	nsubj	11:nsubj	Ref=21.344
-10	ἐμεῖο	ἐγώ	PRON	p-s---mg-	Case=Gen|Gender=Masc|Number=Sing|Person=1|PronType=Prs	11	nmod	11:nmod	Ref=21.344
+10	ἐμεῖο	ἐγώ	PRON	p-s---mg-	Case=Gen|Gender=Masc|Number=Sing|Person=1|PronType=Prs	11	obl	11:nmod	Ref=21.344
 11	κρείσσων	κρείσσων	ADJ	a-s---mnc	Case=Nom|Degree=Cmp|Gender=Masc|Number=Sing	0	root	0:root	Ref=21.345|SpaceAfter=No
 12	,	,	PUNCT	u--------	_	15	punct	15:punct	Ref=21.345
-12.1	E12.1	_	_	_	_	_	_	15:obj	_
-13	ᾧ	ὅς	PRON	p-s---md-	Case=Dat|Gender=Masc|Number=Sing|PronType=Rel	30	orphan	12.1:obj|12.1:obj	Ref=21.345
+12.1	E12.1	_	_	_	_	0	_	15:obj	_
+13	ᾧ	ὅς	PRON	p-s---md-	Case=Dat|Gender=Masc|Number=Sing|PronType=Rel	15	orphan	12.1:obj|12.1:obj	Ref=21.345
 14	κ'	ἄν	ADV	g--------	PartType=Ptcl	15	advmod	15:advmod	Ref=21.345
 15	ἐθέλω	ἐθέλω	VERB	v1spsa---	Mood=Sub|Number=Sing|Person=1|Tense=Pres|Voice=Act	17	ccomp	17:ccomp	Ref=21.345|SpaceAfter=No
 16	,	,	PUNCT	u--------	_	15	punct	15:punct	Ref=21.345
@@ -13910,14 +13910,15 @@
 25	Ἰθάκην	Ἰθάκη	PROPN	n-s---fa-	Case=Acc|Gender=Fem|Number=Sing	27	obl	27:obl	Ref=21.346
 26	κάτα	κατά	ADP	r--------	_	25	case	25:case	Ref=21.346
 27	κοιρανέουσιν	κοιρανέω	VERB	v3ppia---	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	7	acl:relcl	7:acl	Ref=21.346|SpaceAfter=No
-28	,	,	PUNCT	u--------	_	29	punct	27:punct	Ref=21.346
-29	οὔθ'	οὔτι	ADV	d--------	_	27	cc	27:cc	Ref=21.347
-30	ὅσσοι	ὅσος	PRON	a-p---mn-	Case=Nom|Gender=Masc|Number=Plur|PronType=Rel	15	obj	12.1:obj|12.1:nsubj	Ref=21.347
-31	νήσοισι	νῆσος	NOUN	n-p---fd-	Case=Dat|Gender=Fem|Number=Plur	30	orphan	12.1:obj|12.1:obj	Ref=21.347
+28	,	,	PUNCT	u--------	_	29	punct	_	Ref=21.346
+29	οὔθ'	οὔτι	ADV	d--------	_	30	cc	_	Ref=21.347
+30	ὅσσοι	ὅσος	PRON	a-p---mn-	Case=Nom|Gender=Masc|Number=Plur|PronType=Rel	27	conj	30.1:nsubj	Ref=21.347
+30.1	E30.1	_		_	_	0	_	27:conj	EllType=Gapping
+31	νήσοισι	νῆσος	NOUN	n-p---fd-	Case=Dat|Gender=Fem|Number=Plur	30	orphan	30.1:obl	Ref=21.347
 32	πρὸς	πρός	ADP	r--------	_	33	case	33:case	Ref=21.347
 33	Ἤλιδος	Ἦλις	PROPN	n-s---fg-	Case=Gen|Gender=Fem|Number=Sing	31	nmod	31:nmod	Ref=21.347
 34	ἱπποβότοιο	ἱππόβοτος	ADJ	a-s---fg-	Case=Gen|Gender=Fem|Number=Sing	33	amod	33:amod	Ref=21.347|SpaceAfter=No
-35	·	·	PUNCT	u--------	_	11	punct	0:punct	Ref=21.347
+35	·	·	PUNCT	u--------	_	11	punct	_	Ref=21.347
 
 # sent_id = 2191479
 # text = τῶν οὔ τίς μ' ἀέκοντα βιήσεται, αἴ κ' ἐθέλωμι καὶ καθάπαξ ξείνῳ δόμεναι τάδε τόξα φέρεσθαι.

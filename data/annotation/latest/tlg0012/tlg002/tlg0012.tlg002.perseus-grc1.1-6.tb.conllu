@@ -8032,13 +8032,13 @@
 10	τούτου	οὗτος	PRON	a-s---mg-	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	7	nmod	7:det	Ref=2.336
 11	μητέρι	μήτηρ	NOUN	n-s---fd-	Case=Dat|Gender=Fem|Number=Sing	12	iobj	12:iobj	Ref=2.336
 12	δοῖμεν	δίδωμι	VERB	v1paoa---	Mood=Opt|Number=Plur|Person=1|Voice=Act	5	conj	5:conj	Ref=2.336
-13	ἔχειν	ἔχω	VERB	v--pna---	Tense=Pres|VerbForm=Inf|Voice=Act	12	ccomp	12:ccomp	Ref=2.336
-14	ἠδ'	ἠδέ	CCONJ	c--------	_	11	cc	14.1:cc	Ref=2.336
-14.1	E14.1	_	_	_	_	_	_	11:conj	_
+13	ἔχειν	ἔχω	VERB	v--pna---	Tense=Pres|VerbForm=Inf|Voice=Act	12	advcl	12:ccomp	Ref=2.336
+14	ἠδ'	ἠδέ	CCONJ	c--------	_	17	cc	14.1:cc	Ref=2.336
+14.1	E14.1	_	_	_	_	0	_	11:conj	_
 15	ὅς	ὅς	PRON	p-s---mn-	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	17	nsubj	17:nsubj	Ref=2.336
 16	τις	τις	DET	p-s---mn-	Case=Nom|Gender=Masc|Number=Sing|PronType=Ind	15	det	15:det	Ref=2.336
-17	ὀπυίοι	ὀπυίω	VERB	v3spoa---	Mood=Opt|Number=Sing|Person=3|Tense=Pres|Voice=Act	11	acl:relcl	14.1:acl|14.1:acl	Ref=2.336|SpaceAfter=No
-18	.	.	PUNCT	u--------	_	5	punct	0:punct	Ref=2.336
+17	ὀπυίοι	ὀπυίω	VERB	v3spoa---	Mood=Opt|Number=Sing|Person=3|Tense=Pres|Voice=Act	11	conj	14.1:acl|14.1:acl	Ref=2.336|SpaceAfter=No
+18	.	.	PUNCT	u--------	_	5	punct	_	Ref=2.336
 19	"	"	PUNCT	u--------	_	5	punct	5:punct	Ref=2.336
 
 # sent_id = 2185959
@@ -15859,7 +15859,7 @@
 1	καί	καί	CCONJ	c--------	_	3	cc	_	Ref=4.171
 2	μιν	μιν	PRON	p-s---ma-	Case=Acc|Gender=Masc|Number=Sing	5	obj	_	Ref=4.171
 3	ἔφην	φημί	VERB	v1siia---	Mood=Ind|Number=Sing|Person=1|Tense=Imp|Voice=Act	0	root	_	Ref=4.171
-4	ἐλθόντα	ἔρχομαι	VERB	v-sapama-	Case=Acc|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	2	acl:compl	_	Ref=4.171
+4	ἐλθόντα	ἔρχομαι	VERB	v-sapama-	Case=Acc|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	2	acl	_	Ref=4.171
 5	φιλησέμεν	φιλέω	VERB	v--fna---	Tense=Fut|VerbForm=Inf|Voice=Act	3	ccomp	_	Ref=4.171
 6	ἔξοχον	ἔξοχος	ADJ	a-s---ma-	Case=Acc|Gender=Masc|Number=Sing	2	acl:compl	_	Ref=4.171
 7	ἄλλων	ἄλλος	DET	a-p---mg-	Case=Gen|Gender=Masc|Number=Plur|PronType=Ind	8	det	_	Ref=4.171
@@ -29935,7 +29935,7 @@
 6	δὸς	δίδωμι	VERB	v2sama---	Mood=Imp|Number=Sing|Person=2|Voice=Act	4	conj	_	Ref=6.178
 7	δὲ	δέ	CCONJ	g--------	PartType=Ptcl	6	cc	_	Ref=6.178
 8	ῥάκος	ῥάκος	NOUN	n-s---na-	Case=Acc|Gender=Neut|Number=Sing	6	obj	_	Ref=6.178
-9	ἀμφιβαλέσθαι	ἀμφιβάλλω	VERB	v--anm---	VerbForm=Inf|Voice=Mid	6	ccomp	_	Ref=6.178|SpaceAfter=No
+9	ἀμφιβαλέσθαι	ἀμφιβάλλω	VERB	v--anm---	VerbForm=Inf|Voice=Mid	6	advcl	_	Ref=6.178|SpaceAfter=No
 10	,	,	PUNCT	u--------	_	16	punct	_	Ref=6.178
 11	εἴ	εἰ	SCONJ	c--------	_	16	mark	_	Ref=6.179
 12	τί	τις	DET	p-s---na-	Case=Acc|Gender=Neut|Number=Sing|PronType=Ind	14	det	_	Ref=6.179
@@ -31534,7 +31534,7 @@
 3	ἐς	εἰς	ADP	r--------	_	4	case	_	Ref=6.327
 4	Φαίηκας	Φαίαξ	PROPN	n-p---ma-	Case=Acc|Gender=Masc|Number=Plur	6	obl:arg	_	Ref=6.327
 5	φίλον	φίλος	ADJ	a-s---ma-	Case=Acc|Gender=Masc|Number=Sing	6	advcl:compl	_	Ref=6.327
-6	ἐλθεῖν	ἔρχομαι	VERB	v--ana---	VerbForm=Inf|Voice=Act	1	ccomp	_	Ref=6.327
+6	ἐλθεῖν	ἔρχομαι	VERB	v--ana---	VerbForm=Inf|Voice=Act	1	xcomp	_	Ref=6.327
 7	ἠδ'	ἠδέ	CCONJ	c--------	_	8	cc	_	Ref=6.327
 8	ἐλεεινόν	ἐλεεινός	ADJ	a-s---ma-	Case=Acc|Gender=Masc|Number=Sing	5	conj	_	Ref=6.327|SpaceAfter=No
 9	.	.	PUNCT	u--------	_	1	punct	_	Ref=6.327
