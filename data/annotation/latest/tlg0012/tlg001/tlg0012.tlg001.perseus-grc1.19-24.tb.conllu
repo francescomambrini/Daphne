@@ -35909,7 +35909,7 @@
 3	ἐπεκλώσαντο	ἐπικλώθω	VERB	v3paim---	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Mid	0	root	_	Ref=24.525
 4	θεοὶ	θεός	NOUN	n-p---mn-	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	Ref=24.525
 5	δειλοῖσι	δειλός	ADJ	a-p---md-	Case=Dat|Gender=Masc|Number=Plur	6	amod	_	Ref=24.525
-6	βροτοῖσι	βροτός	NOUN	n-p---md-	Case=Dat|Gender=Masc|Number=Plur	3	obj	_	Ref=24.525
+6	βροτοῖσι	βροτός	NOUN	n-p---md-	Case=Dat|Gender=Masc|Number=Plur	3	obl:arg	_	Ref=24.525
 7	ζώειν	ζῶ	VERB	v--pna---	Tense=Pres|VerbForm=Inf|Voice=Act	3	ccomp	_	Ref=24.526
 8	ἀχνυμένοις	ἀχεύω	VERB	v-ppppmd-	Case=Dat|Gender=Masc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	7	advcl	_	Ref=24.526|SpaceAfter=No
 9	·	·	PUNCT	u--------	_	3	punct	_	Ref=24.526
@@ -36668,7 +36668,7 @@
 # sent_id = 2282410
 # text = σοὶ δ' αὖ ἐγὼ καὶ τῶνδ' ἀποδάσσομαι ὅσσ' ἐπέοικεν.
 # Speaker = Achilles
-1	σοὶ	σύ	PRON	p-s---md-	Case=Dat|Gender=Masc|Number=Sing|Person=2|PronType=Prs	7	obj	_	Ref=24.595
+1	σοὶ	σύ	PRON	p-s---md-	Case=Dat|Gender=Masc|Number=Sing|Person=2|PronType=Prs	7	iobj	_	Ref=24.595
 2	δ'	δέ	CCONJ	g--------	PartType=Ptcl	7	cc	_	Ref=24.595
 3	αὖ	αὖ	ADV	d--------	PartType=Ptcl	7	advmod	_	Ref=24.595
 4	ἐγὼ	ἐγώ	PRON	p-s---mn-	Case=Nom|Gender=Masc|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	Ref=24.595
@@ -36676,7 +36676,7 @@
 6	τῶνδ'	ὅδε	PRON	p-p---ng-	Case=Gen|Gender=Neut|Number=Plur|PronType=Dem	8	nmod	_	Ref=24.595
 7	ἀποδάσσομαι	ἀποδατέομαι	VERB	v1sfim---	Mood=Ind|Number=Sing|Person=1|Tense=Fut|Voice=Mid	0	root	_	Ref=24.595
 8	ὅσσ'	ὅσος	PRON	a-p---nn-	Case=Nom|Gender=Neut|Number=Plur|PronType=Rel	9	nsubj	_	Ref=24.595
-9	ἐπέοικεν	ἐπέοικε	VERB	v3sria---	Mood=Ind|Number=Sing|Person=3|Voice=Act	7	ccomp	_	Ref=24.595|SpaceAfter=No
+9	ἐπέοικεν	ἐπέοικε	VERB	v3sria---	Mood=Ind|Number=Sing|Person=3|Voice=Act	7	ccomp:relcl	_	Ref=24.595|SpaceAfter=No
 10	.	.	PUNCT	u--------	_	7	punct	_	Ref=24.595
 
 # sent_id = 2282411
@@ -37915,9 +37915,9 @@
 # text = εἴξατέ μοι οὐρεῦσι διελθέμεν·
 # Speaker = Hector
 1	εἴξατέ	εἴκω	VERB	v2pama---	Mood=Imp|Number=Plur|Person=2|Voice=Act	0	root	_	Ref=24.716
-2	μοι	ἐγώ	PRON	p-s---md-	Case=Dat|Gender=Masc|Number=Sing|Person=1|PronType=Prs	1	obl	_	Ref=24.716
-3	οὐρεῦσι	ὀρεύς	NOUN	n-p---md-	Case=Dat|Gender=Masc|Number=Plur	1	obj	_	Ref=24.716
-4	διελθέμεν	διέρχομαι	VERB	v--ana---	VerbForm=Inf|Voice=Act	1	ccomp	_	Ref=24.716|SpaceAfter=No
+2	μοι	ἐγώ	PRON	p-s---md-	Case=Dat|Gender=Masc|Number=Sing|Person=1|PronType=Prs	1	obl:arg	_	Ref=24.716
+3	οὐρεῦσι	ὀρεύς	NOUN	n-p---md-	Case=Dat|Gender=Masc|Number=Plur	4	obl	_	Ref=24.716
+4	διελθέμεν	διέρχομαι	VERB	v--ana---	VerbForm=Inf|Voice=Act	1	advcl	_	Ref=24.716|SpaceAfter=No
 5	·	·	PUNCT	u--------	_	1	punct	_	Ref=24.716
 
 # sent_id = 2282475
@@ -38110,7 +38110,7 @@
 11	κεν	ἄν	ADV	g--------	PartType=Ptcl	14	advmod	_	Ref=24.733
 12	ἔργα	ἔργον	NOUN	n-p---na-	Case=Acc|Gender=Neut|Number=Plur	14	obj	_	Ref=24.733
 13	ἀεικέα	ἀεικής	ADJ	a-p---na-	Case=Acc|Gender=Neut|Number=Plur	12	amod	_	Ref=24.733
-14	ἐργάζοιο	ἐργάζομαι	VERB	v2spoe---	Mood=Opt|Number=Sing|Person=2|Tense=Pres|Voice=MidPass	8	ccomp	_	Ref=24.733
+14	ἐργάζοιο	ἐργάζομαι	VERB	v2spoe---	Mood=Opt|Number=Sing|Person=2|Tense=Pres|Voice=MidPass	8	advcl:relcl	_	Ref=24.733
 15	ἀθλεύων	ἀθλεύω	VERB	v-sppamn-	Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	14	advcl	_	Ref=24.734
 16	πρὸ	πρό	ADP	r--------	_	17	case	_	Ref=24.734
 17	ἄνακτος	ἄναξ	NOUN	n-s---mg-	Case=Gen|Gender=Masc|Number=Sing	15	obl	_	Ref=24.734
