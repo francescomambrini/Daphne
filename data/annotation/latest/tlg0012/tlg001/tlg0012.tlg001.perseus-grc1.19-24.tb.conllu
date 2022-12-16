@@ -11798,7 +11798,7 @@
 16	πόλλ'	πολύς	ADJ	a-p---na-	Case=Acc|Gender=Neut|Number=Plur	17	obl	17:obl	Ref=21.230
 17	ἐπέτελλε	ἐπιτέλλω	VERB	v3siia---	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	11	acl:relcl	11:acl	Ref=21.230
 18	Τρωσὶ	Τρώς	PROPN	n-p---md-	Case=Dat|Gender=Masc|Number=Plur	19	obj	19:obj	Ref=21.231
-19	παρεστάμεναι	παρίστημι	VERB	v--rna---	VerbForm=Inf|Voice=Act	17	ccomp	17:ccomp	Ref=21.231
+19	παρεστάμεναι	παρίστημι	VERB	v--rna---	VerbForm=Inf|Voice=Act	17	xcomp	17:ccomp	Ref=21.231
 20	καὶ	καί	CCONJ	c--------	_	21	cc	21:cc	Ref=21.231
 21	ἀμύνειν	ἀμύνω	VERB	v--pna---	Tense=Pres|VerbForm=Inf|Voice=Act	19	conj	19:conj	Ref=21.231|SpaceAfter=No
 22	,	,	PUNCT	u--------	_	23	punct	23.1:punct	Ref=21.231
@@ -15834,7 +15834,7 @@
 5	με	ἐγώ	PRON	p-s---ma-	Case=Acc|Gender=Masc|Number=Sing|Person=1|PronType=Prs	6	obj	_	Ref=22.9
 6	ἔγνως	γιγνώσκω	VERB	v2saia---	Mood=Ind|Number=Sing|Person=2|Tense=Past|Voice=Act	0	root	_	Ref=22.10
 7	ὡς	ὡς	SCONJ	c--------	_	8	mark	_	Ref=22.10
-8	θεός	θεός	NOUN	n-s---mn-	Case=Nom|Gender=Masc|Number=Sing	6	ccomp	_	Ref=22.10
+8	θεός	θεός	NOUN	n-s---mn-	Case=Nom|Gender=Masc|Number=Sing	6	xcomp	_	Ref=22.10
 9	εἰμι	εἰμί	AUX	v1spia---	Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	8	cop	_	Ref=22.10|SpaceAfter=No
 10	,	,	PUNCT	u--------	_	14	punct	_	Ref=22.10
 11	σὺ	σύ	PRON	p-s---mn-	Case=Nom|Gender=Masc|Number=Sing|Person=2|PronType=Prs	14	nsubj	_	Ref=22.10
@@ -18347,7 +18347,7 @@
 3	με	ἐγώ	PRON	p-s---ma-	Case=Acc|Gender=Masc|Number=Sing|Person=1|PronType=Prs	5	obj	_	Ref=22.252
 4	θυμὸς	θυμός	NOUN	n-s---mn-	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	Ref=22.252
 5	ἀνῆκε	ἀνίημι	VERB	v3saia---	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	Ref=22.252
-6	στήμεναι	ἵστημι	VERB	v--ana---	VerbForm=Inf|Voice=Act	5	ccomp	_	Ref=22.253
+6	στήμεναι	ἵστημι	VERB	v--ana---	VerbForm=Inf|Voice=Act	5	xcomp	_	Ref=22.253
 7	ἀντία	ἀντίος	ADJ	a-p---na-	Case=Acc|Gender=Neut|Number=Plur	8	case	_	Ref=22.253
 8	σεῖο	σύ	PRON	p-s---mg-	Case=Gen|Gender=Masc|Number=Sing|Person=2|PronType=Prs	6	obl	_	Ref=22.253|SpaceAfter=No
 9	·	·	PUNCT	u--------	_	5	punct	_	Ref=22.253
@@ -19383,7 +19383,7 @@
 10	ὤμ'	ὠμός	ADJ	a-p---na-	Case=Acc|Gender=Neut|Number=Plur	12	amod	_	Ref=22.347
 11	ἀποταμνόμενον	ἀποτέμνω	VERB	v-sppema-	Case=Acc|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=MidPass	13	advcl	_	Ref=22.347
 12	κρέα	κρέας	NOUN	n-p---na-	Case=Acc|Gender=Neut|Number=Plur	13	obj	_	Ref=22.347
-13	ἔδμεναι	ἔδω	VERB	v--pna---	Tense=Pres|VerbForm=Inf|Voice=Act	9	ccomp	_	Ref=22.347|SpaceAfter=No
+13	ἔδμεναι	ἔδω	VERB	v--pna---	Tense=Pres|VerbForm=Inf|Voice=Act	9	xcomp	_	Ref=22.347|SpaceAfter=No
 14	,	,	PUNCT	u--------	_	16	punct	_	Ref=22.347
 15	οἷα	οἷος	PRON	a-p---na-	Case=Acc|Gender=Neut|Number=Plur|PronType=Rel	16	obj	_	Ref=22.347
 16	ἔοργας	ἔρδω	VERB	v2sria---	Mood=Ind|Number=Sing|Person=2|Voice=Act	9	advcl	_	Ref=22.347|SpaceAfter=No
@@ -31914,7 +31914,7 @@
 10	μεγαλήτορι	μεγαλήτωρ	ADJ	a-s---md-	Case=Dat|Gender=Masc|Number=Sing	9	amod	_	Ref=24.145
 11	Ἴλιον	Ἴλιος	PROPN	n-s---fa-	Case=Acc|Gender=Fem|Number=Sing	9	nmod	_	Ref=24.145
 12	εἴσω	εἴσω	ADP	r--------	_	11	case	_	Ref=24.145
-13	λύσασθαι	λύω	VERB	v--anm---	VerbForm=Inf|Voice=Mid	8	ccomp	_	Ref=24.146
+13	λύσασθαι	λύω	VERB	v--anm---	VerbForm=Inf|Voice=Mid	8	xcomp	_	Ref=24.146
 14	φίλον	φίλος	ADJ	a-s---ma-	Case=Acc|Gender=Masc|Number=Sing	15	amod	_	Ref=24.146
 15	υἱὸν	υἱός	NOUN	n-s---ma-	Case=Acc|Gender=Masc|Number=Sing	13	obj	_	Ref=24.146
 16	ἰόντ'	εἶμι	VERB	v-sppama-	Case=Acc|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	13	advcl	_	Ref=24.146
