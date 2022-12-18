@@ -6,7 +6,7 @@ I try to keep alphabetical order
 
 ### Description
 
->τοὔνεκά *οἱ *προθέουσιν ὀνείδεα *μυθήσασθαι (Il. 1.291)
+>τοὔνεκά *οἱ *προθέουσιν ὀνείδεα *μυθήσασθαι (Il. 191)
 
 Addressee can be in dat or acc.
 
@@ -20,6 +20,14 @@ In the rare cases when it is not controlled, then `ccomp`.
 
 If a dative is not an addressee (e.g. with verbs meaning "to appear", "look like"),
 then `obl:arg`.
+
+## Adverbial PRON, ADJ, DET
+
+Some adjectives/pronouns/determiners are used adverbially in the acc. (e.g. τι, πολύ etc)
+
+### Ruling
+
+Keept the upos as it is, but tagged as `advmod`.
 
 ## Free Relatives
 
