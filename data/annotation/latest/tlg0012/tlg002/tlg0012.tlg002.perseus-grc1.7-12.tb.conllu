@@ -8538,9 +8538,9 @@
 5	Ἀχαιῶν	Ἀχαιός	ADJ	a-p---mg-	Case=Gen|Gender=Masc|Number=Plur	6	amod	6:amod	Ref=8.489
 6	οἶτον	οἶτος	NOUN	n-s---ma-	Case=Acc|Gender=Masc|Number=Sing	7	obj	7:obj	Ref=8.489
 7	ἀείδεις	ἀείδω	VERB	v2spia---	Mood=Ind|Number=Sing|Person=2|Tense=Pres|Voice=Act	0	root	0:root	Ref=8.489|SpaceAfter=No
-8	,	,	PUNCT	u--------	_	10	punct	6:punct	Ref=8.489
+8	,	,	PUNCT	u--------	_	10	punct	_	Ref=8.489
 9	ὅσσ'	ὅσος	PRON	a-p---na-	Case=Acc|Gender=Neut|Number=Plur|PronType=Rel	10	obj	10:obj	Ref=8.490
-10	ἔρξαν	ἔργω	VERB	v3paia---	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	7	ccomp	7:ccomp	Ref=8.490
+10	ἔρξαν	ἔργω	VERB	v3paia---	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	6	acl	7:ccomp	Ref=8.490
 11	τ'	τε	CCONJ	c--------	_	12	cc	12:cc	Ref=8.490
 12	ἔπαθόν	πάσχω	VERB	v3paia---	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	10	conj	10:conj	Ref=8.490
 13	τε	τε	CCONJ	c--------	_	12	cc	12:cc	Ref=8.490
@@ -9101,7 +9101,7 @@
 4	δὲ	δέ	CCONJ	g--------	PartType=Ptcl	6	cc	_	Ref=8.548
 5	σὺ	σύ	PRON	p-s----n-	Case=Nom|Number=Sing|Person=2|PronType=Prs	6	nsubj	_	Ref=8.548
 6	κεῦθε	κεύθω	VERB	v3siia---	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	0	root	_	Ref=8.548
-7	νοήμασι	νόημα	NOUN	n-p---nd-	Case=Dat|Gender=Neut|Number=Plur	6	obj	_	Ref=8.548
+7	νοήμασι	νόημα	NOUN	n-p---nd-	Case=Dat|Gender=Neut|Number=Plur	6	obl	_	Ref=8.548
 8	κερδαλέοισιν	κερδαλέος	ADJ	a-p---nd-	Case=Dat|Gender=Neut|Number=Plur	7	amod	_	Ref=8.548
 9	ὅττι	ὅστις	PRON	p-s---na-	Case=Acc|Gender=Neut|Number=Sing|PronType=Rel	12	obj	_	Ref=8.549
 10	κέ	ἄν	ADV	g--------	PartType=Ptcl	12	advmod	_	Ref=8.549
@@ -9589,10 +9589,10 @@
 
 # sent_id = 2187724
 # text = τοῦτό τί μοι κάλλιστον ἐνὶ φρεσὶν εἴδεται εἶναι.
-1	τοῦτό	οὗτος	PRON	a-s---nn-	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	_	Ref=9.11
-2	τί	τις	PRON	p-s---na-	Case=Acc|Gender=Neut|Number=Sing|PronType=Ind	4	obl	_	Ref=9.11
-3	μοι	ἐγώ	PRON	p-s---md-	Case=Dat|Gender=Masc|Number=Sing|Person=1|PronType=Prs	7	obj	_	Ref=9.11
-4	κάλλιστον	καλός	ADJ	a-s---nn-	Case=Nom|Gender=Neut|Number=Sing	7	ccomp	_	Ref=9.11
+1	τοῦτό	οὗτος	PRON	a-s---nn-	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	7	nsubj	_	Ref=9.11
+2	τί	τις	PRON	p-s---na-	Case=Acc|Gender=Neut|Number=Sing|PronType=Ind	7	advmod	_	Ref=9.11
+3	μοι	ἐγώ	PRON	p-s---md-	Case=Dat|Gender=Masc|Number=Sing|Person=1|PronType=Prs	7	obl:arg	_	Ref=9.11
+4	κάλλιστον	καλός	ADJ	a-s---nn-	Case=Nom|Gender=Neut|Number=Sing	7	xcomp	_	Ref=9.11
 5	ἐνὶ	ἐν	ADP	r--------	_	6	case	_	Ref=9.11
 6	φρεσὶν	φρήν	NOUN	n-p----d-	Case=Dat|Number=Plur	7	obl:arg	_	Ref=9.11
 7	εἴδεται	εἴδομαι	VERB	v3spie---	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=MidPass	0	root	_	Ref=9.11
@@ -11723,13 +11723,13 @@
 # text = ἔνθ' ἐμὲ μὲν πρώτισθ' ἕταροι λίσσοντ' ἐπέεσσιν τυρῶν αἰνυμένους ἰέναι πάλιν, αὐτὰρ ἔπειτα καρπαλίμως ἐπὶ νῆα θοὴν ἐρίφους τε καὶ ἄρνας σηκῶν ἐξελάσαντας ἐπιπλεῖν ἁλμυρὸν ὕδωρ·
 1	ἔνθ'	ἔνθα	ADV	d--------	_	6	advmod	_	Ref=9.224
 2	ἐμὲ	ἐγώ	PRON	p-s---ma-	Case=Acc|Gender=Masc|Number=Sing|Person=1|PronType=Prs	6	obj	_	Ref=9.224
-3	μὲν	μέν	ADV	g--------	PartType=Ptcl	10	advmod	_	Ref=9.224
-4	πρώτισθ'	πρώτιστος	ADJ	a-p---na-	Case=Acc|Gender=Neut|Number=Plur	10	obl	_	Ref=9.224
+3	μὲν	μέν	ADV	g--------	PartType=Ptcl	6	advmod	_	Ref=9.224
+4	πρώτισθ'	πρώτιστος	ADJ	a-p---na-	Case=Acc|Gender=Neut|Number=Plur	6	advmod	_	Ref=9.224
 5	ἕταροι	ἑταῖρος	NOUN	n-p---mn-	Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	Ref=9.224
 6	λίσσοντ'	λίσσομαι	VERB	v3piie---	Mood=Ind|Number=Plur|Person=3|Tense=Imp|Voice=MidPass	0	root	_	Ref=9.224
 7	ἐπέεσσιν	ἔπος	NOUN	n-p---nd-	Case=Dat|Gender=Neut|Number=Plur	6	obl	_	Ref=9.224
 8	τυρῶν	τυρός	NOUN	n-p---mg-	Case=Gen|Gender=Masc|Number=Plur	9	obj	_	Ref=9.225
-9	αἰνυμένους	αἴνυμαι	VERB	v-pppema-	Case=Acc|Gender=Masc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=MidPass	10	advcl:compl	_	Ref=9.225
+9	αἰνυμένους	αἴνυμαι	VERB	v-pppema-	Case=Acc|Gender=Masc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=MidPass	10	advcl	_	Ref=9.225
 10	ἰέναι	εἶμι	VERB	v--pna---	Tense=Pres|VerbForm=Inf|Voice=Act	6	ccomp	_	Ref=9.225
 11	πάλιν	πάλιν	ADV	d--------	_	10	advmod	_	Ref=9.225|SpaceAfter=No
 12	,	,	PUNCT	u--------	_	25	punct	_	Ref=9.225
@@ -15900,25 +15900,24 @@
 
 # sent_id = 2188072
 # text = οὐ γάρ μοι θέμις ἐστὶ κομιζέμεν οὐδ' ἀποπέμπειν ἄνδρα τόν, ὅς κε θεοῖσιν ἀπέχθηται μακάρεσσιν·
-1	οὐ	οὐ	ADV	d--------	_	5	advmod:neg	5:advmod	Ref=10.73
-2	γάρ	γάρ	ADV	g--------	PartType=Ptcl	5	advmod	5:advmod	Ref=10.73
-3	μοι	ἐγώ	PRON	p-s---md-	Case=Dat|Gender=Masc|Number=Sing|Person=1|PronType=Prs	5	iobj	5:iobj	Ref=10.73
-4	θέμις	θέμις	NOUN	n-s---fn-	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	5:nsubj	Ref=10.73
-5	ἐστὶ	εἰμί	VERB	v3spia---	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	0:root	Ref=10.73
-6	κομιζέμεν	κομίζω	VERB	v--pna---	Tense=Pres|VerbForm=Inf|Voice=Act	5	ccomp	5:ccomp	Ref=10.73
-6.1	E6.1	_	_	_	_	0	_	5:conj	_
-7	οὐ	οὐ	ADV	d--------	_	5	conj	6.1:conj|6.1:advmod	Ref=10.73|SpaceAfter=No
-8	δ'	δέ	CCONJ	g--------	PartType=Ptcl	5	cc	5:cc	Ref=10.73
-9	ἀποπέμπειν	ἀποπέμπω	VERB	v--pna---	Tense=Pres|VerbForm=Inf|Voice=Act	7	orphan	6.1:ccomp|6.1:ccomp	Ref=10.73
-10	ἄνδρα	ἀνήρ	NOUN	n-s---ma-	Case=Acc|Gender=Masc|Number=Sing	5	obj	5:obj	Ref=10.74
+1	οὐ	οὐ	ADV	d--------	_	4	advmod:neg	_	Ref=10.73
+2	γάρ	γάρ	ADV	g--------	PartType=Ptcl	4	advmod	_	Ref=10.73
+3	μοι	ἐγώ	PRON	p-s---md-	Case=Dat|Gender=Masc|Number=Sing|Person=1|PronType=Prs	4	obl	_	Ref=10.73
+4	θέμις	θέμις	NOUN	n-s---fn-	Case=Nom|Gender=Fem|Number=Sing	0	root	_	Ref=10.73
+5	ἐστὶ	εἰμί	VERB	v3spia---	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	cop	_	Ref=10.73
+6	κομιζέμεν	κομίζω	VERB	v--pna---	Tense=Pres|VerbForm=Inf|Voice=Act	4	csubj	_	Ref=10.73
+7	οὐ	οὐ	ADV	d--------	_	9	advmod:neg	_	Ref=10.73|SpaceAfter=No
+8	δ'	δέ	CCONJ	g--------	PartType=Ptcl	9	cc	_	Ref=10.73
+9	ἀποπέμπειν	ἀποπέμπω	VERB	v--pna---	Tense=Pres|VerbForm=Inf|Voice=Act	6	conj	_	Ref=10.73
+10	ἄνδρα	ἀνήρ	NOUN	n-s---ma-	Case=Acc|Gender=Masc|Number=Sing	6	obj	_	Ref=10.74
 11	τόν	ὁ	DET	l-s---ma-	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	10:det	Ref=10.74|SpaceAfter=No
 12	,	,	PUNCT	u--------	_	16	punct	16:punct	Ref=10.74
-13	ὅς	ὅς	PRON	p-s---mn-	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	16	nsubj	16:nsubj	Ref=10.74
+13	ὅς	ὅς	PRON	p-s---mn-	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	16	nsubj:pass	16:nsubj	Ref=10.74
 14	κε	ἄν	ADV	g--------	PartType=Ptcl	16	advmod	16:advmod	Ref=10.74
-15	θεοῖσιν	θεός	NOUN	n-p---md-	Case=Dat|Gender=Masc|Number=Plur	16	obj	16:obj	Ref=10.74
+15	θεοῖσιν	θεός	NOUN	n-p---md-	Case=Dat|Gender=Masc|Number=Plur	16	obl	16:obj	Ref=10.74
 16	ἀπέχθηται	ἀπέχθομαι	VERB	v3spse---	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=MidPass	10	acl:relcl	10:acl	Ref=10.74
 17	μακάρεσσιν	μάκαρ	NOUN	n-p---md-	Case=Dat|Gender=Masc|Number=Plur	15	nmod	15:nmod	Ref=10.74|SpaceAfter=No
-18	·	·	PUNCT	u--------	_	5	punct	0:punct	Ref=10.74
+18	·	·	PUNCT	u--------	_	4	punct	_	Ref=10.74
 
 # sent_id = 2188073
 # text = ἔρρε, ἐπεὶ ἄρα θεοῖσιν ἀπεχθόμενος τόδ' ἱκάνεις.
@@ -16697,8 +16696,8 @@
 # text = ὧδε δέ μοι φρονέοντι δοάσσατο κέρδιον εἶναι, πρῶτ' ἐλθόντ' ἐπὶ νῆα θοὴν καὶ θῖνα θαλάσσης δεῖπνον ἑταίροισιν δόμεναι προέμεν τε πυθέσθαι.
 1	ὧδε	ὧδε	ADV	d--------	_	5	advmod	_	Ref=10.153
 2	δέ	δέ	CCONJ	g--------	PartType=Ptcl	5	cc	_	Ref=10.153
-3	μοι	ἐγώ	PRON	p-s---md-	Case=Dat|Gender=Masc|Number=Sing|Person=1|PronType=Prs	5	obj	_	Ref=10.153
-4	φρονέοντι	φρονέω	VERB	v-sppamd-	Case=Dat|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	3	acl:compl	_	Ref=10.153
+3	μοι	ἐγώ	PRON	p-s---md-	Case=Dat|Gender=Masc|Number=Sing|Person=1|PronType=Prs	5	obl:arg	_	Ref=10.153
+4	φρονέοντι	φρονέω	VERB	v-sppamd-	Case=Dat|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	3	acl	_	Ref=10.153
 5	δοάσσατο	δοάσσατο	VERB	v3saim---	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Mid	0	root	_	Ref=10.153
 6	κέρδιον	κερδίων	ADJ	a-s---nnc	Case=Nom|Degree=Cmp|Gender=Neut|Number=Sing	5	ccomp	_	Ref=10.153
 7	εἶναι	εἰμί	AUX	v--pna---	Tense=Pres|VerbForm=Inf|Voice=Act	6	cop	_	Ref=10.153|SpaceAfter=No
@@ -18648,7 +18647,7 @@
 16	,	,	PUNCT	u--------	_	19	punct	_	Ref=10.331
 17	ἐκ	ἐκ	ADP	r--------	_	18	case	_	Ref=10.332
 18	Τροίης	Τροία	PROPN	n-s---fg-	Case=Gen|Gender=Fem|Number=Sing	19	obl:arg	_	Ref=10.332
-19	ἀνιόντα	ἄνειμι	VERB	v-sppama-	Case=Acc|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	8	acl:compl	_	Ref=10.332
+19	ἀνιόντα	ἄνειμι	VERB	v-sppama-	Case=Acc|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	13	advcl	_	Ref=10.332
 20	θοῇ	θοός	ADJ	a-s---fd-	Case=Dat|Gender=Fem|Number=Sing	22	amod	_	Ref=10.332
 21	σὺν	σύν	ADP	r--------	_	22	case	_	Ref=10.332
 22	νηὶ	ναῦς	NOUN	n-s---fd-	Case=Dat|Gender=Fem|Number=Sing	19	obl	_	Ref=10.332
