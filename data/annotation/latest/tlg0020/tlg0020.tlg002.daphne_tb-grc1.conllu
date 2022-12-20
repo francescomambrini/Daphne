@@ -671,7 +671,7 @@
 # text = ἐν δὲ θέμεν κύνεόν τε νόον καὶ ἐπίκλοπον ἦθος Ἑρμείην ἤνωγε, διάκτορον Ἀργεϊφόντην.
 1	ἐν	ἐν	ADV	r--------	_	3	compound:prt	_	Ref=59
 2	δὲ	δέ	CCONJ	g--------	PartType=Ptcl	11	cc	_	Ref=59
-3	θέμεν	τίθημι	VERB	v--ana---	VerbForm=Inf|Voice=Act	11	ccomp	_	Ref=59
+3	θέμεν	τίθημι	VERB	v--ana---	VerbForm=Inf|Voice=Act	11	xcomp	_	Ref=59
 4	κύνεόν	κύνεος	ADJ	a-s---ma-	Case=Acc|Gender=Masc|Number=Sing	6	amod	_	Ref=59
 5	τε	τε	CCONJ	c--------	_	6	cc	_	Ref=59
 6	νόον	νόος	NOUN	n-s---ma-	Case=Acc|Gender=Masc|Number=Sing	3	obj	_	Ref=59
@@ -4195,9 +4195,9 @@
 # sent_id = 1716130
 # text = ἀλλά σ̓ ἄνωγα φράζεσθαι χρειῶν τε λύσιν λιμοῦ τ̓ ἀλεωρήν.
 1	ἀλλά	ἀλλά	ADV	d--------	_	3	advmod	_	Ref=370
-2	σ̓	σύ	PRON	p-s----a-	Case=Acc|Number=Sing|Person=2|PronType=Prs	3	obj	_	Ref=370
+2	σ'	σύ	PRON	p-s----a-	Case=Acc|Number=Sing|Person=2|PronType=Prs	3	obj	_	Ref=370
 3	ἄνωγα	ἄνωγα	VERB	v1sria---	Mood=Ind|Number=Sing|Person=1|Voice=Act	0	root	_	Ref=370
-4	φράζεσθαι	φράζω	VERB	v--pne---	Tense=Pres|VerbForm=Inf|Voice=MidPass	3	ccomp	_	Ref=370
+4	φράζεσθαι	φράζω	VERB	v--pne---	Tense=Pres|VerbForm=Inf|Voice=MidPass	3	xcomp	_	Ref=370
 5	χρειῶν	χρεώ	NOUN	n-p---fg-	Case=Gen|Gender=Fem|Number=Plur	7	nmod	_	Ref=370
 6	τε	τε	CCONJ	c--------	_	7	cc	_	Ref=370
 7	λύσιν	λύσις	NOUN	n-s---fa-	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	Ref=370
@@ -4747,11 +4747,10 @@
 
 # sent_id = 1716165
 # text = ἑκατὸν δέ τε δούρατ̓ ἀμάξης, τῶν πρόσθεν μελέτην ἐχέμεν οἰκήια θέσθαι.
-0.1	E0.1	_	_	_	_	0	_	0:root	_
-1	ἑκατὸν	ἑκατόν	X	m--------	_	4	nummod	4:nummod	Ref=448
+1	ἑκατὸν	ἑκατόν	X	m--------	_	4	nummod	_	Ref=448
 2	δέ	δέ	CCONJ	g--------	PartType=Ptcl	4	cc	0.1:cc	Ref=448
 3	τε	τε	ADV	c--------	_	4	advmod	0.1:advmod	Ref=448
-4	δούρατ̓	δόρυ	NOUN	n-p---nn-	Case=Nom|Gender=Neut|Number=Plur	0	root	0.1:root|0.1:nsubj	Ref=448
+4	δούρατ̓	δόρυ	NOUN	n-p---nn-	Case=Nom|Gender=Neut|Number=Plur	0	root	0.1:nsubj	Ref=448
 5	ἀμάξης	ἄμαξα	NOUN	n-s---fg-	Case=Gen|Gender=Fem|Number=Sing	4	nmod	4:nmod	Ref=448|SpaceAfter=No
 6	,	,	PUNCT	u--------	_	10	punct	10:punct	Ref=448
 7	τῶν	ὁ	PRON	p-p---ng-	Case=Gen|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	9	nmod	9:det	Ref=448
@@ -4843,7 +4842,7 @@
 7	ἁγνῇ	ἁγνός	ADJ	a-s---fd-	Case=Dat|Gender=Fem|Number=Sing	5	amod	_	Ref=448|SpaceAfter=No
 8	,	,	PUNCT	u--------	_	10	punct	_	Ref=448
 9	ἐκτελέα	ἐκτελής	ADJ	a-s---fa-	Case=Acc|Gender=Fem|Number=Sing	13	acl:compl	_	Ref=448
-10	βρίθειν	βρίθω	VERB	v--pna---	Tense=Pres|VerbForm=Inf|Voice=Act	1	ccomp	_	Ref=448
+10	βρίθειν	βρίθω	VERB	v--pna---	Tense=Pres|VerbForm=Inf|Voice=Act	1	xcomp	_	Ref=448
 11	Δημήτερος	Δημήτηρ	PROPN	n-s---fg-	Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	Ref=448
 12	ἱερὸν	ἱερός	ADJ	a-s---fa-	Case=Acc|Gender=Fem|Number=Sing	13	amod	_	Ref=448
 13	ἀκτήν	ἀκτή	NOUN	n-s---fa-	Case=Acc|Gender=Fem|Number=Sing	10	obj	_	Ref=448|SpaceAfter=No
@@ -6079,12 +6078,12 @@
 4	Δημήτερος	Δημήτηρ	PROPN	n-s---fg-	Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	Ref=571
 5	ἱερὸν	ἱερός	ADJ	a-s---fa-	Case=Acc|Gender=Fem|Number=Sing	6	amod	_	Ref=571
 6	ἀκτὴν	ἀκτή	NOUN	n-s---fa-	Case=Acc|Gender=Fem|Number=Sing	7	obj	_	Ref=571
-7	δινέμεν	δίνω	VERB	v--pna---	Tense=Pres|VerbForm=Inf|Voice=Act	3	ccomp	_	Ref=571|SpaceAfter=No
+7	δινέμεν	δίνω	VERB	v--pna---	Tense=Pres|VerbForm=Inf|Voice=Act	3	xcomp	_	Ref=571|SpaceAfter=No
 8	,	,	PUNCT	u--------	_	12	punct	_	Ref=571
 9	εὖτ̓	εὖτε	ADV	d--------	_	12	advmod	_	Ref=571
 10	ἂν	ἄν	ADV	g--------	PartType=Ptcl	12	advmod	_	Ref=571
 11	πρῶτα	πρῶτος	ADJ	a-p---na-	Case=Acc|Gender=Neut|Number=Plur	12	obl	_	Ref=571
-12	φανῇ	φαίνω	VERB	v3sasp---	Mood=Sub|Number=Sing|Person=3	3	advcl	_	Ref=571
+12	φανῇ	φαίνω	VERB	v3sasp---	Mood=Sub|Number=Sing|Person=3	7	advcl	_	Ref=571
 13	σθένος	σθένος	NOUN	n-s---nn-	Case=Nom|Gender=Neut|Number=Sing	12	nsubj	_	Ref=571
 14	Ὠαρίωνος	Ὠρίων	PROPN	n-s---mg-	Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	Ref=571|SpaceAfter=No
 15	,	,	PUNCT	u--------	_	12	punct	_	Ref=571
@@ -6722,7 +6721,7 @@
 4	ἐδίδαξαν	διδάσκω	VERB	v3paia---	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	Ref=641
 5	ἀθέσφατον	ἀθέσφατος	ADJ	a-s---ma-	Case=Acc|Gender=Masc|Number=Sing	6	amod	_	Ref=641
 6	ὕμνον	ὕμνος	NOUN	n-s---ma-	Case=Acc|Gender=Masc|Number=Sing	7	obj	_	Ref=641
-7	ἀείδειν	ἀείδω	VERB	v--pna---	Tense=Pres|VerbForm=Inf|Voice=Act	4	ccomp	_	Ref=641|SpaceAfter=No
+7	ἀείδειν	ἀείδω	VERB	v--pna---	Tense=Pres|VerbForm=Inf|Voice=Act	4	xcomp	_	Ref=641|SpaceAfter=No
 8	.	.	PUNCT	u--------	_	4	punct	_	Ref=641
 
 # sent_id = 1716266
@@ -7991,7 +7990,7 @@
 4	τρισκαιδεκάτην	τρισκαιδέκατος	ADJ	a-s---fa-	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	Ref=765
 5	ἀλέασθαι	ἀλέομαι	VERB	v--anm---	VerbForm=Inf|Voice=Mid	0	root	_	Ref=765
 6	σπέρματος	σπέρμα	NOUN	n-s---ng-	Case=Gen|Gender=Neut|Number=Sing	7	obj	_	Ref=765
-7	ἄρξασθαι	ἄρχω	VERB	v--anm---	VerbForm=Inf|Voice=Mid	5	ccomp	_	Ref=765|SpaceAfter=No
+7	ἄρξασθαι	ἄρχω	VERB	v--anm---	VerbForm=Inf|Voice=Mid	5	advcl	_	Ref=765|SpaceAfter=No
 8	·	·	PUNCT	u--------	_	5	punct	_	Ref=765
 
 # sent_id = 1716352

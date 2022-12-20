@@ -258,7 +258,7 @@
 1	καί	καί	CCONJ	c--------	_	3	cc	3:cc	Ref=1.33
 2	μ̓	ἐγώ	PRON	p-s---ma-	Case=Acc|Gender=Masc|Number=Sing|Person=1|PronType=Prs	3	obj	3:obj	Ref=1.33
 3	ἐκέλονθ'	κέλομαι	VERB	v3piie---	Mood=Ind|Number=Plur|Person=3|Tense=Imp|Voice=MidPass	0	root	0:root	Ref=1.33
-4	ὑμνεῖν	ὑμνέω	VERB	v--pna---	Tense=Pres|VerbForm=Inf|Voice=Act	3	ccomp	3:ccomp	Ref=1.33
+4	ὑμνεῖν	ὑμνέω	VERB	v--pna---	Tense=Pres|VerbForm=Inf|Voice=Act	3	xcomp	3:ccomp	Ref=1.33
 5	μακάρων	μάκαρ	NOUN	n-p---mg-	Case=Gen|Gender=Masc|Number=Plur	6	nmod	6:nmod	Ref=1.33
 6	γένος	γένος	NOUN	n-s---na-	Case=Acc|Gender=Neut|Number=Sing	4	obj	4:obj	Ref=1.33
 7	αἰὲν	ἀεί	ADV	d--------	_	5	advmod	5:advmod	Ref=1.33
@@ -4314,7 +4314,7 @@
 25	ἀστερόεντα	ἀστερόεις	ADJ	a-s---ma-	Case=Acc|Gender=Masc|Number=Sing	24	amod	24:amod	Ref=1.470|SpaceAfter=No
 26	,	,	PUNCT	u--------	_	28	punct	28:punct	_
 27	μῆτιν	μῆτις	NOUN	n-s---fa-	Case=Acc|Gender=Fem|Number=Sing	28	obj	28:obj	Ref=1.471
-28	συμφράσσασθαι	συμφράζομαι	VERB	v--anm---	VerbForm=Inf|Voice=Mid	16	ccomp	16:ccomp	Ref=1.471|SpaceAfter=No
+28	συμφράσσασθαι	συμφράζομαι	VERB	v--anm---	VerbForm=Inf|Voice=Mid	16	xcomp	16:ccomp	Ref=1.471|SpaceAfter=No
 29	,	,	PUNCT	u--------	_	31	punct	31:punct	_
 30	ὅπως	ὅπως	SCONJ	c--------	_	31	mark	31:mark	Ref=1.471
 31	λελάθοιτο	λανθάνω	VERB	v3saom---	Mood=Opt|Number=Sing|Person=3|Voice=Mid	28	advcl	28:advcl	Ref=1.471
@@ -4355,7 +4355,7 @@
 14	,	,	PUNCT	u--------	_	17	punct	17:punct	_
 15	ὅσα	ὅσος	PRON	a-p---na-	Case=Acc|Gender=Neut|Number=Plur|PronType=Rel	18	nsubj	18:nsubj	Ref=1.475
 16	περ	πέρ	ADV	g--------	_	15	advmod	15:advmod	Ref=1.475
-17	πέπρωτο	πόρω	VERB	v3slie---	Mood=Ind|Number=Sing|Person=3|Voice=MidPass	13	ccomp	13:ccomp	Ref=1.475
+17	πέπρωτο	πόρω	VERB	v3slie---	Mood=Ind|Number=Sing|Person=3|Voice=MidPass	13	ccomp:relcl	13:ccomp	Ref=1.475
 18	γενέσθαι	γίγνομαι	VERB	v--anm---	VerbForm=Inf|Voice=Mid	17	ccomp	17:ccomp	Ref=1.475
 19	ἀμφὶ	ἀμφί	ADP	r--------	_	20	case	20:case	Ref=1.476
 20	Κρόνῳ	κρόνος	PROPN	n-s---md-	Case=Dat|Gender=Masc|Number=Sing	15	nmod	15:nmod	Ref=1.476
@@ -8113,7 +8113,7 @@
 16	ῥα	ἄρα	ADV	g--------	PartType=Ptcl	18	advmod	18:advmod	Ref=1.883
 17	τότ'	τότε	ADV	d--------	_	18	advmod	18:advmod	Ref=1.883
 18	ὤτρυνον	ὀτρύνω	VERB	v3piia---	Mood=Ind|Number=Plur|Person=3|Tense=Imp|Voice=Act	0	root	0:root	Ref=1.883
-19	βασιλευέμεν	βασιλεύω	VERB	v--pna---	Tense=Pres|VerbForm=Inf|Voice=Act	18	ccomp	18:ccomp	Ref=1.883
+19	βασιλευέμεν	βασιλεύω	VERB	v--pna---	Tense=Pres|VerbForm=Inf|Voice=Act	18	xcomp	18:ccomp	Ref=1.883
 20	ἠδὲ	ἠδέ	CCONJ	c--------	_	21	cc	21:cc	Ref=1.883
 21	ἀνάσσειν	ἀνάσσω	VERB	v--pna---	Tense=Pres|VerbForm=Inf|Voice=Act	19	conj	19:conj	Ref=1.883
 22	Γαίης	γαῖα	PROPN	n-s---fg-	Case=Gen|Gender=Fem|Number=Sing	23	nmod	23:nmod	Ref=1.884
@@ -8315,7 +8315,7 @@
 42	διδοῦσι	δίδωμι	VERB	v3ppia---	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	24	acl:relcl	24:acl	Ref=1.905
 43	θνητοῖς	θνητός	ADJ	a-p---md-	Case=Dat|Gender=Masc|Number=Plur	44	amod	44:amod	Ref=1.906
 44	ἀνθρώποισιν	ἄνθρωπος	NOUN	n-p---md-	Case=Dat|Gender=Masc|Number=Plur	42	iobj	42:iobj	Ref=1.906
-45	ἔχειν	ἔχω	VERB	v--pna---	Tense=Pres|VerbForm=Inf|Voice=Act	42	ccomp	42:ccomp	Ref=1.906
+45	ἔχειν	ἔχω	VERB	v--pna---	Tense=Pres|VerbForm=Inf|Voice=Act	42	advcl	42:ccomp	Ref=1.906
 46	ἀγαθόν	ἀγαθός	ADJ	a-s---na-	Case=Acc|Gender=Neut|Number=Sing	42	obj	42:obj	Ref=1.906
 47	τε	τε	CCONJ	c--------	_	48	cc	48:cc	Ref=1.906
 48	κακόν	κακός	ADJ	a-s---na-	Case=Acc|Gender=Neut|Number=Sing	46	conj	46:conj	Ref=1.906
