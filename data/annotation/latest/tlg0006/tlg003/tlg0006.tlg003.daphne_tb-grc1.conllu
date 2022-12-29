@@ -2550,10 +2550,10 @@
 # text = ἐξέδου κόρην ὅτῳ σε θυμός ἦγεν.
 1	ἐξέδου	ἐκδίδωμι	VERB	v2samm---	Mood=Imp|Number=Sing|Person=2|Voice=Mid	0	root	_	_
 2	κόρην	κόρη	NOUN	n-s---fa-	Case=Acc|Gender=Fem|Number=Sing	1	obj	_	_
-3	ὅτῳ	ὅστις	PRON	p-s---md-	Case=Dat|Gender=Masc|Number=Sing|PronType=Rel	6	iobj	_	_
+3	ὅτῳ	ὅστις	PRON	p-s---md-	Case=Dat|Gender=Masc|Number=Sing|PronType=Rel	6	orphan	_	_
 4	σε	σύ	PRON	p2s---ca-	Case=Acc|Number=Sing|Person=2|PronType=Prs	6	obj	_	_
 5	θυμός	θυμός	NOUN	n-s---mn-	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
-6	ἦγεν	ἄγω	VERB	v3siia---	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	1	ccomp	_	SpaceAfter=No
+6	ἦγεν	ἄγω	VERB	v3siia---	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	1	ccomp:relcl	_	SpaceAfter=No
 7	.	.	PUNCT	u--------	_	1	punct	_	_
 
 # sent_id = 165
