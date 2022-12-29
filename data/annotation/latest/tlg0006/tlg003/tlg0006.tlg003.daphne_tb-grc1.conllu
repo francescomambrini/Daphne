@@ -11250,11 +11250,11 @@
 5	,	,	PUNCT	u--------	_	6	punct	_	_
 6	πρόσπολοι	πρόσπολος	NOUN	n-p---mv-	Case=Voc|Gender=Masc|Number=Plur	1	vocative	_	SpaceAfter=No
 7	,	,	PUNCT	u--------	_	8	punct	_	_
-8	ἐκλύεθ’	ἐκλύω	VERB	v2ppma---	Mood=Imp|Number=Plur|Person=2|Tense=Pres|Voice=Act	1	ccomp	_	_
+8	ἐκλύεθ’	ἐκλύω	VERB	v2ppma---	Mood=Imp|Number=Plur|Person=2|Tense=Pres|Voice=Act	1	parataxis	_	_
 9	ἁρμούς	ἁρμός	NOUN	n-p---ma-	Case=Acc|Gender=Masc|Number=Plur	8	obj	_	SpaceAfter=No
 10	,	,	PUNCT	u--------	_	12	punct	_	_
 11	ὡς	ὡς	SCONJ	c--------	_	12	mark	_	_
-12	ἴδω	ὁράω	VERB	v1sasa---	Mood=Sub|Number=Sing|Person=1|Voice=Act	1	conj	_	_
+12	ἴδω	ὁράω	VERB	v1sasa---	Mood=Sub|Number=Sing|Person=1|Voice=Act	1	advcl	_	_
 13	διπλοῦν	διπλόος	ADJ	a-s---na-	Case=Acc|Gender=Neut|Number=Sing	14	amod	_	_
 14	κακόν	κακός	ADJ	a-s---na-	Case=Acc|Gender=Neut|Number=Sing	12	obj	_	SpaceAfter=No
 15	,	,	PUNCT	u--------	_	18	punct	_	_
@@ -11267,7 +11267,7 @@
 22	δράσασαν	δράω	VERB	v-sapafa-	Case=Acc|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	18	conj	_	_
 23	τάδε	ὅδε	PRON	p-p---na-	Case=Acc|Gender=Neut|Number=Plur|PronType=Dem	22	obj	_	SpaceAfter=No
 24	,	,	PUNCT	u--------	_	29	punct	_	_
-25	φόνου	φόνος	NOUN	n-s---mg-	Case=Gen|Gender=Masc|Number=Sing	29	obj	_	_
+25	φόνου	φόνος	NOUN	n-s---mg-	Case=Gen|Gender=Masc|Number=Sing	29	obl:arg	_	_
 26	τε	τε	CCONJ	c--------	_	29	cc	_	_
 27	παίδων	παῖς	NOUN	n-p---cg-	Case=Gen|Number=Plur	25	nmod	_	_
 28	τῶνδε	ὅδε	PRON	p-p---mg-	Case=Gen|Gender=Masc|Number=Plur|PronType=Dem	27	nmod	_	_
