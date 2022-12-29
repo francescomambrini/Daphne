@@ -8007,30 +8007,30 @@
 17	.	.	PUNCT	u--------	_	11	punct	11:punct	_
 
 # sent_id = 540
-# text = ἐπεί τυράννοις γῆς μ’ ἀποστεῖλαι δοκεῖ ̔ κ-ἐμοί τάδ’ ἐστί λῷστα, γιγνώσκω καλῶς, μήτ’ ἐμποδών σοί μήτε κοιράνοις χθονός ναίειν·
+# text = ἐπεί τυράννοις γῆς μ’ ἀποστεῖλαι δοκεῖ ( κ-ἐμοί τάδ’ ἐστί λῷστα, γιγνώσκω καλῶς, μήτ’ ἐμποδών σοί μήτε κοιράνοις χθονός ναίειν·
 1	ἐπεί	ἐπεί	ADV	c--------	_	6	advmod	_	_
 2	τυράννοις	τύραννος	NOUN	n-p---md-	Case=Dat|Gender=Masc|Number=Plur	6	obj	_	_
 3	γῆς	γῆ	NOUN	n-s---fg-	Case=Gen|Gender=Fem|Number=Sing	5	obj	_	_
 4	μ’	ἐγώ	PRON	p1s---ca-	Case=Acc|Number=Sing|Person=1|PronType=Prs	5	obj	_	_
 5	ἀποστεῖλαι	ἀποστέλλω	VERB	v--ana---	VerbForm=Inf|Voice=Act	6	ccomp	_	_
 6	δοκεῖ	δοκέω	VERB	v3spia---	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	_
-7	̔	̔	PUNCT	u--------	_	12	punct	_	_
+7	(	(	PUNCT	u--------	_	12	punct	_	_
 8	κ-	καί	ADV	d--------	_	9	advmod	_	SpaceAfter=No
 9	ἐμοί	ἐγώ	PRON	p1s---cd-	Case=Dat|Number=Sing|Person=1|PronType=Prs	12	obl	_	_
 10	τάδ’	ὅδε	PRON	p-p---nn-	Case=Nom|Gender=Neut|Number=Plur|PronType=Dem	12	nsubj	_	_
 11	ἐστί	εἰμί	AUX	v3spia---	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	12	cop	_	_
-12	λῷστα	λῷστος	ADJ	a-p---nn-	Case=Nom|Gender=Neut|Number=Plur	6	orphan	_	SpaceAfter=No
-13	,	,	PUNCT	u--------	_	12	punct	_	_
-14	γιγνώσκω	γιγνώσκω	VERB	v1spia---	Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	6	orphan	_	_
+12	λῷστα	λῷστος	ADJ	a-p---nn-	Case=Nom|Gender=Neut|Number=Plur	6	parataxis	_	SpaceAfter=No
+13	,	,	PUNCT	u--------	_	14	punct	_	_
+14	γιγνώσκω	γιγνώσκω	VERB	v1spia---	Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	12	parataxis	_	_
 15	καλῶς	καλός	ADV	d--------	_	14	advmod	_	SpaceAfter=No
 16	,	,	PUNCT	u--------	_	14	punct	_	_
-17	μήτ’	μήτε	ADV	d--------	_	18	discourse	_	_
-18	ἐμποδών	ἐμποδών	ADV	d--------	_	10	dep:apos	_	_
+17	μήτ’	μήτε	ADV	d--------	_	19	cc	_	_
+18	ἐμποδών	ἐμποδών	ADV	d--------	_	23	advmod	_	_
 19	σοί	σύ	PRON	p2s---cd-	Case=Dat|Number=Sing|Person=2|PronType=Prs	18	obl	_	_
-20	μήτε	μήτε	X	b--------	_	23	cc	_	_
-21	κοιράνοις	κοίρανος	NOUN	n-p---md-	Case=Dat|Gender=Masc|Number=Plur	23	obl	_	_
+20	μήτε	μήτε	X	b--------	_	21	cc	_	_
+21	κοιράνοις	κοίρανος	NOUN	n-p---md-	Case=Dat|Gender=Masc|Number=Plur	19	conj	_	_
 22	χθονός	χθών	NOUN	n-s---fg-	Case=Gen|Gender=Fem|Number=Sing	21	nmod	_	_
-23	ναίειν	ναίω	VERB	v--pna---	Tense=Pres|VerbForm=Inf|Voice=Act	18	conj	_	SpaceAfter=No
+23	ναίειν	ναίω	VERB	v--pna---	Tense=Pres|VerbForm=Inf|Voice=Act	10	parataxis	_	SpaceAfter=No
 24	·	·	PUNCT	u--------	_	6	punct	_	_
 
 # sent_id = 541
