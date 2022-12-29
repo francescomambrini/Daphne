@@ -755,10 +755,10 @@
 9	τοῦ	ὁ	PRON	l-s---mg-	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	nmod	10:det	_
 10	πέλας	πέλας	ADV	d--------	_	11	advmod	11:advmod	_
 11	μᾶλλον	μάλα	ADV	d-------c	Degree=Cmp	12	advmod	12:advmod	_
-12	φιλεῖ	φιλέω	VERB	v3spia---	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	ccomp	2:ccomp	SpaceAfter=No
+12	φιλεῖ	φιλέω	VERB	v3spia---	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	parataxis	2:ccomp	SpaceAfter=No
 13	,	,	PUNCT	u--------	_	14	punct	14:punct	_
 13.1	E13.1	_	_	_	_	_	_	7:ExD_CO	_
-14	οἱ	ὁ	PRON	l-p---mn-	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	ExD_CO	13.1:ExD_CO|13.1:nsubj	_
+14	οἱ	ὁ	PRON	l-p---mn-	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	acl	13.1:ExD_CO|13.1:nsubj	_
 15	μέν	μέν	ADV	d--------	PartType=Ptcl	14	advmod	13.1:advmod	_
 16	δικαίως	δίκαιος	ADV	d--------	_	14	advmod	13.1:advmod|13.1:advmod	SpaceAfter=No
 17	,	,	PUNCT	u--------	_	18	punct	18:punct	_
@@ -774,7 +774,7 @@
 26	εὐνῆς	εὐνή	NOUN	n-s---fg-	Case=Gen|Gender=Fem|Number=Sing	29	obl	29:obl	_
 27	οὕνεκ’	οὕνεκα	SCONJ	c--------	_	26	mark	26:mark	_
 28	οὐ	οὐ	ADV	d--------	_	29	advmod:neg	29:advmod:neg	_
-29	στέργει	στέργω	VERB	v3spia---	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	ccomp	2:ccomp	_
+29	στέργει	στέργω	VERB	v3spia---	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	2	advcl	2:ccomp	_
 30	πατήρ	πατήρ	NOUN	n-s---mn-	Case=Nom|Gender=Masc|Number=Sing	29	nsubj	29:nsubj	SpaceAfter=No
 31	;	;	PUNCT	u--------	_	2	punct	2:punct	_
 
