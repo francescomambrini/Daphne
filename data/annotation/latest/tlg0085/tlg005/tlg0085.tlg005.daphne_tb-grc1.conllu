@@ -198,7 +198,7 @@
 11	εὐφημοῦντα	εὐφημέω	VERB	v-sppama-	Case=Acc|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	10	amod	_	Ref=28
 12	τῇδε	ὅδε	DET	p-s---fd-	Case=Dat|Gender=Fem|Number=Sing|PronType=Dem	13	det	_	Ref=28
 13	λαμπάδι	λαμπάς	NOUN	n-s---fd-	Case=Dat|Gender=Fem|Number=Sing	14	iobj	_	Ref=28
-14	ἐπορθιάζειν	ἐπορθιάζω	VERB	v--pna---	Tense=Pres|VerbForm=Inf|Voice=Act	3	ccomp	_	Ref=29|SpaceAfter=No
+14	ἐπορθιάζειν	ἐπορθιάζω	VERB	v--pna---	Tense=Pres|VerbForm=Inf|Voice=Act	3	xcomp	_	Ref=29|SpaceAfter=No
 15	,	,	PUNCT	u--------	_	19	punct	_	Ref=29
 16	εἴπερ	εἴπερ	SCONJ	c--------	_	19	mark	_	Ref=29
 17	Ἰλίου	Ἴλιος	PROPN	n-s---fg-	Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	Ref=29
@@ -1030,7 +1030,7 @@
 0.1	E0.1	_	_	_	_	0	_	0:root	_
 0.2	E0.2	_	_	_	_	0	_	0.1:root	_
 1	τὸν	ὁ	DET	l-s---ma-	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	4:det	Ref=176
-2	φρονεῖν	φρονέω	VERB	v--pna---	Tense=Pres|VerbForm=Inf|Voice=Act	4	ccomp	4:ccomp	Ref=176
+2	φρονεῖν	φρονέω	VERB	v--pna---	Tense=Pres|VerbForm=Inf|Voice=Act	4	advcl	4:ccomp	Ref=176
 3	βροτοὺς	βροτός	NOUN	n-p---ma-	Case=Acc|Gender=Masc|Number=Plur	4	obj	4:obj	Ref=176
 4	ὁδώσαντα	ὁδόω	VERB	v-sapama-	Case=Acc|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	0.2:root	Ref=176-177|SpaceAfter=No
 5	,	,	PUNCT	u--------	_	9	punct	0.2:dep	Ref=176-177
@@ -1427,8 +1427,8 @@
 2	δὲ	δέ	ADV	d--------	PartType=Ptcl	7	cc	_	Ref=250
 3	τοῖς	ὁ	DET	l-p---md-	Case=Dat|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	Ref=250
 4	μὲν	μέν	ADV	d--------	PartType=Ptcl	7	advmod	_	Ref=250
-5	παθοῦσιν	πάσχω	VERB	v-papamd-	Case=Dat|Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	7	obj	_	Ref=250-251
-6	μαθεῖν	μανθάνω	VERB	v--ana---	VerbForm=Inf|Voice=Act	7	ccomp	_	Ref=251
+5	παθοῦσιν	πάσχω	VERB	v-papamd-	Case=Dat|Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	7	obl:arg	_	Ref=250-251
+6	μαθεῖν	μανθάνω	VERB	v--ana---	VerbForm=Inf|Voice=Act	7	advcl	_	Ref=251
 7	ἐπιρρέπει	ἐπιρρέπω	VERB	v3spia---	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	Ref=251|SpaceAfter=No
 8	·	·	PUNCT	u--------	_	7	punct	_	Ref=251
 
@@ -1948,7 +1948,7 @@
 12	πορθμοῦ	πορθμός	NOUN	n-s---mg-	Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	Ref=307
 13	κάτοπτον	κάτοπτος	ADJ	a-s---ma-	Case=Acc|Gender=Masc|Number=Sing	14	amod	_	Ref=307
 14	πρῶν'	πρών	NOUN	n-s---ma-	Case=Acc|Gender=Masc|Number=Sing	15	obj	_	Ref=307
-15	ὑπερβάλλειν	ὑπερβάλλω	VERB	v--pna---	Tense=Pres|VerbForm=Inf|Voice=Act	1	ccomp	_	Ref=307
+15	ὑπερβάλλειν	ὑπερβάλλω	VERB	v--pna---	Tense=Pres|VerbForm=Inf|Voice=Act	1	advcl	_	Ref=307
 16	πρόσω	πρόσω	ADV	d--------	_	17	advmod	_	Ref=307
 17	φλέγουσαν	φλέγω	VERB	v-sppafa-	Case=Acc|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	15	advcl	_	Ref=308|SpaceAfter=No
 18	·	·	PUNCT	u--------	_	1	punct	_	Ref=308
@@ -3320,7 +3320,7 @@
 25	εὐμενεῖς	εὐμενής	ADJ	a-p---ma-	Case=Acc|Gender=Masc|Number=Plur	28	advcl:compl	_	Ref=516
 26	πάλιν	πάλιν	ADV	d--------	_	28	advmod	_	Ref=516
 27	στρατὸν	στρατός	NOUN	n-s---ma-	Case=Acc|Gender=Masc|Number=Sing	28	obj	_	Ref=517
-28	δέχεσθαι	δέχομαι	VERB	v--pne---	Tense=Pres|VerbForm=Inf|Voice=MidPass	6	ccomp	_	Ref=517
+28	δέχεσθαι	δέχομαι	VERB	v--pne---	Tense=Pres|VerbForm=Inf|Voice=MidPass	6	xcomp	_	Ref=517
 29	τὸν	ὁ	DET	l-s---ma-	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	Ref=517
 30	λελειμμένον	λείπω	VERB	v-srpema-	Case=Acc|Gender=Masc|Number=Sing|VerbForm=Part|Voice=MidPass	27	amod	_	Ref=517
 31	δορός	δόρυ	NOUN	n-s---ng-	Case=Gen|Gender=Neut|Number=Sing	30	nmod	_	Ref=517|SpaceAfter=No
