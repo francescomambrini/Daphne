@@ -2278,15 +2278,15 @@
 8	;	;	PUNCT	u--------	_	5	punct	_	_
 
 # sent_id = 146
-# text = δέδοικα σ’ ̔ οὐδέν δεῖ παραμπίσχειν λόγους ̓ μή μοί τι δράσῃς παῖδ’ ἀνήκεστον κακόν.
+# text = δέδοικα σ’ ( οὐδέν δεῖ παραμπίσχειν λόγους ) μή μοί τι δράσῃς παῖδ’ ἀνήκεστον κακόν.
 1	δέδοικα	δείδω	VERB	v1sria---	Mood=Ind|Number=Sing|Person=1|Voice=Act	0	root	_	_
 2	σ’	σύ	PRON	p2s---ca-	Case=Acc|Number=Sing|Person=2|PronType=Prs	1	obj	_	_
-3	̔	̔	PUNCT	u--------	_	1	punct	_	_
+3	(	(	PUNCT	u--------	_	5	punct	_	_
 4	οὐδέν	οὐδείς	PRON	p-s---na-	Case=Acc|Gender=Neut|Number=Sing|PronType=Neg	6	obl	_	_
-5	δεῖ	δέω	VERB	v2spie---	Mood=Ind|Number=Sing|Person=2|Tense=Pres|Voice=MidPass	1	orphan	_	_
+5	δεῖ	δέω	VERB	v2spie---	Mood=Ind|Number=Sing|Person=2|Tense=Pres|Voice=MidPass	1	parataxis	_	_
 6	παραμπίσχειν	παραμφιίσχω	VERB	v--pna---	Tense=Pres|VerbForm=Inf|Voice=Act	5	csubj	_	_
 7	λόγους	λόγος	NOUN	n-p---ma-	Case=Acc|Gender=Masc|Number=Plur	6	obj	_	_
-8	̓	̓	PUNCT	u--------	_	5	punct	_	_
+8	)	)	PUNCT	u--------	_	5	punct	_	_
 9	μή	μή	SCONJ	c--------	_	12	mark	_	_
 10	μοί	ἐγώ	PRON	p1s---cd-	Case=Dat|Number=Sing|Person=1|PronType=Prs	13	nmod	_	_
 11	τι	τις	DET	p-s---na-	Case=Acc|Gender=Neut|Number=Sing|PronType=Ind	15	det	_	_
