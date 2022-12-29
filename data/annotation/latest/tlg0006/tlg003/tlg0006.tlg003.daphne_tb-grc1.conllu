@@ -8034,13 +8034,13 @@
 24	·	·	PUNCT	u--------	_	6	punct	_	_
 
 # sent_id = 541
-# text = δοκῶ γάρ δυσμενής εἶναι δόμοις ̓ ἡμεῖς μέν ἐκ γῆς τῆσδ’ ἀπαροῦμεν φυγῇ, παῖδες δ’ ὅπως ἄν ἐκτραφῶσι σῇ χερί, αἰτοῦ Κρέοντα τήνδε μή φεύγειν χθόνα.
-1	δοκῶ	δοκέω	VERB	v1spia---	Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	12	orphan	_	_
+# text = δοκῶ γάρ δυσμενής εἶναι δόμοις ) ἡμεῖς μέν ἐκ γῆς τῆσδ’ ἀπαροῦμεν φυγῇ, παῖδες δ’ ὅπως ἄν ἐκτραφῶσι σῇ χερί, αἰτοῦ Κρέοντα τήνδε μή φεύγειν χθόνα.
+1	δοκῶ	δοκέω	VERB	v1spia---	Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	12	parataxis	_	_
 2	γάρ	γάρ	ADV	d--------	PartType=Ptcl	1	advmod	_	_
 3	δυσμενής	δυσμενής	ADJ	a-s---mn-	Case=Nom|Gender=Masc|Number=Sing	1	ccomp	_	_
 4	εἶναι	εἰμί	AUX	v--pna---	Tense=Pres|VerbForm=Inf|Voice=Act	3	cop	_	_
 5	δόμοις	δόμος	NOUN	n-p---md-	Case=Dat|Gender=Masc|Number=Plur	3	obl	_	_
-6	̓	̓	PUNCT	u--------	_	1	punct	_	_
+6	)	)	PUNCT	u--------	_	1	punct	_	_
 7	ἡμεῖς	ἐγώ	PRON	p1p---cn-	Case=Nom|Number=Plur|Person=1|PronType=Prs	12	nsubj	_	_
 8	μέν	μέν	ADV	d--------	PartType=Ptcl	12	advmod	_	_
 9	ἐκ	ἐκ	ADP	r--------	_	10	case	_	_
