@@ -710,7 +710,7 @@
 # text = καὶ γὰρ κτανεῖν σ' ἔπεισα μητρῷον δέμας.
 1	καὶ	καί	ADV	c--------	_	5	advmod	_	Ref=84
 2	γὰρ	γάρ	ADV	d--------	PartType=Ptcl	5	advmod	_	Ref=84
-3	κτανεῖν	κτείνω	VERB	v--ana---	VerbForm=Inf|Voice=Act	5	ccomp	_	Ref=84
+3	κτανεῖν	κτείνω	VERB	v--ana---	VerbForm=Inf|Voice=Act	5	xcomp	_	Ref=84
 4	σ'	σύ	PRON	p-s---ma-	Case=Acc|Gender=Masc|Number=Sing|Person=2|PronType=Prs	5	obj	_	Ref=84
 5	ἔπεισα	πείθω	VERB	v1saia---	Mood=Ind|Number=Sing|Person=1|Tense=Past|Voice=Act	0	root	_	Ref=84
 6	μητρῷον	μητρῷος	ADJ	a-s---na-	Case=Acc|Gender=Neut|Number=Sing	7	amod	_	Ref=84
@@ -1350,7 +1350,7 @@
 # sent_id = 93
 # text = - τί τῶνδ' ἐρεῖ τις δικαίως ἔχειν;
 1	-	-	PUNCT	u--------	_	4	punct	_	_
-2	τί	τίς	PRON	p-s---na-	Case=Acc|Gender=Neut|Number=Sing|PronType=Int	4	obj	_	Ref=154
+2	τί	τίς	PRON	p-s---na-	Case=Acc|Gender=Neut|Number=Sing|PronType=Int	7	nsubj	_	Ref=154
 3	τῶνδ'	ὅδε	PRON	p-p---ng-	Case=Gen|Gender=Neut|Number=Plur|PronType=Dem	2	nmod	_	Ref=154
 4	ἐρεῖ	ἐρῶ	VERB	v3sfia---	Mood=Ind|Number=Sing|Person=3|Tense=Fut|Voice=Act	0	root	_	Ref=154
 5	τις	τις	PRON	p-s---mn-	Case=Nom|Gender=Masc|Number=Sing|PronType=Ind	4	nsubj	_	Ref=154
@@ -2409,7 +2409,7 @@
 10	τῆσδ'	ὅδε	DET	p-s---fg-	Case=Gen|Gender=Fem|Number=Sing|PronType=Dem	8	det	_	Ref=288
 11	Ἀθηναίαν	Ἀθήνη	PROPN	n-s---fa-	Case=Acc|Gender=Fem|Number=Sing	7	obj	_	Ref=288
 12	ἐμοὶ	ἐγώ	PRON	p-s---md-	Case=Dat|Gender=Masc|Number=Sing|Person=1|PronType=Prs	13	obj	_	Ref=288
-13	μολεῖν	βλώσκω	VERB	v--ana---	VerbForm=Inf|Voice=Act	7	ccomp	_	Ref=289
+13	μολεῖν	βλώσκω	VERB	v--ana---	VerbForm=Inf|Voice=Act	7	xcomp	_	Ref=289
 14	ἀρωγόν	ἀρωγός	ADJ	a-s---fa-	Case=Acc|Gender=Fem|Number=Sing	13	advcl:compl	_	Ref=289|SpaceAfter=No
 15	·	·	PUNCT	u--------	_	7	punct	_	Ref=289
 
@@ -2712,7 +2712,7 @@
 5	Μοῖρ'	μοῖρα	PROPN	n-s---fn-	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	Ref=335
 6	ἐπέκλωσεν	ἐπικλώθω	VERB	v3saia---	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	Ref=335
 7	ἐμπέδως	ἔμπεδος	ADV	d--------	_	8	obj	_	Ref=335
-8	ἔχειν	ἔχω	VERB	v--pna---	Tense=Pres|VerbForm=Inf|Voice=Act	6	ccomp	_	Ref=335|SpaceAfter=No
+8	ἔχειν	ἔχω	VERB	v--pna---	Tense=Pres|VerbForm=Inf|Voice=Act	6	advcl	_	Ref=335|SpaceAfter=No
 9	,	,	PUNCT	u--------	_	17	punct	_	Ref=335
 10	θνατῶν	θνητός	ADJ	a-p---mg-	Case=Gen|Gender=Masc|Number=Plur	11	amod	_	Ref=336
 11	τοῖσιν	ὁ	PRON	p-p---md-	Case=Dat|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	obj	_	Ref=336
@@ -5329,7 +5329,7 @@
 3	τούσδ'	ὅδε	PRON	p-p---ma-	Case=Acc|Gender=Masc|Number=Plur|PronType=Dem	2	obj	_	Ref=674
 4	ἀπὸ	ἀπό	ADP	r--------	_	5	case	_	Ref=674
 5	γνώμης	γνώμη	NOUN	n-s---fg-	Case=Gen|Gender=Fem|Number=Sing	6	obl	_	Ref=674
-6	φέρειν	φέρω	VERB	v--pna---	Tense=Pres|VerbForm=Inf|Voice=Act	2	ccomp	_	Ref=674
+6	φέρειν	φέρω	VERB	v--pna---	Tense=Pres|VerbForm=Inf|Voice=Act	2	xcomp	_	Ref=674
 7	ψῆφον	ψῆφος	NOUN	n-s---fa-	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	Ref=675
 8	δικαίαν	δίκαιος	ADJ	a-s---fa-	Case=Acc|Gender=Fem|Number=Sing	7	amod	_	Ref=675|SpaceAfter=No
 9	,	,	PUNCT	u--------	_	12	punct	_	Ref=675
@@ -5750,7 +5750,7 @@
 1	Μοίρας	μοῖρα	PROPN	n-p---fa-	Case=Acc|Gender=Fem|Number=Plur	2	obj	_	Ref=724
 2	ἔπεισας	πείθω	VERB	v2saia---	Mood=Ind|Number=Sing|Person=2|Tense=Past|Voice=Act	0	root	_	Ref=724
 3	ἀφθίτους	ἄφθιτος	ADJ	a-p---ma-	Case=Acc|Gender=Masc|Number=Plur	4	xcomp	_	Ref=724
-4	θεῖναι	τίθημι	VERB	v--ana---	VerbForm=Inf|Voice=Act	2	ccomp	_	Ref=724
+4	θεῖναι	τίθημι	VERB	v--ana---	VerbForm=Inf|Voice=Act	2	xcomp	_	Ref=724
 5	βροτούς	βροτός	NOUN	n-p---ma-	Case=Acc|Gender=Masc|Number=Plur	4	obj	_	Ref=724|SpaceAfter=No
 6	.	.	PUNCT	u--------	_	2	punct	_	Ref=724
 

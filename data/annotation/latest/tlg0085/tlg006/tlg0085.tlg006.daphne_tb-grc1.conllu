@@ -936,7 +936,7 @@
 17	γῆς	γῆ	NOUN	n-s---fg-	Case=Gen|Gender=Fem|Number=Sing	19	nmod	_	Ref=125
 18	ἔνερθε	ἔνερθε	ADP	r--------	_	17	case	_	Ref=125
 19	δαίμονας	δαίμων	NOUN	n-p---fa-	Case=Acc|Gender=Fem|Number=Plur	14	obj	_	Ref=125
-20	κλύειν	κλύω	VERB	v--pna---	Tense=Pres|VerbForm=Inf|Voice=Act	14	ccomp	_	Ref=125
+20	κλύειν	κλύω	VERB	v--pna---	Tense=Pres|VerbForm=Inf|Voice=Act	14	advcl	_	Ref=125
 21	ἐμὰς	ἐμός	DET	a-p---fa-	Case=Acc|Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	22	det	_	Ref=125
 22	εὐχάς	εὐχή	NOUN	n-p---fa-	Case=Acc|Gender=Fem|Number=Plur	20	obj	_	Ref=126|SpaceAfter=No
 23	,	,	PUNCT	u--------	_	20	punct	_	Ref=126
@@ -5986,7 +5986,7 @@
 16	σώφρον'	σώφρων	ADJ	a-p---na-	Case=Acc|Gender=Neut|Number=Plur	18	obj	_	Ref=786
 17	εὖ	εὖ	ADV	d--------	_	19	advmod	_	Ref=786
 18	μαιομένοις	μαίομαι	VERB	v-pppemd-	Case=Dat|Gender=Masc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=MidPass	12	advcl	_	Ref=786
-19	ἰδεῖν	εἶδον	VERB	v--ana---	VerbForm=Inf|Voice=Act	18	ccomp	_	Ref=786|SpaceAfter=No
+19	ἰδεῖν	εἶδον	VERB	v--ana---	VerbForm=Inf|Voice=Act	18	advcl	_	Ref=786|SpaceAfter=No
 20	.	.	PUNCT	u--------	_	10	punct	_	Ref=786
 
 # sent_id = 402
@@ -6648,7 +6648,7 @@
 1	κωφοῖς	κωφός	ADJ	a-p---md-	Case=Dat|Gender=Masc|Number=Plur	2	obj	_	Ref=882
 2	ἀυτῶ	ἀυτέω	VERB	v1spia---	Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	0	root	_	Ref=882
 3	καὶ	καί	CCONJ	c--------	_	7	cc	_	Ref=882
-4	καθεύδουσιν	καθεύδω	VERB	v3ppia---	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	7	ccomp	_	Ref=882
+4	καθεύδουσιν	καθεύδω	VERB	v3ppia---	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	7	iobj	_	Ref=882
 5	μάτην	ματάω	VERB	v1siia---	Mood=Ind|Number=Sing|Person=1|Tense=Imp|Voice=Act	4	advcl	_	Ref=882
 6	ἄκραντα	ἄκραντος	ADJ	a-p---na-	Case=Acc|Gender=Neut|Number=Plur	7	obj	_	Ref=883
 7	βάζω	βάζω	VERB	v1spia---	Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=Act	2	conj	_	Ref=883|SpaceAfter=No
