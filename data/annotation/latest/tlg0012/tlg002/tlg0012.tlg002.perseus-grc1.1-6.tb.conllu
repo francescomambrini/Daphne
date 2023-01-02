@@ -23647,10 +23647,10 @@
 6	ὕδατι	ὕδωρ	NOUN	n-s---nd-	Case=Dat|Gender=Neut|Number=Sing	5	obj	_	Ref=5.70
 7	λευκῷ	λευκός	ADJ	a-s---nd-	Case=Dat|Gender=Neut|Number=Sing	6	amod	_	Ref=5.70|SpaceAfter=No
 8	,	,	PUNCT	u--------	_	11	punct	_	Ref=5.70
-9	πλησίαι	πλησίος	ADJ	a-p---fn-	Case=Nom|Gender=Fem|Number=Plur	11	xcomp	_	Ref=5.71
+9	πλησίαι	πλησίος	ADJ	a-p---fn-	Case=Nom|Gender=Fem|Number=Plur	11	nsubj	_	Ref=5.71
 10	ἀλλήλων	ἀλλήλων	PRON	a-p---fg-	Case=Gen|Gender=Fem|Number=Plur|PronType=Rcp	9	nmod	_	Ref=5.71
 11	τετραμμέναι	τρέπω	VERB	v-prpefn-	Case=Nom|Gender=Fem|Number=Plur|VerbForm=Part|Voice=MidPass	5	advcl	_	Ref=5.71
-12	ἄλλυδις	ἄλλυδις	ADV	d--------	_	11	obj	_	Ref=5.71
+12	ἄλλυδις	ἄλλυδις	ADV	d--------	_	11	advmod	_	Ref=5.71
 13	ἄλλη	ἄλλος	PRON	a-s---fn-	Case=Nom|Gender=Fem|Number=Sing|PronType=Ind	11	advcl:compl	_	Ref=5.71|SpaceAfter=No
 14	.	.	PUNCT	u--------	_	5	punct	_	Ref=5.71
 
@@ -29566,7 +29566,7 @@
 # text = ὣς ἄρα οἱ φρονέοντι δοάσσατο κέρδιον εἶναι, λίσσεσθαι ἐπέεσσιν ἀποσταδὰ μειλιχίοισι, μή οἱ γοῦνα λαβόντι χολώσαιτο φρένα κούρη.
 1	ὣς	ὡς	ADV	d--------	_	4	advmod	_	Ref=6.145
 2	ἄρα	ἄρα	ADV	g--------	PartType=Ptcl	5	advmod	_	Ref=6.145
-3	οἱ	ἕ	PRON	p-s---md-	Case=Dat|Gender=Masc|Number=Sing|PronType=Prs	5	obj	_	Ref=6.145
+3	οἱ	ἕ	PRON	p-s---md-	Case=Dat|Gender=Masc|Number=Sing|PronType=Prs	5	obl:arg	_	Ref=6.145
 4	φρονέοντι	φρονέω	VERB	v-sppamd-	Case=Dat|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	3	acl:compl	_	Ref=6.145
 5	δοάσσατο	δοάσσατο	VERB	v3saim---	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Mid	0	root	_	Ref=6.145
 6	κέρδιον	κερδίων	ADJ	a-s---nac	Case=Acc|Degree=Cmp|Gender=Neut|Number=Sing	5	xcomp	_	Ref=6.145

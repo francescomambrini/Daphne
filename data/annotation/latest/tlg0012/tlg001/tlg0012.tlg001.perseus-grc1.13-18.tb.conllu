@@ -13022,9 +13022,9 @@
 # sent_id = 2278813
 # text = οὐ μέν μοι κακὸς εἴδεται οὐδὲ κακῶν ἔξ, ἀλλὰ κασίγνητος Ἀντήνορος ἱπποδάμοιο ἢ πάϊς·
 # Speaker = Ajax
-1	οὐ	οὐ	ADV	d--------	_	4	advmod:neg	_	Ref=14.472
-2	μέν	μέν	ADV	g--------	PartType=Ptcl	4	advmod	_	Ref=14.472
-3	μοι	ἐγώ	PRON	p-s---md-	Case=Dat|Gender=Masc|Number=Sing|Person=1|PronType=Prs	5	obj	_	Ref=14.472
+1	οὐ	οὐ	ADV	d--------	_	5	advmod:neg	_	Ref=14.472
+2	μέν	μέν	ADV	g--------	PartType=Ptcl	5	advmod	_	Ref=14.472
+3	μοι	ἐγώ	PRON	p-s---md-	Case=Dat|Gender=Masc|Number=Sing|Person=1|PronType=Prs	5	obl:arg	_	Ref=14.472
 4	κακὸς	κακός	ADJ	a-s---mn-	Case=Nom|Gender=Masc|Number=Sing	5	xcomp	_	Ref=14.472
 5	εἴδεται	εἴδομαι	VERB	v3spie---	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=MidPass	0	root	_	Ref=14.472
 6	οὐ	οὐ	ADV	d--------	_	8	advmod:neg	_	Ref=14.472|SpaceAfter=No
@@ -25385,7 +25385,7 @@
 13	μιν	μιν	PRON	p-s---ma-	Case=Acc|Gender=Masc|Number=Sing	12	obj	_	Ref=16.454
 14	θάνατόν	θάνατος	NOUN	n-s---ma-	Case=Acc|Gender=Masc|Number=Sing	16	obj	_	Ref=16.454
 15	τε	τε	CCONJ	c--------	_	19	cc	_	Ref=16.454
-16	φέρειν	φέρω	VERB	v--pna---	Tense=Pres|VerbForm=Inf|Voice=Act	12	xcomp	_	Ref=16.454
+16	φέρειν	φέρω	VERB	v--pna---	Tense=Pres|VerbForm=Inf|Voice=Act	12	advcl	_	Ref=16.454
 17	καὶ	καί	CCONJ	c--------	_	19	cc	_	Ref=16.454
 18	νήδυμον	νήδυμος	ADJ	a-s---ma-	Case=Acc|Gender=Masc|Number=Sing	19	amod	_	Ref=16.454
 19	ὕπνον	ὕπνος	NOUN	n-s---ma-	Case=Acc|Gender=Masc|Number=Sing	14	conj	_	Ref=16.454
