@@ -8375,11 +8375,10 @@
 9	πόλιν	πόλις	NOUN	n-s---fa-	Case=Acc|Gender=Fem|Number=Sing	11	obj	11:obj	Ref=1200
 10	κυρεῖν	κυρέω	VERB	v--pna---	Tense=Pres|VerbForm=Inf|Voice=Act	1	xcomp	1:xcomp	Ref=1201
 11	λέγουσαν	λέγω	VERB	v-sppafa-	Case=Acc|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	10	advcl	10:advcl	Ref=1201|SpaceAfter=No
-12	,	,	PUNCT	u--------	_	15	punct	13.1:punct	Ref=1201
-13	ὥσπερ	ὥσπερ	SCONJ	c--------	_	15	mark	13.1:mark	Ref=1201
-13.1	E13.1	_	_	_	_	0	_	10:advcl	_
-14	εἰ	εἰ	SCONJ	c--------	_	15	mark	13.1:mark	Ref=1201
-15	παρεστάτεις	παραστατέω	VERB	v2siia---	Mood=Ind|Number=Sing|Person=2|Tense=Imp|Voice=Act	10	advcl	13.1:advcl	Ref=1201|SpaceAfter=No
+12	,	,	PUNCT	u--------	_	15	punct	_	Ref=1201
+13	ὥσπερ	ὥσπερ	SCONJ	c--------	_	15	mark	_	Ref=1201
+14	εἰ	εἰ	SCONJ	c--------	_	13	fixed	_	Ref=1201
+15	παρεστάτεις	παραστατέω	VERB	v2siia---	Mood=Ind|Number=Sing|Person=2|Tense=Imp|Voice=Act	10	advcl	_	Ref=1201|SpaceAfter=No
 16	.	.	PUNCT	u--------	_	1	punct	1:punct	Ref=1201
 
 # sent_id = 540
@@ -10186,7 +10185,7 @@
 # text = θαυμάζομέν σου γλῶσσαν, ὡς θρασύστομος, ἥτις τοιόνδ' ἐπ' ἀνδρὶ κομπάζεις λόγον.
 1	θαυμάζομέν	θαυμάζω	VERB	v1ppia---	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	0	root	0:root	Ref=1399
 2	σου	σύ	PRON	p-s----g-	Case=Gen|Number=Sing|Person=2|PronType=Prs	1	obj	1:obj	Ref=1399
-3	γλῶσσαν	γλῶσσα	NOUN	n-s---fa-	Case=Acc|Gender=Fem|Number=Sing	1	obj	1:obj	Ref=1399|SpaceAfter=No
+3	γλῶσσαν	γλῶσσα	NOUN	n-s---fa-	Case=Acc|Gender=Fem|Number=Sing	1	obl:arg	1:obl:arg	Ref=1399|SpaceAfter=No
 4	,	,	PUNCT	u--------	_	6	punct	6:punct	Ref=1399
 5	ὡς	ὡς	ADV	d--------	_	6	advmod	6:advmod	Ref=1399
 6	θρασύστομος	θρασύστομος	ADJ	a-s---fn-	Case=Nom|Gender=Fem|Number=Sing	1	xcomp	1:xcomp	Ref=1399|SpaceAfter=No
