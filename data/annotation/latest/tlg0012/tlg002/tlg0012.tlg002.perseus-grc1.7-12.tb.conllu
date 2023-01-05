@@ -4456,7 +4456,7 @@
 13	ἐνίσπῃ	ἐνέπω	VERB	v3sasa---	Mood=Sub|Number=Sing|Person=3|Voice=Act	3	advcl	_	Ref=8.101
 14	οἷσι	ἑός	ADJ	a-p---md-	Case=Dat|Gender=Masc|Number=Plur	15	amod	_	Ref=8.101
 15	φίλοισιν	φίλος	ADJ	a-p---md-	Case=Dat|Gender=Masc|Number=Plur	13	obj	_	Ref=8.101
-16	οἴκαδε	οἴκαδε	ADV	d--------	_	17	obj	_	Ref=8.102
+16	οἴκαδε	οἴκαδε	ADV	d--------	_	17	advmod	_	Ref=8.102
 17	νοστήσας	νοστέω	VERB	v-sapamn-	Case=Nom|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	13	advcl	_	Ref=8.102|SpaceAfter=No
 18	,	,	PUNCT	u--------	_	20	punct	_	Ref=8.102
 19	ὅσσον	ὅσος	PRON	a-s---na-	Case=Acc|Gender=Neut|Number=Sing|PronType=Rel	20	obl	_	Ref=8.102
@@ -11216,11 +11216,11 @@
 11	τῶνδ'	ὅδε	DET	p-p---mg-	Case=Gen|Gender=Masc|Number=Plur|PronType=Dem	12	det	12:det	Ref=9.174
 12	ἀνδρῶν	ἀνήρ	NOUN	n-p---mg-	Case=Gen|Gender=Masc|Number=Plur	13	obj	13:obj	Ref=9.174
 13	πειρήσομαι	πειράω	VERB	v1sfim---	Mood=Ind|Number=Sing|Person=1|Tense=Fut|Voice=Mid	0	root	0:root	Ref=9.174|SpaceAfter=No
-14	,	,	PUNCT	u--------	_	15	punct	12:punct	Ref=9.174
-15	οἵ	ὅς	PRON	p-p---mn-	Case=Nom|Gender=Masc|Number=Plur|PronType=Rel	12	appos	12:appos	Ref=9.174
+14	,	,	PUNCT	u--------	_	15	punct	_	Ref=9.174
+15	οἵ	ὅς	PRON	p-p---mn-	Case=Nom|Gender=Masc|Number=Plur|PronType=Rel	13	xcomp	_	Ref=9.174
 16	τινές	τις	DET	p-p---mn-	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	15	det	15:det	Ref=9.174
 17	εἰσιν	εἰμί	AUX	v3ppia---	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	15	cop	15:cop	Ref=9.174|SpaceAfter=No
-18	,	,	PUNCT	u--------	_	23	punct	15:punct	Ref=9.174
+18	,	,	PUNCT	u--------	_	23	punct	_	Ref=9.174
 19	ἤ	ἤ	CCONJ	c--------	_	23	cc	23:cc	Ref=9.175
 20	ῥ'	ἄρα	ADV	g--------	PartType=Ptcl	23	advmod	23:advmod	Ref=9.175
 21	οἵ	ὁ	PRON	p-p---mn-	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	nsubj	23:nsubj	Ref=9.175
@@ -11241,7 +11241,7 @@
 36	νόος	νόος	NOUN	n-s---mn-	Case=Nom|Gender=Masc|Number=Sing	38	nsubj	38:nsubj	Ref=9.176
 37	ἐστὶ	εἰμί	AUX	v3spia---	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	38	cop	38:cop	Ref=9.176
 38	θεουδής	θεουδής	ADJ	a-s---mn-	Case=Nom|Gender=Masc|Number=Sing	32	conj	32:conj	Ref=9.176|SpaceAfter=No
-39	.	.	PUNCT	u--------	_	13	punct	0:punct	Ref=9.176
+39	.	.	PUNCT	u--------	_	13	punct	_	Ref=9.176
 
 # sent_id = 2187810
 # text = '" ὣς εἰπὼν ἀνὰ νηὸς ἔβην, ἐκέλευσα δ' ἑταίρους αὐτούς τ' ἀμβαίνειν ἀνά τε πρυμνήσια λῦσαι.
@@ -15197,11 +15197,11 @@
 1	ἔνθ'	ἔνθα	ADV	d--------	_	5	advmod	_	Ref=10.7
 2	ὅ	ὁ	PRON	p-s---mn-	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	nsubj	_	Ref=10.7
 3	γε	γε	ADV	g--------	PartType=Ptcl	2	advmod	_	Ref=10.7
-4	θυγατέρας	θυγάτηρ	NOUN	n-p---fa-	Case=Acc|Gender=Fem|Number=Plur	8	nsubj	_	Ref=10.7
+4	θυγατέρας	θυγάτηρ	NOUN	n-p---fa-	Case=Acc|Gender=Fem|Number=Plur	5	obj	_	Ref=10.7
 5	πόρεν	πόρω	VERB	v3saia---	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	Ref=10.7
-6	υἱάσιν	υἱός	NOUN	n-p---md-	Case=Dat|Gender=Masc|Number=Plur	5	obj	_	Ref=10.7
+6	υἱάσιν	υἱός	NOUN	n-p---md-	Case=Dat|Gender=Masc|Number=Plur	5	iobj	_	Ref=10.7
 7	εἶναι	εἰμί	AUX	v--pna---	Tense=Pres|VerbForm=Inf|Voice=Act	8	cop	_	Ref=10.7
-8	ἀκοίτις	ἄκοιτις	NOUN	n-p---fa-	Case=Acc|Gender=Fem|Number=Plur	5	xcomp	_	Ref=10.7|SpaceAfter=No
+8	ἀκοίτις	ἄκοιτις	NOUN	n-p---fa-	Case=Acc|Gender=Fem|Number=Plur	5	advcl	_	Ref=10.7|SpaceAfter=No
 9	.	.	PUNCT	u--------	_	5	punct	_	Ref=10.7
 
 # sent_id = 2188030
@@ -24805,7 +24805,7 @@
 10	ἐίσκομεν	ἐίσκω	VERB	v1ppia---	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	0	root	_	Ref=11.363
 11	εἰσορόωντες	εἰσοράω	VERB	v-pppamn-	Case=Nom|Gender=Masc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	10	advcl	_	Ref=11.363|SpaceAfter=No
 12	,	,	PUNCT	u--------	_	13	punct	_	Ref=11.363
-13	ἠπεροπῆά	ἠπεροπεύς	NOUN	n-s---ma-	Case=Acc|Gender=Masc|Number=Sing	5	appos	_	Ref=11.364
+13	ἠπεροπῆά	ἠπεροπεύς	NOUN	n-s---ma-	Case=Acc|Gender=Masc|Number=Sing	10	ccomp	_	Ref=11.364
 14	τ'	τε	CCONJ	c--------	_	17	cc	_	Ref=11.364
 15	ἔμεν	εἰμί	AUX	v--pna---	Tense=Pres|VerbForm=Inf|Voice=Act	13	cop	_	Ref=11.364
 16	καὶ	καί	CCONJ	c--------	_	17	cc	_	Ref=11.364
