@@ -20,7 +20,6 @@ with open(sys.argv[1]) as f:
 print('done opening')
 
 pth = os.path.join(os.path.abspath(sys.argv[2]), '**/*.conllu')
-print(pth)
 docs = glob(pth, recursive=True)
 print(len(docs))
 for doc in tqdm(docs):
