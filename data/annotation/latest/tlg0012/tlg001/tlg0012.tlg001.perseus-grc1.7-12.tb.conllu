@@ -2327,20 +2327,21 @@
 5	λαῶν	λαός	NOUN	n-p---mg-	Case=Gen|Gender=Masc|Number=Plur	4	nmod	4:nmod	Ref=7.234
 6	μή	μή	ADV	d--------	_	12	advmod:neg	12:advmod	Ref=7.235
 7	τί	τις	PRON	p-s---na-	Case=Acc|Gender=Neut|Number=Sing|PronType=Ind	12	obl	12:obl	Ref=7.235
-8	μευ	ἐγώ	PRON	p-s---mg-	Case=Gen|Gender=Masc|Number=Sing|Person=1|PronType=Prs	12	obj	12:obj	Ref=7.235
-9	ἠΰτε	ἠύτε	ADV	g--------	_	12	mark	12:mark	Ref=7.235
-10	παιδὸς	παῖς	NOUN	n-s---mg-	Case=Gen|Gender=Masc|Number=Sing	1	obj	1:obj	Ref=7.235
+8	μευ	ἐγώ	PRON	p-s---mg-	Case=Gen|Gender=Masc|Number=Sing|Person=1|PronType=Prs	12	obl:arg	12:obl:arg	Ref=7.235
+9	ἠΰτε	ἠύτε	ADV	g--------	_	10	mark	9.1:mark	Ref=7.235
+9.1	E9.1	_	_	_	_	_	_	12:advcl:cmp	EllType=Cmpr
+10	παιδὸς	παῖς	NOUN	n-s---mg-	Case=Gen|Gender=Masc|Number=Sing	12	advcl:cmp	9.1:obl:arg	Ref=7.235
 11	ἀφαυροῦ	ἀφαυρός	ADJ	a-s---mg-	Case=Gen|Gender=Masc|Number=Sing	10	amod	10:amod	Ref=7.235
 12	πειρήτιζε	πειρητίζω	VERB	v2spma---	Mood=Imp|Number=Sing|Person=2|Tense=Pres|Voice=Act	0	root	0:root	Ref=7.235
-13	ἠὲ	ἠέ	SCONJ	c--------	_	1	cc	1:cc	Ref=7.236
-14	γυναικός	γυνή	NOUN	n-s---fg-	Case=Gen|Gender=Fem|Number=Sing	1	obj	1:obj	Ref=7.236|SpaceAfter=No
+13	ἠὲ	ἠέ	SCONJ	c--------	_	14	cc	14:cc	Ref=7.236
+14	γυναικός	γυνή	NOUN	n-s---fg-	Case=Gen|Gender=Fem|Number=Sing	10	conj	10:conj	Ref=7.236|SpaceAfter=No
 15	,	,	PUNCT	u--------	_	18	punct	18:punct	Ref=7.236
 16	ἣ	ὅς	PRON	p-s---fn-	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	18	nsubj	18:nsubj	Ref=7.236
 17	οὐκ	οὐ	ADV	d--------	_	18	advmod:neg	18:advmod	Ref=7.236
 18	οἶδεν	οἶδα	VERB	v3sria---	Mood=Ind|Number=Sing|Person=3|Voice=Act	14	acl:relcl	14:acl	Ref=7.236
 19	πολεμήϊα	πολεμήιος	ADJ	a-p---na-	Case=Acc|Gender=Neut|Number=Plur	20	amod	20:amod	Ref=7.236
 20	ἔργα	ἔργον	NOUN	n-p---na-	Case=Acc|Gender=Neut|Number=Plur	18	obj	18:obj	Ref=7.236|SpaceAfter=No
-21	.	.	PUNCT	u--------	_	12	punct	0:punct	Ref=7.236
+21	.	.	PUNCT	u--------	_	12	punct	12:punct	Ref=7.236
 
 # sent_id = 2276315
 # Speaker = Hector

@@ -736,7 +736,7 @@
 # sent_id = 2274141
 # Speaker = Calchas
 # text = τοὶ γὰρ ἐγὼν ἐρέω·
-1	τοὶ	σύ	PRON	p-s----d-	Case=Dat|Number=Sing|Person=2|PronType=Prs	4	obl:arg	_	Ref=1.76
+1	τοὶ	σύ	ADV	g--------	PartType=Ptcl	4	advmod	_	Ref=1.76
 2	γὰρ	γάρ	ADV	g--------	PartType=Ptcl	4	advmod	_	Ref=1.76
 3	ἐγὼν	ἐγώ	PRON	p-s---mn-	Case=Nom|Gender=Masc|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	Ref=1.76
 4	ἐρέω	ἐρῶ	VERB	v1sfia---	Mood=Ind|Number=Sing|Person=1|Tense=Fut|Voice=Act	0	root	_	Ref=1.76|SpaceAfter=No
@@ -31105,21 +31105,20 @@
 # sent_id = 2275772
 # Speaker = Tlepolemos
 # text = Σαρπῆδον Λυκίων βουληφόρε, τίς τοι ἀνάγκη πτώσσειν ἐνθάδ' ἐόντι μάχης ἀδαήμονι φωτί;
-0.1	E0.1	_	_	_	_	_	_	0:root	_
-1	Σαρπῆδον	Σαρπηδών	PROPN	n-s---mv-	Case=Voc|Gender=Masc|Number=Sing	7	orphan	0.1:vocative	Ref=5.633
-2	Λυκίων	Λύκιοι	PROPN	n-p---mg-	Case=Gen|Gender=Masc|Number=Plur	3	nmod	3:nmod	Ref=5.633
-3	βουληφόρε	βουληφόρος	ADJ	a-s---mv-	Case=Voc|Gender=Masc|Number=Sing	1	amod	1:amod	Ref=5.633|SpaceAfter=No
-4	,	,	PUNCT	u--------	_	1	punct	1:punct	Ref=5.633
-5	τίς	τις	DET	p-s---fn-	Case=Nom|Gender=Fem|Number=Sing|PronType=Ind	7	det	7:det	Ref=5.633
-6	τοι	σύ	PRON	p-s---md-	Case=Dat|Gender=Masc|Number=Sing|Person=2|PronType=Prs	7	orphan	0.1:obl	Ref=5.633
-7	ἀνάγκη	ἀνάγκη	NOUN	n-s---fn-	Case=Nom|Gender=Fem|Number=Sing	0	root	0.1:nsubj	Ref=5.633
-8	πτώσσειν	πτώσσω	VERB	v--pna---	Tense=Pres|VerbForm=Inf|Voice=Act	7	acl	7:acl	Ref=5.634
-9	ἐνθάδ'	ἐνθάδε	ADV	d--------	_	8	advmod	8:advmod	Ref=5.634
-10	ἐόντι	εἰμί	AUX	v-sppamd-	Case=Dat|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	13	cop	13:cop	Ref=5.634
-11	μάχης	μάχη	NOUN	n-s---fg-	Case=Gen|Gender=Fem|Number=Sing	12	obj	12:obj	Ref=5.634
-12	ἀδαήμονι	ἀδαήμων	ADJ	a-s---md-	Case=Dat|Gender=Masc|Number=Sing	13	amod	13:amod	Ref=5.634
-13	φωτί	φώς	NOUN	n-s---md-	Case=Dat|Gender=Masc|Number=Sing	6	acl	6:nmod	Ref=5.634|SpaceAfter=No
-14	;	;	PUNCT	u--------	_	7	punct	0:punct	Ref=5.634
+1	Σαρπῆδον	Σαρπηδών	PROPN	n-s---mv-	Case=Voc|Gender=Masc|Number=Sing	7	vocative	_	Ref=5.633
+2	Λυκίων	Λύκιοι	PROPN	n-p---mg-	Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	Ref=5.633
+3	βουληφόρε	βουληφόρος	ADJ	a-s---mv-	Case=Voc|Gender=Masc|Number=Sing	1	amod	_	Ref=5.633|SpaceAfter=No
+4	,	,	PUNCT	u--------	_	1	punct	_	Ref=5.633
+5	τίς	τις	DET	p-s---fn-	Case=Nom|Gender=Fem|Number=Sing|PronType=Ind	7	det	_	Ref=5.633
+6	τοι	σύ	PRON	p-s---md-	Case=Dat|Gender=Masc|Number=Sing|Person=2|PronType=Prs	7	obl	_	Ref=5.633
+7	ἀνάγκη	ἀνάγκη	NOUN	n-s---fn-	Case=Nom|Gender=Fem|Number=Sing	0	root	_	Ref=5.633
+8	πτώσσειν	πτώσσω	VERB	v--pna---	Tense=Pres|VerbForm=Inf|Voice=Act	7	csubj	_	Ref=5.634
+9	ἐνθάδ'	ἐνθάδε	ADV	d--------	_	8	advmod	_	Ref=5.634
+10	ἐόντι	εἰμί	AUX	v-sppamd-	Case=Dat|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	13	cop	_	Ref=5.634
+11	μάχης	μάχη	NOUN	n-s---fg-	Case=Gen|Gender=Fem|Number=Sing	12	obl	_	Ref=5.634
+12	ἀδαήμονι	ἀδαήμων	ADJ	a-s---md-	Case=Dat|Gender=Masc|Number=Sing	13	amod	_	Ref=5.634
+13	φωτί	φώς	NOUN	n-s---md-	Case=Dat|Gender=Masc|Number=Sing	6	acl	_	Ref=5.634|SpaceAfter=No
+14	;	;	PUNCT	u--------	_	7	punct	_	Ref=5.634
 
 # sent_id = 2275773
 # Speaker = Tlepolemos
@@ -32697,7 +32696,7 @@
 7	,	,	PUNCT	u--------	_	9	punct	9:punct	Ref=5.801
 8	ἀλλὰ	ἀλλά	CCONJ	c--------	_	9	cc	9:cc	Ref=5.801
 9	μαχητής	μαχητής	NOUN	n-s---mn-	Case=Nom|Gender=Masc|Number=Sing	3	conj	3:conj	Ref=5.801|SpaceAfter=No
-10	·	·	PUNCT	u--------	_	3	punct	0:punct	Ref=5.801
+10	·	·	PUNCT	u--------	_	3	punct	3:punct	Ref=5.801
 
 # sent_id = 2275855
 # Speaker = Athena
@@ -32855,7 +32854,7 @@
 # Speaker = Diomedes
 # text = τώ τοι προφρονέως ἐρέω ἔπος οὐδ' ἐπικεύσω.
 1	τώ	τῷ	ADV	d--------	_	4	advmod	_	Ref=5.816
-2	τοι	σύ	PRON	p-s---fd-	Case=Dat|Gender=Fem|Number=Sing|Person=2|PronType=Prs	4	iobj	_	Ref=5.816
+2	τοι	σύ	PRON	p-s---fd-	Case=Dat|Gender=Fem|Number=Sing|Person=2|PronType=Prs	4	obl:arg	_	Ref=5.816
 3	προφρονέως	πρόφρων	ADV	d--------	_	4	advmod	_	Ref=5.816
 4	ἐρέω	ἐρῶ	VERB	v1sfia---	Mood=Ind|Number=Sing|Person=1|Tense=Fut|Voice=Act	0	root	_	Ref=5.816
 5	ἔπος	ἔπος	NOUN	n-s---na-	Case=Acc|Gender=Neut|Number=Sing	4	obj	_	Ref=5.816
@@ -33415,7 +33414,7 @@
 # text = αἰεί τοι ῥίγιστα θεοὶ τετληότες εἰμὲν ἀλλήλων ἰότητι, χάριν ἄνδρεσσι φέροντες.
 1	αἰεί	ἀεί	ADV	d--------	_	5	advmod	_	Ref=5.873
 2	τοι	τοι	ADV	g--------	PartType=Ptcl	5	advmod	_	Ref=5.873
-3	ῥίγιστα	ῥίγιστος	ADJ	a-p---na-	Case=Acc|Gender=Neut|Number=Plur	5	obl	_	Ref=5.873
+3	ῥίγιστα	ῥίγιστος	ADJ	a-p---na-	Case=Acc|Gender=Neut|Number=Plur	5	obj	_	Ref=5.873
 4	θεοὶ	θεός	NOUN	n-p---mn-	Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	Ref=5.873
 5	τετληότες	τλάω	VERB	v-prpamn-	Case=Nom|Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	Ref=5.873
 6	εἰμὲν	εἰμί	AUX	v1ppia---	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	5	cop	_	Ref=5.873
@@ -33423,7 +33422,7 @@
 8	ἰότητι	ἰότης	NOUN	n-s---fd-	Case=Dat|Gender=Fem|Number=Sing	5	obl	_	Ref=5.874|SpaceAfter=No
 9	,	,	PUNCT	u--------	_	12	punct	_	Ref=5.874
 10	χάριν	χάρις	NOUN	n-s---fa-	Case=Acc|Gender=Fem|Number=Sing	12	obj	_	Ref=5.874
-11	ἄνδρεσσι	ἀνήρ	NOUN	n-p---md-	Case=Dat|Gender=Masc|Number=Plur	12	iobj	_	Ref=5.874
+11	ἄνδρεσσι	ἀνήρ	NOUN	n-p---md-	Case=Dat|Gender=Masc|Number=Plur	12	obl:arg	_	Ref=5.874
 12	φέροντες	φέρω	VERB	v-pppamn-	Case=Nom|Gender=Masc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	5	advcl	_	Ref=5.874|SpaceAfter=No
 13	.	.	PUNCT	u--------	_	5	punct	_	Ref=5.874
 
@@ -33606,32 +33605,30 @@
 # sent_id = 2275906
 # Speaker = Zeus
 # text = αἰεὶ γάρ τοι ἔρις τε φίλη πόλεμοί τε μάχαι τε.
-1	αἰεὶ	ἀεί	ADV	d--------	_	6	advmod	6:advmod	Ref=5.891
-2	γάρ	γάρ	ADV	g--------	PartType=Ptcl	6	advmod	6:advmod	Ref=5.891
-3	τοι	σύ	PRON	p-s---md-	Case=Dat|Gender=Masc|Number=Sing|Person=2|PronType=Prs	6	obl	6:obl	Ref=5.891
-4	ἔρις	ἔρις	NOUN	n-s---fn-	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	6:nsubj	Ref=5.891
-5	τε	τε	CCONJ	c--------	_	6	cc	6:cc	Ref=5.891
-6	φίλη	φίλος	ADJ	a-s---fn-	Case=Nom|Gender=Fem|Number=Sing	0	root	0:root	Ref=5.891
-6.1	E6.1	_	_	_	_	_	_	6:conj	_
-7	πόλεμοί	πόλεμος	NOUN	n-p---mn-	Case=Nom|Gender=Masc|Number=Plur	6	conj	6.1:nsubj	Ref=5.891
-8	τε	τε	CCONJ	c--------	_	9	cc	9:cc	Ref=5.891
-8.1	E8.1	_	_	_	_	_	_	6:conj	_
-9	μάχαι	μάχη	NOUN	n-p---fn-	Case=Nom|Gender=Fem|Number=Plur	6	conj	8.1:nsubj	Ref=5.891
-10	τε	τε	CCONJ	c--------	_	6	cc	6:cc	Ref=5.891|SpaceAfter=No
-11	.	.	PUNCT	u--------	_	6	punct	0:punct	Ref=5.891
+1	αἰεὶ	ἀεί	ADV	d--------	_	6	advmod	_	Ref=5.891
+2	γάρ	γάρ	ADV	g--------	PartType=Ptcl	6	advmod	_	Ref=5.891
+3	τοι	σύ	PRON	p-s---md-	Case=Dat|Gender=Masc|Number=Sing|Person=2|PronType=Prs	6	obl	_	Ref=5.891
+4	ἔρις	ἔρις	NOUN	n-s---fn-	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	Ref=5.891
+5	τε	τε	CCONJ	c--------	_	4	cc	_	Ref=5.891
+6	φίλη	φίλος	ADJ	a-s---fn-	Case=Nom|Gender=Fem|Number=Sing	0	root	_	Ref=5.891
+7	πόλεμοί	πόλεμος	NOUN	n-p---mn-	Case=Nom|Gender=Masc|Number=Plur	4	conj	_	Ref=5.891
+8	τε	τε	CCONJ	c--------	_	7	cc	_	Ref=5.891
+9	μάχαι	μάχη	NOUN	n-p---fn-	Case=Nom|Gender=Fem|Number=Plur	7	conj	_	Ref=5.891
+10	τε	τε	CCONJ	c--------	_	9	cc	_	Ref=5.891|SpaceAfter=No
+11	.	.	PUNCT	u--------	_	6	punct	_	Ref=5.891
 
 # sent_id = 2275907
 # Speaker = Zeus
 # text = μητρός τοι μένος ἐστὶν ἀάσχετον οὐκ ἐπιεικτὸν Ἥρης·
 1	μητρός	μήτηρ	NOUN	n-s---fg-	Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	Ref=5.892
-2	τοι	τοι	ADV	p-s---md-	_	5	advmod	_	Ref=5.892
+2	τοι	τοι	ADV	g--------	_	5	advmod	_	Ref=5.892
 3	μένος	μένος	NOUN	n-s---nn-	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	Ref=5.892
 4	ἐστὶν	εἰμί	AUX	v3spia---	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	cop	_	Ref=5.892
 5	ἀάσχετον	ἄσχετος	ADJ	a-s---nn-	Case=Nom|Gender=Neut|Number=Sing	0	root	_	Ref=5.892
 6	οὐκ	οὐ	ADV	d--------	_	7	advmod:neg	_	Ref=5.892
 7	ἐπιεικτὸν	ἐπιεικτός	ADJ	a-s---nn-	Case=Nom|Gender=Neut|Number=Sing	5	parataxis	_	Ref=5.892
 8	Ἥρης	Ἥρα	PROPN	n-s---fg-	Case=Gen|Gender=Fem|Number=Sing	1	appos	_	Ref=5.893|SpaceAfter=No
-9	·	·	PUNCT	u--------	_	8	punct	_	Ref=5.893
+9	·	·	PUNCT	u--------	_	5	punct	_	Ref=5.893
 
 # sent_id = 2275908
 # Speaker = Zeus
@@ -34248,25 +34245,25 @@
 # sent_id = 2275945
 # Speaker = Adrestos
 # text = πολλὰ δ' ἐν ἀφνειοῦ πατρὸς κειμήλια κεῖται χαλκός τε χρυσός τε πολύκμητός τε σίδηρος, τῶν κέν τοι χαρίσαιτο πατὴρ ἀπερείσι' ἄποινα εἴ κεν ἐμὲ ζωὸν πεπύθοιτ' ἐπὶ νηυσὶν Ἀχαιῶν.
-0.1	E0.1	_	_	_	_	_	_	7:obl	_
 1	πολλὰ	πολύς	ADJ	a-p---nn-	Case=Nom|Gender=Neut|Number=Plur	6	amod	6:amod	Ref=6.47
 2	δ'	δέ	CCONJ	g--------	PartType=Ptcl	7	cc	7:cc	Ref=6.47
 3	ἐν	ἐν	ADP	r--------	_	5	case	0.1:case	Ref=6.47
+3.1	E3.1	_	_	_	_	_	_	7:obl	EllType=NPEll
 4	ἀφνειοῦ	ἀφνειός	ADJ	a-s---mg-	Case=Gen|Gender=Masc|Number=Sing	5	amod	5:amod	Ref=6.47
-5	πατρὸς	πατήρ	NOUN	n-s---mg-	Case=Gen|Gender=Masc|Number=Sing	6	obl	0.1:nmod	Ref=6.47
-6	κειμήλια	κειμήλιον	NOUN	n-p---nn-	Case=Nom|Gender=Neut|Number=Plur	7	obl:arg	0.1:nsubj	Ref=6.47
+5	πατρὸς	πατήρ	NOUN	n-s---mg-	Case=Gen|Gender=Masc|Number=Sing	6	obl	3.1:nmod	Ref=6.47
+6	κειμήλια	κειμήλιον	NOUN	n-p---nn-	Case=Nom|Gender=Neut|Number=Plur	7	nsubj	7:nsubj	Ref=6.47
 7	κεῖται	κεῖμαι	VERB	v3spie---	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=MidPass	0	root	0:root	Ref=6.47
-8	χαλκός	χαλκός	NOUN	n-s---mn-	Case=Nom|Gender=Masc|Number=Sing	6	appos	0.1:nsubj	Ref=6.48
-9	τε	τε	CCONJ	c--------	_	8	cc	13:discourse	Ref=6.48
-10	χρυσός	χρυσός	NOUN	n-s---mn-	Case=Nom|Gender=Masc|Number=Sing	8	conj	0.1:nsubj	Ref=6.48
-11	τε	τε	CCONJ	c--------	_	10	cc	13:discourse	Ref=6.48
+8	χαλκός	χαλκός	NOUN	n-s---mn-	Case=Nom|Gender=Masc|Number=Sing	6	appos	6:appos	Ref=6.48
+9	τε	τε	CCONJ	c--------	_	8	cc	8:cc	Ref=6.48
+10	χρυσός	χρυσός	NOUN	n-s---mn-	Case=Nom|Gender=Masc|Number=Sing	8	conj	8:conj	Ref=6.48
+11	τε	τε	CCONJ	c--------	_	10	cc	10:cc	Ref=6.48
 12	πολύκμητός	πολύκμητος	ADJ	a-s---mn-	Case=Nom|Gender=Masc|Number=Sing	14	amod	14:amod	Ref=6.48
-13	τε	τε	CCONJ	c--------	_	14	cc	7:cc	Ref=6.48
-14	σίδηρος	σίδηρος	NOUN	n-s---mn-	Case=Nom|Gender=Masc|Number=Sing	8	conj	0.1:nsubj	Ref=6.48|SpaceAfter=No
+13	τε	τε	CCONJ	c--------	_	14	cc	14:cc	Ref=6.48
+14	σίδηρος	σίδηρος	NOUN	n-s---mn-	Case=Nom|Gender=Masc|Number=Sing	8	conj	8:conj	Ref=6.48|SpaceAfter=No
 15	,	,	PUNCT	u--------	_	19	punct	19:punct	Ref=6.48
 16	τῶν	ὁ	PRON	p-p---ng-	Case=Gen|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	19	obl	22:det	Ref=6.49
 17	κέν	ἄν	ADV	g--------	PartType=Ptcl	19	advmod	19:advmod	Ref=6.49
-18	τοι	σύ	PRON	p-s----d-	Case=Dat|Number=Sing|Person=2|PronType=Prs	19	iobj	19:iobj	Ref=6.49
+18	τοι	σύ	PRON	p-s----d-	Case=Dat|Number=Sing|Person=2|PronType=Prs	19	obl	19:obl	Ref=6.49
 19	χαρίσαιτο	χαρίζομαι	VERB	v3saoe---	Mood=Opt|Number=Sing|Person=3|Voice=MidPass	6	acl:relcl	0.1:acl	Ref=6.49
 20	πατὴρ	πατήρ	NOUN	n-s---mn-	Case=Nom|Gender=Masc|Number=Sing	19	nsubj	19:nsubj	Ref=6.49
 21	ἀπερείσι'	ἀπερείσιος	ADJ	a-p---na-	Case=Acc|Gender=Neut|Number=Plur	22	amod	22:amod	Ref=6.49
