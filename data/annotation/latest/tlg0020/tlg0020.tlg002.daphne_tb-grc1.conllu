@@ -4748,9 +4748,9 @@
 # sent_id = 1716165
 # text = ἑκατὸν δέ τε δούρατ̓ ἀμάξης, τῶν πρόσθεν μελέτην ἐχέμεν οἰκήια θέσθαι.
 1	ἑκατὸν	ἑκατόν	X	m--------	_	4	nummod	_	Ref=448
-2	δέ	δέ	CCONJ	g--------	PartType=Ptcl	4	cc	0.1:cc	Ref=448
-3	τε	τε	ADV	c--------	_	4	advmod	0.1:advmod	Ref=448
-4	δούρατ̓	δόρυ	NOUN	n-p---nn-	Case=Nom|Gender=Neut|Number=Plur	0	root	0.1:nsubj	Ref=448
+2	δέ	δέ	CCONJ	g--------	PartType=Ptcl	4	cc	4:cc	Ref=448
+3	τε	τε	ADV	c--------	_	4	advmod	4:advmod	Ref=448
+4	δούρατ̓	δόρυ	NOUN	n-p---nn-	Case=Nom|Gender=Neut|Number=Plur	0	root	0:root	Ref=448
 5	ἀμάξης	ἄμαξα	NOUN	n-s---fg-	Case=Gen|Gender=Fem|Number=Sing	4	nmod	4:nmod	Ref=448|SpaceAfter=No
 6	,	,	PUNCT	u--------	_	10	punct	10:punct	Ref=448
 7	τῶν	ὁ	PRON	p-p---ng-	Case=Gen|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	9	nmod	9:det	Ref=448
@@ -4759,7 +4759,7 @@
 10	ἐχέμεν	ἔχω	VERB	v--pna---	Tense=Pres|VerbForm=Inf|Voice=Act	4	acl	4:acl	Ref=448
 11	οἰκήια	οἰκεῖος	ADJ	a-p---na-	Case=Acc|Gender=Neut|Number=Plur	12	obj	12:obj	Ref=448
 12	θέσθαι	τίθημι	VERB	v--ane---	VerbForm=Inf|Voice=MidPass	10	ccomp	10:ccomp	Ref=448|SpaceAfter=No
-13	.	.	PUNCT	u--------	_	4	punct	0.1:punct	Ref=448
+13	.	.	PUNCT	u--------	_	4	punct	4:punct	Ref=448
 
 # sent_id = 1716166
 # text = εὖτ̓ ἂν δὲ πρώτιστ̓ ἄροτος θνητοῖσι φανείῆ, δὴ τότ̓ ἐφορμηθῆναι ὁμῶς δμῶές τε καὶ αὐτὸς αὔην καὶ διερὴν ἀρόων ἀρότοιο καθ̓ ὥρην, πρωὶ μάλα σπεύδων, ἵνα τοι πλήθωσιν ἄρουραι.

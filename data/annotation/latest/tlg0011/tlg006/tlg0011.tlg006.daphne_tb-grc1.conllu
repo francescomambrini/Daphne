@@ -7792,8 +7792,8 @@
 2	τέκνον	τέκνον	NOUN	n-s---nv-	Case=Voc|Gender=Neut|Number=Sing	4	vocative	4:vocative	Ref=833|SpaceAfter=No
 3	,	,	PUNCT	u--------	_	2	punct	2:punct	Ref=833
 4	ὅρα	ὁράω	VERB	v2spma---	Mood=Imp|Number=Sing|Person=2|Tense=Pres|Voice=Act	0	root	0:root	Ref=833
-5	ποῦ	ποῦ	ADV	d--------	_	6	advmod	4.1:advmod	Ref=833
-6	στάσῃ	ἵστημι	VERB	v2sfim---	Mood=Ind|Number=Sing|Person=2|Tense=Fut|Voice=Mid	4	ccomp	4.1:ccomp	Ref=833|SpaceAfter=No
+5	ποῦ	ποῦ	ADV	d--------	_	6	advmod	6:advmod	Ref=833
+6	στάσῃ	ἵστημι	VERB	v2sfim---	Mood=Ind|Number=Sing|Person=2|Tense=Fut|Voice=Mid	4	ccomp	4:ccomp	Ref=833|SpaceAfter=No
 7	,	,	PUNCT	u--------	_	6	punct	_	Ref=833
 8	ποῖ	ποῖ	ADV	d--------	_	10	advmod	_	Ref=834
 9	δέ	δέ	ADV	d--------	PartType=Ptcl	10	cc	_	Ref=834
@@ -7922,15 +7922,15 @@
 
 # sent_id = 507
 # text = ὡς πάντων ἐν νόσῳ εὐδρακὴς ὕπνος ἄϋπνος λεύσσειν.
-1	ὡς	ὡς	SCONJ	c--------	_	5	mark	1.1:mark	Ref=847
+1	ὡς	ὡς	SCONJ	c--------	_	5	mark	5:mark	Ref=847
 2	πάντων	πᾶς	PRON	p-p---mg-	Case=Gen|Gender=Masc|Number=Plur|PronType=Ind	6	nmod	_	Ref=847
 3	ἐν	ἐν	ADP	r--------	_	4	case	4:case	Ref=847
-4	νόσῳ	νόσος	NOUN	n-s---fd-	Case=Dat|Gender=Fem|Number=Sing	5	obl	_	Ref=847
+4	νόσῳ	νόσος	NOUN	n-s---fd-	Case=Dat|Gender=Fem|Number=Sing	2	nmod	_	Ref=847
 5	εὐδρακὴς	εὐδρακής	ADJ	a-s---mn-	Case=Nom|Gender=Masc|Number=Sing	0	root	_	Ref=847
-6	ὕπνος	ὕπνος	NOUN	n-s---mn-	Case=Nom|Gender=Masc|Number=Sing	5	root	1.1:nsubj	Ref=848
-7	ἄϋπνος	ἄυπνος	ADJ	a-s---mn-	Case=Nom|Gender=Masc|Number=Sing	6	amod	6:amod	Ref=848
-8	λεύσσειν	λεύσσω	VERB	v--pna---	Tense=Pres|VerbForm=Inf|Voice=Act	5	advcl	5:advcl	Ref=848|SpaceAfter=No
-9	.	.	PUNCT	u--------	_	5	punct	0.1:punct|1.1:punct	Ref=848
+6	ὕπνος	ὕπνος	NOUN	n-s---mn-	Case=Nom|Gender=Masc|Number=Sing	5	root	_	Ref=848
+7	ἄϋπνος	ἄυπνος	ADJ	a-s---mn-	Case=Nom|Gender=Masc|Number=Sing	6	amod	_	Ref=848
+8	λεύσσειν	λεύσσω	VERB	v--pna---	Tense=Pres|VerbForm=Inf|Voice=Act	5	advcl	_	Ref=848|SpaceAfter=No
+9	.	.	PUNCT	u--------	_	5	punct	_	Ref=848
 
 # sent_id = 508
 # text = ἀλλ' ὅτι δύνᾳ μάκιστον κεῖνο δή μοι κεῖνο λάθρᾳ ἐξιδοῦ ὅπᾳ πράξεις.
@@ -8077,7 +8077,7 @@
 6	τ'	τε	CCONJ	c--------	_	9	cc	_	Ref=867
 7	ἐλπίδων	ἐλπίς	NOUN	n-p---fg-	Case=Gen|Gender=Fem|Number=Plur	9	nmod	9:nmod	Ref=867
 8	ἄπιστον	ἄπιστος	ADJ	a-s---nv-	Case=Voc|Gender=Neut|Number=Sing	9	amod	9:amod	Ref=868
-9	οἰκούρημα	οἰκούρημα	NOUN	n-s---nv-	Case=Voc|Gender=Neut|Number=Sing	2	orphan	0.1:orphan	Ref=868
+9	οἰκούρημα	οἰκούρημα	NOUN	n-s---nv-	Case=Voc|Gender=Neut|Number=Sing	2	orphan	2:orphan	Ref=868
 10	τῶνδε	ὅδε	DET	p-p---mg-	Case=Gen|Gender=Masc|Number=Plur|PronType=Dem	12	det	12:det	Ref=868
 11	τῶν	ὁ	DET	l-p---mg-	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	12:det	Ref=868
 12	ξένων	ξένος	NOUN	a-p---mg-	Case=Gen|Gender=Masc|Number=Plur	9	nmod	9:amod	Ref=868|SpaceAfter=No

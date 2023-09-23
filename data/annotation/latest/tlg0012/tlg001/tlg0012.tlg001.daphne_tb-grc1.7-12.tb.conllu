@@ -2953,13 +2953,13 @@
 11	παρὰ	παρά	ADP	r--------	_	12	case	12:case	Ref=7.294
 12	νηυσὶν	ναῦς	NOUN	n-p---fd-	Case=Dat|Gender=Fem|Number=Plur	9	obl	13:nmod	Ref=7.294
 13	Ἀχαιούς	Ἀχαιός	ADJ	a-p---ma-	Case=Acc|Gender=Masc|Number=Plur	9	obj	9:obj	Ref=7.294|SpaceAfter=No
-14	,	,	PUNCT	u--------	_	15	punct	16.1:punct	Ref=7.294
-15	σούς	σός	PRON	a-p---ma-	Case=Acc|Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	18	nmod	19:det	Ref=7.295
-16	τε	τε	CCONJ	c--------	_	18	cc	16.1:cc	Ref=7.295
-17	μάλιστα	μάλιστα	ADV	d--------	_	18	advmod	16.1:advmod	Ref=7.295
-18	ἔτας	ἔτης	NOUN	n-p---ma-	Case=Acc|Gender=Masc|Number=Plur	9	conj	16.1:obj	Ref=7.295
+14	,	,	PUNCT	u--------	_	15	punct	15:punct	Ref=7.294
+15	σούς	σός	PRON	a-p---ma-	Case=Acc|Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	18	nmod	18:nmod	Ref=7.295
+16	τε	τε	CCONJ	c--------	_	18	cc	18:cc	Ref=7.295
+17	μάλιστα	μάλιστα	ADV	d--------	_	18	advmod	18:advmod	Ref=7.295
+18	ἔτας	ἔτης	NOUN	n-p---ma-	Case=Acc|Gender=Masc|Number=Plur	9	conj	9:conj	Ref=7.295
 19	καὶ	καί	CCONJ	c--------	_	20	cc	9:cc	Ref=7.295
-20	ἑταίρους	ἑταῖρος	NOUN	n-p---ma-	Case=Acc|Gender=Masc|Number=Plur	18	orphan	16.1:obj	Ref=7.295|SpaceAfter=No
+20	ἑταίρους	ἑταῖρος	NOUN	n-p---ma-	Case=Acc|Gender=Masc|Number=Plur	18	conj	18:conj	Ref=7.295|SpaceAfter=No
 21	,	,	PUNCT	u--------	_	23	punct	24:punct	Ref=7.295
 22	οἵ	ὅς	PRON	p-p---mn-	Case=Nom|Gender=Masc|Number=Plur|PronType=Rel	23	nsubj	24:nsubj	Ref=7.295
 23	τοι	σύ	PRON	p-s----d-	Case=Dat|Number=Sing|Person=2|PronType=Prs	18	acl:relcl	24:obj	Ref=7.295
@@ -5321,11 +5321,11 @@
 6	θηρῶν	θήρ	NOUN	n-p---mg-	Case=Gen|Gender=Masc|Number=Plur	5	nmod	5:nmod	Ref=8.47
 7	Γάργαρον	Γάργαρον	PROPN	n-s---na-	Case=Acc|Gender=Neut|Number=Sing	1	appos	1:appos	Ref=8.48|SpaceAfter=No
 8	,	,	PUNCT	u--------	_	7	punct	1:punct	Ref=8.48
-9	ἔνθά	ἔνθα	ADV	d--------	_	11	advmod	8.1:advmod	Ref=8.48
-10	τέ	τε	ADV	c--------	_	9	advmod	8.1:advmod	Ref=8.48
+9	ἔνθά	ἔνθα	ADV	d--------	_	11	advmod	11:advmod	Ref=8.48
+10	τέ	τε	ADV	c--------	_	9	advmod	11:advmod	Ref=8.48
 11	οἱ	ἕ	PRON	p-s---md-	Case=Dat|Gender=Masc|Number=Sing|PronType=Prs	1	acl:relcl	14:nmod	Ref=8.48
-12	τέμενος	τέμενος	NOUN	n-s---nn-	Case=Nom|Gender=Neut|Number=Sing	11	nsubj	8.1:nsubj	Ref=8.48
-13	βωμός	βωμός	NOUN	n-s---mn-	Case=Nom|Gender=Masc|Number=Sing	12	conj	8.1:nsubj	Ref=8.48
+12	τέμενος	τέμενος	NOUN	n-s---nn-	Case=Nom|Gender=Neut|Number=Sing	11	nsubj	11:nsubj	Ref=8.48
+13	βωμός	βωμός	NOUN	n-s---mn-	Case=Nom|Gender=Masc|Number=Sing	12	conj	12:conj	Ref=8.48
 14	τε	τε	CCONJ	c--------	_	13	cc	3:cc	Ref=8.48
 15	θυήεις	θυήεις	ADJ	a-s---mn-	Case=Nom|Gender=Masc|Number=Sing	13	amod	13:amod	Ref=8.48|SpaceAfter=No
 16	.	.	PUNCT	u--------	_	3	punct	0:punct	Ref=8.48
@@ -22120,7 +22120,7 @@
 # Speaker = Dolon
 # text = ὅσσαι μὲν Τρώων πυρὸς ἐσχάραι, οἷσιν ἀνάγκη οἷ δ' ἐγρηγόρθασι φυλασσέμεναί τε κέλονται ἀλλήλοις·
 1	ὅσσαι	ὅσος	DET	a-p---fn-	Case=Nom|Gender=Fem|Number=Plur|PronType=Rel	5	det	5:det	Ref=10.418
-2	μὲν	μέν	ADV	g--------	PartType=Ptcl	5	advmod	0.1:advmod	Ref=10.418
+2	μὲν	μέν	ADV	g--------	PartType=Ptcl	5	advmod	5:advmod	Ref=10.418
 3	Τρώων	Τρώς	PROPN	n-p----g-	Case=Gen|Number=Plur	5	nmod	5:nmod	Ref=10.418
 4	πυρὸς	πυρός	NOUN	n-s---mn-	Case=Nom|Gender=Masc|Number=Sing	5	nmod	5:nmod	Ref=10.418
 5	ἐσχάραι	ἐσχάρα	NOUN	n-p---fn-	Case=Nom|Gender=Fem|Number=Plur	11	discourse	_	Ref=10.418|SpaceAfter=No

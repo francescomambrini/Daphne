@@ -4253,9 +4253,9 @@
 8	ξείνοιο	ξένος	NOUN	n-s---mg-	Case=Gen|Gender=Masc|Number=Sing	9	obl:arg	9:obl	Ref=1.405
 9	ἐρέσθαι	ἔρομαι	VERB	v--an----	VerbForm=Inf	2	ccomp	2:ccomp	Ref=1.405|SpaceAfter=No
 10	,	,	PUNCT	u--------	_	11	punct	_	Ref=1.405
-11	ὁππόθεν	ὁπόθεν	ADV	d--------	_	9	ccomp	10.1:advmod	Ref=1.406
+11	ὁππόθεν	ὁπόθεν	ADV	d--------	_	9	ccomp	9:ccomp	Ref=1.406
 12	οὗτος	οὗτος	DET	a-s---mn-	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	13	det	13:det	Ref=1.406
-13	ἀνήρ	ἀνήρ	NOUN	n-s---mn-	Case=Nom|Gender=Masc|Number=Sing	11	conj	10.1:nsubj	Ref=1.406|SpaceAfter=No
+13	ἀνήρ	ἀνήρ	NOUN	n-s---mn-	Case=Nom|Gender=Masc|Number=Sing	11	conj	11:conj	Ref=1.406|SpaceAfter=No
 14	,	,	PUNCT	u--------	_	18	punct	_	Ref=1.406
 15	ποίης	ποῖος	DET	a-s---fg-	Case=Gen|Gender=Fem|Number=Sing|PronType=Int	20	det	20:det	Ref=1.406
 16	δ'	δέ	CCONJ	g--------	PartType=Ptcl	18	cc	18:cc	Ref=1.406
@@ -4263,7 +4263,7 @@
 18	εὔχεται	εὔχομαι	VERB	v3spie---	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=MidPass	11	conj	_	Ref=1.406
 19	εἶναι	εἰμί	VERB	v--pna---	Tense=Pres|VerbForm=Inf|Voice=Act	20	cop	_	Ref=1.406
 20	γαίης	γαῖα	NOUN	n-s---fg-	Case=Gen|Gender=Fem|Number=Sing	18	ccomp	_	Ref=1.407|SpaceAfter=No
-21	,	,	PUNCT	u--------	_	22	punct	23.1:punct	Ref=1.407
+21	,	,	PUNCT	u--------	_	22	punct	22:punct	Ref=1.407
 22	ποῦ	ποῦ	PRON	p--------	_	11	conj	_	Ref=1.407
 23	δέ	δέ	CCONJ	g--------	PartType=Ptcl	22	cc	_	Ref=1.407
 24	νύ	νυν	ADV	d--------	_	22	advmod	_	Ref=1.407
@@ -32611,3 +32611,4 @@
 9	γαῖαν	γαῖα	NOUN	n-s---fa-	Case=Acc|Gender=Fem|Number=Sing	10	obj	_	Ref=6.331
 10	ἱκέσθαι	ἱκνέομαι	VERB	v--anm---	VerbForm=Inf|Voice=Mid	4	advcl	_	Ref=6.331|SpaceAfter=No
 11	.	.	PUNCT	u--------	_	4	punct	_	Ref=6.331
+
