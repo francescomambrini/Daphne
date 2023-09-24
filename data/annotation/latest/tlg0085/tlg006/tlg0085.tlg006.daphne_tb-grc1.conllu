@@ -41,7 +41,7 @@
 
 # sent_id = 3a
 # text = πλόκαμον Ἰνάχῳ θρεπτήριον
-0.1	E0.1	VERB	_	_	_	_	_	6:root	EmptyType=Lacuna
+0.1	E0.1	VERB	_	_	_	_	_	0:root	EmptyType=Lacuna
 1	πλόκαμον	πλόκαμος	NOUN	n-s---ma-	Case=Acc|Gender=Masc|Number=Sing	0	root	0.1:obj	Ref=6
 2	Ἰνάχῳ	Ἴναχος	PROPN	n-s---md-	Case=Dat|Gender=Masc|Number=Sing	1	orphan	0.1:obj	Ref=6
 3	θρεπτήριον	θρεπτήριος	ADJ	a-s---ma-	Case=Acc|Gender=Masc|Number=Sing	1	acl:compl	1:advcl	Ref=6|SpaceAfter=No
@@ -399,7 +399,7 @@
 8	ἐν	ἐν	ADP	r--------	_	9	case	_	Ref=62
 9	φάει	φάος	NOUN	n-s---nd-	Case=Dat|Gender=Neut|Number=Sing	3	obl	_	Ref=62|SpaceAfter=No
 10	,	,	PUNCT	u--------	_	16	punct	_	Ref=62
-11	τὰ	ὁ	PRON	l-p---nn-	Case=Nom|PronType=Pers|Gender=Neut|Number=Plur|PronType=Art	16	nsubj	_	Ref=63
+11	τὰ	ὁ	PRON	l-p---nn-	Case=Nom|Gender=Neut|Number=Plur|PronType=Art	16	nsubj	_	Ref=63
 12	δ'	δέ	CCONJ	g--------	PartType=Ptcl	16	cc	_	Ref=63
 13	ἐν	ἐν	ADP	r--------	_	14	case	_	Ref=63
 14	μεταιχμίῳ	μεταίχμιος	NOUN	n-s---nd-	Case=Dat|Gender=Neut|Number=Sing	16	obl	_	Ref=63
