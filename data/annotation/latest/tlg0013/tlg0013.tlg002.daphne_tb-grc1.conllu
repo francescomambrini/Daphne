@@ -701,9 +701,9 @@
 6	,	,	PUNCT	u--------	_	10	punct	7.1:punct	Ref=1-495
 7	εἰ	εἰ	SCONJ	c--------	_	10	mark	7.1:mark	Ref=1-495
 7.1	E7.1	εἰμί	_	v3spia---	_	_	_	4:advcl	_
-8	μὴ	μὴ	ADV	d--------	_	10	advmod	7.1:advmod|7.1:advmod	Ref=1-495
+8	μὴ	μὴ	ADV	d--------	_	10	advmod	7.1:advmod	Ref=1-495
 9	νεφεληγερέτα	νεφεληγερέτα	NOUN	n-s---mn-	Case=Nom|Gender=Masc|Number=Sing	10	nmod	10:nmod	Ref=1-495
-10	Ζεύς	Ζεύς	PROPN	n-s---mn-	Case=Nom|Gender=Masc|Number=Sing	4	advcl	7.1:advcl|7.1:nsubj	Ref=1-495|SpaceAfter=No
+10	Ζεύς	Ζεύς	PROPN	n-s---mn-	Case=Nom|Gender=Masc|Number=Sing	4	advcl	7.1:nsubj	Ref=1-495|SpaceAfter=No
 11	,	,	PUNCT	u--------	_	14	punct	14:punct	Ref=1-495
 12	ὅς	ὅς	PRON	p-s---mn-	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	14	nsubj	14:nsubj	Ref=1-495
 13	μιν	μιν	PRON	p3s---fa-	Case=Acc|Gender=Fem|Number=Sing|Person=3	14	obj	14:obj	Ref=1-495
@@ -786,7 +786,7 @@
 13	μεταναιετάειν	μεταναιετάω	VERB	v--pna---	Tense=Pres|VerbForm=Inf|Voice=Act	10	advcl	10:advcl	Ref=1-495|SpaceAfter=No
 14	,	,	PUNCT	u--------	_	16	punct	16:punct	Ref=1-495
 14.1	E14.1	ὁ	_	p-s---mn-	_	_	_	16:nsubj	_
-15	τῶν	ὁ	PRON	p-p---mg-	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	nmod	14.1:det|14.1:det	Ref=1-495
+15	τῶν	ὁ	PRON	p-p---mg-	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	nmod	14.1:det	Ref=1-495
 16	ἔλλαχε	λαγχάνω	VERB	v3saia---	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	13	acl:relcl	13:acl	Ref=1-495
 17	κοίρανος	κοίρανος	NOUN	n-s---mn-	Case=Nom|Gender=Masc|Number=Sing	16	ccomp	16:ccomp	Ref=1-495
 18	εἶναι	εἰμί	AUX	v--pna---	Tense=Pres|VerbForm=Inf|Voice=Act	17	cop	17:cop	Ref=1-495|SpaceAfter=No
@@ -910,7 +910,7 @@
 24	,	,	PUNCT	u--------	_	25	punct	25:punct	Ref=1-495
 25	γρηὶ	γραῦς	NOUN	n-s---fd-	Case=Dat|Gender=Fem|Number=Sing	27	nmod	27:nmod	Ref=1-495
 26	παλαιγενέι	παλαιγενής	ADJ	a-s----d-	Case=Dat|Number=Sing	25	amod	25:amod	Ref=1-495
-27	ἐναλίγκιος	ἐναλίγκιος	ADJ	a-s---mn-	Case=Nom|Gender=Masc|Number=Sing	1	amod	23.1:amod|23.1:amod	Ref=1-495|SpaceAfter=No
+27	ἐναλίγκιος	ἐναλίγκιος	ADJ	a-s---mn-	Case=Nom|Gender=Masc|Number=Sing	1	amod	23.1:amod	Ref=1-495|SpaceAfter=No
 28	,	,	PUNCT	u--------	_	31	punct	31:punct	Ref=1-495
 29	ἥτε	ὅστε	PRON	p-s---fn-	Case=Nom|Gender=Fem|Number=Sing	31	nsubj	31:nsubj	Ref=1-495
 30	τόκοιο	τόκος	NOUN	n-s---mg-	Case=Gen|Gender=Masc|Number=Sing	31	obj	31:obj	Ref=1-495
@@ -1100,10 +1100,10 @@
 # sent_id = 55
 # text = οὔ τοι ἀεικὲς ὑμῖν εἰρομένῃσιν ἀληθέα μυθήσασθαι.
 0.1	E0.1	εἰμί	_	v3spia---	_	_	_	0:root	_
-1	οὔ	οὐ	ADV	d--------	_	3	advmod:neg	0.1:advmod|0.1:advmod	Ref=1-495
-2	τοι	τοι	ADV	d--------	PartType=Ptcl	3	advmod	0.1:advmod|0.1:advmod	Ref=1-495
-3	ἀεικὲς	ἀεικής	ADJ	a-s---nn-	Case=Nom|Gender=Neut|Number=Sing	0	root	0.1:root|0.1:nsubj	Ref=1-495
-4	ὑμῖν	σύ	PRON	p2p----d-	Case=Dat|Number=Plur|Person=2|PronType=Prs	3	orphan	0.1:obj|0.1:obj	Ref=1-495
+1	οὔ	οὐ	ADV	d--------	_	3	advmod:neg	0.1:advmod	Ref=1-495
+2	τοι	τοι	ADV	d--------	PartType=Ptcl	3	advmod	0.1:advmod	Ref=1-495
+3	ἀεικὲς	ἀεικής	ADJ	a-s---nn-	Case=Nom|Gender=Neut|Number=Sing	0	root	0.1:nsubj	Ref=1-495
+4	ὑμῖν	σύ	PRON	p2p----d-	Case=Dat|Number=Plur|Person=2|PronType=Prs	3	orphan	0.1:obj	Ref=1-495
 5	εἰρομένῃσιν	εἴρω	VERB	v-pppefd-	Case=Dat|Gender=Fem|Number=Plur|Tense=Pres|VerbForm=Part|Voice=MidPass	4	nmod	4:nmod	Ref=1-495
 6	ἀληθέα	ἀληθής	ADJ	a-p---na-	Case=Acc|Gender=Neut|Number=Plur	7	nsubj	7:nsubj	Ref=1-495
 7	μυθήσασθαι	μυθέομαι	VERB	v--ane---	VerbForm=Inf|Voice=MidPass	5	ccomp	5:ccomp	Ref=1-495|SpaceAfter=No
@@ -4221,7 +4221,7 @@
 7	τὴν	ὁ	DET	l-s---fa-	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	10:det	Ref=1-495
 8	τριτάτην	τρίτατος	ADJ	a-s---fa-	Case=Acc|Gender=Fem|Number=Sing	10	amod	10:amod	Ref=1-495
 9	μὲν	μέν	ADV	d--------	PartType=Ptcl	4	advmod	6.1:advmod	Ref=1-495
-10	μοῖραν	μοῖρα	NOUN	n-s---fa-	Case=Acc|Gender=Fem|Number=Sing	4	orphan	6.1:obl|6.1:obl	Ref=1-495
+10	μοῖραν	μοῖρα	NOUN	n-s---fa-	Case=Acc|Gender=Fem|Number=Sing	4	orphan	6.1:obl	Ref=1-495
 11	ὑπὸ	ὑπό	ADP	r--------	_	12	case	6.1:case	Ref=1-495
 12	ζόφον	ζόφος	NOUN	n-s---ma-	Case=Acc|Gender=Masc|Number=Sing	4	orphan	6.1:obl	Ref=1-495
 13	ἠερόεντα	ἠερόεις	ADJ	a-s---ma-	Case=Acc|Gender=Masc|Number=Sing	12	amod	12:amod	Ref=1-495|SpaceAfter=No
@@ -4229,7 +4229,7 @@
 14	,	,	PUNCT	u--------	_	15	punct	13.1:punct	Ref=1-495
 15	τὰς	ὁ	PRON	l-p---fa-	Case=Acc|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	nmod	17:det	Ref=1-495
 16	δὲ	δὲ	SCONJ	c--------	_	4	cc	6.1:cc	Ref=1-495
-17	δύω	δύο	X	m--------	_	19	advmod	13.1:advmod|13.1:advmod	Ref=1-495
+17	δύω	δύο	X	m--------	_	19	advmod	13.1:advmod	Ref=1-495
 18	παρὰ	παρά	ADP	r--------	_	19	case	13.1:case	Ref=1-495
 19	μητρὶ	μήτηρ	NOUN	n-s---fd-	Case=Dat|Gender=Fem|Number=Sing	4	conj	13.1:conj	Ref=1-495
 20	καὶ	καί	CCONJ	c--------	_	22	cc	22:cc	Ref=1-495
@@ -4399,7 +4399,7 @@
 7	[τὴν	ὁ	DET	l-s---fa-	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	10:det	Ref=1-495
 8	τριτάτην	τρίτατος	ADJ	a-s---fa-	Case=Acc|Gender=Fem|Number=Sing	10	amod	10:amod	Ref=1-495
 9	μὲν	μέν	ADV	d--------	PartType=Ptcl	4	advmod	6.1:advmod	Ref=1-495
-10	μοῖραν	μοῖρα	NOUN	n-s---fa-	Case=Acc|Gender=Fem|Number=Sing	4	orphan	6.1:obl|6.1:obl	Ref=1-495
+10	μοῖραν	μοῖρα	NOUN	n-s---fa-	Case=Acc|Gender=Fem|Number=Sing	4	orphan	6.1:obl	Ref=1-495
 11	ὑπὸ	ὑπό	ADP	r--------	_	12	case	6.1:case	Ref=1-495
 12	ζόφον	ζόφος	NOUN	n-s---ma-	Case=Acc|Gender=Masc|Number=Sing	4	orphan	6.1:obl	Ref=1-495
 13	ἠ]ερόεντα	ἠερόεις	ADJ	a-s---ma-	Case=Acc|Gender=Masc|Number=Sing	12	amod	12:amod	Ref=1-495|SpaceAfter=No
@@ -4407,7 +4407,7 @@
 14	,	,	PUNCT	u--------	_	15	punct	13.1:punct	Ref=1-495
 15	[τὰς	ὁ	PRON	l-p---fa-	Case=Acc|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	nmod	17:det	Ref=1-495
 16	δὲ	δὲ	SCONJ	c--------	_	4	cc	6.1:cc	Ref=1-495
-17	δύω	δύο	X	m--------	_	19	advmod	13.1:advmod|13.1:advmod	Ref=1-495
+17	δύω	δύο	X	m--------	_	19	advmod	13.1:advmod	Ref=1-495
 18	παρὰ	παρά	ADP	r--------	_	19	case	13.1:case	Ref=1-495
 19	σοί	σύ	PRON	p2s----d-	Case=Dat|Number=Sing|Person=2|PronType=Prs	4	conj	13.1:conj	Ref=1-495
 20	καὶ	καί	CCONJ	c--------	_	22	cc	22:cc	Ref=1-495
@@ -4539,7 +4539,7 @@
 32	τοῖς	ὁ	PRON	p-p---md-	Case=Dat|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	27	nmod	27:det	Ref=1-495
 33	δὲ	δὲ	SCONJ	c--------	_	34	cc	25.1:cc	Ref=1-495
 34	Διοκλεῖ	Διοκλέης	PROPN	n-s---md-	Case=Dat|Gender=Masc|Number=Sing	27	conj	27:conj	Ref=1-495
-35	σεμνά	σεμνόν	NOUN	n-p---na-	Case=Acc|Gender=Neut|Number=Plur	6	conj	25.1:conj|25.1:obj	Ref=1-495|SpaceAfter=No
+35	σεμνά	σεμνόν	NOUN	n-p---na-	Case=Acc|Gender=Neut|Number=Plur	6	conj	25.1:obj	Ref=1-495|SpaceAfter=No
 36	,	,	PUNCT	u--------	_	41	punct	41:punct	Ref=1-495
 37	τά	ὁ	PRON	p-p---nn-	Case=Nom|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	41	nsubj	41:nsubj	Ref=1-495
 38	τ̓	τε	CCONJ	c--------	_	41	cc	41:cc	Ref=1-495
