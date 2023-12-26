@@ -3699,8 +3699,8 @@
 1	οὐ	οὐ	ADV	d--------	_	5	advmod:neg	_	Ref=1.354
 2	γὰρ	γάρ	ADV	g--------	PartType=Ptcl	5	advmod	_	Ref=1.354
 3	Ὀδυσσεὺς	Ὀδυσσεύς	PROPN	n-s---mn-	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	Ref=1.354
-4	οἶος	οἶος	ADJ	a-s---mn-	Case=Nom|Gender=Masc|Number=Sing	3	acl:compl	_	Ref=1.354
-5	ἀπώλεσε	ἀπόλλυμι	VERB	v3saia---	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	13	root	_	Ref=1.354
+4	οἶος	οἶος	ADJ	a-s---mn-	Case=Nom|Gender=Masc|Number=Sing	3	amod	_	Ref=1.354
+5	ἀπώλεσε	ἀπόλλυμι	VERB	v3saia---	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	Ref=1.354
 6	νόστιμον	νόστιμος	ADJ	a-s---na-	Case=Acc|Gender=Neut|Number=Sing	7	amod	_	Ref=1.354
 7	ἦμαρ	ἦμαρ	NOUN	n-s---na-	Case=Acc|Gender=Neut|Number=Sing	5	obj	_	Ref=1.354
 8	ἐν	ἐν	ADP	r--------	_	9	case	_	Ref=1.355
@@ -3711,7 +3711,7 @@
 13	καὶ	καί	ADV	d--------	_	14	advmod	_	Ref=1.355
 14	ἄλλοι	ἄλλος	DET	a-p---mn-	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	15	det	_	Ref=1.355
 15	φῶτες	φώς	NOUN	n-p---mn-	Case=Nom|Gender=Masc|Number=Plur	16	nsubj	_	Ref=1.355
-16	ὄλοντο	ὄλλυμι	VERB	v3pai----	Mood=Ind|Number=Plur|Person=3|Tense=Past	0	root	_	Ref=1.355|SpaceAfter=No
+16	ὄλοντο	ὄλλυμι	VERB	v3pai----	Mood=Ind|Number=Plur|Person=3|Tense=Past	5	conj	_	Ref=1.355|SpaceAfter=No
 17	.	.	PUNCT	u--------	_	16	punct	_	Ref=1.355
 
 # sent_id = 2185725
