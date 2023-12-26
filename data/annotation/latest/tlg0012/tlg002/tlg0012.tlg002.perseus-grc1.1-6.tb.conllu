@@ -2889,23 +2889,23 @@
 # text = νῆ' ἄρσας ἐρέτῃσιν ἐείκοσιν, ἥ τις ἀρίστη, ἔρχεο πευσόμενος πατρὸς δὴν οἰχομένοιο, ἤν τίς τοι εἴπῃσι βροτῶν, ἢ ὄσσαν ἀκούσῃς ἐκ Διός, ἥ τε μάλιστα φέρει κλέος ἀνθρώποισι.
 # Speaker = Athena
 1	νῆ'	ναῦς	NOUN	n-s---fa-	Case=Acc|Gender=Fem|Number=Sing	2	obj	2:obj	Ref=1.280
-2	ἄρσας	ἀραρίσκω	VERB	v-sapamn-	Case=Nom|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	10	root	10:root	Ref=1.280
+2	ἄρσας	ἀραρίσκω	VERB	v-sapamn-	Case=Nom|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	10	advcl	10:root	Ref=1.280
 3	ἐρέτῃσιν	ἐρέτης	NOUN	n-p---md-	Case=Dat|Gender=Masc|Number=Plur	2	iobj	2:iobj	Ref=1.280
 4	ἐείκοσιν	εἴκοσι	X	m--------	_	3	nummod	3:nummod	Ref=1.280|SpaceAfter=No
 5	,	,	PUNCT	u--------	_	8	punct	8:punct	Ref=1.280
-6	ἥ	ὅς	PRON	p-s---fn-	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	8	nmod	8:nmod	Ref=1.280
+6	ἥ	ὅς	PRON	p-s---fn-	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	8	nsubj	8:nmod	Ref=1.280
 7	τις	τις	DET	p-s---fn-	Case=Nom|Gender=Fem|Number=Sing|PronType=Ind	6	det	6:det	Ref=1.280
-8	ἀρίστη	ἄριστος	ADJ	a-s---fn-	Case=Nom|Gender=Fem|Number=Sing	3	nmod	3:nmod	Ref=1.280|SpaceAfter=No
+8	ἀρίστη	ἄριστος	ADJ	a-s---fn-	Case=Nom|Gender=Fem|Number=Sing	3	acl:relcl	3:nmod	Ref=1.280|SpaceAfter=No
 9	,	,	PUNCT	u--------	_	8	punct	8:punct	Ref=1.280
 10	ἔρχεο	ἔρχομαι	VERB	v2spme---	Mood=Imp|Number=Sing|Person=2|Tense=Pres|Voice=MidPass	0	root	0:root	Ref=1.281
 11	πευσόμενος	πυνθάνομαι	VERB	v-sfp-mn-	Case=Nom|Gender=Masc|Number=Sing|Tense=Fut|VerbForm=Part|Voice=Pass	10	advcl	10:advcl	Ref=1.281
-12	πατρὸς	πατήρ	NOUN	n-s---mg-	Case=Gen|Gender=Masc|Number=Sing	11	obj	11:obj	Ref=1.281
+12	πατρὸς	πατήρ	NOUN	n-s---mg-	Case=Gen|Gender=Masc|Number=Sing	11	obl:arg	11:obj	Ref=1.281
 13	δὴν	δήν	ADV	d--------	_	14	advmod	14:advmod	Ref=1.281
-14	οἰχομένοιο	οἴχομαι	VERB	v-sppemg-	Case=Gen|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=MidPass	12	amod	12:nmod	Ref=1.281|SpaceAfter=No
-15	,	,	PUNCT	u--------	_	16	punct	16:punct	Ref=1.281
-16	ἤν	ἐάν	SCONJ	c--------	_	11	mark	11:mark	Ref=1.282
+14	οἰχομένοιο	οἴχομαι	VERB	v-sppemg-	Case=Gen|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=MidPass	12	acl	12:nmod	Ref=1.281|SpaceAfter=No
+15	,	,	PUNCT	u--------	_	19	punct	16:punct	Ref=1.281
+16	ἤν	ἐάν	SCONJ	c--------	_	19	mark	11:mark	Ref=1.282
 17	τίς	τις	PRON	p-s---mn-	Case=Nom|Gender=Masc|Number=Sing|PronType=Ind	19	nsubj	19:nsubj	Ref=1.282
-18	τοι	σύ	PRON	p-s----d-	Case=Dat|Number=Sing|Person=2|PronType=Prs	19	obj	19:obj	Ref=1.282
+18	τοι	σύ	PRON	p-s----d-	Case=Dat|Number=Sing|Person=2|PronType=Prs	19	obl:arg	19:obj	Ref=1.282
 19	εἴπῃσι	εἶπον	VERB	v3sasa---	Mood=Sub|Number=Sing|Person=3|Voice=Act	10	advcl	10:advcl	Ref=1.282
 20	βροτῶν	βροτός	NOUN	n-p---mg-	Case=Gen|Gender=Masc|Number=Plur	17	nmod	17:nmod	Ref=1.282|SpaceAfter=No
 21	,	,	PUNCT	u--------	_	24	punct	24:punct	Ref=1.282
@@ -2920,7 +2920,7 @@
 30	μάλιστα	μάλιστα	ADV	d--------	_	31	advmod	31:advmod	Ref=1.283
 31	φέρει	φέρω	VERB	v3spia---	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	23	acl:relcl	23:acl	Ref=1.283
 32	κλέος	κλέος	NOUN	n-s---na-	Case=Acc|Gender=Neut|Number=Sing	31	obj	31:obj	Ref=1.283
-33	ἀνθρώποισι	ἄνθρωπος	NOUN	n-p---md-	Case=Dat|Gender=Masc|Number=Plur	31	iobj	31:iobj	Ref=1.283|SpaceAfter=No
+33	ἀνθρώποισι	ἄνθρωπος	NOUN	n-p---md-	Case=Dat|Gender=Masc|Number=Plur	31	obl:arg	31:iobj	Ref=1.283|SpaceAfter=No
 34	.	.	PUNCT	u--------	_	10	punct	0:punct	Ref=1.283
 
 # sent_id = 2185685
