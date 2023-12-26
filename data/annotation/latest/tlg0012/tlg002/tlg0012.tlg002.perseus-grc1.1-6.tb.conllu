@@ -4107,14 +4107,14 @@
 # sent_id = 2185748
 # text = αἶψά τέ οἱ δῶ ἀφνειὸν πέλεται καὶ τιμηέστερος αὐτός.
 # Speaker = Telemachus
-1	αἶψά	αἶψα	ADV	d--------	_	6	advmod	6:advmod	Ref=1.392
-2	τέ	τε	CCONJ	c--------	_	8	cc	8:cc	Ref=1.392
-3	οἱ	ἕ	PRON	p-s---md-	Case=Dat|Gender=Masc|Number=Sing|PronType=Prs	4	nmod	4:nmod	Ref=1.392
-4	δῶ	δῶμα	NOUN	n-s---nn-	Case=Nom|Gender=Neut|Number=Sing	6	nsubj	6:nsubj	Ref=1.392
-5	ἀφνειὸν	ἀφνειός	ADJ	a-s---nn-	Case=Nom|Gender=Neut|Number=Sing	6	xcomp	6:xcomp	Ref=1.393
-6	πέλεται	πέλω	VERB	v3spie---	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=MidPass	8	root	8:root	Ref=1.393
+1	αἶψά	αἶψα	ADV	d--------	_	5	advmod	6:advmod	Ref=1.392
+2	τέ	τε	CCONJ	c--------	_	5	cc	8:cc	Ref=1.392
+3	οἱ	ἕ	PRON	p-s---md-	Case=Dat|Gender=Masc|Number=Sing|PronType=Prs	5	obl	4:nmod	Ref=1.392
+4	δῶ	δῶμα	NOUN	n-s---nn-	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	6:nsubj	Ref=1.392
+5	ἀφνειὸν	ἀφνειός	ADJ	a-s---nn-	Case=Nom|Gender=Neut|Number=Sing	0	root	6:xcomp	Ref=1.393
+6	πέλεται	πέλω	VERB	v3spie---	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=MidPass	5	cop	8:root	Ref=1.393
 7	καὶ	καί	CCONJ	c--------	_	8	cc	8:cc	Ref=1.393
-8	τιμηέστερος	τιμήεις	ADJ	a-s---mn-	Case=Nom|Gender=Masc|Number=Sing	0	root	0:root	Ref=1.393
+8	τιμηέστερος	τιμήεις	ADJ	a-s---mn-	Case=Nom|Gender=Masc|Number=Sing	5	conj	0:root	Ref=1.393
 9	αὐτός	αὐτός	PRON	a-s---mn-	Case=Nom|Gender=Masc|Number=Sing|PronType=Prs	8	nsubj	8:nsubj	Ref=1.393|SpaceAfter=No
 10	.	.	PUNCT	u--------	_	8	punct	0:punct	Ref=1.393
 
