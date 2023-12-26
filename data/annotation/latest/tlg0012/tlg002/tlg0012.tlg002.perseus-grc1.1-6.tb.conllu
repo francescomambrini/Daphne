@@ -6015,16 +6015,16 @@
 # text = μέγα μὲν κλέος αὐτῇ ποιεῖτ', αὐτὰρ σοί γε ποθὴν πολέος βιότοιο.
 # Speaker = Antinous
 0.1	E0.1	_	_	_	_	_	_	0:root	_
-1	μέγα	μέγας	ADJ	a-s---nn-	Case=Nom|Gender=Neut|Number=Sing	3	amod	3:amod	Ref=2.125
-2	μὲν	μέν	ADV	g--------	PartType=Ptcl	7	advmod	7:advmod	Ref=2.125
-3	κλέος	κλέος	NOUN	n-s---nn-	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	5:nsubj	Ref=2.125
-4	αὐτῇ	αὐτός	PRON	a-s---fd-	Case=Dat|Gender=Fem|Number=Sing|PronType=Prs	5	obj	5:obj	Ref=2.125
-5	ποιεῖτ'	ποιέω	VERB	v3spie---	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=MidPass	7	root	7:root	Ref=2.126|SpaceAfter=No
+1	μέγα	μέγας	ADJ	a-s---na-	Case=Acc|Gender=Neut|Number=Sing	3	amod	3:amod	Ref=2.125
+2	μὲν	μέν	ADV	g--------	PartType=Ptcl	5	advmod	7:advmod	Ref=2.125
+3	κλέος	κλέος	NOUN	n-s---na-	Case=Acc|Gender=Neut|Number=Sing	5	obj	5:nsubj	Ref=2.125
+4	αὐτῇ	αὐτός	PRON	a-s---fd-	Case=Dat|Gender=Fem|Number=Sing|PronType=Prs	5	obl	5:obj	Ref=2.125
+5	ποιεῖτ'	ποιέω	VERB	v3spie---	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=MidPass	0	root	7:root	Ref=2.126|SpaceAfter=No
 6	,	,	PUNCT	u--------	_	5	punct	7:cc	Ref=2.126
 7	αὐτὰρ	ἀτάρ	ADV	g--------	PartType=Ptcl	10	advmod	0.1:advmod|0.1:advmod	Ref=2.126
 8	σοί	σύ	PRON	p-s----d-	Case=Dat|Number=Sing|Person=2|PronType=Prs	10	orphan	0.1:iobj|0.1:obj	Ref=2.126
 9	γε	γε	ADV	g--------	PartType=Ptcl	8	advmod	8:advmod	Ref=2.126
-10	ποθὴν	ποθή	NOUN	n-s---fa-	Case=Acc|Gender=Fem|Number=Sing	0	root	0.1:root|0.1:obj	Ref=2.126
+10	ποθὴν	ποθή	NOUN	n-s---fa-	Case=Acc|Gender=Fem|Number=Sing	5	conj	0.1:root|0.1:obj	Ref=2.126
 11	πολέος	πολύς	ADJ	a-s---mg-	Case=Gen|Gender=Masc|Number=Sing	12	amod	12:amod	Ref=2.126
 12	βιότοιο	βίοτος	NOUN	n-s---mg-	Case=Gen|Gender=Masc|Number=Sing	10	nmod	10:nmod	Ref=2.126|SpaceAfter=No
 13	.	.	PUNCT	u--------	_	10	punct	0:punct	Ref=2.126
