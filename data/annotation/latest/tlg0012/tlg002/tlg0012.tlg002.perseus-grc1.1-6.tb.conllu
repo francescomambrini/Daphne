@@ -1072,20 +1072,20 @@
 # sent_id = 2185592
 # text = κήρυκες δ' αὐτοῖσι καὶ ὀτρηροὶ θεράποντες οἱ μὲν οἶνον ἔμισγον ἐνὶ κρητῆρσι καὶ ὕδωρ, οἱ δ' αὖτε σπόγγοισι πολυτρήτοισι τραπέζας νίζον καὶ πρότιθεν, τοὶ δὲ κρέα πολλὰ δατεῦντο.
 0.1	E0.1	_	_	_	_	_	_	2:root	_
-1	κήρυκες	κῆρυξ	NOUN	n-p---mn-	Case=Nom|Gender=Masc|Number=Plur	2	root	0.1:root|0.1:nsubj	Ref=1.109
-2	δ'	δέ	CCONJ	g--------	PartType=Ptcl	10	cc	10:cc	Ref=1.109
+1	κήρυκες	κῆρυξ	NOUN	n-p---mn-	Case=Nom|Gender=Masc|Number=Plur	0	root	0.1:root|0.1:nsubj	Ref=1.109
+2	δ'	δέ	CCONJ	g--------	PartType=Ptcl	1	cc	10:cc	Ref=1.109
 3	αὐτοῖσι	αὐτός	PRON	a-p---md-	Case=Dat|Gender=Masc|Number=Plur|PronType=Prs	1	orphan	0.1:obj|0.1:obj	Ref=1.109
-4	καὶ	καί	CCONJ	c--------	_	1	cc	0.1:cc	Ref=1.109
+4	καὶ	καί	CCONJ	c--------	_	6	cc	0.1:cc	Ref=1.109
 5	ὀτρηροὶ	ὀτρηρός	ADJ	a-p---mn-	Case=Nom|Gender=Masc|Number=Plur	6	amod	6:amod	Ref=1.109
-6	θεράποντες	θεράπων	NOUN	n-p---mn-	Case=Nom|Gender=Masc|Number=Plur	1	orphan	0.1:nsubj|0.1:nsubj	Ref=1.109
+6	θεράποντες	θεράπων	NOUN	n-p---mn-	Case=Nom|Gender=Masc|Number=Plur	1	conj	0.1:nsubj|0.1:nsubj	Ref=1.109
 7	οἱ	ὁ	PRON	p-p---mn-	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	nsubj	10:nsubj	Ref=1.110
 8	μὲν	μέν	ADV	g--------	PartType=Ptcl	10	advmod	10:advmod	Ref=1.110
-9	οἶνον	οἶνος	NOUN	n-s---ma-	Case=Acc|Gender=Masc|Number=Sing	14	obj	14:obj	Ref=1.110
-10	ἔμισγον	μίγνυμι	VERB	v3piia---	Mood=Ind|Number=Plur|Person=3|Tense=Imp|Voice=Act	0	root	0:root	Ref=1.110
-11	ἐνὶ	ἐν	ADP	r--------	_	10	case	10:case	Ref=1.110
-12	κρητῆρσι	κρατήρ	NOUN	n-p---md-	Case=Dat|Gender=Masc|Number=Plur	14	iobj	14:iobj	Ref=1.110
+9	οἶνον	οἶνος	NOUN	n-s---ma-	Case=Acc|Gender=Masc|Number=Sing	10	obj	14:obj	Ref=1.110
+10	ἔμισγον	μίγνυμι	VERB	v3piia---	Mood=Ind|Number=Plur|Person=3|Tense=Imp|Voice=Act	1	acl	0:root	Ref=1.110
+11	ἐνὶ	ἐν	ADP	r--------	_	12	case	10:case	Ref=1.110
+12	κρητῆρσι	κρατήρ	NOUN	n-p---md-	Case=Dat|Gender=Masc|Number=Plur	10	obl	14:iobj	Ref=1.110
 13	καὶ	καί	CCONJ	c--------	_	14	cc	14:cc	Ref=1.110
-14	ὕδωρ	ὕδωρ	NOUN	n-s---na-	Case=Acc|Gender=Neut|Number=Sing	10	obl	10:obl	Ref=1.110|SpaceAfter=No
+14	ὕδωρ	ὕδωρ	NOUN	n-s---na-	Case=Acc|Gender=Neut|Number=Sing	9	obl	10:obl	Ref=1.110|SpaceAfter=No
 15	,	,	PUNCT	u--------	_	22	punct	22:punct	Ref=1.110
 16	οἱ	ὁ	PRON	p-p---mn-	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	nsubj	22:nsubj	Ref=1.111
 17	δ'	δέ	CCONJ	g--------	PartType=Ptcl	22	cc	22:cc	Ref=1.111
