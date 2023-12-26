@@ -9437,37 +9437,37 @@
 
 # sent_id = 2186023
 # text = εὖθ' οἱ σπλάγχνα πάσαντο, θεῷ δ' ἐπὶ μηρί' ἔκαιον, οἱ δ' ἰθὺς κατάγοντο ἰδ' ἱστία νηὸς ἐίσης στεῖλαν ἀείραντες, τὴν δ' ὥρμισαν, ἐκ δ' ἔβαν αὐτοί·
-1	εὖθ'	εὖτε	SCONJ	c--------	_	20	mark	_	Ref=3.9
+1	εὖθ'	εὖτε	SCONJ	c--------	_	4	mark	_	Ref=3.9
 2	οἱ	ὁ	PRON	p-p---mn-	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	nsubj	_	Ref=3.9
 3	σπλάγχνα	σπλάγχνον	NOUN	n-p---na-	Case=Acc|Gender=Neut|Number=Plur	4	obj	_	Ref=3.9
-4	πάσαντο	πατέομαι	VERB	v3paim---	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Mid	1	advcl	_	Ref=3.9|SpaceAfter=No
+4	πάσαντο	πατέομαι	VERB	v3paim---	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Mid	15	advcl	_	Ref=3.9|SpaceAfter=No
 5	,	,	PUNCT	u--------	_	10	punct	_	Ref=3.9
 6	θεῷ	θεός	NOUN	n-s---md-	Case=Dat|Gender=Masc|Number=Sing	10	obl	_	Ref=3.9
 7	δ'	δέ	CCONJ	g--------	PartType=Ptcl	10	cc	_	Ref=3.9
-8	ἐπὶ	ἐπί	ADP	r--------	_	6	case	_	Ref=3.9
+8	ἐπὶ	ἐπί	ADP	r--------	_	10	compound:prt	_	Ref=3.9
 9	μηρί'	μηρία	NOUN	n-p---na-	Case=Acc|Gender=Neut|Number=Plur	10	obj	_	Ref=3.9
-10	ἔκαιον	καίω	VERB	v3piia---	Mood=Ind|Number=Plur|Person=3|Tense=Imp|Voice=Act	1	advcl	_	Ref=3.9|SpaceAfter=No
-11	,	,	PUNCT	u--------	_	1	punct	_	Ref=3.9
-12	οἱ	ὁ	PRON	p-p---mn-	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	nsubj	_	Ref=3.10
-13	δ'	δέ	CCONJ	g--------	PartType=Ptcl	20	cc	_	Ref=3.10
+10	ἔκαιον	καίω	VERB	v3piia---	Mood=Ind|Number=Plur|Person=3|Tense=Imp|Voice=Act	4	conj	_	Ref=3.9|SpaceAfter=No
+11	,	,	PUNCT	u--------	_	4	punct	_	Ref=3.9
+12	οἱ	ὁ	PRON	p-p---mn-	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	nsubj	_	Ref=3.10
+13	δ'	δέ	CCONJ	g--------	PartType=Ptcl	15	cc	_	Ref=3.10
 14	ἰθὺς	ἰθύς	ADV	d--------	_	15	advmod	_	Ref=3.10
-15	κατάγοντο	κατάγω	VERB	v3piie---	Mood=Ind|Number=Plur|Person=3|Tense=Imp|Voice=MidPass	16	root	_	Ref=3.10
+15	κατάγοντο	κατάγω	VERB	v3piie---	Mood=Ind|Number=Plur|Person=3|Tense=Imp|Voice=MidPass	0	root	_	Ref=3.10
 16	ἰδ'	ἰδέ	CCONJ	c--------	_	20	cc	_	Ref=3.10
 17	ἱστία	ἱστίον	NOUN	n-p---na-	Case=Acc|Gender=Neut|Number=Plur	20	obj	_	Ref=3.10
 18	νηὸς	ναῦς	NOUN	n-s---fg-	Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	Ref=3.10
 19	ἐίσης	ἔισος	ADJ	a-s---fg-	Case=Gen|Gender=Fem|Number=Sing	18	amod	_	Ref=3.10
-20	στεῖλαν	στέλλω	VERB	v3paia---	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	Ref=3.11
+20	στεῖλαν	στέλλω	VERB	v3paia---	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	15	conj	_	Ref=3.11
 21	ἀείραντες	ἀείρω	VERB	v-papamn-	Case=Nom|Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	20	advcl	_	Ref=3.11|SpaceAfter=No
 22	,	,	PUNCT	u--------	_	25	punct	_	Ref=3.11
 23	τὴν	ὁ	PRON	p-s---fa-	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	obj	_	Ref=3.11
 24	δ'	δέ	CCONJ	g--------	PartType=Ptcl	25	cc	_	Ref=3.11
-25	ὥρμισαν	ὁρμίζω	VERB	v3paia---	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	20	conj	_	Ref=3.11|SpaceAfter=No
+25	ὥρμισαν	ὁρμίζω	VERB	v3paia---	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	15	conj	_	Ref=3.11|SpaceAfter=No
 26	,	,	PUNCT	u--------	_	29	punct	_	Ref=3.11
 27	ἐκ	ἐκ	ADV	r--------	_	29	compound:prt	_	Ref=3.11
 28	δ'	δέ	CCONJ	g--------	PartType=Ptcl	29	cc	_	Ref=3.11
-29	ἔβαν	βαίνω	VERB	v3paia---	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	20	conj	_	Ref=3.11
-30	αὐτοί	αὐτός	DET	a-p---mn-	Case=Nom|Gender=Masc|Number=Plur|PronType=Prs	12	det	_	Ref=3.11|SpaceAfter=No
-31	·	·	PUNCT	u--------	_	20	punct	_	Ref=3.11
+29	ἔβαν	βαίνω	VERB	v3paia---	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	15	conj	_	Ref=3.11
+30	αὐτοί	αὐτός	DET	a-p---mn-	Case=Nom|Gender=Masc|Number=Plur|PronType=Prs	29	nsubj	_	Ref=3.11|SpaceAfter=No
+31	·	·	PUNCT	u--------	_	15	punct	_	Ref=3.11
 
 # sent_id = 2186024
 # text = ἐκ δ' ἄρα Τηλέμαχος νηὸς βαῖν', ἦρχε δ' Ἀθήνη.
