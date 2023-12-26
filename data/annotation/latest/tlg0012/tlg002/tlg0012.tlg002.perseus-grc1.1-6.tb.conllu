@@ -3629,14 +3629,14 @@
 # Speaker = Telemachus
 1	οὔ	οὐ	ADV	d--------	_	5	advmod:neg	5:advmod	Ref=1.347
 2	νύ	νυν	ADV	d--------	_	5	advmod	5:advmod	Ref=1.347
-3	τ'	τε	CCONJ	c--------	_	10	cc	10:cc	Ref=1.347
+3	τ'	τε	CCONJ	c--------	_	5	cc	10:cc	Ref=1.347
 4	ἀοιδοὶ	ἀοιδός	NOUN	n-p---mn-	Case=Nom|Gender=Masc|Number=Plur	5	nsubj	5:nsubj	Ref=1.347
-5	αἴτιοι	αἴτιος	ADJ	a-p---mn-	Case=Nom|Gender=Masc|Number=Plur	10	root	10:root	Ref=1.348|SpaceAfter=No
+5	αἴτιοι	αἴτιος	ADJ	a-p---mn-	Case=Nom|Gender=Masc|Number=Plur	0	root	10:root	Ref=1.348|SpaceAfter=No
 6	,	,	PUNCT	u--------	_	5	punct	10:punct	Ref=1.348
 7	ἀλλά	ἀλλά	CCONJ	c--------	_	10	cc	10:cc	Ref=1.348
 8	ποθι	ποθι	ADV	d--------	PartType=Ptcl	10	advmod	10:advmod	Ref=1.348
 9	Ζεὺς	Ζεύς	PROPN	n-s---mn-	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	10:nsubj	Ref=1.348
-10	αἴτιος	αἴτιος	ADJ	a-s---mn-	Case=Nom|Gender=Masc|Number=Sing	0	root	0:root	Ref=1.348|SpaceAfter=No
+10	αἴτιος	αἴτιος	ADJ	a-s---mn-	Case=Nom|Gender=Masc|Number=Sing	5	conj	0:root	Ref=1.348|SpaceAfter=No
 11	,	,	PUNCT	u--------	_	14	punct	14:punct	Ref=1.348
 12	ὅς	ὅς	PRON	p-s---mn-	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	14	nsubj	14:nsubj	Ref=1.348
 13	τε	τε	ADV	c--------	_	12	advmod	12:advmod	Ref=1.348
@@ -3647,8 +3647,8 @@
 18	ὅπως	ὅπως	ADV	d--------	_	19	advmod	19:advmod	Ref=1.349
 19	ἐθέλῃσιν	ἐθέλω	VERB	v3spsa---	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	14	advcl	14:advcl	Ref=1.349|SpaceAfter=No
 20	,	,	PUNCT	u--------	_	19	punct	15:punct	Ref=1.349
-21	ἑκάστῳ	ἕκαστος	PRON	a-s---md-	Case=Dat|Gender=Masc|Number=Sing|PronType=Ind	15	appos	15:appos	Ref=1.349|SpaceAfter=No
-22	.	.	PUNCT	u--------	_	10	punct	0:punct	Ref=1.349
+21	ἑκάστῳ	ἕκαστος	PRON	a-s---md-	Case=Dat|Gender=Masc|Number=Sing|PronType=Ind	19	orphan	15:appos	Ref=1.349|SpaceAfter=No
+22	.	.	PUNCT	u--------	_	5	punct	0:punct	Ref=1.349
 
 # sent_id = 2185721
 # text = τούτῳ δ' οὐ νέμεσις Δαναῶν κακὸν οἶτον ἀείδειν·
