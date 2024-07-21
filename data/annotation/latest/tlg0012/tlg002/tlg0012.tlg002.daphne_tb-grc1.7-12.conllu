@@ -759,12 +759,8 @@
 
 # sent_id = 2187259
 # text = ᾗσι τ' ἐὺ φρονέῃσι καὶ ἀνδράσι νείκεα λύει.
-<<<<<<< HEAD
 # Speaker = Athena
-1	οἷσί 	ὅς	PRON	p-p---md-	Case=Dat|Gender=Masc|Number=Plur|PronType=Rel	4	obj	_	Ref=7.74
-=======
 1	οἷσίν 	ὅς	PRON	p-p---md-	Case=Dat|Gender=Masc|Number=Plur|PronType=Rel	4	obj	_	Ref=7.74
->>>>>>> 02c132651c4e2715341fc0318d282494bf4aade3
 2	τ'	τε	ADV	c--------	_	1	advmod	_	Ref=7.74
 3	ἐὺ	εὖ	ADV	d--------	_	4	advmod	_	Ref=7.74
 4	φρονέῃσι	φρονέω	VERB	v3spsa---	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	advcl:relcl	_	Ref=7.74
@@ -15087,6 +15083,142 @@
 20	ἀνθρώπων	ἄνθρωπος	NOUN	n-p---mg-	Case=Gen|Gender=Masc|Number=Plur	15	conj	16:conj	Ref=9.521|SpaceAfter=No
 21	.	.	PUNCT	u--------	_	8	punct	0:punct	Ref=9.521
 
+# text = ὣς ἔφατ', αὐτὰρ ἐγώ μιν ἀμειβόμενος προσέειπον:
+# sent_id =2188005
+1	ὣς	ὡς	_	d--------	_	2	ADV	_	9.522=null
+2	ἔφατ'	φημί	_	v3siie---	_	4	PRED_CO	_	9.522=null
+3	,	comma	_	u--------	_	2	AuxX	_	9.522=null|SpaceAfter=No
+4	αὐτὰρ	ἀτάρ	_	g--------	_	0	root	_	9.522=null
+5	ἐγώ	ἐγώ	_	p-s---mn-	_	8	SBJ	_	9.522=null
+6	μιν	μιν	_	p-s---ma-	_	8	OBJ	_	9.522=null
+7	ἀμειβόμενος	ἀμείβω	_	v-sppemn-	_	8	ADV	_	9.522=null
+8	προσέειπον	προσεῖπον	_	v1saia---	_	4	PRED_CO	_	9.522=null|SpaceAfter=No
+9	:	punc	_	u--------	_	0	root	_	9.522=null
+
+# text = αἲ γὰρ δὴ ψυχῆς τε καὶ αἰῶνός σε δυναίμην εὖνιν ποιήσας πέμψαι δόμον Ἄϊδος εἴσω, ὡς οὐκ ὀφθαλμόν γ' ἰήσεται οὐ δ' ἐνοσίχθων.
+# sent_id =2188006
+1	αἲ	αἴ	_	e--------	_	9	AuxY	_	9.523=null
+2	γὰρ	γάρ	_	g--------	_	9	AuxY	_	9.523=null
+3	δὴ	δή	_	g--------	_	9	AuxY	_	9.523=null
+4	ψυχῆς	ψυχή	_	n-s---fg-	_	6	ATR_CO	_	9.523=null
+5	τε	τε	_	g--------	_	6	AuxY	_	9.523=null
+6	καὶ	καί	_	c--------	_	10	COORD	_	9.523=null
+7	αἰῶνός	αἰών	_	n-s---mg-	_	6	ATR_CO	_	9.523=null
+8	σε	σύ	_	p-s----a-	_	12	OBJ	_	9.523=null
+9	δυναίμην	δύναμαι	_	v1spoe---	_	0	root	_	9.524=null
+10	εὖνιν	εὖνις	_	a-s---ma-	_	11	OCOMP	_	9.524=null
+11	ποιήσας	ποιέω	_	v-sapamn-	_	12	ADV	_	9.524=null
+12	πέμψαι	πέμπω	_	v--ana---	_	9	OBJ	_	9.524=null
+13	δόμον	δόμος	_	n-s---ma-	_	15	OBJ	_	9.524=null
+14	Ἄϊδος	Ἀίδης	_	n-s---mg-	_	13	ATR	_	9.524=null
+15	εἴσω	εἴσω	_	r--------	_	12	AuxP	_	9.524=null|SpaceAfter=No
+16	,	comma	_	u--------	_	17	AuxX	_	9.524=null
+17	ὡς	ὡς	_	c--------	_	12	AuxC	_	9.525=null
+18	οὐκ	οὐ	_	d--------	_	21	AuxZ	_	9.525=null
+19	ὀφθαλμόν	ὀφθαλμός	_	n-s---ma-	_	21	OBJ	_	9.525=null
+20	γ'	γε	_	g--------	_	19	AuxZ	_	9.525=null
+21	ἰήσεται	ἰάομαι	_	v3sfie---	_	17	ADV	_	9.525=null
+22	οὐ	οὐ	_	d--------	_	24	AuxZ	_	9.525=null
+23	δ'	δέ	_	g--------	_	22	AuxZ	_	9.525=null
+24	ἐνοσίχθων	Ἐνοσίχθων	_	n-s---mn-	_	21	SBJ	_	9.525=null|SpaceAfter=No
+25	.	period	_	u--------	_	0	root	_	9.525=null
+
+# text = ' " ὣς ἐφάμην, ὁ δ' ἔπειτα Ποσειδάωνι ἄνακτι εὔχετο χεῖρ' ὀρέγων εἰς οὐρανὸν ἀστερόεντα:
+# sent_id =2188007
+1	'	quote	_	u--------	_	0	root	_	9.526=null
+2	"	quote	_	u--------	_	7	AuxG	_	9.526=null
+3	ὣς	ὡς	_	d--------	_	4	ADV	_	9.526=null
+4	ἐφάμην	φημί	_	v1siie---	_	7	PRED_CO	_	9.526=null|SpaceAfter=No
+5	,	comma	_	u--------	_	7	AuxX	_	9.526=null
+6	ὁ	ὁ	_	p-s---mn-	_	11	SBJ	_	9.526=null
+7	δ'	δέ	_	g--------	_	0	root	_	9.526=null
+8	ἔπειτα	ἔπειτα	_	d--------	_	11	ADV	_	9.526=null
+9	Ποσειδάωνι	Ποσειδεών	_	n-s---md-	_	11	OBJ	_	9.526=null
+10	ἄνακτι	ἄναξ	_	n-s---md-	_	9	ATR	_	9.527=null
+11	εὔχετο	εὔχομαι	_	v3siie---	_	7	PRED_CO	_	9.527=null
+12	χεῖρ'	χείρ	_	n-d---fa-	_	13	OBJ	_	9.527=null
+13	ὀρέγων	ὀρέγω	_	v-sppamn-	_	11	ADV	_	9.527=null
+14	εἰς	εἰς	_	r--------	_	13	AuxP	_	9.527=null
+15	οὐρανὸν	οὐρανός	_	n-s---ma-	_	14	OBJ	_	9.527=null
+16	ἀστερόεντα	ἀστερόεις	_	a-s---ma-	_	15	ATR	_	9.527=null|SpaceAfter=No
+17	:	punc	_	u--------	_	0	root	_	9.527=null
+
+# text = ' κλῦθι, Ποσείδαον γαιήοχε κυανοχαῖτα, εἰ ἐτεόν γε σός εἰμι, πατὴρ δ' ἐμὸς εὔχεαι εἶναι, δὸς μὴ Ὀδυσσῆα πτολιπόρθιον οἴκαδ' ἱκέσθαι υἱὸν Λαέρτεω, Ἰθάκῃ ἔνι οἰκί' ἔχοντα.
+# sent_id =2188008
+1	'	quote	_	u--------	_	19	AuxG	_	9.528=null
+2	κλῦθι	κλύω	_	v2sama---	_	19	PRED_CO	_	9.528=null|SpaceAfter=No
+3	,	comma	_	u--------	_	4	AuxX	_	9.528=null
+4	Ποσείδαον	Ποσειδῶν	_	n-s---mv-	_	19	ExD	_	9.528=null
+5	γαιήοχε	γαιήοχος	_	a-s---mv-	_	4	ATR	_	9.528=null
+6	κυανοχαῖτα	κυανοκαίτης	_	a-s---mv-	_	4	ATR	_	9.528=null
+7	,	comma	_	u--------	_	8	AuxX	_	9.528=null
+8	εἰ	εἰ	_	c--------	_	20	AuxC	_	9.529=null
+9	ἐτεόν	ἐτεός	_	a-s---na-	_	12	ADV	_	9.529=null
+10	γε	γε	_	g--------	_	9	AuxZ	_	9.529=null
+11	σός	σός	_	a-s---mn-	_	12	PNOM	_	9.529=null
+12	εἰμι	εἰμί	_	v1spia---	_	15	ADV_CO	_	9.529=null
+13	,	comma	_	u--------	_	15	AuxX	_	9.529=null
+14	πατὴρ	πατήρ	_	n-s---mn-	_	18	PNOM	_	9.529=null
+15	δ'	δέ	_	g--------	_	8	COORD	_	9.529=null
+16	ἐμὸς	ἐμός	_	a-s---mn-	_	14	ATR	_	9.529=null
+17	εὔχεαι	εὔχομαι	_	v2spie---	_	15	ADV_CO	_	9.529=null
+18	εἶναι	εἰμί	_	v--pna---	_	17	OBJ	_	9.529=null
+19	,	comma	_	u--------	_	0	root	_	9.529=null
+20	δὸς	δίδωμι	_	v2sama---	_	19	PRED_CO	_	9.530=null
+21	μὴ	μή	_	g--------	_	25	AuxZ	_	9.530=null
+22	Ὀδυσσῆα	Ὀδυσσεύς	_	n-s---ma-	_	25	SBJ_AP_ExD0_APOS	_	9.530=null
+23	πτολιπόρθιον	πτολιπόρθιος	_	a-s---ma-	_	22	ATR	_	9.530=null
+24	οἴκαδ'	οἴκαδε	_	d--------	_	25	OBJ	_	9.530=null
+25	ἱκέσθαι	ἱκνέομαι	_	v--anm---	_	20	OBJ	_	9.530=null
+26	υἱὸν	υἱός	_	n-s---ma-	_	25	SBJ_AP_ExD0_APOS	_	9.531=null
+27	Λαέρτεω	Λαέρτης	_	n-s---mg-	_	26	ATR	_	9.531=null
+28	,	comma	_	u--------	_	32	AuxX	_	9.531=null
+29	Ἰθάκῃ	Ἰθάκη	_	n-s---fd-	_	30	ADV	_	9.531=null
+30	ἔνι	ἐν	_	r--------	_	32	AuxP	_	9.531=null
+31	οἰκί'	οἰκίον	_	n-p---na-	_	32	OBJ	_	9.531=null
+32	ἔχοντα	ἔχω	_	v-sppama-	_	25	ATR_ExD0_APOS	_	9.531=null
+33	.	period	_	u--------	_	0	root	_	9.531=null
+
+# text = ἀλλ' εἴ οἱ μοῖρ' ἐστὶ φίλους τ' ἰδέειν καὶ ἱκέσθαι οἶκον ἐυκτίμενον καὶ ἑὴν ἐς πατρίδα γαῖαν, ὀψὲ κακῶς ἔλθοι, ὀλέσας ἄπο πάντας ἑταίρους, νηὸς ἐπ' ἀλλοτρίης, εὕροι δ' ἐν πήματα οἴκῳ.
+# sent_id =2188009
+1	ἀλλ'	ἀλλά	_	d--------	_	33	AuxY	_	9.532=null
+2	εἴ	εἰ	_	c--------	_	33	AuxC	_	9.532=null
+3	οἱ	ἕ	_	p-s---md-	_	5	OBJ	_	9.532=null
+4	μοῖρ'	μοῖρα	_	n-s---fn-	_	5	SBJ	_	9.532=null
+5	ἐστὶ	εἰμί	_	v3spia---	_	2	ADV	_	9.532=null
+6	φίλους	φίλος	_	a-p---ma-	_	8	OBJ	_	9.532=null
+7	τ'	τε	_	g--------	_	9	AuxY	_	9.532=null
+8	ἰδέειν	εἶδον	_	v--ana---	_	9	PNOM_CO	_	9.532=null
+9	καὶ	καί	_	c--------	_	5	COORD	_	9.532=null
+10	ἱκέσθαι	ἱκνέομαι	_	v--anm---	_	9	OBJ_CO	_	9.532=null
+11	οἶκον	οἶκος	_	n-s---ma-	_	13	PNOM_CO	_	9.533=null
+12	ἐυκτίμενον	ἐυκτίμενος	_	a-s---ma-	_	11	ATR	_	9.533=null
+13	καὶ	καί	_	c--------	_	10	COORD	_	9.533=null
+14	ἑὴν	ἑός	_	a-s---fa-	_	17	ATR	_	9.533=null
+15	ἐς	εἰς	_	r--------	_	13	AuxP	_	9.533=null
+16	πατρίδα	πατρίς	_	a-s---fa-	_	17	ATR	_	9.533=null
+17	γαῖαν	γαῖα	_	n-s---fa-	_	15	PNOM_CO	_	9.533=null
+18	,	comma	_	u--------	_	2	AuxX	_	9.533=null
+19	ὀψὲ	ὀψέ	_	d--------	_	21	ADV	_	9.534=null
+20	κακῶς	κακός	_	d--------	_	21	ADV	_	9.534=null
+21	ἔλθοι	ἔρχομαι	_	v3saoa---	_	33	PRED_CO	_	9.534=null
+22	,	comma	_	u--------	_	23	AuxX	_	9.534=null
+23	ὀλέσας	ὄλλυμι	_	v-sapamn-	_	21	ADV	_	9.534=null
+24	ἄπο	ἀπό	_	r--------	_	23	AuxZ	_	9.534=null
+25	πάντας	πᾶς	_	a-p---ma-	_	26	ATR	_	9.534=null
+26	ἑταίρους	ἑταῖρος	_	n-p---ma-	_	23	OBJ	_	9.534=null
+27	,	comma	_	u--------	_	29	AuxX	_	9.534=null
+28	νηὸς	ναῦς	_	n-s---fg-	_	29	ADV	_	9.535=null
+29	ἐπ'	ἐπί	_	r--------	_	23	AuxP	_	9.535=null
+30	ἀλλοτρίης	ἀλλότριος	_	a-s---fg-	_	28	ATR	_	9.535=null
+31	,	comma	_	u--------	_	33	AuxX	_	9.535=null
+32	εὕροι	εὑρίσκω	_	v3saoa---	_	33	PRED_CO	_	9.535=null
+33	δ'	δέ	_	g--------	_	0	root	_	9.535=null
+34	ἐν	ἐν	_	r--------	_	32	AuxP	_	9.535=null
+35	πήματα	πῆμα	_	n-p---na-	_	32	OBJ	_	9.535=null
+36	οἴκῳ	οἶκος	_	n-s---md-	_	34	ADV	_	9.535=null
+37	.	period	_	u--------	_	0	root	_	9.535=null
+
 # sent_id = 2188011
 # text = " ὣς ἔφατ' εὐχόμενος, τοῦ δ' ἔκλυε κυανοχαίτης.
 1	"	"	PUNCT	u--------	_	3	punct	_	Ref=9.536
@@ -20279,16 +20411,7 @@
 
 # sent_id = 2188307
 # text = " μηκέτι νῦν θαλερὸν γόον ὄρνυτε·
-<<<<<<< HEAD
 # Speaker = Circe
-1	"	"	X	---------	_	6	punct	_	Ref=10.456
-2	μηκέτι	μηκέτι	ADV	d--------	_	6	advmod	_	Ref=10.456
-3	νῦν	νῦν	ADV	d--------	_	6	advmod	_	Ref=10.456
-4	θαλερὸν	θαλερός	ADJ	a-s---ma-	Case=Acc|Gender=Masc|Number=Sing	5	amod	_	Ref=10.456
-5	γόον	γόος	NOUN	n-s---ma-	Case=Acc|Gender=Masc|Number=Sing	6	obj	_	Ref=10.456
-6	ὄρνυτε	ὄρνυμι	VERB	v2ppma---	Mood=Imp|Number=Plur|Person=2|Tense=Pres|Voice=Act	0	root	_	Ref=10.456|SpaceAfter=No
-7	·	·	PUNCT	u--------	_	6	punct	_	Ref=10.456
-=======
 1	"	"	X	---------	_	6	punct	_	Ref=10.457
 2	μηκέτι	μηκέτι	ADV	d--------	_	6	advmod	_	Ref=10.457
 3	νῦν	νῦν	ADV	d--------	_	6	advmod	_	Ref=10.457
@@ -20296,32 +20419,10 @@
 5	γόον	γόος	NOUN	n-s---ma-	Case=Acc|Gender=Masc|Number=Sing	6	obj	_	Ref=10.457
 6	ὄρνυτε	ὄρνυμι	VERB	v2ppma---	Mood=Imp|Number=Plur|Person=2|Tense=Pres|Voice=Act	0	root	_	Ref=10.457|SpaceAfter=No
 7	·	·	PUNCT	u--------	_	6	punct	_	Ref=10.457
->>>>>>> 02c132651c4e2715341fc0318d282494bf4aade3
 
 # sent_id = 2188308
 # text = οἶδα καὶ αὐτὴ ἠμὲν ὅσ' ἐν πόντῳ πάθετ' ἄλγεα ἰχθυόεντι, ἠδ' ὅσ' ἀνάρσιοι ἄνδρες ἐδηλήσαντ' ἐπὶ χέρσου.
-<<<<<<< HEAD
 # Speaker = Circe
-1	οἶδα	οἶδα	VERB	v1sria---	Mood=Ind|Number=Sing|Person=1|Voice=Act	0	root	_	Ref=10.456
-2	καὶ	καί	ADV	d--------	_	3	advmod	_	Ref=10.456
-3	αὐτὴ	αὐτός	PRON	a-s---fn-	Case=Nom|Gender=Fem|Number=Sing|PronType=Prs	1	advcl:compl	_	Ref=10.456
-4	ἠμὲν	ἠμέν	ADV	c--------	_	8	advmod	_	Ref=10.457
-5	ὅσ'	ὅσος	DET	a-p---na-	Case=Acc|Gender=Neut|Number=Plur|PronType=Rel	9	det	_	Ref=10.457
-6	ἐν	ἐν	ADP	r--------	_	7	case	_	Ref=10.457
-7	πόντῳ	πόντος	NOUN	n-s---md-	Case=Dat|Gender=Masc|Number=Sing	8	obl	_	Ref=10.457
-8	πάθετ'	πάσχω	VERB	v2paia---	Mood=Ind|Number=Plur|Person=2|Tense=Past|Voice=Act	1	ccomp	_	Ref=10.457
-9	ἄλγεα	ἄλγος	NOUN	n-p---na-	Case=Acc|Gender=Neut|Number=Plur	8	obj	_	Ref=10.457
-10	ἰχθυόεντι	ἰχθυόεις	ADJ	a-s---md-	Case=Dat|Gender=Masc|Number=Sing	7	amod	_	Ref=10.457|SpaceAfter=No
-11	,	,	PUNCT	u--------	_	16	punct	_	Ref=10.457
-12	ἠδ'	ἠδέ	CCONJ	c--------	_	16	cc	_	Ref=10.458
-13	ὅσ'	ὅσος	PRON	a-p---na-	Case=Acc|Gender=Neut|Number=Plur|PronType=Rel	16	obj	_	Ref=10.458
-14	ἀνάρσιοι	ἀνάρσιος	ADJ	a-p---mn-	Case=Nom|Gender=Masc|Number=Plur	15	amod	_	Ref=10.458
-15	ἄνδρες	ἀνήρ	NOUN	n-p---mn-	Case=Nom|Gender=Masc|Number=Plur	16	nsubj	_	Ref=10.458
-16	ἐδηλήσαντ'	δηλέομαι	VERB	v3paie---	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=MidPass	8	conj	_	Ref=10.458
-17	ἐπὶ	ἐπί	ADP	r--------	_	18	case	_	Ref=10.458
-18	χέρσου	χέρσος	NOUN	n-s---fg-	Case=Gen|Gender=Fem|Number=Sing	16	obl	_	Ref=10.458|SpaceAfter=No
-19	.	.	PUNCT	u--------	_	1	punct	_	Ref=10.458
-=======
 1	οἶδα	οἶδα	VERB	v1sria---	Mood=Ind|Number=Sing|Person=1|Voice=Act	0	root	_	Ref=10.457
 2	καὶ	καί	ADV	d--------	_	3	advmod	_	Ref=10.457
 3	αὐτὴ	αὐτός	PRON	a-s---fn-	Case=Nom|Gender=Fem|Number=Sing|PronType=Prs	1	advcl:compl	_	Ref=10.457
@@ -20341,7 +20442,6 @@
 17	ἐπὶ	ἐπί	ADP	r--------	_	18	case	_	Ref=10.459
 18	χέρσου	χέρσος	NOUN	n-s---fg-	Case=Gen|Gender=Fem|Number=Sing	16	obl	_	Ref=10.459|SpaceAfter=No
 19	.	.	PUNCT	u--------	_	1	punct	_	Ref=10.459
->>>>>>> 02c132651c4e2715341fc0318d282494bf4aade3
 
 # sent_id = 2188309
 # text = ἀλλ' ἄγετ' ἐσθίετε βρώμην καὶ πίνετε οἶνον, εἰς ὅ κεν αὖτις θυμὸν ἐνὶ στήθεσσι λάβητε, οἷον ὅτε πρώτιστον ἐλείπετε πατρίδα γαῖαν τρηχείης Ἰθάκης.
