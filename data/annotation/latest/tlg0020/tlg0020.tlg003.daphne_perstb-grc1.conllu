@@ -1,4 +1,15 @@
+# Daphne treebank as modified by GRC
+# sentence level annotation credits have been added
+# lemmas were updated based on work on the Perseus treebank
+# for now original lemmas are kept after a ":"
+#     e.g, 15	Ἀρηΐθοος	Ἀρηΐθοος:Ἀρηί 
+# the original lemma was Ἀρηί; the new one is Ἀρηΐθοος
+
+# annotator <short>alexlessie</short> <name>Alex Lessie</name> <address>University of Pennsylvania, Philadelphia, PA, USA</address>
+# annotator <short>dlliba10</short> <name>Daniel Lim Libatique</name> <address>College of the Holy Cross, Worcester, MA, USA</address>
+# annotator <short>jfg</short> <name>J. F. Gentile</name> <address>University of Pennsylvania, Philadelphia, PA, USA</address>
 # sent_id = 2273413
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>alexlessie</secondary>
 # text = ἢ οἵη προλιποῦσα δόμους καὶ πατρίδα γαῖαν ἤλυθεν ἐς Θήβας μετ' ἀρήιον Ἀμφιτρύωνα Ἀλκμήνη, θυγάτηρ λαοσσόου Ἠλεκτρύωνος·
 1	ἢ	ἤ	CCONJ	c--------	_	14	cc	1.1:cc	Ref=1
 1.1	E1.1	_	_	_	_	_	_	0:root	_
@@ -22,6 +33,7 @@
 19	·	·	PUNCT	u--------	_	14	punct	1.1:punct	_
 
 # sent_id = 2273414
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>alexlessie</secondary>
 # text = ἥ ῥα γυναικῶν φῦλον ἐκαίνυτο θηλυτεράων εἴδεΐ τε μεγέθει τε·
 1	ἥ	ὁ	PRON	p-s---fn-	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	nsubj	_	Ref=4
 2	ῥα	ἄρα	ADV	g--------	PartType=Ptcl	5	advmod	_	Ref=4
@@ -36,6 +48,7 @@
 11	·	·	PUNCT	u--------	_	5	punct	_	_
 
 # sent_id = 2273415
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>alexlessie</secondary>
 # text = νόον γε μὲν οὔ τις ἔριζε τάων, ἃς θνηταὶ θνητοῖς τέκον εὐνηθεῖσαι.
 1	νόον	νόος	NOUN	n-s---ma-	Case=Acc|Gender=Masc|Number=Sing	6	obl	_	Ref=5
 2	γε	γε	ADV	g--------	PartType=Ptcl	1	advmod	_	Ref=5
@@ -53,6 +66,7 @@
 14	.	.	PUNCT	u--------	_	6	punct	_	_
 
 # sent_id = 2273416
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>alexlessie</secondary>
 # text = τῆς καὶ ἀπὸ κρῆθεν βλεφάρων τ' ἄπο κυανεάων τοῖον ἄηθ' οἶόν τε πολυχρύσου Ἀφροδίτης.
 1	τῆς	ὁ	PRON	p-s---fg-	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	nmod	5:det	Ref=7
 2	καὶ	καί	CCONJ	c--------	_	10	cc	10:cc	Ref=7
@@ -73,6 +87,7 @@
 15	.	.	PUNCT	u--------	_	10	punct	10:punct	_
 
 # sent_id = 2273417
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>alexlessie</secondary>
 # text = ἣ δὲ καὶ ὣς κατὰ θυμὸν ἑὸν τίεσκεν ἀκοίτην, ὡς οὔ πώ τις ἔτισε γυναικῶν θηλυτεράων·
 1	ἣ	ὁ	PRON	p-s---fn-	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	nsubj	_	Ref=9
 2	δὲ	δέ	CCONJ	g--------	PartType=Ptcl	8	cc	_	Ref=9
@@ -94,6 +109,7 @@
 18	·	·	PUNCT	u--------	_	8	punct	_	_
 
 # sent_id = 2273418
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>alexlessie</secondary>
 # text = ἦ μέν οἱ πατέρ' ἐσθλὸν ἀπέκτανε ἶφι δαμάσσας, χωσάμενος περὶ βουσί·
 1	ἦ	ἦ	ADV	d--------	PartType=Ptcl	6	advmod	_	Ref=11
 2	μέν	μέν	ADV	g--------	PartType=Ptcl	6	advmod	_	Ref=11
@@ -110,6 +126,7 @@
 13	·	·	PUNCT	u--------	_	6	punct	_	_
 
 # sent_id = 2273419
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>alexlessie</secondary>
 # text = λιπὼν δ' ὅ γε πατρίδα γαῖαν ἐς Θήβας ἱκέτευσε φερεσσακέας Καδμείους.
 1	λιπὼν	λείπω	VERB	v-sapamn-	Case=Nom|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	9	advcl	_	Ref=12
 2	δ'	δέ	CCONJ	g--------	PartType=Ptcl	9	cc	_	Ref=12
@@ -125,6 +142,7 @@
 12	.	.	PUNCT	u--------	_	9	punct	_	_
 
 # sent_id = 2273420
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>alexlessie</secondary>
 # text = ἔνθ' ὅ γε δώματ' ἔναιε σὺν αἰδοίῃ παρακοίτι νόσφιν ἄτερ φιλότητος ἐφιμέρου, οὐδέ οἱ ἦεν πρὶν λεχέων ἐπιβῆναι ἐυσφύρου Ἠλεκτρυώνης, πρίν γε φόνον τίσαιτο κασιγνήτων μεγαθύμων ἧς ἀλόχου, μαλερῷ δὲ καταφλέξαι πυρὶ κώμας ἀνδρῶν ἡρώων Ταφίων ἰδὲ Τηλεβοάων.
 1	ἔνθ'	ἔνθα	ADV	d--------	_	5	advmod	_	Ref=14
 2	ὅ	ὁ	PRON	p-s---mn-	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	nsubj	_	Ref=14
@@ -170,6 +188,7 @@
 42	.	.	PUNCT	u--------	_	5	punct	_	_
 
 # sent_id = 2273421
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>alexlessie</secondary>
 # text = τὼς γάρ οἱ διέκειτο, θεοὶ δ' ἐπὶ μάρτυροι ἦσαν·
 1	τὼς	τώς	ADV	d--------	_	4	advmod	_	Ref=20
 2	γάρ	γάρ	ADV	g--------	PartType=Ptcl	4	advmod	_	Ref=20
@@ -184,6 +203,7 @@
 11	·	·	PUNCT	u--------	_	4	punct	_	_
 
 # sent_id = 2273422
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>alexlessie</secondary>
 # text = τῶν ὅ γ' ὀπίζετο μῆνιν, ἐπείγετο δ' ὅττι τάχιστα ἐκτελέσαι μέγα ἔργον, ὅ οἱ Διόθεν θέμις ἦεν.
 1	τῶν	ὁ	PRON	p-p---mg-	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	nmod	_	Ref=21
 2	ὅ	ὁ	PRON	p-s---mn-	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	nsubj	_	Ref=21
@@ -207,6 +227,7 @@
 20	.	.	PUNCT	u--------	_	4	punct	_	_
 
 # sent_id = 2273423
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>alexlessie</secondary>
 # text = τῷ δ' ἅμα ἱέμενοι πολέμοιό τε φυλόπιδός τε Βοιωτοὶ πλήξιπποι, ὑπὲρ σακέων πνείοντες, Λοκροί τ' ἀγχέμαχοι καὶ Φωκῆες μεγάθυμοι ἕσποντ'·
 1	τῷ	ὁ	PRON	p-s---md-	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	obj	_	Ref=23
 2	δ'	δέ	CCONJ	g--------	PartType=Ptcl	22	cc	_	Ref=23
@@ -233,6 +254,7 @@
 23	·	·	PUNCT	u--------	_	22	punct	_	_
 
 # sent_id = 2273424
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>alexlessie</secondary>
 # text = ἦρχε δὲ τοῖσιν ἐὺς πάις Ἀλκαίοιο κυδιόων λαοῖσι.
 1	ἦρχε	ἄρχω	VERB	v3siia---	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	0	root	_	Ref=26
 2	δὲ	δέ	CCONJ	g--------	PartType=Ptcl	1	cc	_	Ref=26
@@ -245,6 +267,7 @@
 9	.	.	PUNCT	u--------	_	1	punct	_	_
 
 # sent_id = 2273425
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>alexlessie</secondary>
 # text = πατὴρ δ' ἀνδρῶν τε θεῶν τε ἄλλην μῆτιν ὕφαινε μετὰ φρεσίν, ὥς ῥα θεοῖσιν ἀνδράσι τ' ἀλφηστῇσιν ἀρῆς ἀλκτῆρα φυτεύσαι.
 1	πατὴρ	πατήρ	NOUN	n-s---mn-	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	Ref=27
 2	δ'	δέ	CCONJ	g--------	PartType=Ptcl	9	cc	_	Ref=27
@@ -270,6 +293,7 @@
 22	.	.	PUNCT	u--------	_	9	punct	_	_
 
 # sent_id = 2273426
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>alexlessie</secondary>
 # text = ὦρτο δ' ἀπ' Οὐλύμποιο δόλον φρεσὶ βυσσοδομεύων, ἱμείρων φιλότητος ἐυζώνοιο γυναικός, ἐννύχιος·
 1	ὦρτο	ὄρνυμι	VERB	v3saim---	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Mid	0	root	_	Ref=30
 2	δ'	δέ	CCONJ	g--------	PartType=Ptcl	1	cc	_	Ref=30
@@ -288,6 +312,7 @@
 15	·	·	PUNCT	u--------	_	1	punct	_	_
 
 # sent_id = 2273427
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>alexlessie</secondary>
 # text = τάχα δ' ἷξε Τυφαόνιον·
 1	τάχα	τάχα	ADV	d--------	_	3	advmod	_	Ref=32
 2	δ'	δέ	CCONJ	g--------	PartType=Ptcl	3	cc	_	Ref=32
@@ -296,6 +321,7 @@
 5	·	·	PUNCT	u--------	_	3	punct	_	_
 
 # sent_id = 2273428
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>alexlessie</secondary>
 # text = τόθεν αὖτις Φίκιον ἀκρότατον προσεβήσατο μητίετα Ζεύς.
 1	τόθεν	τόθεν	ADV	d--------	_	5	advmod	_	Ref=32
 2	αὖτις	αὖθις	ADV	d--------	_	5	advmod	_	Ref=32
@@ -307,6 +333,7 @@
 8	.	.	PUNCT	u--------	_	5	punct	_	_
 
 # sent_id = 2273429
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>alexlessie</secondary>
 # text = ἔνθα καθεζόμενος φρεσὶ μήδετο θέσκελα ἔργα·
 1	ἔνθα	ἔνθα	ADV	d--------	_	2	advmod	_	Ref=34
 2	καθεζόμενος	καθέζομαι	VERB	v-pppemn-	Case=Nom|Gender=Masc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=MidPass	4	advcl	_	Ref=34
@@ -317,6 +344,7 @@
 7	·	·	PUNCT	u--------	_	4	punct	_	_
 
 # sent_id = 2273430
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>alexlessie</secondary>
 # text = αὐτῇ μὲν γὰρ νυκτὶ τανυσφύρου Ἠλεκτρυώνης εὐνῇ καὶ φιλότητι μίγη, τέλεσεν δ' ἄρ' ἐέλδωρ·
 1	αὐτῇ	αὐτός	DET	a-s---fd-	Case=Dat|Gender=Fem|Number=Sing|PronType=Prs	4	det	_	Ref=35
 2	μὲν	μέν	ADV	g--------	PartType=Ptcl	10	advmod	_	Ref=35
@@ -336,6 +364,7 @@
 16	·	·	PUNCT	u--------	_	10	punct	_	_
 
 # sent_id = 2273431
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>alexlessie</secondary>
 # text = αὐτῇ δ' Ἀμφιτρύων λαοσσόος, ἀγλαὸς ἥρως, ἐκτελέσας μέγα ἔργον ἀφίκετο ὅνδε δόμονδε.
 0.1	E0.1	_	_	_	_	_	_	12:advmod	_
 1	αὐτῇ	αὐτός	PRON	a-s---fd-	Case=Dat|Gender=Fem|Number=Sing|PronType=Prs	12	nmod	0.1:det	Ref=37
@@ -355,6 +384,7 @@
 15	.	.	PUNCT	u--------	_	12	punct	12:punct	_
 
 # sent_id = 2273432
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>alexlessie</secondary>
 # text = οὐ δ' ὅ γ' ἐπὶ δμῶας καὶ ποιμένας ἀγροιώτας ὦρτ' ἰέναι, πρίν γ' ἧς ἀλόχου ἐπιβήμεναι εὐνῆς·
 1	οὐ	οὐ	ADV	d--------	_	10	advmod:neg	_	Ref=39
 2	δ'	δέ	CCONJ	g--------	PartType=Ptcl	10	cc	_	Ref=39
@@ -377,6 +407,7 @@
 19	·	·	PUNCT	u--------	_	10	punct	_	_
 
 # sent_id = 2273433
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>alexlessie</secondary>
 # text = τοῖος γὰρ κραδίην πόθος αἴνυτο ποιμένα λαῶν.
 1	τοῖος	τοῖος	DET	a-s---mn-	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	4	det	_	Ref=41
 2	γὰρ	γάρ	ADV	g--------	PartType=Ptcl	5	mark	_	Ref=41
@@ -388,6 +419,7 @@
 8	.	.	PUNCT	u--------	_	5	punct	_	_
 
 # sent_id = 2273434
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>alexlessie</secondary>
 # text = ὡς δ' ὅτ' ἀνὴρ ἀσπαστὸν ὑπεκπροφύγῃ κακότητα νούσου ὕπ' ἀργαλέης ἢ καὶ κρατεροῦ ὑπὸ δεσμοῦ, ὥς ῥα τότ' Ἀμφιτρύων χαλεπὸν πόνον ἐκτολυπεύσας ἀσπασίως τε φίλως τε ἑὸν δόμον εἰσαφίκανεν.
 1	ὡς	ὡς	ADV	d--------	_	6	advmod	_	Ref=42
 2	δ'	δέ	CCONJ	g--------	PartType=Ptcl	30	cc	_	Ref=42
@@ -422,6 +454,7 @@
 31	.	.	PUNCT	u--------	_	30	punct	_	_
 
 # sent_id = 2273435
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>alexlessie</secondary>
 # text = παννύχιος δ' ἄρ' ἔλεκτο σὺν αἰδοίῃ παρακοίτι τερπόμενος δώροισι πολυχρύσου Ἀφροδίτης.
 1	παννύχιος	παννύχιος	ADJ	a-s---mn-	Case=Nom|Gender=Masc|Number=Sing	4	advcl:compl	_	Ref=46
 2	δ'	δέ	CCONJ	g--------	PartType=Ptcl	4	cc	_	Ref=46
@@ -437,6 +470,7 @@
 12	.	.	PUNCT	u--------	_	4	punct	_	_
 
 # sent_id = 2273436
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>alexlessie</secondary>
 # text = ἣ δὲ θεῷ δμηθεῖσα καὶ ἀνέρι πολλὸν ἀρίστῳ Θήβῃ ἐν ἑπταπύλῳ διδυμάονε γείνατο παῖδε, οὐ καθ' ὁμὰ φρονέοντε·
 1	ἣ	ὁ	PRON	p-s---fn-	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	nsubj	_	Ref=48
 2	δὲ	δέ	CCONJ	g--------	PartType=Ptcl	13	cc	_	Ref=48
@@ -460,6 +494,7 @@
 20	·	·	PUNCT	u--------	_	13	punct	_	_
 
 # sent_id = 2273437
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>alexlessie</secondary>
 # text = κασιγνήτω γε μὲν ἤστην·
 1	κασιγνήτω	κασίγνητος	NOUN	n-d---mn-	Case=Nom|Gender=Masc|Number=Dual	0	root	_	Ref=50
 2	γε	γε	ADV	g--------	PartType=Ptcl	1	advmod	_	Ref=50
@@ -468,6 +503,7 @@
 5	·	·	PUNCT	u--------	_	1	punct	_	_
 
 # sent_id = 2273438
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = τὸν μὲν χειρότερον, τὸν δ' αὖ μέγ' ἀμείνονα φῶτα, δεινόν τε κρατερόν τε, βίην Ἡρακληείην·
 0.1	E0.1	_	_	_	_	_	_	0:root	_
 1	τὸν	ὁ	PRON	p-s---ma-	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	root	0.1:obj	Ref=51
@@ -493,6 +529,7 @@
 19	·	·	PUNCT	u--------	_	1	punct	0.1:punct	_
 
 # sent_id = 2273439
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = τὸν μὲν ὑποδμηθεῖσα κελαινεφέι Κρονίωνι, τὸν δ' ἄρα Ἰφικλῆα δορυσσόῳ Ἀμφιτρύωνι, κεκριμένην γενεήν·
 0.1	E0.1	_	_	_	_	_	_	0:root	_
 1	τὸν	ὁ	PRON	p-s---ma-	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	root	0.1:obj	Ref=53
@@ -515,6 +552,7 @@
 16	·	·	PUNCT	u--------	_	1	punct	0.1:punct	_
 
 # sent_id = 2273440
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = τὸν μὲν βροτῷ ἀνδρὶ μιγεῖσα, τὸν δὲ Διὶ Κρονίωνι, θεῶν σημάντορι πάντων.
 0.1	E0.1	_	_	_	_	_	_	0:root	_
 1	τὸν	ὁ	PRON	p-s---ma-	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	root	0.1:obj	Ref=55
@@ -536,6 +574,7 @@
 15	.	.	PUNCT	u--------	_	1	punct	0.1:punct	_
 
 # sent_id = 2273441
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>alexlessie</secondary>
 # text = ὃς καὶ Κύκνον ἔπεφνεν, Ἀρητιάδην μεγάθυμον.
 1	ὃς	ὅς	PRON	p-s---mn-	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	4	nsubj	_	Ref=57
 2	καὶ	καί	ADV	d--------	_	3	advmod	_	Ref=57
@@ -547,6 +586,7 @@
 8	.	.	PUNCT	u--------	_	4	punct	_	_
 
 # sent_id = 2273442
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>alexlessie</secondary>
 # text = εὗρε γὰρ ἐν τεμένει ἑκατηβόλου Ἀπόλλωνος αὐτὸν καὶ πατέρα ὅν Ἄρην, ἄατον πολέμοιο, τεύχεσι λαμπομένους σέλας ὣς πυρὸς αἰθομένοιο, ἑσταότ' ἐν δίφρῳ·
 1	εὗρε	εὑρίσκω	VERB	v3saia---	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	0:root	Ref=58
 2	γὰρ	γάρ	ADV	g--------	PartType=Ptcl	1	advmod	1:advmod	Ref=58
@@ -577,6 +617,7 @@
 26	·	·	PUNCT	u--------	_	1	punct	1:punct	_
 
 # sent_id = 2273443
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>alexlessie</secondary>
 # text = χθόνα δ' ἔκτυπον ὠκέες ἵπποι νύσσοντες χηλῇσι, κόνις δέ σφ' ἀμφιδεδήει κοπτομένη πλεκτοῖσιν ὑφ' ἅρμασι καὶ ποσὶν ἵππων.
 1	χθόνα	χθών	NOUN	n-s---fa-	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	Ref=61
 2	δ'	δέ	CCONJ	g--------	PartType=Ptcl	3	cc	_	Ref=61
@@ -600,6 +641,7 @@
 20	.	.	PUNCT	u--------	_	3	punct	_	_
 
 # sent_id = 2273444
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>alexlessie</secondary>
 # text = ἅρματα δ' εὐποίητα καὶ ἄντυγες ἀμφαράβιζον ἵππων ἱεμένων·
 1	ἅρματα	ἅρμα	NOUN	n-p---nn-	Case=Nom|Gender=Neut|Number=Plur	6	nsubj	_	Ref=64
 2	δ'	δέ	CCONJ	g--------	PartType=Ptcl	6	cc	_	Ref=64
@@ -612,6 +654,7 @@
 9	·	·	PUNCT	u--------	_	6	punct	_	_
 
 # sent_id = 2273445
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>alexlessie</secondary>
 # text = κεχάρητο δὲ Κύκνος ἀμύμων, ἐλπόμενος Διὸς υἱὸν ἀρήιον ἡνίοχόν τε χαλκῷ δηιώσειν καὶ ἀπὸ κλυτὰ τεύχεα δύσειν.
 1	κεχάρητο	χαίρω	VERB	v3slie---	Mood=Ind|Number=Sing|Person=3|Voice=MidPass	0	root	_	Ref=65
 2	δὲ	δέ	CCONJ	g--------	PartType=Ptcl	1	cc	_	Ref=65
@@ -634,6 +677,7 @@
 19	.	.	PUNCT	u--------	_	1	punct	_	_
 
 # sent_id = 2273446
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>alexlessie</secondary>
 # text = ἀλλά οἱ εὐχωλέων οὐκ ἔκλυε Φοῖβος Ἀπόλλων·
 1	ἀλλά	ἀλλά	ADV	c--------	_	5	advmod	_	Ref=68
 2	οἱ	ἕ	PRON	p-s---md-	Case=Dat|Gender=Masc|Number=Sing|PronType=Prs	3	nmod	_	Ref=68
@@ -645,6 +689,7 @@
 8	·	·	PUNCT	u--------	_	5	punct	_	_
 
 # sent_id = 2273447
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>alexlessie</secondary>
 # text = αὐτὸς γάρ οἱ ἐπῶρσε βίην Ἡρακληείην.
 1	αὐτὸς	αὐτός	PRON	a-s---mn-	Case=Nom|Gender=Masc|Number=Sing|PronType=Prs	4	advcl:compl	_	Ref=69
 2	γάρ	γάρ	ADV	g--------	PartType=Ptcl	4	mark	_	Ref=69
@@ -655,6 +700,7 @@
 7	.	.	PUNCT	u--------	_	4	punct	_	_
 
 # sent_id = 2273448
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>alexlessie</secondary>
 # text = πᾶν δ' ἄλσος καὶ βωμὸς Ἀπόλλωνος Παγασαίου λάμπεν ὑπὸ δεινοῖο θεοῦ τευχέων τε καὶ αὐτοῦ·
 1	πᾶν	πᾶς	DET	a-s---nn-	Case=Nom|Gender=Neut|Number=Sing|PronType=Ind	3	det	_	Ref=70
 2	δ'	δέ	CCONJ	g--------	PartType=Ptcl	8	cc	_	Ref=70
@@ -674,6 +720,7 @@
 16	·	·	PUNCT	u--------	_	8	punct	_	_
 
 # sent_id = 2273449
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>alexlessie</secondary>
 # text = πῦρ δ' ὣς ὀφθαλμῶν ἀπελάμπετο.
 1	πῦρ	πῦρ	NOUN	n-s---nn-	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	Ref=72
 2	δ'	δέ	CCONJ	g--------	PartType=Ptcl	5	cc	_	Ref=72
@@ -683,6 +730,7 @@
 6	.	.	PUNCT	u--------	_	5	punct	_	_
 
 # sent_id = 2273450
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>alexlessie</secondary>
 # text = τίς κεν ἐκείνου ἔτλη θνητὸς ἐὼν κατεναντίον ὁρμηθῆναι πλήν γ' Ἡρακλῆος καὶ κυδαλίμου Ἰολάου;
 1	τίς	τις	DET	p-s---mn-	Case=Nom|Gender=Masc|Number=Sing|PronType=Ind	5	det	_	Ref=72
 2	κεν	ἄν	ADV	g--------	PartType=Ptcl	4	advmod	_	Ref=72
@@ -701,6 +749,7 @@
 15	;	;	PUNCT	u--------	_	4	punct	_	_
 
 # sent_id = 2273451
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>alexlessie</secondary>
 # text = κείνων γὰρ μεγάλη τε βίη καὶ χεῖρες ἄαπτοι ἐξ ὤμων ἐπέφυκον ἐπὶ στιβαροῖσι μέλεσσιν.
 1	κείνων	ἐκεῖνος	DET	a-p---mg-	Case=Gen|Gender=Masc|Number=Plur|PronType=Dem	10	det	_	Ref=75
 2	γὰρ	γάρ	ADV	g--------	PartType=Ptcl	11	advmod	_	Ref=75
@@ -719,6 +768,7 @@
 15	.	.	PUNCT	u--------	_	11	punct	_	_
 
 # sent_id = 2273452
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>alexlessie</secondary>
 # text = ὅς ῥα τόθ' ἡνίοχον προσέφη κρατερὸν Ἰόλαον·
 1	ὅς	ὅς	PRON	p-s---mn-	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	5	nsubj	_	Ref=77
 2	ῥα	ἄρα	ADV	g--------	PartType=Ptcl	5	advmod	_	Ref=77
@@ -730,6 +780,7 @@
 8	·	·	PUNCT	u--------	_	5	punct	_	_
 
 # sent_id = 2273453
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>alexlessie</secondary>
 # text = ἥρως ὦ Ἰόλαε, βροτῶν πολὺ φίλτατε πάντων, ἦ τε μέγ' ἀθανάτους μάκαρας, τοὶ Ὄλυμπον ἔχουσιν, ἤλιτεν Ἀμφιτρύων, ὅτ' ἐυστέφανον ποτὶ Θήβην ἦλθε λιπὼν Τίρυνθα, ἐυκτίμενον πτολίεθρον, κτείνας Ἠλεκτρύωνα βοῶν ἕνεκ' εὐρυμετώπων·
 1	ἥρως	ἥρως	NOUN	n-s---mv-	Case=Voc|Gender=Masc|Number=Sing	3	nmod	_	Ref=78
 2	ὦ	ὦ	INTJ	i--------	_	3	discourse	_	Ref=78
@@ -772,6 +823,7 @@
 39	·	·	PUNCT	u--------	_	20	punct	_	_
 
 # sent_id = 2273454
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>alexlessie</secondary>
 # text = ἵκετο δ' ἐς Κρείοντα καὶ Ἠνιόχην τανύπεπλον, οἵ ῥά μιν ἠσπάζοντο καὶ ἄρμενα πάντα παρεῖχον, ἣ δίκη ἔσθ' ἱκέτῃσι, τίον δέ ἑ κηρόθι μᾶλλον.
 1	ἵκετο	ἱκνέομαι	VERB	v3saim---	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Mid	0	root	_	Ref=83
 2	δ'	δέ	CCONJ	g--------	PartType=Ptcl	1	cc	_	Ref=83
@@ -803,6 +855,7 @@
 28	.	.	PUNCT	u--------	_	1	punct	_	_
 
 # sent_id = 2273455
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>alexlessie</secondary>
 # text = ζῶε δ' ἀγαλλόμενος σὺν ἐυσφύρῳ Ἠλεκτρυώνῃ, ᾗ ἀλόχῳ·
 1	ζῶε	ζώω	VERB	v3siia---	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	0	root	_	Ref=86
 2	δ'	δέ	CCONJ	g--------	PartType=Ptcl	1	cc	_	Ref=86
@@ -816,6 +869,7 @@
 10	·	·	PUNCT	u--------	_	1	punct	_	_
 
 # sent_id = 2273456
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>alexlessie</secondary>
 # text = τάχα δ' ἄμμες ἐπιπλομένων ἐνιαυτῶν γεινόμεθ' οὔ τε φυὴν ἐναλίγκιοι οὔ τε νόημα, σός τε πατὴρ καὶ ἐγώ·
 1	τάχα	τάχα	ADV	d--------	_	6	advmod	_	Ref=87
 2	δ'	δέ	CCONJ	g--------	PartType=Ptcl	6	cc	_	Ref=87
@@ -839,6 +893,7 @@
 20	·	·	PUNCT	u--------	_	6	punct	_	_
 
 # sent_id = 2273457
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>alexlessie</secondary>
 # text = τοῦ μὲν φρένας ἐξέλετο Ζεύς, ὃς προλιπὼν σφέτερον τε δόμον σφετέρους τε τοκῆας ᾤχετο, τιμήσων ἀλιτήμενον Εὐρυσθῆα, σχέτλιος·
 1	τοῦ	ὁ	PRON	p-s---mg-	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	obj	_	Ref=89
 2	μὲν	μέν	ADV	g--------	PartType=Ptcl	4	advmod	_	Ref=89
@@ -864,6 +919,7 @@
 22	·	·	PUNCT	u--------	_	4	punct	_	_
 
 # sent_id = 2273458
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>alexlessie</secondary>
 # text = ἦ που πολλὰ μετεστεναχίζετ' ὀπίσσω ἣν ἄτην ὀχέων·
 1	ἦ	ἦ	ADV	d--------	PartType=Ptcl	4	advmod	_	Ref=92
 2	που	πού	ADV	d--------	PartType=Ptcl	4	advmod	_	Ref=92
@@ -876,6 +932,7 @@
 9	·	·	PUNCT	u--------	_	4	punct	_	_
 
 # sent_id = 2273459
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>alexlessie</secondary>
 # text = ἣ δ' οὐ παλινάγρετός ἐστιν.
 1	ἣ	ὁ	PRON	p-s---fn-	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	nsubj	_	Ref=93
 2	δ'	δέ	CCONJ	g--------	PartType=Ptcl	4	cc	_	Ref=93
@@ -885,6 +942,7 @@
 6	.	.	PUNCT	u--------	_	4	punct	_	_
 
 # sent_id = 2273460
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>alexlessie</secondary>
 # text = αὐτὰρ ἐμοὶ δαίμων χαλεποὺς ἐπετέλλετ' ἀέθλους.
 1	αὐτὰρ	ἀτάρ	ADV	c--------	PartType=Ptcl	5	advmod	_	Ref=94
 2	ἐμοὶ	ἐγώ	PRON	p-s---md-	Case=Dat|Gender=Masc|Number=Sing|Person=1|PronType=Prs	5	iobj	_	Ref=94
@@ -895,6 +953,7 @@
 7	.	.	PUNCT	u--------	_	5	punct	_	_
 
 # sent_id = 2273461
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>alexlessie</secondary>
 # text = ὦ φίλος, ἀλλὰ σὺ θᾶσσον ἔχ' ἡνία φοινικόεντα ἵππων ὠκυπόδων·
 1	ὦ	ὦ	INTJ	i--------	_	2	discourse	_	Ref=95
 2	φίλος	φίλος	ADJ	a-s---mv-	Case=Voc|Gender=Masc|Number=Sing	7	vocative	_	Ref=95|SpaceAfter=No
@@ -910,6 +969,7 @@
 12	·	·	PUNCT	u--------	_	7	punct	_	_
 
 # sent_id = 2273462
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>alexlessie</secondary>
 # text = μέγα δὲ φρεσὶ θάρσος ἀέξων ἰθὺς ἔχειν θοὸν ἅρμα καὶ ὠκυπόδων σθένος ἵππων, μηδὲν ὑποδδείσας κτύπον Ἄρεος ἀνδροφόνοιο, ὃς νῦν κεκληγὼς περιμαίνεται ἱερὸν ἄλσος Φοίβου Ἀπόλλωνος, ἑκατηβελέταο ἄνακτος·
 1	μέγα	μέγας	ADJ	a-s---na-	Case=Acc|Gender=Neut|Number=Sing	4	amod	_	Ref=96
 2	δὲ	δέ	CCONJ	g--------	PartType=Ptcl	7	cc	_	Ref=96
@@ -945,6 +1005,7 @@
 32	·	·	PUNCT	u--------	_	7	punct	_	_
 
 # sent_id = 2273463
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>alexlessie</secondary>
 # text = ἦ μὴν καὶ κρατερός περ ἐὼν ἄαται πολέμοιο.
 1	ἦ	ἦ	ADV	d--------	PartType=Ptcl	7	advmod	_	Ref=101
 2	μὴν	μήν	ADV	g--------	PartType=Ptcl	1	advmod	_	Ref=101
@@ -957,6 +1018,7 @@
 9	.	.	PUNCT	u--------	_	7	punct	_	_
 
 # sent_id = 2273464
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>alexlessie</secondary>
 # text = τὸν δ' αὖτε προσέειπεν ἀμώμητος Ἰόλαος·
 1	τὸν	ὁ	PRON	p-s---ma-	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	obj	_	Ref=102
 2	δ'	δέ	CCONJ	g--------	PartType=Ptcl	4	cc	_	Ref=102
@@ -967,6 +1029,7 @@
 7	·	·	PUNCT	u--------	_	4	punct	_	_
 
 # sent_id = 2273465
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>alexlessie</secondary>
 # text = ἠθεῖ̓, ἦ μάλα δή τι πατὴρ ἀνδρῶν τε θεῶν τε τιμᾷ σὴν κεφαλὴν καὶ ταύρεος Ἐννοσίγαιος, ὃς Θήβης κρήδεμνον ἔχει ῥύεταί τε πόληα·
 1	ἠθεῖ̓	ἠθεῖος	ADJ	a-s---mv-	Case=Voc|Gender=Masc|Number=Sing	12	vocative	_	Ref=103|SpaceAfter=No
 2	,	,	PUNCT	u--------	_	1	punct	_	_
@@ -996,6 +1059,7 @@
 26	·	·	PUNCT	u--------	_	12	punct	_	_
 
 # sent_id = 2273466
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>alexlessie</secondary>
 # text = οἶον δὴ καὶ τόνδε βροτὸν κρατερόν τε μέγαν τε σὰς ἐς χεῖρας ἄγουσιν, ἵνα κλέος ἐσθλὸν ἄρηαι.
 1	οἶον	οἶος	ADJ	a-s---ma-	Case=Acc|Gender=Masc|Number=Sing	5	amod	_	Ref=106
 2	δὴ	δή	ADV	g--------	PartType=Ptcl	13	advmod	_	Ref=106
@@ -1018,6 +1082,7 @@
 19	.	.	PUNCT	u--------	_	13	punct	_	_
 
 # sent_id = 2273467
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>alexlessie</secondary>
 # text = ἀλλ' ἄγε δύσεο τεύχἐ ἀρήια, ὄφρα τάχιστα δίφρους ἐμπελάσαντες Ἄρηός θ' ἡμέτερόν τε μαρνώμεσθ', ἐπεὶ οὔ τοι ἀτάρβητον Διὸς υἱὸν οὐ δ' Ἰφικλεΐδην δειδίξεται, ἀλλά μιν οἴω φεύξεσθαι δύο παῖδας ἀμύμονος Ἀλκεΐδαο, οἳ δή σφι σχεδόν εἰσι, λιλαιόμενοι πολέμοιο φυλόπιδα στῆσαι, τά σφιν πολὺ φίλτερα θοίνης.
 1	ἀλλ'	ἀλλά	ADV	d--------	_	3	advmod	3:advmod	Ref=108
 2	ἄγε	ἄγε	INTJ	i--------	_	3	discourse	3:advmod	Ref=108
@@ -1076,12 +1141,14 @@
 53	.	.	PUNCT	u--------	_	3	punct	3:punct	_
 
 # sent_id = 2273468
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>alexlessie</secondary>
 # text = Ὣς φάτο·
 1	Ὣς	ὡς	ADV	d--------	_	2	advmod	_	Ref=115
 2	φάτο	φημί	VERB	v3saim---	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Mid	0	root	_	Ref=115|SpaceAfter=No
 3	·	·	PUNCT	u--------	_	2	punct	_	_
 
 # sent_id = 2273469
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>alexlessie</secondary>
 # text = μείδησεν δὲ βίη Ἡρακληείη θυμῷ γηθήσας·
 1	μείδησεν	μειδάω	VERB	v3saia---	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	Ref=115
 2	δὲ	δέ	CCONJ	g--------	PartType=Ptcl	1	cc	_	Ref=115
@@ -1092,16 +1159,18 @@
 7	·	·	PUNCT	u--------	_	1	punct	_	_
 
 # sent_id = 2273470
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>alexlessie</secondary>
 # text = μάλα γάρ νύ οἱ ἄρμενα εἶπεν·
 1	μάλα	μάλα	ADV	d--------	_	5	advmod	_	Ref=116
 2	γάρ	γάρ	ADV	g--------	PartType=Ptcl	6	mark	_	Ref=116
-3	νύ	νυν	ADV	d--------	_	6	advmod	_	Ref=116
+3	νύ	νῦν:νυν	ADV	d--------	_	6	advmod	_	Ref=116
 4	οἱ	ἕ	PRON	p-s---md-	Case=Dat|Gender=Masc|Number=Sing|PronType=Prs	5	obj	_	Ref=116
 5	ἄρμενα	ἀραρίσκω	VERB	v-papmna-	Case=Acc|Gender=Neut|Number=Plur|VerbForm=Part|Voice=Mid	6	obj	_	Ref=116
 6	εἶπεν	εἶπον	VERB	v3saia---	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	Ref=116|SpaceAfter=No
 7	·	·	PUNCT	u--------	_	6	punct	_	_
 
 # sent_id = 2273471
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>alexlessie</secondary>
 # text = καί μιν ἀμειβόμενος ἔπεα πτερόεντα προσηύδα·
 1	καί	καί	CCONJ	c--------	_	6	cc	_	Ref=117
 2	μιν	μιν	PRON	p-s---ma-	Case=Acc|Gender=Masc|Number=Sing	3	obj	_	Ref=117
@@ -1112,6 +1181,7 @@
 7	·	·	PUNCT	u--------	_	6	punct	_	_
 
 # sent_id = 2273472
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>alexlessie</secondary>
 # text = ἥρως ὦ Ἰόλαε, διοτρεφές, οὐκέτι τηλοῦ ὑσμίνη τρηχεῖα·
 0.1	E0.1	_	_	_	_	_	_	0:root	_
 1	ἥρως	ἥρως	NOUN	n-s---mv-	Case=Voc|Gender=Masc|Number=Sing	3	nmod	3:nmod	Ref=118
@@ -1127,6 +1197,7 @@
 11	·	·	PUNCT	u--------	_	9	punct	0.1:punct	_
 
 # sent_id = 2273473
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>alexlessie</secondary>
 # text = σὺ δ' ὡς πάρος ἦσθα δαΐφρων, ὣς καὶ νῦν μέγαν ἵππον Ἀρίονα κυανοχαίτην πάντη ἀναστρωφᾶν καὶ ἀρηγέμεν, ὥς κε δύνηαι.
 1	σὺ	σύ	PRON	p-s---mn-	Case=Nom|Gender=Masc|Number=Sing|Person=2|PronType=Prs	16	nsubj	_	Ref=119
 2	δ'	δέ	CCONJ	g--------	PartType=Ptcl	16	cc	_	Ref=119
@@ -1153,6 +1224,7 @@
 23	.	.	PUNCT	u--------	_	16	punct	_	_
 
 # sent_id = 2273474
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>alexlessie</secondary>
 # text = ὣς εἰπὼν κνημῖδας ὀρειχάλκοιο φαεινοῦ, Ἡφαίστου κλυτὰ δῶρα, περὶ κνήμῃσιν ἔθηκεν·
 1	ὣς	ὡς	ADV	d--------	_	2	advmod	_	Ref=122
 2	εἰπὼν	εἶπον	VERB	v-sapamn-	Case=Nom|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	13	advcl	_	Ref=122
@@ -1170,6 +1242,7 @@
 14	·	·	PUNCT	u--------	_	13	punct	_	_
 
 # sent_id = 2273475
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>alexlessie</secondary>
 # text = δεύτερον αὖ θώρηκα περὶ στήθεσσιν ἔδυνε καλὸν χρύσειον πολυδαίδαλον, ὅν οἱ ἔδωκε Παλλὰς Ἀθηναίη, κούρη Διός, ὁππότ' ἔμελλε τὸ πρῶτον στονόεντας ἐφορμήσεσθαι ἀέθλους.
 1	δεύτερον	δεύτερος	ADJ	a-s---na-	Case=Acc|Gender=Neut|Number=Sing	6	obl	_	Ref=124
 2	αὖ	αὖ	ADV	d--------	PartType=Ptcl	6	advmod	_	Ref=124
@@ -1200,6 +1273,7 @@
 27	.	.	PUNCT	u--------	_	6	punct	_	_
 
 # sent_id = 2273476
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>alexlessie</secondary>
 # text = θήκατο δ' ἀμφ' ὤμοισιν ἀρῆς ἀλκτῆρα σίδηρον δεινὸς ἀνήρ·
 1	θήκατο	τίθημι	VERB	v3saim---	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Mid	0	root	_	Ref=128
 2	δ'	δέ	CCONJ	g--------	PartType=Ptcl	1	cc	_	Ref=128
@@ -1213,6 +1287,7 @@
 10	·	·	PUNCT	u--------	_	1	punct	_	_
 
 # sent_id = 2273477
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>alexlessie</secondary>
 # text = κοΐλην δὲ περὶ στήθεσσι φαρέτρην καββάλετ' ἐξόπιθεν·
 1	κοΐλην	κοῖλος	ADJ	a-s---fa-	Case=Acc|Gender=Fem|Number=Sing	5	amod	_	Ref=129
 2	δὲ	δέ	CCONJ	g--------	PartType=Ptcl	6	cc	_	Ref=129
@@ -1224,6 +1299,7 @@
 8	·	·	PUNCT	u--------	_	6	punct	_	_
 
 # sent_id = 2273478
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>alexlessie</secondary>
 # text = πολλοὶ δ' ἔντοσθεν ὀιστοὶ ῥιγηλοί, θανάτοιο λαθιφθόγγοιο δοτῆρες.
 0.1	E0.1	_	_	_	_	_	_	0:root	_
 1	πολλοὶ	πολύς	ADJ	a-p---mn-	Case=Nom|Gender=Masc|Number=Plur	4	amod	4:amod	Ref=130
@@ -1238,6 +1314,7 @@
 10	.	.	PUNCT	u--------	_	4	punct	0.1:punct	_
 
 # sent_id = 2273479
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>alexlessie</secondary>
 # text = πρόσθεν μὲν θάνατόν τ' εἶχον καὶ δάκρυσι μῦρον, μέσσοι δὲ ξεστοί, περιμήκεες, αὐτὰρ ὄπισθε μόρφνοιο φλεγύαο καλυπτόμενοι πτερύγεσσιν.
 1	πρόσθεν	πρόσθεν	ADV	d--------	_	5	advmod	_	Ref=132
 2	μὲν	μέν	ADV	g--------	PartType=Ptcl	5	advmod	_	Ref=132
@@ -1263,6 +1340,7 @@
 22	.	.	PUNCT	u--------	_	5	punct	_	_
 
 # sent_id = 2273480
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>alexlessie</secondary>
 # text = εἵλετο δ' ὄβριμον ἔγχος, ἀκαχμένον αἴθοπι χαλκῷ, κρατὶ δ' ἔπ' ἰφθίμῳ κυνέην ἐύτυκτον ἔθηκε, δαιδαλέην ἀδάμαντος, ἐπὶ κροτάφοις ἀραρυῖαν, ἥτ' εἴρυτο κάρη Ἡρακλῆος θείοιο.
 1	εἵλετο	αἱρέω	VERB	v3saim---	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Mid	0	root	_	Ref=135
 2	δ'	δέ	CCONJ	g--------	PartType=Ptcl	16	cc	_	Ref=135
@@ -1296,6 +1374,7 @@
 30	.	.	PUNCT	u--------	_	1	punct	_	_
 
 # sent_id = 2273481
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>alexlessie</secondary>
 # text = χερσί γε μὴν σάκος εἷλε παναίολον, οὐδέ τις αὐτὸ οὔ τ' ἔρρηξε βαλὼν οὔ τ' ἔθλασε, θαῦμα ἰδέσθαι.
 1	χερσί	χείρ	NOUN	n-p---fd-	Case=Dat|Gender=Fem|Number=Plur	5	obl	_	Ref=139
 2	γε	γε	ADV	g--------	PartType=Ptcl	1	advmod	_	Ref=139
@@ -1316,10 +1395,11 @@
 17	ἔθλασε	θλάω	VERB	v3saia---	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	13	conj	_	Ref=140|SpaceAfter=No
 18	,	,	PUNCT	u--------	_	19	punct	_	_
 19	θαῦμα	θαῦμα	NOUN	n-s---na-	Case=Acc|Gender=Neut|Number=Sing	4	appos	_	Ref=140
-20	ἰδέσθαι	εἶδον	VERB	v--anm---	VerbForm=Inf|Voice=Mid	19	acl	_	Ref=140|SpaceAfter=No
+20	ἰδέσθαι	εἴδω:εἶδον	VERB	v--anm---	VerbForm=Inf|Voice=Mid	19	acl	_	Ref=140|SpaceAfter=No
 21	.	.	PUNCT	u--------	_	5	punct	_	_
 
 # sent_id = 2273482
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>alexlessie</secondary>
 # text = πᾶν μὲν γὰρ κύκλῳ τιτάνῳ λευκῷ τ' ἐλέφαντι ἠλέκτρῳ θ' ὑπολαμπὲς ἔην χρυσῷ τε φαεινῷ λαμπόμενον, κυάνου δὲ διὰ πτύχες ἠλήλαντο.
 0.1	E0.1	_	_	_	_	_	_	11:nsubj	_
 1	πᾶν	πᾶς	DET	a-s---nn-	Case=Nom|Gender=Neut|Number=Sing|PronType=Ind	11	det	0.1:det	Ref=141
@@ -1347,6 +1427,7 @@
 23	.	.	PUNCT	u--------	_	11	punct	11:punct	_
 
 # sent_id = 2273483
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>alexlessie</secondary>
 # text = ἐν μέσσῳ δ' ἀδάμαντος ἔην Φόβος οὔ τι φατειός, ἔμπαλιν ὄσσοισιν πυρὶ λαμπομένοισι δεδορκώς·
 1	ἐν	ἐν	ADP	r--------	_	2	case	_	Ref=144
 2	μέσσῳ	μέσος	ADJ	a-s---nd-	Case=Dat|Gender=Neut|Number=Sing	5	obl	_	Ref=144
@@ -1366,6 +1447,7 @@
 16	·	·	PUNCT	u--------	_	5	punct	_	_
 
 # sent_id = 2273484
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>alexlessie</secondary>
 # text = τοῦ καὶ ὀδόντων μὲν πλῆτο στόμα λευκὰ θεόντων, δεινῶν ἀπλήτων, ἐπὶ δὲ βλοσυροῖο μετώπου δεινὴ Ἔρις πεπότητο κορύσσουσα κλόνον ἀνδρῶν, σχετλίη, ἥ ῥα νόον τε καὶ ἐκ φρένας εἵλετο φωτῶν.
 1	τοῦ	ὁ	PRON	p-s---mg-	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	nmod	_	Ref=146
 2	καὶ	καί	CCONJ	c--------	_	5	cc	_	Ref=146
@@ -1404,6 +1486,7 @@
 35	.	.	PUNCT	u--------	_	5	punct	_	_
 
 # sent_id = 2273485
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>alexlessie</secondary>
 # text = οἵτινες ἀντιβίην πόλεμον Διὸς υἷι φέροιεν.
 1	οἵτινες	ὅστις	PRON	p-p---mn-	Case=Nom|Gender=Masc|Number=Plur|PronType=Rel	6	nsubj	_	Ref=150
 2	ἀντιβίην	ἀντιβίην	ADV	d--------	_	6	advmod	_	Ref=150
@@ -1414,6 +1497,7 @@
 7	.	.	PUNCT	u--------	_	6	punct	_	_
 
 # sent_id = 2273486
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>alexlessie</secondary>
 # text = τῶν καὶ ψυχαὶ μὲν χθόνα δύμεναι Ἄιδος εἴσω κάκκιον, ὀστέα δέ σφι περὶ ῥινοῖο σαπείσης Σειρίου ἀζαλέοιο μελαίνῃ πύθεται αἴῃ.
 1	τῶν	ὁ	PRON	p-p---mg-	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	nmod	3:det	Ref=151
 2	καὶ	καί	CCONJ	c--------	_	9	cc	9:cc	Ref=151
@@ -1440,6 +1524,7 @@
 22	.	.	PUNCT	u--------	_	9	punct	9:punct	_
 
 # sent_id = 2273487
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>alexlessie</secondary>
 # text = ἐν δὲ Προΐωξίς τε Παλίωξίς τε τέτυκτο, ἐν δ' Ὅμαδός τε Φόβος τ' Ἀνδροκτασίη τε δεδήει, ἐν δ' Ἔρις, ἐν δὲ Κυδοιμὸς ἐθύνεον, ἐν δ' ὀλοὴ Κὴρ ἄλλον ζωὸν ἔχουσα νεούτατον, ἄλλον ἄουτον, ἄλλον τεθνηῶτα κατὰ μόθον ἕλκε ποδοῖιν.
 1	ἐν	ἐν	ADV	r--------	_	7	compound:prt	7:compound	Ref=154
 2	δὲ	δέ	CCONJ	g--------	PartType=Ptcl	7	cc	7:cc	Ref=154
@@ -1482,7 +1567,7 @@
 38	ἄουτον	ἄουτος	ADJ	a-s---ma-	Case=Acc|Gender=Masc|Number=Sing	37	amod	37:amod	Ref=157|SpaceAfter=No
 39	,	,	PUNCT	u--------	_	40	punct	40:punct	_
 40	ἄλλον	ἄλλος	PRON	a-s---ma-	Case=Acc|Gender=Masc|Number=Sing|PronType=Ind	32	conj	32:conj	Ref=158
-41	τεθνηῶτα	θνήσκω	VERB	v-srpama-	Case=Acc|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	40	amod	40:nmod	Ref=158
+41	τεθνηῶτα	θνῄσκω:θνήσκω	VERB	v-srpama-	Case=Acc|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	40	amod	40:nmod	Ref=158
 42	κατὰ	κατά	ADP	r--------	_	43	case	43:case	Ref=158
 43	μόθον	μόθος	NOUN	n-s---ma-	Case=Acc|Gender=Masc|Number=Sing	44	obl:arg	44:obl	Ref=158
 44	ἕλκε	ἕλκω	VERB	v3siia---	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	7	conj	7:conj	Ref=158
@@ -1490,6 +1575,7 @@
 46	.	.	PUNCT	u--------	_	7	punct	7:punct	_
 
 # sent_id = 2273488
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>alexlessie</secondary>
 # text = εἷμα δ' ἔχ' ἄμφ' ὤμοισι δαφοινεὸν αἵματι φωτῶν, δεινὸν δερκομένη καναχῇσί τε βεβρυχυῖα.
 1	εἷμα	εἷμα	NOUN	n-s---na-	Case=Acc|Gender=Neut|Number=Sing	3	obj	_	Ref=159
 2	δ'	δέ	CCONJ	g--------	PartType=Ptcl	3	cc	_	Ref=159
@@ -1508,6 +1594,7 @@
 15	.	.	PUNCT	u--------	_	3	punct	_	_
 
 # sent_id = 2273489
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>alexlessie</secondary>
 # text = ἐν δ' ὀφίων κεφαλαὶ δεινῶν ἔσαν, οὔ τι φατειῶν, δώδεκα, ταὶ φοβέεσκον ἐπὶ χθονὶ φῦλ' ἀνθρώπων, οἵ τινες ἀντιβίην πόλεμον Διὸς υἷι φέροιεν·
 1	ἐν	ἐν	ADV	r--------	_	6	compound:prt	_	Ref=161
 2	δ'	δέ	CCONJ	g--------	PartType=Ptcl	6	cc	_	Ref=161
@@ -1539,6 +1626,7 @@
 28	·	·	PUNCT	u--------	_	6	punct	_	_
 
 # sent_id = 2273490
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>alexlessie</secondary>
 # text = τῶν καὶ ὀδόντων μὲν καναχὴ πέλεν, εὖτε μάχοιτο Ἀμφιτρυωνιάδης, τὰ δ' ἐδαίετο θαυματὰ ἔργα.
 1	τῶν	ὁ	DET	l-p---mg-	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	Ref=164
 2	καὶ	καί	CCONJ	c--------	_	6	cc	_	Ref=164
@@ -1559,17 +1647,19 @@
 17	.	.	PUNCT	u--------	_	6	punct	_	_
 
 # sent_id = 2273491
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>alexlessie</secondary>
 # text = στίγματα δ' ὣς ἐπέφαντο ἰδεῖν δεινοῖσι δράκουσιν·
 1	στίγματα	στίγμα	NOUN	n-p---nn-	Case=Nom|Gender=Neut|Number=Plur	4	nsubj	_	Ref=166
 2	δ'	δέ	CCONJ	g--------	PartType=Ptcl	4	cc	_	Ref=166
 3	ὣς	ὡς	ADV	d--------	_	4	advmod	_	Ref=166
 4	ἐπέφαντο	φαίνω	VERB	v3plie---	Mood=Ind|Number=Plur|Person=3|Voice=MidPass	0	root	_	Ref=166
-5	ἰδεῖν	εἶδον	VERB	v--ana---	VerbForm=Inf|Voice=Act	4	advcl	_	Ref=166
+5	ἰδεῖν	εἴδω:εἶδον	VERB	v--ana---	VerbForm=Inf|Voice=Act	4	advcl	_	Ref=166
 6	δεινοῖσι	δεινός	ADJ	a-p---md-	Case=Dat|Gender=Masc|Number=Plur	7	amod	_	Ref=166
 7	δράκουσιν	δράκων	NOUN	n-p---md-	Case=Dat|Gender=Masc|Number=Plur	4	obj	_	Ref=166|SpaceAfter=No
 8	·	·	PUNCT	u--------	_	4	punct	_	_
 
 # sent_id = 2273492
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>alexlessie</secondary>
 # text = κυάνεοι κατὰ νῶτα, μελάνθησαν δὲ γένεια.
 1	κυάνεοι	κυάνεος	ADJ	a-p---mn-	Case=Nom|Gender=Masc|Number=Plur	5	conj	_	Ref=167
 2	κατὰ	κατά	ADP	r--------	_	3	case	_	Ref=167
@@ -1581,6 +1671,7 @@
 8	.	.	PUNCT	u--------	_	5	punct	_	_
 
 # sent_id = 2273493
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>alexlessie</secondary>
 # text = ἐν δὲ συῶν ἀγέλαι χλούνων·
 0.1	E0.1	_	_	_	_	_	_	0:root	_
 1	ἐν	ἐν	ADV	r--------	_	4	compound:prt	0.1:compound	Ref=168
@@ -1591,6 +1682,7 @@
 6	·	·	PUNCT	u--------	_	4	punct	0.1:punct	_
 
 # sent_id = 2273494
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>alexlessie</secondary>
 # text = ἔσαν ἠδὲ λεόντων ἐς σφέας δερκομένων, κοτεόντων θ' ἱεμένων τε.
 1	ἔσαν	εἰμί	VERB	v3piia---	Mood=Ind|Number=Plur|Person=3|Tense=Imp|Voice=Act	0	root	0:root	Ref=168
 2	ἠδὲ	ἠδέ	CCONJ	c--------	_	1	cc	1:cc	Ref=168
@@ -1607,6 +1699,7 @@
 12	.	.	PUNCT	u--------	_	1	punct	1:punct	_
 
 # sent_id = 2273495
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>alexlessie</secondary>
 # text = τῶν καὶ ὁμιληδὸν στίχες ἤισαν·
 1	τῶν	ὁ	PRON	p-p---mg-	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	nmod	_	Ref=170
 2	καὶ	καί	CCONJ	c--------	_	5	cc	_	Ref=170
@@ -1616,9 +1709,10 @@
 6	·	·	PUNCT	u--------	_	5	punct	_	_
 
 # sent_id = 2273496
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>alexlessie</secondary>
 # text = οὐδέ νυ τώ γε οὐδέτεροι τρεέτην·
 1	οὐδέ	οὐδέ	CCONJ	c--------	_	6	cc	_	Ref=170|SpaceAfter=No
-2	νυ	νυν	ADV	d--------	_	6	advmod	_	Ref=170
+2	νυ	νῦν:νυν	ADV	d--------	_	6	advmod	_	Ref=170
 3	τώ	ὁ	PRON	p-d---mn-	Case=Nom|Definite=Def|Gender=Masc|Number=Dual|PronType=Art	6	nsubj	_	Ref=170
 4	γε	γε	ADV	g--------	PartType=Ptcl	3	advmod	_	Ref=170
 5	οὐδέτεροι	οὐδέτερος	PRON	a-p---mn-	Case=Nom|Gender=Masc|Number=Plur|PronType=Neg	3	nmod	_	Ref=171
@@ -1626,6 +1720,7 @@
 7	·	·	PUNCT	u--------	_	6	punct	_	_
 
 # sent_id = 2273497
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>alexlessie</secondary>
 # text = φρῖσσόν γε μὲν αὐχένας ἄμφω.
 1	φρῖσσόν	φρίσσω	VERB	v3piia---	Mood=Ind|Number=Plur|Person=3|Tense=Imp|Voice=Act	0	root	_	Ref=171
 2	γε	γε	ADV	g--------	PartType=Ptcl	1	advmod	_	Ref=171
@@ -1635,6 +1730,7 @@
 6	.	.	PUNCT	u--------	_	1	punct	_	_
 
 # sent_id = 2273498
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>alexlessie</secondary>
 # text = ἤδη γάρ σφιν ἔκειτο μέγας λῖς, ἀμφὶ δὲ κάπροι δοιοί, ἀπουράμενοι ψυχάς, κατὰ δέ σφι κελαινὸν αἷμ' ἀπελείβετ' ἔραζ̓·
 1	ἤδη	ἤδη	ADV	d--------	_	4	advmod	4:advmod	Ref=172
 2	γάρ	γάρ	ADV	g--------	PartType=Ptcl	4	advmod	4:advmod	Ref=172
@@ -1662,19 +1758,21 @@
 23	·	·	PUNCT	u--------	_	4	punct	4:punct	_
 
 # sent_id = 2273499
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>alexlessie</secondary>
 # text = οἳ δ' αὐχένας ἐξεριπόντες κείατο τεθνηῶτες ὑπὸ βλοσυροῖσι λέουσιν.
 1	οἳ	ὁ	PRON	p-p---mn-	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	nsubj	_	Ref=174
 2	δ'	δέ	CCONJ	g--------	PartType=Ptcl	5	cc	_	Ref=174
 3	αὐχένας	αὐχήν	NOUN	n-p---ma-	Case=Acc|Gender=Masc|Number=Plur	4	obj	_	Ref=174
 4	ἐξεριπόντες	ἐξερείπω	VERB	v-papamn-	Case=Nom|Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	5	advcl	_	Ref=174
 5	κείατο	κείμαι	VERB	v3piie---	Mood=Ind|Number=Plur|Person=3|Tense=Imp|Voice=MidPass	0	root	_	Ref=175
-6	τεθνηῶτες	θνήσκω	VERB	v-prpamn-	Case=Nom|Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	5	advcl	_	Ref=175
+6	τεθνηῶτες	θνῄσκω:θνήσκω	VERB	v-prpamn-	Case=Nom|Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	5	advcl	_	Ref=175
 7	ὑπὸ	ὑπό	ADP	r--------	_	9	case	_	Ref=175
 8	βλοσυροῖσι	βλοσυρός	ADJ	a-p---md-	Case=Dat|Gender=Masc|Number=Plur	9	amod	_	Ref=175
 9	λέουσιν	λέων	NOUN	n-p---md-	Case=Dat|Gender=Masc|Number=Plur	5	obl	_	Ref=175|SpaceAfter=No
 10	.	.	PUNCT	u--------	_	5	punct	_	_
 
 # sent_id = 2273500
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>alexlessie</secondary>
 # text = τοὶ δ' ἔτι μᾶλλον ἐγειρέσθην κοτέοντε μάχεσθαι, ἀμφότεροι, χλοῦναί τε σύες χαροποί τε λέοντες.
 1	τοὶ	ὁ	PRON	p-p---mn-	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	nsubj	_	Ref=176
 2	δ'	δέ	CCONJ	g--------	PartType=Ptcl	5	cc	_	Ref=176
@@ -1695,6 +1793,7 @@
 17	.	.	PUNCT	u--------	_	5	punct	_	_
 
 # sent_id = 2273501
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>alexlessie</secondary>
 # text = ἐν δ' ἦν ὑσμίνη Λαπιθάων αἰχμητάων Καινέα τ' ἀμφὶ ἄνακτα Δρύαντά τε Πειρίθοόν τε Ὁπλέα τ' Ἐξάδιόν τε Φάληρόν τε Πρόλοχόν τε Μόψον τ' Ἀμπυκίδην, Τιταρήσιον, ὄζον Ἄρηος, Θησέα τ' Αἰγεΐδην, ἐπιείκελον ἀθανάτοισιν·
 1	ἐν	ἐν	ADV	r--------	_	3	compound:prt	_	Ref=178
 2	δ'	δέ	CCONJ	g--------	PartType=Ptcl	3	cc	_	Ref=178
@@ -1736,6 +1835,7 @@
 38	·	·	PUNCT	u--------	_	3	punct	_	_
 
 # sent_id = 2273502
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>alexlessie</secondary>
 # text = ἀργύρεοι, χρύσεια περὶ χροῒ τεύχἐ ἔχοντες.
 1	ἀργύρεοι	ἀργύρεος	ADJ	a-p---mn-	Case=Nom|Gender=Masc|Number=Plur	0	root	_	Ref=183|SpaceAfter=No
 2	,	,	PUNCT	u--------	_	7	punct	_	_
@@ -1747,6 +1847,7 @@
 8	.	.	PUNCT	u--------	_	1	punct	_	_
 
 # sent_id = 2273503
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>alexlessie</secondary>
 # text = Κένταυροι δ' ἑτέρωθεν ἐναντίοι ἠγερέθοντο ἀμφὶ μέγαν Πετραῖον ἰδ' Ἄσβολον οἰωνιστὴν Ἄρκτον τ' Οὔρειόν τε μελαγχαίτην τε Μίμαντα καὶ δύο Πευκεΐδας, Περιμήδεά τε Δρύαλόν τε, ἀργύρεοι, χρυσέας ἐλάτας ἐν χερσὶν ἔχοντες.
 1	Κένταυροι	Κένταυρος	PROPN	n-p---mn-	Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	Ref=184
 2	δ'	δέ	CCONJ	g--------	PartType=Ptcl	5	cc	_	Ref=184
@@ -1785,6 +1886,7 @@
 35	.	.	PUNCT	u--------	_	5	punct	_	_
 
 # sent_id = 2273504
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>alexlessie</secondary>
 # text = καί τε συναΐγδην ὡς εἰ ζωοί περ ἐόντες ἔγχεσιν ἠδ' ἐλάτῃς αὐτοσχεδὸν ὠριγνῶντο.
 1	καί	καί	CCONJ	c--------	_	13	cc	_	Ref=189
 2	τε	τε	CCONJ	c--------	_	13	cc	_	Ref=189
@@ -1802,6 +1904,7 @@
 14	.	.	PUNCT	u--------	_	13	punct	_	_
 
 # sent_id = 2273505
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>alexlessie</secondary>
 # text = ἐν δ' Ἄρεος βλοσυροῖο ποδώκεες ἕστασαν ἵπποι χρύσεοι, ἐν δὲ καὶ αὐτὸς ἐναρσφόρος οὔλιος Ἄρης αἰχμὴν ἐν χείρεσσιν ἔχων, πρυλέεσσι κελεύων, αἵματι φοινικόεις, ὡς εἰ ζωοὺς ἐναρίζων δίφρου ἐπεμβεβαώς·
 1	ἐν	ἐν	ADV	r--------	_	6	compound:prt	6:compound	Ref=191
 2	δ'	δέ	CCONJ	g--------	PartType=Ptcl	6	cc	6:cc	Ref=191
@@ -1841,6 +1944,7 @@
 34	·	·	PUNCT	u--------	_	6	punct	6:punct	_
 
 # sent_id = 2273506
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>alexlessie</secondary>
 # text = παρὰ δὲ Δεῖμός τε Φόβος τε ἕστασαν ἱέμενοι πόλεμον καταδύμεναι ἀνδρῶν.
 1	παρὰ	παρά	ADV	r--------	_	7	compound:prt	_	Ref=195
 2	δὲ	δέ	CCONJ	g--------	PartType=Ptcl	7	cc	_	Ref=195
@@ -1856,6 +1960,7 @@
 12	.	.	PUNCT	u--------	_	7	punct	_	_
 
 # sent_id = 2273507
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = ἐν δὲ Διὸς θυγάτηρ ἀγελείη Τριτογένεια, τῇ ἰκέλη ὡς εἴτε μάχην ἐθέλουσα κορύσσειν, ἔγχος ἔχουσ' ἐν χερσὶν ἰδὲ χρυσέην τρυφάλειαν αἰγίδα τ' ἀμφ' ὤμοις·
 0.1	E0.1	_	_	_	_	_	_	0:root	_
 1	ἐν	ἐν	ADV	r--------	_	4	compound:prt	0.1:compound	Ref=197
@@ -1890,6 +1995,7 @@
 28	·	·	PUNCT	u--------	_	4	punct	0.1:punct	_
 
 # sent_id = 2273508
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>alexlessie</secondary>
 # text = ἐπὶ δ' ᾤχετο φύλοπιν αἰνήν.
 1	ἐπὶ	ἐπί	ADV	r--------	_	3	compound:prt	_	Ref=200
 2	δ'	δέ	CCONJ	g--------	PartType=Ptcl	3	cc	_	Ref=200
@@ -1899,6 +2005,7 @@
 6	.	.	PUNCT	u--------	_	3	punct	_	_
 
 # sent_id = 2273509
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>alexlessie</secondary>
 # text = ἐν δ' ἦν ἀθανάτων ἱερὸς χορός·
 1	ἐν	ἐν	ADV	r--------	_	3	compound:prt	_	Ref=201
 2	δ'	δέ	CCONJ	g--------	PartType=Ptcl	3	cc	_	Ref=201
@@ -1909,6 +2016,7 @@
 7	·	·	PUNCT	u--------	_	3	punct	_	_
 
 # sent_id = 2273510
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>alexlessie</secondary>
 # text = ἐν δ' ἄρα μέσσῳ ἱμερόεν κιθάριζε Διὸς καὶ Λητοῦς υἱὸς χρυσείῃ φόρμιγγι·
 1	ἐν	ἐν	ADP	r--------	_	4	case	_	Ref=201
 2	δ'	δέ	CCONJ	g--------	PartType=Ptcl	6	cc	_	Ref=201
@@ -1925,6 +2033,7 @@
 13	·	·	PUNCT	u--------	_	6	punct	_	_
 
 # sent_id = 2273511
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>alexlessie</secondary>
 # text = [θεῶν δ' ἕδος ἁγνὸς Ὄλυμπος·
 0.1	E0.1	_	_	_	_	_	_	0:root	_
 1	[θεῶν	θεός	NOUN	n-p---mg-	Case=Gen|Gender=Masc|Number=Plur	3	nmod	3:nmod	Ref=203
@@ -1935,6 +2044,7 @@
 6	·	·	PUNCT	u--------	_	3	punct	0.1:punct	_
 
 # sent_id = 2273512
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>alexlessie</secondary>
 # text = ἐν δ' ἀγορή, περὶ δ' ὄλβος ἀπείριτος ἐστεφάνωτο ἀθανάτων ἐν ἀγῶνι·
 0.1	E0.1	_	_	_	_	_	_	9:conj	_
 1	ἐν	ἐν	ADV	r--------	_	3	compound:prt	0.1:compound	Ref=204
@@ -1952,6 +2062,7 @@
 13	·	·	PUNCT	u--------	_	9	punct	9:punct	_
 
 # sent_id = 2273513
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>alexlessie</secondary>
 # text = ] θεαὶ δ' ἐξῆρχον ἀοιδῆς Μοῦσαι Πιερίδες, λιγὺ μελπομένῃς ἐικυῖαι.
 1	]	]	PUNCT	u--------	_	4	punct	_	_
 2	θεαὶ	θεά	NOUN	n-p---fn-	Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	Ref=205
@@ -1967,6 +2078,7 @@
 12	.	.	PUNCT	u--------	_	4	punct	_	_
 
 # sent_id = 2273514
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>alexlessie</secondary>
 # text = ἐν δὲ λιμὴν ἐύορμος ἀμαιμακέτοιο θαλάσσης κυκλοτερὴς ἐτέτυκτο πανέφθου κασσιτέροιο κλυζομένῳ ἴκελος·
 1	ἐν	ἐν	ADV	r--------	_	8	compound:prt	_	Ref=207
 2	δὲ	δέ	CCONJ	g--------	PartType=Ptcl	8	cc	_	Ref=207
@@ -1983,6 +2095,7 @@
 13	·	·	PUNCT	u--------	_	8	punct	_	_
 
 # sent_id = 2273515
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>alexlessie</secondary>
 # text = [πολλοί γε μὲν ἂμ μέσον αὐτοῦ δελφῖνες τῇ καὶ τῇ ἐθύνεον ἰχθυάοντες νηχομένοις ἴκελοι·
 1	[πολλοί	πολύς	ADJ	a-p---mn-	Case=Nom|Gender=Masc|Number=Plur	7	amod	_	Ref=209
 2	γε	γε	ADV	g--------	PartType=Ptcl	1	advmod	_	Ref=209
@@ -2001,6 +2114,7 @@
 15	·	·	PUNCT	u--------	_	11	punct	_	_
 
 # sent_id = 2273516
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>alexlessie</secondary>
 # text = ] δοιὼ δ' ἀναφυσιόωντες ἀργύρεοι δελφῖνες ἐθοινῶντ' ἔλλοπας ἰχθῦς.
 1	]	]	PUNCT	u--------	_	7	punct	_	_
 2	δοιὼ	δοιώ	ADJ	a-d---mn-	Case=Nom|Gender=Masc|Number=Dual	6	amod	_	Ref=211
@@ -2014,6 +2128,7 @@
 10	.	.	PUNCT	u--------	_	7	punct	_	_
 
 # sent_id = 2273517
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>alexlessie</secondary>
 # text = τῶν δ' ὕπο χάλκειοι τρέον ἰχθύες·
 1	τῶν	ὁ	PRON	p-p---mg-	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	obl	_	Ref=213
 2	δ'	δέ	CCONJ	g--------	PartType=Ptcl	5	cc	_	Ref=213
@@ -2024,6 +2139,7 @@
 7	·	·	PUNCT	u--------	_	5	punct	_	_
 
 # sent_id = 2273518
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>alexlessie</secondary>
 # text = αὐτὰρ ἐπ' ἀκταῖς ἧστο ἀνὴρ ἁλιεὺς δεδοκημένος·
 1	αὐτὰρ	ἀτάρ	ADV	c--------	PartType=Ptcl	4	advmod	_	Ref=213
 2	ἐπ'	ἐπί	ADV	r--------	_	4	compound:prt	_	Ref=213
@@ -2035,6 +2151,7 @@
 8	·	·	PUNCT	u--------	_	4	punct	_	_
 
 # sent_id = 2273519
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>alexlessie</secondary>
 # text = εἶχε δὲ χερσὶν ἰχθύσιν ἀμφίβληστρον ἀπορρίψοντι ἐοικώς.
 1	εἶχε	ἔχω	VERB	v3siia---	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	0	root	_	Ref=214
 2	δὲ	δέ	CCONJ	g--------	PartType=Ptcl	1	cc	_	Ref=214
@@ -2046,6 +2163,7 @@
 8	.	.	PUNCT	u--------	_	1	punct	_	_
 
 # sent_id = 2273520
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = ἐν δ' ἦν ἠυκόμου Δανάης τέκος, ἱππότα Περσεύς, οὔ τ' ἄρ' ἐπιψαύων σάκεος ποσὶν οὔθ' ἑκὰς αὐτοῦ, θαῦμα μέγα φράσσασθ', ἐπεὶ οὐδαμῇ ἐστήρικτο.
 1	ἐν	ἐν	ADV	r--------	_	3	compound:prt	3:compound	Ref=216
 2	δ'	δέ	CCONJ	g--------	PartType=Ptcl	3	cc	3:cc	Ref=216
@@ -2078,6 +2196,7 @@
 28	.	.	PUNCT	u--------	_	3	punct	3:punct	_
 
 # sent_id = 2273521
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>alexlessie</secondary>
 # text = τὼς γάρ μιν παλάμαις τεῦξεν κλυτὸς Ἀμφιγυήεις χρύσεον·
 1	τὼς	τώς	ADV	d--------	_	5	advmod	_	Ref=219
 2	γάρ	γάρ	ADV	g--------	PartType=Ptcl	5	advmod	_	Ref=219
@@ -2090,6 +2209,7 @@
 9	·	·	PUNCT	u--------	_	5	punct	_	_
 
 # sent_id = 2273522
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>alexlessie</secondary>
 # text = ἀμφὶ δὲ ποσσὶν ἔχεν πτερόεντα πέδιλα.
 1	ἀμφὶ	ἀμφί	ADP	r--------	_	3	case	_	Ref=220
 2	δὲ	δέ	CCONJ	g--------	PartType=Ptcl	4	cc	_	Ref=220
@@ -2100,6 +2220,7 @@
 7	.	.	PUNCT	u--------	_	4	punct	_	_
 
 # sent_id = 2273523
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>alexlessie</secondary>
 # text = ὤμοισιν δέ μιν ἀμφὶ μελάνδετον ἆορ ἔκειτο χαλκέου ἐκ τελαμῶνος·
 1	ὤμοισιν	ὦμος	NOUN	n-p---md-	Case=Dat|Gender=Masc|Number=Plur	7	obl	_	Ref=221
 2	δέ	δέ	CCONJ	g--------	PartType=Ptcl	7	cc	_	Ref=221
@@ -2114,6 +2235,7 @@
 11	·	·	PUNCT	u--------	_	7	punct	_	_
 
 # sent_id = 2273524
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>alexlessie</secondary>
 # text = ὃ δ' ὥς τε νόημ' ἐποτᾶτο·
 1	ὃ	ὁ	PRON	p-s---mn-	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	nsubj	6:nsubj	Ref=222
 2	δ'	δέ	CCONJ	g--------	PartType=Ptcl	6	cc	6:cc	Ref=222
@@ -2125,6 +2247,7 @@
 7	·	·	PUNCT	u--------	_	6	punct	6:punct	_
 
 # sent_id = 2273525
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>alexlessie</secondary>
 # text = πᾶν δὲ μετάφρενον εἶχε κάρη δεινοῖο πελώρου, Γοργοῦς·
 1	πᾶν	πᾶς	DET	a-s---nn-	Case=Nom|Gender=Neut|Number=Sing|PronType=Ind	3	det	_	Ref=223
 2	δὲ	δέ	CCONJ	g--------	PartType=Ptcl	4	cc	_	Ref=223
@@ -2138,6 +2261,7 @@
 10	·	·	PUNCT	u--------	_	4	punct	_	_
 
 # sent_id = 2273526
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = ἀμφὶ δέ μιν κίβισις θέε, θαῦμα ἰδέσθαι, ἀργυρέη·
 1	ἀμφὶ	ἀμφί	ADV	r--------	_	5	compound:prt	_	Ref=224
 2	δέ	δέ	CCONJ	g--------	PartType=Ptcl	5	cc	_	Ref=224
@@ -2146,12 +2270,13 @@
 5	θέε	θέω	VERB	v3siia---	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	0	root	_	Ref=224|SpaceAfter=No
 6	,	,	PUNCT	u--------	_	7	punct	_	_
 7	θαῦμα	θαῦμα	NOUN	n-s---nn-	Case=Nom|Gender=Neut|Number=Sing	4	appos	_	Ref=224
-8	ἰδέσθαι	εἶδον	VERB	v--anm---	VerbForm=Inf|Voice=Mid	7	acl	_	Ref=224|SpaceAfter=No
+8	ἰδέσθαι	εἴδω:εἶδον	VERB	v--anm---	VerbForm=Inf|Voice=Mid	7	acl	_	Ref=224|SpaceAfter=No
 9	,	,	PUNCT	u--------	_	7	punct	_	_
 10	ἀργυρέη	ἀργύρεος	ADJ	a-s---fn-	Case=Nom|Gender=Fem|Number=Sing	4	amod	_	Ref=225|SpaceAfter=No
 11	·	·	PUNCT	u--------	_	5	punct	_	_
 
 # sent_id = 2273527
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = θύσανοι δὲ κατῃωρεῦντο φαεινοὶ χρύσειοι·
 1	θύσανοι	θύσανος	NOUN	n-p---mn-	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	Ref=225
 2	δὲ	δέ	CCONJ	g--------	PartType=Ptcl	3	cc	_	Ref=225
@@ -2161,6 +2286,7 @@
 6	·	·	PUNCT	u--------	_	3	punct	_	_
 
 # sent_id = 2273528
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = δεινὴ δὲ περὶ κροτάφοισιν ἄνακτος κεῖτ' Ἄιδος κυνέη νυκτὸς ζόφον αἰνὸν ἔχουσα.
 1	δεινὴ	δεινός	ADJ	a-s---fn-	Case=Nom|Gender=Fem|Number=Sing	8	amod	_	Ref=226
 2	δὲ	δέ	CCONJ	g--------	PartType=Ptcl	6	cc	_	Ref=226
@@ -2177,6 +2303,7 @@
 13	.	.	PUNCT	u--------	_	6	punct	_	_
 
 # sent_id = 2273529
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = αὐτὸς δὲ σπεύδοντι καὶ ἐρρίγοντι ἐοικὼς Περσεὺς Δαναΐδης ἐτιταίνετο.
 1	αὐτὸς	αὐτός	PRON	a-s---mn-	Case=Nom|Gender=Masc|Number=Sing|PronType=Prs	7	acl:compl	_	Ref=228
 2	δὲ	δέ	CCONJ	g--------	PartType=Ptcl	9	cc	_	Ref=228
@@ -2190,6 +2317,7 @@
 10	.	.	PUNCT	u--------	_	9	punct	_	_
 
 # sent_id = 2273530
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = ταὶ δὲ μετ' αὐτὸν Γοργόνες ἄπλητοί τε καὶ οὐ φαταὶ ἐρρώοντο ἱέμεναι μαπέειν.
 1	ταὶ	ὁ	DET	p-p---fn-	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	Ref=229
 2	δὲ	δέ	CCONJ	g--------	PartType=Ptcl	11	cc	_	Ref=229
@@ -2207,6 +2335,7 @@
 14	.	.	PUNCT	u--------	_	11	punct	_	_
 
 # sent_id = 2273531
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = ἐπὶ δὲ χλωροῦ ἀδάμαντος βαινουσέων ἰάχεσκε σάκος μεγάλῳ ὀρυμαγδῷ ὀξέα καὶ λιγέως·
 1	ἐπὶ	ἐπί	ADP	r--------	_	4	case	_	Ref=231
 2	δὲ	δέ	CCONJ	g--------	PartType=Ptcl	6	cc	_	Ref=231
@@ -2223,6 +2352,7 @@
 13	·	·	PUNCT	u--------	_	6	punct	_	_
 
 # sent_id = 2273532
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = ἐπὶ δὲ ζώνῃσι δράκοντε δοιὼ ἀπῃωρεῦντ' ἐπικυρτώοντε κάρηνα.
 1	ἐπὶ	ἐπί	ADP	r--------	_	3	case	_	Ref=233
 2	δὲ	δέ	CCONJ	g--------	PartType=Ptcl	6	cc	_	Ref=233
@@ -2235,6 +2365,7 @@
 9	.	.	PUNCT	u--------	_	6	punct	_	_
 
 # sent_id = 2273533
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = λίχμαζον δ' ἄρα τώ γε·
 1	λίχμαζον	λιχμάζω	VERB	v3piia---	Mood=Ind|Number=Plur|Person=3|Tense=Imp|Voice=Act	0	root	_	Ref=235
 2	δ'	δέ	CCONJ	g--------	PartType=Ptcl	1	cc	_	Ref=235
@@ -2244,6 +2375,7 @@
 6	·	·	PUNCT	u--------	_	1	punct	_	_
 
 # sent_id = 2273534
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = μένει δ' ἐχάρασσον ὀδόντας ἄγρια δερκομένω.
 1	μένει	μένος	NOUN	n-s---nd-	Case=Dat|Gender=Neut|Number=Sing	3	obl	_	Ref=235
 2	δ'	δέ	CCONJ	g--------	PartType=Ptcl	3	cc	_	Ref=235
@@ -2254,6 +2386,7 @@
 7	.	.	PUNCT	u--------	_	3	punct	_	_
 
 # sent_id = 2273535
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = ἐπὶ δὲ δεινοῖσι καρήνοις Γοργείοις ἐδονεῖτο μέγας Φόβος.
 1	ἐπὶ	ἐπί	ADP	r--------	_	4	case	_	Ref=236
 2	δὲ	δέ	CCONJ	g--------	PartType=Ptcl	6	cc	_	Ref=236
@@ -2266,6 +2399,7 @@
 9	.	.	PUNCT	u--------	_	6	punct	_	_
 
 # sent_id = 2273536
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = οἳ δ' ὑπὲρ αὐτέων ἄνδρες ἐμαρνάσθην πολεμήια τεύχἐ ἔχοντες, τοὶ μὲν ὑπὲρ σφετέρης πόλιος σφετέρων τε τοκήων λοιγὸν ἀμύνοντες, τοὶ δὲ πραθέειν μεμαῶτες.
 1	οἳ	ὁ	DET	p-p---mn-	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	Ref=237
 2	δ'	δέ	CCONJ	g--------	PartType=Ptcl	6	cc	_	Ref=237
@@ -2295,6 +2429,7 @@
 26	.	.	PUNCT	u--------	_	6	punct	_	_
 
 # sent_id = 2273537
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = πολλοὶ μὲν κέατο, πλέονες δ' ἔτι δῆριν ἔχοντες μάρνανθ'·
 1	πολλοὶ	πολύς	ADJ	a-p---mn-	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	Ref=241
 2	μὲν	μέν	ADV	g--------	PartType=Ptcl	3	advmod	_	Ref=241
@@ -2309,6 +2444,7 @@
 11	·	·	PUNCT	u--------	_	3	punct	_	_
 
 # sent_id = 2273538
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = αἱ δὲ γυναῖκες ἐυδμήτων ἐπὶ πύργων χαλκέων ὀξὺ βόων, κατὰ δ' ἐδρύπτοντο παρειάς, ζωῇσιν ἴκελαι, ἔργα κλυτοῦ Ἡφαίστοιο.
 1	αἱ	ὁ	DET	l-p---fn-	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	Ref=242
 2	δὲ	δέ	CCONJ	g--------	PartType=Ptcl	9	cc	_	Ref=242
@@ -2334,6 +2470,7 @@
 22	.	.	PUNCT	u--------	_	9	punct	_	_
 
 # sent_id = 2273539
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = ἄνδρες δ', οἳ πρεσβῆες ἔσαν γῆράς τε μέμαρπεν, ἀθρόοι ἔκτοσθεν πυλέων ἔσαν, ἂν δὲ θεοῖσι χεῖρας ἔχον μακάρεσσι, περὶ σφετέροισι τέκεσσι δειδιότες·
 1	ἄνδρες	ἀνήρ	NOUN	n-p---mn-	Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	Ref=245
 2	δ'	δέ	CCONJ	g--------	PartType=Ptcl	11	cc	_	Ref=245|SpaceAfter=No
@@ -2364,6 +2501,7 @@
 27	·	·	PUNCT	u--------	_	11	punct	_	_
 
 # sent_id = 2273540
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = τοὶ δ' αὖτε μάχην ἔχον.
 1	τοὶ	ὁ	PRON	p-p---mn-	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	nsubj	_	Ref=248
 2	δ'	δέ	CCONJ	g--------	PartType=Ptcl	5	cc	_	Ref=248
@@ -2373,6 +2511,7 @@
 6	.	.	PUNCT	u--------	_	5	punct	_	_
 
 # sent_id = 2273541
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = αἳ δὲ μετ' αὐτοὺς Κῆρες κυάνεαι, λευκοὺς ἀραβεῦσαι ὀδόντας, δεινωπαὶ βλοσυραί τε δαφοιναί τ' ἄπληταί τε δῆριν ἔχον περὶ πιπτόντων·
 1	αἳ	ὁ	DET	l-p---fn-	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	Ref=248
 2	δὲ	δέ	CCONJ	g--------	PartType=Ptcl	20	cc	_	Ref=248
@@ -2399,6 +2538,7 @@
 23	·	·	PUNCT	u--------	_	20	punct	_	_
 
 # sent_id = 2273542
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = πᾶσαι δ' ἄρ' ἵεντο αἷμα μέλαν πιέειν·
 1	πᾶσαι	πᾶς	PRON	a-p---fn-	Case=Nom|Gender=Fem|Number=Plur|PronType=Ind	4	nsubj	_	Ref=251
 2	δ'	δέ	CCONJ	g--------	PartType=Ptcl	4	cc	_	Ref=251
@@ -2410,6 +2550,7 @@
 8	·	·	PUNCT	u--------	_	4	punct	_	_
 
 # sent_id = 2273543
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = ὃν δὲ πρῶτον μεμάποιεν κείμενον ἢ πίπτοντα νεούτατον, ἀμφὶ μὲν αὐτῷ βάλλ' ὄνυχας μεγάλους, ψυχὴ δ' Ἄιδόσδε κατῇεν Τάρταρον ἐς κρυόενθ'.
 1	ὃν	ὅς	PRON	p-s---ma-	Case=Acc|Gender=Masc|Number=Sing|PronType=Rel	4	obj	_	Ref=252
 2	δὲ	δέ	CCONJ	g--------	PartType=Ptcl	13	cc	_	Ref=252
@@ -2437,6 +2578,7 @@
 24	.	.	PUNCT	u--------	_	13	punct	_	_
 
 # sent_id = 2273544
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = αἳ δὲ φρένας εὖτ' ἀρέσαντο αἵματος ἀνδρομέου, τὸν μὲν ῥίπτασκον ὀπίσσω, ἂψ δ' ὅμαδον καὶ μῶλον ἐθύνεον αὖτις ἰοῦσαι.
 1	αἳ	ὁ	PRON	p-p---fn-	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	nsubj	_	Ref=255
 2	δὲ	δέ	CCONJ	g--------	PartType=Ptcl	11	cc	_	Ref=255
@@ -2462,6 +2604,7 @@
 22	.	.	PUNCT	u--------	_	11	punct	_	_
 
 # sent_id = 2273545
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = Κλωθὼ καὶ Λάχεσίς σφιν ἐφέστασαν·
 1	Κλωθὼ	Κλωθώ	PROPN	n-s---fn-	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	Ref=258
 2	καὶ	καί	CCONJ	c--------	_	3	cc	_	Ref=258
@@ -2471,6 +2614,7 @@
 6	·	·	PUNCT	u--------	_	5	punct	_	_
 
 # sent_id = 2273546
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = ἣ μὲν ὑφήσσων Ἀτροπος οὔ τι πέλεν μεγάλη θεός, ἀλλ' ἄρα ἥ γε τῶν γε μὲν ἀλλάων προφερής τ' ἦν πρεσβυτάτη τε.
 1	ἣ	ὁ	DET	l-s---fn-	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	Ref=258
 2	μὲν	μέν	ADV	g--------	PartType=Ptcl	7	advmod	_	Ref=258
@@ -2498,6 +2642,7 @@
 24	.	.	PUNCT	u--------	_	7	punct	_	_
 
 # sent_id = 2273547
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = πᾶσαι δ' ἀμφ' ἑνὶ φωτὶ μάχην δριμεῖαν ἔθεντο.
 1	πᾶσαι	πᾶς	PRON	a-p---fn-	Case=Nom|Gender=Fem|Number=Plur|PronType=Ind	8	nsubj	_	Ref=261
 2	δ'	δέ	CCONJ	g--------	PartType=Ptcl	8	cc	_	Ref=261
@@ -2510,6 +2655,7 @@
 9	.	.	PUNCT	u--------	_	8	punct	_	_
 
 # sent_id = 2273548
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = δεινὰ δ' ἐς ἀλλήλας δράκον ὄμμασι θυμήνασαι, ἐν δ' ὄνυχας χεῖράς τε θρασείας ἰσώσαντο.
 1	δεινὰ	δεινός	ADJ	a-p---na-	Case=Acc|Gender=Neut|Number=Plur	5	obl	_	Ref=262
 2	δ'	δέ	CCONJ	g--------	PartType=Ptcl	5	cc	_	Ref=262
@@ -2529,6 +2675,7 @@
 16	.	.	PUNCT	u--------	_	5	punct	_	_
 
 # sent_id = 2273549
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = πὰρ δ' Ἀχλὺς εἱστήκει ἐπισμυγερή τε καὶ αἰνή, χλωρὴ ἀυσταλέη λιμῷ καταπεπτηυῖα, γουνοπαχής, μακροὶ δ' ὄνυχες χείρεσσιν ὑπῆσαν.
 1	πὰρ	παρά	ADV	r--------	_	4	compound:prt	_	Ref=264
 2	δ'	δέ	CCONJ	g--------	PartType=Ptcl	4	cc	_	Ref=264
@@ -2554,6 +2701,7 @@
 22	.	.	PUNCT	u--------	_	4	punct	_	_
 
 # sent_id = 2273550
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = τῆς ἐκ μὲν ῥινῶν μύξαι ῥέον, ἐκ δὲ παρειῶν αἷμ' ἀπελείβετ' ἔραζ̓·
 1	τῆς	ὁ	PRON	p-s---fg-	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	nmod	_	Ref=267
 2	ἐκ	ἐκ	ADP	r--------	_	4	case	_	Ref=267
@@ -2571,6 +2719,7 @@
 14	·	·	PUNCT	u--------	_	6	punct	_	_
 
 # sent_id = 2273551
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = ἣ δ' ἄπλητον σεσαρυῖα εἱστήκει, πολλὴ δὲ κόνις κατενήνοθεν ὤμους, δάκρυσι μυδαλέη.
 1	ἣ	ὁ	PRON	p-s---fn-	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	nsubj	_	Ref=268
 2	δ'	δέ	CCONJ	g--------	PartType=Ptcl	5	cc	_	Ref=268
@@ -2589,6 +2738,7 @@
 15	.	.	PUNCT	u--------	_	5	punct	_	_
 
 # sent_id = 2273552
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = παρὰ δ' εὔπυργος πόλις ἀνδρῶν·
 0.1	E0.1	_	_	_	_	_	_	0:root	_
 1	παρὰ	παρά	ADV	r--------	_	4	compound:prt	0.1:compound	Ref=270
@@ -2599,6 +2749,7 @@
 6	·	·	PUNCT	u--------	_	4	punct	0.1:punct	_
 
 # sent_id = 2273553
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = χρύσειαι δέ μιν εἶχον ὑπερθυρίοις ἀραρυῖαι ἑπτὰ πύλαι·
 1	χρύσειαι	χρύσεος	ADJ	a-p---fn-	Case=Nom|Gender=Fem|Number=Plur	8	amod	_	Ref=271
 2	δέ	δέ	CCONJ	g--------	PartType=Ptcl	4	cc	_	Ref=271
@@ -2611,6 +2762,7 @@
 9	·	·	PUNCT	u--------	_	4	punct	_	_
 
 # sent_id = 2273554
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = τοὶ δ' ἄνδρες ἐν ἀγλαΐῃς τε χοροῖς τε τέρψιν ἔχον·
 1	τοὶ	ὁ	DET	l-p---mn-	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	Ref=272
 2	δ'	δέ	CCONJ	g--------	PartType=Ptcl	10	cc	_	Ref=272
@@ -2625,6 +2777,7 @@
 11	·	·	PUNCT	u--------	_	10	punct	_	_
 
 # sent_id = 2273555
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = τοὶ μὲν γὰρ ἐυσσώτρου ἐπ' ἀπήνης ἤγοντ' ἀνδρὶ γυναῖκα, πολὺς δ' ὑμέναιος ὀρώρει·
 1	τοὶ	ὁ	PRON	p-p---mn-	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	nsubj	_	Ref=273
 2	μὲν	μέν	ADV	g--------	PartType=Ptcl	7	advmod	_	Ref=273
@@ -2643,6 +2796,7 @@
 15	·	·	PUNCT	u--------	_	7	punct	_	_
 
 # sent_id = 2273556
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = τῆλε δ' ἀπ' αἰθομένων δαΐδων σέλας εἰλύφαζε χερσὶν ἔνι δμῳῶν·
 1	τῆλε	τῆλε	ADV	d--------	_	7	advmod	_	Ref=275
 2	δ'	δέ	CCONJ	g--------	PartType=Ptcl	7	cc	_	Ref=275
@@ -2657,6 +2811,7 @@
 11	·	·	PUNCT	u--------	_	7	punct	_	_
 
 # sent_id = 2273557
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = ταὶ δ' ἀγλαΐῃ τεθαλυῖαι πρόσθ' ἔκιον·
 1	ταὶ	ὁ	PRON	p-p---fn-	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	nsubj	_	Ref=276
 2	δ'	δέ	CCONJ	g--------	PartType=Ptcl	6	cc	_	Ref=276
@@ -2667,6 +2822,7 @@
 7	·	·	PUNCT	u--------	_	6	punct	_	_
 
 # sent_id = 2273558
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = τῇσιν δὲ χοροὶ παίζοντες ἕποντο.
 1	τῇσιν	ὁ	PRON	p-p---fd-	Case=Dat|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	obj	_	Ref=277
 2	δὲ	δέ	CCONJ	g--------	PartType=Ptcl	5	cc	_	Ref=277
@@ -2676,6 +2832,7 @@
 6	.	.	PUNCT	u--------	_	5	punct	_	_
 
 # sent_id = 2273559
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = τοὶ μὲν ὑπὸ λιγυρῶν συρίγγων ἵεσαν αὐδὴν ἐξ ἁπαλῶν στομάτων, περὶ δέ σφισιν ἄγνυτο ἠχώ.
 1	τοὶ	ὁ	PRON	p-p---mn-	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	nsubj	_	Ref=278
 2	μὲν	μέν	ADV	g--------	PartType=Ptcl	6	advmod	_	Ref=278
@@ -2696,6 +2853,7 @@
 17	.	.	PUNCT	u--------	_	6	punct	_	_
 
 # sent_id = 2273560
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = αἳ δ' ὑπὸ φορμίγγων ἄναγον χορὸν ἱμερόεντα.
 1	αἳ	ὁ	PRON	p-p---fn-	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	nsubj	_	Ref=280
 2	δ'	δέ	CCONJ	g--------	PartType=Ptcl	5	cc	_	Ref=280
@@ -2707,6 +2865,7 @@
 8	.	.	PUNCT	u--------	_	5	punct	_	_
 
 # sent_id = 2273561
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = ἔνθεν δ' αὖθ' ἑτέρωθε νέοι κώμαζον ὑπ' αὐλοῦ, τοί γε μὲν αὖ παίζοντες ὑπ' ὀρχηθμῷ καὶ ἀοιδῇ τοί γε μὲν αὖ γελόωντες ὑπ' αὐλητῆρι ἕκαστος πρόσθ' ἔκιον·
 1	ἔνθεν	ἔνθεν	ADV	d--------	_	6	advmod	6:advmod	Ref=281
 2	δ'	δέ	CCONJ	g--------	PartType=Ptcl	6	cc	6:cc	Ref=281
@@ -2741,6 +2900,7 @@
 29	·	·	PUNCT	u--------	_	6	punct	6:punct	_
 
 # sent_id = 2273562
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = πᾶσαν δὲ πόλιν θαλίαι τε χοροί τε ἀγλαΐαι τ' εἶχον.
 1	πᾶσαν	πᾶς	DET	a-s---fa-	Case=Acc|Gender=Fem|Number=Sing|PronType=Ind	3	det	_	Ref=284
 2	δὲ	δέ	CCONJ	g--------	PartType=Ptcl	10	cc	_	Ref=284
@@ -2755,6 +2915,7 @@
 11	.	.	PUNCT	u--------	_	10	punct	_	_
 
 # sent_id = 2273563
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = τοὶ δ' αὖ προπάροιθε πόληος νῶθ' ἵππων ἐπιβάντες ἐθύνεον.
 1	τοὶ	ὁ	PRON	p-p---mn-	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	nsubj	_	Ref=285
 2	δ'	δέ	CCONJ	g--------	PartType=Ptcl	9	cc	_	Ref=285
@@ -2768,6 +2929,7 @@
 10	.	.	PUNCT	u--------	_	9	punct	_	_
 
 # sent_id = 2273564
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = οἱ δ' ἀροτῆρες ἤρεικον χθόνα δῖαν, ἐπιστολάδην δὲ χιτῶνας ἐστάλατ'.
 1	οἱ	ὁ	DET	l-p---mn-	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	Ref=286
 2	δ'	δέ	CCONJ	g--------	PartType=Ptcl	4	cc	_	Ref=286
@@ -2783,6 +2945,7 @@
 12	.	.	PUNCT	u--------	_	4	punct	_	_
 
 # sent_id = 2273565
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = αὐτὰρ ἔην βαθὺ λήιον·
 1	αὐτὰρ	ἀτάρ	ADV	c--------	PartType=Ptcl	2	advmod	_	Ref=288
 2	ἔην	εἰμί	VERB	v3siia---	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	0	root	_	Ref=288
@@ -2791,6 +2954,7 @@
 5	·	·	PUNCT	u--------	_	2	punct	_	_
 
 # sent_id = 2273566
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = οἵ γε μὲν ἤμων αἰχμῇς ὀξείῃσι κορωνιόωντα πέτηλα, βριθόμενα σταχύων, ὡς εἰ Δημήτερος ἀκτήν·
 1	οἵ	ὁ	PRON	p-p---mn-	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	nsubj	4:nsubj	Ref=288
 2	γε	γε	ADV	g--------	PartType=Ptcl	1	advmod	1:advmod	Ref=288
@@ -2813,6 +2977,7 @@
 17	·	·	PUNCT	u--------	_	4	punct	4:punct	_
 
 # sent_id = 2273567
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = οἳ δ' ἄρ' ἐν ἐλλεδανοῖσι δέον καὶ ἔπιτνον ἀλωήν, οἳ δ' ἐτρύγων οἴνας δρεπάνας ἐν χερσὶν ἔχοντες, οἳ δ' αὖτ' ἐς ταλάρους ἐφόρευν ὑπὸ τρυγητήρων λευκοὺς καὶ μέλανας βότρυας μεγάλων ἀπὸ ὄρχων, βριθομένων φύλλοισι καὶ ἀργυρέῃς ἑλίκεσσιν.
 1	οἳ	ὁ	PRON	p-p---mn-	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	nsubj	_	Ref=291
 2	δ'	δέ	CCONJ	g--------	PartType=Ptcl	6	cc	_	Ref=291
@@ -2857,6 +3022,7 @@
 41	.	.	PUNCT	u--------	_	6	punct	_	_
 
 # sent_id = 2273568
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = οἳ δ' αὖτ' ἐς ταλάρους ἐφόρευν.
 1	οἳ	ὁ	PRON	p-p---mn-	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	nsubj	_	Ref=296
 2	δ'	δέ	CCONJ	g--------	PartType=Ptcl	6	cc	_	Ref=296
@@ -2867,6 +3033,7 @@
 7	.	.	PUNCT	u--------	_	6	punct	_	_
 
 # sent_id = 2273569
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = παρὰ δέ σφισιν ὄρχος χρύσεος ἦν, κλυτὰ ἔργα περίφρονος Ἡφαίστοιο, σειόμενος φύλλοισι καὶ ἀργυρέῃσι κάμαξι, βριθόμενος σταφυλῇσι·
 1	παρὰ	παρά	ADP	r--------	_	3	case	_	Ref=296
 2	δέ	δέ	CCONJ	g--------	PartType=Ptcl	6	cc	_	Ref=296
@@ -2891,6 +3058,7 @@
 21	·	·	PUNCT	u--------	_	6	punct	_	_
 
 # sent_id = 2273570
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = μελάνθησάν γε μὲν αἵδε.
 1	μελάνθησάν	μελαίνω	VERB	v3paip---	Mood=Ind|Number=Plur|Person=3|Tense=Past	0	root	_	Ref=300
 2	γε	γε	ADV	g--------	PartType=Ptcl	1	advmod	_	Ref=300
@@ -2899,6 +3067,7 @@
 5	.	.	PUNCT	u--------	_	1	punct	_	_
 
 # sent_id = 2273571
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = οἵ γε μὲν ἐτράπεον, τοὶ δ' ἤρυον·
 1	οἵ	ὁ	PRON	p-p---mn-	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	nsubj	_	Ref=301
 2	γε	γε	ADV	g--------	PartType=Ptcl	1	advmod	_	Ref=301
@@ -2911,6 +3080,7 @@
 9	·	·	PUNCT	u--------	_	4	punct	_	_
 
 # sent_id = 2273572
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = οἳ δ' ἐμάχοντο πύξ τε καὶ ἑλκηδόν·
 1	οἳ	ὁ	PRON	p-p---mn-	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	nsubj	_	Ref=301
 2	δ'	δέ	CCONJ	g--------	PartType=Ptcl	3	cc	_	Ref=301
@@ -2922,6 +3092,7 @@
 8	·	·	PUNCT	u--------	_	3	punct	_	_
 
 # sent_id = 2273573
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = τοὶ δ' ὠκύποδας λαγὸς ᾕρευν ἄνδρες θηρευταί, καὶ καρχαρόδοντε κύνε πρό, ἱέμενοι μαπέειν, οἳ δ' ἱέμενοι ὑπαλύξαι.
 1	τοὶ	ὁ	DET	p-p---mn-	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	Ref=302
 2	δ'	δέ	CCONJ	g--------	PartType=Ptcl	5	cc	_	Ref=302
@@ -2946,6 +3117,7 @@
 21	.	.	PUNCT	u--------	_	5	punct	_	_
 
 # sent_id = 2273574
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = πὰρ δ' αὐτοῖς ἱππῆες ἔχον πόνον, ἀμφὶ δ' ἀέθλῳ δῆριν ἔχον καὶ μόχθον.
 1	πὰρ	παρά	ADP	r--------	_	3	case	_	Ref=306
 2	δ'	δέ	CCONJ	g--------	PartType=Ptcl	5	cc	_	Ref=306
@@ -2964,6 +3136,7 @@
 15	.	.	PUNCT	u--------	_	5	punct	_	_
 
 # sent_id = 2273575
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = ἐυπλεκέων δ' ἐπὶ δίφρων ἡνίοχοι βεβαῶτες ἐφίεσαν ὠκέας ἵππους ῥυτὰ χαλαίνοντες, τὰ δ' ἐπικροτέοντα πέτοντο ἅρματα κολλήεντ', ἐπὶ δὲ πλῆμναι μέγ' ἀύτευν.
 1	ἐυπλεκέων	ἐυπλεκής	ADJ	a-p---mg-	Case=Gen|Gender=Masc|Number=Plur	4	amod	_	Ref=307
 2	δ'	δέ	CCONJ	g--------	PartType=Ptcl	7	cc	_	Ref=307
@@ -2992,6 +3165,7 @@
 25	.	.	PUNCT	u--------	_	7	punct	_	_
 
 # sent_id = 2273576
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = οἳ μὲν ἄρ' ἀίδιον εἶχον πόνον οὐδέ ποτέ σφιν νίκη ἐπηνύσθη, ἀλλ' ἄκριτον εἶχον ἄεθλον.
 1	οἳ	ὁ	PRON	p-p---mn-	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	nsubj	_	Ref=310
 2	μὲν	μέν	ADV	g--------	PartType=Ptcl	5	advmod	_	Ref=310
@@ -3012,6 +3186,7 @@
 17	.	.	PUNCT	u--------	_	5	punct	_	_
 
 # sent_id = 2273577
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = τοῖσιν δὲ προέκειτο μέγας τρίπος ἐντὸς ἀγῶνος, χρύσειος, κλυτὰ ἔργα περίφρονος Ἡφαίστοιο.
 1	τοῖσιν	ὁ	PRON	p-p---md-	Case=Dat|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	obj	_	Ref=312
 2	δὲ	δέ	CCONJ	g--------	PartType=Ptcl	3	cc	_	Ref=312
@@ -3030,6 +3205,7 @@
 15	.	.	PUNCT	u--------	_	3	punct	_	_
 
 # sent_id = 2273578
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = ἀμφὶ δ' ἴτυν ῥέεν Ὠκεανὸς πλήθοντι ἐοικώς, πᾶν δὲ συνεῖχε σάκος πολυδαίδαλον, οἳ δὲ κατ' αὐτὸν κύκνοι ἀερσιπόται μεγάλ' ἤπυον, οἵ ῥά τε πολλοὶ νῆχον ἐπ' ἄκρον ὕδωρ·
 1	ἀμφὶ	ἀμφί	ADP	r--------	_	3	case	_	Ref=314
 2	δ'	δέ	CCONJ	g--------	PartType=Ptcl	4	cc	_	Ref=314
@@ -3065,6 +3241,7 @@
 32	·	·	PUNCT	u--------	_	4	punct	_	_
 
 # sent_id = 2273579
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = παρὰ δ' ἰχθύες ἐκλονέοντο.
 1	παρὰ	παρά	ADV	d--------	_	4	advmod	_	Ref=317
 2	δ'	δέ	CCONJ	g--------	PartType=Ptcl	4	cc	_	Ref=317
@@ -3073,9 +3250,10 @@
 5	.	.	PUNCT	u--------	_	4	punct	_	_
 
 # sent_id = 2273580
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = θαῦμα ἰδεῖν καὶ Ζηνὶ βαρυκτύπῳ, οὗ διὰ βουλὰς Ἥφαιστος ποίησε σάκος μέγα τε στιβαρόν τε, ἀρσάμενος παλάμῃσι.
 1	θαῦμα	θαῦμα	NOUN	n-s---nn-	Case=Nom|Gender=Neut|Number=Sing	0	root	_	Ref=318
-2	ἰδεῖν	εἶδον	VERB	v--ana---	VerbForm=Inf|Voice=Act	1	acl	_	Ref=318
+2	ἰδεῖν	εἴδω:εἶδον	VERB	v--ana---	VerbForm=Inf|Voice=Act	1	acl	_	Ref=318
 3	καὶ	καί	ADV	d--------	_	4	advmod	_	Ref=318
 4	Ζηνὶ	Ζεύς	PROPN	n-s---md-	Case=Dat|Gender=Masc|Number=Sing	1	obl	_	Ref=318
 5	βαρυκτύπῳ	βαρύκτυπος	ADJ	a-s---md-	Case=Dat|Gender=Masc|Number=Sing	4	amod	_	Ref=318|SpaceAfter=No
@@ -3096,6 +3274,7 @@
 20	.	.	PUNCT	u--------	_	1	punct	_	_
 
 # sent_id = 2273581
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = τὸ μὲν Διὸς ἄλκιμος υἱὸς πάλλεν ἐπικρατέως·
 1	τὸ	ὁ	PRON	p-s---na-	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	obj	_	Ref=320
 2	μὲν	μέν	ADV	g--------	PartType=Ptcl	6	advmod	_	Ref=320
@@ -3107,6 +3286,7 @@
 8	·	·	PUNCT	u--------	_	6	punct	_	_
 
 # sent_id = 2273582
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = ἐπὶ δ' ἱππείου θόρε δίφρου, εἴκελος ἀστεροπῇ πατρὸς Διὸς αἰγιόχοιο, κοῦφα βιβάς·
 1	ἐπὶ	ἐπί	ADP	r--------	_	5	case	_	Ref=321
 2	δ'	δέ	CCONJ	g--------	PartType=Ptcl	4	cc	_	Ref=321
@@ -3125,6 +3305,7 @@
 15	·	·	PUNCT	u--------	_	4	punct	_	_
 
 # sent_id = 2273583
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = τῷ δ' ἡνίοχος κρατερὸς Ἰόλαος δίφρου ἐπεμβεβαὼς ἰθύνετο καμπύλον ἅρμα.
 1	τῷ	ὁ	PRON	p-s---md-	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	obl	_	Ref=323
 2	δ'	δέ	CCONJ	g--------	PartType=Ptcl	8	cc	_	Ref=323
@@ -3139,6 +3320,7 @@
 11	.	.	PUNCT	u--------	_	8	punct	_	_
 
 # sent_id = 2273584
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = ἀγχίμολον δέ σφ' ἦλθε θεὰ γλαυκῶπις Ἀθήνη, καί σφεας θαρσύνουσα ἔπεα πτερόεντα προσηύδα·
 1	ἀγχίμολον	ἀγχίμολος	ADJ	a-s---na-	Case=Acc|Gender=Neut|Number=Sing	3	case	_	Ref=325
 2	δέ	δέ	CCONJ	g--------	PartType=Ptcl	4	cc	_	Ref=325
@@ -3157,6 +3339,7 @@
 15	·	·	PUNCT	u--------	_	4	punct	_	_
 
 # sent_id = 2273585
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = χαίρετε, Λυγκῆος γενεὴ τηλεκλειτοῖο·
 1	χαίρετε	χαίρω	VERB	v2ppma---	Mood=Imp|Number=Plur|Person=2|Tense=Pres|Voice=Act	0	root	_	Ref=327|SpaceAfter=No
 2	,	,	PUNCT	u--------	_	4	punct	_	_
@@ -3166,6 +3349,7 @@
 6	·	·	PUNCT	u--------	_	1	punct	_	_
 
 # sent_id = 2273586
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = νῦν δὴ Ζεὺς κράτος ὔμμι διδοῖ μακάρεσσιν ἀνάσσων Κύκνον τ' ἐξεναρεῖν καὶ ἀπὸ κλυτὰ τεύχεα δῦσαι.
 1	νῦν	νῦν	ADV	d--------	_	6	advmod	_	Ref=328
 2	δὴ	δή	ADV	g--------	PartType=Ptcl	1	advmod	_	Ref=328
@@ -3186,6 +3370,7 @@
 17	.	.	PUNCT	u--------	_	6	punct	_	_
 
 # sent_id = 2273587
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = ἄλλο δὲ τοί τι ἔπος ἐρέω, μέγα φέρτατε λαῶν·
 1	ἄλλο	ἄλλος	DET	a-s---na-	Case=Acc|Gender=Neut|Number=Sing|PronType=Ind	5	det	_	Ref=330
 2	δὲ	δέ	CCONJ	g--------	PartType=Ptcl	6	cc	_	Ref=330
@@ -3200,6 +3385,7 @@
 11	·	·	PUNCT	u--------	_	6	punct	_	_
 
 # sent_id = 2273588
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = εὖτ' ἂν δὴ Κύκνον γλυκερῆς αἰῶνος ἀμέρσῃς, τὸν μὲν ἔπειτ' αὐτοῦ λιπέειν καὶ τεύχεα τοῖο, αὐτὸς δὲ βροτολοιγὸν Ἄρην ἐπιόντα δοκεύσας, ἔνθα κε γυμνωθέντα σάκευς ὕπο δαιδαλέοιο ὀφθαλμοῖσιν ἴδῃς, ἔνθ' οὐτάμεν ὀξέι χαλκῷ·
 1	εὖτ'	εὖτε	SCONJ	c--------	_	7	mark	_	Ref=331
 2	ἂν	ἄν	ADV	g--------	PartType=Ptcl	7	advmod	_	Ref=331
@@ -3232,7 +3418,7 @@
 29	ὕπο	ὑπό	ADP	r--------	_	28	case	_	Ref=334
 30	δαιδαλέοιο	δαιδάλεος	ADJ	a-s---ng-	Case=Gen|Gender=Neut|Number=Sing	28	amod	_	Ref=334
 31	ὀφθαλμοῖσιν	ὀφθαλμός	NOUN	n-p---md-	Case=Dat|Gender=Masc|Number=Plur	32	obl	_	Ref=335
-32	ἴδῃς	εἶδον	VERB	v2sasa---	Mood=Sub|Number=Sing|Person=2|Voice=Act	34	advcl	_	Ref=335|SpaceAfter=No
+32	ἴδῃς	εἴδω:εἶδον	VERB	v2sasa---	Mood=Sub|Number=Sing|Person=2|Voice=Act	34	advcl	_	Ref=335|SpaceAfter=No
 33	,	,	PUNCT	u--------	_	32	punct	_	_
 34	ἔνθ'	ἔνθα	ADV	d--------	_	35	obj	_	Ref=335
 35	οὐτάμεν	οὐτάω	VERB	v--ana---	VerbForm=Inf|Voice=Act	13	conj	_	Ref=335
@@ -3241,6 +3427,7 @@
 38	·	·	PUNCT	u--------	_	13	punct	_	_
 
 # sent_id = 2273589
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = ἂψ δ' ἀναχάσσασθαι·
 1	ἂψ	ἄψ	ADV	d--------	_	3	advmod	_	Ref=336
 2	δ'	δέ	CCONJ	g--------	PartType=Ptcl	3	cc	_	Ref=336
@@ -3248,10 +3435,11 @@
 4	·	·	PUNCT	u--------	_	3	punct	_	_
 
 # sent_id = 2273590
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = ἐπεὶ οὔ νύ τοι αἴσιμόν ἐστιν οὔθ' ἵππους ἑλέειν οὔ τε κλυτὰ τεύχεα τοῖο.
 1	ἐπεὶ	ἐπεί	SCONJ	c--------	_	5	mark	_	Ref=336
 2	οὔ	οὐ	ADV	d--------	_	5	advmod:neg	_	Ref=336
-3	νύ	νυν	ADV	d--------	_	5	advmod	_	Ref=336
+3	νύ	νῦν:νυν	ADV	d--------	_	5	advmod	_	Ref=336
 4	τοι	σύ	PRON	p-s---md-	Case=Dat|Gender=Masc|Number=Sing|Person=2|PronType=Prs	5	obl	_	Ref=336
 5	αἴσιμόν	αἴσιμος	ADJ	a-s---nn-	Case=Nom|Gender=Neut|Number=Sing	0	root	_	Ref=336
 6	ἐστιν	εἰμί	AUX	v3spia---	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	cop	_	Ref=336
@@ -3266,6 +3454,7 @@
 15	.	.	PUNCT	u--------	_	5	punct	_	_
 
 # sent_id = 2273591
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = ὣς εἰποῦσ' ἐς δίφρον ἐβήσατο δῖα θεάων, νίκην ἀθανάτῃς χερσὶν καὶ κῦδος ἔχουσα, ἐσσυμένως.
 1	ὣς	ὡς	ADV	d--------	_	2	advmod	_	Ref=338
 2	εἰποῦσ'	εἶπον	VERB	v-sapafn-	Case=Nom|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	5	advcl	_	Ref=338
@@ -3286,6 +3475,7 @@
 17	.	.	PUNCT	u--------	_	5	punct	_	_
 
 # sent_id = 2273592
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = τότε δή ῥα διόγνητος Ἰόλαος σμερδαλέον ἵπποισιν ἐκέκλετο·
 1	τότε	τότε	ADV	d--------	_	8	advmod	_	Ref=340
 2	δή	δή	ADV	g--------	PartType=Ptcl	1	advmod	_	Ref=340
@@ -3298,6 +3488,7 @@
 9	·	·	PUNCT	u--------	_	8	punct	_	_
 
 # sent_id = 2273593
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = τοὶ δ' ὑπ' ὀμοκλῆς ῥίμφ' ἔφερον θοὸν ἅρμα κονίοντες πεδίοιο.
 1	τοὶ	ὁ	PRON	p-p---mn-	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	nsubj	_	Ref=341
 2	δ'	δέ	CCONJ	g--------	PartType=Ptcl	6	cc	_	Ref=341
@@ -3312,6 +3503,7 @@
 11	.	.	PUNCT	u--------	_	6	punct	_	_
 
 # sent_id = 2273594
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = ἐν γάρ σφιν μένος ἧκε θεὰ γλαυκῶπις Ἀθήνη αἰγίδ' ἀνασσείσασα·
 1	ἐν	ἐν	ADP	r--------	_	3	case	_	Ref=343
 2	γάρ	γάρ	ADV	g--------	PartType=Ptcl	5	advmod	_	Ref=343
@@ -3326,6 +3518,7 @@
 11	·	·	PUNCT	u--------	_	5	punct	_	_
 
 # sent_id = 2273595
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = περιστονάχησε δὲ γαῖα.
 1	περιστονάχησε	περιστοναχέω	VERB	v3saia---	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	Ref=344
 2	δὲ	δέ	CCONJ	g--------	PartType=Ptcl	1	cc	_	Ref=344
@@ -3333,6 +3526,7 @@
 4	.	.	PUNCT	u--------	_	1	punct	_	_
 
 # sent_id = 2273596
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = τοὶ δ' ἄμυδις προγένοντ' ἴκελοι πυρὶ ἠὲ θυέλλῃ, Κύκνος θ' ἱππόδαμος καὶ Ἄρης ἀκόρητος ἀυτῆς.
 1	τοὶ	ὁ	PRON	p-p---mn-	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	nsubj	_	Ref=345
 2	δ'	δέ	CCONJ	g--------	PartType=Ptcl	4	cc	_	Ref=345
@@ -3353,6 +3547,7 @@
 17	.	.	PUNCT	u--------	_	4	punct	_	_
 
 # sent_id = 2273597
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = τῶν ἵπποι μὲν ἔπειθ' ὑπεναντίοι ἀλλήλοισιν ὀξεῖα χρέμισαν, περὶ δέ σφισιν ἄγνυτο ἠχώ.
 1	τῶν	ὁ	PRON	p-p---mg-	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	nmod	_	Ref=347
 2	ἵπποι	ἵππος	NOUN	n-p---mn-	Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	Ref=347
@@ -3371,6 +3566,7 @@
 15	.	.	PUNCT	u--------	_	8	punct	_	_
 
 # sent_id = 2273598
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = τὸν πρότερος προσέειπε βίη Ἡρακληείη·
 1	τὸν	ὁ	PRON	p-s---ma-	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	obj	_	Ref=349
 2	πρότερος	πρότερος	ADJ	a-s---mnc	Case=Nom|Degree=Cmp|Gender=Masc|Number=Sing	4	acl:compl	_	Ref=349
@@ -3380,12 +3576,13 @@
 6	·	·	PUNCT	u--------	_	3	punct	_	_
 
 # sent_id = 2273599
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = κύκνε πέπον, τί νυ νῶιν ἐπίσχετον ὠκέας ἵππους ἀνδράσιν, οἵ τε πόνου καὶ ὀιζύος ἴδριές εἰμεν;
 1	κύκνε	Κύκνος	NOUN	n-s---mv-	Case=Voc|Gender=Masc|Number=Sing	7	vocative	_	Ref=350
 2	πέπον	πέπων	ADJ	a-s---mv-	Case=Voc|Gender=Masc|Number=Sing	1	amod	_	Ref=350|SpaceAfter=No
 3	,	,	PUNCT	u--------	_	1	punct	_	_
 4	τί	τίς	PRON	p-s---na-	Case=Acc|Gender=Neut|Number=Sing|PronType=Int	7	obl	_	Ref=350
-5	νυ	νυν	ADV	d--------	_	7	advmod	_	Ref=350
+5	νυ	νῦν:νυν	ADV	d--------	_	7	advmod	_	Ref=350
 6	νῶιν	ἐγώ	PRON	p-d---md-	Case=Dat|Gender=Masc|Number=Dual|Person=1|PronType=Prs	7	iobj	_	Ref=350
 7	ἐπίσχετον	ἐπίσχω	VERB	v2dpia---	Mood=Ind|Number=Dual|Person=2|Tense=Pres|Voice=Act	0	root	_	Ref=350
 8	ὠκέας	ὠκύς	ADJ	a-p---ma-	Case=Acc|Gender=Masc|Number=Plur	9	amod	_	Ref=350
@@ -3402,6 +3599,7 @@
 19	;	;	PUNCT	u--------	_	7	punct	_	_
 
 # sent_id = 2273600
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = ἀλλὰ παρὲξ ἔχε δίφρον ἐύξοον ἠδὲ κελεύθου εἶκε παρὲξ ἰέναι.
 1	ἀλλὰ	ἀλλά	CCONJ	c--------	_	3	cc	_	Ref=352
 2	παρὲξ	παρέξ	ADV	d--------	_	3	obj	_	Ref=352
@@ -3416,6 +3614,7 @@
 11	.	.	PUNCT	u--------	_	3	punct	_	_
 
 # sent_id = 2273601
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = Τρηχῖνα δέ τοι παρελαύνω ἐς Κήυκα ἄνακτα·
 1	Τρηχῖνα	Τραχίς	PROPN	n-s---fa-	Case=Acc|Gender=Fem|Number=Sing	4	obl	_	Ref=353
 2	δέ	δέ	CCONJ	g--------	PartType=Ptcl	4	cc	_	Ref=353
@@ -3427,6 +3626,7 @@
 8	·	·	PUNCT	u--------	_	4	punct	_	_
 
 # sent_id = 2273602
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = ὃ γὰρ δυνάμι τε καὶ αἰδοῖ Τρηχῖνος προβέβηκε, σὺ δ' εὖ μάλα οἶσθα καὶ αὐτός·
 1	ὃ	ὁ	PRON	p-s---mn-	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	nsubj	_	Ref=354
 2	γὰρ	γάρ	ADV	g--------	PartType=Ptcl	8	advmod	_	Ref=354
@@ -3447,6 +3647,7 @@
 17	·	·	PUNCT	u--------	_	8	punct	_	_
 
 # sent_id = 2273603
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = τοῦ γὰρ ὀπυίεις παῖδα Θεμιστονόην κυανῶπιν.
 1	τοῦ	ὁ	PRON	p-s---mg-	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	nmod	_	Ref=356
 2	γὰρ	γάρ	ADV	g--------	PartType=Ptcl	3	advmod	_	Ref=356
@@ -3457,6 +3658,7 @@
 7	.	.	PUNCT	u--------	_	3	punct	_	_
 
 # sent_id = 2273604
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = ὦ πέπον, οὐ μὲν γὰρ τοι Ἄρης θανάτοιο τελευτὴν ἀρκέσει, εἰ δὴ νῶι συνοισόμεθα πτολεμίζειν.
 1	ὦ	ὦ	INTJ	i--------	_	2	discourse	_	Ref=357
 2	πέπον	πέπων	ADJ	a-s---mv-	Case=Voc|Gender=Masc|Number=Sing	11	vocative	_	Ref=357|SpaceAfter=No
@@ -3478,6 +3680,7 @@
 18	.	.	PUNCT	u--------	_	11	punct	_	_
 
 # sent_id = 2273605
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = ἤδη μέν τέ ἕ φημι καὶ ἄλλοτε πειρηθῆναι ἔγχεος ἡμετέρου, ὅθ' ὑπὲρ Πύλου ἠμαθόεντος ἀντίος ἔστη ἐμεῖο, μάχης ἄμοτον μενεαίνων.
 1	ἤδη	ἤδη	ADV	d--------	_	8	advmod	_	Ref=359
 2	μέν	μέν	ADV	g--------	PartType=Ptcl	5	advmod	_	Ref=359
@@ -3504,6 +3707,7 @@
 23	.	.	PUNCT	u--------	_	5	punct	_	_
 
 # sent_id = 2273606
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = τρὶς μὲν ἐμῷ ὑπὸ δουρὶ τυπεὶς ἠρείσατο γαίῃ οὐταμένου σάκεος, τὸ δὲ τέτρατον ἤλασα μηρὸν παντὶ μένει σπεύδων, διὰ δὲ μέγα σαρκὸς ἄραξα.
 1	τρὶς	τρίς	ADV	d--------	_	6	advmod	_	Ref=362
 2	μὲν	μέν	ADV	g--------	PartType=Ptcl	7	advmod	_	Ref=362
@@ -3533,6 +3737,7 @@
 26	.	.	PUNCT	u--------	_	7	punct	_	_
 
 # sent_id = 2273607
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = πρηνὴς δ' ἐν κονίῃσι χαμαὶ πέσεν ἔγχεος ὁρμῇ.
 1	πρηνὴς	πρηνής	ADJ	a-s---mn-	Case=Nom|Gender=Masc|Number=Sing	6	advcl:compl	_	Ref=365
 2	δ'	δέ	CCONJ	g--------	PartType=Ptcl	6	cc	_	Ref=365
@@ -3545,6 +3750,7 @@
 9	.	.	PUNCT	u--------	_	6	punct	_	_
 
 # sent_id = 2273608
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = ἔνθα κε δὴ λωβητὸς ἐν ἀθανάτοισιν ἐτύχθη χερσὶν ὕφ' ἡμετέρῃσι λιπὼν ἔναρα βροτόεντα.
 1	ἔνθα	ἔνθα	ADV	d--------	_	7	advmod	_	Ref=366
 2	κε	ἄν	ADV	g--------	PartType=Ptcl	7	advmod	_	Ref=366
@@ -3562,12 +3768,14 @@
 14	.	.	PUNCT	u--------	_	7	punct	_	_
 
 # sent_id = 2273609
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = ὣς ἔφατ'·
 1	ὣς	ὡς	ADV	d--------	_	2	advmod	_	Ref=368
 2	ἔφατ'	φημί	VERB	v3siie---	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=MidPass	0	root	_	Ref=368|SpaceAfter=No
 3	·	·	PUNCT	u--------	_	2	punct	_	_
 
 # sent_id = 2273610
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = οὐ δ' ἄρα Κύκνος ἐυμμελίης ἐμενοίνα τῷ ἐπιπειθόμενος ἐχέμεν ἐρυσάρματας ἵππους.
 1	οὐ	οὐ	ADV	d--------	_	6	advmod:neg	_	Ref=368
 2	δ'	δέ	CCONJ	g--------	PartType=Ptcl	6	cc	_	Ref=368
@@ -3583,6 +3791,7 @@
 12	.	.	PUNCT	u--------	_	6	punct	_	_
 
 # sent_id = 2273611
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = δὴ τότ' ἀπ' εὐπλεκέων δίφρων θόρον αἶψ̓ ἐπὶ γαῖαν παῖς τε Διὸς μεγάλου καὶ Ἐνυαλίοιο ἄνακτος.
 1	δὴ	δή	ADV	g--------	PartType=Ptcl	2	advmod	2:advmod	Ref=370
 2	τότ'	τότε	ADV	d--------	_	6	advmod	6:advmod	Ref=370
@@ -3604,6 +3813,7 @@
 17	.	.	PUNCT	u--------	_	6	punct	6:punct	_
 
 # sent_id = 2273612
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = ἡνίοχοι δ' ἔμπλην ἔλασαν καλλίτριχας ἵππους·
 1	ἡνίοχοι	ἡνίοχος	NOUN	n-p---mn-	Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	Ref=372
 2	δ'	δέ	CCONJ	g--------	PartType=Ptcl	4	cc	_	Ref=372
@@ -3614,6 +3824,7 @@
 7	·	·	PUNCT	u--------	_	4	punct	_	_
 
 # sent_id = 2273613
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = τῶν δ' ὕπο σευομένων κανάχιζε πόσ' εὐρεῖα χθών.
 1	τῶν	ὁ	DET	p-p---mg-	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	Ref=373
 2	δ'	δέ	CCONJ	g--------	PartType=Ptcl	5	cc	_	Ref=373
@@ -3626,6 +3837,7 @@
 9	.	.	PUNCT	u--------	_	5	punct	_	_
 
 # sent_id = 2273614
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = ὡς δ' ὅτ' ἀφ' ὑψηλῆς κορυφῆς ὄρεος μεγάλοιο πέτραι ἀποθρῴσκωσιν, ἐπ' ἀλλήλῃς δὲ πέσωσι, πολλαὶ δὲ δρῦς ὑψίκομοι, πολλαὶ δὲ τε πεῦκαι αἴγειροί τε τανύρριζοι ῥήγνυνται ὑπ' αὐτέων ῥίμφα κυλινδομένων, εἵως πεδίονδ' ἀφίκωνται, ὣς οἳ ἐπ' ἀλλήλοισι πέσον μέγα κεκλήγοντες.
 1	ὡς	ὡς	ADV	d--------	_	3	advmod	_	Ref=374
 2	δ'	δέ	CCONJ	g--------	PartType=Ptcl	43	cc	_	Ref=374
@@ -3675,6 +3887,7 @@
 46	.	.	PUNCT	u--------	_	43	punct	_	_
 
 # sent_id = 2273615
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = πᾶσα δὲ Μυρμιδόνων τε πόλις κλειτή τ' Ἰαωλκὸς Ἄρνη τ' ἠδ' Ἑλίκη Ἄνθειά τε ποιήεσσα φωνῇ ὕπ' ἀμφοτέρων μεγάλ' ἴαχον·
 1	πᾶσα	πᾶς	DET	a-s---fn-	Case=Nom|Gender=Fem|Number=Sing|PronType=Ind	5	det	_	Ref=380
 2	δὲ	δέ	CCONJ	g--------	PartType=Ptcl	20	cc	_	Ref=380
@@ -3699,6 +3912,7 @@
 21	·	·	PUNCT	u--------	_	20	punct	_	_
 
 # sent_id = 2273616
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = οἳ δ' ἀλαλητῷ θεσπεσίῳ σύνισαν·
 1	οἳ	ὁ	PRON	p-p---mn-	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	nsubj	_	Ref=382
 2	δ'	δέ	CCONJ	g--------	PartType=Ptcl	5	cc	_	Ref=382
@@ -3708,6 +3922,7 @@
 6	·	·	PUNCT	u--------	_	5	punct	_	_
 
 # sent_id = 2273617
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = μέγα δ' ἔκτυπε μητίετα Ζεύς.
 1	μέγα	μέγας	ADJ	a-s---na-	Case=Acc|Gender=Neut|Number=Sing	3	obl	_	Ref=383
 2	δ'	δέ	CCONJ	g--------	PartType=Ptcl	3	cc	_	Ref=383
@@ -3717,6 +3932,7 @@
 6	.	.	PUNCT	u--------	_	3	punct	_	_
 
 # sent_id = 2273618
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = κὰδ δ' ἄρ' ἀπ' οὐρανόθεν ψιάδας βάλεν αἱματοέσσας, σῆμα τιθεὶς πολέμοιο ἑῷ μεγαθαρσέι παιδί.
 1	κὰδ	κατά	ADV	r--------	_	7	compound:prt	_	Ref=384
 2	δ'	δέ	CCONJ	g--------	PartType=Ptcl	7	cc	_	Ref=384
@@ -3736,6 +3952,7 @@
 16	.	.	PUNCT	u--------	_	7	punct	_	_
 
 # sent_id = 2273619
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = οἷος δ' ἐν βήσσῃς ὄρεος χαλεπὸς προϊδέσθαι κάπρος χαυλιόδων φρονέει θυμῷ μαχέσασθαι ἀνδράσι θηρευτῇς, θήγει δέ τε λευκὸν ὀδόντα δοχμωθείς, ἀφρὸς δὲ περὶ στόμα μαστιχόωντι λείβεται, ὄσσε δέ οἱ πυρὶ λαμπετόωντι ἔικτον, ὀρθὰς δ' ἐν λοφιῇ φρίσσει τρίχας ἀμφί τε δειρήν·
 0.1	E0.1	_	_	_	_	_	_	0:root	_
 0.2	E0.2	_	_	_	_	_	_	0.1:root	_
@@ -3789,6 +4006,7 @@
 46	·	·	PUNCT	u--------	_	0	punct	0.1:punct	_
 
 # sent_id = 2273620
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = τῷ ἴκελος Διὸς υἱὸς ἀφ' ἱππείου θόρε δίφρου.
 1	τῷ	ὁ	PRON	p-s---md-	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	obj	_	Ref=392
 2	ἴκελος	ἴκελος	ADJ	a-s---mn-	Case=Nom|Gender=Masc|Number=Sing	4	acl:compl	_	Ref=392
@@ -3801,6 +4019,7 @@
 9	.	.	PUNCT	u--------	_	7	punct	_	_
 
 # sent_id = 2273621
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = ἦμος δὲ χλοερῷ κυανόπτερος ἠχέτα τέττιξ ὄζῳ ἐφεζόμενος θέρος ἀνθρώποισιν ἀείδειν ἄρχεται, ᾧ τε πόσις καὶ βρῶσις θῆλυς ἐέρση, καί τε πανημέριός τε καὶ ἠώιος χέει αὐδὴν ἴδει ἐν αἰνοτάτῳ, ὅτε τε χρόα Σείριος ἄζει, τῆμος δὴ κέγχροισι πέρι γλῶχες τελέθουσι τούς τε θέρει σπείρουσιν, ὅτ' ὄμφακες αἰόλλονται, οἷα Διώνυσος δῶκ' ἀνδράσι χάρμα καὶ ἄχθος·
 0.1	E0.1	_	_	_	_	_	_	0:root	_
 0.2	E0.2	_	_	_	_	_	_	0.1:root	_
@@ -3869,6 +4088,7 @@
 62	·	·	PUNCT	u--------	_	0	punct	0.1:punct	_
 
 # sent_id = 2273622
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = τὴν ὥρην μάρναντο, πολὺς δ' ὀρυμαγδὸς ὀρώρει.
 1	τὴν	ὁ	DET	p-s---fa-	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	Ref=401
 2	ὥρην	ὥρα	NOUN	n-s---fa-	Case=Acc|Gender=Fem|Number=Sing	3	obl	_	Ref=401
@@ -3881,6 +4101,7 @@
 9	.	.	PUNCT	u--------	_	3	punct	_	_
 
 # sent_id = 2273623
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = ὡς δὲ λέοντε δύω ἀμφὶ κταμένης ἐλάφοιο ἀλλήλοις κοτέοντες ἐπὶ σφέας ὁρμήσωσι, δεινὴ δέ σφ' ἰαχὴ ἄραβός θ' ἅμα γίγνετ' ὀδόντων·
 0.1	E0.1	_	_	_	_	_	_	0:root	_
 0.2	E0.2	_	_	_	_	_	_	0.1:root	_
@@ -3909,6 +4130,7 @@
 23	·	·	PUNCT	u--------	_	12	punct	0.1:punct	_
 
 # sent_id = 2273624
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = οἳ δ' ὥς τ' αἰγυπιοὶ γαμψώνυχες, ἀγκυλοχεῖλαι, πέτρῃ ἔφ' ὑψηλῇ μεγάλα κλάζοντε μάχονται αἰγὸς ὀρεσσινόμου ἢ ἀγροτέρης ἐλάφοιο πίονος, ἥν τ' ἐδάμασσε βαλὼν αἰζήιος ἀνὴρ ἰῷ ἀπὸ νευρῆς, αὐτὸς δ' ἀπαλήσεται ἄλλῃ χώρου ἄιδρις ἐών·
 0.1	E0.1	_	_	_	_	_	_	0:root	_
 0.2	E0.2	_	_	_	_	_	_	0.1:root	_
@@ -3954,6 +4176,7 @@
 40	·	·	PUNCT	u--------	_	15	punct	0.1:punct	_
 
 # sent_id = 2273625
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = οἳ δ' ὀτραλέως ἐνόησαν, ἐσσυμένως δέ οἱ ἀμφὶ μάχην δριμεῖαν ἔθεντο·
 0.1	E0.1	_	_	_	_	_	_	0:root	_
 0.2	E0.2	_	_	_	_	_	_	0.1:root	_
@@ -3972,6 +4195,7 @@
 13	·	·	PUNCT	u--------	_	4	punct	0.1:punct	_
 
 # sent_id = 2273626
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = ὣς οἳ κεκλήγοντες ἐπ' ἀλλήλοισιν ὄρουσαν.
 1	ὣς	ὡς	ADV	d--------	_	6	advmod	_	Ref=412
 2	οἳ	ὁ	PRON	p-p---mn-	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	nsubj	_	Ref=412
@@ -3982,6 +4206,7 @@
 7	.	.	PUNCT	u--------	_	6	punct	_	_
 
 # sent_id = 2273627
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = ἔνθ' ἦ τοι Κύκνος μὲν ὑπερμενέος Διὸς υἱὸν κτεινέμεναι μεμαὼς σάκει ἔμβαλε χάλκεον ἔγχος, οὐ δ' ἔρρηξεν χαλκόν·
 1	ἔνθ'	ἔνθα	ADV	d--------	_	12	advmod	_	Ref=413
 2	ἦ	ἦ	ADV	d--------	PartType=Ptcl	12	advmod	_	Ref=413
@@ -4005,6 +4230,7 @@
 20	·	·	PUNCT	u--------	_	12	punct	_	_
 
 # sent_id = 2273628
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = ἔρυτο δὲ δῶρα θεοῖο.
 1	ἔρυτο	ῥύομαι	VERB	v3saie---	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=MidPass	0	root	_	Ref=415
 2	δὲ	δέ	CCONJ	g--------	PartType=Ptcl	1	cc	_	Ref=415
@@ -4013,6 +4239,7 @@
 5	.	.	PUNCT	u--------	_	1	punct	_	_
 
 # sent_id = 2273629
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = Ἀμφιτρυωνιάδης δέ, βίη Ἡρακληείη, μεσσηγὺς κόρυθός τε καὶ ἀσπίδος ἔγχεϊ μακρῷ αὐχένα γυμνωθέντα θοῶς ὑπένερθε γενείου ἤλασ' ἐπικρατέως·
 1	Ἀμφιτρυωνιάδης	Ἀμφιτρυωνιάδας	PROPN	n-s---mn-	Case=Nom|Gender=Masc|Number=Sing	19	nsubj	_	Ref=416
 2	δέ	δέ	CCONJ	g--------	PartType=Ptcl	19	cc	_	Ref=416|SpaceAfter=No
@@ -4037,6 +4264,7 @@
 21	·	·	PUNCT	u--------	_	19	punct	_	_
 
 # sent_id = 2273630
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = ἀπὸ δ' ἄμφω κέρσε τένοντε ἀνδροφόνος μελίη·
 1	ἀπὸ	ἀπό	ADV	r--------	_	4	compound:prt	_	Ref=419
 2	δ'	δέ	CCONJ	g--------	PartType=Ptcl	4	cc	_	Ref=419
@@ -4048,6 +4276,7 @@
 8	·	·	PUNCT	u--------	_	4	punct	_	_
 
 # sent_id = 2273631
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = μέγα γὰρ σθένος ἔμπεσε φωτός.
 1	μέγα	μέγας	ADJ	a-s---nn-	Case=Nom|Gender=Neut|Number=Sing	3	amod	_	Ref=420
 2	γὰρ	γάρ	ADV	g--------	PartType=Ptcl	4	cc	_	Ref=420
@@ -4057,6 +4286,7 @@
 6	.	.	PUNCT	u--------	_	4	punct	_	_
 
 # sent_id = 2273632
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = ἤριπε δ', ὡς ὅτε τις δρῦς ἤριπεν ἢ ὅτε πεύκη ἠλίβατος, πληγεῖσα Διὸς ψολόεντι κεραυνῷ·
 1	ἤριπε	ἐρείπω	VERB	v3saia---	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	0:root	Ref=421
 2	δ'	δέ	CCONJ	g--------	PartType=Ptcl	1	cc	1:cc	Ref=421|SpaceAfter=No
@@ -4079,12 +4309,14 @@
 18	·	·	PUNCT	u--------	_	1	punct	1:punct	_
 
 # sent_id = 2273633
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = ὣς ἔριπ'·
 1	ὣς	ὡς	ADV	d--------	_	2	advmod	_	Ref=423
 2	ἔριπ'	ἐρείπω	VERB	v3saia---	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	Ref=423|SpaceAfter=No
 3	·	·	PUNCT	u--------	_	2	punct	_	_
 
 # sent_id = 2273634
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = ἀμφὶ δέ οἱ βράχε τεύχεα ποικίλα χαλκῷ.
 1	ἀμφὶ	ἀμφί	ADP	r--------	_	3	case	_	Ref=423
 2	δέ	δέ	CCONJ	g--------	PartType=Ptcl	4	cc	_	Ref=423
@@ -4096,6 +4328,7 @@
 8	.	.	PUNCT	u--------	_	4	punct	_	_
 
 # sent_id = 2273635
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = τὸν μὲν ἔπειτ' εἴασε Διὸς ταλακάρδιος υἱός, αὐτὸς δὲ βροτολοιγὸν Ἄρην προσιόντα δοκεύσας, δεινὸν ὁρῶν ὄσσοισι, λέων ὣς σώματι κύρσας, ὅς τε μάλ' ἐνδυκέως ῥινὸν κρατεροῖς ὀνύχεσσι σχίσσας ὅττι τάχιστα μελίφρονα θυμὸν ἀπηύρα·
 1	τὸν	ὁ	PRON	p-s---ma-	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	obj	4:obj	Ref=424
 2	μὲν	μέν	ADV	g--------	PartType=Ptcl	4	advmod	4:advmod	Ref=424
@@ -4139,6 +4372,7 @@
 38	·	·	PUNCT	u--------	_	4	punct	4:punct	_
 
 # sent_id = 2273636
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = ἐμ μένεος δ' ἄρα τοῦ γε κελαινὸν πίμπλαται ἦτορ·
 1	ἐμ	ἐν	ADV	r--------	_	8	compound:prt	_	Ref=429
 2	μένεος	μένος	NOUN	n-s---ng-	Case=Gen|Gender=Neut|Number=Sing	8	obj	_	Ref=429
@@ -4152,6 +4386,7 @@
 10	·	·	PUNCT	u--------	_	8	punct	_	_
 
 # sent_id = 2273637
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = γλαυκιόων δ' ὄσσοις δεινὸν πλευράς τε καὶ ὤμους οὐρῇ μαστιόων ποσσὶν γλάφει, οὐδέ τις αὐτὸν ἔτλη ἐς ἄντα ἰδὼν σχεδὸν ἐλθέμεν οὐδὲ μάχεσθαι·
 1	γλαυκιόων	γλαυκιάω	VERB	v-sppamn-	Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	12	advcl	_	Ref=430
 2	δ'	δέ	CCONJ	g--------	PartType=Ptcl	12	cc	_	Ref=430
@@ -4172,7 +4407,7 @@
 17	ἔτλη	τλάω	VERB	v3saia---	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	12	conj	_	Ref=432
 18	ἐς	εἰς	ADP	r--------	_	20	case	_	Ref=432
 19	ἄντα	ἄντα	ADV	d--------	_	18	advmod	_	Ref=432
-20	ἰδὼν	εἶδον	VERB	v-sapamn-	Case=Nom|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	17	advcl	_	Ref=432
+20	ἰδὼν	εἴδω:εἶδον	VERB	v-sapamn-	Case=Nom|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	17	advcl	_	Ref=432
 21	σχεδὸν	σχεδόν	ADV	d--------	_	22	obj	_	Ref=432
 22	ἐλθέμεν	ἔρχομαι	VERB	v--ana---	VerbForm=Inf|Voice=Act	17	ccomp	_	Ref=432
 23	οὐδὲ	οὐδέ	CCONJ	c--------	_	24	cc	_	Ref=432|SpaceAfter=No
@@ -4180,6 +4415,7 @@
 25	·	·	PUNCT	u--------	_	12	punct	_	_
 
 # sent_id = 2273638
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = τοῖος ἄρ' Ἀμφιτρυωνιάδης, ἀκόρητος ἀυτῆς, ἀντίος ἔστη Ἄρηος, ἐνὶ φρεσὶ θάρσος ἀέξων, ἐσσυμένως·
 1	τοῖος	τοῖος	PRON	a-s---mn-	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	3	acl:compl	_	Ref=433
 2	ἄρ'	ἄρα	ADV	g--------	PartType=Ptcl	9	advmod	_	Ref=433
@@ -4201,6 +4437,7 @@
 18	·	·	PUNCT	u--------	_	9	punct	_	_
 
 # sent_id = 2273639
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = ὃ δέ οἱ σχεδὸν ἤλυθεν ἀχνύμενος κῆρ·
 1	ὃ	ὁ	PRON	p-s---mn-	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	nsubj	_	Ref=435
 2	δέ	δέ	CCONJ	g--------	PartType=Ptcl	5	cc	_	Ref=435
@@ -4212,6 +4449,7 @@
 8	·	·	PUNCT	u--------	_	5	punct	_	_
 
 # sent_id = 2273640
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = ἀμφότεροι δ' ἰάχοντες ἐπ' ἀλλήλοισιν ὄρουσαν.
 1	ἀμφότεροι	ἀμφότερος	ADJ	a-p---mn-	Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	Ref=436
 2	δ'	δέ	CCONJ	g--------	PartType=Ptcl	6	cc	_	Ref=436
@@ -4222,6 +4460,7 @@
 7	.	.	PUNCT	u--------	_	6	punct	_	_
 
 # sent_id = 2273641
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = ὡς δ' ὅτ' ἀπὸ μεγάλου πέτρη πρηῶνος ὀρούσῃ, μακρὰ δ' ἐπιθρῴσκουσα κυλίνδεται, ἣ δέ τε ἠχῇ ἔρχεται ἐμμεμαυῖα, πάγος δέ οἱ ἀντεβόλησεν ὑψηλός·
 0.1	E0.1	_	_	_	_	_	_	0:root	_
 0.2	E0.2	_	_	_	_	_	_	0.1:root	_
@@ -4256,6 +4495,7 @@
 27	·	·	PUNCT	u--------	_	8	punct	0.1:punct	_
 
 # sent_id = 2273642
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = τῷ δὴ συνενείκεται, ἔνθα μιν ἴσχει·
 0.1	E0.1	_	_	_	_	_	_	0:root	_
 0.2	E0.2	_	_	_	_	_	_	0.1:root	_
@@ -4273,6 +4513,7 @@
 8	·	·	PUNCT	u--------	_	0	punct	0.1:punct	_
 
 # sent_id = 2273643
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = τόσσῃ ὃ μὲν ἰαχῇ βρισάρματος οὔλιος Ἄρης κεκληγὼς ἐπόρουσεν·
 1	τόσσῃ	τόσος	DET	a-s---fd-	Case=Dat|Gender=Fem|Number=Sing|PronType=Dem	4	det	_	Ref=441
 2	ὃ	ὁ	DET	l-s---mn-	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	Ref=441
@@ -4286,6 +4527,7 @@
 10	·	·	PUNCT	u--------	_	9	punct	_	_
 
 # sent_id = 2273644
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = ὃ δ' ἐμμαπέως ὑπέδεκτο.
 1	ὃ	ὁ	PRON	p-s---mn-	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	nsubj	_	Ref=442
 2	δ'	δέ	CCONJ	g--------	PartType=Ptcl	4	cc	_	Ref=442
@@ -4294,6 +4536,7 @@
 5	.	.	PUNCT	u--------	_	4	punct	_	_
 
 # sent_id = 2273645
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = αὐτὰρ Ἀθηναίη, κούρη Διὸς αἰγιόχοιο, ἀντίη ἦλθεν Ἄρηος ἐρεμνὴν αἰγίδ' ἔχουσα·
 1	αὐτὰρ	ἀτάρ	ADV	c--------	PartType=Ptcl	9	advmod	_	Ref=443
 2	Ἀθηναίη	Ἀθήνη	PROPN	n-s---fn-	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	Ref=443|SpaceAfter=No
@@ -4311,17 +4554,19 @@
 14	·	·	PUNCT	u--------	_	9	punct	_	_
 
 # sent_id = 2273646
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = δεινὰ δ' ὑπόδρα ἰδοῦσα ἔπεα πτερόεντα προσηύδα·
 1	δεινὰ	δεινός	ADJ	a-p---na-	Case=Acc|Gender=Neut|Number=Plur	4	obl	_	Ref=445
 2	δ'	δέ	CCONJ	g--------	PartType=Ptcl	7	cc	_	Ref=445
 3	ὑπόδρα	ὑπόδρα	ADV	d--------	_	4	advmod	_	Ref=445
-4	ἰδοῦσα	εἶδον	VERB	v-sapafn-	Case=Nom|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	7	advcl	_	Ref=445
+4	ἰδοῦσα	εἴδω:εἶδον	VERB	v-sapafn-	Case=Nom|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	7	advcl	_	Ref=445
 5	ἔπεα	ἔπος	NOUN	n-p---na-	Case=Acc|Gender=Neut|Number=Plur	7	obj	_	Ref=445
 6	πτερόεντα	πτερόεις	ADJ	a-p---na-	Case=Acc|Gender=Neut|Number=Plur	5	amod	_	Ref=445
 7	προσηύδα	προσαυδάω	VERB	v3siia---	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	0	root	_	Ref=445|SpaceAfter=No
 8	·	·	PUNCT	u--------	_	7	punct	_	_
 
 # sent_id = 2273647
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = Ἆρες, ἔπισχε μένος κρατερὸν καὶ χεῖρας ἀάπτους·
 1	Ἆρες	Ἄρης	PROPN	n-s---mv-	Case=Voc|Gender=Masc|Number=Sing	3	vocative	_	Ref=446|SpaceAfter=No
 2	,	,	PUNCT	u--------	_	1	punct	_	_
@@ -4334,6 +4579,7 @@
 9	·	·	PUNCT	u--------	_	3	punct	_	_
 
 # sent_id = 2273648
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = οὐ γάρ τοι θέμις ἐστὶν ἀπὸ κλυτὰ τεύχεα δῦσαι Ἡρακλέα κτείναντα, Διὸς θρασυκάρδιον υἱόν·
 1	οὐ	οὐ	ADV	d--------	_	4	advmod:neg	_	Ref=447
 2	γάρ	γάρ	ADV	g--------	PartType=Ptcl	4	advmod	_	Ref=447
@@ -4353,6 +4599,7 @@
 16	·	·	PUNCT	u--------	_	4	punct	_	_
 
 # sent_id = 2273649
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = ἀλλ' ἄγε παῦε μάχην, μη δ' ἀντίος ἵστασ' ἐμεῖο.
 1	ἀλλ'	ἀλλά	ADV	d--------	_	3	advmod	_	Ref=449
 2	ἄγε	ἄγε	INTJ	i--------	_	3	discourse	_	Ref=449
@@ -4367,12 +4614,14 @@
 11	.	.	PUNCT	u--------	_	7	punct	_	_
 
 # sent_id = 2273650
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = ὣς ἔφατ'·
 1	ὣς	ὡς	ADV	d--------	_	2	advmod	_	Ref=450
 2	ἔφατ'	φημί	VERB	v3siie---	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=MidPass	0	root	_	Ref=450|SpaceAfter=No
 3	·	·	PUNCT	u--------	_	2	punct	_	_
 
 # sent_id = 2273651
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = ἀλλ' οὐ πεῖθ' Ἄρεος μεγαλήτορα θυμόν, ἀλλὰ μέγα ἰάχων φλογὶ εἴκελά τ' ἔγχεα πάλλων καρπαλίμως ἐπόρουσε βίῃ Ἡρακληείῃ κακτάμεναι μεμαώς·
 1	ἀλλ'	ἀλλά	CCONJ	c--------	_	3	cc	_	Ref=450
 2	οὐ	οὐ	ADV	d--------	_	3	advmod:neg	_	Ref=450
@@ -4398,6 +4647,7 @@
 22	·	·	PUNCT	u--------	_	3	punct	_	_
 
 # sent_id = 2273652
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = καί ῥ̓ ἔμβαλε χάλκεον ἔγχος, σπερχνὸν παιδὸς ἑοῦ κοτέων πέρι τεθνηῶτος, ἐν σάκεϊ μεγάλῳ.
 1	καί	καί	CCONJ	c--------	_	3	cc	_	Ref=453
 2	ῥ̓	ἄρα	ADV	g--------	PartType=Ptcl	3	advmod	_	Ref=453
@@ -4410,7 +4660,7 @@
 9	ἑοῦ	ἑός	ADJ	a-s---mg-	Case=Gen|Gender=Masc|Number=Sing	8	amod	_	Ref=454
 10	κοτέων	κοτέω	VERB	v-sppamn-	Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	3	advcl	_	Ref=454
 11	πέρι	περί	ADP	r--------	_	8	case	_	Ref=454
-12	τεθνηῶτος	θνήσκω	VERB	v-srpamg-	Case=Gen|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	8	amod	_	Ref=454|SpaceAfter=No
+12	τεθνηῶτος	θνῄσκω:θνήσκω	VERB	v-srpamg-	Case=Gen|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	8	amod	_	Ref=454|SpaceAfter=No
 13	,	,	PUNCT	u--------	_	10	punct	_	_
 14	ἐν	ἐν	ADP	r--------	_	15	case	_	Ref=455
 15	σάκεϊ	σάκος	NOUN	n-s---nd-	Case=Dat|Gender=Neut|Number=Sing	3	iobj	_	Ref=455
@@ -4418,6 +4668,7 @@
 17	.	.	PUNCT	u--------	_	3	punct	_	_
 
 # sent_id = 2273653
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = ἀπὸ δὲ γλαυκῶπις Ἀθήνη ἔγχεος ὁρμὴν ἔτραπ' ὀρεξαμένη ἀπὸ δίφρου.
 1	ἀπὸ	ἀπό	ADV	r--------	_	7	compound:prt	_	Ref=455
 2	δὲ	δέ	CCONJ	g--------	PartType=Ptcl	7	cc	_	Ref=455
@@ -4432,6 +4683,7 @@
 11	.	.	PUNCT	u--------	_	7	punct	_	_
 
 # sent_id = 2273654
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = δριμὺ δ' Ἄρην ἄχος εἷλε·
 1	δριμὺ	δριμύς	ADJ	a-s---nn-	Case=Nom|Gender=Neut|Number=Sing	4	amod	_	Ref=457
 2	δ'	δέ	CCONJ	g--------	PartType=Ptcl	5	cc	_	Ref=457
@@ -4441,6 +4693,7 @@
 6	·	·	PUNCT	u--------	_	5	punct	_	_
 
 # sent_id = 2273655
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = ἐρυσσάμενος δ' ἄορ ὀξὺ ἔσσυτ' ἐφ' Ἡρακλέα κρατερόφρονα·
 1	ἐρυσσάμενος	ἐρύω	VERB	v-sapmmn-	Case=Nom|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Mid	5	advcl	_	Ref=457
 2	δ'	δέ	CCONJ	g--------	PartType=Ptcl	5	cc	_	Ref=457
@@ -4453,6 +4706,7 @@
 9	·	·	PUNCT	u--------	_	5	punct	_	_
 
 # sent_id = 2273656
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = τὸν δ' ἐπιόντα Ἀμφιτρυωνιάδης, δεινῆς ἀκόρητος ἀυτῆς, μηρὸν γυμνωθέντα σάκευς ὕπο δαιδαλέοιο οὔτασ' ἐπικρατέως·
 1	τὸν	ὁ	PRON	p-s---ma-	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	obj	_	Ref=458
 2	δ'	δέ	CCONJ	g--------	PartType=Ptcl	15	cc	_	Ref=458
@@ -4473,6 +4727,7 @@
 17	·	·	PUNCT	u--------	_	15	punct	_	_
 
 # sent_id = 2273657
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = διὰ δὲ μέγα σαρκὸς ἄραξε δούρατι νωμήσας, ἐπὶ δὲ χθονὶ κάββαλε μέσσῃ.
 1	διὰ	διά	ADV	r--------	_	5	compound:prt	_	Ref=461
 2	δὲ	δέ	CCONJ	g--------	PartType=Ptcl	5	cc	_	Ref=461
@@ -4490,6 +4745,7 @@
 14	.	.	PUNCT	u--------	_	5	punct	_	_
 
 # sent_id = 2273658
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = τῷ δὲ Φόβος καὶ Δεῖμος ἐύτροχον ἅρμα καὶ ἵππους ἤλασαν αἶψ̓ ἐγγύς, καὶ ἀπὸ χθονὸς εὐρυοδείης ἐς δίφρον θῆκαν πολυδαίδαλον·
 1	τῷ	ὁ	PRON	p-s---md-	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	obl	_	Ref=463
 2	δὲ	δέ	CCONJ	g--------	PartType=Ptcl	10	cc	_	Ref=463
@@ -4515,6 +4771,7 @@
 22	·	·	PUNCT	u--------	_	10	punct	_	_
 
 # sent_id = 2273659
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = αἶψα δ' ἔπειτα ἵππους μαστιέτην·
 1	αἶψα	αἶψα	ADV	d--------	_	5	advmod	_	Ref=465
 2	δ'	δέ	CCONJ	g--------	PartType=Ptcl	5	cc	_	Ref=465
@@ -4524,6 +4781,7 @@
 6	·	·	PUNCT	u--------	_	5	punct	_	_
 
 # sent_id = 2273660
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = ἵκοντο δὲ μακρὸν Ὄλυμπον.
 1	ἵκοντο	ἱκνέομαι	VERB	v3paim---	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Mid	0	root	_	Ref=466
 2	δὲ	δέ	CCONJ	g--------	PartType=Ptcl	1	cc	_	Ref=466
@@ -4532,6 +4790,7 @@
 5	.	.	PUNCT	u--------	_	1	punct	_	_
 
 # sent_id = 2273661
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = υἱὸς δ' Ἀλκμήνης καὶ κυδάλιμος Ἰόλαος Κύκνον σκυλεύσαντες ἀπ' ὤμων τεύχεα καλὰ νίσσοντ'·
 1	υἱὸς	υἱός	NOUN	n-s---mn-	Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	Ref=467
 2	δ'	δέ	CCONJ	g--------	PartType=Ptcl	13	cc	_	Ref=467
@@ -4549,6 +4808,7 @@
 14	·	·	PUNCT	u--------	_	13	punct	_	_
 
 # sent_id = 2273662
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = αἶψα δ' ἔπειτα πόλιν Τρηχῖνος ἵκοντο ἵπποις ὠκυπόδεσσιν.
 1	αἶψα	αἶψα	ADV	d--------	_	6	advmod	_	Ref=469
 2	δ'	δέ	CCONJ	g--------	PartType=Ptcl	6	cc	_	Ref=469
@@ -4561,6 +4821,7 @@
 9	.	.	PUNCT	u--------	_	6	punct	_	_
 
 # sent_id = 2273663
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = ἀτὰρ γλαυκῶπις Ἀθήνη ἐξίκετ' Οὔλυμπόν τε μέγαν καὶ δώματα πατρός.
 1	ἀτὰρ	ἀτάρ	ADV	g--------	PartType=Ptcl	4	advmod	_	Ref=470
 2	γλαυκῶπις	γλαυκῶπις	ADJ	a-s---fn-	Case=Nom|Gender=Fem|Number=Sing	3	amod	_	Ref=470
@@ -4575,6 +4836,7 @@
 11	.	.	PUNCT	u--------	_	4	punct	_	_
 
 # sent_id = 2273664
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = κύκνον δ' αὖ Κῆυξ θάπτεν καὶ λαὸς ἀπείρων, οἵ ῥ̓ ἐγγὺς ναῖον πόλιας κλειτοῦ βασιλῆος Ἄνθην Μυρμιδόνων τε πόλιν κλειτήν τ' Ἰαωλκὸν Ἄρνην τ' ἠδ' Ἑλίκην·
 1	κύκνον	Κύκνος	NOUN	n-s---ma-	Case=Acc|Gender=Masc|Number=Sing	5	obj	_	Ref=472
 2	δ'	δέ	CCONJ	g--------	PartType=Ptcl	5	cc	_	Ref=472
@@ -4606,6 +4868,7 @@
 28	·	·	PUNCT	u--------	_	5	punct	_	_
 
 # sent_id = 2273665
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = πολλὸς δ' ἠγείρετο λαός, τιμῶντες Κήυκα, φίλον μακάρεσσι θεοῖσιν.
 1	πολλὸς	πολύς	ADJ	a-s---mn-	Case=Nom|Gender=Masc|Number=Sing	4	amod	_	Ref=475
 2	δ'	δέ	CCONJ	g--------	PartType=Ptcl	3	cc	_	Ref=475
@@ -4621,6 +4884,7 @@
 12	.	.	PUNCT	u--------	_	3	punct	_	_
 
 # sent_id = 2273666
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = τοῦ δὲ τάφον καὶ σῆμ' ἀιδὲς ποίησεν Ἄναυρος ὄμβρῳ χειμερίῳ πλήθων·
 1	τοῦ	ὁ	PRON	p-s---mg-	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	nmod	_	Ref=477
 2	δὲ	δέ	CCONJ	g--------	PartType=Ptcl	7	cc	_	Ref=477
@@ -4636,6 +4900,7 @@
 12	·	·	PUNCT	u--------	_	7	punct	_	_
 
 # sent_id = 2273667
+# sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = τὼς γάρ μιν Ἀπόλλων Λητοΐδης ἤνωξ̓, ὅτι ῥα κλειτὰς ἑκατόμβας ὅστις ἄγοι Πυθοῖδε βίῃ σύλασκε δοκεύων.
 1	τὼς	τώς	ADV	d--------	_	6	advmod	_	Ref=478
 2	γάρ	γάρ	ADV	g--------	PartType=Ptcl	6	cc	_	Ref=478
