@@ -15097,31 +15097,31 @@
 
 # text = αἲ γὰρ δὴ ψυχῆς τε καὶ αἰῶνός σε δυναίμην εὖνιν ποιήσας πέμψαι δόμον Ἄϊδος εἴσω, ὡς οὐκ ὀφθαλμόν γ' ἰήσεται οὐ δ' ἐνοσίχθων.
 # sent_id =2188006
-1	αἲ	αἴ	_	e--------	_	9	AuxY	_	9.523=null
-2	γὰρ	γάρ	_	g--------	_	9	AuxY	_	9.523=null
-3	δὴ	δή	_	g--------	_	9	AuxY	_	9.523=null
-4	ψυχῆς	ψυχή	_	n-s---fg-	_	6	ATR_CO	_	9.523=null
-5	τε	τε	_	g--------	_	6	AuxY	_	9.523=null
-6	καὶ	καί	_	c--------	_	10	COORD	_	9.523=null
-7	αἰῶνός	αἰών	_	n-s---mg-	_	6	ATR_CO	_	9.523=null
-8	σε	σύ	_	p-s----a-	_	12	OBJ	_	9.523=null
-9	δυναίμην	δύναμαι	_	v1spoe---	_	0	root	_	9.524=null
-10	εὖνιν	εὖνις	_	a-s---ma-	_	11	OCOMP	_	9.524=null
-11	ποιήσας	ποιέω	_	v-sapamn-	_	12	ADV	_	9.524=null
-12	πέμψαι	πέμπω	_	v--ana---	_	9	OBJ	_	9.524=null
-13	δόμον	δόμος	_	n-s---ma-	_	15	OBJ	_	9.524=null
-14	Ἄϊδος	Ἀίδης	_	n-s---mg-	_	13	ATR	_	9.524=null
-15	εἴσω	εἴσω	_	r--------	_	12	AuxP	_	9.524=null|SpaceAfter=No
-16	,	comma	_	u--------	_	17	AuxX	_	9.524=null
-17	ὡς	ὡς	_	c--------	_	12	AuxC	_	9.525=null
-18	οὐκ	οὐ	_	d--------	_	21	AuxZ	_	9.525=null
-19	ὀφθαλμόν	ὀφθαλμός	_	n-s---ma-	_	21	OBJ	_	9.525=null
-20	γ'	γε	_	g--------	_	19	AuxZ	_	9.525=null
-21	ἰήσεται	ἰάομαι	_	v3sfie---	_	17	ADV	_	9.525=null
-22	οὐ	οὐ	_	d--------	_	24	AuxZ	_	9.525=null
-23	δ'	δέ	_	g--------	_	22	AuxZ	_	9.525=null
-24	ἐνοσίχθων	Ἐνοσίχθων	_	n-s---mn-	_	21	SBJ	_	9.525=null|SpaceAfter=No
-25	.	period	_	u--------	_	0	root	_	9.525=null
+1	αἲ	αἴ	INTJ	e--------	_	9	discourse	_	9.523=null
+2	γὰρ	γάρ	ADV	g--------	_	9	advmod	_	9.523=null
+3	δὴ	δή	ADV	g--------	_	9	advmod	_	9.523=null
+4	ψυχῆς	ψυχή	NOUN	n-s---fg-	_	10	obl	_	9.523=null
+5	τε	τε	CCONJ	g--------	_	4	cc	_	9.523=null
+6	καὶ	καί	CCONJ	c--------	_	7	cc	_	9.523=null
+7	αἰῶνός	αἰών	NOUN	n-s---mg-	_	4	conj	_	9.523=null
+8	σε	σύ	PROPN	p-s----a-	_	12	OBJ	_	9.523=null
+9	δυναίμην	δύναμαι	VERB	v1spoe---	_	0	root	_	9.524=null
+10	εὖνιν	εὖνις	ADJ	a-s---ma-	_	11	xcomp	_	9.524=null
+11	ποιήσας	ποιέω	VERB	v-sapamn-	_	12	advcl	_	9.524=null
+12	πέμψαι	πέμπω	VERB	v--ana---	_	9	xcomp	_	9.524=null
+13	δόμον	δόμος	NOUN	n-s---ma-	_	12	advmod	_	9.524=null
+14	Ἄϊδος	Ἀίδης	PRON	n-s---mg-	_	13	nmod	_	9.524=null
+15	εἴσω	εἴσω	ADP	r--------	_	13	case	_	9.524=null|SpaceAfter=No
+16	,	comma	PUNCT	u--------	_	21	punct	_	9.524=null
+17	ὡς	ὡς	SCONJ	c--------	_	21	mark	_	9.525=null
+18	οὐκ	οὐ	ADV	d--------	_	21	advmod	_	9.525=null
+19	ὀφθαλμόν	ὀφθαλμός	NOUN	n-s---ma-	_	21	OBJ	_	9.525=null
+20	γ'	γε	ADV	g--------	_	19	advmod	_	9.525=null
+21	ἰήσεται	ἰάομαι	VERB	v3sfie---	_	12	advcl	_	9.525=null
+22	οὐ	οὐ	ADV	d--------	_	24	advmod:neg	_	9.525=null
+23	δ'	δέ	ADV	g--------	_	24	advmod	_	9.525=null
+24	ἐνοσίχθων	Ἐνοσίχθων	NOUN	n-s---mn-	_	21	SBJ	_	9.525=null|SpaceAfter=No
+25	.	period	PUNCT	u--------	_	9	punct	_	9.525=null
 
 # text = ' " ὣς ἐφάμην, ὁ δ' ἔπειτα Ποσειδάωνι ἄνακτι εὔχετο χεῖρ' ὀρέγων εἰς οὐρανὸν ἀστερόεντα:
 # sent_id =2188007
