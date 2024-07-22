@@ -36087,7 +36087,7 @@
 9	;	;	PUNCT	u--------	_	4	punct	_	Ref=6.57
 
 # sent_id = 2275951
-# sentannotators <primary>jlnord</primary> <primary>millermo</primary> <secondary>nicanor</secondary>
+# sentannotators <primary>jlnord</primary> <primary>millermo</primary> <secondary>nicanor</secondary> GRCMS
 # Speaker = Agamemnon
 # text = τῶν μή τις ὑπεκφύγοι αἰπὺν ὄλεθρον χεῖράς θ' ἡμετέρας, μηδ' ὅν τινα γαστέρι μήτηρ κοῦρον ἐόντα φέροι, μηδ' ὃς φύγοι, ἀλλ' ἅμα πάντες Ἰλίου ἐξαπολοίατ' ἀκήδεστοι καὶ ἄφαντοι.
 1	τῶν	ὁ	PRON	p-p---mg-	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	nmod	_	Ref=6.57
@@ -36116,7 +36116,7 @@
 24	ἀλλ'	ἀλλά	ADV	d--------	_	28	cc	_	Ref=6.59
 25	ἅμα	ἅμα	ADV	d--------	_	28	advmod	_	Ref=6.59
 26	πάντες	πᾶς	PRON	a-p---mn-	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	28	nsubj	_	Ref=6.59
-27	Ἰλίου	Ἴλιος	ADJ	a-s---fg-	Case=Gen|Gender=Fem|Number=Sing	28	obj	_	Ref=6.60
+27	Ἰλίου	Ἴλιος	ADJ	a-s---fg-	Case=Gen|Gender=Fem|Number=Sing	26	nmod	_	Ref=6.60
 28	ἐξαπολοίατ'	ἐξαπόλλυμι	VERB	v3paom---	Mood=Opt|Number=Plur|Person=3|Voice=Mid	4	conj	_	Ref=6.60
 29	ἀκήδεστοι	ἀκήδεστος	ADJ	a-p---mn-	Case=Nom|Gender=Masc|Number=Plur	26	acl:compl	_	Ref=6.60
 30	καὶ	καί	CCONJ	c--------	_	31	cc	_	Ref=6.60
