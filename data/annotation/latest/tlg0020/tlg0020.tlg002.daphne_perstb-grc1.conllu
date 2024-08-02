@@ -30,7 +30,7 @@
 
 # sent_id = 1715892
 # sentannotators <primary>millermo</primary> <primary>megluthin</primary> <secondary>tovahk</secondary>
-# text = ὅντε διὰ βροτοὶ ἄνδρες ὁμῶς ἄφατοί τε φατοί τε, ῥητοί τ̓ ἄρρητοί τε Διὸς μεγάλοιο ἕκητι.
+# text = ὅντε διὰ βροτοὶ ἄνδρες ὁμῶς ἄφατοί τε φατοί τε, ῥητοί τ' ἄρρητοί τε Διὸς μεγάλοιο ἕκητι.
 1	ὅντε	ὅστε	PRON	p-s---ma-	Case=Acc|Gender=Masc|Number=Sing	6	obl	_	Ref=1
 2	διὰ	διά	ADP	r--------	_	1	case	_	Ref=1
 3	βροτοὶ	βροτός	NOUN	n-p---mn-	Case=Nom|Gender=Masc|Number=Plur	4	nmod	_	Ref=1
@@ -42,7 +42,7 @@
 9	τε	τε	CCONJ	c--------	_	8	cc	_	Ref=1|SpaceAfter=No
 10	,	,	PUNCT	u--------	_	11	punct	_	Ref=1
 11	ῥητοί	ῥητός	ADJ	a-p---mn-	Case=Nom|Gender=Masc|Number=Plur	6	conj	_	Ref=1
-12	τ̓	τε	CCONJ	c--------	_	13	cc	_	Ref=1
+12	τ'	τε	CCONJ	c--------	_	13	cc	_	Ref=1
 13	ἄρρητοί	ἄρρητος	ADJ	a-p---mn-	Case=Nom|Gender=Masc|Number=Plur	11	conj	_	Ref=1
 14	τε	τε	CCONJ	c--------	_	13	cc	_	Ref=1
 15	Διὸς	Ζεύς	PROPN	n-s---mg-	Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	Ref=1
@@ -52,7 +52,7 @@
 
 # sent_id = 1715893
 # sentannotators <primary>millermo</primary> <primary>megluthin</primary> <secondary>tovahk</secondary>
-# text = ῥέα μὲν γὰρ βριάει, ῥέα δὲ βριάοντα χαλέπτει, ῥεῖα δ̓ ἀρίζηλον μινύθει καὶ ἄδηλον ἀέξει, ῥεῖα δέ τ̓ ἰθύνει σκολιὸν καὶ ἀγήνορα κάρφει Ζεὺς ὑψιβρεμέτης, ὃς ὑπέρτατα δώματα ναίει.
+# text = ῥέα μὲν γὰρ βριάει, ῥέα δὲ βριάοντα χαλέπτει, ῥεῖα δ̓ ἀρίζηλον μινύθει καὶ ἄδηλον ἀέξει, ῥεῖα δέ τ' ἰθύνει σκολιὸν καὶ ἀγήνορα κάρφει Ζεὺς ὑψιβρεμέτης, ὃς ὑπέρτατα δώματα ναίει.
 1	ῥέα	ῥέα	ADV	d--------	_	4	advmod	_	Ref=1
 2	μὲν	μέν	ADV	g--------	PartType=Ptcl	4	advmod	_	Ref=1
 3	γὰρ	γάρ	ADV	g--------	PartType=Ptcl	4	advmod	_	Ref=1
@@ -73,7 +73,7 @@
 18	,	,	PUNCT	u--------	_	22	punct	_	Ref=1
 19	ῥεῖα	ῥεῖα	ADV	d--------	_	22	advmod	_	Ref=1
 20	δέ	δέ	CCONJ	g--------	PartType=Ptcl	22	cc	_	Ref=1
-21	τ̓	τε	CCONJ	c--------	_	22	cc	_	Ref=1
+21	τ'	τε	CCONJ	c--------	_	22	cc	_	Ref=1
 22	ἰθύνει	ἰθύνω	VERB	v3spia---	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	4	conj	_	Ref=1
 23	σκολιὸν	σκολιός	ADJ	a-s---ma-	Case=Acc|Gender=Masc|Number=Sing	22	obj	_	Ref=1
 24	καὶ	καί	CCONJ	c--------	_	26	cc	_	Ref=1
@@ -239,7 +239,7 @@
 
 # sent_id = 1715903
 # sentannotators <primary>millermo</primary> <primary>megluthin</primary> <secondary>tovahk</secondary>
-# text = εἰς ἕτερον γάρ τίς τε ἰδὼν ἔργοιο χατίζει πλούσιον, ὃς σπεύδει μὲν ἀρώμεναι ἠδὲ φυτεύειν οἶκόν τ̓ εὖ θέσθαι·
+# text = εἰς ἕτερον γάρ τίς τε ἰδὼν ἔργοιο χατίζει πλούσιον, ὃς σπεύδει μὲν ἀρώμεναι ἠδὲ φυτεύειν οἶκόν τ' εὖ θέσθαι·
 1	εἰς	εἰς	ADP	r--------	_	2	case	_	Ref=11
 2	ἕτερον	ἕτερος	ADJ	a-s---ma-	Case=Acc|Gender=Masc|Number=Sing	6	obl:arg	_	Ref=11
 3	γάρ	γάρ	ADV	g--------	PartType=Ptcl	8	advmod	_	Ref=11
@@ -257,14 +257,14 @@
 15	ἠδὲ	ἠδέ	CCONJ	c--------	_	16	cc	_	Ref=11
 16	φυτεύειν	φυτεύω	VERB	v--pna---	Tense=Pres|VerbForm=Inf|Voice=Act	14	conj	_	Ref=11
 17	οἶκόν	οἶκος	NOUN	n-s---ma-	Case=Acc|Gender=Masc|Number=Sing	20	obj	_	Ref=11
-18	τ̓	τε	CCONJ	c--------	_	20	cc	_	Ref=11
+18	τ'	τε	CCONJ	c--------	_	20	cc	_	Ref=11
 19	εὖ	εὖ	ADV	d--------	_	20	advmod	_	Ref=11
 20	θέσθαι	τίθημι	VERB	v--ane---	VerbForm=Inf|Voice=MidPass	14	conj	_	Ref=11|SpaceAfter=No
 21	·	·	PUNCT	u--------	_	8	punct	_	Ref=11
 
 # sent_id = 1715904
 # sentannotators <primary>millermo</primary> <primary>megluthin</primary> <secondary>tovahk</secondary>
-# text = ζηλοῖ δέ τε γείτονα γείτων εἰς ἄφενος σπεύδοντ̓·
+# text = ζηλοῖ δέ τε γείτονα γείτων εἰς ἄφενος σπεύδοντ'·
 1	ζηλοῖ	ζηλόω	VERB	v3spia---	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	Ref=11
 2	δέ	δέ	CCONJ	g--------	PartType=Ptcl	1	cc	_	Ref=11
 3	τε	τε	ADV	c--------	_	1	advmod	_	Ref=11
@@ -272,7 +272,7 @@
 5	γείτων	γείτων	NOUN	n-s---mn-	Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	Ref=11
 6	εἰς	εἰς	ADP	r--------	_	7	case	_	Ref=11
 7	ἄφενος	ἄφενος	NOUN	n-s---na-	Case=Acc|Gender=Neut|Number=Sing	8	obl:arg	_	Ref=11
-8	σπεύδοντ̓	σπεύδω	VERB	v-sppama-	Case=Acc|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	1	advcl	_	Ref=11|SpaceAfter=No
+8	σπεύδοντ'	σπεύδω	VERB	v-sppama-	Case=Acc|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	1	advcl	_	Ref=11|SpaceAfter=No
 9	·	·	PUNCT	u--------	_	1	punct	_	Ref=11
 
 # sent_id = 1715905
@@ -309,7 +309,7 @@
 
 # sent_id = 1715907
 # sentannotators <primary>millermo</primary> <primary>megluthin</primary> <secondary>tovahk</secondary>
-# text = ὦ Πέρση, σὺ δὲ ταῦτα τεῷ ἐνικάτθεο θυμῷ, μηδέ σ' Ἔρις κακόχαρτος ἀπ' ἔργου θυμὸν ἐρύκοι νείκἐ ὀπιπεύοντ̓ ἀγορῆς ἐπακουὸν ἐόντα.
+# text = ὦ Πέρση, σὺ δὲ ταῦτα τεῷ ἐνικάτθεο θυμῷ, μηδέ σ' Ἔρις κακόχαρτος ἀπ' ἔργου θυμὸν ἐρύκοι νείκἐ ὀπιπεύοντ' ἀγορῆς ἐπακουὸν ἐόντα.
 1	ὦ	ὦ	INTJ	i--------	_	2	discourse	_	Ref=11
 2	Πέρση	Πέρσης	PROPN	n-s---mv-	Case=Voc|Gender=Masc|Number=Sing	8	vocative	_	Ref=11|SpaceAfter=No
 3	,	,	PUNCT	u--------	_	2	punct	_	Ref=11
@@ -329,7 +329,7 @@
 17	θυμὸν	θυμός	NOUN	n-s---ma-	Case=Acc|Gender=Masc|Number=Sing	18	obj	_	Ref=11
 18	ἐρύκοι	ἐρύκω	VERB	v3spoa---	Mood=Opt|Number=Sing|Person=3|Tense=Pres|Voice=Act	8	conj	_	Ref=11
 19	νείκἐ	νεῖκος	NOUN	n-p---na-	Case=Acc|Gender=Neut|Number=Plur	20	obj	_	Ref=11
-20	ὀπιπεύοντ̓	ὀπιπτεύω	VERB	v-sppama-	Case=Acc|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	18	advcl	_	Ref=11
+20	ὀπιπεύοντ'	ὀπιπτεύω	VERB	v-sppama-	Case=Acc|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	18	advcl	_	Ref=11
 21	ἀγορῆς	ἀγορά	NOUN	n-s---fg-	Case=Gen|Gender=Fem|Number=Sing	22	nmod	_	Ref=11
 22	ἐπακουὸν	ἐπακουός	ADJ	a-s---ma-	Case=Acc|Gender=Masc|Number=Sing	18	advcl	_	Ref=11
 23	ἐόντα	εἰμί	AUX	v-sppama-	Case=Acc|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	22	cop	_	Ref=11|SpaceAfter=No
@@ -337,14 +337,14 @@
 
 # sent_id = 1715908
 # sentannotators <primary>millermo</primary> <primary>megluthin</primary> <secondary>tovahk</secondary>
-# text = ὤρη γάρ τ̓ ὀλίγη πέλεται νεικέων τ̓ ἀγορέων τε, ᾧτινι μὴ βίος ἔνδον ἐπηετανὸς κατάκειται ὡραῖος, τὸν γαῖα φέρει, Δημήτερος ἀκτήν.
+# text = ὤρη γάρ τ' ὀλίγη πέλεται νεικέων τ' ἀγορέων τε, ᾧτινι μὴ βίος ἔνδον ἐπηετανὸς κατάκειται ὡραῖος, τὸν γαῖα φέρει, Δημήτερος ἀκτήν.
 1	ὤρη	ὤρα	NOUN	n-s---fn-	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	Ref=11
 2	γάρ	γάρ	ADV	g--------	PartType=Ptcl	5	advmod	_	Ref=11
-3	τ̓	τε	ADV	c--------	_	5	advmod	_	Ref=11
+3	τ'	τε	ADV	c--------	_	5	advmod	_	Ref=11
 4	ὀλίγη	ὀλίγος	ADJ	a-s---fn-	Case=Nom|Gender=Fem|Number=Sing	5	xcomp	_	Ref=11
 5	πέλεται	πέλω	VERB	v3spie---	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=MidPass	0	root	_	Ref=11
 6	νεικέων	νεῖκος	NOUN	n-p---ng-	Case=Gen|Gender=Neut|Number=Plur	1	nmod	_	Ref=11
-7	τ̓	τε	CCONJ	c--------	_	8	cc	_	Ref=11
+7	τ'	τε	CCONJ	c--------	_	8	cc	_	Ref=11
 8	ἀγορέων	ἀγορά	NOUN	n-p---fg-	Case=Gen|Gender=Fem|Number=Plur	6	conj	_	Ref=11
 9	τε	τε	CCONJ	c--------	_	8	cc	_	Ref=11|SpaceAfter=No
 10	,	,	PUNCT	u--------	_	16	punct	_	Ref=11
@@ -393,7 +393,7 @@
 
 # sent_id = 1715911
 # sentannotators <primary>millermo</primary> <primary>megluthin</primary> <secondary>tovahk</secondary>
-# text = ἀλλ' αὖθι διακρινώμεθα νεῖκος ἰθείῃσι δίκῃς, αἵ τ̓ ἐκ Διός εἰσιν ἄρισται.
+# text = ἀλλ' αὖθι διακρινώμεθα νεῖκος ἰθείῃσι δίκῃς, αἵ τ' ἐκ Διός εἰσιν ἄρισται.
 1	ἀλλ'	ἀλλά	ADV	d--------	_	3	advmod	_	Ref=11
 2	αὖθι	αὖθι	ADV	d--------	_	3	advmod	_	Ref=11
 3	διακρινώμεθα	διακρίνω	VERB	v1ppse---	Mood=Sub|Number=Plur|Person=1|Tense=Pres|Voice=MidPass	0	root	_	Ref=11
@@ -402,7 +402,7 @@
 6	δίκῃς	δίκη	NOUN	n-p---fd-	Case=Dat|Gender=Fem|Number=Plur	3	obl	_	Ref=11|SpaceAfter=No
 7	,	,	PUNCT	u--------	_	13	punct	_	Ref=11
 8	αἵ	ὅς	PRON	p-p---fn-	Case=Nom|Gender=Fem|Number=Plur|PronType=Rel	13	nsubj	_	Ref=11
-9	τ̓	τε	ADV	c--------	_	13	advmod	_	Ref=11
+9	τ'	τε	ADV	c--------	_	13	advmod	_	Ref=11
 10	ἐκ	ἐκ	ADP	r--------	_	11	case	_	Ref=11
 11	Διός	Ζεύς	PROPN	n-s---mg-	Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	Ref=11
 12	εἰσιν	εἰμί	AUX	v3ppia---	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	13	cop	_	Ref=11
@@ -582,7 +582,7 @@
 
 # sent_id = 1715922
 # sentannotators <primary>millermo</primary> <primary>megluthin</primary> <secondary>tovahk</secondary>
-# text = Ἰαπετιονίδη, πάντων πέρι μήδεα εἰδώς, χαίρεις πῦρ κλέψας καὶ ἐμὰς φρένας ἠπεροπεύσας, σοί τ̓ αὐτῷ μέγα πῆμα καὶ ἀνδράσιν ἐσσομένοισιν.
+# text = Ἰαπετιονίδη, πάντων πέρι μήδεα εἰδώς, χαίρεις πῦρ κλέψας καὶ ἐμὰς φρένας ἠπεροπεύσας, σοί τ' αὐτῷ μέγα πῆμα καὶ ἀνδράσιν ἐσσομένοισιν.
 1	Ἰαπετιονίδη		PROPN	n-s---mv-	Case=Voc|Gender=Masc|Number=Sing	8	vocative	_	Ref=42|SpaceAfter=No
 2	,	,	PUNCT	u--------	_	6	punct	_	Ref=42
 3	πάντων	πᾶς	PRON	a-p---mg-	Case=Gen|Gender=Masc|Number=Plur|PronType=Ind	6	obl	_	Ref=42
@@ -599,7 +599,7 @@
 14	ἠπεροπεύσας	ἠπεροπεύω	VERB	v-sapamn-	Case=Nom|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	10	conj	_	Ref=42|SpaceAfter=No
 15	,	,	PUNCT	u--------	_	20	punct	_	Ref=42
 16	σοί	σύ	PRON	p-s----d-	Case=Dat|Number=Sing|Person=2|PronType=Prs	20	obl	_	Ref=42
-17	τ̓	σύ	PRON	p-s----a-	Case=Acc|Number=Sing|Person=2|PronType=Prs	16	advmod	_	Ref=42
+17	τ'	σύ	PRON	p-s----a-	Case=Acc|Number=Sing|Person=2|PronType=Prs	16	advmod	_	Ref=42
 18	αὐτῷ	αὐτός	PRON	a-s---md-	Case=Dat|Gender=Masc|Number=Sing|PronType=Prs	16	acl:compl	_	Ref=42
 19	μέγα	μέγας	ADJ	a-s---nn-	Case=Nom|Gender=Neut|Number=Sing	20	amod	_	Ref=42
 20	πῆμα	πῆμα	NOUN	n-s---nn-	Case=Nom|Gender=Neut|Number=Sing	10	appos	_	Ref=42
@@ -632,9 +632,9 @@
 
 # sent_id = 1715924
 # sentannotators <primary>millermo</primary> <primary>megluthin</primary> <secondary>tovahk</secondary>
-# text = ὣς ἔφατ̓·
+# text = ὣς ἔφατ'·
 1	ὣς	ὡς	ADV	d--------	_	2	advmod	_	Ref=59
-2	ἔφατ̓	φημί	VERB	v3siie---	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=MidPass	0	root	_	Ref=59|SpaceAfter=No
+2	ἔφατ'	φημί	VERB	v3siie---	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=MidPass	0	root	_	Ref=59|SpaceAfter=No
 3	·	·	PUNCT	u--------	_	2	punct	_	Ref=59
 
 # sent_id = 1715925
@@ -854,7 +854,7 @@
 
 # sent_id = 1715938
 # sentannotators <primary>millermo</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
-# text = ἐν δ̓ ἄρα φωνὴν] θῆκε θεῶν κῆρυξ, ὀνόμηνε δὲ τήνδε γυναῖκα Πανδώρην, ὅτι πάντες Ὀλύμπια δώματ̓ ἔχοντες δῶρον ἐδώρησαν, πῆμ' ἀνδράσιν ἀλφηστῇσιν.
+# text = ἐν δ̓ ἄρα φωνὴν] θῆκε θεῶν κῆρυξ, ὀνόμηνε δὲ τήνδε γυναῖκα Πανδώρην, ὅτι πάντες Ὀλύμπια δώματ' ἔχοντες δῶρον ἐδώρησαν, πῆμ' ἀνδράσιν ἀλφηστῇσιν.
 1	ἐν	ἐν	ADV	r--------	_	5	compound:prt	_	Ref=59
 2	δ̓	δέ	CCONJ	g--------	PartType=Ptcl	5	cc	_	Ref=59
 3	ἄρα	ἄρα	ADV	g--------	PartType=Ptcl	5	advmod	_	Ref=59
@@ -872,7 +872,7 @@
 15	ὅτι	ὅτι	SCONJ	c--------	_	21	mark	_	Ref=59
 16	πάντες	πᾶς	DET	a-p---mn-	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	19	det	_	Ref=59
 17	Ὀλύμπια	Ὀλύμπιος	ADJ	a-p---na-	Case=Acc|Gender=Neut|Number=Plur	18	amod	_	Ref=59
-18	δώματ̓	δῶμα	NOUN	n-p---na-	Case=Acc|Gender=Neut|Number=Plur	19	obj	_	Ref=59
+18	δώματ'	δῶμα	NOUN	n-p---na-	Case=Acc|Gender=Neut|Number=Plur	19	obj	_	Ref=59
 19	ἔχοντες	ἔχω	VERB	v-pppamn-	Case=Nom|Gender=Masc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	21	nsubj	_	Ref=59
 20	δῶρον	δῶρον	NOUN	n-s---na-	Case=Acc|Gender=Neut|Number=Sing	21	obj	_	Ref=59
 21	ἐδώρησαν	δωρέω	VERB	v3paia---	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	9	advcl	_	Ref=59|SpaceAfter=No
@@ -955,7 +955,7 @@
 
 # sent_id = 1715942
 # sentannotators <primary>millermo</primary> <primary>megluthin</primary> <secondary>tovahk</secondary>
-# text = Πρὶν μὲν γὰρ ζώεσκον ἐπὶ χθονὶ φῦλ' ἀνθρώπων νόσφιν ἄτερ τε κακῶν καὶ ἄτερ χαλεποῖο πόνοιο νούσων τ̓ ἀργαλέων, αἵ τ̓ ἀνδράσι Κῆρας ἔδωκαν.
+# text = Πρὶν μὲν γὰρ ζώεσκον ἐπὶ χθονὶ φῦλ' ἀνθρώπων νόσφιν ἄτερ τε κακῶν καὶ ἄτερ χαλεποῖο πόνοιο νούσων τ' ἀργαλέων, αἵ τ' ἀνδράσι Κῆρας ἔδωκαν.
 1	Πρὶν	πρίν	ADV	d--------	_	4	advmod	_	Ref=83
 2	μὲν	μέν	ADV	g--------	PartType=Ptcl	4	advmod	_	Ref=83
 3	γὰρ	γάρ	ADV	g--------	PartType=Ptcl	4	advmod	_	Ref=83
@@ -973,11 +973,11 @@
 15	χαλεποῖο	χαλεπός	ADJ	a-s---mg-	Case=Gen|Gender=Masc|Number=Sing	16	amod	_	Ref=83
 16	πόνοιο	πόνος	NOUN	n-s---mg-	Case=Gen|Gender=Masc|Number=Sing	12	conj	_	Ref=83
 17	νούσων	νοῦσος	NOUN	n-p---fg-	Case=Gen|Gender=Fem|Number=Plur	16	conj	_	Ref=83
-18	τ̓	σύ	PRON	p-s----a-	Case=Acc|Number=Sing|Person=2|PronType=Prs	16	cc	_	Ref=83
+18	τ'	σύ	PRON	p-s----a-	Case=Acc|Number=Sing|Person=2|PronType=Prs	16	cc	_	Ref=83
 19	ἀργαλέων	ἀργαλέος	ADJ	a-p---fg-	Case=Gen|Gender=Fem|Number=Plur	17	amod	_	Ref=83|SpaceAfter=No
 20	,	,	PUNCT	u--------	_	25	punct	_	Ref=83
 21	αἵ	ὅς	PRON	p-p---fn-	Case=Nom|Gender=Fem|Number=Plur|PronType=Rel	25	nsubj	_	Ref=83
-22	τ̓	τε	ADV	c--------	_	25	advmod	_	Ref=83
+22	τ'	τε	ADV	c--------	_	25	advmod	_	Ref=83
 23	ἀνδράσι	ἀνήρ	NOUN	n-p---md-	Case=Dat|Gender=Masc|Number=Plur	25	iobj	_	Ref=83
 24	Κῆρας	Κήρ	PROPN	n-p---fa-	Case=Acc|Gender=Fem|Number=Plur	25	obj	_	Ref=83
 25	ἔδωκαν	δίδωμι	VERB	v3paia---	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	17	acl:relcl	_	Ref=83|SpaceAfter=No
@@ -1055,13 +1055,13 @@
 
 # sent_id = 1715948
 # sentannotators <primary>millermo</primary> <primary>megluthin</primary> <secondary>tovahk</secondary>
-# text = ] ἄλλα δὲ μυρία λυγρὰ κατ̓ ἀνθρώπους ἀλάληται·
+# text = ] ἄλλα δὲ μυρία λυγρὰ κατ' ἀνθρώπους ἀλάληται·
 1	]	]	PUNCT	u--------	_	8	punct	_	Ref=83
 2	ἄλλα	ἄλλος	DET	a-p---nn-	Case=Nom|Gender=Neut|Number=Plur|PronType=Ind	5	det	_	Ref=83
 3	δὲ	δέ	CCONJ	g--------	PartType=Ptcl	8	cc	_	Ref=83
 4	μυρία	μυρίος	ADJ	a-p---nn-	Case=Nom|Gender=Neut|Number=Plur	5	amod	_	Ref=83
 5	λυγρὰ	λυγρός	ADJ	a-p---nn-	Case=Nom|Gender=Neut|Number=Plur	8	nsubj	_	Ref=83
-6	κατ̓	κατά	ADP	r--------	_	7	case	_	Ref=83
+6	κατ'	κατά	ADP	r--------	_	7	case	_	Ref=83
 7	ἀνθρώπους	ἄνθρωπος	NOUN	n-p---ma-	Case=Acc|Gender=Masc|Number=Plur	8	obl	_	Ref=83
 8	ἀλάληται	ἀλάλημαι	VERB	v3spie---	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=MidPass	0	root	_	Ref=83|SpaceAfter=No
 9	·	·	PUNCT	u--------	_	8	punct	_	Ref=83
@@ -1150,20 +1150,20 @@
 
 # sent_id = 1715954
 # sentannotators <primary>millermo</primary> <primary>megluthin</primary> <secondary>tovahk</secondary>
-# text = ὡς ὁμόθεν γεγάασι θεοὶ θνητοί τ̓ ἄνθρωποι.
+# text = ὡς ὁμόθεν γεγάασι θεοὶ θνητοί τ' ἄνθρωποι.
 0.1	E0.1	_	_	_	_	_	_	0:root	_
 1	ὡς	ὡς	ADV	d--------	_	3	advmod	3:advmod	Ref=83
 2	ὁμόθεν	ὁμόθεν	ADV	d--------	_	3	advmod	3:advmod	Ref=83
 3	γεγάασι	γίγνομαι	VERB	v3pria---	Mood=Ind|Number=Plur|Person=3|Voice=Act	0	root	0.1:ccomp	Ref=83
 4	θεοὶ	θεός	NOUN	n-p---mn-	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	3:nsubj	Ref=83
 5	θνητοί	θνητός	ADJ	a-p---mn-	Case=Nom|Gender=Masc|Number=Plur	7	amod	7:amod	Ref=83
-6	τ̓	τε	CCONJ	c--------	_	7	cc	7:cc	Ref=83
+6	τ'	τε	CCONJ	c--------	_	7	cc	7:cc	Ref=83
 7	ἄνθρωποι	ἄνθρωπος	NOUN	n-p---mn-	Case=Nom|Gender=Masc|Number=Plur	4	conj	4:conj	Ref=83|SpaceAfter=No
 8	.	.	PUNCT	u--------	_	3	punct	0.1:punct	Ref=83
 
 # sent_id = 1715955
 # sentannotators <primary>millermo</primary> <primary>megluthin</primary> <secondary>tovahk</secondary>
-# text = χρύσεον μὲν πρώτιστα γένος μερόπων ἀνθρώπων ἀθάνατοι ποίησαν Ὀλύμπια δώματ̓ ἔχοντες.
+# text = χρύσεον μὲν πρώτιστα γένος μερόπων ἀνθρώπων ἀθάνατοι ποίησαν Ὀλύμπια δώματ' ἔχοντες.
 1	χρύσεον	χρύσεος	ADJ	a-s---na-	Case=Acc|Gender=Neut|Number=Sing	4	amod	_	Ref=109
 2	μὲν	μέν	ADV	g--------	PartType=Ptcl	8	advmod	_	Ref=109
 3	πρώτιστα	πρώτιστος	ADJ	a-p---na-	Case=Acc|Gender=Neut|Number=Plur	8	obl	_	Ref=109
@@ -1173,20 +1173,20 @@
 7	ἀθάνατοι	ἀθάνατος	ADJ	a-p---mn-	Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	Ref=109
 8	ποίησαν	ποιέω	VERB	v3paia---	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	Ref=109
 9	Ὀλύμπια	Ὀλύμπιος	ADJ	a-p---na-	Case=Acc|Gender=Neut|Number=Plur	10	amod	_	Ref=109
-10	δώματ̓	δῶμα	NOUN	n-p---na-	Case=Acc|Gender=Neut|Number=Plur	11	obj	_	Ref=109
+10	δώματ'	δῶμα	NOUN	n-p---na-	Case=Acc|Gender=Neut|Number=Plur	11	obj	_	Ref=109
 11	ἔχοντες	ἔχω	VERB	v-pppamn-	Case=Nom|Gender=Masc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	7	amod	_	Ref=109|SpaceAfter=No
 12	.	.	PUNCT	u--------	_	8	punct	_	Ref=109
 
 # sent_id = 1715956
 # sentannotators <primary>millermo</primary> <primary>megluthin</primary> <secondary>tovahk</secondary>
-# text = οἳ μὲν ἐπὶ Κρόνου ἦσαν, ὅτ̓ οὐρανῷ ἐμβασίλευεν·
+# text = οἳ μὲν ἐπὶ Κρόνου ἦσαν, ὅτ' οὐρανῷ ἐμβασίλευεν·
 1	οἳ	ὅς	PRON	p-p---mn-	Case=Nom|Gender=Masc|Number=Plur|PronType=Rel	5	nsubj	_	Ref=109
 2	μὲν	μέν	ADV	g--------	PartType=Ptcl	5	advmod	_	Ref=109
 3	ἐπὶ	ἐπί	ADP	r--------	_	4	case	_	Ref=109
 4	Κρόνου	Κρόνος	PROPN	n-s---mg-	Case=Gen|Gender=Masc|Number=Sing	5	obl	_	Ref=109
 5	ἦσαν	εἰμί	VERB	v3piia---	Mood=Ind|Number=Plur|Person=3|Tense=Imp|Voice=Act	0	root	_	Ref=109|SpaceAfter=No
 6	,	,	PUNCT	u--------	_	9	punct	_	Ref=109
-7	ὅτ̓	ὅτε	ADV	d--------	_	9	advmod	_	Ref=109
+7	ὅτ'	ὅτε	ADV	d--------	_	9	advmod	_	Ref=109
 8	οὐρανῷ	οὐρανός	NOUN	n-s---md-	Case=Dat|Gender=Masc|Number=Sing	9	obj	_	Ref=109
 9	ἐμβασίλευεν	ἐμβασιλεύω	VERB	v3siia---	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	5	advcl	_	Ref=109|SpaceAfter=No
 10	·	·	PUNCT	u--------	_	5	punct	_	Ref=109
@@ -1212,7 +1212,7 @@
 
 # sent_id = 1715958
 # sentannotators <primary>millermo</primary> <primary>megluthin</primary> <secondary>tovahk</secondary>
-# text = οὐδέ τι δειλὸν γῆρας ἐπῆν, αἰεὶ δὲ πόδας καὶ χεῖρας ὁμοῖοι τέρποντ̓ ἐν θαλίῃσι κακῶν ἔκτοσθεν ἁπάντων·
+# text = οὐδέ τι δειλὸν γῆρας ἐπῆν, αἰεὶ δὲ πόδας καὶ χεῖρας ὁμοῖοι τέρποντ' ἐν θαλίῃσι κακῶν ἔκτοσθεν ἁπάντων·
 1	οὐδέ	οὐδέ	CCONJ	c--------	_	5	cc	_	Ref=109|SpaceAfter=No
 2	τι	τις	PRON	p-s---na-	Case=Acc|Gender=Neut|Number=Sing|PronType=Ind	5	advmod	_	Ref=109
 3	δειλὸν	δειλός	ADJ	a-s---nn-	Case=Nom|Gender=Neut|Number=Sing	4	amod	_	Ref=109
@@ -1225,7 +1225,7 @@
 10	καὶ	καί	CCONJ	c--------	_	11	cc	_	Ref=109
 11	χεῖρας	χείρ	NOUN	n-p---fa-	Case=Acc|Gender=Fem|Number=Plur	9	conj	_	Ref=109
 12	ὁμοῖοι	ὅμοιος	ADJ	a-p---mn-	Case=Nom|Gender=Masc|Number=Plur	13	obl	_	Ref=109
-13	τέρποντ̓	τέρπω	VERB	v3piie---	Mood=Ind|Number=Plur|Person=3|Tense=Imp|Voice=MidPass	5	conj	_	Ref=109
+13	τέρποντ'	τέρπω	VERB	v3piie---	Mood=Ind|Number=Plur|Person=3|Tense=Imp|Voice=MidPass	5	conj	_	Ref=109
 14	ἐν	ἐν	ADP	r--------	_	15	case	_	Ref=109
 15	θαλίῃσι	θαλία	NOUN	n-p---fd-	Case=Dat|Gender=Fem|Number=Plur	13	obl	_	Ref=109
 16	κακῶν	κακός	ADJ	a-p---mg-	Case=Gen|Gender=Masc|Number=Plur	13	obl	_	Ref=109
@@ -1342,7 +1342,7 @@
 
 # sent_id = 1715965
 # sentannotators <primary>millermo</primary> <primary>megluthin</primary> <secondary>tovahk</secondary>
-# text = καὶ τοῦτο γέρας βασιλήιον ἔσχον -, δεύτερον αὖτε γένος πολὺ χειρότερον μετόπισθεν ἀργύρεον ποίησαν Ὀλύμπια δώματ̓ ἔχοντες, χρυσέῳ οὔ τε φυὴν ἐναλίγκιον οὔ τε νόημα.
+# text = καὶ τοῦτο γέρας βασιλήιον ἔσχον -, δεύτερον αὖτε γένος πολὺ χειρότερον μετόπισθεν ἀργύρεον ποίησαν Ὀλύμπια δώματ' ἔχοντες, χρυσέῳ οὔ τε φυὴν ἐναλίγκιον οὔ τε νόημα.
 1	καὶ	καί	CCONJ	c--------	_	5	cc	_	Ref=109
 2	τοῦτο	οὗτος	DET	a-s---na-	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	3	det	_	Ref=109
 3	γέρας	γέρας	NOUN	n-s---na-	Case=Acc|Gender=Neut|Number=Sing	5	obj	_	Ref=109
@@ -1359,7 +1359,7 @@
 14	ἀργύρεον	ἀργύρεος	ADJ	a-s---na-	Case=Acc|Gender=Neut|Number=Sing	10	amod	_	Ref=109
 15	ποίησαν	ποιέω	VERB	v3paia---	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	Ref=109
 16	Ὀλύμπια	Ὀλύμπιος	ADJ	a-p---na-	Case=Acc|Gender=Neut|Number=Plur	17	amod	_	Ref=109
-17	δώματ̓	δῶμα	NOUN	n-p---na-	Case=Acc|Gender=Neut|Number=Plur	18	obj	_	Ref=109
+17	δώματ'	δῶμα	NOUN	n-p---na-	Case=Acc|Gender=Neut|Number=Plur	18	obj	_	Ref=109
 18	ἔχοντες	ἔχω	VERB	v-pppamn-	Case=Nom|Gender=Masc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	15	nsubj	_	Ref=109|SpaceAfter=No
 19	,	,	PUNCT	u--------	_	24	punct	_	Ref=109
 20	χρυσέῳ	χρύσεος	ADJ	a-s---md-	Case=Dat|Gender=Masc|Number=Sing	24	obj	_	Ref=109
@@ -1374,7 +1374,7 @@
 
 # sent_id = 1715966
 # sentannotators <primary>millermo</primary> <primary>megluthin</primary> <secondary>tovahk</secondary>
-# text = ἀλλ' ἑκατὸν μὲν παῖς ἔτεα παρὰ μητέρι κεδνῇ ἐτρέφετ̓ ἀτάλλων, μέγα νήπιος, ᾧ ἐνὶ οἴκῳ.
+# text = ἀλλ' ἑκατὸν μὲν παῖς ἔτεα παρὰ μητέρι κεδνῇ ἐτρέφετ' ἀτάλλων, μέγα νήπιος, ᾧ ἐνὶ οἴκῳ.
 1	ἀλλ'	ἀλλά	ADV	d--------	_	9	advmod	_	Ref=109
 2	ἑκατὸν	ἑκατόν	X	m--------	_	5	nummod	_	Ref=109
 3	μὲν	μέν	ADV	g--------	PartType=Ptcl	9	advmod	_	Ref=109
@@ -1383,7 +1383,7 @@
 6	παρὰ	παρά	ADP	r--------	_	7	case	_	Ref=109
 7	μητέρι	μήτηρ	NOUN	n-s---fd-	Case=Dat|Gender=Fem|Number=Sing	9	obl	_	Ref=109
 8	κεδνῇ	κεδνός	ADJ	a-s---fd-	Case=Dat|Gender=Fem|Number=Sing	7	amod	_	Ref=109
-9	ἐτρέφετ̓	τρέφω	VERB	v3siie---	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=MidPass	0	root	_	Ref=109
+9	ἐτρέφετ'	τρέφω	VERB	v3siie---	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=MidPass	0	root	_	Ref=109
 10	ἀτάλλων	ἀτάλλω	VERB	v-sppamn-	Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	9	advcl	_	Ref=109|SpaceAfter=No
 11	,	,	PUNCT	u--------	_	13	punct	_	Ref=109
 12	μέγα	μέγας	ADJ	a-s---na-	Case=Acc|Gender=Neut|Number=Sing	13	advmod	_	Ref=109
@@ -1396,9 +1396,9 @@
 
 # sent_id = 1715967
 # sentannotators <primary>millermo</primary> <primary>megluthin</primary> <secondary>tovahk</secondary>
-# text = ἀλλ' ὅτ̓ ἄῤ ἡβήσαι τε καὶ ἥβης μέτρον ἵκοιτο, παυρίδιον ζώεσκον ἐπὶ χρόνον, ἄλγἐ ἔχοντες ἀφραδίῃς·
+# text = ἀλλ' ὅτ' ἄῤ ἡβήσαι τε καὶ ἥβης μέτρον ἵκοιτο, παυρίδιον ζώεσκον ἐπὶ χρόνον, ἄλγἐ ἔχοντες ἀφραδίῃς·
 1	ἀλλ'	ἀλλά	ADV	d--------	_	12	advmod	_	Ref=109
-2	ὅτ̓	ὅτε	ADV	d--------	_	4	advmod	_	Ref=109
+2	ὅτ'	ὅτε	ADV	d--------	_	4	advmod	_	Ref=109
 3	ἄῤ	ἄρα	ADV	g--------	PartType=Ptcl	4	advmod	_	Ref=109
 4	ἡβήσαι	ἡβάω	VERB	v3saoa---	Mood=Opt|Number=Sing|Person=3|Voice=Act	12	advcl	_	Ref=109
 5	τε	τε	CCONJ	c--------	_	9	cc	_	Ref=109
@@ -1641,7 +1641,7 @@
 
 # sent_id = 1715978
 # sentannotators <primary>millermo</primary> <primary>megluthin</primary> <secondary>tovahk</secondary>
-# text = αὐτὰρ ἐπεὶ καὶ τοῦτο γένος κατὰ γαῖ̓ ἐκάλυψεν, αὖτις ἔτ̓ ἄλλο τέταρτον ἐπὶ χθονὶ πουλυβοτείρῃ Ζεὺς Κρονίδης ποίησε, δικαιότερον καὶ ἄρειον, ἀνδρῶν ἡρώων θεῖον γένος, οἳ καλέονται ἡμίθεοι, προτέρη γενεὴ κατ̓ ἀπείρονα γαῖαν.
+# text = αὐτὰρ ἐπεὶ καὶ τοῦτο γένος κατὰ γαῖ̓ ἐκάλυψεν, αὖτις ἔτ' ἄλλο τέταρτον ἐπὶ χθονὶ πουλυβοτείρῃ Ζεὺς Κρονίδης ποίησε, δικαιότερον καὶ ἄρειον, ἀνδρῶν ἡρώων θεῖον γένος, οἳ καλέονται ἡμίθεοι, προτέρη γενεὴ κατ' ἀπείρονα γαῖαν.
 1	αὐτὰρ	ἀτάρ	ADV	g--------	PartType=Ptcl	19	advmod	_	Ref=140
 2	ἐπεὶ	ἐπεί	SCONJ	c--------	_	8	mark	_	Ref=140
 3	καὶ	καί	ADV	d--------	_	5	advmod	_	Ref=140
@@ -1652,7 +1652,7 @@
 8	ἐκάλυψεν	καλύπτω	VERB	v3saia---	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	19	advcl	_	Ref=140|SpaceAfter=No
 9	,	,	PUNCT	u--------	_	8	punct	_	Ref=140
 10	αὖτις	αὖθις	ADV	d--------	_	19	advmod	_	Ref=140
-11	ἔτ̓	ἔτι	ADV	d--------	_	12	advmod	_	Ref=140
+11	ἔτ'	ἔτι	ADV	d--------	_	12	advmod	_	Ref=140
 12	ἄλλο	ἄλλος	DET	a-s---na-	Case=Acc|Gender=Neut|Number=Sing|PronType=Ind	28	det	_	Ref=140
 13	τέταρτον	τέταρτος	ADJ	a-s---na-	Case=Acc|Gender=Neut|Number=Sing	28	amod	_	Ref=140
 14	ἐπὶ	ἐπί	ADP	r--------	_	15	case	_	Ref=140
@@ -1677,7 +1677,7 @@
 33	,	,	PUNCT	u--------	_	35	punct	_	Ref=140
 34	προτέρη	πρότερος	ADJ	a-s---fn-	Case=Nom|Gender=Fem|Number=Sing	35	amod	_	Ref=140
 35	γενεὴ	γενεά	NOUN	n-s---fn-	Case=Nom|Gender=Fem|Number=Sing	30	appos	_	Ref=140
-36	κατ̓	κατά	ADP	r--------	_	38	case	_	Ref=140
+36	κατ'	κατά	ADP	r--------	_	38	case	_	Ref=140
 37	ἀπείρονα	ἀπείρων	ADJ	a-s---fa-	Case=Acc|Gender=Fem|Number=Sing	38	amod	_	Ref=140
 38	γαῖαν	γαῖα	NOUN	n-s---fa-	Case=Acc|Gender=Fem|Number=Sing	35	nmod	_	Ref=140|SpaceAfter=No
 39	.	.	PUNCT	u--------	_	19	punct	_	Ref=140
@@ -1834,11 +1834,11 @@
 
 # sent_id = 1715986
 # sentannotators <primary>millermo</primary> <primary>megluthin</primary> <secondary>tovahk</secondary>
-# text = Πέμπτον δ̓ αὖτις ἔτ̓ ἄ]λλο γένος θῆκ' [εὐρύοπα Ζεὺς ἀνδρῶν, οἳ] γεγάασιν ἐπὶ [χθονὶ πουλυβοτείρῃ.
+# text = Πέμπτον δ̓ αὖτις ἔτ' ἄ]λλο γένος θῆκ' [εὐρύοπα Ζεὺς ἀνδρῶν, οἳ] γεγάασιν ἐπὶ [χθονὶ πουλυβοτείρῃ.
 1	Πέμπτον	πέμπτος	ADJ	a-s---na-	Case=Acc|Gender=Neut|Number=Sing	6	amod	_	Ref=140
 2	δ̓	δέ	CCONJ	g--------	PartType=Ptcl	7	cc	_	Ref=140
 3	αὖτις	αὖθις	ADV	d--------	_	7	advmod	_	Ref=140
-4	ἔτ̓	ἔτι	ADV	d--------	_	5	advmod	_	Ref=140
+4	ἔτ'	ἔτι	ADV	d--------	_	5	advmod	_	Ref=140
 5	ἄ]λλο	ἄλλος	DET	a-s---na-	Case=Acc|Gender=Neut|Number=Sing|PronType=Ind	6	det	_	Ref=140
 6	γένος	γένος	NOUN	n-s---na-	Case=Acc|Gender=Neut|Number=Sing	7	obj	_	Ref=140
 7	θῆκ'	τίθημι	VERB	v3saia---	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	Ref=140
@@ -1860,9 +1860,9 @@
 
 # sent_id = 1715988
 # sentannotators <primary>millermo</primary> <primary>megluthin</primary> <secondary>tovahk</secondary>
-# text = μηκέτ̓ ἔπειτ̓ ὤφελλον ἐγὼ πέμπτοισι μετεῖναι ἀνδράσιν, ἀλλ' ἢ πρόσθε θανεῖν ἢ ἔπειτα γενέσθαι.
-1	μηκέτ̓	μηκέτι	ADV	d--------	_	6	advmod	_	Ref=174
-2	ἔπειτ̓	ἔπειτα	ADV	d--------	_	3	advmod	_	Ref=174
+# text = μηκέτ' ἔπειτ' ὤφελλον ἐγὼ πέμπτοισι μετεῖναι ἀνδράσιν, ἀλλ' ἢ πρόσθε θανεῖν ἢ ἔπειτα γενέσθαι.
+1	μηκέτ'	μηκέτι	ADV	d--------	_	6	advmod	_	Ref=174
+2	ἔπειτ'	ἔπειτα	ADV	d--------	_	3	advmod	_	Ref=174
 3	ὤφελλον	ὀφέλλω	VERB	v1saia---	Mood=Ind|Number=Sing|Person=1|Tense=Past|Voice=Act	0	root	_	Ref=174
 4	ἐγὼ	ἐγώ	PRON	p-s---mn-	Case=Nom|Gender=Masc|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	Ref=174
 5	πέμπτοισι	πέμπτος	ADJ	a-p---md-	Case=Dat|Gender=Masc|Number=Plur	7	amod	_	Ref=174
@@ -1891,9 +1891,9 @@
 
 # sent_id = 1715990
 # sentannotators <primary>millermo</primary> <primary>megluthin</primary> <secondary>tovahk</secondary>
-# text = οὐδέ ποτ̓ ἦμαρ παύονται καμάτου καὶ ὀιζύος, οὐδέ τι νύκτωρ φθειρόμενοι.
+# text = οὐδέ ποτ' ἦμαρ παύονται καμάτου καὶ ὀιζύος, οὐδέ τι νύκτωρ φθειρόμενοι.
 1	οὐδέ	οὐδέ	CCONJ	c--------	_	4	cc	5:advmod	Ref=174|SpaceAfter=No
-2	ποτ̓	ποτέ	ADV	g--------	PartType=Ptcl	4	advmod	5:advmod	Ref=174
+2	ποτ'	ποτέ	ADV	g--------	PartType=Ptcl	4	advmod	5:advmod	Ref=174
 3	ἦμαρ	ἦμαρ	NOUN	n-s---na-	Case=Acc|Gender=Neut|Number=Sing	4	obl	5:obl	Ref=174
 4	παύονται	παύω	VERB	v3ppie---	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=MidPass	0	root	0:root	Ref=174
 5	καμάτου	κάματος	NOUN	n-s---mg-	Case=Gen|Gender=Masc|Number=Sing	4	obj	5:obj	Ref=174
@@ -1931,7 +1931,7 @@
 
 # sent_id = 1715993
 # sentannotators <primary>millermo</primary> <primary>megluthin</primary> <secondary>tovahk</secondary>
-# text = Ζεὺς δ̓ ὀλέσει καὶ τοῦτο γένος μερόπων ἀνθρώπων, εὖτ̓ ἂν γεινόμενοι πολιοκρόταφοι τελέθωσιν.
+# text = Ζεὺς δ̓ ὀλέσει καὶ τοῦτο γένος μερόπων ἀνθρώπων, εὖτ' ἂν γεινόμενοι πολιοκρόταφοι τελέθωσιν.
 1	Ζεὺς	Ζεύς	PROPN	n-s---mn-	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	Ref=174
 2	δ̓	δέ	CCONJ	g--------	PartType=Ptcl	3	cc	_	Ref=174
 3	ὀλέσει	ὄλλυμι	VERB	v3sfia---	Mood=Ind|Number=Sing|Person=3|Tense=Fut|Voice=Act	0	root	_	Ref=174
@@ -1941,7 +1941,7 @@
 7	μερόπων	μέροψ	NOUN	n-p---mg-	Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	Ref=174
 8	ἀνθρώπων	ἄνθρωπος	NOUN	n-p---mg-	Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	Ref=174|SpaceAfter=No
 9	,	,	PUNCT	u--------	_	14	punct	_	Ref=174
-10	εὖτ̓	εὔτε	ADV	d--------	_	14	advmod	_	Ref=174
+10	εὖτ'	εὔτε	ADV	d--------	_	14	advmod	_	Ref=174
 11	ἂν	ἄν	ADV	g--------	PartType=Ptcl	14	advmod	_	Ref=174
 12	γεινόμενοι	γείνομαι	VERB	v-pppemn-	Case=Nom|Gender=Masc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=MidPass	14	advcl:compl	_	Ref=174
 13	πολιοκρόταφοι	πολιοκρόταφος	ADJ	a-p---mn-	Case=Nom|Gender=Masc|Number=Plur	14	xcomp	_	Ref=174
@@ -2035,7 +2035,7 @@
 
 # sent_id = 1715999
 # sentannotators <primary>millermo</primary> <primary>megluthin</primary> <secondary>tovahk</secondary>
-# text = οὐδέ τις εὐόρκου χάρις ἔσσεται οὔ τε δικαίου οὔ τ̓ ἀγαθοῦ, μᾶλλον δὲ κακῶν ῥεκτῆρα καὶ ὕβριν ἀνέρες αἰνήσουσι·
+# text = οὐδέ τις εὐόρκου χάρις ἔσσεται οὔ τε δικαίου οὔ τ' ἀγαθοῦ, μᾶλλον δὲ κακῶν ῥεκτῆρα καὶ ὕβριν ἀνέρες αἰνήσουσι·
 1	οὐδέ	οὐδέ	CCONJ	c--------	_	3	cc	_	Ref=174|SpaceAfter=No
 2	τις	τις	DET	p-s---fn-	Case=Nom|Gender=Fem|Number=Sing|PronType=Ind	4	det	_	Ref=174
 3	εὐόρκου	εὔορκος	ADJ	a-s---mg-	Case=Gen|Gender=Masc|Number=Sing	4	amod	_	Ref=174
@@ -2045,7 +2045,7 @@
 7	τε	τε	CCONJ	c--------	_	8	cc	_	Ref=174
 8	δικαίου	δίκαιος	ADJ	a-s---mg-	Case=Gen|Gender=Masc|Number=Sing	3	conj	_	Ref=174
 9	οὔ	οὐ	ADV	d--------	_	11	advmod:neg	_	Ref=174
-10	τ̓	τε	CCONJ	c--------	_	11	cc	_	Ref=174
+10	τ'	τε	CCONJ	c--------	_	11	cc	_	Ref=174
 11	ἀγαθοῦ	ἀγαθός	ADJ	a-s---mg-	Case=Gen|Gender=Masc|Number=Sing	3	conj	_	Ref=174|SpaceAfter=No
 12	,	,	PUNCT	u--------	_	20	punct	_	Ref=174
 13	μᾶλλον	μᾶλλον	ADV	d--------	_	20	advmod	_	Ref=174
@@ -2110,7 +2110,7 @@
 
 # sent_id = 1716003
 # sentannotators <primary>millermo</primary> <primary>megluthin</primary> <secondary>tovahk</secondary>
-# text = καὶ τότε δὴ πρὸς Ὄλυμπον ἀπὸ χθονὸς εὐρυοδείης λευκοῖσιν φάρεσσι καλυψαμένα χρόα καλὸν ἀθανάτων μετὰ φῦλον ἴτον προλιπόντ̓ ἀνθρώπους Αἰδὼς καὶ Νέμεσις·
+# text = καὶ τότε δὴ πρὸς Ὄλυμπον ἀπὸ χθονὸς εὐρυοδείης λευκοῖσιν φάρεσσι καλυψαμένα χρόα καλὸν ἀθανάτων μετὰ φῦλον ἴτον προλιπόντ' ἀνθρώπους Αἰδὼς καὶ Νέμεσις·
 1	καὶ	καί	ADV	d--------	_	17	advmod	_	Ref=174
 2	τότε	τότε	ADV	d--------	_	17	advmod	_	Ref=174
 3	δὴ	δή	ADV	g--------	PartType=Ptcl	17	advmod	_	Ref=174
@@ -2128,7 +2128,7 @@
 15	μετὰ	μετά	ADP	r--------	_	16	case	_	Ref=174
 16	φῦλον	φῦλον	NOUN	n-s---na-	Case=Acc|Gender=Neut|Number=Sing	17	obl:arg	_	Ref=174
 17	ἴτον	εἶμι	VERB	v3dpia---	Mood=Ind|Number=Dual|Person=3|Tense=Pres|Voice=Act	0	root	_	Ref=174
-18	προλιπόντ̓	προλείπω	VERB	v-dapafn-	Case=Nom|Gender=Fem|Number=Dual|VerbForm=Part|Voice=Pass	17	advcl	_	Ref=174
+18	προλιπόντ'	προλείπω	VERB	v-dapafn-	Case=Nom|Gender=Fem|Number=Dual|VerbForm=Part|Voice=Pass	17	advcl	_	Ref=174
 19	ἀνθρώπους	ἄνθρωπος	NOUN	n-p---ma-	Case=Acc|Gender=Masc|Number=Plur	18	obj	_	Ref=174
 20	Αἰδὼς	αἰδώς	PROPN	n-s---fn-	Case=Nom|Gender=Fem|Number=Sing	17	nsubj	_	Ref=174
 21	καὶ	καί	CCONJ	c--------	_	22	cc	_	Ref=174
@@ -2281,12 +2281,12 @@
 
 # sent_id = 1716015
 # sentannotators <primary>millermo</primary> <primary>megluthin</primary> <secondary>tovahk</secondary>
-# text = νίκης τε στέρεται πρός τ̓ αἴσχεσιν ἄλγεα πάσχει.
+# text = νίκης τε στέρεται πρός τ' αἴσχεσιν ἄλγεα πάσχει.
 1	νίκης	νίκη	NOUN	n-s---fg-	Case=Gen|Gender=Fem|Number=Sing	3	obj	_	Ref=202
 2	τε	τε	CCONJ	c--------	_	3	cc	_	Ref=202
 3	στέρεται	στέρομαι	VERB	v3spie---	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=MidPass	0	root	_	Ref=202
 4	πρός	πρός	ADP	r--------	_	6	case	_	Ref=202
-5	τ̓	τε	CCONJ	c--------	_	8	cc	_	Ref=202
+5	τ'	τε	CCONJ	c--------	_	8	cc	_	Ref=202
 6	αἴσχεσιν	αἶσχος	NOUN	n-p---nd-	Case=Dat|Gender=Neut|Number=Plur	8	obl	_	Ref=202
 7	ἄλγεα	ἄλγος	NOUN	n-p---na-	Case=Acc|Gender=Neut|Number=Plur	8	obj	_	Ref=202
 8	πάσχει	πάσχω	VERB	v3spia---	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	conj	_	Ref=202|SpaceAfter=No
@@ -2294,9 +2294,9 @@
 
 # sent_id = 1716016
 # sentannotators <primary>millermo</primary> <primary>megluthin</primary> <secondary>tovahk</secondary>
-# text = ὣς ἔφατ̓ ὠκυπέτης ἴρηξ, τανυσίπτερος ὄρνις.
+# text = ὣς ἔφατ' ὠκυπέτης ἴρηξ, τανυσίπτερος ὄρνις.
 1	ὣς	ὡς	ADV	d--------	_	2	advmod	_	Ref=202
-2	ἔφατ̓	φημί	VERB	v3siie---	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=MidPass	0	root	_	Ref=202
+2	ἔφατ'	φημί	VERB	v3siie---	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=MidPass	0	root	_	Ref=202
 3	ὠκυπέτης	ὠκυπέτης	NOUN	n-s---mn-	Case=Nom|Gender=Masc|Number=Sing	4	nmod	_	Ref=202
 4	ἴρηξ	ἱέραξ	NOUN	n-s---mn-	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	Ref=202|SpaceAfter=No
 5	,	,	PUNCT	u--------	_	7	punct	_	Ref=202
@@ -2481,7 +2481,7 @@
 
 # sent_id = 1716027
 # sentannotators <primary>millermo</primary> <primary>megluthin</primary> <secondary>tovahk</secondary>
-# text = εἰρήνη δ̓ ἀνὰ γῆν κουροτρόφος, οὐδέ ποτ̓ αὐτοῖς ἀργαλέον πόλεμον τεκμαίρεται εὐρύοπα Ζεύς·
+# text = εἰρήνη δ̓ ἀνὰ γῆν κουροτρόφος, οὐδέ ποτ' αὐτοῖς ἀργαλέον πόλεμον τεκμαίρεται εὐρύοπα Ζεύς·
 0.1	E0.1	_	_	_	_	_	_	13:conj	_
 1	εἰρήνη	εἰρήνη	NOUN	n-s---fn-	Case=Nom|Gender=Fem|Number=Sing	12	conj	0.1:nsubj	Ref=202
 2	δ̓	δέ	CCONJ	g--------	PartType=Ptcl	12	cc	13:cc	Ref=202
@@ -2490,7 +2490,7 @@
 5	κουροτρόφος	κουροτρόφος	ADJ	a-s---fn-	Case=Nom|Gender=Fem|Number=Sing	1	amod	1:amod	Ref=202|SpaceAfter=No
 6	,	,	PUNCT	u--------	_	5	punct	5:punct	Ref=202
 7	οὐδέ	οὐδέ	CCONJ	c--------	_	12	cc	13:advmod	Ref=202|SpaceAfter=No
-8	ποτ̓	ποτέ	ADV	g--------	PartType=Ptcl	12	advmod	13:advmod	Ref=202
+8	ποτ'	ποτέ	ADV	g--------	PartType=Ptcl	12	advmod	13:advmod	Ref=202
 9	αὐτοῖς	αὐτός	PRON	a-p---md-	Case=Dat|Gender=Masc|Number=Plur|PronType=Prs	12	iobj	13:iobj	Ref=202
 10	ἀργαλέον	ἀργαλέος	ADJ	a-s---ma-	Case=Acc|Gender=Masc|Number=Sing	11	amod	12:amod	Ref=202
 11	πόλεμον	πόλεμος	NOUN	n-s---ma-	Case=Acc|Gender=Masc|Number=Sing	12	obj	13:obj	Ref=202
@@ -2501,11 +2501,11 @@
 
 # sent_id = 1716028
 # sentannotators <primary>millermo</primary> <primary>megluthin</primary> <secondary>tovahk</secondary>
-# text = οὐδέ ποτ̓ ἰθυδίκῃσι μετ̓ ἀνδράσι λιμὸς ὀπηδεῖ οὐ δ̓ ἄτη, θαλίῃς δὲ μεμηλότα ἔργα νέμονται.
+# text = οὐδέ ποτ' ἰθυδίκῃσι μετ' ἀνδράσι λιμὸς ὀπηδεῖ οὐ δ̓ ἄτη, θαλίῃς δὲ μεμηλότα ἔργα νέμονται.
 1	οὐδέ	οὐδέ	CCONJ	c--------	_	6	cc	_	Ref=202|SpaceAfter=No
-2	ποτ̓	ποτέ	ADV	g--------	PartType=Ptcl	7	advmod	_	Ref=202
+2	ποτ'	ποτέ	ADV	g--------	PartType=Ptcl	7	advmod	_	Ref=202
 3	ἰθυδίκῃσι	ἰθυδίκης	NOUN	n-p---md-	Case=Dat|Gender=Masc|Number=Plur	5	nmod	_	Ref=202
-4	μετ̓	μετά	ADP	r--------	_	5	case	_	Ref=202
+4	μετ'	μετά	ADP	r--------	_	5	case	_	Ref=202
 5	ἀνδράσι	ἀνήρ	NOUN	n-p---md-	Case=Dat|Gender=Masc|Number=Plur	7	obl:arg	_	Ref=202
 6	λιμὸς	λιμός	NOUN	n-s---mn-	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	Ref=202
 7	ὀπηδεῖ	ὀπαδέω	VERB	v3spia---	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	Ref=202
@@ -2773,7 +2773,7 @@
 
 # sent_id = 1716044
 # sentannotators <primary>millermo</primary> <primary>megluthin</primary> <secondary>tovahk</secondary>
-# text = ἡ δέ τε παρθένος ἐστὶ Δίκη, Διὸς ἐκγεγαυῖα, κυδρή τ̓ αἰδοίη τε θεῶν, οἳ Ὄλυμπον ἔχουσιν.
+# text = ἡ δέ τε παρθένος ἐστὶ Δίκη, Διὸς ἐκγεγαυῖα, κυδρή τ' αἰδοίη τε θεῶν, οἳ Ὄλυμπον ἔχουσιν.
 1	ἡ	ὁ	PRON	l--------	Definite=Def|PronType=Art	4	nmod	_	Ref=238
 2	δέ	δέ	CCONJ	g--------	PartType=Ptcl	5	cc	_	Ref=238
 3	τε	τε	ADV	c--------	_	5	advmod	_	Ref=238
@@ -2785,7 +2785,7 @@
 9	ἐκγεγαυῖα	ἐκγίγνομαι	VERB	v-srpafn-	Case=Nom|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	6	amod	_	Ref=238|SpaceAfter=No
 10	,	,	PUNCT	u--------	_	11	punct	_	Ref=238
 11	κυδρή	κυδρός	ADJ	a-s---fn-	Case=Nom|Gender=Fem|Number=Sing	6	amod	_	Ref=238
-12	τ̓	τε	CCONJ	c--------	_	13	cc	_	Ref=238
+12	τ'	τε	CCONJ	c--------	_	13	cc	_	Ref=238
 13	αἰδοίη	αἰδοῖος	ADJ	a-s---fn-	Case=Nom|Gender=Fem|Number=Sing	11	conj	_	Ref=238
 14	τε	τε	CCONJ	c--------	_	13	cc	_	Ref=238
 15	θεῶν	θεός	NOUN	n-p---mg-	Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	Ref=238|SpaceAfter=No
@@ -2797,10 +2797,10 @@
 
 # sent_id = 1716045
 # sentannotators <primary>millermo</primary> <primary>megluthin</primary> <secondary>tovahk</secondary>
-# text = καί ῥ̓ ὁπότ̓ ἄν τίς μιν βλάπτῃ σκολιῶς ὀνοτάζων, αὐτίκα πὰρ Διὶ πατρὶ καθεζομένη Κρονίωνι γηρύετ̓ ἀνθρώπων ἄδικον νόον, ὄφῤ ἀποτίσῃ δῆμος ἀτασθαλίας βασιλέων, οἳ λυγρὰ νοεῦντες ἄλλῃ παρκλίνωσι δίκας σκολιῶς ἐνέποντες.
+# text = καί ῥ̓ ὁπότ' ἄν τίς μιν βλάπτῃ σκολιῶς ὀνοτάζων, αὐτίκα πὰρ Διὶ πατρὶ καθεζομένη Κρονίωνι γηρύετ' ἀνθρώπων ἄδικον νόον, ὄφῤ ἀποτίσῃ δῆμος ἀτασθαλίας βασιλέων, οἳ λυγρὰ νοεῦντες ἄλλῃ παρκλίνωσι δίκας σκολιῶς ἐνέποντες.
 1	καί	καί	CCONJ	c--------	_	17	cc	_	Ref=238
 2	ῥ̓	ἄρα	ADV	g--------	PartType=Ptcl	7	advmod	_	Ref=238
-3	ὁπότ̓	ὁπότε	ADV	d--------	_	7	advmod	_	Ref=238
+3	ὁπότ'	ὁπότε	ADV	d--------	_	7	advmod	_	Ref=238
 4	ἄν	ἄν	ADV	g--------	PartType=Ptcl	7	advmod	_	Ref=238
 5	τίς	τις	PRON	p-s---mn-	Case=Nom|Gender=Masc|Number=Sing|PronType=Ind	7	nsubj	_	Ref=238
 6	μιν	μιν	PRON	p-s---fa-	Case=Acc|Gender=Fem|Number=Sing	7	obj	_	Ref=238
@@ -2814,7 +2814,7 @@
 14	πατρὶ	πατήρ	NOUN	n-s---md-	Case=Dat|Gender=Masc|Number=Sing	13	nmod	_	Ref=238
 15	καθεζομένη		VERB	v-sppefn-	Case=Nom|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=MidPass	17	advcl	_	Ref=238
 16	Κρονίωνι	Κρονίων	PROPN	n-s---md-	Case=Dat|Gender=Masc|Number=Sing	13	nmod	_	Ref=238
-17	γηρύετ̓	γηρύω	VERB	v3spie---	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=MidPass	0	root	_	Ref=238
+17	γηρύετ'	γηρύω	VERB	v3spie---	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=MidPass	0	root	_	Ref=238
 18	ἀνθρώπων	ἄνθρωπος	NOUN	n-p---mg-	Case=Gen|Gender=Masc|Number=Plur	20	nmod	_	Ref=238
 19	ἄδικον	ἄδικος	ADJ	a-s---ma-	Case=Acc|Gender=Masc|Number=Sing	20	amod	_	Ref=238
 20	νόον	νόος	NOUN	n-s---ma-	Case=Acc|Gender=Masc|Number=Sing	17	obj	_	Ref=238|SpaceAfter=No
@@ -2914,17 +2914,17 @@
 
 # sent_id = 1716049
 # sentannotators <primary>millermo</primary> <primary>megluthin</primary> <secondary>tovahk</secondary>
-# text = νῦν δὴ ἐγὼ μήτ̓ αὐτὸς ἐν ἀνθρώποισι δίκαιος εἴην μήτ̓ ἐμὸς υἱός·
+# text = νῦν δὴ ἐγὼ μήτ' αὐτὸς ἐν ἀνθρώποισι δίκαιος εἴην μήτ' ἐμὸς υἱός·
 1	νῦν	νῦν	ADV	d--------	_	8	advmod	_	Ref=238
 2	δὴ	δή	ADV	g--------	PartType=Ptcl	8	advmod	_	Ref=238
 3	ἐγὼ	ἐγώ	PRON	p-s---mn-	Case=Nom|Gender=Masc|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	Ref=238
-4	μήτ̓	μήτε	CCONJ	g--------	_	12	cc	_	Ref=238
+4	μήτ'	μήτε	CCONJ	g--------	_	12	cc	_	Ref=238
 5	αὐτὸς	αὐτός	PRON	a-s---mn-	Case=Nom|Gender=Masc|Number=Sing|PronType=Prs	3	acl:compl	_	Ref=238
 6	ἐν	ἐν	ADP	r--------	_	7	case	_	Ref=238
 7	ἀνθρώποισι	ἄνθρωπος	NOUN	n-p---md-	Case=Dat|Gender=Masc|Number=Plur	8	obl	_	Ref=238
 8	δίκαιος	δίκαιος	ADJ	a-s---mn-	Case=Nom|Gender=Masc|Number=Sing	0	root	_	Ref=238
 9	εἴην	εἰμί	AUX	v1spoa---	Mood=Opt|Number=Sing|Person=1|Tense=Pres|Voice=Act	8	cop	_	Ref=238
-10	μήτ̓	μήτε	CCONJ	g--------	_	12	cc	_	Ref=238
+10	μήτ'	μήτε	CCONJ	g--------	_	12	cc	_	Ref=238
 11	ἐμὸς	ἐμός	DET	a-s---mn-	Case=Nom|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	12	det	_	Ref=238
 12	υἱός	υἱός	NOUN	n-s---mn-	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	Ref=238|SpaceAfter=No
 13	·	·	PUNCT	u--------	_	8	punct	_	Ref=238
@@ -2987,7 +2987,7 @@
 
 # sent_id = 1716053
 # sentannotators <primary>millermo</primary> <primary>megluthin</primary> <secondary>tovahk</secondary>
-# text = τόνδε γὰρ ἀνθρώποισι νόμον διέταξε Κρονίων ἰχθύσι μὲν καὶ θηρσὶ καὶ οἰωνοῖς πετεηνοῖς ἐσθέμεν ἀλλήλους, ἐπεὶ οὐ δίκη ἐστὶ μετ̓ αὐτοῖς·
+# text = τόνδε γὰρ ἀνθρώποισι νόμον διέταξε Κρονίων ἰχθύσι μὲν καὶ θηρσὶ καὶ οἰωνοῖς πετεηνοῖς ἐσθέμεν ἀλλήλους, ἐπεὶ οὐ δίκη ἐστὶ μετ' αὐτοῖς·
 1	τόνδε	ὅδε	DET	p-s---ma-	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	4	det	_	Ref=274
 2	γὰρ	γάρ	ADV	g--------	PartType=Ptcl	5	advmod	_	Ref=274
 3	ἀνθρώποισι	ἄνθρωπος	NOUN	n-p---md-	Case=Dat|Gender=Masc|Number=Plur	5	obl	_	Ref=274
@@ -3008,7 +3008,7 @@
 18	οὐ	οὐ	ADV	d--------	_	20	advmod:neg	_	Ref=274
 19	δίκη	δίκη	NOUN	n-s---fn-	Case=Nom|Gender=Fem|Number=Sing	20	nsubj	_	Ref=274
 20	ἐστὶ	εἰμί	VERB	v3spia---	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	14	advcl	_	Ref=274
-21	μετ̓	μετά	ADP	r--------	_	22	case	_	Ref=274
+21	μετ'	μετά	ADP	r--------	_	22	case	_	Ref=274
 22	αὐτοῖς	αὐτός	PRON	a-p---md-	Case=Dat|Gender=Masc|Number=Plur|PronType=Prs	20	obl	_	Ref=274|SpaceAfter=No
 23	·	·	PUNCT	u--------	_	5	punct	_	Ref=274
 
@@ -3028,7 +3028,7 @@
 
 # sent_id = 1716055
 # sentannotators <primary>millermo</primary> <primary>megluthin</primary> <secondary>tovahk</secondary>
-# text = εἰ γάρ τίς κ' ἐθέλῃ τὰ δίκαἰ ἀγορεῦσαι γιγνώσκων, τῷ μέν τ̓ ὄλβον διδοῖ εὐρύοπα Ζεύς·
+# text = εἰ γάρ τίς κ' ἐθέλῃ τὰ δίκαἰ ἀγορεῦσαι γιγνώσκων, τῷ μέν τ' ὄλβον διδοῖ εὐρύοπα Ζεύς·
 1	εἰ	εἰ	SCONJ	c--------	_	5	mark	_	Ref=274
 2	γάρ	γάρ	ADV	g--------	PartType=Ptcl	15	advmod	_	Ref=274
 3	τίς	τις	PRON	p-s---mn-	Case=Nom|Gender=Masc|Number=Sing|PronType=Ind	5	nsubj	_	Ref=274
@@ -3041,7 +3041,7 @@
 10	,	,	PUNCT	u--------	_	5	punct	_	Ref=274
 11	τῷ	ὁ	PRON	p-s---md-	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	iobj	_	Ref=274
 12	μέν	μέν	ADV	g--------	PartType=Ptcl	15	advmod	_	Ref=274
-13	τ̓	τε	ADV	c--------	_	15	advmod	_	Ref=274
+13	τ'	τε	ADV	c--------	_	15	advmod	_	Ref=274
 14	ὄλβον	ὄλβος	NOUN	n-s---ma-	Case=Acc|Gender=Masc|Number=Sing	15	obj	_	Ref=274
 15	διδοῖ	δίδωμι	VERB	v3spia---	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	Ref=274
 16	εὐρύοπα	εὐρύοπα	ADJ	a-s---mn-	Case=Nom|Gender=Masc|Number=Sing	17	amod	_	Ref=274
@@ -3050,7 +3050,7 @@
 
 # sent_id = 1716056
 # sentannotators <primary>millermo</primary> <primary>megluthin</primary> <secondary>tovahk</secondary>
-# text = ὃς δέ κε μαρτυρίῃσι ἑκὼν ἐπίορκον ὀμόσσας ψεύσεται, ἐν δὲ δίκην βλάψας νήκεστον ἀασθῇ, τοῦ δέ τ̓ ἀμαυροτέρη γενεὴ μετόπισθε λέλειπται·
+# text = ὃς δέ κε μαρτυρίῃσι ἑκὼν ἐπίορκον ὀμόσσας ψεύσεται, ἐν δὲ δίκην βλάψας νήκεστον ἀασθῇ, τοῦ δέ τ' ἀμαυροτέρη γενεὴ μετόπισθε λέλειπται·
 1	ὃς	ὅς	PRON	p-s---mn-	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	8	nsubj	_	Ref=274
 2	δέ	δέ	CCONJ	g--------	PartType=Ptcl	23	cc	_	Ref=274
 3	κε	ἄν	ADV	g--------	PartType=Ptcl	8	advmod	_	Ref=274
@@ -3069,7 +3069,7 @@
 16	,	,	PUNCT	u--------	_	8	punct	_	Ref=274
 17	τοῦ	ὁ	PRON	p-s---mg-	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	nmod	_	Ref=274
 18	δέ	δέ	ADV	g--------	PartType=Ptcl	23	advmod	_	Ref=274
-19	τ̓	σύ	PRON	p-s----a-	Case=Acc|Number=Sing|Person=2|PronType=Prs	23	advmod	_	Ref=274
+19	τ'	σύ	PRON	p-s----a-	Case=Acc|Number=Sing|Person=2|PronType=Prs	23	advmod	_	Ref=274
 20	ἀμαυροτέρη	ἀμαυρός	ADJ	a-s---fnc	Case=Nom|Degree=Cmp|Gender=Fem|Number=Sing	23	xcomp	_	Ref=274
 21	γενεὴ	γενεά	NOUN	n-s---fn-	Case=Nom|Gender=Fem|Number=Sing	23	nsubj	_	Ref=274
 22	μετόπισθε	μετόπισθε	ADV	d--------	_	23	advmod	_	Ref=274
@@ -3216,14 +3216,14 @@
 
 # sent_id = 1716066
 # sentannotators <primary>millermo</primary> <primary>megluthin</primary> <secondary>tovahk</secondary>
-# text = ὃς δέ κε μήτ̓ αὐτὸς νοέῃ μήτ̓ ἄλλου ἀκούων ἐν θυμῷ βάλληται, ὃ δ̓ αὖτ̓ ἀχρήιος ἀνήρ.
+# text = ὃς δέ κε μήτ' αὐτὸς νοέῃ μήτ' ἄλλου ἀκούων ἐν θυμῷ βάλληται, ὃ δ̓ αὖτ' ἀχρήιος ἀνήρ.
 1	ὃς	ὅς	PRON	p-s---mn-	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	6	nsubj	_	Ref=274
 2	δέ	δέ	CCONJ	g--------	PartType=Ptcl	18	cc	_	Ref=274
 3	κε	ἄν	ADV	g--------	PartType=Ptcl	6	advmod	_	Ref=274
-4	μήτ̓	μήτε	CCONJ	g--------	_	6	cc	_	Ref=274
+4	μήτ'	μήτε	CCONJ	g--------	_	6	cc	_	Ref=274
 5	αὐτὸς	αὐτός	PRON	a-s---mn-	Case=Nom|Gender=Masc|Number=Sing|PronType=Prs	1	acl:compl	_	Ref=274
 6	νοέῃ	νοέω	VERB	v3spsa---	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	14	acl:relcl	_	Ref=274
-7	μήτ̓	μήτε	CCONJ	g--------	_	12	cc	_	Ref=274
+7	μήτ'	μήτε	CCONJ	g--------	_	12	cc	_	Ref=274
 8	ἄλλου	ἄλλος	PRON	a-s---mg-	Case=Gen|Gender=Masc|Number=Sing|PronType=Ind	9	obj	_	Ref=274
 9	ἀκούων	ἀκούω	VERB	v-sppamn-	Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	12	advcl:compl	_	Ref=274
 10	ἐν	ἐν	ADP	r--------	_	11	case	_	Ref=274
@@ -3232,7 +3232,7 @@
 13	,	,	PUNCT	u--------	_	6	punct	_	Ref=274
 14	ὃ	ὁ	PRON	p-s---mn-	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	nsubj	_	Ref=274
 15	δ̓	δέ	ADV	g--------	PartType=Ptcl	18	advmod	_	Ref=274
-16	αὖτ̓	αὖτε	ADV	d--------	_	18	advmod	_	Ref=274
+16	αὖτ'	αὖτε	ADV	d--------	_	18	advmod	_	Ref=274
 17	ἀχρήιος	ἀχρεῖος	ADJ	a-s---mn-	Case=Nom|Gender=Masc|Number=Sing	18	amod	_	Ref=274
 18	ἀνήρ	ἀνήρ	NOUN	n-s---mn-	Case=Nom|Gender=Masc|Number=Sing	0	root	_	Ref=274|SpaceAfter=No
 19	.	.	PUNCT	u--------	_	18	punct	_	Ref=274
@@ -3336,13 +3336,13 @@
 
 # sent_id = 1716071
 # sentannotators <primary>millermo</primary> <primary>megluthin</primary> <secondary>tovahk</secondary>
-# text = ἐξ ἔργων δ̓ ἄνδρες πολύμηλοί τ̓ ἀφνειοί τε·
+# text = ἐξ ἔργων δ̓ ἄνδρες πολύμηλοί τ' ἀφνειοί τε·
 1	ἐξ	ἐκ	ADP	r--------	_	2	case	_	Ref=274
 2	ἔργων	ἔργον	NOUN	n-p---ng-	Case=Gen|Gender=Neut|Number=Plur	5	obl	_	Ref=274
 3	δ̓	δέ	CCONJ	g--------	PartType=Ptcl	5	cc	_	Ref=274
 4	ἄνδρες	ἀνήρ	NOUN	n-p---mn-	Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	Ref=274
 5	πολύμηλοί	πολύμηλος	ADJ	a-p---mn-	Case=Nom|Gender=Masc|Number=Plur	0	root	_	Ref=274
-6	τ̓	τε	CCONJ	c--------	_	7	cc	_	Ref=274
+6	τ'	τε	CCONJ	c--------	_	7	cc	_	Ref=274
 7	ἀφνειοί	ἀφνειός	ADJ	a-p---mn-	Case=Nom|Gender=Masc|Number=Plur	5	conj	_	Ref=274
 8	τε	τε	CCONJ	c--------	_	7	cc	_	Ref=274|SpaceAfter=No
 9	·	·	PUNCT	u--------	_	5	punct	_	Ref=274
@@ -3359,7 +3359,7 @@
 
 # sent_id = 1716073
 # sentannotators <primary>millermo</primary> <primary>megluthin</primary> <secondary>tovahk</secondary>
-# text = ἔργον δ̓ οὐδὲν ὄνειδος, ἀεργίη δέ τ̓ ὄνειδος.
+# text = ἔργον δ̓ οὐδὲν ὄνειδος, ἀεργίη δέ τ' ὄνειδος.
 1	ἔργον	ἔργον	NOUN	n-s---nn-	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	Ref=274
 2	δ̓	δέ	CCONJ	g--------	PartType=Ptcl	4	cc	_	Ref=274
 3	οὐδὲν	οὐδείς	DET	a-s---nn-	Case=Nom|Gender=Neut|Number=Sing|PronType=Neg	4	det	_	Ref=274
@@ -3367,7 +3367,7 @@
 5	,	,	PUNCT	u--------	_	9	punct	_	Ref=274
 6	ἀεργίη	ἀεργία	NOUN	n-s---fn-	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	Ref=274
 7	δέ	δέ	CCONJ	g--------	PartType=Ptcl	9	cc	_	Ref=274
-8	τ̓	τε	ADV	c--------	_	9	advmod	_	Ref=274
+8	τ'	τε	ADV	c--------	_	9	advmod	_	Ref=274
 9	ὄνειδος	ὄνειδος	NOUN	n-s---nn-	Case=Nom|Gender=Neut|Number=Sing	4	conj	_	Ref=274|SpaceAfter=No
 10	.	.	PUNCT	u--------	_	4	punct	_	Ref=274
 
@@ -3429,7 +3429,7 @@
 
 # sent_id = 1716077
 # sentannotators <primary>millermo</primary> <primary>megluthin</primary> <secondary>tovahk</secondary>
-# text = αἰδὼς δ̓ οὐκ ἀγαθὴ κεχρημένον ἄνδρα κομίζει, αἰδώς, ἥ τ̓ ἄνδρας μέγα σίνεται ἠδ̓ ὀνίνησιν.
+# text = αἰδὼς δ̓ οὐκ ἀγαθὴ κεχρημένον ἄνδρα κομίζει, αἰδώς, ἥ τ' ἄνδρας μέγα σίνεται ἠδ̓ ὀνίνησιν.
 1	αἰδὼς	αἰδώς	NOUN	n-s---fn-	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	Ref=274
 2	δ̓	δέ	CCONJ	g--------	PartType=Ptcl	7	cc	_	Ref=274
 3	οὐκ	οὐ	ADV	d--------	_	4	advmod:neg	_	Ref=274
@@ -3441,7 +3441,7 @@
 9	αἰδώς	αἰδώς	NOUN	n-s---fn-	Case=Nom|Gender=Fem|Number=Sing	1	appos	_	Ref=274|SpaceAfter=No
 10	,	,	PUNCT	u--------	_	15	punct	_	Ref=274
 11	ἥ	ὅς	PRON	p-s---fn-	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	15	nsubj	_	Ref=274
-12	τ̓	τε	CCONJ	c--------	_	15	cc	_	Ref=274
+12	τ'	τε	CCONJ	c--------	_	15	cc	_	Ref=274
 13	ἄνδρας	ἀνήρ	NOUN	n-p---ma-	Case=Acc|Gender=Masc|Number=Plur	15	obj	_	Ref=274
 14	μέγα	μέγας	ADJ	a-s---na-	Case=Acc|Gender=Neut|Number=Sing	15	obl	_	Ref=274
 15	σίνεται	σίνομαι	VERB	v3spie---	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=MidPass	9	acl:relcl	_	Ref=274
@@ -3480,7 +3480,7 @@
 
 # sent_id = 1716080
 # sentannotators <primary>megluthin</primary> <primary>alexlessie</primary> <secondary>tovahk</secondary>
-# text = εἰ γάρ τις καὶ χερσὶ βίῃ μέγαν ὄλβον ἕληται, ἢ ὅ γ' ἀπὸ γλώσσης ληίσσεται, οἷά τε πολλὰ γίγνεται, εὖτ̓ ἂν δὴ κέρδος νόον ἐξαπατήσῃ ἀνθρώπων, αἰδῶ δέ τ̓ ἀναιδείη κατοπάζῃ·
+# text = εἰ γάρ τις καὶ χερσὶ βίῃ μέγαν ὄλβον ἕληται, ἢ ὅ γ' ἀπὸ γλώσσης ληίσσεται, οἷά τε πολλὰ γίγνεται, εὖτ' ἂν δὴ κέρδος νόον ἐξαπατήσῃ ἀνθρώπων, αἰδῶ δέ τ' ἀναιδείη κατοπάζῃ·
 0.1	E0.1	_	_	_	_	_	_	0:root	_
 1	εἰ	εἰ	SCONJ	c--------	_	9	mark	0.1:mark	Ref=320
 2	γάρ	γάρ	ADV	g--------	PartType=Ptcl	0	root	0.1:advmod	Ref=320
@@ -3504,7 +3504,7 @@
 20	πολλὰ	πολύς	ADJ	a-p---nn-	Case=Nom|Gender=Neut|Number=Plur	18	amod	18:amod	Ref=320
 21	γίγνεται	γίγνομαι	VERB	v3spie---	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=MidPass	16	acl:relcl	16:acl	Ref=320|SpaceAfter=No
 22	,	,	PUNCT	u--------	_	28	punct	28:punct	Ref=320
-23	εὖτ̓	εὖτε	ADV	d--------	_	28	advmod	28:advmod	Ref=320
+23	εὖτ'	εὖτε	ADV	d--------	_	28	advmod	28:advmod	Ref=320
 24	ἂν	ἄν	ADV	g--------	PartType=Ptcl	28	advmod	28:advmod	Ref=320
 25	δὴ	δή	ADV	g--------	PartType=Ptcl	28	advmod	28:advmod	Ref=320
 26	κέρδος	κέρδος	NOUN	n-s---nn-	Case=Nom|Gender=Neut|Number=Sing	28	nsubj	28:nsubj	Ref=320
@@ -3514,14 +3514,14 @@
 30	,	,	PUNCT	u--------	_	35	punct	35:punct	Ref=320
 31	αἰδῶ	αἰδώς	NOUN	n-s---fa-	Case=Acc|Gender=Fem|Number=Sing	35	obj	35:obj	Ref=320
 32	δέ	δέ	CCONJ	g--------	PartType=Ptcl	35	cc	35:cc	Ref=320
-33	τ̓	τε	ADV	c--------	_	35	advmod	35:advmod	Ref=320
+33	τ'	τε	ADV	c--------	_	35	advmod	35:advmod	Ref=320
 34	ἀναιδείη	ἀναίδεια	NOUN	n-s---fn-	Case=Nom|Gender=Fem|Number=Sing	35	nsubj	35:nsubj	Ref=320
 35	κατοπάζῃ	κατοπάζω	VERB	v3spsa---	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	28	conj	28:conj	Ref=320|SpaceAfter=No
 36	·	·	PUNCT	u--------	_	2	punct	0.1:punct	Ref=320
 
 # sent_id = 1716081
 # sentannotators <primary>megluthin</primary> <primary>alexlessie</primary> <secondary>tovahk</secondary>
-# text = ῥεῖα δέ μιν μαυροῦσι θεοί, μινύθουσι δὲ οἶκον ἀνέρι τῷ, παῦρον δέ τ̓ ἐπὶ χρόνον ὄλβος ὀπηδεῖ.
+# text = ῥεῖα δέ μιν μαυροῦσι θεοί, μινύθουσι δὲ οἶκον ἀνέρι τῷ, παῦρον δέ τ' ἐπὶ χρόνον ὄλβος ὀπηδεῖ.
 1	ῥεῖα	ῥεῖα	ADV	d--------	_	4	advmod	_	Ref=320
 2	δέ	δέ	CCONJ	g--------	PartType=Ptcl	4	cc	_	Ref=320
 3	μιν	μιν	PRON	p-s---ma-	Case=Acc|Gender=Masc|Number=Sing	4	obj	_	Ref=320
@@ -3536,7 +3536,7 @@
 12	,	,	PUNCT	u--------	_	19	punct	_	Ref=320
 13	παῦρον	παῦρος	ADJ	a-s---ma-	Case=Acc|Gender=Masc|Number=Sing	17	amod	_	Ref=320
 14	δέ	δέ	CCONJ	g--------	PartType=Ptcl	19	cc	_	Ref=320
-15	τ̓	τε	ADV	c--------	_	19	advmod	_	Ref=320
+15	τ'	τε	ADV	c--------	_	19	advmod	_	Ref=320
 16	ἐπὶ	ἐπί	ADP	r--------	_	17	case	_	Ref=320
 17	χρόνον	χρόνος	NOUN	n-s---ma-	Case=Acc|Gender=Masc|Number=Sing	19	obl	_	Ref=320
 18	ὄλβος	ὄλβος	NOUN	n-s---mn-	Case=Nom|Gender=Masc|Number=Sing	19	nsubj	_	Ref=320
@@ -3598,7 +3598,7 @@
 
 # sent_id = 1716083
 # sentannotators <primary>megluthin</primary> <primary>alexlessie</primary> <secondary>tovahk</secondary>
-# text = τῷ δ̓ ἦ τοι Ζεὺς αὐτὸς ἀγαίεται, ἐς δὲ τελευτὴν ἔργων ἀντ̓ ἀδίκων χαλεπὴν ἐπέθηκεν ἀμοιβήν.
+# text = τῷ δ̓ ἦ τοι Ζεὺς αὐτὸς ἀγαίεται, ἐς δὲ τελευτὴν ἔργων ἀντ' ἀδίκων χαλεπὴν ἐπέθηκεν ἀμοιβήν.
 1	τῷ	ὁ	PRON	p-s---md-	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	obj	_	Ref=320
 2	δ̓	δέ	CCONJ	g--------	PartType=Ptcl	7	cc	_	Ref=320
 3	ἦ	ἦ	ADV	d--------	PartType=Ptcl	7	advmod	_	Ref=320
@@ -3611,7 +3611,7 @@
 10	δὲ	δέ	CCONJ	g--------	PartType=Ptcl	16	cc	_	Ref=320
 11	τελευτὴν	τελευτή	NOUN	n-s---fa-	Case=Acc|Gender=Fem|Number=Sing	16	obl	_	Ref=320
 12	ἔργων	ἔργον	NOUN	n-p---ng-	Case=Gen|Gender=Neut|Number=Plur	16	obl	_	Ref=320
-13	ἀντ̓	ἀντί	ADP	r--------	_	12	case	_	Ref=320
+13	ἀντ'	ἀντί	ADP	r--------	_	12	case	_	Ref=320
 14	ἀδίκων	ἄδικος	ADJ	a-p---ng-	Case=Gen|Gender=Neut|Number=Plur	12	amod	_	Ref=320
 15	χαλεπὴν	χαλεπός	ADJ	a-s---fa-	Case=Acc|Gender=Fem|Number=Sing	17	amod	_	Ref=320
 16	ἐπέθηκεν	ἐπιτίθημι	VERB	v3saia---	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	7	conj	_	Ref=320
@@ -3654,7 +3654,7 @@
 
 # sent_id = 1716086
 # sentannotators <primary>megluthin</primary> <primary>alexlessie</primary> <secondary>tovahk</secondary>
-# text = ἄλλοτε δὲ σπονδῇσι θύεσσί τε ἱλάσκεσθαι, ἠμὲν ὅτ̓ εὐνάζῃ καὶ ὅτ̓ ἂν φάος ἱερὸν ἔλθῃ, ὥς κέ τοι ἵλαον κραδίην καὶ θυμὸν ἔχωσιν, ὄφῤ ἄλλων ὠνῇ κλῆρον, μὴ τὸν τεὸν ἄλλος.
+# text = ἄλλοτε δὲ σπονδῇσι θύεσσί τε ἱλάσκεσθαι, ἠμὲν ὅτ' εὐνάζῃ καὶ ὅτ' ἂν φάος ἱερὸν ἔλθῃ, ὥς κέ τοι ἵλαον κραδίην καὶ θυμὸν ἔχωσιν, ὄφῤ ἄλλων ὠνῇ κλῆρον, μὴ τὸν τεὸν ἄλλος.
 1	ἄλλοτε	ἄλλοτε	ADV	d--------	_	6	advmod	6:advmod	Ref=320
 2	δὲ	δέ	CCONJ	g--------	PartType=Ptcl	6	cc	6:cc	Ref=320
 3	σπονδῇσι	σπονδή	NOUN	n-p---fd-	Case=Dat|Gender=Fem|Number=Plur	6	obl	6:obl	Ref=320
@@ -3663,10 +3663,10 @@
 6	ἱλάσκεσθαι	ἱλάσκομαι	VERB	v--pne---	Tense=Pres|VerbForm=Inf|Voice=MidPass	0	root	0:root	Ref=320|SpaceAfter=No
 7	,	,	PUNCT	u--------	_	10	punct	10:punct	Ref=320
 8	ἠμὲν	ἠμέν	ADV	c--------	_	10	advmod	10:advmod	Ref=320
-9	ὅτ̓	ὅτε	ADV	d--------	_	10	advmod	10:advmod	Ref=320
+9	ὅτ'	ὅτε	ADV	d--------	_	10	advmod	10:advmod	Ref=320
 10	εὐνάζῃ	εὐνάζω	VERB	v2spse---	Mood=Sub|Number=Sing|Person=2|Tense=Pres|Voice=MidPass	6	advcl	6:advcl	Ref=320
 11	καὶ	καί	CCONJ	c--------	_	16	cc	16:cc	Ref=320
-12	ὅτ̓	ὅτε	ADV	d--------	_	16	advmod	16:advmod	Ref=320
+12	ὅτ'	ὅτε	ADV	d--------	_	16	advmod	16:advmod	Ref=320
 13	ἂν	ἄν	ADV	g--------	PartType=Ptcl	16	advmod	16:advmod	Ref=320
 14	φάος	φάος	NOUN	n-s---nn-	Case=Nom|Gender=Neut|Number=Sing	16	nsubj	16:nsubj	Ref=320
 15	ἱερὸν	ἱερός	ADJ	a-s---nn-	Case=Nom|Gender=Neut|Number=Sing	14	amod	14:amod	Ref=320
@@ -3695,9 +3695,9 @@
 
 # sent_id = 1716087
 # sentannotators <primary>megluthin</primary> <primary>alexlessie</primary> <secondary>tovahk</secondary>
-# text = τὸν φιλέοντ̓ ἐπὶ δαῖτα καλεῖν, τὸν δ̓ ἐχθρὸν ἐᾶσαι·
+# text = τὸν φιλέοντ' ἐπὶ δαῖτα καλεῖν, τὸν δ̓ ἐχθρὸν ἐᾶσαι·
 1	τὸν	ὁ	PRON	l--------	Definite=Def|PronType=Art	2	nmod	_	Ref=320
-2	φιλέοντ̓	φιλέω	VERB	v-sppama-	Case=Acc|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	5	obj	_	Ref=320
+2	φιλέοντ'	φιλέω	VERB	v-sppama-	Case=Acc|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	5	obj	_	Ref=320
 3	ἐπὶ	ἐπί	ADP	r--------	_	4	case	_	Ref=320
 4	δαῖτα	δαίτη	NOUN	n-s---fa-	Case=Acc|Gender=Fem|Number=Sing	5	obl:arg	_	Ref=320
 5	καλεῖν	καλέω	VERB	v--pna---	Tense=Pres|VerbForm=Inf|Voice=Act	0	root	_	Ref=320|SpaceAfter=No
@@ -3746,13 +3746,13 @@
 
 # sent_id = 1716090
 # sentannotators <primary>megluthin</primary> <primary>alexlessie</primary> <secondary>tovahk</secondary>
-# text = πῆμα κακὸς γείτων, ὅσσον τ̓ ἀγαθὸς μέγ' ὄνειαρ.
+# text = πῆμα κακὸς γείτων, ὅσσον τ' ἀγαθὸς μέγ' ὄνειαρ.
 1	πῆμα	πῆμα	NOUN	n-s---nn-	Case=Nom|Gender=Neut|Number=Sing	0	root	_	Ref=320
 2	κακὸς	κακός	ADJ	a-s---mn-	Case=Nom|Gender=Masc|Number=Sing	3	amod	_	Ref=320
 3	γείτων	γείτων	NOUN	n-s---mn-	Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	Ref=320|SpaceAfter=No
 4	,	,	PUNCT	u--------	_	9	punct	_	Ref=320
 5	ὅσσον	ὅσος	PRON	a-s---na-	Case=Acc|Gender=Neut|Number=Sing|PronType=Rel	9	obl	_	Ref=320
-6	τ̓	τε	ADV	c--------	_	9	advmod	_	Ref=320
+6	τ'	τε	ADV	c--------	_	9	advmod	_	Ref=320
 7	ἀγαθὸς	ἀγαθός	ADJ	a-s---mn-	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	Ref=320
 8	μέγ'	μέγας	ADJ	a-s---nn-	Case=Nom|Gender=Neut|Number=Sing	9	amod	_	Ref=320
 9	ὄνειαρ	ὄνειαρ	NOUN	n-s---nn-	Case=Nom|Gender=Neut|Number=Sing	1	advmod	_	Ref=320|SpaceAfter=No
@@ -3760,13 +3760,13 @@
 
 # sent_id = 1716091
 # sentannotators <primary>megluthin</primary> <primary>alexlessie</primary> <secondary>tovahk</secondary>
-# text = ἔμμορέ τοι τιμῆς, ὅς τ̓ ἔμμορε γείτονος ἐσθλοῦ.
+# text = ἔμμορέ τοι τιμῆς, ὅς τ' ἔμμορε γείτονος ἐσθλοῦ.
 1	ἔμμορέ	μείρομαι	VERB	v3sria---	Mood=Ind|Number=Sing|Person=3|Voice=Act	0	root	_	Ref=320
 2	τοι	τοι	ADV	g--------	PartType=Ptcl	1	advmod	_	Ref=320
 3	τιμῆς	τιμή	NOUN	n-s---fg-	Case=Gen|Gender=Fem|Number=Sing	1	obj	_	Ref=320|SpaceAfter=No
 4	,	,	PUNCT	u--------	_	7	punct	_	Ref=320
 5	ὅς	ὅς	PRON	p-s---mn-	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	7	nsubj	_	Ref=320
-6	τ̓	τε	ADV	c--------	_	7	advmod	_	Ref=320
+6	τ'	τε	ADV	c--------	_	7	advmod	_	Ref=320
 7	ἔμμορε	μείρομαι	VERB	v3sria---	Mood=Ind|Number=Sing|Person=3|Voice=Act	1	csubj	_	Ref=320
 8	γείτονος	γείτων	NOUN	n-s---mg-	Case=Gen|Gender=Masc|Number=Sing	7	obj	_	Ref=320
 9	ἐσθλοῦ	ἐσθλός	ADJ	a-s---mg-	Case=Gen|Gender=Masc|Number=Sing	8	amod	_	Ref=320|SpaceAfter=No
@@ -3774,12 +3774,12 @@
 
 # sent_id = 1716092
 # sentannotators <primary>megluthin</primary> <primary>alexlessie</primary> <secondary>tovahk</secondary>
-# text = οὐ δ̓ ἂν βοῦς ἀπόλοιτ̓, εἰ μὴ γείτων κακὸς εἴη.
+# text = οὐ δ̓ ἂν βοῦς ἀπόλοιτ', εἰ μὴ γείτων κακὸς εἴη.
 1	οὐ	οὐ	ADV	d--------	_	5	advmod:neg	_	Ref=320
 2	δ̓	δέ	CCONJ	g--------	PartType=Ptcl	5	cc	_	Ref=320
 3	ἂν	ἄν	ADV	g--------	PartType=Ptcl	5	advmod	_	Ref=320
 4	βοῦς	βου~ς	NOUN	n-s---mn-	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	Ref=320
-5	ἀπόλοιτ̓	ἀπόλλυμι	VERB	v3saom---	Mood=Opt|Number=Sing|Person=3|Voice=Mid	0	root	_	Ref=320|SpaceAfter=No
+5	ἀπόλοιτ'	ἀπόλλυμι	VERB	v3saom---	Mood=Opt|Number=Sing|Person=3|Voice=Mid	0	root	_	Ref=320|SpaceAfter=No
 6	,	,	PUNCT	u--------	_	11	punct	_	Ref=320
 7	εἰ	εἰ	SCONJ	c--------	_	11	mark	_	Ref=320
 8	μὴ	μή	ADV	g--------	_	11	advmod:neg	_	Ref=320
@@ -3970,7 +3970,7 @@
 
 # sent_id = 1716103
 # sentannotators <primary>megluthin</primary> <primary>alexlessie</primary> <secondary>tovahk</secondary>
-# text = εἰ γάρ κεν καὶ σμικρὸν ἐπὶ σμικρῷ καταθεῖο καὶ θαμὰ τοῦτ̓ ἔρδοις, τάχα κεν μέγα καὶ τὸ γένοιτο.
+# text = εἰ γάρ κεν καὶ σμικρὸν ἐπὶ σμικρῷ καταθεῖο καὶ θαμὰ τοῦτ' ἔρδοις, τάχα κεν μέγα καὶ τὸ γένοιτο.
 1	εἰ	εἰ	SCONJ	c--------	_	8	mark	_	Ref=320
 2	γάρ	γάρ	ADV	g--------	PartType=Ptcl	19	advmod	_	Ref=320
 3	κεν	ἄν	ADV	g--------	PartType=Ptcl	8	advmod	_	Ref=320
@@ -3981,7 +3981,7 @@
 8	καταθεῖο	κατατίθημι	VERB	v2saom---	Mood=Opt|Number=Sing|Person=2|Voice=Mid	19	advcl	_	Ref=320
 9	καὶ	καί	CCONJ	c--------	_	12	cc	_	Ref=320
 10	θαμὰ	θαμά	ADV	d--------	_	12	advmod	_	Ref=320
-11	τοῦτ̓	οὗτος	PRON	a-s---na-	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	12	obj	_	Ref=320
+11	τοῦτ'	οὗτος	PRON	a-s---na-	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	12	obj	_	Ref=320
 12	ἔρδοις	ἔρδω	VERB	v2spoa---	Mood=Opt|Number=Sing|Person=2|Tense=Pres|Voice=Act	8	conj	_	Ref=320|SpaceAfter=No
 13	,	,	PUNCT	u--------	_	8	punct	_	Ref=320
 14	τάχα	τάχα	ADV	d--------	_	19	advmod	_	Ref=320
@@ -4250,7 +4250,7 @@
 
 # sent_id = 1716121
 # sentannotators <primary>megluthin</primary> <primary>alexlessie</primary> <secondary>tovahk</secondary>
-# text = οὗτός τοι πεδίων πέλεται νόμος, οἵ τε θαλάσσης ἐγγύθι ναιετάουσ', οἵ τ̓ ἄγκεα βησσήεντα, πόντου κυμαίνοντος ἀπόπροθι, πίονα χῶρον ναίουσιν·
+# text = οὗτός τοι πεδίων πέλεται νόμος, οἵ τε θαλάσσης ἐγγύθι ναιετάουσ', οἵ τ' ἄγκεα βησσήεντα, πόντου κυμαίνοντος ἀπόπροθι, πίονα χῶρον ναίουσιν·
 1	οὗτός	οὗτος	PRON	a-s---mn-	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	4	nsubj	_	Ref=370
 2	τοι	τοι	ADV	g--------	PartType=Ptcl	4	advmod	_	Ref=370
 3	πεδίων	πεδίον	NOUN	n-p---ng-	Case=Gen|Gender=Neut|Number=Plur	5	nmod	_	Ref=370
@@ -4264,7 +4264,7 @@
 11	ναιετάουσ'	ναιετάω	VERB	v3ppia---	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	3	conj	_	Ref=370|SpaceAfter=No
 12	,	,	PUNCT	u--------	_	24	punct	_	Ref=370
 13	οἵ	ὅς	PRON	p-p---mn-	Case=Nom|Gender=Masc|Number=Plur|PronType=Rel	24	nsubj	_	Ref=370
-14	τ̓	τε	CCONJ	c--------	_	24	cc	_	Ref=370
+14	τ'	τε	CCONJ	c--------	_	24	cc	_	Ref=370
 15	ἄγκεα	ἄγκος	NOUN	n-p---na-	Case=Acc|Gender=Neut|Number=Plur	24	obj	_	Ref=370
 16	βησσήεντα	βησσήεις	ADJ	a-p---na-	Case=Acc|Gender=Neut|Number=Plur	15	amod	_	Ref=370|SpaceAfter=No
 17	,	,	PUNCT	u--------	_	18	punct	_	Ref=370
@@ -4279,7 +4279,7 @@
 
 # sent_id = 1716122
 # sentannotators <primary>megluthin</primary> <primary>alexlessie</primary> <secondary>tovahk</secondary>
-# text = γυμνὸν σπείρειν, γυμνὸν δὲ βοωτεῖν, γυμνὸν δ̓ ἀμάειν, εἴ χ' ὥρια πάντ̓ ἐθέλῃσθα ἔργα κομίζεσθαι Δημήτερος·
+# text = γυμνὸν σπείρειν, γυμνὸν δὲ βοωτεῖν, γυμνὸν δ̓ ἀμάειν, εἴ χ' ὥρια πάντ' ἐθέλῃσθα ἔργα κομίζεσθαι Δημήτερος·
 1	γυμνὸν	γυμνός	ADJ	a-s---na-	Case=Acc|Gender=Neut|Number=Sing	2	obl	_	Ref=370
 2	σπείρειν	σπείρω	VERB	v--pna---	Tense=Pres|VerbForm=Inf|Voice=Act	0	root	_	Ref=370|SpaceAfter=No
 3	,	,	PUNCT	u--------	_	6	punct	_	Ref=370
@@ -4294,7 +4294,7 @@
 12	εἴ	εἰ	SCONJ	c--------	_	16	mark	_	Ref=370
 13	χ'	ἄν	ADV	g--------	PartType=Ptcl	16	advmod	_	Ref=370
 14	ὥρια	ὥριος	ADJ	a-p---na-	Case=Acc|Gender=Neut|Number=Plur	17	amod	_	Ref=370
-15	πάντ̓	πα~ς	ADJ	a-p---na-	Case=Acc|Gender=Neut|Number=Plur	17	amod	_	Ref=370
+15	πάντ'	πα~ς	ADJ	a-p---na-	Case=Acc|Gender=Neut|Number=Plur	17	amod	_	Ref=370
 16	ἐθέλῃσθα	ἐθέλω	VERB	v2spsa---	Mood=Sub|Number=Sing|Person=2|Tense=Pres|Voice=Act	2	advcl	_	Ref=370
 17	ἔργα	ἔργον	NOUN	n-p---na-	Case=Acc|Gender=Neut|Number=Plur	18	obj	_	Ref=370
 18	κομίζεσθαι	κομίζω	VERB	v--pne---	Tense=Pres|VerbForm=Inf|Voice=MidPass	16	ccomp	_	Ref=370
@@ -4349,7 +4349,7 @@
 
 # sent_id = 1716126
 # sentannotators <primary>megluthin</primary> <primary>alexlessie</primary> <secondary>tovahk</secondary>
-# text = ἐργάζευ, νήπιε Πέρση, ἔργα, τά τ̓ ἀνθρώποισι θεοὶ διετεκμήραντο, μή ποτε σὺν παίδεσσι γυναικί τε θυμὸν ἀχεύων ζητεύῃς βίοτον κατὰ γείτονας, οἳ δ̓ ἀμελῶσιν.
+# text = ἐργάζευ, νήπιε Πέρση, ἔργα, τά τ' ἀνθρώποισι θεοὶ διετεκμήραντο, μή ποτε σὺν παίδεσσι γυναικί τε θυμὸν ἀχεύων ζητεύῃς βίοτον κατὰ γείτονας, οἳ δ̓ ἀμελῶσιν.
 1	ἐργάζευ	ἐργάζομαι	VERB	v2spme---	Mood=Imp|Number=Sing|Person=2|Tense=Pres|Voice=MidPass	0	root	_	Ref=370|SpaceAfter=No
 2	,	,	PUNCT	u--------	_	4	punct	_	Ref=370
 3	νήπιε	νήπιος	ADJ	a-s---mv-	Case=Voc|Gender=Masc|Number=Sing	4	amod	_	Ref=370
@@ -4358,7 +4358,7 @@
 6	ἔργα	ἔργον	NOUN	n-p---na-	Case=Acc|Gender=Neut|Number=Plur	1	obj	_	Ref=370|SpaceAfter=No
 7	,	,	PUNCT	u--------	_	12	punct	_	Ref=370
 8	τά	ὁ	PRON	p-p---na-	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	12	obj	_	Ref=370
-9	τ̓	τε	ADV	c--------	_	12	advmod	_	Ref=370
+9	τ'	τε	ADV	c--------	_	12	advmod	_	Ref=370
 10	ἀνθρώποισι	ἄνθρωπος	NOUN	n-p---md-	Case=Dat|Gender=Masc|Number=Plur	12	iobj	_	Ref=370
 11	θεοὶ	θεός	NOUN	n-p---mn-	Case=Nom|Gender=Masc|Number=Plur	12	nsubj	_	Ref=370
 12	διετεκμήραντο	διατεκμαίρομαι	VERB	v3paim---	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Mid	6	acl:relcl	_	Ref=370|SpaceAfter=No
@@ -4425,7 +4425,7 @@
 
 # sent_id = 1716130
 # sentannotators <primary>megluthin</primary> <primary>alexlessie</primary> <secondary>tovahk</secondary>
-# text = ἀλλά σ' ἄνωγα φράζεσθαι χρειῶν τε λύσιν λιμοῦ τ̓ ἀλεωρήν.
+# text = ἀλλά σ' ἄνωγα φράζεσθαι χρειῶν τε λύσιν λιμοῦ τ' ἀλεωρήν.
 1	ἀλλά	ἀλλά	ADV	d--------	_	3	advmod	_	Ref=370
 2	σ'	σύ	PRON	p-s----a-	Case=Acc|Number=Sing|Person=2|PronType=Prs	3	obj	_	Ref=370
 3	ἄνωγα	ἄνωγα	VERB	v1sria---	Mood=Ind|Number=Sing|Person=1|Voice=Act	0	root	_	Ref=370
@@ -4434,13 +4434,13 @@
 6	τε	τε	CCONJ	c--------	_	7	cc	_	Ref=370
 7	λύσιν	λύσις	NOUN	n-s---fa-	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	Ref=370
 8	λιμοῦ	λιμός	NOUN	n-s---mg-	Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	Ref=370
-9	τ̓	τε	CCONJ	c--------	_	10	cc	_	Ref=370
+9	τ'	τε	CCONJ	c--------	_	10	cc	_	Ref=370
 10	ἀλεωρήν	ἀλεωρή	NOUN	n-s---fa-	Case=Acc|Gender=Fem|Number=Sing	7	conj	_	Ref=370|SpaceAfter=No
 11	.	.	PUNCT	u--------	_	3	punct	_	Ref=370
 
 # sent_id = 1716131
 # sentannotators <primary>megluthin</primary> <primary>alexlessie</primary> <secondary>tovahk</secondary>
-# text = οἶκον μὲν πρώτιστα γυναῖκά τε βοῦν τ̓ ἀροτῆρα, κτητήν, οὐ γαμετήν, ἥτις καὶ βουσὶν ἕποιτο, χρήματα δ̓ ἐν οἴκῳ πάντ̓ ἄρμενα ποιήσασθαι, μὴ σὺ μὲν αἰτῇς ἄλλον, ὃ δ̓ ἀρνῆται, σὺ δὲ τητᾷ, ἡ δ̓ ὥρη παραμείβηται, μινύθῃ δὲ τὸ ἔργον.
+# text = οἶκον μὲν πρώτιστα γυναῖκά τε βοῦν τ' ἀροτῆρα, κτητήν, οὐ γαμετήν, ἥτις καὶ βουσὶν ἕποιτο, χρήματα δ̓ ἐν οἴκῳ πάντ' ἄρμενα ποιήσασθαι, μὴ σὺ μὲν αἰτῇς ἄλλον, ὃ δ̓ ἀρνῆται, σὺ δὲ τητᾷ, ἡ δ̓ ὥρη παραμείβηται, μινύθῃ δὲ τὸ ἔργον.
 0.1	E0.1	_	_	_	_	_	_	26:conj	_
 1	οἶκον	οἶκος	NOUN	n-s---ma-	Case=Acc|Gender=Masc|Number=Sing	26	conj	0.1:conj	Ref=405
 2	μὲν	μέν	ADV	g--------	PartType=Ptcl	1	advmod	0.1:advmod	Ref=405
@@ -4448,7 +4448,7 @@
 4	γυναῖκά	γυνή	NOUN	n-s---fa-	Case=Acc|Gender=Fem|Number=Sing	1	conj	1:conj	Ref=405
 5	τε	τε	CCONJ	c--------	_	6	cc	6:cc	Ref=405
 6	βοῦν	βοῦς	NOUN	n-s---ma-	Case=Acc|Gender=Masc|Number=Sing	1	conj	1:conj	Ref=405
-7	τ̓	τε	CCONJ	c--------	_	6	cc	0.1:cc	Ref=405
+7	τ'	τε	CCONJ	c--------	_	6	cc	0.1:cc	Ref=405
 8	ἀροτῆρα	ἀροτήρ	ADJ	a-s---ma-	Case=Acc|Gender=Masc|Number=Sing	6	amod	6:amod	Ref=405|SpaceAfter=No
 9	,	,	PUNCT	u--------	_	6	punct	6:punct	Ref=405
 10	κτητήν	κτητός	ADJ	a-s---fa-	Case=Acc|Gender=Fem|Number=Sing	4	appos	4:appos	Ref=405|SpaceAfter=No
@@ -4465,7 +4465,7 @@
 21	δ̓	δέ	CCONJ	g--------	PartType=Ptcl	26	cc	26:cc	Ref=405
 22	ἐν	ἐν	ADP	r--------	_	23	case	23:case	Ref=405
 23	οἴκῳ	οἶκος	NOUN	n-s---md-	Case=Dat|Gender=Masc|Number=Sing	26	obl	26:obl	Ref=405
-24	πάντ̓	πα~ς	ADJ	a-p---na-	Case=Acc|Gender=Neut|Number=Plur	20	amod	20:amod	Ref=405
+24	πάντ'	πα~ς	ADJ	a-p---na-	Case=Acc|Gender=Neut|Number=Plur	20	amod	20:amod	Ref=405
 25	ἄρμενα	ἀραρίσκω	VERB	v-papmna-	Case=Acc|Gender=Neut|Number=Plur|VerbForm=Part|Voice=Mid	26	xcomp	26:xcomp	Ref=405
 26	ποιήσασθαι	ποιέω	VERB	v--anm---	VerbForm=Inf|Voice=Mid	0	root	0:root	Ref=405|SpaceAfter=No
 27	,	,	PUNCT	u--------	_	31	punct	31:punct	Ref=405
@@ -4496,12 +4496,12 @@
 
 # sent_id = 1716132
 # sentannotators <primary>megluthin</primary> <primary>alexlessie</primary> <secondary>tovahk</secondary>
-# text = μη δ̓ ἀναβάλλεσθαι ἔς τ̓ αὔριον ἔς τε ἔνηφιν·
+# text = μη δ̓ ἀναβάλλεσθαι ἔς τ' αὔριον ἔς τε ἔνηφιν·
 1	μη	μή	ADV	g--------	_	3	advmod:neg	_	Ref=405
 2	δ̓	δέ	CCONJ	g--------	PartType=Ptcl	3	cc	_	Ref=405
 3	ἀναβάλλεσθαι	ἀναβάλλω	VERB	v--pne---	Tense=Pres|VerbForm=Inf|Voice=MidPass	0	root	_	Ref=405
 4	ἔς	εἰς	ADP	r--------	_	9	case	_	Ref=405
-5	τ̓	τε	CCONJ	c--------	_	9	cc	_	Ref=405
+5	τ'	τε	CCONJ	c--------	_	9	cc	_	Ref=405
 6	αὔριον	αὔριον	ADV	d--------	_	4	advmod	_	Ref=405
 7	ἔς	εἰς	ADP	r--------	_	9	case	_	Ref=405
 8	τε	τε	CCONJ	c--------	_	9	cc	_	Ref=405
@@ -4691,23 +4691,23 @@
 
 # sent_id = 1716145
 # sentannotators <primary>millermo</primary> <primary>megluthin</primary> <secondary>tovahk</secondary>
-# text = φέρειν δὲ γύην, ὅτ̓ ἂν εὕρῃς, ἐς οἶκον, κατ̓ ὄρος διζήμενος ἢ κατ̓ ἄρουραν, πρίνινον·
+# text = φέρειν δὲ γύην, ὅτ' ἂν εὕρῃς, ἐς οἶκον, κατ' ὄρος διζήμενος ἢ κατ' ἄρουραν, πρίνινον·
 1	φέρειν	φέρω	VERB	v--pna---	Tense=Pres|VerbForm=Inf|Voice=Act	0	root	_	Ref=405
 2	δὲ	δέ	CCONJ	g--------	PartType=Ptcl	1	cc	_	Ref=405
 3	γύην	γύης	NOUN	n-s---ma-	Case=Acc|Gender=Masc|Number=Sing	1	obj	_	Ref=405|SpaceAfter=No
 4	,	,	PUNCT	u--------	_	7	punct	_	Ref=405
-5	ὅτ̓	ὅτε	ADV	d--------	_	7	advmod	_	Ref=405
+5	ὅτ'	ὅτε	ADV	d--------	_	7	advmod	_	Ref=405
 6	ἂν	ἄν	ADV	g--------	PartType=Ptcl	7	advmod	_	Ref=405
 7	εὕρῃς	εὑρίσκω	VERB	v2sasa---	Mood=Sub|Number=Sing|Person=2|Voice=Act	1	advcl	_	Ref=405|SpaceAfter=No
 8	,	,	PUNCT	u--------	_	7	punct	_	Ref=405
 9	ἐς	εἰς	ADP	r--------	_	10	case	_	Ref=405
 10	οἶκον	οἶκος	NOUN	n-s---ma-	Case=Acc|Gender=Masc|Number=Sing	1	obl:arg	_	Ref=405|SpaceAfter=No
 11	,	,	PUNCT	u--------	_	14	punct	_	Ref=405
-12	κατ̓	κατά	ADP	r--------	_	13	case	_	Ref=405
+12	κατ'	κατά	ADP	r--------	_	13	case	_	Ref=405
 13	ὄρος	ὄρος	NOUN	n-s---na-	Case=Acc|Gender=Neut|Number=Sing	14	obl	_	Ref=405
 14	διζήμενος	δίζημαι	VERB	v-sppemn-	Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=MidPass	1	advcl	_	Ref=405
 15	ἢ	ἤ	CCONJ	c--------	_	17	cc	_	Ref=405
-16	κατ̓	κατά	ADP	r--------	_	17	case	_	Ref=405
+16	κατ'	κατά	ADP	r--------	_	17	case	_	Ref=405
 17	ἄρουραν	ἄρουρα	NOUN	n-s---fa-	Case=Acc|Gender=Fem|Number=Sing	13	conj	_	Ref=405|SpaceAfter=No
 18	,	,	PUNCT	u--------	_	14	punct	_	Ref=405
 19	πρίνινον	πρίνινος	ADJ	a-s---ma-	Case=Acc|Gender=Masc|Number=Sing	3	amod	_	Ref=405|SpaceAfter=No
@@ -4715,7 +4715,7 @@
 
 # sent_id = 1716146
 # sentannotators <primary>millermo</primary> <primary>megluthin</primary> <secondary>tovahk</secondary>
-# text = ὃς γὰρ βουσὶν ἀροῦν ὀχυρώτατός ἐστιν, εὖτ̓ ἂν Ἀθηναίης δμῷος ἐν ἐλύματι πήξας γόμφοισιν πελάσας προσαρήρεται ἱστοβοῆι.
+# text = ὃς γὰρ βουσὶν ἀροῦν ὀχυρώτατός ἐστιν, εὖτ' ἂν Ἀθηναίης δμῷος ἐν ἐλύματι πήξας γόμφοισιν πελάσας προσαρήρεται ἱστοβοῆι.
 1	ὃς	ὅς	PRON	p-s---mn-	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	5	nsubj	_	Ref=405
 2	γὰρ	γάρ	ADV	g--------	PartType=Ptcl	5	advmod	_	Ref=405
 3	βουσὶν	βοῦς	NOUN	n-p---md-	Case=Dat|Gender=Masc|Number=Plur	4	obl	_	Ref=405
@@ -4723,7 +4723,7 @@
 5	ὀχυρώτατός	ὀχυρός	ADJ	a-s---mns	Case=Nom|Degree=Sup|Gender=Masc|Number=Sing	0	root	_	Ref=405
 6	ἐστιν	εἰμί	AUX	v3spia---	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	cop	_	Ref=405|SpaceAfter=No
 7	,	,	PUNCT	u--------	_	17	punct	_	Ref=405
-8	εὖτ̓	εὖτε	ADV	d--------	_	17	advmod	_	Ref=405
+8	εὖτ'	εὖτε	ADV	d--------	_	17	advmod	_	Ref=405
 9	ἂν	ἄν	ADV	g--------	PartType=Ptcl	17	advmod	_	Ref=405
 10	Ἀθηναίης	Ἀθήνη	PROPN	n-s---fg-	Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	Ref=405
 11	δμῷος	δμώς	NOUN	n-s---mn-	Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	Ref=405
@@ -4905,11 +4905,11 @@
 
 # sent_id = 1716156
 # sentannotators <primary>millermo</primary> <primary>megluthin</primary> <secondary>tovahk</secondary>
-# text = φράζεσθαι δ̓, εὖτ̓ ἂν γεράνου φωνὴν ἐπακούσῃς ὑψόθεν ἐκ νεφέων ἐνιαύσια κεκληγυίης·
+# text = φράζεσθαι δ̓, εὖτ' ἂν γεράνου φωνὴν ἐπακούσῃς ὑψόθεν ἐκ νεφέων ἐνιαύσια κεκληγυίης·
 1	φράζεσθαι	φράζω	VERB	v--pne---	Tense=Pres|VerbForm=Inf|Voice=MidPass	0	root	_	Ref=448
 2	δ̓	δέ	CCONJ	g--------	PartType=Ptcl	1	cc	_	Ref=448|SpaceAfter=No
 3	,	,	PUNCT	u--------	_	8	punct	_	Ref=448
-4	εὖτ̓	εὔτε	ADV	d--------	_	8	advmod	_	Ref=448
+4	εὖτ'	εὔτε	ADV	d--------	_	8	advmod	_	Ref=448
 5	ἂν	ἄν	ADV	g--------	PartType=Ptcl	8	advmod	_	Ref=448
 6	γεράνου	γέρανος	NOUN	n-s---fg-	Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	Ref=448
 7	φωνὴν	φωνή	NOUN	n-s---fa-	Case=Acc|Gender=Fem|Number=Sing	8	obj	_	Ref=448
@@ -4923,8 +4923,8 @@
 
 # sent_id = 1716157
 # sentannotators <primary>millermo</primary> <primary>megluthin</primary> <secondary>tovahk</secondary>
-# text = ἥτ̓ ἀρότοιό τε σῆμα φέρει καὶ χείματος ὥρην δεικνύει ὀμβρηροῦ·
-1	ἥτ̓	ὅστε	PRON	p-s---fn-	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	Ref=448
+# text = ἥτ' ἀρότοιό τε σῆμα φέρει καὶ χείματος ὥρην δεικνύει ὀμβρηροῦ·
+1	ἥτ'	ὅστε	PRON	p-s---fn-	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	Ref=448
 2	ἀρότοιό	ἄροτος	NOUN	n-s---mg-	Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	Ref=448
 3	τε	τε	CCONJ	c--------	_	5	cc	_	Ref=448
 4	σῆμα	σῆμα	NOUN	n-s---na-	Case=Acc|Gender=Neut|Number=Sing	5	obj	_	Ref=448
@@ -5012,11 +5012,11 @@
 
 # sent_id = 1716165
 # sentannotators <primary>millermo</primary> <primary>megluthin</primary> <secondary>tovahk</secondary>
-# text = ἑκατὸν δέ τε δούρατ̓ ἀμάξης, τῶν πρόσθεν μελέτην ἐχέμεν οἰκήια θέσθαι.
+# text = ἑκατὸν δέ τε δούρατ' ἀμάξης, τῶν πρόσθεν μελέτην ἐχέμεν οἰκήια θέσθαι.
 1	ἑκατὸν	ἑκατόν	X	m--------	_	4	nummod	_	Ref=448
 2	δέ	δέ	CCONJ	g--------	PartType=Ptcl	4	cc	4:cc	Ref=448
 3	τε	τε	ADV	c--------	_	4	advmod	4:advmod	Ref=448
-4	δούρατ̓	δόρυ	NOUN	n-p---nn-	Case=Nom|Gender=Neut|Number=Plur	0	root	0:root	Ref=448
+4	δούρατ'	δόρυ	NOUN	n-p---nn-	Case=Nom|Gender=Neut|Number=Plur	0	root	0:root	Ref=448
 5	ἀμάξης	ἄμαξα	NOUN	n-s---fg-	Case=Gen|Gender=Fem|Number=Sing	4	nmod	4:nmod	Ref=448|SpaceAfter=No
 6	,	,	PUNCT	u--------	_	10	punct	10:punct	Ref=448
 7	τῶν	ὁ	PRON	p-p---ng-	Case=Gen|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	9	nmod	9:det	Ref=448
@@ -5029,17 +5029,17 @@
 
 # sent_id = 1716166
 # sentannotators <primary>millermo</primary> <primary>megluthin</primary> <secondary>tovahk</secondary>
-# text = εὖτ̓ ἂν δὲ πρώτιστ̓ ἄροτος θνητοῖσι φανείῆ, δὴ τότ̓ ἐφορμηθῆναι ὁμῶς δμῶές τε καὶ αὐτὸς αὔην καὶ διερὴν ἀρόων ἀρότοιο καθ̓ ὥρην, πρωὶ μάλα σπεύδων, ἵνα τοι πλήθωσιν ἄρουραι.
-1	εὖτ̓	εὔτε	ADV	d--------	_	7	advmod	_	Ref=448
+# text = εὖτ' ἂν δὲ πρώτιστ' ἄροτος θνητοῖσι φανείῆ, δὴ τότ' ἐφορμηθῆναι ὁμῶς δμῶές τε καὶ αὐτὸς αὔην καὶ διερὴν ἀρόων ἀρότοιο καθ̓ ὥρην, πρωὶ μάλα σπεύδων, ἵνα τοι πλήθωσιν ἄρουραι.
+1	εὖτ'	εὔτε	ADV	d--------	_	7	advmod	_	Ref=448
 2	ἂν	ἄν	ADV	g--------	PartType=Ptcl	7	advmod	_	Ref=448
 3	δὲ	δέ	CCONJ	g--------	PartType=Ptcl	11	cc	_	Ref=448
-4	πρώτιστ̓	πρώτιστος	ADJ	a-p---na-	Case=Acc|Gender=Neut|Number=Plur	7	obl	_	Ref=448
+4	πρώτιστ'	πρώτιστος	ADJ	a-p---na-	Case=Acc|Gender=Neut|Number=Plur	7	obl	_	Ref=448
 5	ἄροτος	ἄροτος	NOUN	n-s---mn-	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	Ref=448
 6	θνητοῖσι	θνητός	ADJ	a-p---md-	Case=Dat|Gender=Masc|Number=Plur	7	obj	_	Ref=448
 7	φανείῆ	φαίνω	VERB	v3saop---	Mood=Opt|Number=Sing|Person=3	11	advcl	_	Ref=448|SpaceAfter=No
 8	,	,	PUNCT	u--------	_	7	punct	_	Ref=448
 9	δὴ	δή	ADV	g--------	PartType=Ptcl	11	advmod	_	Ref=448
-10	τότ̓	τότε	ADV	d--------	_	11	advmod	_	Ref=448
+10	τότ'	τότε	ADV	d--------	_	11	advmod	_	Ref=448
 11	ἐφορμηθῆναι	ἐφορμάω	VERB	v--anp---	VerbForm=Inf	0	root	_	Ref=448
 12	ὁμῶς	ὁμῶς	ADV	d--------	_	11	advmod	_	Ref=448
 13	δμῶές	δμώς	NOUN	n-p---mn-	Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	Ref=448
@@ -5104,7 +5104,7 @@
 
 # sent_id = 1716171
 # sentannotators <primary>millermo</primary> <primary>megluthin</primary> <secondary>tovahk</secondary>
-# text = εὔχεσθαι δὲ Διὶ χθονίῳ Δημήτερί θ̓ ἁγνῇ, ἐκτελέα βρίθειν Δημήτερος ἱερὸν ἀκτήν, ἀρχόμενος τὰ πρῶτ̓ ἀρότου, ὅτ̓ ἂν ἄκρον ἐχέτλης χειρὶ λαβὼν ὅρπηκα βοῶν ἐπὶ νῶτον ἵκηαι ἔνδρυον ἑλκόντων μεσάβων.
+# text = εὔχεσθαι δὲ Διὶ χθονίῳ Δημήτερί θ̓ ἁγνῇ, ἐκτελέα βρίθειν Δημήτερος ἱερὸν ἀκτήν, ἀρχόμενος τὰ πρῶτ' ἀρότου, ὅτ' ἂν ἄκρον ἐχέτλης χειρὶ λαβὼν ὅρπηκα βοῶν ἐπὶ νῶτον ἵκηαι ἔνδρυον ἑλκόντων μεσάβων.
 1	εὔχεσθαι	εὔχομαι	VERB	v--pne---	Tense=Pres|VerbForm=Inf|Voice=MidPass	0	root	_	Ref=448
 2	δὲ	δέ	CCONJ	g--------	PartType=Ptcl	1	cc	_	Ref=448
 3	Διὶ	Ζεύς	PROPN	n-s---md-	Case=Dat|Gender=Masc|Number=Sing	1	obj	_	Ref=448
@@ -5121,10 +5121,10 @@
 14	,	,	PUNCT	u--------	_	15	punct	_	Ref=448
 15	ἀρχόμενος	ἄρχω	VERB	v-sppemn-	Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=MidPass	1	advcl	_	Ref=448
 16	τὰ	ὁ	PRON	l--------	Definite=Def|PronType=Art	17	nmod	_	Ref=448
-17	πρῶτ̓	πρῶτος	ADJ	a-p---na-	Case=Acc|Gender=Neut|Number=Plur	15	obl	_	Ref=448
+17	πρῶτ'	πρῶτος	ADJ	a-p---na-	Case=Acc|Gender=Neut|Number=Plur	15	obl	_	Ref=448
 18	ἀρότου	ἄροτος	NOUN	n-s---mg-	Case=Gen|Gender=Masc|Number=Sing	15	obj	_	Ref=448|SpaceAfter=No
 19	,	,	PUNCT	u--------	_	30	punct	_	Ref=448
-20	ὅτ̓	ὅτε	ADV	d--------	_	30	advmod	_	Ref=448
+20	ὅτ'	ὅτε	ADV	d--------	_	30	advmod	_	Ref=448
 21	ἂν	ἄν	ADV	g--------	PartType=Ptcl	30	advmod	_	Ref=448
 22	ἄκρον	ἄκρον	NOUN	n-s---na-	Case=Acc|Gender=Neut|Number=Sing	25	obj	_	Ref=448
 23	ἐχέτλης	ἐχέτλη	NOUN	n-s---fg-	Case=Gen|Gender=Fem|Number=Sing	22	nmod	_	Ref=448
@@ -5312,7 +5312,7 @@
 
 # sent_id = 1716182
 # sentannotators <primary>millermo</primary> <primary>megluthin</primary> <secondary>tovahk</secondary>
-# text = ἦμος κόκκυξ κοκκύζει δρυὸς ἐν πετάλοισι τὸ πρῶτον, τέρπει δὲ βροτοὺς ἐπ' ἀπείρονα γαῖαν, τῆμος Ζεὺς ὕοι τρίτῳ ἤματι μη δ̓ ἀπολήγοι, μήτ̓ ἄῤ ὑπερβάλλων βοὸς ὁπλὴν μήτ̓ ἀπολείπων·
+# text = ἦμος κόκκυξ κοκκύζει δρυὸς ἐν πετάλοισι τὸ πρῶτον, τέρπει δὲ βροτοὺς ἐπ' ἀπείρονα γαῖαν, τῆμος Ζεὺς ὕοι τρίτῳ ἤματι μη δ̓ ἀπολήγοι, μήτ' ἄῤ ὑπερβάλλων βοὸς ὁπλὴν μήτ' ἀπολείπων·
 1	ἦμος	ἦμος	ADV	d--------	_	3	advmod	_	Ref=479
 2	κόκκυξ	κόκκυξ	NOUN	n-s---mn-	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	Ref=479
 3	κοκκύζει	κοκκύζω	VERB	v3spia---	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	Ref=479
@@ -5338,12 +5338,12 @@
 23	δ̓	δέ	CCONJ	g--------	PartType=Ptcl	24	cc	_	Ref=479
 24	ἀπολήγοι	ἀπολήγω	VERB	v3spoa---	Mood=Opt|Number=Sing|Person=3|Tense=Pres|Voice=Act	3	conj	_	Ref=479|SpaceAfter=No
 25	,	,	PUNCT	u--------	_	28	punct	_	Ref=479
-26	μήτ̓	μήτε	CCONJ	g--------	_	28	cc	_	Ref=479
+26	μήτ'	μήτε	CCONJ	g--------	_	28	cc	_	Ref=479
 27	ἄῤ	ἄρα	ADV	g--------	PartType=Ptcl	28	advmod	_	Ref=479
 28	ὑπερβάλλων	ὑπερβάλλω	VERB	v-sppamn-	Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	24	advcl	_	Ref=479
 29	βοὸς	βοῦς	NOUN	n-s---mg-	Case=Gen|Gender=Masc|Number=Sing	30	nmod	_	Ref=479
 30	ὁπλὴν	ὁπλή	NOUN	n-s---fa-	Case=Acc|Gender=Fem|Number=Sing	28	obj	_	Ref=479
-31	μήτ̓	μήτε	CCONJ	g--------	_	32	cc	_	Ref=479
+31	μήτ'	μήτε	CCONJ	g--------	_	32	cc	_	Ref=479
 32	ἀπολείπων	ἀπολείπω	VERB	v-sppamn-	Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	28	conj	_	Ref=479|SpaceAfter=No
 33	·	·	PUNCT	u--------	_	3	punct	_	Ref=479
 
@@ -5370,11 +5370,11 @@
 
 # sent_id = 1716185
 # sentannotators <primary>millermo</primary> <primary>megluthin</primary> <secondary>tovahk</secondary>
-# text = μηδέ σε λήθοι μήτ̓ ἔαρ γιγνόμενον πολιὸν μήθ̓ ὥριος ὄμβρος.
+# text = μηδέ σε λήθοι μήτ' ἔαρ γιγνόμενον πολιὸν μήθ̓ ὥριος ὄμβρος.
 1	μηδέ	μηδέ	CCONJ	c--------	_	3	cc	_	Ref=479|SpaceAfter=No
 2	σε	σύ	PRON	p-s----a-	Case=Acc|Number=Sing|Person=2|PronType=Prs	3	obj	_	Ref=479
 3	λήθοι	λανθάνω	VERB	v3spoa---	Mood=Opt|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	Ref=479
-4	μήτ̓	μήτε	CCONJ	g--------	_	5	cc	_	Ref=479
+4	μήτ'	μήτε	CCONJ	g--------	_	5	cc	_	Ref=479
 5	ἔαρ	ἔαρ	NOUN	n-s---nn-	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	Ref=479
 6	γιγνόμενον	γίγνομαι	VERB	v-sppenn-	Case=Nom|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=MidPass	5	acl:compl	_	Ref=479
 7	πολιὸν	πολιός	ADJ	a-s---nn-	Case=Nom|Gender=Neut|Number=Sing	5	amod	_	Ref=479
@@ -5496,7 +5496,7 @@
 
 # sent_id = 1716191
 # sentannotators <primary>millermo</primary> <primary>megluthin</primary> <secondary>tovahk</secondary>
-# text = μῆνα δὲ Ληναιῶνα, κάκ' ἤματα, βουδόρα πάντα, τοῦτον ἀλεύασθαι, καὶ πηγάδας, αἵτ̓ ἐπὶ γαῖαν πνεύσαντος Βορέαο δυσηλεγέες τελέθουσιν, ὅστε διὰ Θρῄκης ἱπποτρόφου εὐρέι πόντῳ ἐμπνεύσας ὤρινε·
+# text = μῆνα δὲ Ληναιῶνα, κάκ' ἤματα, βουδόρα πάντα, τοῦτον ἀλεύασθαι, καὶ πηγάδας, αἵτ' ἐπὶ γαῖαν πνεύσαντος Βορέαο δυσηλεγέες τελέθουσιν, ὅστε διὰ Θρῄκης ἱπποτρόφου εὐρέι πόντῳ ἐμπνεύσας ὤρινε·
 1	μῆνα	μείς	NOUN	n-s---ma-	Case=Acc|Gender=Masc|Number=Sing	15	obj	_	Ref=504
 2	δὲ	δέ	CCONJ	g--------	PartType=Ptcl	12	cc	_	Ref=504
 3	Ληναιῶνα	Ληναιών	PROPN	n-s---ma-	Case=Acc|Gender=Masc|Number=Sing	1	nmod	_	Ref=504|SpaceAfter=No
@@ -5513,7 +5513,7 @@
 14	καὶ	καί	CCONJ	c--------	_	15	cc	_	Ref=504
 15	πηγάδας	πηγάς	NOUN	n-p---fa-	Case=Acc|Gender=Fem|Number=Plur	12	obj	_	Ref=504|SpaceAfter=No
 16	,	,	PUNCT	u--------	_	23	punct	_	Ref=504
-17	αἵτ̓	ὅστε	PRON	p-p---fn-	Case=Nom|Gender=Fem|Number=Plur	23	nsubj	_	Ref=504
+17	αἵτ'	ὅστε	PRON	p-p---fn-	Case=Nom|Gender=Fem|Number=Plur	23	nsubj	_	Ref=504
 18	ἐπὶ	ἐπί	ADP	r--------	_	19	case	_	Ref=504
 19	γαῖαν	γαῖα	NOUN	n-s---fa-	Case=Acc|Gender=Fem|Number=Sing	20	obl	_	Ref=504
 20	πνεύσαντος	πνέω	VERB	v-sapamg-	Case=Gen|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	23	advcl	_	Ref=504
@@ -5684,7 +5684,7 @@
 
 # sent_id = 1716201
 # sentannotators <primary>millermo</primary> <primary>megluthin</primary> <secondary>tovahk</secondary>
-# text = εὖ τε λοεσσαμένη τέρενα χρόα καὶ λίπ' ἐλαίῳ χρισαμένη μυχίη καταλέξεται ἔνδοθι οἴκου ἤματι χειμερίῳ, ὅτ̓ ἀνόστεος ὃν πόδα τένδει ἔν τ̓ ἀπύρῳ οἴκῳ καὶ ἤθεσι λευγαλέοισιν.
+# text = εὖ τε λοεσσαμένη τέρενα χρόα καὶ λίπ' ἐλαίῳ χρισαμένη μυχίη καταλέξεται ἔνδοθι οἴκου ἤματι χειμερίῳ, ὅτ' ἀνόστεος ὃν πόδα τένδει ἔν τ' ἀπύρῳ οἴκῳ καὶ ἤθεσι λευγαλέοισιν.
 1	εὖ	εὖ	ADV	d--------	_	3	advmod	_	Ref=504
 2	τε	τε	CCONJ	c--------	_	3	cc	_	Ref=504
 3	λοεσσαμένη	λούω	VERB	v-sapmfn-	Case=Nom|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Mid	11	advcl	_	Ref=504
@@ -5701,13 +5701,13 @@
 14	ἤματι	ἦμαρ	NOUN	n-s---nd-	Case=Dat|Gender=Neut|Number=Sing	11	obl	_	Ref=504
 15	χειμερίῳ	χειμέριος	ADJ	a-s---nd-	Case=Dat|Gender=Neut|Number=Sing	14	amod	_	Ref=504|SpaceAfter=No
 16	,	,	PUNCT	u--------	_	21	punct	_	Ref=504
-17	ὅτ̓	ὅτε	ADV	d--------	_	21	advmod	_	Ref=504
+17	ὅτ'	ὅτε	ADV	d--------	_	21	advmod	_	Ref=504
 18	ἀνόστεος	ἀνόστεος	ADJ	a-s---mn-	Case=Nom|Gender=Masc|Number=Sing	21	nsubj	_	Ref=504
 19	ὃν	ἑός	ADJ	a-s---ma-	Case=Acc|Gender=Masc|Number=Sing	20	amod	_	Ref=504
 20	πόδα	πούς	NOUN	n-s---ma-	Case=Acc|Gender=Masc|Number=Sing	21	obj	_	Ref=504
 21	τένδει	τένδω	VERB	v3spia---	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	11	advcl	_	Ref=504
 22	ἔν	ἐν	ADP	r--------	_	25	case	_	Ref=504
-23	τ̓	τε	CCONJ	c--------	_	25	cc	_	Ref=504
+23	τ'	τε	CCONJ	c--------	_	25	cc	_	Ref=504
 24	ἀπύρῳ	ἄπυρος	ADJ	a-s---md-	Case=Dat|Gender=Masc|Number=Sing	25	amod	_	Ref=504
 25	οἴκῳ	οἶκος	NOUN	n-s---md-	Case=Dat|Gender=Masc|Number=Sing	21	obl	_	Ref=504
 26	καὶ	καί	CCONJ	c--------	_	27	cc	_	Ref=504
@@ -5786,7 +5786,7 @@
 
 # sent_id = 1716206
 # sentannotators <primary>millermo</primary> <primary>megluthin</primary> <secondary>tovahk</secondary>
-# text = τότε δὴ τρίποδι βροτῷ ἶσοι, οὗ τ̓ ἐπὶ νῶτα ἔαγε, κάρη δ̓ εἰς οὖδας ὁρᾶται, τῷ ἴκελοι φοιτῶσιν, ἀλευόμενοι νίφα λευκήν.
+# text = τότε δὴ τρίποδι βροτῷ ἶσοι, οὗ τ' ἐπὶ νῶτα ἔαγε, κάρη δ̓ εἰς οὖδας ὁρᾶται, τῷ ἴκελοι φοιτῶσιν, ἀλευόμενοι νίφα λευκήν.
 1	τότε	τότε	ADV	d--------	_	21	advmod	_	Ref=504
 2	δὴ	δή	ADV	g--------	PartType=Ptcl	21	advmod	_	Ref=504
 3	τρίποδι	τρίπους	ADJ	a-s---md-	Case=Dat|Gender=Masc|Number=Sing	4	amod	_	Ref=504
@@ -5794,7 +5794,7 @@
 5	ἶσοι	ἴσος	ADJ	a-p---mn-	Case=Nom|Gender=Masc|Number=Plur	21	advcl:compl	_	Ref=504|SpaceAfter=No
 6	,	,	PUNCT	u--------	_	11	punct	_	Ref=504
 7	οὗ	ὅς	PRON	p-s---mg-	Case=Gen|Gender=Masc|Number=Sing|PronType=Rel	10	nmod	_	Ref=504
-8	τ̓	τε	ADV	c--------	_	11	advmod	_	Ref=504
+8	τ'	τε	ADV	c--------	_	11	advmod	_	Ref=504
 9	ἐπὶ	ἐπί	ADV	r--------	_	11	compound:prt	_	Ref=504
 10	νῶτα	νῶτον	NOUN	n-p---nn-	Case=Nom|Gender=Neut|Number=Plur	11	nsubj	_	Ref=504
 11	ἔαγε	ἄγνυμι	VERB	v3sria---	Mood=Ind|Number=Sing|Person=3|Voice=Act	4	acl:relcl	_	Ref=504|SpaceAfter=No
@@ -5887,12 +5887,12 @@
 
 # sent_id = 1716211
 # sentannotators <primary>millermo</primary> <primary>megluthin</primary> <secondary>tovahk</secondary>
-# text = πρωτογόνων δ̓ ἐρίφων, ὁπότ̓ ἂν κρύος ὥριον ἔλθῃ, δέρματα συρράπτειν νεύρῳ βοός, ὄφῤ ἐπὶ νώτῳ ὑετοῦ ἀμφιβάλῃ ἀλέην·
+# text = πρωτογόνων δ̓ ἐρίφων, ὁπότ' ἂν κρύος ὥριον ἔλθῃ, δέρματα συρράπτειν νεύρῳ βοός, ὄφῤ ἐπὶ νώτῳ ὑετοῦ ἀμφιβάλῃ ἀλέην·
 1	πρωτογόνων	πρωτόγονος	ADJ	a-p---mg-	Case=Gen|Gender=Masc|Number=Plur	3	amod	_	Ref=536
 2	δ̓	δέ	CCONJ	g--------	PartType=Ptcl	12	cc	_	Ref=536
 3	ἐρίφων	ἔριφος	NOUN	n-p---mg-	Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	Ref=536|SpaceAfter=No
 4	,	,	PUNCT	u--------	_	9	punct	_	Ref=536
-5	ὁπότ̓	ὁπότε	ADV	d--------	_	9	advmod	_	Ref=536
+5	ὁπότ'	ὁπότε	ADV	d--------	_	9	advmod	_	Ref=536
 6	ἂν	ἄν	ADV	g--------	PartType=Ptcl	9	advmod	_	Ref=536
 7	κρύος	κρύος	NOUN	n-s---nn-	Case=Nom|Gender=Neut|Number=Sing	9	nsubj	_	Ref=536
 8	ὥριον	ὥριος	ADJ	a-s---nn-	Case=Nom|Gender=Neut|Number=Sing	7	amod	_	Ref=536
@@ -5929,10 +5929,10 @@
 
 # sent_id = 1716213
 # sentannotators <primary>millermo</primary> <primary>megluthin</primary> <secondary>tovahk</secondary>
-# text = ψυχρὴ γάρ τ̓ ἠὼς πέλεται Βορέαο πεσόντος ἠώιος δ̓ ἐπὶ γαῖαν ἀπ' οὐρανοῦ ἀστερόεντος ἀὴρ πυροφόρος τέταται μακάρων ἐπὶ ἔργοις·
+# text = ψυχρὴ γάρ τ' ἠὼς πέλεται Βορέαο πεσόντος ἠώιος δ̓ ἐπὶ γαῖαν ἀπ' οὐρανοῦ ἀστερόεντος ἀὴρ πυροφόρος τέταται μακάρων ἐπὶ ἔργοις·
 1	ψυχρὴ	ψυχρός	ADJ	a-s---fn-	Case=Nom|Gender=Fem|Number=Sing	5	xcomp	_	Ref=536
 2	γάρ	γάρ	ADV	g--------	PartType=Ptcl	5	advmod	_	Ref=536
-3	τ̓	τε	CCONJ	c--------	_	5	cc	_	Ref=536
+3	τ'	τε	CCONJ	c--------	_	5	cc	_	Ref=536
 4	ἠὼς	ἠώς	NOUN	n-s---fn-	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	Ref=536
 5	πέλεται	πέλω	VERB	v3spie---	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=MidPass	0	root	_	Ref=536
 6	Βορέαο	Βορέας	PROPN	n-s---mg-	Case=Gen|Gender=Masc|Number=Sing	7	nsubj	_	Ref=536
@@ -5954,7 +5954,7 @@
 
 # sent_id = 1716214
 # sentannotators <primary>millermo</primary> <primary>megluthin</primary> <secondary>tovahk</secondary>
-# text = ὅστε ἀρυσάμενος ποταμῶν ἄπο αἰεναόντων, ὑψοῦ ὑπὲρ γαίης ἀρθεὶς ἀνέμοιο θυέλλῃ ἄλλοτε μέν θ̓ ὕει ποτὶ ἕσπερον, ἄλλοτ̓ ἄησι πυκνὰ Θρηικίου Βορέου νέφεα κλονέοντος.
+# text = ὅστε ἀρυσάμενος ποταμῶν ἄπο αἰεναόντων, ὑψοῦ ὑπὲρ γαίης ἀρθεὶς ἀνέμοιο θυέλλῃ ἄλλοτε μέν θ̓ ὕει ποτὶ ἕσπερον, ἄλλοτ' ἄησι πυκνὰ Θρηικίου Βορέου νέφεα κλονέοντος.
 1	ὅστε	ὅστε	PRON	p-s---mn-	Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	Ref=536
 2	ἀρυσάμενος	ἀρύω	VERB	v-sapmmn-	Case=Nom|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Mid	16	advcl	_	Ref=536
 3	ποταμῶν	ποταμός	NOUN	n-p---mg-	Case=Gen|Gender=Masc|Number=Plur	2	obl	_	Ref=536
@@ -5974,7 +5974,7 @@
 17	ποτὶ	πρός	ADP	r--------	_	18	case	_	Ref=536
 18	ἕσπερον	ἕσπερος	ADJ	a-s---na-	Case=Acc|Gender=Neut|Number=Sing	16	obl	_	Ref=536|SpaceAfter=No
 19	,	,	PUNCT	u--------	_	21	punct	_	Ref=536
-20	ἄλλοτ̓	ἄλλοτε	ADV	d--------	_	21	advmod	_	Ref=536
+20	ἄλλοτ'	ἄλλοτε	ADV	d--------	_	21	advmod	_	Ref=536
 21	ἄησι	ἄημι	VERB	v3spia---	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	16	conj	_	Ref=536
 22	πυκνὰ	πυκνός	ADJ	a-p---na-	Case=Acc|Gender=Neut|Number=Plur	25	amod	_	Ref=536
 23	Θρηικίου	Θράκιος	ADJ	a-s---mg-	Case=Gen|Gender=Masc|Number=Sing	24	amod	_	Ref=536
@@ -6088,8 +6088,8 @@
 
 # sent_id = 1716221
 # sentannotators <primary>millermo</primary> <primary>megluthin</primary> <secondary>tovahk</secondary>
-# text = εὖτ̓ ἂν δ̓ ἑξήκοντα μετὰ τροπὰς ἠελίοιο χειμέρἰ ἐκτελέσῃ Ζεὺς ἤματα, δή ῥα τότ̓ ἀστὴρ Ἀρκτοῦρος προλιπὼν ἱερὸν ῥόον Ὠκεανοῖο πρῶτον παμφαίνων ἐπιτέλλεται ἀκροκνέφαιος.
-1	εὖτ̓	εὖτε	ADV	d--------	_	9	advmod	_	Ref=536
+# text = εὖτ' ἂν δ̓ ἑξήκοντα μετὰ τροπὰς ἠελίοιο χειμέρἰ ἐκτελέσῃ Ζεὺς ἤματα, δή ῥα τότ' ἀστὴρ Ἀρκτοῦρος προλιπὼν ἱερὸν ῥόον Ὠκεανοῖο πρῶτον παμφαίνων ἐπιτέλλεται ἀκροκνέφαιος.
+1	εὖτ'	εὖτε	ADV	d--------	_	9	advmod	_	Ref=536
 2	ἂν	ἄν	ADV	g--------	PartType=Ptcl	9	advmod	_	Ref=536
 3	δ̓	δέ	CCONJ	g--------	PartType=Ptcl	24	cc	_	Ref=536
 4	ἑξήκοντα	ἑξήκοντα	X	m--------	_	11	nummod	_	Ref=536
@@ -6103,7 +6103,7 @@
 12	,	,	PUNCT	u--------	_	9	punct	_	Ref=536
 13	δή	δή	ADV	g--------	PartType=Ptcl	24	advmod	_	Ref=536
 14	ῥα	ἄρα	ADV	g--------	PartType=Ptcl	24	advmod	_	Ref=536
-15	τότ̓	τότε	ADV	d--------	_	24	advmod	_	Ref=536
+15	τότ'	τότε	ADV	d--------	_	24	advmod	_	Ref=536
 16	ἀστὴρ	ἀστήρ	NOUN	n-s---mn-	Case=Nom|Gender=Masc|Number=Sing	24	nsubj	_	Ref=536
 17	Ἀρκτοῦρος	Ἀρκτοῦρος	PROPN	n-s---mn-	Case=Nom|Gender=Masc|Number=Sing	16	nmod	_	Ref=536
 18	προλιπὼν	προλείπω	VERB	v-sapamn-	Case=Nom|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	23	advcl	_	Ref=536
@@ -6118,10 +6118,10 @@
 
 # sent_id = 1716222
 # sentannotators <primary>millermo</primary> <primary>megluthin</primary> <secondary>tovahk</secondary>
-# text = τὸν δὲ μέτ̓ ὀρθογόη Πανδιονὶς ὦρτο χελιδὼν ἐς φάος ἀνθρώποις, ἔαρος νέον ἱσταμένοιο.
+# text = τὸν δὲ μέτ' ὀρθογόη Πανδιονὶς ὦρτο χελιδὼν ἐς φάος ἀνθρώποις, ἔαρος νέον ἱσταμένοιο.
 1	τὸν	ὁ	PRON	p-s---ma-	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	obl	_	Ref=536
 2	δὲ	δέ	CCONJ	g--------	PartType=Ptcl	6	cc	_	Ref=536
-3	μέτ̓	μετά	ADP	r--------	_	1	case	_	Ref=536
+3	μέτ'	μετά	ADP	r--------	_	1	case	_	Ref=536
 4	ὀρθογόη	ὀρθρογόη	ADJ	a-s---fn-	Case=Nom|Gender=Fem|Number=Sing	5	amod	_	Ref=536
 5	Πανδιονὶς	Πανδιονίς	PROPN	n-s---fn-	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	Ref=536
 6	ὦρτο	ὄρνυμι	VERB	v3saim---	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Mid	0	root	_	Ref=536
@@ -6154,10 +6154,10 @@
 
 # sent_id = 1716225
 # sentannotators <primary>millermo</primary> <primary>megluthin</primary> <secondary>tovahk</secondary>
-# text = ἀλλ' ὁπότ̓ ἂν φερέοικος ἀπὸ χθονὸς ἂμ φυτὰ βαίνῃ Πληιάδας φεύγων, τότε δὴ σκάφος οὐκέτι οἰνέων·
+# text = ἀλλ' ὁπότ' ἂν φερέοικος ἀπὸ χθονὸς ἂμ φυτὰ βαίνῃ Πληιάδας φεύγων, τότε δὴ σκάφος οὐκέτι οἰνέων·
 0.1	E0.1	_	_	_	_	_	_	0:root	_
 1	ἀλλ'	ἀλλά	ADV	d--------	_	15	advmod	0.1:advmod	Ref=571
-2	ὁπότ̓	ὁπότε	ADV	d--------	_	9	advmod	9:advmod	Ref=571
+2	ὁπότ'	ὁπότε	ADV	d--------	_	9	advmod	9:advmod	Ref=571
 3	ἂν	ἐάν	ADV	c--------	_	9	advmod	9:advmod	Ref=571
 4	φερέοικος	φερέοικος	ADJ	a-s---mn-	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	9:nsubj	Ref=571
 5	ἀπὸ	ἀπό	ADP	r--------	_	6	case	6:case	Ref=571
@@ -6189,7 +6189,7 @@
 
 # sent_id = 1716227
 # sentannotators <primary>millermo</primary> <primary>megluthin</primary> <secondary>tovahk</secondary>
-# text = φεύγειν δὲ σκιεροὺς θώκους καὶ ἐπ' ἠόα κοῖτον ὥρῃ ἐν ἀμήτου, ὅτε τ̓ ἠέλιος χρόα κάρφει.
+# text = φεύγειν δὲ σκιεροὺς θώκους καὶ ἐπ' ἠόα κοῖτον ὥρῃ ἐν ἀμήτου, ὅτε τ' ἠέλιος χρόα κάρφει.
 1	φεύγειν	φεύγω	VERB	v--pna---	Tense=Pres|VerbForm=Inf|Voice=Act	0	root	_	Ref=571
 2	δὲ	δέ	CCONJ	g--------	PartType=Ptcl	1	cc	_	Ref=571
 3	σκιεροὺς	σκιερός	ADJ	a-p---ma-	Case=Acc|Gender=Masc|Number=Plur	4	amod	_	Ref=571
@@ -6203,7 +6203,7 @@
 11	ἀμήτου	ἄμητος	NOUN	n-s---mg-	Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	Ref=571|SpaceAfter=No
 12	,	,	PUNCT	u--------	_	17	punct	_	Ref=571
 13	ὅτε	ὅτε	ADV	d--------	_	17	advmod	_	Ref=571
-14	τ̓	τε	ADV	c--------	_	17	advmod	_	Ref=571
+14	τ'	τε	ADV	c--------	_	17	advmod	_	Ref=571
 15	ἠέλιος	ἠέλιος	NOUN	n-s---mn-	Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	Ref=571
 16	χρόα	χρώς	NOUN	n-s---ma-	Case=Acc|Gender=Masc|Number=Sing	17	obj	_	Ref=571
 17	κάρφει	κάρφω	VERB	v3spia---	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	1	advcl	_	Ref=571|SpaceAfter=No
@@ -6230,7 +6230,7 @@
 
 # sent_id = 1716229
 # sentannotators <primary>millermo</primary> <primary>megluthin</primary> <secondary>tovahk</secondary>
-# text = ἠὼς γὰρ ἔργοιο τρίτην ἀπομείρεται αἶσαν, ἠώς τοι προφέρει μὲν ὁδοῦ, προφέρει δὲ καὶ ἔργου, ἠώς, ἥτε φανεῖσα πολέας ἐπέβησε κελεύθου ἀνθρώπους πολλοῖσί τ̓ ἐπὶ ζυγὰ βουσὶ τίθησιν.
+# text = ἠὼς γὰρ ἔργοιο τρίτην ἀπομείρεται αἶσαν, ἠώς τοι προφέρει μὲν ὁδοῦ, προφέρει δὲ καὶ ἔργου, ἠώς, ἥτε φανεῖσα πολέας ἐπέβησε κελεύθου ἀνθρώπους πολλοῖσί τ' ἐπὶ ζυγὰ βουσὶ τίθησιν.
 1	ἠὼς	ἠώς	NOUN	n-s---fn-	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	Ref=571
 2	γὰρ	γάρ	ADV	g--------	PartType=Ptcl	5	advmod	_	Ref=571
 3	ἔργοιο	ἔργον	NOUN	n-s---ng-	Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	Ref=571
@@ -6258,7 +6258,7 @@
 25	κελεύθου	κέλευθος	NOUN	n-s---fg-	Case=Gen|Gender=Fem|Number=Sing	24	obj	_	Ref=571
 26	ἀνθρώπους	ἄνθρωπος	NOUN	n-p---ma-	Case=Acc|Gender=Masc|Number=Plur	24	obj	_	Ref=571
 27	πολλοῖσί	πολύς	ADJ	a-p---md-	Case=Dat|Gender=Masc|Number=Plur	31	amod	_	Ref=571
-28	τ̓	τε	CCONJ	c--------	_	32	cc	_	Ref=571
+28	τ'	τε	CCONJ	c--------	_	32	cc	_	Ref=571
 29	ἐπὶ	ἐπί	ADP	r--------	_	31	case	_	Ref=571
 30	ζυγὰ	ζυγόν	NOUN	n-p---na-	Case=Acc|Gender=Neut|Number=Plur	32	obj	_	Ref=571
 31	βουσὶ	βοῦς	NOUN	n-p---md-	Case=Dat|Gender=Masc|Number=Plur	32	iobj	_	Ref=571
@@ -6267,11 +6267,11 @@
 
 # sent_id = 1716230
 # sentannotators <primary>millermo</primary> <primary>megluthin</primary> <secondary>tovahk</secondary>
-# text = ἦμος δὲ σκόλυμός τ̓ ἀνθεῖ καὶ ἠχέτα τέττιξ δενδρέῳ ἐφεζόμενος λιγυρὴν καταχεύετ̓ ἀοιδὴν πυκνὸν ὑπὸ πτερύγων, θέρεος καματώδεος ὥρῃ, τῆμος πιόταταί τ̓ αἶγες καὶ οἶνος ἄριστος, μαχλόταται δὲ γυναῖκες, ἀφαυρότατοι δέ τοι ἄνδρες εἰσίν, ἐπεὶ κεφαλὴν καὶ γούνατα Σείριος ἄζει, αὐαλέος δέ τε χρὼς ὑπὸ καύματος·
+# text = ἦμος δὲ σκόλυμός τ' ἀνθεῖ καὶ ἠχέτα τέττιξ δενδρέῳ ἐφεζόμενος λιγυρὴν καταχεύετ' ἀοιδὴν πυκνὸν ὑπὸ πτερύγων, θέρεος καματώδεος ὥρῃ, τῆμος πιόταταί τ' αἶγες καὶ οἶνος ἄριστος, μαχλόταται δὲ γυναῖκες, ἀφαυρότατοι δέ τοι ἄνδρες εἰσίν, ἐπεὶ κεφαλὴν καὶ γούνατα Σείριος ἄζει, αὐαλέος δέ τε χρὼς ὑπὸ καύματος·
 1	ἦμος	ἦμος	ADV	d--------	_	5	advmod	_	Ref=571
 2	δὲ	δέ	CCONJ	g--------	PartType=Ptcl	5	cc	_	Ref=571
 3	σκόλυμός	σκόλυμος	NOUN	n-s---mn-	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	Ref=571
-4	τ̓	τε	CCONJ	c--------	_	5	cc	_	Ref=571
+4	τ'	τε	CCONJ	c--------	_	5	cc	_	Ref=571
 5	ἀνθεῖ	ἀνθέω	VERB	v3spia---	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	Ref=571
 6	καὶ	καί	CCONJ	c--------	_	12	cc	_	Ref=571
 7	ἠχέτα	ἠχέτης	ADJ	a-s---mn-	Case=Nom|Gender=Masc|Number=Sing	8	amod	_	Ref=571
@@ -6279,7 +6279,7 @@
 9	δενδρέῳ	δένδρεον	NOUN	n-s---nd-	Case=Dat|Gender=Neut|Number=Sing	10	obj	_	Ref=571
 10	ἐφεζόμενος	ἐφέζομαι	VERB	v-sppemn-	Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=MidPass	12	advcl	_	Ref=571
 11	λιγυρὴν	λιγυρός	ADJ	a-s---fa-	Case=Acc|Gender=Fem|Number=Sing	13	amod	_	Ref=571
-12	καταχεύετ̓	καταχεύω	VERB	v3spie---	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=MidPass	5	conj	_	Ref=571
+12	καταχεύετ'	καταχεύω	VERB	v3spie---	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=MidPass	5	conj	_	Ref=571
 13	ἀοιδὴν	ἀοιδή	NOUN	n-s---fa-	Case=Acc|Gender=Fem|Number=Sing	12	obj	_	Ref=571
 14	πυκνὸν	πυκνός	ADJ	a-s---na-	Case=Acc|Gender=Neut|Number=Sing	12	obl	_	Ref=571
 15	ὑπὸ	ὑπό	ADP	r--------	_	16	case	_	Ref=571
@@ -6291,7 +6291,7 @@
 21	,	,	PUNCT	u--------	_	22	punct	_	Ref=571
 22	τῆμος	τῆμος	ADV	d--------	_	5	advmod	_	Ref=571
 23	πιόταταί	πῖος	ADJ	a-p---fns	Case=Nom|Degree=Sup|Gender=Fem|Number=Plur	5	conj	_	Ref=571
-24	τ̓	τε	CCONJ	c--------	_	28	cc	_	Ref=571
+24	τ'	τε	CCONJ	c--------	_	28	cc	_	Ref=571
 25	αἶγες	αἴξ	NOUN	n-p---fn-	Case=Nom|Gender=Fem|Number=Plur	23	nsubj	_	Ref=571
 26	καὶ	καί	CCONJ	c--------	_	28	cc	_	Ref=571
 27	οἶνος	οἶνος	NOUN	n-s---mn-	Case=Nom|Gender=Masc|Number=Sing	28	nsubj	_	Ref=571
@@ -6324,9 +6324,9 @@
 
 # sent_id = 1716231
 # sentannotators <primary>millermo</primary> <primary>megluthin</primary> <secondary>tovahk</secondary>
-# text = ἀλλὰ τότ̓ ἤδη εἴη πετραίη τε σκιὴ καὶ βίβλινος οἶνος, μάζα τ̓ ἀμολγαίη γάλα τ̓ αἰγῶν σβεννυμενάων, καὶ βοὸς ὑλοφάγοιο κρέας μή πω τετοκυίης πρωτογόνων τ̓ ἐρίφων·
+# text = ἀλλὰ τότ' ἤδη εἴη πετραίη τε σκιὴ καὶ βίβλινος οἶνος, μάζα τ' ἀμολγαίη γάλα τ' αἰγῶν σβεννυμενάων, καὶ βοὸς ὑλοφάγοιο κρέας μή πω τετοκυίης πρωτογόνων τ' ἐρίφων·
 1	ἀλλὰ	ἀλλά	ADV	d--------	_	4	advmod	_	Ref=571
-2	τότ̓	τότε	ADV	d--------	_	4	advmod	_	Ref=571
+2	τότ'	τότε	ADV	d--------	_	4	advmod	_	Ref=571
 3	ἤδη	ἤδη	ADV	d--------	_	4	advmod	_	Ref=571
 4	εἴη	εἰμί	VERB	v3spoa---	Mood=Opt|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	Ref=571
 5	πετραίη	πετραῖος	ADJ	a-s---fn-	Case=Nom|Gender=Fem|Number=Sing	7	amod	_	Ref=571
@@ -6337,10 +6337,10 @@
 10	οἶνος	οἶνος	NOUN	n-s---mn-	Case=Nom|Gender=Masc|Number=Sing	7	conj	_	Ref=571|SpaceAfter=No
 11	,	,	PUNCT	u--------	_	12	punct	_	Ref=571
 12	μάζα	μᾶζα	NOUN	n-s---fn-	Case=Nom|Gender=Fem|Number=Sing	7	conj	_	Ref=571
-13	τ̓	τε	CCONJ	c--------	_	15	cc	_	Ref=571
+13	τ'	τε	CCONJ	c--------	_	15	cc	_	Ref=571
 14	ἀμολγαίη	ἀμολγαῖος	ADJ	a-s---fn-	Case=Nom|Gender=Fem|Number=Sing	12	amod	_	Ref=571
 15	γάλα	γάλα	NOUN	n-s---nn-	Case=Nom|Gender=Neut|Number=Sing	7	conj	_	Ref=571
-16	τ̓	τε	CCONJ	c--------	_	23	cc	_	Ref=571
+16	τ'	τε	CCONJ	c--------	_	23	cc	_	Ref=571
 17	αἰγῶν	αἴξ	NOUN	n-p---mg-	Case=Gen|Gender=Masc|Number=Plur	15	nmod	_	Ref=571
 18	σβεννυμενάων	σβέννυμι	VERB	v-pppemg-	Case=Gen|Gender=Masc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=MidPass	17	amod	_	Ref=571|SpaceAfter=No
 19	,	,	PUNCT	u--------	_	23	punct	_	Ref=571
@@ -6352,13 +6352,13 @@
 25	πω	πω	ADV	g--------	PartType=Ptcl	26	advmod	_	Ref=571
 26	τετοκυίης	τίκτω	VERB	v-srpafg-	Case=Gen|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	21	amod	_	Ref=571
 27	πρωτογόνων	πρωτόγονος	ADJ	a-p---mg-	Case=Gen|Gender=Masc|Number=Plur	29	amod	_	Ref=571
-28	τ̓	τε	CCONJ	c--------	_	29	cc	_	Ref=571
+28	τ'	τε	CCONJ	c--------	_	29	cc	_	Ref=571
 29	ἐρίφων	ἔριφος	NOUN	n-p---mg-	Case=Gen|Gender=Masc|Number=Plur	21	conj	_	Ref=571|SpaceAfter=No
 30	·	·	PUNCT	u--------	_	4	punct	_	Ref=571
 
 # sent_id = 1716232
 # sentannotators <primary>millermo</primary> <primary>megluthin</primary> <secondary>tovahk</secondary>
-# text = ἐπὶ δ̓ αἴθοπα πινέμεν οἶνον, ἐν σκιῇ ἑζόμενον, κεκορημένον ἦτορ ἐδωδῆς, ἀντίον ἀκραέος Ζεφύρου τρέψαντα πρόσωπα, κρήνης τ̓ αἰενάου καὶ ἀπορρύτου, ἥτ̓ ἀθόλωτος, τρὶς ὕδατος προχέειν, τὸ δὲ τέτρατον ἱέμεν οἴνου.
+# text = ἐπὶ δ̓ αἴθοπα πινέμεν οἶνον, ἐν σκιῇ ἑζόμενον, κεκορημένον ἦτορ ἐδωδῆς, ἀντίον ἀκραέος Ζεφύρου τρέψαντα πρόσωπα, κρήνης τ' αἰενάου καὶ ἀπορρύτου, ἥτ' ἀθόλωτος, τρὶς ὕδατος προχέειν, τὸ δὲ τέτρατον ἱέμεν οἴνου.
 1	ἐπὶ	ἐπί	ADV	r--------	_	4	compound:prt	_	Ref=571
 2	δ̓	δέ	CCONJ	g--------	PartType=Ptcl	4	cc	_	Ref=571
 3	αἴθοπα	αἶθοψ	ADJ	a-s---ma-	Case=Acc|Gender=Masc|Number=Sing	5	amod	_	Ref=571
@@ -6380,12 +6380,12 @@
 19	πρόσωπα	πρόσωπον	NOUN	n-p---na-	Case=Acc|Gender=Neut|Number=Plur	18	obj	_	Ref=571|SpaceAfter=No
 20	,	,	PUNCT	u--------	_	21	punct	_	Ref=571
 21	κρήνης	κρήνη	NOUN	n-s---fg-	Case=Gen|Gender=Fem|Number=Sing	31	nmod	_	Ref=571
-22	τ̓	τε	CCONJ	c--------	_	23	cc	_	Ref=571
+22	τ'	τε	CCONJ	c--------	_	23	cc	_	Ref=571
 23	αἰενάου	ἀείναος	ADJ	a-s---fg-	Case=Gen|Gender=Fem|Number=Sing	21	amod	_	Ref=571
 24	καὶ	καί	CCONJ	c--------	_	25	cc	_	Ref=571
 25	ἀπορρύτου	ἀπόρρυτος	ADJ	a-s---fg-	Case=Gen|Gender=Fem|Number=Sing	23	conj	_	Ref=571|SpaceAfter=No
 26	,	,	PUNCT	u--------	_	28	punct	_	Ref=571
-27	ἥτ̓	ὅστε	PRON	p-s---fn-	Case=Nom|Gender=Fem|Number=Sing	28	nsubj	_	Ref=571
+27	ἥτ'	ὅστε	PRON	p-s---fn-	Case=Nom|Gender=Fem|Number=Sing	28	nsubj	_	Ref=571
 28	ἀθόλωτος	ἀθόλωτος	ADJ	a-s---fn-	Case=Nom|Gender=Fem|Number=Sing	21	nmod	_	Ref=571|SpaceAfter=No
 29	,	,	PUNCT	u--------	_	21	punct	_	Ref=571
 30	τρὶς	τρίς	ADV	d--------	_	32	obj	_	Ref=571
@@ -6401,7 +6401,7 @@
 
 # sent_id = 1716233
 # sentannotators <primary>millermo</primary> <primary>megluthin</primary> <secondary>tovahk</secondary>
-# text = δμωσὶ δ̓ ἐποτρύνειν Δημήτερος ἱερὸν ἀκτὴν δινέμεν, εὖτ̓ ἂν πρῶτα φανῇ σθένος Ὠαρίωνος, χώρῳ ἐν εὐαέι καὶ ἐυτροχάλῳ ἐν ἀλωῇ.
+# text = δμωσὶ δ̓ ἐποτρύνειν Δημήτερος ἱερὸν ἀκτὴν δινέμεν, εὖτ' ἂν πρῶτα φανῇ σθένος Ὠαρίωνος, χώρῳ ἐν εὐαέι καὶ ἐυτροχάλῳ ἐν ἀλωῇ.
 1	δμωσὶ	δμώς	NOUN	n-p---md-	Case=Dat|Gender=Masc|Number=Plur	3	obj	_	Ref=571
 2	δ̓	δέ	CCONJ	g--------	PartType=Ptcl	3	cc	_	Ref=571
 3	ἐποτρύνειν	ἐποτρύνω	VERB	v--pna---	Tense=Pres|VerbForm=Inf|Voice=Act	0	root	_	Ref=571
@@ -6410,7 +6410,7 @@
 6	ἀκτὴν	ἀκτή	NOUN	n-s---fa-	Case=Acc|Gender=Fem|Number=Sing	7	obj	_	Ref=571
 7	δινέμεν	δίνω	VERB	v--pna---	Tense=Pres|VerbForm=Inf|Voice=Act	3	xcomp	_	Ref=571|SpaceAfter=No
 8	,	,	PUNCT	u--------	_	12	punct	_	Ref=571
-9	εὖτ̓	εὖτε	ADV	d--------	_	12	advmod	_	Ref=571
+9	εὖτ'	εὖτε	ADV	d--------	_	12	advmod	_	Ref=571
 10	ἂν	ἄν	ADV	g--------	PartType=Ptcl	12	advmod	_	Ref=571
 11	πρῶτα	πρῶτος	ADJ	a-p---na-	Case=Acc|Gender=Neut|Number=Plur	12	obl	_	Ref=571
 12	φανῇ	φαίνω	VERB	v3sasp---	Mood=Sub|Number=Sing|Person=3	7	advcl	_	Ref=571
@@ -6439,7 +6439,7 @@
 
 # sent_id = 1716235
 # sentannotators <primary>millermo</primary> <primary>megluthin</primary> <secondary>tovahk</secondary>
-# text = αὐτὰρ ἐπὴν δὴ πάντα βίον κατάθηαι ἐπάρμενον ἔνδοθι οἴκου, θῆτά τ̓ ἄοικον ποιεῖσθαι καὶ ἄτεκνον ἔριθον δίζησθαι κέλομαι·
+# text = αὐτὰρ ἐπὴν δὴ πάντα βίον κατάθηαι ἐπάρμενον ἔνδοθι οἴκου, θῆτά τ' ἄοικον ποιεῖσθαι καὶ ἄτεκνον ἔριθον δίζησθαι κέλομαι·
 1	αὐτὰρ	ἀτάρ	ADV	g--------	PartType=Ptcl	19	advmod	_	Ref=571
 2	ἐπὴν	ἐπήν	SCONJ	c--------	_	6	mark	_	Ref=571
 3	δὴ	δή	ADV	g--------	PartType=Ptcl	6	advmod	_	Ref=571
@@ -6451,7 +6451,7 @@
 9	οἴκου	οἶκος	NOUN	n-s---mg-	Case=Gen|Gender=Masc|Number=Sing	6	obl	_	Ref=571|SpaceAfter=No
 10	,	,	PUNCT	u--------	_	6	punct	_	Ref=571
 11	θῆτά	θής	NOUN	n-s---ma-	Case=Acc|Gender=Masc|Number=Sing	14	obj	_	Ref=571
-12	τ̓	τε	CCONJ	c--------	_	14	cc	_	Ref=571
+12	τ'	τε	CCONJ	c--------	_	14	cc	_	Ref=571
 13	ἄοικον	ἄοικος	ADJ	a-s---ma-	Case=Acc|Gender=Masc|Number=Sing	14	xcomp	_	Ref=571
 14	ποιεῖσθαι	ποιέω	VERB	v--pne---	Tense=Pres|VerbForm=Inf|Voice=MidPass	19	ccomp	_	Ref=571
 15	καὶ	καί	CCONJ	c--------	_	18	cc	_	Ref=571
@@ -6526,8 +6526,8 @@
 
 # sent_id = 1716240
 # sentannotators <primary>millermo</primary> <primary>megluthin</primary> <secondary>tovahk</secondary>
-# text = εὖτ̓ ἂν δ̓ Ὠαρίων καὶ Σείριος ἐς μέσον ἔλθῃ οὐρανόν, Ἀρκτοῦρον δ̓ ἐσίδῃ ῥοδοδάκτυλος Ηώς, ὦ Πέρση, τότε πάντας ἀποδρέπεν οἴκαδε βότρυς·
-1	εὖτ̓	εὖτε	ADV	d--------	_	9	advmod	_	Ref=609
+# text = εὖτ' ἂν δ̓ Ὠαρίων καὶ Σείριος ἐς μέσον ἔλθῃ οὐρανόν, Ἀρκτοῦρον δ̓ ἐσίδῃ ῥοδοδάκτυλος Ηώς, ὦ Πέρση, τότε πάντας ἀποδρέπεν οἴκαδε βότρυς·
+1	εὖτ'	εὖτε	ADV	d--------	_	9	advmod	_	Ref=609
 2	ἂν	ἄν	ADV	g--------	PartType=Ptcl	9	advmod	_	Ref=609
 3	δ̓	δέ	CCONJ	g--------	PartType=Ptcl	23	cc	_	Ref=609
 4	Ὠαρίων	Ὠαρίων	PROPN	n-s---mn-	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	Ref=609
@@ -6556,12 +6556,12 @@
 
 # sent_id = 1716241
 # sentannotators <primary>millermo</primary> <primary>megluthin</primary> <secondary>tovahk</secondary>
-# text = δεῖξαι δ̓ ἠελίῳ δέκα τ̓ ἤματα καὶ δέκα νύκτας, πέντε δὲ συσκιάσαι, ἕκτῳ δ̓ εἰς ἄγγἐ ἀφύσσαι δῶρα Διωνύσου πολυγηθέος.
+# text = δεῖξαι δ̓ ἠελίῳ δέκα τ' ἤματα καὶ δέκα νύκτας, πέντε δὲ συσκιάσαι, ἕκτῳ δ̓ εἰς ἄγγἐ ἀφύσσαι δῶρα Διωνύσου πολυγηθέος.
 1	δεῖξαι	δείκνυμι	VERB	v--ana---	VerbForm=Inf|Voice=Act	0	root	0:root	Ref=609
 2	δ̓	δέ	CCONJ	g--------	PartType=Ptcl	13	cc	13:cc	Ref=609
 3	ἠελίῳ	ἠέλιος	NOUN	n-s---md-	Case=Dat|Gender=Masc|Number=Sing	1	obj	1:obj	Ref=609
 4	δέκα	δέκα	X	m--------	_	6	nummod	6:nummod	Ref=609
-5	τ̓	τε	CCONJ	c--------	_	6	cc	6:cc	Ref=609
+5	τ'	τε	CCONJ	c--------	_	6	cc	6:cc	Ref=609
 6	ἤματα	ἦμαρ	NOUN	n-p---na-	Case=Acc|Gender=Neut|Number=Plur	1	obl	1:obl	Ref=609
 7	καὶ	καί	CCONJ	c--------	_	9	cc	9:cc	Ref=609
 8	δέκα	δέκα	X	m--------	_	9	nummod	9:nummod	Ref=609
@@ -6585,7 +6585,7 @@
 
 # sent_id = 1716242
 # sentannotators <primary>millermo</primary> <primary>megluthin</primary> <secondary>tovahk</secondary>
-# text = αὐτὰρ ἐπὴν δὴ Πληιάδες θ̓ Ὑάδες τε τό τε σθένος Ὠαρίωνος δύνωσιν, τότ̓ ἔπειτ̓ ἀρότου μεμνημένος εἶναι ὡραίου·
+# text = αὐτὰρ ἐπὴν δὴ Πληιάδες θ̓ Ὑάδες τε τό τε σθένος Ὠαρίωνος δύνωσιν, τότ' ἔπειτ' ἀρότου μεμνημένος εἶναι ὡραίου·
 1	αὐτὰρ	ἀτάρ	ADV	g--------	PartType=Ptcl	17	advmod	_	Ref=609
 2	ἐπὴν	ἐπήν	SCONJ	c--------	_	12	mark	_	Ref=609
 3	δὴ	δή	ADV	g--------	PartType=Ptcl	12	advmod	_	Ref=609
@@ -6599,8 +6599,8 @@
 11	Ὠαρίωνος	Ὠαρίων	PROPN	n-s---mg-	Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	Ref=609
 12	δύνωσιν	δύω	VERB	v3ppsa---	Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	17	advcl	_	Ref=609|SpaceAfter=No
 13	,	,	PUNCT	u--------	_	12	punct	_	Ref=609
-14	τότ̓	τότε	ADV	d--------	_	17	advmod	_	Ref=609
-15	ἔπειτ̓	ἔπειτα	ADV	d--------	_	17	advmod	_	Ref=609
+14	τότ'	τότε	ADV	d--------	_	17	advmod	_	Ref=609
+15	ἔπειτ'	ἔπειτα	ADV	d--------	_	17	advmod	_	Ref=609
 16	ἀρότου	ἄροτος	NOUN	n-s---mg-	Case=Gen|Gender=Masc|Number=Sing	17	obj	_	Ref=609
 17	μεμνημένος	μιμνήσκω	VERB	v-srpemn-	Case=Nom|Gender=Masc|Number=Sing|VerbForm=Part|Voice=MidPass	0	root	_	Ref=609
 18	εἶναι	εἰμί	AUX	v--pna---	Tense=Pres|VerbForm=Inf|Voice=Act	17	cop	_	Ref=609
@@ -6620,7 +6620,7 @@
 
 # sent_id = 1716244
 # sentannotators <primary>millermo</primary> <primary>megluthin</primary> <secondary>tovahk</secondary>
-# text = εἰ δέ σε ναυτιλίης δυσπεμφέλου ἵμερος αἱρεῖ, εὖτ̓ ἂν Πληιάδες σθένος ὄβριμον Ὠαρίωνος φεύγουσαι πίπτωσιν ἐς ἠεροειδέα πόντον, δὴ τότε παντοίων ἀνέμων θυίουσιν ἀῆται·
+# text = εἰ δέ σε ναυτιλίης δυσπεμφέλου ἵμερος αἱρεῖ, εὖτ' ἂν Πληιάδες σθένος ὄβριμον Ὠαρίωνος φεύγουσαι πίπτωσιν ἐς ἠεροειδέα πόντον, δὴ τότε παντοίων ἀνέμων θυίουσιν ἀῆται·
 1	εἰ	εἰ	SCONJ	c--------	_	7	mark	_	Ref=609
 2	δέ	δέ	CCONJ	g--------	PartType=Ptcl	25	cc	_	Ref=609
 3	σε	σύ	PRON	p-s----a-	Case=Acc|Number=Sing|Person=2|PronType=Prs	7	obj	_	Ref=609
@@ -6629,7 +6629,7 @@
 6	ἵμερος	ἵμερος	NOUN	n-s---mn-	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	Ref=609
 7	αἱρεῖ	αἱρέω	VERB	v3spia---	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	25	advcl	_	Ref=609|SpaceAfter=No
 8	,	,	PUNCT	u--------	_	16	punct	_	Ref=609
-9	εὖτ̓	εὖτε	ADV	d--------	_	16	advmod	_	Ref=609
+9	εὖτ'	εὖτε	ADV	d--------	_	16	advmod	_	Ref=609
 10	ἂν	ἄν	ADV	g--------	PartType=Ptcl	16	advmod	_	Ref=609
 11	Πληιάδες	Πλειάδες	PROPN	n-p---fn-	Case=Nom|Gender=Fem|Number=Plur	16	nsubj	_	Ref=609
 12	σθένος	σθένος	NOUN	n-s---na-	Case=Acc|Gender=Neut|Number=Sing	15	obj	_	Ref=609
@@ -6832,7 +6832,7 @@
 
 # sent_id = 1716253
 # sentannotators <primary>millermo</primary> <primary>megluthin</primary> <secondary>tovahk</secondary>
-# text = νάσσατο δ̓ ἄγχ' Ἑλικῶνος ὀιζυρῇ ἐνὶ κώμῃ, Ἄσκρῃ, χεῖμα κακῇ, θέρει ἀργαλέῃ, οὐδέ ποτ̓ ἐσθλῇ.
+# text = νάσσατο δ̓ ἄγχ' Ἑλικῶνος ὀιζυρῇ ἐνὶ κώμῃ, Ἄσκρῃ, χεῖμα κακῇ, θέρει ἀργαλέῃ, οὐδέ ποτ' ἐσθλῇ.
 1	νάσσατο	ναίω	VERB	v3saim---	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Mid	0	root	_	Ref=609
 2	δ̓	δέ	CCONJ	g--------	PartType=Ptcl	1	cc	_	Ref=609
 3	ἄγχ'	ἄγχι	ADP	r--------	_	4	case	_	Ref=609
@@ -6850,7 +6850,7 @@
 15	ἀργαλέῃ	ἀργαλέος	ADJ	a-s---fd-	Case=Dat|Gender=Fem|Number=Sing	12	conj	_	Ref=609|SpaceAfter=No
 16	,	,	PUNCT	u--------	_	19	punct	_	Ref=609
 17	οὐδέ	οὐδέ	CCONJ	c--------	_	18	cc	_	Ref=609|SpaceAfter=No
-18	ποτ̓	ποτέ	ADV	g--------	PartType=Ptcl	19	advmod	_	Ref=609
+18	ποτ'	ποτέ	ADV	g--------	PartType=Ptcl	19	advmod	_	Ref=609
 19	ἐσθλῇ	ἐσθλός	ADJ	a-s---fd-	Case=Dat|Gender=Fem|Number=Sing	12	conj	_	Ref=609|SpaceAfter=No
 20	.	.	PUNCT	u--------	_	1	punct	_	Ref=609
 
@@ -6916,8 +6916,8 @@
 
 # sent_id = 1716257
 # sentannotators <primary>millermo</primary> <primary>megluthin</primary> <secondary>tovahk</secondary>
-# text = εὖτ̓ ἂν ἐπ' ἐμπορίην τρέψας ἀεσίφρονα θυμὸν βούληαι χρέα τε προφυγεῖν καὶ λιμὸν ἀτερπέα, δείξω δή τοι μέτρα πολυφλοίσβοιο θαλάσσης, οὔ τε τι ναυτιλίης σεσοφισμένος οὔ τε τι νηῶν.
-1	εὖτ̓	εὖτε	ADV	d--------	_	8	advmod	_	Ref=641
+# text = εὖτ' ἂν ἐπ' ἐμπορίην τρέψας ἀεσίφρονα θυμὸν βούληαι χρέα τε προφυγεῖν καὶ λιμὸν ἀτερπέα, δείξω δή τοι μέτρα πολυφλοίσβοιο θαλάσσης, οὔ τε τι ναυτιλίης σεσοφισμένος οὔ τε τι νηῶν.
+1	εὖτ'	εὖτε	ADV	d--------	_	8	advmod	_	Ref=641
 2	ἂν	ἄν	ADV	g--------	PartType=Ptcl	8	advmod	_	Ref=641
 3	ἐπ'	ἐπί	ADP	r--------	_	4	case	_	Ref=641
 4	ἐμπορίην	ἐμπορία	NOUN	n-s---fa-	Case=Acc|Gender=Fem|Number=Sing	5	obl:arg	_	Ref=641
@@ -6952,7 +6952,7 @@
 
 # sent_id = 1716258
 # sentannotators <primary>millermo</primary> <primary>megluthin</primary> <secondary>tovahk</secondary>
-# text = οὐ γάρ πώ ποτε νηί γ' ἐπέπλων εὐρέα πόντον, εἰ μὴ ἐς Εὔβοιαν ἐξ Αὐλίδος, ᾗ ποτ̓ Ἀχαιοὶ μείναντες χειμῶνα πολὺν σὺν λαὸν ἄγειραν Ἑλλάδος ἐξ ἱερῆς Τροίην ἐς καλλιγύναικα.
+# text = οὐ γάρ πώ ποτε νηί γ' ἐπέπλων εὐρέα πόντον, εἰ μὴ ἐς Εὔβοιαν ἐξ Αὐλίδος, ᾗ ποτ' Ἀχαιοὶ μείναντες χειμῶνα πολὺν σὺν λαὸν ἄγειραν Ἑλλάδος ἐξ ἱερῆς Τροίην ἐς καλλιγύναικα.
 1	οὐ	οὐ	ADV	d--------	_	7	advmod:neg	7:advmod	Ref=641
 2	γάρ	γάρ	ADV	g--------	PartType=Ptcl	7	advmod	7:advmod	Ref=641
 3	πώ	πω	ADV	g--------	PartType=Ptcl	7	advmod	7:advmod	Ref=641
@@ -6972,7 +6972,7 @@
 16	Αὐλίδος	Αὐλίς	PROPN	n-s---fg-	Case=Gen|Gender=Fem|Number=Sing	14	orphan	11.1:obl	Ref=641|SpaceAfter=No
 17	,	,	PUNCT	u--------	_	26	punct	26:punct	Ref=641
 18	ᾗ	ὅς	PRON	p-s---fd-	Case=Dat|Gender=Fem|Number=Sing|PronType=Rel	26	obl	26:obl	Ref=641
-19	ποτ̓	ποτέ	ADV	g--------	PartType=Ptcl	26	advmod	26:advmod	Ref=641
+19	ποτ'	ποτέ	ADV	g--------	PartType=Ptcl	26	advmod	26:advmod	Ref=641
 20	Ἀχαιοὶ	Ἀχαιός	ADJ	a-p---mn-	Case=Nom|Gender=Masc|Number=Plur	26	nsubj	26:nsubj	Ref=641
 21	μείναντες	μένω	VERB	v-papamn-	Case=Nom|Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	26	advcl	26:advcl	Ref=641
 22	χειμῶνα	χειμών	NOUN	n-s---ma-	Case=Acc|Gender=Masc|Number=Sing	21	obj	21:obj	Ref=641
@@ -6990,7 +6990,7 @@
 
 # sent_id = 1716259
 # sentannotators <primary>millermo</primary> <primary>megluthin</primary> <secondary>tovahk</secondary>
-# text = ἔνθα δ̓ ἐγὼν ἐπ' ἄεθλα δαΐφρονος Ἀμφιδάμαντος Χαλκίδα τ̓ εἲς ἐπέρησα·
+# text = ἔνθα δ̓ ἐγὼν ἐπ' ἄεθλα δαΐφρονος Ἀμφιδάμαντος Χαλκίδα τ' εἲς ἐπέρησα·
 1	ἔνθα	ἔνθα	ADV	d--------	_	11	advmod	_	Ref=641
 2	δ̓	δέ	CCONJ	g--------	PartType=Ptcl	11	cc	_	Ref=641
 3	ἐγὼν	ἐγώ	PRON	p-s---mn-	Case=Nom|Gender=Masc|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	Ref=641
@@ -6999,7 +6999,7 @@
 6	δαΐφρονος	δαίφρων	ADJ	a-s---mg-	Case=Gen|Gender=Masc|Number=Sing	7	amod	_	Ref=641
 7	Ἀμφιδάμαντος	Ἀμφιδάμας	PROPN	n-s---mg-	Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	Ref=641
 8	Χαλκίδα	Χαλκίς	PROPN	n-s---fa-	Case=Acc|Gender=Fem|Number=Sing	11	obl	_	Ref=641
-9	τ̓	τε	ADV	c--------	_	11	advmod	_	Ref=641
+9	τ'	τε	ADV	c--------	_	11	advmod	_	Ref=641
 10	εἲς	εἰς	ADP	r--------	_	8	case	_	Ref=641
 11	ἐπέρησα	περάω	VERB	v1saia---	Mood=Ind|Number=Sing|Person=1|Tense=Past|Voice=Act	0	root	_	Ref=641|SpaceAfter=No
 12	·	·	PUNCT	u--------	_	11	punct	_	Ref=641
@@ -7108,14 +7108,14 @@
 
 # sent_id = 1716267
 # sentannotators <primary>millermo</primary> <primary>megluthin</primary> <secondary>tovahk</secondary>
-# text = οὔ τε κε νῆα καυάξαις οὔ τ̓ ἄνδρας ἀποφθείσειε θάλασσα, εἰ δὴ μὴ πρόφρων γε Ποσειδάων ἐνοσίχθων ἢ Ζεὺς ἀθανάτων βασιλεὺς ἐθέλῃσιν ὀλέσσαι·
+# text = οὔ τε κε νῆα καυάξαις οὔ τ' ἄνδρας ἀποφθείσειε θάλασσα, εἰ δὴ μὴ πρόφρων γε Ποσειδάων ἐνοσίχθων ἢ Ζεὺς ἀθανάτων βασιλεὺς ἐθέλῃσιν ὀλέσσαι·
 1	οὔ	οὐ	ADV	d--------	_	5	advmod:neg	_	Ref=641
 2	τε	τε	CCONJ	c--------	_	5	cc	_	Ref=641
 3	κε	ἄν	ADV	g--------	PartType=Ptcl	5	advmod	_	Ref=641
 4	νῆα	ναῦς	NOUN	n-s---fa-	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	Ref=641
 5	καυάξαις	κατάγνυμι	VERB	v2saoa---	Mood=Opt|Number=Sing|Person=2|Voice=Act	0	root	_	Ref=641
 6	οὔ	οὐ	ADV	d--------	_	9	advmod:neg	_	Ref=641
-7	τ̓	τε	CCONJ	c--------	_	9	cc	_	Ref=641
+7	τ'	τε	CCONJ	c--------	_	9	cc	_	Ref=641
 8	ἄνδρας	ἀνήρ	NOUN	n-p---ma-	Case=Acc|Gender=Masc|Number=Plur	9	obj	_	Ref=641
 9	ἀποφθείσειε	ἀποφθίνω	VERB	v3saoa---	Mood=Opt|Number=Sing|Person=3|Voice=Act	5	conj	_	Ref=641
 10	θάλασσα	θάλασσα	NOUN	n-s---fn-	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	Ref=641|SpaceAfter=No
@@ -7152,11 +7152,11 @@
 
 # sent_id = 1716269
 # sentannotators <primary>millermo</primary> <primary>megluthin</primary> <secondary>tovahk</secondary>
-# text = τῆμος δ̓ εὐκρινέες τ̓ αὖραι καὶ πόντος ἀπήμων·
+# text = τῆμος δ̓ εὐκρινέες τ' αὖραι καὶ πόντος ἀπήμων·
 1	τῆμος	τῆμος	ADV	d--------	_	3	advmod	_	Ref=641
 2	δ̓	δέ	CCONJ	g--------	PartType=Ptcl	3	cc	_	Ref=641
 3	εὐκρινέες	εὐκρινής	ADJ	a-p---fn-	Case=Nom|Gender=Fem|Number=Plur	0	root	_	Ref=641
-4	τ̓	τε	CCONJ	c--------	_	8	cc	_	Ref=641
+4	τ'	τε	CCONJ	c--------	_	8	cc	_	Ref=641
 5	αὖραι	αὔρα	NOUN	n-p---fn-	Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	Ref=641
 6	καὶ	καί	CCONJ	c--------	_	8	cc	_	Ref=641
 7	πόντος	πόντος	NOUN	n-s---mn-	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	Ref=641
@@ -7165,7 +7165,7 @@
 
 # sent_id = 1716270
 # sentannotators <primary>millermo</primary> <primary>megluthin</primary> <secondary>tovahk</secondary>
-# text = εὔκηλος τότε νῆα θοὴν ἀνέμοισι πιθήσας ἑλκέμεν ἐς πόντον φόρτον τ̓ ἐς πάντα τίθεσθαι, σπεύδειν δ̓ ὅττι τάχιστα πάλιν οἶκόνδε νέεσθαι·
+# text = εὔκηλος τότε νῆα θοὴν ἀνέμοισι πιθήσας ἑλκέμεν ἐς πόντον φόρτον τ' ἐς πάντα τίθεσθαι, σπεύδειν δ̓ ὅττι τάχιστα πάλιν οἶκόνδε νέεσθαι·
 1	εὔκηλος	εὔκηλος	ADJ	a-s---mn-	Case=Nom|Gender=Masc|Number=Sing	7	advcl:compl	_	Ref=641
 2	τότε	τότε	ADV	d--------	_	7	advmod	_	Ref=641
 3	νῆα	ναῦς	NOUN	n-s---fa-	Case=Acc|Gender=Fem|Number=Sing	7	obj	_	Ref=641
@@ -7176,7 +7176,7 @@
 8	ἐς	εἰς	ADP	r--------	_	9	case	_	Ref=641
 9	πόντον	πόντος	NOUN	n-s---ma-	Case=Acc|Gender=Masc|Number=Sing	7	obl:arg	_	Ref=641
 10	φόρτον	φόρτος	NOUN	n-s---ma-	Case=Acc|Gender=Masc|Number=Sing	14	obj	_	Ref=641
-11	τ̓	τε	CCONJ	c--------	_	14	cc	_	Ref=641
+11	τ'	τε	CCONJ	c--------	_	14	cc	_	Ref=641
 12	ἐς	εἰς	ADV	r--------	_	14	compound:prt	_	Ref=641
 13	πάντα	πᾶς	DET	a-s---ma-	Case=Acc|Gender=Masc|Number=Sing|PronType=Ind	10	det	_	Ref=641
 14	τίθεσθαι	τίθημι	VERB	v--pne---	Tense=Pres|VerbForm=Inf|Voice=MidPass	7	conj	_	Ref=641|SpaceAfter=No
@@ -7192,7 +7192,7 @@
 
 # sent_id = 1716271
 # sentannotators <primary>millermo</primary> <primary>megluthin</primary> <secondary>tovahk</secondary>
-# text = μηδὲ μένειν οἶνόν τε νέον καὶ ὀπωρινὸν ὄμβρον καὶ χειμῶν̓ ἐπιόντα Νότοιό τε δεινὰς ἀήτας, ὅστ̓ ὤρινε θάλασσαν ὁμαρτήσας Διὸς ὄμβρῳ πολλῷ ὀπωρινῷ, χαλεπὸν δέ τε πόντον ἔθηκεν.
+# text = μηδὲ μένειν οἶνόν τε νέον καὶ ὀπωρινὸν ὄμβρον καὶ χειμῶν̓ ἐπιόντα Νότοιό τε δεινὰς ἀήτας, ὅστ' ὤρινε θάλασσαν ὁμαρτήσας Διὸς ὄμβρῳ πολλῷ ὀπωρινῷ, χαλεπὸν δέ τε πόντον ἔθηκεν.
 1	μηδὲ	μηδέ	CCONJ	c--------	_	2	cc	_	Ref=641|SpaceAfter=No
 2	μένειν	μένω	VERB	v--pna---	Tense=Pres|VerbForm=Inf|Voice=Act	0	root	_	Ref=641
 3	οἶνόν	οἶνος	NOUN	n-s---ma-	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	Ref=641
@@ -7209,7 +7209,7 @@
 14	δεινὰς	δεινός	ADJ	a-p---fa-	Case=Acc|Gender=Fem|Number=Plur	15	amod	_	Ref=641
 15	ἀήτας	ἀήτη	NOUN	n-p---fa-	Case=Acc|Gender=Fem|Number=Plur	3	conj	_	Ref=641|SpaceAfter=No
 16	,	,	PUNCT	u--------	_	18	punct	_	Ref=641
-17	ὅστ̓	ὅστε	PRON	p-s---mn-	Case=Nom|Gender=Masc|Number=Sing	18	nsubj	_	Ref=641
+17	ὅστ'	ὅστε	PRON	p-s---mn-	Case=Nom|Gender=Masc|Number=Sing	18	nsubj	_	Ref=641
 18	ὤρινε	ὀρίνω	VERB	v3saia---	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	12	acl:relcl	_	Ref=641
 19	θάλασσαν	θάλασσα	NOUN	n-s---fa-	Case=Acc|Gender=Fem|Number=Sing	18	obj	_	Ref=641
 20	ὁμαρτήσας	ὁμαρτέω	VERB	v-sapamn-	Case=Nom|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	18	advcl	_	Ref=641
@@ -7238,14 +7238,14 @@
 
 # sent_id = 1716273
 # sentannotators <primary>millermo</primary> <primary>megluthin</primary> <secondary>tovahk</secondary>
-# text = ἦμος δὴ τὸ πρῶτον, ὅσον τ̓ ἐπιβᾶσα κορώνη ἴχνος ἐποίησεν, τόσσον πέταλ' ἀνδρὶ φανείῃ ἐν κράδῃ ἀκροτάτῃ, τότε δ̓ ἄμβατός ἐστι θάλασσα·
+# text = ἦμος δὴ τὸ πρῶτον, ὅσον τ' ἐπιβᾶσα κορώνη ἴχνος ἐποίησεν, τόσσον πέταλ' ἀνδρὶ φανείῃ ἐν κράδῃ ἀκροτάτῃ, τότε δ̓ ἄμβατός ἐστι θάλασσα·
 1	ἦμος	ἦμος	ADV	d--------	_	16	advmod	_	Ref=678
 2	δὴ	δή	ADV	g--------	PartType=Ptcl	16	advmod	_	Ref=678
 3	τὸ	ὁ	DET	l-s---na-	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	Ref=678
 4	πρῶτον	πρῶτος	ADJ	a-s---na-	Case=Acc|Gender=Neut|Number=Sing	16	obl	_	Ref=678|SpaceAfter=No
 5	,	,	PUNCT	u--------	_	11	punct	_	Ref=678
 6	ὅσον	ὅσος	DET	a-s---na-	Case=Acc|Gender=Neut|Number=Sing|PronType=Rel	10	det	_	Ref=678
-7	τ̓	τε	ADV	c--------	_	11	advmod	_	Ref=678
+7	τ'	τε	ADV	c--------	_	11	advmod	_	Ref=678
 8	ἐπιβᾶσα	ἐπιβαίνω	VERB	v-sapafn-	Case=Nom|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	11	advcl	_	Ref=678
 9	κορώνη	κορώνη	NOUN	n-s---fn-	Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	Ref=678
 10	ἴχνος	ἴχνος	NOUN	n-s---na-	Case=Acc|Gender=Neut|Number=Sing	11	obj	_	Ref=678
@@ -7446,7 +7446,7 @@
 
 # sent_id = 1716290
 # sentannotators <primary>millermo</primary> <primary>megluthin</primary> <secondary>tovahk</secondary>
-# text = ὡραῖος δὲ γυναῖκα τεὸν ποτὶ οἶκον ἄγεσθαι, μήτε τριηκόντων ἐτέων μάλα πόλλ' ἀπολείπων μήτ̓ ἐπιθεὶς μάλα πολλά·
+# text = ὡραῖος δὲ γυναῖκα τεὸν ποτὶ οἶκον ἄγεσθαι, μήτε τριηκόντων ἐτέων μάλα πόλλ' ἀπολείπων μήτ' ἐπιθεὶς μάλα πολλά·
 1	ὡραῖος	ὡραῖος	ADJ	a-s---mn-	Case=Nom|Gender=Masc|Number=Sing	7	advcl:compl	_	Ref=678
 2	δὲ	δέ	CCONJ	g--------	PartType=Ptcl	7	cc	_	Ref=678
 3	γυναῖκα	γυνή	NOUN	n-s---fa-	Case=Acc|Gender=Fem|Number=Sing	7	obj	_	Ref=678
@@ -7461,7 +7461,7 @@
 12	μάλα	μάλα	ADV	d--------	_	13	advmod	_	Ref=678
 13	πόλλ'	πολύς	ADJ	a-p---na-	Case=Acc|Gender=Neut|Number=Plur	14	obl	_	Ref=678
 14	ἀπολείπων	ἀπολείπω	VERB	v-sppamn-	Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	7	advcl	_	Ref=678
-15	μήτ̓	μήτε	CCONJ	g--------	_	16	cc	_	Ref=678
+15	μήτ'	μήτε	CCONJ	g--------	_	16	cc	_	Ref=678
 16	ἐπιθεὶς	ἐπιτίθημι	VERB	v-sapamn-	Case=Nom|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	14	conj	_	Ref=678
 17	μάλα	μάλα	ADV	d--------	_	18	advmod	_	Ref=678
 18	πολλά	πολύς	ADJ	a-p---na-	Case=Acc|Gender=Neut|Number=Plur	16	obj	_	Ref=678|SpaceAfter=No
@@ -7533,14 +7533,14 @@
 
 # sent_id = 1716295
 # sentannotators <primary>millermo</primary> <primary>megluthin</primary> <secondary>tovahk</secondary>
-# text = οὐ μὲν γάρ τι γυναικὸς ἀνὴρ ληίζετ̓ ἄμεινον τῆς ἀγαθῆς, τῆς δ̓ αὖτε κακῆς οὐ ῥίγιον ἄλλο, δειπνολόχης·
+# text = οὐ μὲν γάρ τι γυναικὸς ἀνὴρ ληίζετ' ἄμεινον τῆς ἀγαθῆς, τῆς δ̓ αὖτε κακῆς οὐ ῥίγιον ἄλλο, δειπνολόχης·
 1	οὐ	οὐ	ADV	d--------	_	7	advmod:neg	7:advmod	Ref=678
 2	μὲν	μέν	ADV	g--------	PartType=Ptcl	7	advmod	7:advmod	Ref=678
 3	γάρ	γάρ	ADV	g--------	PartType=Ptcl	7	advmod	7:advmod	Ref=678
 4	τι	τις	PRON	p-s---na-	Case=Acc|Gender=Neut|Number=Sing|PronType=Ind	7	obj	7:obj	Ref=678
 5	γυναικὸς	γυνή	NOUN	n-s---fg-	Case=Gen|Gender=Fem|Number=Sing	8	obl	8:obl	Ref=678
 6	ἀνὴρ	ἀνήρ	NOUN	n-s---mn-	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	7:nsubj	Ref=678
-7	ληίζετ̓	ληίζομαι	VERB	v3spie---	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=MidPass	0	root	0:root	Ref=678
+7	ληίζετ'	ληίζομαι	VERB	v3spie---	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=MidPass	0	root	0:root	Ref=678
 8	ἄμεινον	ἀμείνων	ADJ	a-s---nac	Case=Acc|Degree=Cmp|Gender=Neut|Number=Sing	4	amod	4:amod	Ref=678
 9	τῆς	ὁ	DET	l-s---fg-	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	10:det	Ref=678
 10	ἀγαθῆς	ἀγαθός	ADJ	a-s---fg-	Case=Gen|Gender=Fem|Number=Sing	5	amod	5:amod	Ref=678|SpaceAfter=No
@@ -7559,8 +7559,8 @@
 
 # sent_id = 1716296
 # sentannotators <primary>millermo</primary> <primary>megluthin</primary> <secondary>tovahk</secondary>
-# text = ἥτ̓ ἄνδρα καὶ ἴφθιμόν περ ἐόντα εὕει ἄτερ δαλοῖο καὶ ὠμῷ γήραϊ δῶκεν.
-1	ἥτ̓	ὅστε	PRON	p-s---fn-	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	Ref=678
+# text = ἥτ' ἄνδρα καὶ ἴφθιμόν περ ἐόντα εὕει ἄτερ δαλοῖο καὶ ὠμῷ γήραϊ δῶκεν.
+1	ἥτ'	ὅστε	PRON	p-s---fn-	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	Ref=678
 2	ἄνδρα	ἀνήρ	NOUN	n-s---ma-	Case=Acc|Gender=Masc|Number=Sing	7	obj	_	Ref=678
 3	καὶ	καί	ADV	d--------	_	4	advmod	_	Ref=678
 4	ἴφθιμόν	ἴφθιμος	ADJ	a-s---ma-	Case=Acc|Gender=Masc|Number=Sing	2	acl:compl	_	Ref=678
@@ -7646,13 +7646,13 @@
 
 # sent_id = 1716302
 # sentannotators <primary>millermo</primary> <primary>megluthin</primary> <secondary>tovahk</secondary>
-# text = εἰ δὲ σέ γ' αὖτις ἡγῆτ̓ ἐς φιλότητα, δίκην δ̓ ἐθέλῃσι παρασχεῖν, δέξασθαι·
+# text = εἰ δὲ σέ γ' αὖτις ἡγῆτ' ἐς φιλότητα, δίκην δ̓ ἐθέλῃσι παρασχεῖν, δέξασθαι·
 1	εἰ	εἰ	SCONJ	c--------	_	6	mark	_	Ref=706
 2	δὲ	δέ	CCONJ	g--------	PartType=Ptcl	15	cc	_	Ref=706
 3	σέ	σύ	PRON	p-s----a-	Case=Acc|Number=Sing|Person=2|PronType=Prs	6	obj	_	Ref=706
 4	γ'	γε	ADV	g--------	PartType=Ptcl	3	advmod	_	Ref=706
 5	αὖτις	αὖθις	ADV	d--------	_	6	advmod	_	Ref=706
-6	ἡγῆτ̓	ἡγέομαι	VERB	v3spie---	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=MidPass	15	advcl	_	Ref=706
+6	ἡγῆτ'	ἡγέομαι	VERB	v3spie---	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=MidPass	15	advcl	_	Ref=706
 7	ἐς	εἰς	ADP	r--------	_	8	case	_	Ref=706
 8	φιλότητα	φιλότης	NOUN	n-s---fa-	Case=Acc|Gender=Fem|Number=Sing	6	obl:arg	_	Ref=706|SpaceAfter=No
 9	,	,	PUNCT	u--------	_	12	punct	_	Ref=706
@@ -7705,9 +7705,9 @@
 
 # sent_id = 1716305
 # sentannotators <primary>millermo</primary> <primary>megluthin</primary> <secondary>tovahk</secondary>
-# text = μηδέ ποτ̓ οὐλομένην πενίην θυμοφθόρον ἀνδρὶ τέτλαθ̓ ὀνειδίζειν, μακάρων δόσιν αἰὲν ἐόντων.
+# text = μηδέ ποτ' οὐλομένην πενίην θυμοφθόρον ἀνδρὶ τέτλαθ̓ ὀνειδίζειν, μακάρων δόσιν αἰὲν ἐόντων.
 1	μηδέ	μηδέ	CCONJ	c--------	_	7	cc	_	Ref=706|SpaceAfter=No
-2	ποτ̓	ποτέ	ADV	g--------	PartType=Ptcl	7	advmod	_	Ref=706
+2	ποτ'	ποτέ	ADV	g--------	PartType=Ptcl	7	advmod	_	Ref=706
 3	οὐλομένην	οὐλόμενος	ADJ	a-s---fa-	Case=Acc|Gender=Fem|Number=Sing	4	amod	_	Ref=706
 4	πενίην	πενία	NOUN	n-s---fa-	Case=Acc|Gender=Fem|Number=Sing	8	obj	_	Ref=706
 5	θυμοφθόρον	θυμοφθόρος	ADJ	a-s---fa-	Case=Acc|Gender=Fem|Number=Sing	4	amod	_	Ref=706
@@ -7769,21 +7769,21 @@
 
 # sent_id = 1716309
 # sentannotators <primary>millermo</primary> <primary>megluthin</primary> <secondary>tovahk</secondary>
-# text = πλείστη δὲ χάρις, δαπάνη τ̓ ὀλιγίστη.
+# text = πλείστη δὲ χάρις, δαπάνη τ' ὀλιγίστη.
 1	πλείστη	πλεῖστος	ADJ	a-s---fn-	Case=Nom|Gender=Fem|Number=Sing	0	root	_	Ref=706
 2	δὲ	δέ	CCONJ	g--------	PartType=Ptcl	7	cc	_	Ref=706
 3	χάρις	χάρις	NOUN	n-s---fn-	Case=Nom|Gender=Fem|Number=Sing	1	nsubj	_	Ref=706|SpaceAfter=No
 4	,	,	PUNCT	u--------	_	7	punct	_	Ref=706
 5	δαπάνη	δαπάνη	NOUN	n-s---fn-	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	Ref=706
-6	τ̓	τε	CCONJ	c--------	_	7	cc	_	Ref=706
+6	τ'	τε	CCONJ	c--------	_	7	cc	_	Ref=706
 7	ὀλιγίστη	ὀλίγιστος	ADJ	a-s---fn-	Case=Nom|Gender=Fem|Number=Sing	1	conj	_	Ref=706|SpaceAfter=No
 8	.	.	PUNCT	u--------	_	1	punct	_	Ref=706
 
 # sent_id = 1716310
 # sentannotators <primary>millermo</primary> <primary>megluthin</primary> <secondary>tovahk</secondary>
-# text = μηδέ ποτ̓ ἐξ ἠοῦς Διὶ λειβέμεν αἴθοπα οἶνον χερσὶν ἀνίπτοισιν μη δ̓ ἄλλοις ἀθανάτοισιν·
+# text = μηδέ ποτ' ἐξ ἠοῦς Διὶ λειβέμεν αἴθοπα οἶνον χερσὶν ἀνίπτοισιν μη δ̓ ἄλλοις ἀθανάτοισιν·
 1	μηδέ	μηδέ	CCONJ	c--------	_	5	cc	_	Ref=706|SpaceAfter=No
-2	ποτ̓	ποτέ	ADV	g--------	PartType=Ptcl	6	advmod	_	Ref=706
+2	ποτ'	ποτέ	ADV	g--------	PartType=Ptcl	6	advmod	_	Ref=706
 3	ἐξ	ἐκ	ADP	r--------	_	4	case	_	Ref=706
 4	ἠοῦς	ἠώς	NOUN	n-s---fg-	Case=Gen|Gender=Fem|Number=Sing	6	obl	_	Ref=706
 5	Διὶ	Ζεύς	PROPN	n-s---md-	Case=Dat|Gender=Masc|Number=Sing	6	obl	_	Ref=706
@@ -7800,7 +7800,7 @@
 
 # sent_id = 1716311
 # sentannotators <primary>millermo</primary> <primary>megluthin</primary> <secondary>tovahk</secondary>
-# text = οὐ γὰρ τοί γε κλύουσιν, ἀποπτύουσι δέ τ̓ ἀράς.
+# text = οὐ γὰρ τοί γε κλύουσιν, ἀποπτύουσι δέ τ' ἀράς.
 1	οὐ	οὐ	ADV	d--------	_	5	advmod:neg	_	Ref=706
 2	γὰρ	γάρ	ADV	g--------	PartType=Ptcl	5	advmod	_	Ref=706
 3	τοί	ὁ	PRON	p-p---mn-	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	nsubj	_	Ref=706
@@ -7809,16 +7809,16 @@
 6	,	,	PUNCT	u--------	_	7	punct	_	Ref=706
 7	ἀποπτύουσι	ἀποπτύω	VERB	v3ppia---	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	5	conj	_	Ref=706
 8	δέ	δέ	CCONJ	g--------	PartType=Ptcl	7	cc	_	Ref=706
-9	τ̓	τε	ADV	c--------	_	7	advmod	_	Ref=706
+9	τ'	τε	ADV	c--------	_	7	advmod	_	Ref=706
 10	ἀράς	ἀρά	NOUN	n-p---fa-	Case=Acc|Gender=Fem|Number=Plur	7	obj	_	Ref=706|SpaceAfter=No
 11	.	.	PUNCT	u--------	_	5	punct	_	Ref=706
 
 # sent_id = 1716312
 # sentannotators <primary>millermo</primary> <primary>megluthin</primary> <secondary>tovahk</secondary>
-# text = μη δ̓ ἄντ̓ ἠελίου τετραμμένος ὀρθὸς ὀμιχεῖν·
+# text = μη δ̓ ἄντ' ἠελίου τετραμμένος ὀρθὸς ὀμιχεῖν·
 1	μη	μή	ADV	g--------	_	7	advmod:neg	_	Ref=706
 2	δ̓	δέ	CCONJ	g--------	PartType=Ptcl	7	cc	_	Ref=706
-3	ἄντ̓	ἄντα	ADP	r--------	_	4	case	_	Ref=706
+3	ἄντ'	ἄντα	ADP	r--------	_	4	case	_	Ref=706
 4	ἠελίου	ἠέλιος	NOUN	n-s---mg-	Case=Gen|Gender=Masc|Number=Sing	5	obl:arg	_	Ref=706
 5	τετραμμένος	τρέπω	VERB	v-srpemn-	Case=Nom|Gender=Masc|Number=Sing|VerbForm=Part|Voice=MidPass	7	advcl	_	Ref=706
 6	ὀρθὸς	ὀρθός	ADJ	a-s---mn-	Case=Nom|Gender=Masc|Number=Sing	7	advcl:compl	_	Ref=706
@@ -7827,7 +7827,7 @@
 
 # sent_id = 1716313
 # sentannotators <primary>millermo</primary> <primary>megluthin</primary> <secondary>tovahk</secondary>
-# text = αὐτὰρ ἐπεί κε δύῃ, μεμνημένος, ἔς τ̓ ἀνιόντα·
+# text = αὐτὰρ ἐπεί κε δύῃ, μεμνημένος, ἔς τ' ἀνιόντα·
 0.1	E0.1	_	_	_	_	_	_	0:root	_
 1	αὐτὰρ	ἀτάρ	ADV	g--------	PartType=Ptcl	0	root	0.1:advmod	Ref=706
 2	ἐπεί	ἐπεί	SCONJ	c--------	_	4	mark	4:mark	Ref=706
@@ -7837,17 +7837,17 @@
 6	μεμνημένος	μιμνήσκω	VERB	v-srpemn-	Case=Nom|Gender=Masc|Number=Sing|VerbForm=Part|Voice=MidPass	1	orphan	0.1:advcl	Ref=706|SpaceAfter=No
 7	,	,	PUNCT	u--------	_	10	punct	10:punct	Ref=706
 8	ἔς	εἰς	ADP	r--------	_	10	case	10:case	Ref=706
-9	τ̓	τε	CCONJ	c--------	_	10	cc	0.1:cc	Ref=706
+9	τ'	τε	CCONJ	c--------	_	10	cc	0.1:cc	Ref=706
 10	ἀνιόντα	ἄνειμι	VERB	v-sppama-	Case=Acc|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	4	conj	4:conj	Ref=706|SpaceAfter=No
 11	·	·	PUNCT	u--------	_	1	punct	0.1:punct	Ref=706
 
 # sent_id = 1716314
 # sentannotators <primary>millermo</primary> <primary>megluthin</primary> <secondary>tovahk</secondary>
-# text = μήτ̓ ἐν ὁδῷ μήτ̓ ἐκτὸς ὁδοῦ προβάδην οὐρήσῃς μη δ̓ ἀπογυμνωθείς·
-1	μήτ̓	μήτε	CCONJ	g--------	_	3	cc	3:cc	Ref=706
+# text = μήτ' ἐν ὁδῷ μήτ' ἐκτὸς ὁδοῦ προβάδην οὐρήσῃς μη δ̓ ἀπογυμνωθείς·
+1	μήτ'	μήτε	CCONJ	g--------	_	3	cc	3:cc	Ref=706
 2	ἐν	ἐν	ADP	r--------	_	3	case	3:case	Ref=706
 3	ὁδῷ	ὁδός	NOUN	n-s---fd-	Case=Dat|Gender=Fem|Number=Sing	8	obl	8:obl	Ref=706
-4	μήτ̓	μήτε	CCONJ	g--------	_	6	cc	6:cc	Ref=706
+4	μήτ'	μήτε	CCONJ	g--------	_	6	cc	6:cc	Ref=706
 5	ἐκτὸς	ἐκτός	ADP	r--------	_	6	case	6:case	Ref=706
 6	ὁδοῦ	ὁδός	NOUN	n-s---fg-	Case=Gen|Gender=Fem|Number=Sing	3	conj	3:conj	Ref=706
 7	προβάδην	προβάδην	ADV	d--------	_	8	advmod	8:advmod	Ref=706
@@ -7930,9 +7930,9 @@
 
 # sent_id = 1716319
 # sentannotators <primary>millermo</primary> <primary>megluthin</primary> <secondary>tovahk</secondary>
-# text = μηδέ ποτ̓ αἰενάων ποταμῶν καλλίρροον ὕδωρ ποσσὶ περᾶν, πρίν γ' εὔξῃ ἰδὼν ἐς καλὰ ῥέεθρα, χεῖρας νιψάμενος πολυηράτῳ ὕδατι λευκῷ.
+# text = μηδέ ποτ' αἰενάων ποταμῶν καλλίρροον ὕδωρ ποσσὶ περᾶν, πρίν γ' εὔξῃ ἰδὼν ἐς καλὰ ῥέεθρα, χεῖρας νιψάμενος πολυηράτῳ ὕδατι λευκῷ.
 1	μηδέ	μηδέ	CCONJ	c--------	_	8	cc	_	Ref=737|SpaceAfter=No
-2	ποτ̓	ποτέ	ADV	g--------	PartType=Ptcl	8	advmod	_	Ref=737
+2	ποτ'	ποτέ	ADV	g--------	PartType=Ptcl	8	advmod	_	Ref=737
 3	αἰενάων	ἀείναος	ADJ	a-p---mg-	Case=Gen|Gender=Masc|Number=Plur	4	amod	_	Ref=737
 4	ποταμῶν	ποταμός	NOUN	n-p---mg-	Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	Ref=737
 5	καλλίρροον	καλλίρρους	ADJ	a-s---na-	Case=Acc|Gender=Neut|Number=Sing	6	amod	_	Ref=737
@@ -7957,11 +7957,11 @@
 
 # sent_id = 1716320
 # sentannotators <primary>millermo</primary> <primary>megluthin</primary> <secondary>tovahk</secondary>
-# text = ὃς ποταμὸν διαβῇ κακότητ̓ ἰδὲ χεῖρας ἄνιπτος, τῷ δὲ θεοὶ νεμεσῶσι καὶ ἄλγεα δῶκαν ὀπίσσω.
+# text = ὃς ποταμὸν διαβῇ κακότητ' ἰδὲ χεῖρας ἄνιπτος, τῷ δὲ θεοὶ νεμεσῶσι καὶ ἄλγεα δῶκαν ὀπίσσω.
 1	ὃς	ὅς	PRON	p-s---mn-	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	3	nsubj	_	Ref=737
 2	ποταμὸν	ποταμός	NOUN	n-s---ma-	Case=Acc|Gender=Masc|Number=Sing	3	obj	_	Ref=737
 3	διαβῇ	διαβαίνω	VERB	v3sasa---	Mood=Sub|Number=Sing|Person=3|Voice=Act	9	acl:relcl	_	Ref=737
-4	κακότητ̓	κακότης	NOUN	n-s---fa-	Case=Acc|Gender=Fem|Number=Sing	7	obj	_	Ref=737
+4	κακότητ'	κακότης	NOUN	n-s---fa-	Case=Acc|Gender=Fem|Number=Sing	7	obj	_	Ref=737
 5	ἰδὲ	ἰδέ	CCONJ	c--------	_	6	cc	_	Ref=737
 6	χεῖρας	χείρ	NOUN	n-p---fa-	Case=Acc|Gender=Fem|Number=Plur	4	conj	_	Ref=737
 7	ἄνιπτος	ἄνιπτος	ADJ	a-s---mn-	Case=Nom|Gender=Masc|Number=Sing	1	acl:compl	_	Ref=737|SpaceAfter=No
@@ -7997,9 +7997,9 @@
 
 # sent_id = 1716322
 # sentannotators <primary>millermo</primary> <primary>megluthin</primary> <secondary>tovahk</secondary>
-# text = μηδέ ποτ̓ οἰνοχόην τιθέμεν κρητῆρος ὕπερθε πινόντων·
+# text = μηδέ ποτ' οἰνοχόην τιθέμεν κρητῆρος ὕπερθε πινόντων·
 1	μηδέ	μηδέ	CCONJ	c--------	_	4	cc	_	Ref=737|SpaceAfter=No
-2	ποτ̓	ποτέ	ADV	g--------	PartType=Ptcl	4	advmod	_	Ref=737
+2	ποτ'	ποτέ	ADV	g--------	PartType=Ptcl	4	advmod	_	Ref=737
 3	οἰνοχόην	οἰνοχόη	NOUN	n-s---fa-	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	Ref=737
 4	τιθέμεν	τίθημι	VERB	v--pna---	Tense=Pres|VerbForm=Inf|Voice=Act	0	root	_	Ref=737
 5	κρητῆρος	κρατήρ	NOUN	n-s---mg-	Case=Gen|Gender=Masc|Number=Sing	4	obl	_	Ref=737
@@ -8063,7 +8063,7 @@
 
 # sent_id = 1716327
 # sentannotators <primary>millermo</primary> <primary>megluthin</primary> <secondary>tovahk</secondary>
-# text = μη δ̓ ἐπ' ἀκινήτοισι καθιζέμεν, οὐ γὰρ ἄμεινον, παῖδα δυωδεκαταῖον, ὅτ̓ ἀνέῤ ἀνήνορα ποιεῖ, μηδὲ δυωδεκάμηνον·
+# text = μη δ̓ ἐπ' ἀκινήτοισι καθιζέμεν, οὐ γὰρ ἄμεινον, παῖδα δυωδεκαταῖον, ὅτ' ἀνέῤ ἀνήνορα ποιεῖ, μηδὲ δυωδεκάμηνον·
 1	μη	μή	ADV	g--------	_	5	advmod:neg	5:advmod	Ref=737
 2	δ̓	δέ	CCONJ	g--------	PartType=Ptcl	5	cc	5:cc	Ref=737
 3	ἐπ'	ἐπί	ADP	r--------	_	4	case	4:case	Ref=737
@@ -8077,7 +8077,7 @@
 11	παῖδα	παῖς	NOUN	n-s---ma-	Case=Acc|Gender=Masc|Number=Sing	5	obj	5:obj	Ref=737
 12	δυωδεκαταῖον	δωδεκαταῖος	ADJ	a-s---ma-	Case=Acc|Gender=Masc|Number=Sing	11	amod	11:amod	Ref=737|SpaceAfter=No
 13	,	,	PUNCT	u--------	_	17	punct	17:punct	Ref=737
-14	ὅτ̓	ὅτι	SCONJ	c--------	_	17	mark	17:mark	Ref=737
+14	ὅτ'	ὅτι	SCONJ	c--------	_	17	mark	17:mark	Ref=737
 15	ἀνέῤ	ἀνήρ	NOUN	n-s---ma-	Case=Acc|Gender=Masc|Number=Sing	17	obj	17:obj	Ref=737
 16	ἀνήνορα	ἀνήνωρ	ADJ	a-s---ma-	Case=Acc|Gender=Masc|Number=Sing	17	xcomp	17:xcomp	Ref=737
 17	ποιεῖ	ποιέω	VERB	v3spia---	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	advcl	5:advcl	Ref=737|SpaceAfter=No
@@ -8109,12 +8109,12 @@
 
 # sent_id = 1716330
 # sentannotators <primary>millermo</primary> <primary>megluthin</primary> <secondary>tovahk</secondary>
-# text = λευγαλέη γὰρ ἐπὶ χρόνον ἔστ̓ ἐπὶ καὶ τῷ ποινή.
+# text = λευγαλέη γὰρ ἐπὶ χρόνον ἔστ' ἐπὶ καὶ τῷ ποινή.
 1	λευγαλέη	λευγαλέος	ADJ	a-s---fn-	Case=Nom|Gender=Fem|Number=Sing	9	amod	_	Ref=737
 2	γὰρ	γάρ	ADV	g--------	PartType=Ptcl	5	advmod	_	Ref=737
 3	ἐπὶ	ἐπί	ADP	r--------	_	4	case	_	Ref=737
 4	χρόνον	χρόνος	NOUN	n-s---ma-	Case=Acc|Gender=Masc|Number=Sing	5	obl	_	Ref=737
-5	ἔστ̓	εἰμί	VERB	v3spia---	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	Ref=737
+5	ἔστ'	εἰμί	VERB	v3spia---	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	Ref=737
 6	ἐπὶ	ἐπί	ADP	r--------	_	8	case	_	Ref=737
 7	καὶ	καί	ADV	d--------	_	8	advmod	_	Ref=737
 8	τῷ	ὁ	PRON	p-s---nd-	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	obl	_	Ref=737
@@ -8147,9 +8147,9 @@
 
 # sent_id = 1716333
 # sentannotators <primary>millermo</primary> <primary>megluthin</primary> <secondary>tovahk</secondary>
-# text = μηδέ ποτ̓ ἐν προχοῇς ποταμῶν ἅλαδε προρεόντων μη δ̓ ἐπὶ κρηνάων οὐρεῖν, μάλα δ̓ ἐξαλέασθαι·
+# text = μηδέ ποτ' ἐν προχοῇς ποταμῶν ἅλαδε προρεόντων μη δ̓ ἐπὶ κρηνάων οὐρεῖν, μάλα δ̓ ἐξαλέασθαι·
 1	μηδέ	μηδέ	CCONJ	c--------	_	4	cc	_	Ref=737|SpaceAfter=No
-2	ποτ̓	ποτέ	ADV	g--------	PartType=Ptcl	12	advmod	_	Ref=737
+2	ποτ'	ποτέ	ADV	g--------	PartType=Ptcl	12	advmod	_	Ref=737
 3	ἐν	ἐν	ADP	r--------	_	4	case	_	Ref=737
 4	προχοῇς	προχοή	NOUN	n-p---fd-	Case=Dat|Gender=Fem|Number=Plur	12	obl	_	Ref=737
 5	ποταμῶν	ποταμός	NOUN	n-p---mg-	Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	Ref=737
@@ -8270,12 +8270,12 @@
 
 # sent_id = 1716342
 # sentannotators <primary>millermo</primary> <primary>megluthin</primary> <secondary>tovahk</secondary>
-# text = τριηκάδα μηνὸς ἀρίστην ἔργα τ̓ ἐποπτεύειν ἠδ̓ ἁρμαλιὴν δατέασθαι.
+# text = τριηκάδα μηνὸς ἀρίστην ἔργα τ' ἐποπτεύειν ἠδ̓ ἁρμαλιὴν δατέασθαι.
 1	τριηκάδα	τριακάς	NOUN	n-s---fa-	Case=Acc|Gender=Fem|Number=Sing	3	nsubj	_	Ref=765
 2	μηνὸς	μείς	NOUN	n-s---mg-	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	Ref=765
 3	ἀρίστην	ἄριστος	ADJ	a-s---fa-	Case=Acc|Gender=Fem|Number=Sing	0	root	_	Ref=765
 4	ἔργα	ἔργον	NOUN	n-p---na-	Case=Acc|Gender=Neut|Number=Plur	6	obj	_	Ref=765
-5	τ̓	τε	CCONJ	c--------	_	6	cc	_	Ref=765
+5	τ'	τε	CCONJ	c--------	_	6	cc	_	Ref=765
 6	ἐποπτεύειν	ἐποπτεύω	VERB	v--pna---	Tense=Pres|VerbForm=Inf|Voice=Act	3	advcl	_	Ref=765
 7	ἠδ̓	ἠδέ	CCONJ	c--------	_	9	cc	_	Ref=765
 8	ἁρμαλιὴν	ἁρμαλιά	NOUN	n-s---fa-	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	Ref=765
@@ -8284,7 +8284,7 @@
 
 # sent_id = 1716343
 # sentannotators <primary>millermo</primary> <primary>megluthin</primary> <secondary>tovahk</secondary>
-# text = αἵδε γὰρ ἡμέραι εἰσὶ Διὸς πάρα μητιόεντος, εὖτ̓ ἂν ἀληθείην λαοὶ κρίνοντες ἄγωσιν.
+# text = αἵδε γὰρ ἡμέραι εἰσὶ Διὸς πάρα μητιόεντος, εὖτ' ἂν ἀληθείην λαοὶ κρίνοντες ἄγωσιν.
 1	αἵδε	ὅδε	PRON	p-p---fn-	Case=Nom|Gender=Fem|Number=Plur|PronType=Dem	3	nsubj	_	Ref=765
 2	γὰρ	γάρ	ADV	g--------	PartType=Ptcl	3	advmod	_	Ref=765
 3	ἡμέραι	ἡμέρα	NOUN	n-p---fn-	Case=Nom|Gender=Fem|Number=Plur	0	root	_	Ref=765
@@ -8293,7 +8293,7 @@
 6	πάρα	παρά	ADP	r--------	_	5	case	_	Ref=765
 7	μητιόεντος	μητιόεις	ADJ	a-s---mg-	Case=Gen|Gender=Masc|Number=Sing	5	amod	_	Ref=765|SpaceAfter=No
 8	,	,	PUNCT	u--------	_	14	punct	_	Ref=765
-9	εὖτ̓	εὖτε	ADV	d--------	_	14	advmod	_	Ref=765
+9	εὖτ'	εὖτε	ADV	d--------	_	14	advmod	_	Ref=765
 10	ἂν	ἄν	ADV	g--------	PartType=Ptcl	14	advmod	_	Ref=765
 11	ἀληθείην	ἀλήθεια	NOUN	n-s---fa-	Case=Acc|Gender=Fem|Number=Sing	13	obj	_	Ref=765
 12	λαοὶ	λαός	NOUN	n-p---mn-	Case=Nom|Gender=Masc|Number=Plur	14	nsubj	_	Ref=765
@@ -8347,11 +8347,11 @@
 
 # sent_id = 1716347
 # sentannotators <primary>millermo</primary> <primary>megluthin</primary> <secondary>tovahk</secondary>
-# text = ἑνδεκάτη δὲ δυωδεκάτη τ̓, ἄμφω γε μὲν ἐσθλαί, ἠμὲν ὄις πείκειν ἠδ̓ εὔφρονα καρπὸν ἀμᾶσθαι·
+# text = ἑνδεκάτη δὲ δυωδεκάτη τ', ἄμφω γε μὲν ἐσθλαί, ἠμὲν ὄις πείκειν ἠδ̓ εὔφρονα καρπὸν ἀμᾶσθαι·
 1	ἑνδεκάτη	ἑνδέκατος	ADJ	a-s---fn-	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	Ref=765
 2	δὲ	δέ	CCONJ	g--------	PartType=Ptcl	9	cc	_	Ref=765
 3	δυωδεκάτη	δωδέκατος	ADJ	a-s---fn-	Case=Nom|Gender=Fem|Number=Sing	1	conj	_	Ref=765
-4	τ̓	τε	CCONJ	c--------	_	3	cc	_	Ref=765|SpaceAfter=No
+4	τ'	τε	CCONJ	c--------	_	3	cc	_	Ref=765|SpaceAfter=No
 5	,	,	PUNCT	u--------	_	3	punct	_	Ref=765
 6	ἄμφω	ἄμφω	ADJ	a-d---nn-	Case=Nom|Gender=Neut|Number=Dual	1	amod	_	Ref=765
 7	γε	γε	ADV	g--------	PartType=Ptcl	6	advmod	_	Ref=765
@@ -8381,12 +8381,12 @@
 
 # sent_id = 1716349
 # sentannotators <primary>millermo</primary> <primary>megluthin</primary> <secondary>tovahk</secondary>
-# text = τῇ γάρ τοι νῇ νήματ̓ ἀερσιπότητος ἀράχνης ἤματος ἐκ πλείου, ὅτε ἴδρις σωρὸν ἀμᾶται·
+# text = τῇ γάρ τοι νῇ νήματ' ἀερσιπότητος ἀράχνης ἤματος ἐκ πλείου, ὅτε ἴδρις σωρὸν ἀμᾶται·
 1	τῇ	ὁ	PRON	p-s---fd-	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	obl	_	Ref=765
 2	γάρ	γάρ	ADV	g--------	PartType=Ptcl	4	advmod	_	Ref=765
 3	τοι	τοι	ADV	g--------	PartType=Ptcl	4	advmod	_	Ref=765
 4	νῇ	νέω	VERB	v3spsa---	Mood=Sub|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	Ref=765
-5	νήματ̓	νῆμα	NOUN	n-p---na-	Case=Acc|Gender=Neut|Number=Plur	4	obj	_	Ref=765
+5	νήματ'	νῆμα	NOUN	n-p---na-	Case=Acc|Gender=Neut|Number=Plur	4	obj	_	Ref=765
 6	ἀερσιπότητος	ἀερσιπότητος	ADJ	a-s---mn-	Case=Nom|Gender=Masc|Number=Sing	7	amod	_	Ref=765
 7	ἀράχνης	ἀράχνης	NOUN	n-s---mn-	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	Ref=765
 8	ἤματος	ἦμαρ	NOUN	n-s---ng-	Case=Gen|Gender=Neut|Number=Sing	4	obl	_	Ref=765
@@ -8452,7 +8452,7 @@
 
 # sent_id = 1716354
 # sentannotators <primary>millermo</primary> <primary>megluthin</primary> <secondary>tovahk</secondary>
-# text = κούρῃ δ̓ οὐ σύμφορός ἐστιν, οὔ τε γενέσθαι πρῶτ̓ οὔ τ̓ ἂρ γάμου ἀντιβολῆσαι.
+# text = κούρῃ δ̓ οὐ σύμφορός ἐστιν, οὔ τε γενέσθαι πρῶτ' οὔ τ' ἂρ γάμου ἀντιβολῆσαι.
 1	κούρῃ	κόρη	NOUN	n-s---fd-	Case=Dat|Gender=Fem|Number=Sing	4	obl	_	Ref=765
 2	δ̓	δέ	CCONJ	g--------	PartType=Ptcl	4	cc	_	Ref=765
 3	οὐ	οὐ	ADV	d--------	_	4	advmod:neg	_	Ref=765
@@ -8462,9 +8462,9 @@
 7	οὔ	οὐ	ADV	d--------	_	9	advmod:neg	_	Ref=765
 8	τε	τε	CCONJ	c--------	_	9	cc	_	Ref=765
 9	γενέσθαι	γίγνομαι	VERB	v--anm---	VerbForm=Inf|Voice=Mid	4	advcl	_	Ref=765
-10	πρῶτ̓	πρῶτος	ADJ	a-p---na-	Case=Acc|Gender=Neut|Number=Plur	9	obl	_	Ref=765
+10	πρῶτ'	πρῶτος	ADJ	a-p---na-	Case=Acc|Gender=Neut|Number=Plur	9	obl	_	Ref=765
 11	οὔ	οὐ	ADV	d--------	_	15	advmod:neg	_	Ref=765
-12	τ̓	τε	CCONJ	c--------	_	15	cc	_	Ref=765
+12	τ'	τε	CCONJ	c--------	_	15	cc	_	Ref=765
 13	ἂρ	ἄρα	ADV	g--------	PartType=Ptcl	15	advmod	_	Ref=765
 14	γάμου	γάμος	NOUN	n-s---mg-	Case=Gen|Gender=Masc|Number=Sing	15	obj	_	Ref=765
 15	ἀντιβολῆσαι	ἀντιβολέω	VERB	v--ana---	VerbForm=Inf|Voice=Act	9	conj	_	Ref=765|SpaceAfter=No
@@ -8472,7 +8472,7 @@
 
 # sent_id = 1716355
 # sentannotators <primary>millermo</primary> <primary>megluthin</primary> <secondary>tovahk</secondary>
-# text = οὐδὲ μὲν ἡ πρώτη ἕκτη κούρῃ γε γενέσθαι ἄρμενος, ἀλλ' ἐρίφους τάμνειν καὶ πώεα μήλων σηκόν τ̓ ἀμφιβαλεῖν ποιμνήιον ἤπιον ἦμαρ·
+# text = οὐδὲ μὲν ἡ πρώτη ἕκτη κούρῃ γε γενέσθαι ἄρμενος, ἀλλ' ἐρίφους τάμνειν καὶ πώεα μήλων σηκόν τ' ἀμφιβαλεῖν ποιμνήιον ἤπιον ἦμαρ·
 1	οὐδὲ	οὐδέ	CCONJ	c--------	_	9	cc	_	Ref=765|SpaceAfter=No
 2	μὲν	μέν	ADV	g--------	PartType=Ptcl	9	advmod	_	Ref=765
 3	ἡ	ὁ	DET	l-s---fn-	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	Ref=765
@@ -8490,7 +8490,7 @@
 15	πώεα	πῶυ	NOUN	n-p---na-	Case=Acc|Gender=Neut|Number=Plur	12	conj	_	Ref=765
 16	μήλων	μῆλον	NOUN	n-p---ng-	Case=Gen|Gender=Neut|Number=Plur	15	nmod	_	Ref=765
 17	σηκόν	σηκός	NOUN	n-s---ma-	Case=Acc|Gender=Masc|Number=Sing	19	obj	_	Ref=765
-18	τ̓	τε	CCONJ	c--------	_	19	cc	_	Ref=765
+18	τ'	τε	CCONJ	c--------	_	19	cc	_	Ref=765
 19	ἀμφιβαλεῖν	ἀμφιβάλλω	VERB	v--ana---	VerbForm=Inf|Voice=Act	13	conj	_	Ref=765
 20	ποιμνήιον	ποιμνήιος	ADJ	a-s---ma-	Case=Acc|Gender=Masc|Number=Sing	17	amod	_	Ref=765
 21	ἤπιον	ἤπιος	ADJ	a-s---nn-	Case=Nom|Gender=Neut|Number=Sing	22	amod	_	Ref=765
@@ -8507,7 +8507,7 @@
 
 # sent_id = 1716357
 # sentannotators <primary>millermo</primary> <primary>megluthin</primary> <secondary>tovahk</secondary>
-# text = φιλέοι δ̓ ὅ γε κέρτομα βάζειν ψεύδεά θ̓ αἱμυλίους τε λόγους κρυφίους τ̓ ὀαρισμούς.
+# text = φιλέοι δ̓ ὅ γε κέρτομα βάζειν ψεύδεά θ̓ αἱμυλίους τε λόγους κρυφίους τ' ὀαρισμούς.
 1	φιλέοι	φιλέω	VERB	v3spoa---	Mood=Opt|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	Ref=765
 2	δ̓	δέ	CCONJ	g--------	PartType=Ptcl	1	cc	_	Ref=765
 3	ὅ	ὁ	PRON	p-s---mn-	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	nsubj	_	Ref=765
@@ -8520,7 +8520,7 @@
 10	τε	τε	CCONJ	c--------	_	11	cc	_	Ref=765
 11	λόγους	λόγος	NOUN	n-p---ma-	Case=Acc|Gender=Masc|Number=Plur	7	conj	_	Ref=765
 12	κρυφίους	κρύφιος	ADJ	a-p---ma-	Case=Acc|Gender=Masc|Number=Plur	14	amod	_	Ref=765
-13	τ̓	τε	CCONJ	c--------	_	14	cc	_	Ref=765
+13	τ'	τε	CCONJ	c--------	_	14	cc	_	Ref=765
 14	ὀαρισμούς	ὀαρισμός	NOUN	n-p---ma-	Case=Acc|Gender=Masc|Number=Plur	7	conj	_	Ref=765|SpaceAfter=No
 15	.	.	PUNCT	u--------	_	1	punct	_	Ref=765
 
@@ -8686,7 +8686,7 @@
 
 # sent_id = 1716367
 # sentannotators <primary>millermo</primary> <primary>megluthin</primary> <secondary>tovahk</secondary>
-# text = Μέσσῃ δ̓ ἑβδομάτῃ Δημήτερος ἱερὸν ἀκτὴν εὖ μάλ' ὀπιπεύοντα ἐυτροχάλῳ ἐν ἀλωῇ βαλλέμεν, ὑλοτόμον τε ταμεῖν θαλαμήια δοῦρα νήιά τε ξύλα πολλά, τά τ̓ ἄρμενα νηυσὶ πέλονται.
+# text = Μέσσῃ δ̓ ἑβδομάτῃ Δημήτερος ἱερὸν ἀκτὴν εὖ μάλ' ὀπιπεύοντα ἐυτροχάλῳ ἐν ἀλωῇ βαλλέμεν, ὑλοτόμον τε ταμεῖν θαλαμήια δοῦρα νήιά τε ξύλα πολλά, τά τ' ἄρμενα νηυσὶ πέλονται.
 1	Μέσσῃ	μέσος	ADJ	a-s---fd-	Case=Dat|Gender=Fem|Number=Sing	3	amod	_	Ref=800
 2	δ̓	δέ	CCONJ	g--------	PartType=Ptcl	13	cc	_	Ref=800
 3	ἑβδομάτῃ	ἑβδόματος	ADJ	a-s---fd-	Case=Dat|Gender=Fem|Number=Sing	13	obl	_	Ref=800
@@ -8712,7 +8712,7 @@
 23	πολλά	πολύς	ADJ	a-p---na-	Case=Acc|Gender=Neut|Number=Plur	22	amod	_	Ref=800|SpaceAfter=No
 24	,	,	PUNCT	u--------	_	29	punct	_	Ref=800
 25	τά	ὁ	PRON	p-p---nn-	Case=Nom|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	29	nsubj	_	Ref=800
-26	τ̓	τε	ADV	c--------	_	29	advmod	_	Ref=800
+26	τ'	τε	ADV	c--------	_	29	advmod	_	Ref=800
 27	ἄρμενα	ἀραρίσκω	VERB	v-papmnn-	Case=Nom|Gender=Neut|Number=Plur|VerbForm=Part|Voice=Mid	29	xcomp	_	Ref=800
 28	νηυσὶ	ναῦς	NOUN	n-p---fd-	Case=Dat|Gender=Fem|Number=Plur	27	obj	_	Ref=800
 29	πέλονται	πέλω	VERB	v3ppie---	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=MidPass	22	acl:relcl	_	Ref=800|SpaceAfter=No
@@ -8750,7 +8750,7 @@
 
 # sent_id = 1716370
 # sentannotators <primary>millermo</primary> <primary>megluthin</primary> <secondary>tovahk</secondary>
-# text = ἐσθλὴ μὲν γάρ θ̓ ἥ γε φυτευέμεν ἠδὲ γενέσθαι ἀνέρι τ̓ ἠδὲ γυναικί·
+# text = ἐσθλὴ μὲν γάρ θ̓ ἥ γε φυτευέμεν ἠδὲ γενέσθαι ἀνέρι τ' ἠδὲ γυναικί·
 1	ἐσθλὴ	ἐσθλός	ADJ	a-s---fn-	Case=Nom|Gender=Fem|Number=Sing	0	root	_	Ref=800
 2	μὲν	μέν	ADV	g--------	PartType=Ptcl	1	advmod	_	Ref=800
 3	γάρ	γάρ	ADV	g--------	PartType=Ptcl	1	advmod	_	Ref=800
@@ -8761,7 +8761,7 @@
 8	ἠδὲ	ἠδέ	CCONJ	c--------	_	9	cc	_	Ref=800
 9	γενέσθαι	γίγνομαι	VERB	v--anm---	VerbForm=Inf|Voice=Mid	7	conj	_	Ref=800
 10	ἀνέρι	ἀνήρ	NOUN	n-s---md-	Case=Dat|Gender=Masc|Number=Sing	1	obl	_	Ref=800
-11	τ̓	τε	CCONJ	c--------	_	13	cc	_	Ref=800
+11	τ'	τε	CCONJ	c--------	_	13	cc	_	Ref=800
 12	ἠδὲ	ἠδέ	CCONJ	c--------	_	13	cc	_	Ref=800
 13	γυναικί	γυνή	NOUN	n-s---fd-	Case=Dat|Gender=Fem|Number=Sing	10	conj	_	Ref=800|SpaceAfter=No
 14	·	·	PUNCT	u--------	_	1	punct	_	Ref=800
@@ -8811,10 +8811,10 @@
 
 # sent_id = 1716373
 # sentannotators <primary>millermo</primary> <primary>megluthin</primary> <secondary>tovahk</secondary>
-# text = παῦροι δέ τ̓ ἀληθέα κικλῄσκουσιν.
+# text = παῦροι δέ τ' ἀληθέα κικλῄσκουσιν.
 1	παῦροι	παῦρος	ADJ	a-p---mn-	Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	Ref=800
 2	δέ	δέ	CCONJ	g--------	PartType=Ptcl	5	cc	_	Ref=800
-3	τ̓	τε	ADV	c--------	_	5	advmod	_	Ref=800
+3	τ'	τε	ADV	c--------	_	5	advmod	_	Ref=800
 4	ἀληθέα	ἀληθής	ADJ	a-p---na-	Case=Acc|Gender=Neut|Number=Plur	5	xcomp	_	Ref=800
 5	κικλῄσκουσιν	κικλήσκω	VERB	v3ppia---	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	Ref=800|SpaceAfter=No
 6	.	.	PUNCT	u--------	_	5	punct	_	Ref=800
@@ -8840,12 +8840,12 @@
 
 # sent_id = 1716376
 # sentannotators <primary>millermo</primary> <primary>megluthin</primary> <secondary>tovahk</secondary>
-# text = παῦροι δ̓ αὖτε μετ̓ εἰκάδα μηνὸς ἀρίστην ἠοῦς γιγνομένης·
+# text = παῦροι δ̓ αὖτε μετ' εἰκάδα μηνὸς ἀρίστην ἠοῦς γιγνομένης·
 1	παῦροι	παῦρος	ADJ	a-p---mn-	Case=Nom|Gender=Masc|Number=Plur	7	nsubj	7:nsubj	Ref=800
 2	δ̓	δέ	CCONJ	g--------	PartType=Ptcl	7	cc	7:cc	Ref=800
 3	αὖτε	αὖτε	ADV	d--------	_	7	advmod	7:advmod	Ref=800
 3.1	E3.1	_	_	_	_	_	_	7:nsubj	_
-4	μετ̓	μετά	ADP	r--------	_	5	case	3.1:case	Ref=800
+4	μετ'	μετά	ADP	r--------	_	5	case	3.1:case	Ref=800
 5	εἰκάδα	εἰκάς	NOUN	n-s---fa-	Case=Acc|Gender=Fem|Number=Sing	7	nsubj	3.1:nsubj	Ref=800
 6	μηνὸς	μείς	NOUN	n-s---mg-	Case=Gen|Gender=Masc|Number=Sing	5	nmod	5:nmod	Ref=800
 7	ἀρίστην	ἄριστος	ADJ	a-s---fa-	Case=Acc|Gender=Fem|Number=Sing	0	root	0:root	Ref=800
