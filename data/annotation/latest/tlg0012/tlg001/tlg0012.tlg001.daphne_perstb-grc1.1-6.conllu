@@ -149,7 +149,7 @@
 16	στέμματ'	στέμμα	NOUN	n-p---na-	Case=Acc|Gender=Neut|Number=Plur	17	obj	_	Ref=1.14
 17	ἔχων	ἔχω	VERB	v-sppamn-	Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	8	conj	_	Ref=1.14
 18	ἐν	ἐν	ADP	r--------	_	19	case	_	Ref=1.14
-19	χερσὶν	χείρ	NOUN	n-p---fd-	Case=Dat|Gender=Fem|Number=Plur	17	iobj	_	Ref=1.14
+19	χερσὶν	χείρ	NOUN	n-p---fd-	Case=Dat|Gender=Fem|Number=Plur	17	obl	_	Ref=1.14
 20	ἑκηβόλου	ἑκηβόλος	ADJ	a-s---mg-	Case=Gen|Gender=Masc|Number=Sing	21	amod	_	Ref=1.14
 21	Ἀπόλλωνος	Ἀπόλλων	PROPN	n-s---mg-	Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	Ref=1.14
 22	χρυσέῳ	χρύσεος	ADJ	a-s---nd-	Case=Dat|Gender=Neut|Number=Sing	24	amod	_	Ref=1.15
@@ -4195,7 +4195,7 @@
 21	στέμματ'	στέμμα	NOUN	n-p---na-	Case=Acc|Gender=Neut|Number=Plur	22	obj	22:obj	Ref=1.373
 22	ἔχων	ἔχω	VERB	v-sppamn-	Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	7	advcl	7:advcl	Ref=1.373
 23	ἐν	ἐν	ADP	r--------	_	24	case	24:case	Ref=1.373
-24	χερσὶν	χείρ	NOUN	n-p---fd-	Case=Dat|Gender=Fem|Number=Plur	22	iobj	22:iobj	Ref=1.373
+24	χερσὶν	χείρ	NOUN	n-p---fd-	Case=Dat|Gender=Fem|Number=Plur	22	obl	22:obl	Ref=1.373
 25	ἑκηβόλου	ἑκηβόλος	ADJ	a-s---mg-	Case=Gen|Gender=Masc|Number=Sing	26	amod	26:amod	Ref=1.373
 26	Ἀπόλλωνος	Ἀπόλλων	PROPN	n-s---mg-	Case=Gen|Gender=Masc|Number=Sing	21	nmod	21:nmod	Ref=1.373
 27	χρυσέῳ	χρύσεος	ADJ	a-s---nd-	Case=Dat|Gender=Neut|Number=Sing	29	amod	29:amod	Ref=1.374
@@ -5155,7 +5155,7 @@
 4	αὐτὸν	αὐτός	PRON	a-s---ma-	Case=Acc|Gender=Masc|Number=Sing|PronType=Prs	5	obl	_	Ref=1.463
 5	ἔχον	ἔχω	VERB	v3piia---	Mood=Ind|Number=Plur|Person=3|Tense=Imp|Voice=Act	0	root	_	Ref=1.463
 6	πεμπώβολα	πεμπώβολον	NOUN	n-p---na-	Case=Acc|Gender=Neut|Number=Plur	5	obj	_	Ref=1.463
-7	χερσίν	χείρ	NOUN	n-p---fd-	Case=Dat|Gender=Fem|Number=Plur	5	iobj	_	Ref=1.463|SpaceAfter=No
+7	χερσίν	χείρ	NOUN	n-p---fd-	Case=Dat|Gender=Fem|Number=Plur	5	obl	_	Ref=1.463|SpaceAfter=No
 8	.	.	PUNCT	u--------	_	5	punct	_	Ref=1.463
 
 # sent_id = 2274366
@@ -19439,7 +19439,7 @@
 # sent_id = 2275078
 # sentannotators <primary>millermo</primary> <primary>jlnord</primary> <secondary>nicanor</secondary>
 # text = χειρὶ δὲ νεκταρέου ἑανοῦ ἐτίναξε λαβοῦσα, γρηῒ δέ μιν ἐϊκυῖα παλαιγενέϊ προσέειπεν εἰροκόμῳ, ἥ οἱ Λακεδαίμονι ναιετοώσῃ ἤσκειν εἴρια καλά, μάλιστα δέ μιν φιλέεσκε·
-1	χειρὶ	χείρ	NOUN	n-s---fd-	Case=Dat|Gender=Fem|Number=Sing	5	obj	_	Ref=3.385
+1	χειρὶ	χείρ	NOUN	n-s---fd-	Case=Dat|Gender=Fem|Number=Sing	5	obl	_	Ref=3.385
 2	δὲ	δέ	CCONJ	g--------	PartType=Ptcl	5	cc	_	Ref=3.385
 3	νεκταρέου	νεκτάρεος	ADJ	a-s---mg-	Case=Gen|Gender=Masc|Number=Sing	4	amod	_	Ref=3.385
 4	ἑανοῦ	ἑανός	NOUN	n-s---mg-	Case=Gen|Gender=Masc|Number=Sing	6	obj	_	Ref=3.385
@@ -25893,7 +25893,7 @@
 5	ἀκρόκομοι	ἀκρόκομος	ADJ	a-p---mn-	Case=Nom|Gender=Masc|Number=Plur	3	amod	_	Ref=4.533
 6	δολίχ'	δολιχός	ADJ	a-p---na-	Case=Acc|Gender=Neut|Number=Plur	7	amod	_	Ref=4.533
 7	ἔγχεα	ἔγχος	NOUN	n-p---na-	Case=Acc|Gender=Neut|Number=Plur	9	obj	_	Ref=4.533
-8	χερσὶν	χείρ	NOUN	n-p---fd-	Case=Dat|Gender=Fem|Number=Plur	9	iobj	_	Ref=4.533
+8	χερσὶν	χείρ	NOUN	n-p---fd-	Case=Dat|Gender=Fem|Number=Plur	9	obl	_	Ref=4.533
 9	ἔχοντες	ἔχω	VERB	v-pppamn-	Case=Nom|Gender=Masc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	1	advcl	_	Ref=4.533|SpaceAfter=No
 10	,	,	PUNCT	u--------	_	20	punct	_	Ref=4.533
 11	οἵ	ὅς	PRON	p-p---mn-	Case=Nom|Gender=Masc|Number=Plur|PronType=Rel	20	nsubj	_	Ref=4.534
@@ -32026,7 +32026,7 @@
 14	δειλὼ	δειλός	ADJ	a-d---ma-	Case=Acc|Gender=Masc|Number=Dual	11	amod	_	Ref=5.574
 15	βαλέτην	βάλλω	VERB	v3daia---	Mood=Ind|Number=Dual|Person=3|Tense=Past|Voice=Act	0	root	_	Ref=5.574
 16	ἐν	ἐν	ADP	r--------	_	17	case	_	Ref=5.574
-17	χερσὶν	χείρ	NOUN	n-p---fd-	Case=Dat|Gender=Fem|Number=Plur	15	iobj	_	Ref=5.574
+17	χερσὶν	χείρ	NOUN	n-p---fd-	Case=Dat|Gender=Fem|Number=Plur	15	obl	_	Ref=5.574
 18	ἑταίρων	ἑταῖρος	NOUN	n-p---mg-	Case=Gen|Gender=Masc|Number=Plur	17	nmod	_	Ref=5.574|SpaceAfter=No
 19	,	,	PUNCT	u--------	_	25	punct	_	Ref=5.574
 20	αὐτὼ	αὐτός	PRON	a-d---mn-	Case=Nom|Gender=Masc|Number=Dual|PronType=Prs	25	advcl:compl	_	Ref=5.575
@@ -36397,7 +36397,7 @@
 6	Ἀθηναίης	Ἀθήνη	PROPN	n-s---fg-	Case=Gen|Gender=Fem|Number=Sing	5	nmod	5:nmod	Ref=6.88
 7	γλαυκώπιδος	γλαυκῶπις	NOUN	n-s---fg-	Case=Gen|Gender=Fem|Number=Sing	6	nmod	6:nmod	Ref=6.88
 8	ἐν	ἐν	ADP	r--------	_	9	case	9:case	Ref=6.88
-9	πόλει	πόλις	NOUN	n-s---fd-	Case=Dat|Gender=Fem|Number=Sing	5	nmod	5:nmod	Ref=6.88
+9	πόλει	πόλις	NOUN	n-s---fd-	Case=Dat|Gender=Fem|Number=Sing	5	obl	5:nmod	Ref=6.88
 10	ἄκρῃ	ἄκρος:ἄκρις	NOUN	n-s---fd-	Case=Dat|Gender=Fem|Number=Sing	9	nmod	9:nmod	Ref=6.88
 11	οἴξασα	οἴγω	VERB	v-sapafn-	Case=Nom|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	33	advcl	33:advcl	Ref=6.89
 12	κληῗδι	κλείς	NOUN	n-s---fd-	Case=Dat|Gender=Fem|Number=Sing	11	obl	11:obl	Ref=6.89
@@ -38136,7 +38136,7 @@
 3	ἄρα	ἄρα	ADV	g--------	PartType=Ptcl	5	advmod	_	Ref=6.253
 4	οἱ	ἕ	PRON	p-s---md-	Case=Dat|Gender=Masc|Number=Sing|PronType=Prs	5	obj	_	Ref=6.253
 5	φῦ	φύω	VERB	v3saia---	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	Ref=6.253
-6	χειρὶ	χείρ	NOUN	n-s---fd-	Case=Dat|Gender=Fem|Number=Sing	5	obj	_	Ref=6.253
+6	χειρὶ	χείρ	NOUN	n-s---fd-	Case=Dat|Gender=Fem|Number=Sing	5	obl	_	Ref=6.253
 7	ἔπος	ἔπος	NOUN	n-s---na-	Case=Acc|Gender=Neut|Number=Sing	9	obj	_	Ref=6.253
 8	τ'	τε	CCONJ	c--------	_	9	cc	_	Ref=6.253
 9	ἔφατ'	φημί	VERB	v3siie---	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=MidPass	5	conj	_	Ref=6.253
@@ -39735,7 +39735,7 @@
 11	ἄρα	ἄρα	ADV	g--------	PartType=Ptcl	13	advmod	_	Ref=6.406
 12	οἱ	ἕ	PRON	p-s---md-	Case=Dat|Gender=Masc|Number=Sing|PronType=Prs	13	obj	_	Ref=6.406
 13	φῦ	φύω	VERB	v3saia---	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	5	conj	_	Ref=6.406
-14	χειρὶ	χείρ	NOUN	n-s---fd-	Case=Dat|Gender=Fem|Number=Sing	13	obj	_	Ref=6.406
+14	χειρὶ	χείρ	NOUN	n-s---fd-	Case=Dat|Gender=Fem|Number=Sing	13	obl	_	Ref=6.406
 15	ἔπος	ἔπος	NOUN	n-s---na-	Case=Acc|Gender=Neut|Number=Sing	17	obj	_	Ref=6.406
 16	τ'	τε	CCONJ	c--------	_	17	cc	_	Ref=6.406
 17	ἔφατ'	φημί	VERB	v3siie---	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=MidPass	5	conj	_	Ref=6.406
@@ -40471,7 +40471,7 @@
 8	κύσε	κυνέω	VERB	v3saia---	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	12	advcl	_	Ref=6.474
 9	πῆλέ	πάλλω	VERB	v3saia---	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	8	conj	_	Ref=6.474
 10	τε	τε	CCONJ	c--------	_	9	cc	_	Ref=6.474
-11	χερσὶν	χείρ	NOUN	n-p---fd-	Case=Dat|Gender=Fem|Number=Plur	9	obj	_	Ref=6.474
+11	χερσὶν	χείρ	NOUN	n-p---fd-	Case=Dat|Gender=Fem|Number=Plur	9	obl	_	Ref=6.474
 12	εἶπε	εἶπον	VERB	v3saia---	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	Ref=6.475
 13	δ'	δέ	CCONJ	g--------	PartType=Ptcl	12	cc	_	Ref=6.475
 14	ἐπευξάμενος	ἐπεύχομαι	VERB	v-sapmmn-	Case=Nom|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Mid	12	advcl	_	Ref=6.475
@@ -40561,7 +40561,7 @@
 3	ἀλόχοιο	ἄλοχος	NOUN	n-s---fg-	Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	Ref=6.482
 4	φίλης	φίλος	ADJ	a-s---fg-	Case=Gen|Gender=Fem|Number=Sing	3	amod	_	Ref=6.482
 5	ἐν	ἐν	ADP	r--------	_	6	case	_	Ref=6.482
-6	χερσὶν	χείρ	NOUN	n-p---fd-	Case=Dat|Gender=Fem|Number=Plur	7	iobj	_	Ref=6.482
+6	χερσὶν	χείρ	NOUN	n-p---fd-	Case=Dat|Gender=Fem|Number=Plur	7	obl	_	Ref=6.482
 7	ἔθηκε	τίθημι	VERB	v3saia---	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	Ref=6.482
 8	παῖδ'	παῖς	NOUN	n-s---ma-	Case=Acc|Gender=Masc|Number=Sing	7	obj	_	Ref=6.483
 9	ἑόν	ἑός	ADJ	a-s---ma-	Case=Acc|Gender=Masc|Number=Sing	8	amod	_	Ref=6.483|SpaceAfter=No
@@ -40589,7 +40589,7 @@
 3	ἐλέησε	ἐλεέω	VERB	v3saia---	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	Ref=6.484
 4	νοήσας	νοέω	VERB	v-sapamn-	Case=Nom|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	3	advcl	_	Ref=6.484|SpaceAfter=No
 5	,	,	PUNCT	u--------	_	9	punct	_	Ref=6.484
-6	χειρί	χείρ	NOUN	n-s---fd-	Case=Dat|Gender=Fem|Number=Sing	9	iobj	_	Ref=6.485
+6	χειρί	χείρ	NOUN	n-s---fd-	Case=Dat|Gender=Fem|Number=Sing	9	obl	_	Ref=6.485
 7	τέ	τε	CCONJ	c--------	_	9	cc	_	Ref=6.485
 8	μιν	μιν	PRON	p-s---ma-	Case=Acc|Gender=Masc|Number=Sing	9	obj	_	Ref=6.485
 9	κατέρεξεν	καταρρέζω	VERB	v3saia---	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	conj	_	Ref=6.485
