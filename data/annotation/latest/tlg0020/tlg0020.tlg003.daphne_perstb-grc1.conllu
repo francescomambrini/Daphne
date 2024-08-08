@@ -14,7 +14,7 @@
 1	ἢ	ἤ	CCONJ	c--------	_	14	cc	1.1:cc	Ref=1
 1.1	E1.1	_	_	_	_	_	_	0:root	_
 2	οἵη	οἷος	PRON	a-s---fn-	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	8	nsubj	8:nsubj	Ref=1
-3	προλιποῦσα	προλείπω	VERB	v-sapafn-	Case=Nom|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	8	advcl	8:advcl	Ref=1
+3	προλιποῦσα	προλείπω	VERB	v-sapafn-	Case=Nom|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	8	advcl	8:advcl	Ref=1
 4	δόμους	δόμος	NOUN	n-p---ma-	Case=Acc|Gender=Masc|Number=Plur	3	obj	3:obj	Ref=1
 5	καὶ	καί	CCONJ	c--------	_	7	cc	7:cc	Ref=1
 6	πατρίδα	πατρίς	ADJ	a-s---fa-	Case=Acc|Gender=Fem|Number=Sing	7	amod	7:amod	Ref=1
@@ -118,7 +118,7 @@
 5	ἐσθλὸν	ἐσθλός	ADJ	a-s---ma-	Case=Acc|Gender=Masc|Number=Sing	4	amod	_	Ref=11
 6	ἀπέκτανε	ἀποκτείνω	VERB	v3saia---	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	Ref=11
 7	ἶφι	ἶφι	ADV	d--------	_	8	obj	_	Ref=11
-8	δαμάσσας	δαμάζω	VERB	v-sapamn-	Case=Nom|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	6	advcl	_	Ref=11|SpaceAfter=No
+8	δαμάσσας	δαμάζω	VERB	v-sapamn-	Case=Nom|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	6	advcl	_	Ref=11|SpaceAfter=No
 9	,	,	PUNCT	u--------	_	10	punct	_	_
 10	χωσάμενος	χώομαι	VERB	v-sapmmn-	Case=Nom|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Mid	6	advcl	_	Ref=12
 11	περὶ	περί	ADP	r--------	_	12	case	_	Ref=12
@@ -128,7 +128,7 @@
 # sent_id = 2273419
 # sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>alexlessie</secondary>
 # text = λιπὼν δ' ὅ γε πατρίδα γαῖαν ἐς Θήβας ἱκέτευσε φερεσσακέας Καδμείους.
-1	λιπὼν	λείπω	VERB	v-sapamn-	Case=Nom|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	9	advcl	_	Ref=12
+1	λιπὼν	λείπω	VERB	v-sapamn-	Case=Nom|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	9	advcl	_	Ref=12
 2	δ'	δέ	CCONJ	g--------	PartType=Ptcl	9	cc	_	Ref=12
 3	ὅ	ὁ	PRON	p-s---mn-	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	nsubj	_	Ref=12
 4	γε	γε	ADV	g--------	PartType=Ptcl	3	advmod	_	Ref=12
@@ -242,7 +242,7 @@
 11	,	,	PUNCT	u--------	_	14	punct	_	_
 12	ὑπὲρ	ὑπέρ	ADP	r--------	_	13	case	_	Ref=24
 13	σακέων	σάκος	NOUN	n-p---ng-	Case=Gen|Gender=Neut|Number=Plur	14	obl	_	Ref=24
-14	πνείοντες	πνέω	VERB	v-pppamn-	Case=Nom|Gender=Masc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	9	amod	_	Ref=24|SpaceAfter=No
+14	πνείοντες	πνέω	VERB	v-pppamn-	Case=Nom|Gender=Masc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	9	amod	_	Ref=24|SpaceAfter=No
 15	,	,	PUNCT	u--------	_	14	punct	_	_
 16	Λοκροί	Λοκροί	PROPN	n-p---mn-	Case=Nom|Gender=Masc|Number=Plur	9	conj	_	Ref=25
 17	τ'	τε	CCONJ	c--------	_	22	cc	_	Ref=25
@@ -262,7 +262,7 @@
 4	ἐὺς	ἐύς	ADJ	a-s---mn-	Case=Nom|Gender=Masc|Number=Sing	5	amod	_	Ref=26
 5	πάις	παῖς	NOUN	n-s---mn-	Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	Ref=26
 6	Ἀλκαίοιο	Ἀλκαῖος	PROPN	n-s---mg-	Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	Ref=26
-7	κυδιόων	κυδιάω	VERB	v-sppamn-	Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	1	advcl	_	Ref=27
+7	κυδιόων	κυδιάω	VERB	v-sppamn-	Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	1	advcl	_	Ref=27
 8	λαοῖσι	λαός	NOUN	n-p---md-	Case=Dat|Gender=Masc|Number=Plur	7	obj	_	Ref=27|SpaceAfter=No
 9	.	.	PUNCT	u--------	_	1	punct	_	_
 
@@ -301,9 +301,9 @@
 4	Οὐλύμποιο	Ὄλυμπος	PROPN	n-s---mg-	Case=Gen|Gender=Masc|Number=Sing	1	obl:arg	_	Ref=30
 5	δόλον	δόλος	NOUN	n-s---ma-	Case=Acc|Gender=Masc|Number=Sing	7	obj	_	Ref=30
 6	φρεσὶ	φρήν	NOUN	n-p---fd-	Case=Dat|Gender=Fem|Number=Plur	7	obl	_	Ref=30
-7	βυσσοδομεύων	βυσσοδομεύω	VERB	v-sppamn-	Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	1	advcl	_	Ref=30|SpaceAfter=No
+7	βυσσοδομεύων	βυσσοδομεύω	VERB	v-sppamn-	Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	1	advcl	_	Ref=30|SpaceAfter=No
 8	,	,	PUNCT	u--------	_	9	punct	_	_
-9	ἱμείρων	ἱμείρω	VERB	v-sppamn-	Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	1	advcl	_	Ref=31
+9	ἱμείρων	ἱμείρω	VERB	v-sppamn-	Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	1	advcl	_	Ref=31
 10	φιλότητος	φιλότης	NOUN	n-s---fg-	Case=Gen|Gender=Fem|Number=Sing	9	obj	_	Ref=31
 11	ἐυζώνοιο	εὔζωνος	ADJ	a-s---fg-	Case=Gen|Gender=Fem|Number=Sing	12	amod	_	Ref=31
 12	γυναικός	γυνή	NOUN	n-s---fg-	Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	Ref=31|SpaceAfter=No
@@ -375,7 +375,7 @@
 6	ἀγλαὸς	ἀγλαός	ADJ	a-s---mn-	Case=Nom|Gender=Masc|Number=Sing	7	amod	7:amod	Ref=37
 7	ἥρως	ἥρως	NOUN	n-s---mn-	Case=Nom|Gender=Masc|Number=Sing	3	appos	3:appos	Ref=37|SpaceAfter=No
 8	,	,	PUNCT	u--------	_	3	punct	3:punct	_
-9	ἐκτελέσας	ἐκτελέω	VERB	v-sapamn-	Case=Nom|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	12	advcl	12:advcl	Ref=38
+9	ἐκτελέσας	ἐκτελέω	VERB	v-sapamn-	Case=Nom|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	12	advcl	12:advcl	Ref=38
 10	μέγα	μέγας	ADJ	a-s---na-	Case=Acc|Gender=Neut|Number=Sing	11	amod	11:amod	Ref=38
 11	ἔργον	ἔργον	NOUN	n-s---na-	Case=Acc|Gender=Neut|Number=Sing	9	obj	9:obj	Ref=38
 12	ἀφίκετο	ἀφικνέομαι	VERB	v3saim---	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Mid	0	root	0:root	Ref=38
@@ -443,7 +443,7 @@
 20	Ἀμφιτρύων	Ἀμφιτρύων	PROPN	n-s---mn-	Case=Nom|Gender=Masc|Number=Sing	30	nsubj	_	Ref=44
 21	χαλεπὸν	χαλεπός	ADJ	a-s---ma-	Case=Acc|Gender=Masc|Number=Sing	22	amod	_	Ref=44
 22	πόνον	πόνος	NOUN	n-s---ma-	Case=Acc|Gender=Masc|Number=Sing	23	obj	_	Ref=44
-23	ἐκτολυπεύσας	ἐκτολυπεύω	VERB	v-sapamn-	Case=Nom|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	30	advcl	_	Ref=44
+23	ἐκτολυπεύσας	ἐκτολυπεύω	VERB	v-sapamn-	Case=Nom|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	30	advcl	_	Ref=44
 24	ἀσπασίως	ἀσπάσιος	ADV	d--------	_	30	advmod	_	Ref=45
 25	τε	τε	CCONJ	c--------	_	26	cc	_	Ref=45
 26	φίλως	φίλος	ADV	d--------	_	24	conj	_	Ref=45
@@ -490,7 +490,7 @@
 16	οὐ	οὐ	ADV	d--------	_	19	advmod:neg	_	Ref=50
 17	καθ'	κατά	ADP	r--------	_	18	case	_	Ref=50
 18	ὁμὰ	ὁμός	ADJ	a-p---na-	Case=Acc|Gender=Neut|Number=Plur	19	obl	_	Ref=50
-19	φρονέοντε	φρονέω	VERB	v-dppama-	Case=Acc|Gender=Masc|Number=Dual|Tense=Pres|VerbForm=Part|Voice=Pass	14	amod	_	Ref=50|SpaceAfter=No
+19	φρονέοντε	φρονέω	VERB	v-dppama-	Case=Acc|Gender=Masc|Number=Dual|Tense=Pres|VerbForm=Part|Voice=Act	14	amod	_	Ref=50|SpaceAfter=No
 20	·	·	PUNCT	u--------	_	13	punct	_	_
 
 # sent_id = 2273437
@@ -611,7 +611,7 @@
 20	πυρὸς	πῦρ	NOUN	n-s---ng-	Case=Gen|Gender=Neut|Number=Sing	18	nmod	18:nmod	Ref=60
 21	αἰθομένοιο	αἴθω	VERB	v-sppeng-	Case=Gen|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=MidPass	20	amod	20:nmod	Ref=60|SpaceAfter=No
 22	,	,	PUNCT	u--------	_	23	punct	23:punct	_
-23	ἑσταότ'	ἵστημι	VERB	v-drpama-	Case=Acc|Gender=Masc|Number=Dual|VerbForm=Part|Voice=Pass	1	advcl	1:advcl	Ref=61
+23	ἑσταότ'	ἵστημι	VERB	v-drpama-	Case=Acc|Gender=Masc|Number=Dual|VerbForm=Part|Voice=Act	1	advcl	1:advcl	Ref=61
 24	ἐν	ἐν	ADP	r--------	_	25	case	25:case	Ref=61
 25	δίφρῳ	δίφρος	NOUN	n-s---md-	Case=Dat|Gender=Masc|Number=Sing	23	obl	23:obl	Ref=61|SpaceAfter=No
 26	·	·	PUNCT	u--------	_	1	punct	1:punct	_
@@ -624,7 +624,7 @@
 3	ἔκτυπον	κτυπέω	VERB	v3paia---	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	Ref=61
 4	ὠκέες	ὠκύς	ADJ	a-p---mn-	Case=Nom|Gender=Masc|Number=Plur	5	amod	_	Ref=61
 5	ἵπποι	ἵππος	NOUN	n-p---mn-	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	Ref=61
-6	νύσσοντες	νύσσω	VERB	v-pppamn-	Case=Nom|Gender=Masc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	3	advcl	_	Ref=62
+6	νύσσοντες	νύσσω	VERB	v-pppamn-	Case=Nom|Gender=Masc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	3	advcl	_	Ref=62
 7	χηλῇσι	χηλή	NOUN	n-p---fd-	Case=Dat|Gender=Fem|Number=Plur	6	obl	_	Ref=62|SpaceAfter=No
 8	,	,	PUNCT	u--------	_	12	punct	_	_
 9	κόνις	κόνις	NOUN	n-s---fn-	Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	Ref=62
@@ -737,7 +737,7 @@
 3	ἐκείνου	ἐκεῖνος	PRON	a-s---mg-	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	8	obj	_	Ref=72
 4	ἔτλη	τλάω	VERB	v3siia---	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	0	root	_	Ref=73
 5	θνητὸς	θνητός	ADJ	a-s---mn-	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	Ref=73
-6	ἐὼν	εἰμί	AUX	v-sppamn-	Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	7	cop	_	Ref=73
+6	ἐὼν	εἰμί	AUX	v-sppamn-	Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	7	cop	_	Ref=73
 7	κατεναντίον	κατεναντίον	ADV	d--------	_	5	nmod	_	Ref=73
 8	ὁρμηθῆναι	ὁρμάω	VERB	v--anp---	VerbForm=Inf	4	ccomp	_	Ref=73
 9	πλήν	πλήν	ADP	r--------	_	11	case	_	Ref=74
@@ -809,13 +809,13 @@
 25	ποτὶ	πρός	ADP	r--------	_	26	case	_	Ref=80
 26	Θήβην	Θήβη	PROPN	n-s---fa-	Case=Acc|Gender=Fem|Number=Sing	27	obl:arg	_	Ref=80
 27	ἦλθε	ἔρχομαι	VERB	v3saia---	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	20	advcl	_	Ref=81
-28	λιπὼν	λείπω	VERB	v-sapamn-	Case=Nom|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	27	advcl	_	Ref=81
+28	λιπὼν	λείπω	VERB	v-sapamn-	Case=Nom|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	27	advcl	_	Ref=81
 29	Τίρυνθα	Τίρυνς	PROPN	n-s---fa-	Case=Acc|Gender=Fem|Number=Sing	28	obj	_	Ref=81|SpaceAfter=No
 30	,	,	PUNCT	u--------	_	32	punct	_	_
 31	ἐυκτίμενον	ἐυκτίμενος	ADJ	a-s---na-	Case=Acc|Gender=Neut|Number=Sing	32	amod	_	Ref=81
 32	πτολίεθρον	πτολίεθρον	NOUN	n-s---na-	Case=Acc|Gender=Neut|Number=Sing	29	appos	_	Ref=81|SpaceAfter=No
 33	,	,	PUNCT	u--------	_	34	punct	_	_
-34	κτείνας	κτείνω	VERB	v-sapamn-	Case=Nom|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	27	advcl	_	Ref=82
+34	κτείνας	κτείνω	VERB	v-sapamn-	Case=Nom|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	27	advcl	_	Ref=82
 35	Ἠλεκτρύωνα	Ἠλεκτρύων	PROPN	n-s---ma-	Case=Acc|Gender=Masc|Number=Sing	34	obj	_	Ref=82
 36	βοῶν	βοῦς	NOUN	n-p---mg-	Case=Gen|Gender=Masc|Number=Plur	34	obl	_	Ref=82
 37	ἕνεκ'	ἕνεκα	ADP	r--------	_	36	case	_	Ref=82
@@ -902,7 +902,7 @@
 5	Ζεύς	Ζεύς	PROPN	n-s---mn-	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	Ref=89|SpaceAfter=No
 6	,	,	PUNCT	u--------	_	15	punct	_	_
 7	ὃς	ὅς	PRON	p-s---mn-	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	15	nsubj	_	Ref=90
-8	προλιπὼν	προλείπω	VERB	v-sapamn-	Case=Nom|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	15	advcl	_	Ref=90
+8	προλιπὼν	προλείπω	VERB	v-sapamn-	Case=Nom|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	15	advcl	_	Ref=90
 9	σφέτερον	σφέτερος	DET	a-s---ma-	Case=Acc|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	11	det	_	Ref=90
 10	τε	τε	CCONJ	c--------	_	11	cc	_	Ref=90
 11	δόμον	δόμος	NOUN	n-s---ma-	Case=Acc|Gender=Masc|Number=Sing	8	obj	_	Ref=90
@@ -911,7 +911,7 @@
 14	τοκῆας	τοκεύς	NOUN	n-p---ma-	Case=Acc|Gender=Masc|Number=Plur	11	conj	_	Ref=90
 15	ᾤχετο	οἴχομαι	VERB	v3siie---	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=MidPass	1	acl:relcl	_	Ref=91|SpaceAfter=No
 16	,	,	PUNCT	u--------	_	17	punct	_	_
-17	τιμήσων	τιμάω	VERB	v-sfpamn-	Case=Nom|Gender=Masc|Number=Sing|Tense=Fut|VerbForm=Part|Voice=Pass	15	advcl	_	Ref=91
+17	τιμήσων	τιμάω	VERB	v-sfpamn-	Case=Nom|Gender=Masc|Number=Sing|Tense=Fut|VerbForm=Part|Voice=Act	15	advcl	_	Ref=91
 18	ἀλιτήμενον	ἀλιταίνω	VERB	v-sppema-	Case=Acc|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=MidPass	19	amod	_	Ref=91
 19	Εὐρυσθῆα	Εὐρυσθεύς	PROPN	n-s---ma-	Case=Acc|Gender=Masc|Number=Sing	17	obj	_	Ref=91|SpaceAfter=No
 20	,	,	PUNCT	u--------	_	17	punct	_	_
@@ -928,7 +928,7 @@
 5	ὀπίσσω	ὀπίσω	ADV	d--------	_	4	advmod	_	Ref=92
 6	ἣν	ἑός	ADJ	a-s---fa-	Case=Acc|Gender=Fem|Number=Sing	7	amod	_	Ref=93
 7	ἄτην	ἄτη	NOUN	n-s---fa-	Case=Acc|Gender=Fem|Number=Sing	8	obj	_	Ref=93
-8	ὀχέων	ὀχέω	VERB	v-sppamn-	Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	4	advcl	_	Ref=93|SpaceAfter=No
+8	ὀχέων	ὀχέω	VERB	v-sppamn-	Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	4	advcl	_	Ref=93|SpaceAfter=No
 9	·	·	PUNCT	u--------	_	4	punct	_	_
 
 # sent_id = 2273459
@@ -975,7 +975,7 @@
 2	δὲ	δέ	CCONJ	g--------	PartType=Ptcl	7	cc	_	Ref=96
 3	φρεσὶ	φρήν	NOUN	n-p---fd-	Case=Dat|Gender=Fem|Number=Plur	5	obl	_	Ref=96
 4	θάρσος	θάρσος	NOUN	n-s---na-	Case=Acc|Gender=Neut|Number=Sing	5	obj	_	Ref=96
-5	ἀέξων	ἀέξω	VERB	v-sppamn-	Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	7	advcl	_	Ref=96
+5	ἀέξων	ἀέξω	VERB	v-sppamn-	Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	7	advcl	_	Ref=96
 6	ἰθὺς	ἰθύς	ADV	d--------	_	7	advmod	_	Ref=97
 7	ἔχειν	ἔχω	VERB	v--pna---	Tense=Pres|VerbForm=Inf|Voice=Act	0	root	_	Ref=97
 8	θοὸν	θοός	ADJ	a-s---na-	Case=Acc|Gender=Neut|Number=Sing	9	amod	_	Ref=97
@@ -986,14 +986,14 @@
 13	ἵππων	ἵππος	NOUN	n-p---mg-	Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	Ref=97|SpaceAfter=No
 14	,	,	PUNCT	u--------	_	16	punct	_	_
 15	μηδὲν	μηδείς	PRON	n-s---na-	Case=Acc|Gender=Neut|Number=Sing|PronType=Neg	16	obl	_	Ref=98
-16	ὑποδδείσας	ὑποδείδω	VERB	v-sapamn-	Case=Nom|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	7	advcl	_	Ref=98
+16	ὑποδδείσας	ὑποδείδω	VERB	v-sapamn-	Case=Nom|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	7	advcl	_	Ref=98
 17	κτύπον	κτύπος	NOUN	n-s---ma-	Case=Acc|Gender=Masc|Number=Sing	16	obj	_	Ref=98
 18	Ἄρεος	Ἄρης	PROPN	n-s---mg-	Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	Ref=98
 19	ἀνδροφόνοιο	ἀνδροφόνος	ADJ	a-s---mg-	Case=Gen|Gender=Masc|Number=Sing	18	amod	_	Ref=98|SpaceAfter=No
 20	,	,	PUNCT	u--------	_	24	punct	_	_
 21	ὃς	ὅς	PRON	p-s---mn-	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	24	nsubj	_	Ref=99
 22	νῦν	νῦν	ADV	d--------	_	24	advmod	_	Ref=99
-23	κεκληγὼς	κλάζω	VERB	v-srpamn-	Case=Nom|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	24	advcl	_	Ref=99
+23	κεκληγὼς	κλάζω	VERB	v-srpamn-	Case=Nom|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	24	advcl	_	Ref=99
 24	περιμαίνεται	περιμαίνομαι	VERB	v3spie---	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=MidPass	18	acl:relcl	_	Ref=99
 25	ἱερὸν	ἱερός	ADJ	a-s---na-	Case=Acc|Gender=Neut|Number=Sing	26	amod	_	Ref=99
 26	ἄλσος	ἄλσος	NOUN	n-s---na-	Case=Acc|Gender=Neut|Number=Sing	24	obj	_	Ref=99
@@ -1012,7 +1012,7 @@
 3	καὶ	καί	ADV	d--------	_	4	advmod	_	Ref=101
 4	κρατερός	κρατερός	ADJ	a-s---mn-	Case=Nom|Gender=Masc|Number=Sing	7	advcl	_	Ref=101
 5	περ	πέρ	ADV	g--------	_	3	advmod	_	Ref=101
-6	ἐὼν	εἰμί	AUX	v-sppamn-	Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	4	cop	_	Ref=101
+6	ἐὼν	εἰμί	AUX	v-sppamn-	Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	4	cop	_	Ref=101
 7	ἄαται	ἄω	VERB	v3spie---	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=MidPass	0	root	_	Ref=101
 8	πολέμοιο	πόλεμος	NOUN	n-s---mg-	Case=Gen|Gender=Masc|Number=Sing	7	obj	_	Ref=101|SpaceAfter=No
 9	.	.	PUNCT	u--------	_	7	punct	_	_
@@ -1093,7 +1093,7 @@
 7	ὄφρα	ὄφρα	SCONJ	c--------	_	15	mark	15:mark	Ref=108
 8	τάχιστα	ταχύς	ADJ	a-p---na-	Case=Acc|Gender=Neut|Number=Plur	10	obl	10:obl	Ref=108
 9	δίφρους	δίφρος	NOUN	n-p---ma-	Case=Acc|Gender=Masc|Number=Plur	12	obj	12:obj	Ref=109
-10	ἐμπελάσαντες	ἐμπελάζω	VERB	v-papamn-	Case=Nom|Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	15	advcl	15:advcl	Ref=109
+10	ἐμπελάσαντες	ἐμπελάζω	VERB	v-papamn-	Case=Nom|Gender=Masc|Number=Plur|VerbForm=Part|Voice=Act	15	advcl	15:advcl	Ref=109
 11	Ἄρηός	Ἄρης	PROPN	n-s---mg-	Case=Gen|Gender=Masc|Number=Sing	9	nmod	9:nmod	Ref=109
 12	θ'	τε	CCONJ	c--------	_	10	cc	10:cc	Ref=109
 12.1	E12.1	_	_	_	_	_	_	10:obj	_
@@ -1155,7 +1155,7 @@
 3	βίη	βία	NOUN	n-s---fn-	Case=Nom|Gender=Fem|Number=Sing	1	nsubj	_	Ref=115
 4	Ἡρακληείη	Ἡράκλειος	ADJ	a-s---fn-	Case=Nom|Gender=Fem|Number=Sing	3	amod	_	Ref=115
 5	θυμῷ	θυμός	NOUN	n-s---md-	Case=Dat|Gender=Masc|Number=Sing	6	obl	_	Ref=116
-6	γηθήσας	γηθέω	VERB	v-sapamn-	Case=Nom|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	1	advcl	_	Ref=116|SpaceAfter=No
+6	γηθήσας	γηθέω	VERB	v-sapamn-	Case=Nom|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	1	advcl	_	Ref=116|SpaceAfter=No
 7	·	·	PUNCT	u--------	_	1	punct	_	_
 
 # sent_id = 2273470
@@ -1227,7 +1227,7 @@
 # sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>alexlessie</secondary>
 # text = ὣς εἰπὼν κνημῖδας ὀρειχάλκοιο φαεινοῦ, Ἡφαίστου κλυτὰ δῶρα, περὶ κνήμῃσιν ἔθηκεν·
 1	ὣς	ὡς	ADV	d--------	_	2	advmod	_	Ref=122
-2	εἰπὼν	εἶπον	VERB	v-sapamn-	Case=Nom|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	13	advcl	_	Ref=122
+2	εἰπὼν	εἶπον	VERB	v-sapamn-	Case=Nom|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	13	advcl	_	Ref=122
 3	κνημῖδας	κνημίς	NOUN	n-p---fa-	Case=Acc|Gender=Fem|Number=Plur	13	obj	_	Ref=122
 4	ὀρειχάλκοιο	ὀρείχαλκος	NOUN	n-s---mg-	Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	Ref=122
 5	φαεινοῦ	φαεινός	ADJ	a-s---mg-	Case=Gen|Gender=Masc|Number=Sing	4	amod	_	Ref=122|SpaceAfter=No
@@ -1364,7 +1364,7 @@
 20	,	,	PUNCT	u--------	_	22	punct	_	_
 21	ἐπὶ	ἐπί	ADP	r--------	_	22	case	_	Ref=137
 22	κροτάφοις	κρόταφος	NOUN	n-p---md-	Case=Dat|Gender=Masc|Number=Plur	23	obl:arg	_	Ref=137
-23	ἀραρυῖαν	ἀραρίσκω	VERB	v-srpafa-	Case=Acc|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	14	amod	_	Ref=137|SpaceAfter=No
+23	ἀραρυῖαν	ἀραρίσκω	VERB	v-srpafa-	Case=Acc|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	14	amod	_	Ref=137|SpaceAfter=No
 24	,	,	PUNCT	u--------	_	26	punct	_	_
 25	ἥτ'	ὅστε	PRON	p-s---fn-	Case=Nom|Gender=Fem|Number=Sing	26	nsubj	_	Ref=138
 26	εἴρυτο	ἐρύω	VERB	v3slie---	Mood=Ind|Number=Sing|Person=3|Voice=MidPass	14	acl:relcl	_	Ref=138
@@ -1389,7 +1389,7 @@
 11	οὔ	οὐ	ADV	d--------	_	13	advmod:neg	_	Ref=140
 12	τ'	τε	CCONJ	c--------	_	13	cc	_	Ref=140
 13	ἔρρηξε	ῥήγνυμι	VERB	v3saia---	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	5	conj	_	Ref=140
-14	βαλὼν	βάλλω	VERB	v-sapamn-	Case=Nom|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	13	advcl	_	Ref=140
+14	βαλὼν	βάλλω	VERB	v-sapamn-	Case=Nom|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	13	advcl	_	Ref=140
 15	οὔ	οὐ	ADV	d--------	_	17	advmod:neg	_	Ref=140
 16	τ'	τε	CCONJ	c--------	_	17	cc	_	Ref=140
 17	ἔθλασε	θλάω	VERB	v3saia---	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	13	conj	_	Ref=140|SpaceAfter=No
@@ -1443,7 +1443,7 @@
 12	ὄσσοισιν	ὄσσε	NOUN	n-p---nd-	Case=Dat|Gender=Neut|Number=Plur	15	obl	_	Ref=145
 13	πυρὶ	πῦρ	NOUN	n-s---nd-	Case=Dat|Gender=Neut|Number=Sing	14	obl	_	Ref=145
 14	λαμπομένοισι	λάμπω	VERB	v-pppend-	Case=Dat|Gender=Neut|Number=Plur|Tense=Pres|VerbForm=Part|Voice=MidPass	12	amod	_	Ref=145
-15	δεδορκώς	δέρκομαι	VERB	v-srpamn-	Case=Nom|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	6	amod	_	Ref=145|SpaceAfter=No
+15	δεδορκώς	δέρκομαι	VERB	v-srpamn-	Case=Nom|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	6	amod	_	Ref=145|SpaceAfter=No
 16	·	·	PUNCT	u--------	_	5	punct	_	_
 
 # sent_id = 2273484
@@ -1456,7 +1456,7 @@
 5	πλῆτο	πίμπλημι	VERB	v3saim---	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Mid	0	root	_	Ref=146
 6	στόμα	στόμα	NOUN	n-s---nn-	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	Ref=146
 7	λευκὰ	λευκός	ADJ	a-p---na-	Case=Acc|Gender=Neut|Number=Plur	8	obl	_	Ref=146
-8	θεόντων	θέω	VERB	v-pppamg-	Case=Gen|Gender=Masc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	3	amod	_	Ref=146|SpaceAfter=No
+8	θεόντων	θέω	VERB	v-pppamg-	Case=Gen|Gender=Masc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	3	amod	_	Ref=146|SpaceAfter=No
 9	,	,	PUNCT	u--------	_	10	punct	_	_
 10	δεινῶν	δεινός	ADJ	a-p---mg-	Case=Gen|Gender=Masc|Number=Plur	3	amod	_	Ref=147
 11	ἀπλήτων	ἄπλατος	ADJ	a-p---mg-	Case=Gen|Gender=Masc|Number=Plur	3	amod	_	Ref=147|SpaceAfter=No
@@ -1468,7 +1468,7 @@
 17	δεινὴ	δεινός	ADJ	a-s---fn-	Case=Nom|Gender=Fem|Number=Sing	18	amod	_	Ref=148
 18	Ἔρις	ἔρις	PROPN	n-s---fn-	Case=Nom|Gender=Fem|Number=Sing	19	nsubj	_	Ref=148
 19	πεπότητο	ποτάομαι	VERB	v3slie---	Mood=Ind|Number=Sing|Person=3|Voice=MidPass	5	conj	_	Ref=148
-20	κορύσσουσα	κορύσσω	VERB	v-sppafn-	Case=Nom|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	19	advcl	_	Ref=148
+20	κορύσσουσα	κορύσσω	VERB	v-sppafn-	Case=Nom|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	19	advcl	_	Ref=148
 21	κλόνον	κλόνος	NOUN	n-s---ma-	Case=Acc|Gender=Masc|Number=Sing	20	obj	_	Ref=148
 22	ἀνδρῶν	ἀνήρ	NOUN	n-p---mg-	Case=Gen|Gender=Masc|Number=Plur	21	nmod	_	Ref=148|SpaceAfter=No
 23	,	,	PUNCT	u--------	_	24	punct	_	_
@@ -1560,14 +1560,14 @@
 31	Κὴρ	Κήρ	PROPN	n-s---fn-	Case=Nom|Gender=Fem|Number=Sing	44	nsubj	44:nsubj	Ref=156
 32	ἄλλον	ἄλλος	PRON	a-s---ma-	Case=Acc|Gender=Masc|Number=Sing|PronType=Ind	34	obj	34:obj	Ref=157
 33	ζωὸν	ζωός	ADJ	a-s---ma-	Case=Acc|Gender=Masc|Number=Sing	32	amod	32:amod	Ref=157
-34	ἔχουσα	ἔχω	VERB	v-sppafn-	Case=Nom|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	44	advcl	44:advcl	Ref=157
+34	ἔχουσα	ἔχω	VERB	v-sppafn-	Case=Nom|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	44	advcl	44:advcl	Ref=157
 35	νεούτατον	νεούτατος	ADJ	a-s---ma-	Case=Acc|Gender=Masc|Number=Sing	32	amod	32:amod	Ref=157|SpaceAfter=No
 36	,	,	PUNCT	u--------	_	35	punct	35:punct	_
 37	ἄλλον	ἄλλος	PRON	a-s---ma-	Case=Acc|Gender=Masc|Number=Sing|PronType=Ind	32	conj	32:conj	Ref=157
 38	ἄουτον	ἄουτος	ADJ	a-s---ma-	Case=Acc|Gender=Masc|Number=Sing	37	amod	37:amod	Ref=157|SpaceAfter=No
 39	,	,	PUNCT	u--------	_	40	punct	40:punct	_
 40	ἄλλον	ἄλλος	PRON	a-s---ma-	Case=Acc|Gender=Masc|Number=Sing|PronType=Ind	32	conj	32:conj	Ref=158
-41	τεθνηῶτα	θνῄσκω:θνήσκω	VERB	v-srpama-	Case=Acc|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	40	amod	40:nmod	Ref=158
+41	τεθνηῶτα	θνῄσκω:θνήσκω	VERB	v-srpama-	Case=Acc|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	40	amod	40:nmod	Ref=158
 42	κατὰ	κατά	ADP	r--------	_	43	case	43:case	Ref=158
 43	μόθον	μόθος	NOUN	n-s---ma-	Case=Acc|Gender=Masc|Number=Sing	44	obl:arg	44:obl	Ref=158
 44	ἕλκε	ἕλκω	VERB	v3siia---	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	7	conj	7:conj	Ref=158
@@ -1590,7 +1590,7 @@
 11	δερκομένη	δέρκομαι	VERB	v-sppefn-	Case=Nom|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=MidPass	3	advcl	_	Ref=160
 12	καναχῇσί	καναχή	NOUN	n-p---fd-	Case=Dat|Gender=Fem|Number=Plur	14	obl	_	Ref=160
 13	τε	τε	CCONJ	c--------	_	14	cc	_	Ref=160
-14	βεβρυχυῖα	βρυχάομαι	VERB	v-srpafn-	Case=Nom|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	11	conj	_	Ref=160|SpaceAfter=No
+14	βεβρυχυῖα	βρυχάομαι	VERB	v-srpafn-	Case=Nom|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	11	conj	_	Ref=160|SpaceAfter=No
 15	.	.	PUNCT	u--------	_	3	punct	_	_
 
 # sent_id = 2273489
@@ -1692,7 +1692,7 @@
 5	σφέας	σφεῖς	PRON	p-p---ma-	Case=Acc|Gender=Masc|Number=Plur|PronType=Prs	6	obl:arg	6:obl	Ref=169
 6	δερκομένων	δέρκομαι	VERB	v-pppemg-	Case=Gen|Gender=Masc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=MidPass	3	amod	3:nmod	Ref=169|SpaceAfter=No
 7	,	,	PUNCT	u--------	_	8	punct	8:punct	_
-8	κοτεόντων	κοτέω	VERB	v-pppamg-	Case=Gen|Gender=Masc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	6	conj	6:conj	Ref=169
+8	κοτεόντων	κοτέω	VERB	v-pppamg-	Case=Gen|Gender=Masc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	6	conj	6:conj	Ref=169
 9	θ'	τε	CCONJ	c--------	_	10	cc	10:cc	Ref=169
 10	ἱεμένων	ἵημι	VERB	v-pppemg-	Case=Gen|Gender=Masc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=MidPass	6	conj	6:conj	Ref=169
 11	τε	τε	CCONJ	c--------	_	10	cc	10:cc	Ref=169|SpaceAfter=No
@@ -1763,9 +1763,9 @@
 1	οἳ	ὁ	PRON	p-p---mn-	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	nsubj	_	Ref=174
 2	δ'	δέ	CCONJ	g--------	PartType=Ptcl	5	cc	_	Ref=174
 3	αὐχένας	αὐχήν	NOUN	n-p---ma-	Case=Acc|Gender=Masc|Number=Plur	4	obj	_	Ref=174
-4	ἐξεριπόντες	ἐξερείπω	VERB	v-papamn-	Case=Nom|Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	5	advcl	_	Ref=174
+4	ἐξεριπόντες	ἐξερείπω	VERB	v-papamn-	Case=Nom|Gender=Masc|Number=Plur|VerbForm=Part|Voice=Act	5	advcl	_	Ref=174
 5	κείατο	κείμαι	VERB	v3piie---	Mood=Ind|Number=Plur|Person=3|Tense=Imp|Voice=MidPass	0	root	_	Ref=175
-6	τεθνηῶτες	θνῄσκω:θνήσκω	VERB	v-prpamn-	Case=Nom|Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	5	advcl	_	Ref=175
+6	τεθνηῶτες	θνῄσκω:θνήσκω	VERB	v-prpamn-	Case=Nom|Gender=Masc|Number=Plur|VerbForm=Part|Voice=Act	5	advcl	_	Ref=175
 7	ὑπὸ	ὑπό	ADP	r--------	_	9	case	_	Ref=175
 8	βλοσυροῖσι	βλοσυρός	ADJ	a-p---md-	Case=Dat|Gender=Masc|Number=Plur	9	amod	_	Ref=175
 9	λέουσιν	λέων	NOUN	n-p---md-	Case=Dat|Gender=Masc|Number=Plur	5	obl	_	Ref=175|SpaceAfter=No
@@ -1779,7 +1779,7 @@
 3	ἔτι	ἔτι	ADV	d--------	_	4	advmod	_	Ref=176
 4	μᾶλλον	μᾶλλον	ADV	d--------	_	5	advmod	_	Ref=176
 5	ἐγειρέσθην	ἐγείρω	VERB	v3diie---	Mood=Ind|Number=Dual|Person=3|Tense=Imp|Voice=MidPass	0	root	_	Ref=176
-6	κοτέοντε	κοτέω	VERB	v-dppamn-	Case=Nom|Gender=Masc|Number=Dual|Tense=Pres|VerbForm=Part|Voice=Pass	5	advcl	_	Ref=176
+6	κοτέοντε	κοτέω	VERB	v-dppamn-	Case=Nom|Gender=Masc|Number=Dual|Tense=Pres|VerbForm=Part|Voice=Act	5	advcl	_	Ref=176
 7	μάχεσθαι	μάχομαι	VERB	v--pne---	Tense=Pres|VerbForm=Inf|Voice=MidPass	5	ccomp	_	Ref=176|SpaceAfter=No
 8	,	,	PUNCT	u--------	_	9	punct	_	_
 9	ἀμφότεροι	ἀμφότερος	ADJ	a-p---mn-	Case=Nom|Gender=Masc|Number=Plur	1	amod	_	Ref=177|SpaceAfter=No
@@ -1843,7 +1843,7 @@
 4	περὶ	περί	ADP	r--------	_	5	case	_	Ref=183
 5	χροῒ	χρώς	NOUN	n-s---md-	Case=Dat|Gender=Masc|Number=Sing	7	obl	_	Ref=183
 6	τεύχἐ	τεῦχος	NOUN	n-p---na-	Case=Acc|Gender=Neut|Number=Plur	7	obj	_	Ref=183
-7	ἔχοντες	ἔχω	VERB	v-pppamn-	Case=Nom|Gender=Masc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	1	advcl	_	Ref=183|SpaceAfter=No
+7	ἔχοντες	ἔχω	VERB	v-pppamn-	Case=Nom|Gender=Masc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	1	advcl	_	Ref=183|SpaceAfter=No
 8	.	.	PUNCT	u--------	_	1	punct	_	_
 
 # sent_id = 2273503
@@ -1882,7 +1882,7 @@
 31	ἐλάτας	ἐλάτη	NOUN	n-p---fa-	Case=Acc|Gender=Fem|Number=Plur	34	obj	_	Ref=188
 32	ἐν	ἐν	ADP	r--------	_	33	case	_	Ref=188
 33	χερσὶν	χείρ	NOUN	n-p---fd-	Case=Dat|Gender=Fem|Number=Plur	34	obl	_	Ref=188
-34	ἔχοντες	ἔχω	VERB	v-pppamn-	Case=Nom|Gender=Masc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	5	advcl	_	Ref=188|SpaceAfter=No
+34	ἔχοντες	ἔχω	VERB	v-pppamn-	Case=Nom|Gender=Masc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	5	advcl	_	Ref=188|SpaceAfter=No
 35	.	.	PUNCT	u--------	_	5	punct	_	_
 
 # sent_id = 2273504
@@ -1895,7 +1895,7 @@
 5	εἰ	εἰ	SCONJ	c--------	_	6	mark	_	Ref=189
 6	ζωοί	ζωός	ADJ	a-p---mn-	Case=Nom|Gender=Masc|Number=Plur	13	advmod	_	Ref=189
 7	περ	πέρ	ADV	g--------	_	6	advmod	_	Ref=189
-8	ἐόντες	εἰμί	AUX	v-pppamn-	Case=Nom|Gender=Masc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	6	cop	_	Ref=189
+8	ἐόντες	εἰμί	AUX	v-pppamn-	Case=Nom|Gender=Masc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	6	cop	_	Ref=189
 9	ἔγχεσιν	ἔγχος	NOUN	n-p---nd-	Case=Dat|Gender=Neut|Number=Plur	13	obl	_	Ref=190
 10	ἠδ'	ἠδέ	CCONJ	c--------	_	11	cc	_	Ref=190
 11	ἐλάτῃς	ἐλάτη	NOUN	n-p---fd-	Case=Dat|Gender=Fem|Number=Plur	9	conj	_	Ref=190
@@ -1926,10 +1926,10 @@
 17	αἰχμὴν	αἰχμή	NOUN	n-s---fa-	Case=Acc|Gender=Fem|Number=Sing	20	obj	20:obj	Ref=193
 18	ἐν	ἐν	ADP	r--------	_	19	case	19:case	Ref=193
 19	χείρεσσιν	χείρ	NOUN	n-p---fd-	Case=Dat|Gender=Fem|Number=Plur	20	obl	20:obl	Ref=193
-20	ἔχων	ἔχω	VERB	v-sppamn-	Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	16	orphan	9.1:advcl	Ref=193|SpaceAfter=No
+20	ἔχων	ἔχω	VERB	v-sppamn-	Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	16	orphan	9.1:advcl	Ref=193|SpaceAfter=No
 21	,	,	PUNCT	u--------	_	23	punct	23:punct	_
 22	πρυλέεσσι	πρυλέες	NOUN	n-p---md-	Case=Dat|Gender=Masc|Number=Plur	23	obj	23:obj	Ref=193
-23	κελεύων	κελεύω	VERB	v-sppamn-	Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	16	orphan	9.1:advcl	Ref=193|SpaceAfter=No
+23	κελεύων	κελεύω	VERB	v-sppamn-	Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	16	orphan	9.1:advcl	Ref=193|SpaceAfter=No
 24	,	,	PUNCT	u--------	_	26	punct	26:punct	_
 25	αἵματι	αἷμα	NOUN	n-s---nd-	Case=Dat|Gender=Neut|Number=Sing	26	obl	26:obl	Ref=194
 26	φοινικόεις	φοινικόεις	ADJ	a-s---mn-	Case=Nom|Gender=Masc|Number=Sing	16	amod	16:amod	Ref=194|SpaceAfter=No
@@ -1938,9 +1938,9 @@
 28	ὡς	ὡς	ADV	d--------	_	16	advmod	26.1:advmod	Ref=194
 29	εἰ	εἰ	SCONJ	c--------	_	28	mark	26.1:mark	Ref=194
 30	ζωοὺς	ζωός	ADJ	a-p---ma-	Case=Acc|Gender=Masc|Number=Plur	31	obj	31:obj	Ref=194
-31	ἐναρίζων	ἐναρίζω	VERB	v-sppamn-	Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	29	advcl	29:advcl	Ref=194
+31	ἐναρίζων	ἐναρίζω	VERB	v-sppamn-	Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	29	advcl	29:advcl	Ref=194
 32	δίφρου	δίφρος	NOUN	n-s---mg-	Case=Gen|Gender=Masc|Number=Sing	33	obj	33:obj	Ref=195
-33	ἐπεμβεβαώς	ἐπεμβαίνω	VERB	v-srpamn-	Case=Nom|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	29	advcl	29:advcl	Ref=195|SpaceAfter=No
+33	ἐπεμβεβαώς	ἐπεμβαίνω	VERB	v-srpamn-	Case=Nom|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	29	advcl	29:advcl	Ref=195|SpaceAfter=No
 34	·	·	PUNCT	u--------	_	6	punct	6:punct	_
 
 # sent_id = 2273506
@@ -1978,11 +1978,11 @@
 11.1	E11.1	_	_	_	_	_	_	9.1:advcl	_
 12	τε	τε	CCONJ	c--------	_	10	advcl	11.1:advmod	Ref=198
 13	μάχην	μάχη	NOUN	n-s---fa-	Case=Acc|Gender=Fem|Number=Sing	15	obj	15:obj	Ref=198
-14	ἐθέλουσα	ἐθέλω	VERB	v-sppafn-	Case=Nom|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	12	orphan	11.1:advcl	Ref=198
+14	ἐθέλουσα	ἐθέλω	VERB	v-sppafn-	Case=Nom|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	12	orphan	11.1:advcl	Ref=198
 15	κορύσσειν	κορύσσω	VERB	v--pna---	Tense=Pres|VerbForm=Inf|Voice=Act	14	ccomp	14:ccomp	Ref=198|SpaceAfter=No
 16	,	,	PUNCT	u--------	_	18	punct	18:punct	_
 17	ἔγχος	ἔγχος	NOUN	n-s---na-	Case=Acc|Gender=Neut|Number=Sing	18	obj	18:obj	Ref=199
-18	ἔχουσ'	ἔχω	VERB	v-sppafn-	Case=Nom|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	4	orphan	0.1:advcl	Ref=199
+18	ἔχουσ'	ἔχω	VERB	v-sppafn-	Case=Nom|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	4	orphan	0.1:advcl	Ref=199
 19	ἐν	ἐν	ADP	r--------	_	20	case	20:case	Ref=199
 20	χερσὶν	χείρ	NOUN	n-p---fd-	Case=Dat|Gender=Fem|Number=Plur	17	acl:compl	17:acl	Ref=199
 21	ἰδὲ	ἰδέ	CCONJ	c--------	_	23	cc	23:cc	Ref=199
@@ -2074,7 +2074,7 @@
 8	,	,	PUNCT	u--------	_	11	punct	_	_
 9	λιγὺ	λιγύς	ADJ	a-s---na-	Case=Acc|Gender=Neut|Number=Sing	10	obl	_	Ref=206
 10	μελπομένῃς	μέλπω	VERB	v-pppefd-	Case=Dat|Gender=Fem|Number=Plur|Tense=Pres|VerbForm=Part|Voice=MidPass	11	obj	_	Ref=206
-11	ἐικυῖαι	εἰκός	VERB	v-prpafn-	Case=Nom|Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	4	advcl	_	Ref=206|SpaceAfter=No
+11	ἐικυῖαι	εἰκός	VERB	v-prpafn-	Case=Nom|Gender=Fem|Number=Plur|VerbForm=Part|Voice=Act	4	advcl	_	Ref=206|SpaceAfter=No
 12	.	.	PUNCT	u--------	_	4	punct	_	_
 
 # sent_id = 2273514
@@ -2108,7 +2108,7 @@
 9	καὶ	καί	CCONJ	c--------	_	10	cc	_	Ref=210
 10	τῇ	τῇ	ADV	d--------	_	8	conj	_	Ref=210
 11	ἐθύνεον	θυνέω	VERB	v3piia---	Mood=Ind|Number=Plur|Person=3|Tense=Imp|Voice=Act	0	root	_	Ref=210
-12	ἰχθυάοντες	ἰχθυάω	VERB	v-pppamn-	Case=Nom|Gender=Masc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	11	advcl	_	Ref=210
+12	ἰχθυάοντες	ἰχθυάω	VERB	v-pppamn-	Case=Nom|Gender=Masc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	11	advcl	_	Ref=210
 13	νηχομένοις	νήχω	VERB	v-pppemd-	Case=Dat|Gender=Masc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=MidPass	14	obj	_	Ref=211
 14	ἴκελοι	ἴκελος	ADJ	a-p---mn-	Case=Nom|Gender=Masc|Number=Plur	7	acl:compl	_	Ref=211|SpaceAfter=No
 15	·	·	PUNCT	u--------	_	11	punct	_	_
@@ -2119,7 +2119,7 @@
 1	]	]	PUNCT	u--------	_	7	punct	_	_
 2	δοιὼ	δοιώ	ADJ	a-d---mn-	Case=Nom|Gender=Masc|Number=Dual	6	amod	_	Ref=211
 3	δ'	δέ	CCONJ	g--------	PartType=Ptcl	7	cc	_	Ref=211
-4	ἀναφυσιόωντες	ἀναφυσιόω	VERB	v-pppamn-	Case=Nom|Gender=Masc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	7	advcl	_	Ref=211
+4	ἀναφυσιόωντες	ἀναφυσιόω	VERB	v-pppamn-	Case=Nom|Gender=Masc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	7	advcl	_	Ref=211
 5	ἀργύρεοι	ἀργύρεος	ADJ	a-p---mn-	Case=Nom|Gender=Masc|Number=Plur	6	amod	_	Ref=212
 6	δελφῖνες	δελφίς	NOUN	n-p---mn-	Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	Ref=212
 7	ἐθοινῶντ'	θοινάω	VERB	v3piie---	Mood=Ind|Number=Plur|Person=3|Tense=Imp|Voice=MidPass	0	root	_	Ref=212
@@ -2158,8 +2158,8 @@
 3	χερσὶν	χείρ	NOUN	n-p---fd-	Case=Dat|Gender=Fem|Number=Plur	1	obl	_	Ref=214
 4	ἰχθύσιν	ἰχθύς	NOUN	n-p---md-	Case=Dat|Gender=Masc|Number=Plur	5	nmod	_	Ref=215
 5	ἀμφίβληστρον	ἀμφίβληστρον	NOUN	n-s---na-	Case=Acc|Gender=Neut|Number=Sing	1	obj	_	Ref=215
-6	ἀπορρίψοντι	ἀπορρίπτω	VERB	v-sfpamd-	Case=Dat|Gender=Masc|Number=Sing|Tense=Fut|VerbForm=Part|Voice=Pass	7	obj	_	Ref=215
-7	ἐοικώς	ἔοικα	VERB	v-srpamn-	Case=Nom|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	1	advcl	_	Ref=215|SpaceAfter=No
+6	ἀπορρίψοντι	ἀπορρίπτω	VERB	v-sfpamd-	Case=Dat|Gender=Masc|Number=Sing|Tense=Fut|VerbForm=Part|Voice=Act	7	obj	_	Ref=215
+7	ἐοικώς	ἔοικα	VERB	v-srpamn-	Case=Nom|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	1	advcl	_	Ref=215|SpaceAfter=No
 8	.	.	PUNCT	u--------	_	1	punct	_	_
 
 # sent_id = 2273520
@@ -2178,7 +2178,7 @@
 11	οὔ	οὐ	ADV	d--------	_	14	advmod:neg	14:advmod	Ref=217
 12	τ'	τε	CCONJ	c--------	_	14	cc	14:cc	Ref=217
 13	ἄρ'	ἄρα	ADV	g--------	PartType=Ptcl	14	advmod	14:advmod	Ref=217
-14	ἐπιψαύων	ἐπιψαύω	VERB	v-sppamn-	Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	3	advcl	3:advcl	Ref=217
+14	ἐπιψαύων	ἐπιψαύω	VERB	v-sppamn-	Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	3	advcl	3:advcl	Ref=217
 15	σάκεος	σάκος	NOUN	n-s---ng-	Case=Gen|Gender=Neut|Number=Sing	14	obj	14:obj	Ref=217
 16	ποσὶν	πούς	NOUN	n-p---md-	Case=Dat|Gender=Masc|Number=Plur	14	obl	14:obl	Ref=217
 17	οὔθ'	οὔτε	ADV	d--------	_	14	cc	17.1:cc	Ref=217
@@ -2299,7 +2299,7 @@
 9	νυκτὸς	νύξ	NOUN	n-s---fg-	Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	Ref=227
 10	ζόφον	ζόφος	NOUN	n-s---ma-	Case=Acc|Gender=Masc|Number=Sing	12	obj	_	Ref=227
 11	αἰνὸν	αἰνός	ADJ	a-s---ma-	Case=Acc|Gender=Masc|Number=Sing	10	amod	_	Ref=227
-12	ἔχουσα	ἔχω	VERB	v-sppafn-	Case=Nom|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	6	advcl	_	Ref=227|SpaceAfter=No
+12	ἔχουσα	ἔχω	VERB	v-sppafn-	Case=Nom|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	6	advcl	_	Ref=227|SpaceAfter=No
 13	.	.	PUNCT	u--------	_	6	punct	_	_
 
 # sent_id = 2273529
@@ -2307,10 +2307,10 @@
 # text = αὐτὸς δὲ σπεύδοντι καὶ ἐρρίγοντι ἐοικὼς Περσεὺς Δαναΐδης ἐτιταίνετο.
 1	αὐτὸς	αὐτός	PRON	a-s---mn-	Case=Nom|Gender=Masc|Number=Sing|PronType=Prs	7	acl:compl	_	Ref=228
 2	δὲ	δέ	CCONJ	g--------	PartType=Ptcl	9	cc	_	Ref=228
-3	σπεύδοντι	σπεύδω	VERB	v-sppamd-	Case=Dat|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	6	obj	_	Ref=228
+3	σπεύδοντι	σπεύδω	VERB	v-sppamd-	Case=Dat|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	6	obj	_	Ref=228
 4	καὶ	καί	CCONJ	c--------	_	5	cc	_	Ref=228
-5	ἐρρίγοντι	ῥιγέω	VERB	v-srpamd-	Case=Dat|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	3	conj	_	Ref=228
-6	ἐοικὼς	ἔοικα	VERB	v-srpamn-	Case=Nom|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	9	advcl	_	Ref=228
+5	ἐρρίγοντι	ῥιγέω	VERB	v-srpamd-	Case=Dat|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	3	conj	_	Ref=228
+6	ἐοικὼς	ἔοικα	VERB	v-srpamn-	Case=Nom|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	9	advcl	_	Ref=228
 7	Περσεὺς	Περσεύς	PROPN	n-s---mn-	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	Ref=229
 8	Δαναΐδης	Δαναίδαι	PROPN	n-s---mn-	Case=Nom|Gender=Masc|Number=Sing	7	nmod	_	Ref=229
 9	ἐτιταίνετο	τιταίνω	VERB	v3siie---	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=MidPass	0	root	_	Ref=229|SpaceAfter=No
@@ -2341,7 +2341,7 @@
 2	δὲ	δέ	CCONJ	g--------	PartType=Ptcl	6	cc	_	Ref=231
 3	χλωροῦ	χλωρός	ADJ	a-s---mg-	Case=Gen|Gender=Masc|Number=Sing	4	amod	_	Ref=231
 4	ἀδάμαντος	ἀδάμας	ADJ	a-s---mg-	Case=Gen|Gender=Masc|Number=Sing	5	obl:arg	_	Ref=231
-5	βαινουσέων	βαίνω	VERB	v-pppafg-	Case=Gen|Gender=Fem|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	9	nmod	_	Ref=232
+5	βαινουσέων	βαίνω	VERB	v-pppafg-	Case=Gen|Gender=Fem|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	9	nmod	_	Ref=232
 6	ἰάχεσκε	ἰάχω	VERB	v3siia---	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	0	root	_	Ref=232
 7	σάκος	σάκος	NOUN	n-s---nn-	Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	Ref=232
 8	μεγάλῳ	μέγας	ADJ	a-s---md-	Case=Dat|Gender=Masc|Number=Sing	9	amod	_	Ref=232
@@ -2360,7 +2360,7 @@
 4	δράκοντε	δράκων	NOUN	n-d---mn-	Case=Nom|Gender=Masc|Number=Dual	6	nsubj	_	Ref=233
 5	δοιὼ	δοιώ	ADJ	a-d---mn-	Case=Nom|Gender=Masc|Number=Dual	4	amod	_	Ref=234
 6	ἀπῃωρεῦντ'	ἀπαιωρέομαι	VERB	v3piie---	Mood=Ind|Number=Plur|Person=3|Tense=Imp|Voice=MidPass	0	root	_	Ref=234
-7	ἐπικυρτώοντε	ἐπικυρτόω	VERB	v-dppamn-	Case=Nom|Gender=Masc|Number=Dual|Tense=Pres|VerbForm=Part|Voice=Pass	6	advcl	_	Ref=234
+7	ἐπικυρτώοντε	ἐπικυρτόω	VERB	v-dppamn-	Case=Nom|Gender=Masc|Number=Dual|Tense=Pres|VerbForm=Part|Voice=Act	6	advcl	_	Ref=234
 8	κάρηνα	κάρηνον	NOUN	n-p---na-	Case=Acc|Gender=Neut|Number=Plur	7	obj	_	Ref=234|SpaceAfter=No
 9	.	.	PUNCT	u--------	_	6	punct	_	_
 
@@ -2409,7 +2409,7 @@
 6	ἐμαρνάσθην	μάρναμαι	VERB	v3diie---	Mood=Ind|Number=Dual|Person=3|Tense=Imp|Voice=MidPass	0	root	_	Ref=238
 7	πολεμήια	πολεμήιος	ADJ	a-p---na-	Case=Acc|Gender=Neut|Number=Plur	8	amod	_	Ref=238
 8	τεύχἐ	τεῦχος	NOUN	n-p---na-	Case=Acc|Gender=Neut|Number=Plur	9	obj	_	Ref=238
-9	ἔχοντες	ἔχω	VERB	v-pppamn-	Case=Nom|Gender=Masc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	6	advcl	_	Ref=238|SpaceAfter=No
+9	ἔχοντες	ἔχω	VERB	v-pppamn-	Case=Nom|Gender=Masc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	6	advcl	_	Ref=238|SpaceAfter=No
 10	,	,	PUNCT	u--------	_	20	punct	_	_
 11	τοὶ	ὁ	PRON	p-p---mn-	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	nsubj	_	Ref=239
 12	μὲν	μέν	ADV	g--------	PartType=Ptcl	11	advmod	_	Ref=239
@@ -2420,12 +2420,12 @@
 17	τε	τε	CCONJ	c--------	_	18	cc	_	Ref=239
 18	τοκήων	τοκεύς	NOUN	n-p---mg-	Case=Gen|Gender=Masc|Number=Plur	15	conj	_	Ref=239
 19	λοιγὸν	λοιγός	NOUN	n-s---ma-	Case=Acc|Gender=Masc|Number=Sing	20	obj	_	Ref=240
-20	ἀμύνοντες	ἀμύνω	VERB	v-pppamn-	Case=Nom|Gender=Masc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	6	advcl	_	Ref=240|SpaceAfter=No
+20	ἀμύνοντες	ἀμύνω	VERB	v-pppamn-	Case=Nom|Gender=Masc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	6	advcl	_	Ref=240|SpaceAfter=No
 21	,	,	PUNCT	u--------	_	25	punct	_	_
 22	τοὶ	ὁ	PRON	p-p---mn-	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	nsubj	_	Ref=240
 23	δὲ	δέ	ADV	g--------	PartType=Ptcl	22	advmod	_	Ref=240
 24	πραθέειν	πέρθω	VERB	v--ana---	VerbForm=Inf|Voice=Act	25	ccomp	_	Ref=240
-25	μεμαῶτες	μέμαα	VERB	v-prpamn-	Case=Nom|Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	20	conj	_	Ref=240|SpaceAfter=No
+25	μεμαῶτες	μέμαα	VERB	v-prpamn-	Case=Nom|Gender=Masc|Number=Plur|VerbForm=Part|Voice=Act	20	conj	_	Ref=240|SpaceAfter=No
 26	.	.	PUNCT	u--------	_	6	punct	_	_
 
 # sent_id = 2273537
@@ -2439,7 +2439,7 @@
 6	δ'	δέ	CCONJ	g--------	PartType=Ptcl	10	cc	_	Ref=241
 7	ἔτι	ἔτι	ADV	d--------	_	9	advmod	_	Ref=241
 8	δῆριν	δῆρις	NOUN	n-s---fa-	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	Ref=241
-9	ἔχοντες	ἔχω	VERB	v-pppamn-	Case=Nom|Gender=Masc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	10	advcl	_	Ref=241
+9	ἔχοντες	ἔχω	VERB	v-pppamn-	Case=Nom|Gender=Masc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	10	advcl	_	Ref=241
 10	μάρνανθ'	μάρναμαι	VERB	v3piie---	Mood=Ind|Number=Plur|Person=3|Tense=Imp|Voice=MidPass	3	conj	_	Ref=242|SpaceAfter=No
 11	·	·	PUNCT	u--------	_	3	punct	_	_
 
@@ -2497,7 +2497,7 @@
 23	περὶ	περί	ADV	r--------	_	26	compound:prt	_	Ref=247
 24	σφετέροισι	σφέτερος	DET	a-p---nd-	Case=Dat|Gender=Neut|Number=Plur|Poss=Yes|PronType=Prs	25	det	_	Ref=247
 25	τέκεσσι	τέκος	NOUN	n-p---nd-	Case=Dat|Gender=Neut|Number=Plur	26	obj	_	Ref=247
-26	δειδιότες	δείδω	VERB	v-prpamn-	Case=Nom|Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	20	advcl	_	Ref=248|SpaceAfter=No
+26	δειδιότες	δείδω	VERB	v-prpamn-	Case=Nom|Gender=Masc|Number=Plur|VerbForm=Part|Voice=Act	20	advcl	_	Ref=248|SpaceAfter=No
 27	·	·	PUNCT	u--------	_	11	punct	_	_
 
 # sent_id = 2273540
@@ -2521,7 +2521,7 @@
 6	κυάνεαι	κυάνεος	ADJ	a-p---fn-	Case=Nom|Gender=Fem|Number=Plur	5	amod	_	Ref=249|SpaceAfter=No
 7	,	,	PUNCT	u--------	_	9	punct	_	_
 8	λευκοὺς	λευκός	ADJ	a-p---ma-	Case=Acc|Gender=Masc|Number=Plur	10	amod	_	Ref=249
-9	ἀραβεῦσαι	ἀραβέω	VERB	v-pppafn-	Case=Nom|Gender=Fem|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	20	advcl	_	Ref=249
+9	ἀραβεῦσαι	ἀραβέω	VERB	v-pppafn-	Case=Nom|Gender=Fem|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	20	advcl	_	Ref=249
 10	ὀδόντας	ὀδούς	NOUN	n-p---ma-	Case=Acc|Gender=Masc|Number=Plur	9	obj	_	Ref=249|SpaceAfter=No
 11	,	,	PUNCT	u--------	_	9	punct	_	_
 12	δεινωπαὶ	δεινώψ	ADJ	a-p---fn-	Case=Nom|Gender=Fem|Number=Plur	5	amod	_	Ref=250
@@ -2534,7 +2534,7 @@
 19	δῆριν	δῆρις	NOUN	n-s---fa-	Case=Acc|Gender=Fem|Number=Sing	20	obj	_	Ref=251
 20	ἔχον	ἔχω	VERB	v3piia---	Mood=Ind|Number=Plur|Person=3|Tense=Imp|Voice=Act	0	root	_	Ref=251
 21	περὶ	περί	ADP	r--------	_	22	case	_	Ref=251
-22	πιπτόντων	πίπτω	VERB	v-pppamg-	Case=Gen|Gender=Masc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	20	advcl	_	Ref=251|SpaceAfter=No
+22	πιπτόντων	πίπτω	VERB	v-pppamg-	Case=Gen|Gender=Masc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	20	advcl	_	Ref=251|SpaceAfter=No
 23	·	·	PUNCT	u--------	_	20	punct	_	_
 
 # sent_id = 2273542
@@ -2558,7 +2558,7 @@
 4	μεμάποιεν	μάρπτω	VERB	v3paoa---	Mood=Opt|Number=Plur|Person=3|Voice=Act	12	acl:relcl	_	Ref=252
 5	κείμενον	κεῖμαι	VERB	v-sppema-	Case=Acc|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=MidPass	1	amod	_	Ref=253
 6	ἢ	ἤ	CCONJ	c--------	_	7	cc	_	Ref=253
-7	πίπτοντα	πίπτω	VERB	v-sppama-	Case=Acc|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	5	conj	_	Ref=253
+7	πίπτοντα	πίπτω	VERB	v-sppama-	Case=Acc|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	5	conj	_	Ref=253
 8	νεούτατον	νεούτατος	ADJ	a-s---na-	Case=Acc|Gender=Neut|Number=Sing	7	obl	_	Ref=253|SpaceAfter=No
 9	,	,	PUNCT	u--------	_	4	punct	_	_
 10	ἀμφὶ	ἀμφί	ADP	r--------	_	12	case	_	Ref=253
@@ -2600,7 +2600,7 @@
 18	μῶλον	μῶλος	NOUN	n-s---ma-	Case=Acc|Gender=Masc|Number=Sing	16	conj	_	Ref=257
 19	ἐθύνεον	θυνέω	VERB	v3piia---	Mood=Ind|Number=Plur|Person=3|Tense=Imp|Voice=Act	11	conj	_	Ref=257
 20	αὖτις	αὖθις	ADV	d--------	_	21	advmod	_	Ref=257
-21	ἰοῦσαι	εἶμι	VERB	v-pppafn-	Case=Nom|Gender=Fem|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	19	advcl	_	Ref=257|SpaceAfter=No
+21	ἰοῦσαι	εἶμι	VERB	v-pppafn-	Case=Nom|Gender=Fem|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	19	advcl	_	Ref=257|SpaceAfter=No
 22	.	.	PUNCT	u--------	_	11	punct	_	_
 
 # sent_id = 2273545
@@ -2663,7 +2663,7 @@
 4	ἀλλήλας	ἀλλήλων	PRON	a-p---fa-	Case=Acc|Gender=Fem|Number=Plur|PronType=Rcp	5	obl:arg	_	Ref=262
 5	δράκον	δέρκομαι	VERB	v3paia---	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	Ref=262
 6	ὄμμασι	ὄμμα	NOUN	n-p---nd-	Case=Dat|Gender=Neut|Number=Plur	5	obl	_	Ref=262
-7	θυμήνασαι	θυμαίνω	VERB	v-papafn-	Case=Nom|Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	5	advcl	_	Ref=262|SpaceAfter=No
+7	θυμήνασαι	θυμαίνω	VERB	v-papafn-	Case=Nom|Gender=Fem|Number=Plur|VerbForm=Part|Voice=Act	5	advcl	_	Ref=262|SpaceAfter=No
 8	,	,	PUNCT	u--------	_	15	punct	_	_
 9	ἐν	ἐν	ADV	d--------	_	15	advmod	_	Ref=263
 10	δ'	δέ	CCONJ	g--------	PartType=Ptcl	15	cc	_	Ref=263
@@ -2689,7 +2689,7 @@
 10	χλωρὴ	χλωρός	ADJ	a-s---fn-	Case=Nom|Gender=Fem|Number=Sing	3	amod	_	Ref=265
 11	ἀυσταλέη	αὐσταλέος	ADJ	a-s---fn-	Case=Nom|Gender=Fem|Number=Sing	10	conj	_	Ref=265
 12	λιμῷ	λιμός	NOUN	n-s---md-	Case=Dat|Gender=Masc|Number=Sing	13	obj	_	Ref=265
-13	καταπεπτηυῖα	καταπίπτω	VERB	v-srpafn-	Case=Nom|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	10	conj	_	Ref=265|SpaceAfter=No
+13	καταπεπτηυῖα	καταπίπτω	VERB	v-srpafn-	Case=Nom|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	10	conj	_	Ref=265|SpaceAfter=No
 14	,	,	PUNCT	u--------	_	15	punct	_	_
 15	γουνοπαχής	γουνοπαχής	ADJ	a-s---fn-	Case=Nom|Gender=Fem|Number=Sing	10	conj	_	Ref=266|SpaceAfter=No
 16	,	,	PUNCT	u--------	_	21	punct	_	_
@@ -2724,7 +2724,7 @@
 1	ἣ	ὁ	PRON	p-s---fn-	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	nsubj	_	Ref=268
 2	δ'	δέ	CCONJ	g--------	PartType=Ptcl	5	cc	_	Ref=268
 3	ἄπλητον	ἄπλατος	ADJ	a-s---na-	Case=Acc|Gender=Neut|Number=Sing	4	obl	_	Ref=268
-4	σεσαρυῖα	σαίρω	VERB	v-srpafn-	Case=Nom|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	5	advcl	_	Ref=268
+4	σεσαρυῖα	σαίρω	VERB	v-srpafn-	Case=Nom|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	5	advcl	_	Ref=268
 5	εἱστήκει	ἵστημι	VERB	v3slia---	Mood=Ind|Number=Sing|Person=3|Voice=Act	0	root	_	Ref=269|SpaceAfter=No
 6	,	,	PUNCT	u--------	_	10	punct	_	_
 7	πολλὴ	πολύς	ADJ	a-s---fn-	Case=Nom|Gender=Fem|Number=Sing	9	amod	_	Ref=269
@@ -2756,7 +2756,7 @@
 3	μιν	μιν	PRON	p-s---fa-	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	Ref=271
 4	εἶχον	ἔχω	VERB	v3piia---	Mood=Ind|Number=Plur|Person=3|Tense=Imp|Voice=Act	0	root	_	Ref=271
 5	ὑπερθυρίοις	ὑπερθύριον	NOUN	n-p---nd-	Case=Dat|Gender=Neut|Number=Plur	6	obj	_	Ref=271
-6	ἀραρυῖαι	ἀραρίσκω	VERB	v-prpafn-	Case=Nom|Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	8	amod	_	Ref=271
+6	ἀραρυῖαι	ἀραρίσκω	VERB	v-prpafn-	Case=Nom|Gender=Fem|Number=Plur|VerbForm=Part|Voice=Act	8	amod	_	Ref=271
 7	ἑπτὰ	ἑπτά	X	m--------	_	8	nummod	_	Ref=272
 8	πύλαι	πύλη	NOUN	n-p---fn-	Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	Ref=272|SpaceAfter=No
 9	·	·	PUNCT	u--------	_	4	punct	_	_
@@ -2816,7 +2816,7 @@
 1	ταὶ	ὁ	PRON	p-p---fn-	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	nsubj	_	Ref=276
 2	δ'	δέ	CCONJ	g--------	PartType=Ptcl	6	cc	_	Ref=276
 3	ἀγλαΐῃ	ἀγλαία	NOUN	n-s---fd-	Case=Dat|Gender=Fem|Number=Sing	4	obl	_	Ref=276
-4	τεθαλυῖαι	θάλλω	VERB	v-prpafn-	Case=Nom|Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	6	advcl	_	Ref=276
+4	τεθαλυῖαι	θάλλω	VERB	v-prpafn-	Case=Nom|Gender=Fem|Number=Plur|VerbForm=Part|Voice=Act	6	advcl	_	Ref=276
 5	πρόσθ'	πρόσθεν	ADV	d--------	_	6	advmod	_	Ref=277
 6	ἔκιον	κίω	VERB	v3piia---	Mood=Ind|Number=Plur|Person=3|Tense=Imp|Voice=Act	0	root	_	Ref=277|SpaceAfter=No
 7	·	·	PUNCT	u--------	_	6	punct	_	_
@@ -2827,7 +2827,7 @@
 1	τῇσιν	ὁ	PRON	p-p---fd-	Case=Dat|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	obj	_	Ref=277
 2	δὲ	δέ	CCONJ	g--------	PartType=Ptcl	5	cc	_	Ref=277
 3	χοροὶ	χορός	NOUN	n-p---mn-	Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	Ref=277
-4	παίζοντες	παίζω	VERB	v-pppamn-	Case=Nom|Gender=Masc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	5	advcl	_	Ref=277
+4	παίζοντες	παίζω	VERB	v-pppamn-	Case=Nom|Gender=Masc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	5	advcl	_	Ref=277
 5	ἕποντο	ἕπομαι	VERB	v3piie---	Mood=Ind|Number=Plur|Person=3|Tense=Imp|Voice=MidPass	0	root	_	Ref=277|SpaceAfter=No
 6	.	.	PUNCT	u--------	_	5	punct	_	_
 
@@ -2881,7 +2881,7 @@
 11	γε	γε	ADV	g--------	PartType=Ptcl	10	advmod	10:advmod	Ref=282
 12	μὲν	μέν	ADV	g--------	PartType=Ptcl	10	advmod	9.1:advmod	Ref=282
 13	αὖ	αὖ	ADV	d--------	PartType=Ptcl	10	advmod	9.1:advmod	Ref=282
-14	παίζοντες	παίζω	VERB	v-pppamn-	Case=Nom|Gender=Masc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	10	orphan	9.1:advcl	Ref=282
+14	παίζοντες	παίζω	VERB	v-pppamn-	Case=Nom|Gender=Masc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	10	orphan	9.1:advcl	Ref=282
 15	ὑπ'	ὑπό	ADP	r--------	_	16	case	16:case	Ref=282
 16	ὀρχηθμῷ	ὀρχηθμός	NOUN	n-s---md-	Case=Dat|Gender=Masc|Number=Sing	14	obl	14:obl	Ref=282
 17	καὶ	καί	CCONJ	c--------	_	18	cc	18:cc	Ref=282
@@ -2891,7 +2891,7 @@
 20	γε	γε	ADV	g--------	PartType=Ptcl	19	advmod	19:advmod	Ref=283
 21	μὲν	μέν	ADV	g--------	PartType=Ptcl	19	advmod	18.1:advmod	Ref=283
 22	αὖ	αὖ	ADV	d--------	PartType=Ptcl	19	advmod	18.1:advmod	Ref=283
-23	γελόωντες	γελάω	VERB	v-pppamn-	Case=Nom|Gender=Masc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	19	orphan	18.1:advcl	Ref=283
+23	γελόωντες	γελάω	VERB	v-pppamn-	Case=Nom|Gender=Masc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	19	orphan	18.1:advcl	Ref=283
 24	ὑπ'	ὑπό	ADP	r--------	_	25	case	25:case	Ref=283
 25	αὐλητῆρι	αὐλητής	NOUN	n-s---md-	Case=Dat|Gender=Masc|Number=Sing	23	obl	23:obl	Ref=283
 26	ἕκαστος	ἕκαστος	PRON	a-s---mn-	Case=Nom|Gender=Masc|Number=Sing|PronType=Ind	28	acl:compl	28:acl	Ref=283
@@ -2924,7 +2924,7 @@
 5	πόληος	πόλις	NOUN	n-s---fg-	Case=Gen|Gender=Fem|Number=Sing	9	obl	_	Ref=285
 6	νῶθ'	νῶτον	NOUN	n-p---na-	Case=Acc|Gender=Neut|Number=Plur	8	obj	_	Ref=286
 7	ἵππων	ἵππος	NOUN	n-p---mg-	Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	Ref=286
-8	ἐπιβάντες	ἐπιβαίνω	VERB	v-papamn-	Case=Nom|Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	9	advcl	_	Ref=286
+8	ἐπιβάντες	ἐπιβαίνω	VERB	v-papamn-	Case=Nom|Gender=Masc|Number=Plur|VerbForm=Part|Voice=Act	9	advcl	_	Ref=286
 9	ἐθύνεον	θυνέω	VERB	v3piia---	Mood=Ind|Number=Plur|Person=3|Tense=Imp|Voice=Act	0	root	_	Ref=286|SpaceAfter=No
 10	.	.	PUNCT	u--------	_	9	punct	_	_
 
@@ -2962,7 +2962,7 @@
 4	ἤμων	ἀμάω	VERB	v3piia---	Mood=Ind|Number=Plur|Person=3|Tense=Imp|Voice=Act	0	root	0:root	Ref=288
 5	αἰχμῇς	αἰχμή	NOUN	n-p---fd-	Case=Dat|Gender=Fem|Number=Plur	4	obl	4:obl	Ref=289
 6	ὀξείῃσι	ὀξύς	ADJ	a-p---fd-	Case=Dat|Gender=Fem|Number=Plur	5	amod	5:amod	Ref=289
-7	κορωνιόωντα	κορωνιάω	VERB	v-pppana-	Case=Acc|Gender=Neut|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	8	amod	8:nmod	Ref=289
+7	κορωνιόωντα	κορωνιάω	VERB	v-pppana-	Case=Acc|Gender=Neut|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	8	amod	8:nmod	Ref=289
 8	πέτηλα	πέτηλος	ADJ	a-p---na-	Case=Acc|Gender=Neut|Number=Plur	4	obj	4:obj	Ref=289|SpaceAfter=No
 9	,	,	PUNCT	u--------	_	10	punct	10:punct	_
 10	βριθόμενα	βρίθω	VERB	v-pppena-	Case=Acc|Gender=Neut|Number=Plur|Tense=Pres|VerbForm=Part|Voice=MidPass	8	amod	8:nmod	Ref=290
@@ -2996,7 +2996,7 @@
 15	δρεπάνας	δρεπάνη	NOUN	n-p---fa-	Case=Acc|Gender=Fem|Number=Plur	18	obj	_	Ref=292
 16	ἐν	ἐν	ADP	r--------	_	17	case	_	Ref=292
 17	χερσὶν	χείρ	NOUN	n-p---fd-	Case=Dat|Gender=Fem|Number=Plur	18	obl	_	Ref=292
-18	ἔχοντες	ἔχω	VERB	v-pppamn-	Case=Nom|Gender=Masc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	13	advcl	_	Ref=292|SpaceAfter=No
+18	ἔχοντες	ἔχω	VERB	v-pppamn-	Case=Nom|Gender=Masc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	13	advcl	_	Ref=292|SpaceAfter=No
 19	,	,	PUNCT	u--------	_	25	punct	_	_
 20	οἳ	ὁ	PRON	p-p---mn-	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	nsubj	_	Ref=293
 21	δ'	δέ	CCONJ	g--------	PartType=Ptcl	25	cc	_	Ref=293
@@ -3143,16 +3143,16 @@
 3	ἐπὶ	ἐπί	ADP	r--------	_	4	case	_	Ref=307
 4	δίφρων	δίφρος	NOUN	n-p---mg-	Case=Gen|Gender=Masc|Number=Plur	6	obl:arg	_	Ref=307
 5	ἡνίοχοι	ἡνίοχος	NOUN	n-p---mn-	Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	Ref=308
-6	βεβαῶτες	βαίνω	VERB	v-prpamn-	Case=Nom|Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	7	advcl	_	Ref=308
+6	βεβαῶτες	βαίνω	VERB	v-prpamn-	Case=Nom|Gender=Masc|Number=Plur|VerbForm=Part|Voice=Act	7	advcl	_	Ref=308
 7	ἐφίεσαν	ἐφίημι	VERB	v3piia---	Mood=Ind|Number=Plur|Person=3|Tense=Imp|Voice=Act	0	root	_	Ref=308
 8	ὠκέας	ὠκύς	ADJ	a-p---ma-	Case=Acc|Gender=Masc|Number=Plur	9	amod	_	Ref=308
 9	ἵππους	ἵππος	NOUN	n-p---ma-	Case=Acc|Gender=Masc|Number=Plur	7	obj	_	Ref=308
 10	ῥυτὰ	ῥυτόν	NOUN	n-p---na-	Case=Acc|Gender=Neut|Number=Plur	11	obj	_	Ref=309
-11	χαλαίνοντες	χαλαίνω	VERB	v-pppamn-	Case=Nom|Gender=Masc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	7	advcl	_	Ref=309|SpaceAfter=No
+11	χαλαίνοντες	χαλαίνω	VERB	v-pppamn-	Case=Nom|Gender=Masc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	7	advcl	_	Ref=309|SpaceAfter=No
 12	,	,	PUNCT	u--------	_	16	punct	_	_
 13	τὰ	ὁ	DET	l-p---nn-	Case=Nom|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	17	det	_	Ref=309
 14	δ'	δέ	CCONJ	g--------	PartType=Ptcl	16	cc	_	Ref=309
-15	ἐπικροτέοντα	ἐπικροτέω	VERB	v-pppann-	Case=Nom|Gender=Neut|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	16	advcl	_	Ref=309
+15	ἐπικροτέοντα	ἐπικροτέω	VERB	v-pppann-	Case=Nom|Gender=Neut|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	16	advcl	_	Ref=309
 16	πέτοντο	πέτομαι	VERB	v3piie---	Mood=Ind|Number=Plur|Person=3|Tense=Imp|Voice=MidPass	7	conj	_	Ref=309
 17	ἅρματα	ἅρμα	NOUN	n-p---nn-	Case=Nom|Gender=Neut|Number=Plur	16	nsubj	_	Ref=310
 18	κολλήεντ'	κολλήεις	ADJ	a-p---nn-	Case=Nom|Gender=Neut|Number=Plur	17	amod	_	Ref=310|SpaceAfter=No
@@ -3212,8 +3212,8 @@
 3	ἴτυν	ἴτυς	NOUN	n-s---fa-	Case=Acc|Gender=Fem|Number=Sing	4	obl	_	Ref=314
 4	ῥέεν	ῥέω	VERB	v3siia---	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	0	root	_	Ref=314
 5	Ὠκεανὸς	Ὠκεανός	PROPN	n-s---mn-	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	Ref=314
-6	πλήθοντι	πλήθω	VERB	v-sppamd-	Case=Dat|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	7	obj	_	Ref=314
-7	ἐοικώς	ἔοικα	VERB	v-srpamn-	Case=Nom|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	4	advcl	_	Ref=314|SpaceAfter=No
+6	πλήθοντι	πλήθω	VERB	v-sppamd-	Case=Dat|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	7	obj	_	Ref=314
+7	ἐοικώς	ἔοικα	VERB	v-srpamn-	Case=Nom|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	4	advcl	_	Ref=314|SpaceAfter=No
 8	,	,	PUNCT	u--------	_	11	punct	_	_
 9	πᾶν	πᾶς	DET	a-s---na-	Case=Acc|Gender=Neut|Number=Sing|PronType=Ind	12	det	_	Ref=315
 10	δὲ	δέ	CCONJ	g--------	PartType=Ptcl	11	cc	_	Ref=315
@@ -3301,7 +3301,7 @@
 11	αἰγιόχοιο	αἰγίοχος	ADJ	a-s---mg-	Case=Gen|Gender=Masc|Number=Sing	10	amod	_	Ref=322|SpaceAfter=No
 12	,	,	PUNCT	u--------	_	7	punct	_	_
 13	κοῦφα	κοῦφος	ADJ	a-p---na-	Case=Acc|Gender=Neut|Number=Plur	14	obl	_	Ref=323
-14	βιβάς	βίβημι	VERB	v-sppamn-	Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	4	advcl	_	Ref=323|SpaceAfter=No
+14	βιβάς	βίβημι	VERB	v-sppamn-	Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	4	advcl	_	Ref=323|SpaceAfter=No
 15	·	·	PUNCT	u--------	_	4	punct	_	_
 
 # sent_id = 2273583
@@ -3313,7 +3313,7 @@
 4	κρατερὸς	κρατερός	ADJ	a-s---mn-	Case=Nom|Gender=Masc|Number=Sing	5	amod	_	Ref=323
 5	Ἰόλαος	Ἰόλαος	PROPN	n-s---mn-	Case=Nom|Gender=Masc|Number=Sing	3	appos	_	Ref=323
 6	δίφρου	δίφρος	NOUN	n-s---mg-	Case=Gen|Gender=Masc|Number=Sing	7	obj	_	Ref=324
-7	ἐπεμβεβαὼς	ἐπεμβαίνω	VERB	v-srpamn-	Case=Nom|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	8	advcl	_	Ref=324
+7	ἐπεμβεβαὼς	ἐπεμβαίνω	VERB	v-srpamn-	Case=Nom|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	8	advcl	_	Ref=324
 8	ἰθύνετο	ἰθύνω	VERB	v3siie---	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=MidPass	0	root	_	Ref=324
 9	καμπύλον	καμπύλος	ADJ	a-s---na-	Case=Acc|Gender=Neut|Number=Sing	10	amod	_	Ref=324
 10	ἅρμα	ἅρμα	NOUN	n-s---na-	Case=Acc|Gender=Neut|Number=Sing	8	obj	_	Ref=324|SpaceAfter=No
@@ -3332,7 +3332,7 @@
 8	,	,	PUNCT	u--------	_	14	punct	_	_
 9	καί	καί	CCONJ	c--------	_	14	cc	_	Ref=326
 10	σφεας	σφεῖς	PRON	p-p---ma-	Case=Acc|Gender=Masc|Number=Plur|PronType=Prs	11	obj	_	Ref=326
-11	θαρσύνουσα	θαρσύνω	VERB	v-sppafn-	Case=Nom|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	14	advcl	_	Ref=326
+11	θαρσύνουσα	θαρσύνω	VERB	v-sppafn-	Case=Nom|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	14	advcl	_	Ref=326
 12	ἔπεα	ἔπος	NOUN	n-p---na-	Case=Acc|Gender=Neut|Number=Plur	14	obj	_	Ref=326
 13	πτερόεντα	πτερόεις	ADJ	a-p---na-	Case=Acc|Gender=Neut|Number=Plur	12	amod	_	Ref=326
 14	προσηύδα	προσαυδάω	VERB	v3siia---	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	4	conj	_	Ref=326|SpaceAfter=No
@@ -3358,7 +3358,7 @@
 5	ὔμμι	σύ	PRON	p-p---md-	Case=Dat|Gender=Masc|Number=Plur|Person=2|PronType=Prs	6	iobj	_	Ref=328
 6	διδοῖ	δίδωμι	VERB	v3spia---	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	Ref=328
 7	μακάρεσσιν	μάκαρ	NOUN	n-p---md-	Case=Dat|Gender=Masc|Number=Plur	8	obj	_	Ref=328
-8	ἀνάσσων	ἀνάσσω	VERB	v-sppamn-	Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	3	amod	_	Ref=328
+8	ἀνάσσων	ἀνάσσω	VERB	v-sppamn-	Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	3	amod	_	Ref=328
 9	Κύκνον	Κύκνος	PROPN	n-s---ma-	Case=Acc|Gender=Masc|Number=Sing	11	obj	_	Ref=329
 10	τ'	τε	CCONJ	c--------	_	11	cc	_	Ref=329
 11	ἐξεναρεῖν	ἐξεναίρω	VERB	v--ana---	VerbForm=Inf|Voice=Act	4	acl	_	Ref=329
@@ -3408,8 +3408,8 @@
 19	δὲ	δέ	CCONJ	g--------	PartType=Ptcl	35	cc	_	Ref=333
 20	βροτολοιγὸν	βροτολοιγός	ADJ	a-s---ma-	Case=Acc|Gender=Masc|Number=Sing	21	amod	_	Ref=333
 21	Ἄρην	Ἄρης	PROPN	n-s---ma-	Case=Acc|Gender=Masc|Number=Sing	23	obj	_	Ref=333
-22	ἐπιόντα	ἔπειμι	VERB	v-sppama-	Case=Acc|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	21	amod	_	Ref=333
-23	δοκεύσας	δοκεύω	VERB	v-sapamn-	Case=Nom|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	35	advcl	_	Ref=333|SpaceAfter=No
+22	ἐπιόντα	ἔπειμι	VERB	v-sppama-	Case=Acc|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	21	amod	_	Ref=333
+23	δοκεύσας	δοκεύω	VERB	v-sapamn-	Case=Nom|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	35	advcl	_	Ref=333|SpaceAfter=No
 24	,	,	PUNCT	u--------	_	32	punct	_	_
 25	ἔνθα	ἔνθα	ADV	d--------	_	32	advmod	_	Ref=334
 26	κε	ἄν	ADV	g--------	PartType=Ptcl	32	advmod	_	Ref=334
@@ -3457,7 +3457,7 @@
 # sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = ὣς εἰποῦσ' ἐς δίφρον ἐβήσατο δῖα θεάων, νίκην ἀθανάτῃς χερσὶν καὶ κῦδος ἔχουσα, ἐσσυμένως.
 1	ὣς	ὡς	ADV	d--------	_	2	advmod	_	Ref=338
-2	εἰποῦσ'	εἶπον	VERB	v-sapafn-	Case=Nom|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	5	advcl	_	Ref=338
+2	εἰποῦσ'	εἶπον	VERB	v-sapafn-	Case=Nom|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	5	advcl	_	Ref=338
 3	ἐς	εἰς	ADP	r--------	_	4	case	_	Ref=338
 4	δίφρον	δίφρος	NOUN	n-s---ma-	Case=Acc|Gender=Masc|Number=Sing	5	obl:arg	_	Ref=338
 5	ἐβήσατο	βαίνω	VERB	v3saim---	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Mid	0	root	_	Ref=338
@@ -3469,7 +3469,7 @@
 11	χερσὶν	χείρ	NOUN	n-p---fd-	Case=Dat|Gender=Fem|Number=Plur	14	obl	_	Ref=339
 12	καὶ	καί	CCONJ	c--------	_	13	cc	_	Ref=339
 13	κῦδος	κῦδος	NOUN	n-s---na-	Case=Acc|Gender=Neut|Number=Sing	9	conj	_	Ref=339
-14	ἔχουσα	ἔχω	VERB	v-sppafn-	Case=Nom|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	5	advcl	_	Ref=339|SpaceAfter=No
+14	ἔχουσα	ἔχω	VERB	v-sppafn-	Case=Nom|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	5	advcl	_	Ref=339|SpaceAfter=No
 15	,	,	PUNCT	u--------	_	14	punct	_	_
 16	ἐσσυμένως	ἐσσύμενος	ADV	d--------	_	5	advmod	_	Ref=340|SpaceAfter=No
 17	.	.	PUNCT	u--------	_	5	punct	_	_
@@ -3498,7 +3498,7 @@
 6	ἔφερον	φέρω	VERB	v3piia---	Mood=Ind|Number=Plur|Person=3|Tense=Imp|Voice=Act	0	root	_	Ref=342
 7	θοὸν	θοός	ADJ	a-s---na-	Case=Acc|Gender=Neut|Number=Sing	8	amod	_	Ref=342
 8	ἅρμα	ἅρμα	NOUN	n-s---na-	Case=Acc|Gender=Neut|Number=Sing	6	obj	_	Ref=342
-9	κονίοντες	κονίω	VERB	v-pppamn-	Case=Nom|Gender=Masc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	6	advcl	_	Ref=342
+9	κονίοντες	κονίω	VERB	v-pppamn-	Case=Nom|Gender=Masc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	6	advcl	_	Ref=342
 10	πεδίοιο	πεδίον	NOUN	n-s---ng-	Case=Gen|Gender=Neut|Number=Sing	9	obl	_	Ref=342|SpaceAfter=No
 11	.	.	PUNCT	u--------	_	6	punct	_	_
 
@@ -3514,7 +3514,7 @@
 7	γλαυκῶπις	γλαυκῶπις	ADJ	a-s---fn-	Case=Nom|Gender=Fem|Number=Sing	6	amod	_	Ref=343
 8	Ἀθήνη	Ἀθήνη	PROPN	n-s---fn-	Case=Nom|Gender=Fem|Number=Sing	6	appos	_	Ref=343
 9	αἰγίδ'	αἰγίς	NOUN	n-s---fa-	Case=Acc|Gender=Fem|Number=Sing	10	obj	_	Ref=344
-10	ἀνασσείσασα	ἀνασείω	VERB	v-sapafn-	Case=Nom|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	5	advcl	_	Ref=344|SpaceAfter=No
+10	ἀνασσείσασα	ἀνασείω	VERB	v-sapafn-	Case=Nom|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	5	advcl	_	Ref=344|SpaceAfter=No
 11	·	·	PUNCT	u--------	_	5	punct	_	_
 
 # sent_id = 2273595
@@ -3703,7 +3703,7 @@
 19	,	,	PUNCT	u--------	_	22	punct	_	_
 20	μάχης	μάχη	NOUN	n-s---fg-	Case=Gen|Gender=Fem|Number=Sing	22	obj	_	Ref=361
 21	ἄμοτον	ἄμοτος	ADJ	a-s---na-	Case=Acc|Gender=Neut|Number=Sing	22	obl	_	Ref=361
-22	μενεαίνων	μενεαίνω	VERB	v-sppamn-	Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	17	advcl	_	Ref=361|SpaceAfter=No
+22	μενεαίνων	μενεαίνω	VERB	v-sppamn-	Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	17	advcl	_	Ref=361|SpaceAfter=No
 23	.	.	PUNCT	u--------	_	5	punct	_	_
 
 # sent_id = 2273606
@@ -3727,7 +3727,7 @@
 16	μηρὸν	μηρός	NOUN	n-s---ma-	Case=Acc|Gender=Masc|Number=Sing	15	obj	_	Ref=363
 17	παντὶ	πᾶς	DET	a-s---nd-	Case=Dat|Gender=Neut|Number=Sing|PronType=Ind	18	det	_	Ref=364
 18	μένει	μένος	NOUN	n-s---nd-	Case=Dat|Gender=Neut|Number=Sing	19	obl	_	Ref=364
-19	σπεύδων	σπεύδω	VERB	v-sppamn-	Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	15	advcl	_	Ref=364|SpaceAfter=No
+19	σπεύδων	σπεύδω	VERB	v-sppamn-	Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	15	advcl	_	Ref=364|SpaceAfter=No
 20	,	,	PUNCT	u--------	_	25	punct	_	_
 21	διὰ	διά	ADV	r--------	_	25	compound:prt	_	Ref=364
 22	δὲ	δέ	CCONJ	g--------	PartType=Ptcl	25	cc	_	Ref=364
@@ -3762,7 +3762,7 @@
 8	χερσὶν	χείρ	NOUN	n-p---fd-	Case=Dat|Gender=Fem|Number=Plur	7	obl	_	Ref=367
 9	ὕφ'	ὑπό	ADP	r--------	_	8	case	_	Ref=367
 10	ἡμετέρῃσι	ἡμέτερος	DET	a-p---fd-	Case=Dat|Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	8	det	_	Ref=367
-11	λιπὼν	λείπω	VERB	v-sapamn-	Case=Nom|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	7	advcl	_	Ref=367
+11	λιπὼν	λείπω	VERB	v-sapamn-	Case=Nom|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	7	advcl	_	Ref=367
 12	ἔναρα	ἔναρα	NOUN	n-p---na-	Case=Acc|Gender=Neut|Number=Plur	11	obj	_	Ref=367
 13	βροτόεντα	βροτόεις	ADJ	a-p---na-	Case=Acc|Gender=Neut|Number=Plur	12	amod	_	Ref=367|SpaceAfter=No
 14	.	.	PUNCT	u--------	_	7	punct	_	_
@@ -3883,7 +3883,7 @@
 42	ἀλλήλοισι	ἀλλήλων	PRON	a-p---md-	Case=Dat|Gender=Masc|Number=Plur|PronType=Rcp	43	obl:arg	_	Ref=379
 43	πέσον	πίπτω	VERB	v3paia---	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	Ref=379
 44	μέγα	μέγας	ADJ	a-s---na-	Case=Acc|Gender=Neut|Number=Sing	45	obl	_	Ref=379
-45	κεκλήγοντες	κλάζω	VERB	v-prpamn-	Case=Nom|Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	43	advcl	_	Ref=379|SpaceAfter=No
+45	κεκλήγοντες	κλάζω	VERB	v-prpamn-	Case=Nom|Gender=Masc|Number=Plur|VerbForm=Part|Voice=Act	43	advcl	_	Ref=379|SpaceAfter=No
 46	.	.	PUNCT	u--------	_	43	punct	_	_
 
 # sent_id = 2273615
@@ -3944,7 +3944,7 @@
 8	αἱματοέσσας	αἱματόεις	ADJ	a-p---fa-	Case=Acc|Gender=Fem|Number=Plur	6	amod	_	Ref=384|SpaceAfter=No
 9	,	,	PUNCT	u--------	_	11	punct	_	_
 10	σῆμα	σῆμα	NOUN	n-s---na-	Case=Acc|Gender=Neut|Number=Sing	11	obj	_	Ref=385
-11	τιθεὶς	τίθημι	VERB	v-sppamn-	Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	7	advcl	_	Ref=385
+11	τιθεὶς	τίθημι	VERB	v-sppamn-	Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	7	advcl	_	Ref=385
 12	πολέμοιο	πόλεμος	NOUN	n-s---mg-	Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	Ref=385
 13	ἑῷ	ἑός	ADJ	a-s---md-	Case=Dat|Gender=Masc|Number=Sing	15	amod	_	Ref=385
 14	μεγαθαρσέι	μεγαθαρσής	ADJ	a-s---md-	Case=Dat|Gender=Masc|Number=Sing	15	amod	_	Ref=385
@@ -3984,14 +3984,14 @@
 24	δὲ	δέ	CCONJ	g--------	PartType=Ptcl	28	cc	28:cc	Ref=389
 25	περὶ	περί	ADP	r--------	_	26	case	26:case	Ref=389
 26	στόμα	στόμα	NOUN	n-s---na-	Case=Acc|Gender=Neut|Number=Sing	28	obl	28:obl	Ref=389
-27	μαστιχόωντι	μαστιχάω	VERB	v-sppamd-	Case=Dat|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	28	advcl	28:advcl	Ref=389
+27	μαστιχόωντι	μαστιχάω	VERB	v-sppamd-	Case=Dat|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	28	advcl	28:advcl	Ref=389
 28	λείβεται	λείβω	VERB	v3spie---	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=MidPass	10	conj	10:conj	Ref=390|SpaceAfter=No
 29	,	,	PUNCT	u--------	_	35	punct	35:punct	_
 30	ὄσσε	ὄσσε	NOUN	n-d---nn-	Case=Nom|Gender=Neut|Number=Dual	35	nsubj	35:nsubj	Ref=390
 31	δέ	δέ	CCONJ	g--------	PartType=Ptcl	35	cc	35:cc	Ref=390
 32	οἱ	ἕ	PRON	p-s---md-	Case=Dat|Gender=Masc|Number=Sing|PronType=Prs	35	obl	35:obl	Ref=390
 33	πυρὶ	πῦρ	NOUN	n-s---nd-	Case=Dat|Gender=Neut|Number=Sing	35	obj	35:obj	Ref=390
-34	λαμπετόωντι	λαμπετάω	VERB	v-sppand-	Case=Dat|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	33	amod	33:nmod	Ref=390
+34	λαμπετόωντι	λαμπετάω	VERB	v-sppand-	Case=Dat|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	33	amod	33:nmod	Ref=390
 35	ἔικτον	ἔοικα	VERB	v3dria---	Mood=Ind|Number=Dual|Person=3|Voice=Act	10	conj	10:conj	Ref=390|SpaceAfter=No
 36	,	,	PUNCT	u--------	_	41	punct	41:punct	_
 37	ὀρθὰς	ὀρθός	ADJ	a-p---fa-	Case=Acc|Gender=Fem|Number=Plur	42	acl:compl	42:acl	Ref=391
@@ -4113,7 +4113,7 @@
 6	κταμένης	κτείνω	VERB	v-sapmfg-	Case=Gen|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Mid	7	amod	7:nmod	Ref=402
 7	ἐλάφοιο	ἔλαφος	NOUN	n-s---fg-	Case=Gen|Gender=Fem|Number=Sing	12	obl	12:obl	Ref=402
 8	ἀλλήλοις	ἀλλήλων	PRON	a-p---md-	Case=Dat|Gender=Masc|Number=Plur|PronType=Rcp	9	obj	9:obj	Ref=403
-9	κοτέοντες	κοτέω	VERB	v-pppamn-	Case=Nom|Gender=Masc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	12	advcl	12:advcl	Ref=403
+9	κοτέοντες	κοτέω	VERB	v-pppamn-	Case=Nom|Gender=Masc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	12	advcl	12:advcl	Ref=403
 10	ἐπὶ	ἐπί	ADP	r--------	_	11	case	11:case	Ref=403
 11	σφέας	σφεῖς	PRON	p-p---ma-	Case=Acc|Gender=Masc|Number=Plur|PronType=Prs	12	obl:arg	12:obl	Ref=403
 12	ὁρμήσωσι	ὁρμάω	VERB	v3pasa---	Mood=Sub|Number=Plur|Person=3|Voice=Act	0	root	0.2:root	Ref=403|SpaceAfter=No
@@ -4147,7 +4147,7 @@
 11	ἔφ'	ἐπί	ADP	r--------	_	10	case	10:case	Ref=406
 12	ὑψηλῇ	ὑψηλός	ADJ	a-s---fd-	Case=Dat|Gender=Fem|Number=Sing	10	amod	10:amod	Ref=406
 13	μεγάλα	μέγας	ADJ	a-p---na-	Case=Acc|Gender=Neut|Number=Plur	14	obl	14:obl	Ref=406
-14	κλάζοντε	κλάζω	VERB	v-dppamn-	Case=Nom|Gender=Masc|Number=Dual|Tense=Pres|VerbForm=Part|Voice=Pass	15	advcl	15:advcl	Ref=406
+14	κλάζοντε	κλάζω	VERB	v-dppamn-	Case=Nom|Gender=Masc|Number=Dual|Tense=Pres|VerbForm=Part|Voice=Act	15	advcl	15:advcl	Ref=406
 15	μάχονται	μάχομαι	VERB	v3ppie---	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=MidPass	0	root	0.2:root	Ref=406
 16	αἰγὸς	αἴξ	NOUN	n-s---mg-	Case=Gen|Gender=Masc|Number=Sing	15	obl	15:obl	Ref=407
 17	ὀρεσσινόμου	ὀρεσσινόμος	ADJ	a-s---mg-	Case=Gen|Gender=Masc|Number=Sing	16	amod	16:amod	Ref=407
@@ -4159,7 +4159,7 @@
 23	ἥν	ὅς	PRON	p-s---fa-	Case=Acc|Gender=Fem|Number=Sing|PronType=Rel	25	obj	25:obj	Ref=408
 24	τ'	τε	ADV	c--------	_	25	advmod	25:advmod	Ref=408
 25	ἐδάμασσε	δαμάζω	VERB	v3saia---	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	20	acl:relcl	20:acl	Ref=408
-26	βαλὼν	βάλλω	VERB	v-sapamn-	Case=Nom|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	25	advcl	25:advcl	Ref=408
+26	βαλὼν	βάλλω	VERB	v-sapamn-	Case=Nom|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	25	advcl	25:advcl	Ref=408
 27	αἰζήιος	αἰζηός	ADJ	a-s---mn-	Case=Nom|Gender=Masc|Number=Sing	28	amod	28:amod	Ref=408
 28	ἀνὴρ	ἀνήρ	NOUN	n-s---mn-	Case=Nom|Gender=Masc|Number=Sing	25	nsubj	25:nsubj	Ref=408
 29	ἰῷ	ἰός	NOUN	n-s---md-	Case=Dat|Gender=Masc|Number=Sing	25	obl	25:obl	Ref=409
@@ -4172,7 +4172,7 @@
 36	ἄλλῃ	ἄλλῃ	ADV	d--------	_	35	advmod	35:advmod	Ref=409
 37	χώρου	χῶρος	NOUN	n-s---mg-	Case=Gen|Gender=Masc|Number=Sing	38	obj	38:obj	Ref=410
 38	ἄιδρις	ἄιδρις	NOUN	n-s---mn-	Case=Nom|Gender=Masc|Number=Sing	35	advcl	35:advcl	Ref=410
-39	ἐών	εἰμί	AUX	v-sppamn-	Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	38	cop	38:cop	Ref=410|SpaceAfter=No
+39	ἐών	εἰμί	AUX	v-sppamn-	Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	38	cop	38:cop	Ref=410|SpaceAfter=No
 40	·	·	PUNCT	u--------	_	15	punct	0.1:punct	_
 
 # sent_id = 2273625
@@ -4199,7 +4199,7 @@
 # text = ὣς οἳ κεκλήγοντες ἐπ' ἀλλήλοισιν ὄρουσαν.
 1	ὣς	ὡς	ADV	d--------	_	6	advmod	_	Ref=412
 2	οἳ	ὁ	PRON	p-p---mn-	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	nsubj	_	Ref=412
-3	κεκλήγοντες	κλάζω	VERB	v-prpamn-	Case=Nom|Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	6	advcl	_	Ref=412
+3	κεκλήγοντες	κλάζω	VERB	v-prpamn-	Case=Nom|Gender=Masc|Number=Plur|VerbForm=Part|Voice=Act	6	advcl	_	Ref=412
 4	ἐπ'	ἐπί	ADP	r--------	_	5	case	_	Ref=412
 5	ἀλλήλοισιν	ἀλλήλων	PRON	a-p---md-	Case=Dat|Gender=Masc|Number=Plur|PronType=Rcp	6	obl:arg	_	Ref=412
 6	ὄρουσαν	ὀρούω	VERB	v3paia---	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	Ref=412|SpaceAfter=No
@@ -4217,7 +4217,7 @@
 7	Διὸς	Ζεύς	PROPN	n-s---mg-	Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	Ref=413
 8	υἱὸν	υἱός	NOUN	n-s---ma-	Case=Acc|Gender=Masc|Number=Sing	9	obj	_	Ref=413
 9	κτεινέμεναι	κτείνω	VERB	v--pna---	Tense=Pres|VerbForm=Inf|Voice=Act	10	ccomp	_	Ref=414
-10	μεμαὼς	μέμαα	VERB	v-srpamn-	Case=Nom|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	12	advcl	_	Ref=414
+10	μεμαὼς	μέμαα	VERB	v-srpamn-	Case=Nom|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	12	advcl	_	Ref=414
 11	σάκει	σάκος	NOUN	n-s---nd-	Case=Dat|Gender=Neut|Number=Sing	12	iobj	_	Ref=414
 12	ἔμβαλε	ἐμβάλλω	VERB	v3saia---	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	Ref=414
 13	χάλκεον	χάλκεος	ADJ	a-s---na-	Case=Acc|Gender=Neut|Number=Sing	14	amod	_	Ref=414
@@ -4343,18 +4343,18 @@
 10	δὲ	δέ	CCONJ	g--------	PartType=Ptcl	4	cc	4:cc	Ref=425
 11	βροτολοιγὸν	βροτολοιγός	ADJ	a-s---ma-	Case=Acc|Gender=Masc|Number=Sing	12	amod	12:amod	Ref=425
 12	Ἄρην	Ἄρης	PROPN	n-s---ma-	Case=Acc|Gender=Masc|Number=Sing	14	obj	14:obj	Ref=425
-13	προσιόντα	πρόσειμι	VERB	v-sppama-	Case=Acc|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	12	acl:compl	12:acl	Ref=425
-14	δοκεύσας	δοκεύω	VERB	v-sapamn-	Case=Nom|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	9	orphan	8.1:advcl	Ref=425|SpaceAfter=No
+13	προσιόντα	πρόσειμι	VERB	v-sppama-	Case=Acc|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	12	acl:compl	12:acl	Ref=425
+14	δοκεύσας	δοκεύω	VERB	v-sapamn-	Case=Nom|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	9	orphan	8.1:advcl	Ref=425|SpaceAfter=No
 15	,	,	PUNCT	u--------	_	17	punct	17:punct	_
 16	δεινὸν	δεινός	ADJ	a-s---na-	Case=Acc|Gender=Neut|Number=Sing	17	obl	17:obl	Ref=426
-17	ὁρῶν	ὁράω	VERB	v-sppamn-	Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	9	orphan	8.1:advcl	Ref=426
+17	ὁρῶν	ὁράω	VERB	v-sppamn-	Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	9	orphan	8.1:advcl	Ref=426
 18	ὄσσοισι	ὄσσε	NOUN	n-p---nd-	Case=Dat|Gender=Neut|Number=Plur	17	obl	17:obl	Ref=426|SpaceAfter=No
 18.1	E18.1	_	_	_	_	_	_	17:advmod	_
 19	,	,	PUNCT	u--------	_	20	punct	18.1:punct	_
 20	λέων	λέων	NOUN	n-s---mn-	Case=Nom|Gender=Masc|Number=Sing	17	advmod	18.1:nsubj	Ref=426
 21	ὣς	ὡς	ADV	d--------	_	20	advmod	18.1:advmod	Ref=426
 22	σώματι	σῶμα	NOUN	n-s---nd-	Case=Dat|Gender=Neut|Number=Sing	23	obj	23:obj	Ref=426
-23	κύρσας	κυρέω	VERB	v-sapamn-	Case=Nom|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	20	orphan	18.1:advcl	Ref=426|SpaceAfter=No
+23	κύρσας	κυρέω	VERB	v-sapamn-	Case=Nom|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	20	orphan	18.1:advcl	Ref=426|SpaceAfter=No
 24	,	,	PUNCT	u--------	_	37	punct	37:punct	_
 25	ὅς	ὅς	PRON	p-s---mn-	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	37	nsubj	37:nsubj	Ref=427
 26	τε	τε	ADV	c--------	_	37	advmod	37:advmod	Ref=427
@@ -4363,7 +4363,7 @@
 29	ῥινὸν	ῥινός	NOUN	n-s---fa-	Case=Acc|Gender=Fem|Number=Sing	32	obj	32:obj	Ref=427
 30	κρατεροῖς	κρατερός	ADJ	a-p---md-	Case=Dat|Gender=Masc|Number=Plur	31	amod	31:amod	Ref=427
 31	ὀνύχεσσι	ὄνυξ	NOUN	n-p---md-	Case=Dat|Gender=Masc|Number=Plur	32	obl	32:obl	Ref=427
-32	σχίσσας	σχίζω	VERB	v-sapamn-	Case=Nom|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	37	advcl	37:advcl	Ref=428
+32	σχίσσας	σχίζω	VERB	v-sapamn-	Case=Nom|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	37	advcl	37:advcl	Ref=428
 33	ὅττι	ὅτι	ADV	d--------	_	34	advmod	34:advmod	Ref=428
 34	τάχιστα	ταχύς	ADJ	a-p---nas	Case=Acc|Degree=Sup|Gender=Neut|Number=Plur	37	obl	37:obl	Ref=428
 35	μελίφρονα	μελίφρων	NOUN	n-s---ma-	Case=Acc|Gender=Masc|Number=Sing	36	nmod	36:nmod	Ref=428
@@ -4388,7 +4388,7 @@
 # sent_id = 2273637
 # sentannotators <primary>dlliba10</primary> <primary>samzukoff</primary> <secondary>jfg</secondary>
 # text = γλαυκιόων δ' ὄσσοις δεινὸν πλευράς τε καὶ ὤμους οὐρῇ μαστιόων ποσσὶν γλάφει, οὐδέ τις αὐτὸν ἔτλη ἐς ἄντα ἰδὼν σχεδὸν ἐλθέμεν οὐδὲ μάχεσθαι·
-1	γλαυκιόων	γλαυκιάω	VERB	v-sppamn-	Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	12	advcl	_	Ref=430
+1	γλαυκιόων	γλαυκιάω	VERB	v-sppamn-	Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	12	advcl	_	Ref=430
 2	δ'	δέ	CCONJ	g--------	PartType=Ptcl	12	cc	_	Ref=430
 3	ὄσσοις	ὄσσε	NOUN	n-p---nd-	Case=Dat|Gender=Neut|Number=Plur	1	obl	_	Ref=430
 4	δεινὸν	δεινός	ADJ	a-s---na-	Case=Acc|Gender=Neut|Number=Sing	1	obl	_	Ref=430
@@ -4397,7 +4397,7 @@
 7	καὶ	καί	CCONJ	c--------	_	8	cc	_	Ref=430
 8	ὤμους	ὦμος	NOUN	n-p---ma-	Case=Acc|Gender=Masc|Number=Plur	5	conj	_	Ref=430
 9	οὐρῇ	οὐρά	NOUN	n-s---fd-	Case=Dat|Gender=Fem|Number=Sing	10	obl	_	Ref=431
-10	μαστιόων	μαστιάω	VERB	v-sppamn-	Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	12	advcl	_	Ref=431
+10	μαστιόων	μαστιάω	VERB	v-sppamn-	Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	12	advcl	_	Ref=431
 11	ποσσὶν	πούς	NOUN	n-p---md-	Case=Dat|Gender=Masc|Number=Plur	12	obl	_	Ref=431
 12	γλάφει	γλάφω	VERB	v3spia---	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	Ref=431|SpaceAfter=No
 13	,	,	PUNCT	u--------	_	17	punct	_	_
@@ -4407,7 +4407,7 @@
 17	ἔτλη	τλάω	VERB	v3saia---	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	12	conj	_	Ref=432
 18	ἐς	εἰς	ADP	r--------	_	20	case	_	Ref=432
 19	ἄντα	ἄντα	ADV	d--------	_	18	advmod	_	Ref=432
-20	ἰδὼν	εἴδω:εἶδον	VERB	v-sapamn-	Case=Nom|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	17	advcl	_	Ref=432
+20	ἰδὼν	εἴδω:εἶδον	VERB	v-sapamn-	Case=Nom|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	17	advcl	_	Ref=432
 21	σχεδὸν	σχεδόν	ADV	d--------	_	22	obj	_	Ref=432
 22	ἐλθέμεν	ἔρχομαι	VERB	v--ana---	VerbForm=Inf|Voice=Act	17	ccomp	_	Ref=432
 23	οὐδὲ	οὐδέ	CCONJ	c--------	_	24	cc	_	Ref=432|SpaceAfter=No
@@ -4431,7 +4431,7 @@
 12	ἐνὶ	ἐν	ADP	r--------	_	13	case	_	Ref=434
 13	φρεσὶ	φρήν	NOUN	n-p---fd-	Case=Dat|Gender=Fem|Number=Plur	15	obl	_	Ref=434
 14	θάρσος	θάρσος	NOUN	n-s---na-	Case=Acc|Gender=Neut|Number=Sing	15	obj	_	Ref=434
-15	ἀέξων	ἀέξω	VERB	v-sppamn-	Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	9	advcl	_	Ref=434|SpaceAfter=No
+15	ἀέξων	ἀέξω	VERB	v-sppamn-	Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	9	advcl	_	Ref=434|SpaceAfter=No
 16	,	,	PUNCT	u--------	_	15	punct	_	_
 17	ἐσσυμένως	ἐσσύμενος	ADV	d--------	_	9	advmod	_	Ref=435|SpaceAfter=No
 18	·	·	PUNCT	u--------	_	9	punct	_	_
@@ -4453,7 +4453,7 @@
 # text = ἀμφότεροι δ' ἰάχοντες ἐπ' ἀλλήλοισιν ὄρουσαν.
 1	ἀμφότεροι	ἀμφότερος	ADJ	a-p---mn-	Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	Ref=436
 2	δ'	δέ	CCONJ	g--------	PartType=Ptcl	6	cc	_	Ref=436
-3	ἰάχοντες	ἰάχω	VERB	v-pppamn-	Case=Nom|Gender=Masc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	6	advcl	_	Ref=436
+3	ἰάχοντες	ἰάχω	VERB	v-pppamn-	Case=Nom|Gender=Masc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	6	advcl	_	Ref=436
 4	ἐπ'	ἐπί	ADP	r--------	_	5	case	_	Ref=436
 5	ἀλλήλοισιν	ἀλλήλων	PRON	a-p---md-	Case=Dat|Gender=Masc|Number=Plur|PronType=Rcp	6	obl:arg	_	Ref=436
 6	ὄρουσαν	ὀρούω	VERB	v3paia---	Mood=Ind|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	Ref=436|SpaceAfter=No
@@ -4477,7 +4477,7 @@
 9	,	,	PUNCT	u--------	_	13	punct	13:punct	_
 10	μακρὰ	μακρός	ADJ	a-p---na-	Case=Acc|Gender=Neut|Number=Plur	12	obl	12:obl	Ref=438
 11	δ'	δέ	CCONJ	g--------	PartType=Ptcl	13	cc	13:cc	Ref=438
-12	ἐπιθρῴσκουσα	θρῴσκω	VERB	v-sppafn-	Case=Nom|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	13	advcl	13:advcl	Ref=438
+12	ἐπιθρῴσκουσα	θρῴσκω	VERB	v-sppafn-	Case=Nom|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	13	advcl	13:advcl	Ref=438
 13	κυλίνδεται	κυλίνδω	VERB	v3spie---	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=MidPass	8	conj	8:conj	Ref=438|SpaceAfter=No
 14	,	,	PUNCT	u--------	_	19	punct	19:punct	_
 15	ἣ	ὁ	PRON	p-s---fn-	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	nsubj	19:nsubj	Ref=438
@@ -4485,7 +4485,7 @@
 17	τε	τε	ADV	c--------	_	19	advmod	19:advmod	Ref=438
 18	ἠχῇ	ἠχή	NOUN	n-s---fd-	Case=Dat|Gender=Fem|Number=Sing	19	obl	19:obl	Ref=438
 19	ἔρχεται	ἔρχομαι	VERB	v3spie---	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=MidPass	8	conj	8:conj	Ref=439
-20	ἐμμεμαυῖα	ἐμμεμαώς	VERB	v-srpafn-	Case=Nom|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	19	advcl	19:advcl	Ref=439|SpaceAfter=No
+20	ἐμμεμαυῖα	ἐμμεμαώς	VERB	v-srpafn-	Case=Nom|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	19	advcl	19:advcl	Ref=439|SpaceAfter=No
 21	,	,	PUNCT	u--------	_	25	punct	25:punct	_
 22	πάγος	πάγος	NOUN	n-s---mn-	Case=Nom|Gender=Masc|Number=Sing	25	nsubj	25:nsubj	Ref=439
 23	δέ	δέ	CCONJ	g--------	PartType=Ptcl	25	cc	0.4:cc	Ref=439
@@ -4522,7 +4522,7 @@
 5	βρισάρματος	βρισάρματος	ADJ	a-s---mn-	Case=Nom|Gender=Masc|Number=Sing	7	amod	_	Ref=441
 6	οὔλιος	οὔλιος	ADJ	a-s---mn-	Case=Nom|Gender=Masc|Number=Sing	7	amod	_	Ref=441
 7	Ἄρης	Ἄρης	PROPN	n-s---mn-	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	Ref=441
-8	κεκληγὼς	κλάζω	VERB	v-srpamn-	Case=Nom|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	9	advcl	_	Ref=442
+8	κεκληγὼς	κλάζω	VERB	v-srpamn-	Case=Nom|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	9	advcl	_	Ref=442
 9	ἐπόρουσεν	ἐπορούω	VERB	v3saia---	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	Ref=442|SpaceAfter=No
 10	·	·	PUNCT	u--------	_	9	punct	_	_
 
@@ -4550,7 +4550,7 @@
 10	Ἄρηος	Ἄρης	PROPN	n-s---mg-	Case=Gen|Gender=Masc|Number=Sing	8	obj	_	Ref=444
 11	ἐρεμνὴν	ἐρεμνός	ADJ	a-s---fa-	Case=Acc|Gender=Fem|Number=Sing	12	amod	_	Ref=444
 12	αἰγίδ'	αἰγίς	NOUN	n-s---fa-	Case=Acc|Gender=Fem|Number=Sing	13	obj	_	Ref=444
-13	ἔχουσα	ἔχω	VERB	v-sppafn-	Case=Nom|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	9	advcl	_	Ref=444|SpaceAfter=No
+13	ἔχουσα	ἔχω	VERB	v-sppafn-	Case=Nom|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	9	advcl	_	Ref=444|SpaceAfter=No
 14	·	·	PUNCT	u--------	_	9	punct	_	_
 
 # sent_id = 2273646
@@ -4559,7 +4559,7 @@
 1	δεινὰ	δεινός	ADJ	a-p---na-	Case=Acc|Gender=Neut|Number=Plur	4	obl	_	Ref=445
 2	δ'	δέ	CCONJ	g--------	PartType=Ptcl	7	cc	_	Ref=445
 3	ὑπόδρα	ὑπόδρα	ADV	d--------	_	4	advmod	_	Ref=445
-4	ἰδοῦσα	εἴδω:εἶδον	VERB	v-sapafn-	Case=Nom|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	7	advcl	_	Ref=445
+4	ἰδοῦσα	εἴδω:εἶδον	VERB	v-sapafn-	Case=Nom|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	7	advcl	_	Ref=445
 5	ἔπεα	ἔπος	NOUN	n-p---na-	Case=Acc|Gender=Neut|Number=Plur	7	obj	_	Ref=445
 6	πτερόεντα	πτερόεις	ADJ	a-p---na-	Case=Acc|Gender=Neut|Number=Plur	5	amod	_	Ref=445
 7	προσηύδα	προσαυδάω	VERB	v3siia---	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	0	root	_	Ref=445|SpaceAfter=No
@@ -4591,7 +4591,7 @@
 8	τεύχεα	τεῦχος	NOUN	n-p---na-	Case=Acc|Gender=Neut|Number=Plur	9	obj	_	Ref=447
 9	δῦσαι	δύω	VERB	v--ana---	VerbForm=Inf|Voice=Act	4	csubj	_	Ref=447
 10	Ἡρακλέα	Ἡρακλέης	PROPN	n-s---ma-	Case=Acc|Gender=Masc|Number=Sing	11	obj	_	Ref=448
-11	κτείναντα	κτείνω	VERB	v-sapama-	Case=Acc|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	9	advcl	_	Ref=448|SpaceAfter=No
+11	κτείναντα	κτείνω	VERB	v-sapama-	Case=Acc|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	9	advcl	_	Ref=448|SpaceAfter=No
 12	,	,	PUNCT	u--------	_	15	punct	_	_
 13	Διὸς	Ζεύς	PROPN	n-s---mg-	Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	Ref=448
 14	θρασυκάρδιον	θρασυκάρδιος	ADJ	a-s---ma-	Case=Acc|Gender=Masc|Number=Sing	15	amod	_	Ref=448
@@ -4632,18 +4632,18 @@
 7	,	,	PUNCT	u--------	_	17	punct	_	_
 8	ἀλλὰ	ἀλλά	CCONJ	c--------	_	17	cc	_	Ref=451
 9	μέγα	μέγας	ADJ	a-s---na-	Case=Acc|Gender=Neut|Number=Sing	10	obl	_	Ref=451
-10	ἰάχων	ἰάχω	VERB	v-sppamn-	Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	17	advcl	_	Ref=451
+10	ἰάχων	ἰάχω	VERB	v-sppamn-	Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	17	advcl	_	Ref=451
 11	φλογὶ	φλόξ	NOUN	n-s---md-	Case=Dat|Gender=Masc|Number=Sing	12	obj	_	Ref=451
 12	εἴκελά	εἴκελος	ADJ	a-p---na-	Case=Acc|Gender=Neut|Number=Plur	14	amod	_	Ref=451
 13	τ'	τε	CCONJ	c--------	_	15	cc	_	Ref=451
 14	ἔγχεα	ἔγχος	NOUN	n-p---na-	Case=Acc|Gender=Neut|Number=Plur	15	obj	_	Ref=451
-15	πάλλων	πάλλω	VERB	v-sppamn-	Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	10	conj	_	Ref=451
+15	πάλλων	πάλλω	VERB	v-sppamn-	Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	10	conj	_	Ref=451
 16	καρπαλίμως	καρπάλιμος	ADV	d--------	_	17	advmod	_	Ref=452
 17	ἐπόρουσε	ἐπορούω	VERB	v3saia---	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	3	conj	_	Ref=452
 18	βίῃ	βία	NOUN	n-s---fd-	Case=Dat|Gender=Fem|Number=Sing	17	obj	_	Ref=452
 19	Ἡρακληείῃ	Ἡράκλειος	ADJ	a-s---fd-	Case=Dat|Gender=Fem|Number=Sing	18	amod	_	Ref=452
 20	κακτάμεναι	κατακτείνω	VERB	v--rna---	VerbForm=Inf|Voice=Act	21	ccomp	_	Ref=453
-21	μεμαώς	μέμαα	VERB	v-srpamn-	Case=Nom|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	17	advcl	_	Ref=453|SpaceAfter=No
+21	μεμαώς	μέμαα	VERB	v-srpamn-	Case=Nom|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	17	advcl	_	Ref=453|SpaceAfter=No
 22	·	·	PUNCT	u--------	_	3	punct	_	_
 
 # sent_id = 2273652
@@ -4658,9 +4658,9 @@
 7	σπερχνὸν	σπερχνός	ADJ	a-s---na-	Case=Acc|Gender=Neut|Number=Sing	10	obl	_	Ref=454
 8	παιδὸς	παῖς	NOUN	n-s---mg-	Case=Gen|Gender=Masc|Number=Sing	10	obl	_	Ref=454
 9	ἑοῦ	ἑός	ADJ	a-s---mg-	Case=Gen|Gender=Masc|Number=Sing	8	amod	_	Ref=454
-10	κοτέων	κοτέω	VERB	v-sppamn-	Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	3	advcl	_	Ref=454
+10	κοτέων	κοτέω	VERB	v-sppamn-	Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	3	advcl	_	Ref=454
 11	πέρι	περί	ADP	r--------	_	8	case	_	Ref=454
-12	τεθνηῶτος	θνῄσκω:θνήσκω	VERB	v-srpamg-	Case=Gen|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	8	amod	_	Ref=454|SpaceAfter=No
+12	τεθνηῶτος	θνῄσκω:θνήσκω	VERB	v-srpamg-	Case=Gen|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	8	amod	_	Ref=454|SpaceAfter=No
 13	,	,	PUNCT	u--------	_	10	punct	_	_
 14	ἐν	ἐν	ADP	r--------	_	15	case	_	Ref=455
 15	σάκεϊ	σάκος	NOUN	n-s---nd-	Case=Dat|Gender=Neut|Number=Sing	3	iobj	_	Ref=455
@@ -4710,7 +4710,7 @@
 # text = τὸν δ' ἐπιόντα Ἀμφιτρυωνιάδης, δεινῆς ἀκόρητος ἀυτῆς, μηρὸν γυμνωθέντα σάκευς ὕπο δαιδαλέοιο οὔτασ' ἐπικρατέως·
 1	τὸν	ὁ	PRON	p-s---ma-	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	obj	_	Ref=458
 2	δ'	δέ	CCONJ	g--------	PartType=Ptcl	15	cc	_	Ref=458
-3	ἐπιόντα	ἔπειμι	VERB	v-sppama-	Case=Acc|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	1	amod	_	Ref=458
+3	ἐπιόντα	ἔπειμι	VERB	v-sppama-	Case=Acc|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	1	amod	_	Ref=458
 4	Ἀμφιτρυωνιάδης	Ἀμφιτρυωνιάδας	PROPN	n-s---mn-	Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	Ref=459|SpaceAfter=No
 5	,	,	PUNCT	u--------	_	7	punct	_	_
 6	δεινῆς	δεινός	ADJ	a-s---fg-	Case=Gen|Gender=Fem|Number=Sing	8	amod	_	Ref=459
@@ -4735,7 +4735,7 @@
 4	σαρκὸς	σάρξ	NOUN	n-s---fg-	Case=Gen|Gender=Fem|Number=Sing	5	obj	_	Ref=461
 5	ἄραξε	ἀράσσω	VERB	v3saia---	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	Ref=461
 6	δούρατι	δόρυ	NOUN	n-s---nd-	Case=Dat|Gender=Neut|Number=Sing	7	obl	_	Ref=462
-7	νωμήσας	νωμάω	VERB	v-sapamn-	Case=Nom|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	5	advcl	_	Ref=462|SpaceAfter=No
+7	νωμήσας	νωμάω	VERB	v-sapamn-	Case=Nom|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	5	advcl	_	Ref=462|SpaceAfter=No
 8	,	,	PUNCT	u--------	_	12	punct	_	_
 9	ἐπὶ	ἐπί	ADP	r--------	_	11	case	_	Ref=462
 10	δὲ	δέ	CCONJ	g--------	PartType=Ptcl	12	cc	_	Ref=462
@@ -4799,7 +4799,7 @@
 5	κυδάλιμος	κυδάλιμος	ADJ	a-s---mn-	Case=Nom|Gender=Masc|Number=Sing	6	amod	_	Ref=467
 6	Ἰόλαος	Ἰόλαος	PROPN	n-s---mn-	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	Ref=467
 7	Κύκνον	Κύκνος	PROPN	n-s---ma-	Case=Acc|Gender=Masc|Number=Sing	8	obj	_	Ref=468
-8	σκυλεύσαντες	σκυλεύω	VERB	v-papamn-	Case=Nom|Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	13	advcl	_	Ref=468
+8	σκυλεύσαντες	σκυλεύω	VERB	v-papamn-	Case=Nom|Gender=Masc|Number=Plur|VerbForm=Part|Voice=Act	13	advcl	_	Ref=468
 9	ἀπ'	ἀπό	ADP	r--------	_	10	case	_	Ref=468
 10	ὤμων	ὦμος	NOUN	n-p---mg-	Case=Gen|Gender=Masc|Number=Plur	8	obl:arg	_	Ref=468
 11	τεύχεα	τεῦχος	NOUN	n-p---na-	Case=Acc|Gender=Neut|Number=Plur	8	obj	_	Ref=468
@@ -4875,7 +4875,7 @@
 3	ἠγείρετο	ἀγείρω	VERB	v3siie---	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=MidPass	0	root	_	Ref=475
 4	λαός	λαός	NOUN	n-s---mn-	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	Ref=475|SpaceAfter=No
 5	,	,	PUNCT	u--------	_	6	punct	_	_
-6	τιμῶντες	τιμάω	VERB	v-pppamn-	Case=Nom|Gender=Masc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	3	advcl	_	Ref=476
+6	τιμῶντες	τιμάω	VERB	v-pppamn-	Case=Nom|Gender=Masc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	3	advcl	_	Ref=476
 7	Κήυκα	Κῆυξ	PROPN	n-s---ma-	Case=Acc|Gender=Masc|Number=Sing	6	obj	_	Ref=476|SpaceAfter=No
 8	,	,	PUNCT	u--------	_	9	punct	_	_
 9	φίλον	φίλος	ADJ	a-s---ma-	Case=Acc|Gender=Masc|Number=Sing	7	amod	_	Ref=476
@@ -4896,7 +4896,7 @@
 8	Ἄναυρος	Ἄναυρος	PROPN	n-s---mn-	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	Ref=477
 9	ὄμβρῳ	ὄμβρος	NOUN	n-s---md-	Case=Dat|Gender=Masc|Number=Sing	11	obl	_	Ref=478
 10	χειμερίῳ	χειμέριος	ADJ	a-s---md-	Case=Dat|Gender=Masc|Number=Sing	9	amod	_	Ref=478
-11	πλήθων	πλήθω	VERB	v-sppamn-	Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	7	advcl	_	Ref=478|SpaceAfter=No
+11	πλήθων	πλήθω	VERB	v-sppamn-	Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	7	advcl	_	Ref=478|SpaceAfter=No
 12	·	·	PUNCT	u--------	_	7	punct	_	_
 
 # sent_id = 2273667
@@ -4918,6 +4918,6 @@
 14	Πυθοῖδε	Πυθώ	PROPN	n-s---fd-	Case=Dat|Gender=Fem|Number=Sing	13	obj	_	Ref=480
 15	βίῃ	βία	NOUN	n-s---fd-	Case=Dat|Gender=Fem|Number=Sing	16	obl	_	Ref=480
 16	σύλασκε	συλάω	VERB	v3siia---	Mood=Ind|Number=Sing|Person=3|Tense=Imp|Voice=Act	6	advcl	_	Ref=480
-17	δοκεύων	δοκεύω	VERB	v-sppamn-	Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	16	advcl	_	Ref=480|SpaceAfter=No
+17	δοκεύων	δοκεύω	VERB	v-sppamn-	Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	16	advcl	_	Ref=480|SpaceAfter=No
 18	.	.	PUNCT	u--------	_	6	punct	_	_
 
