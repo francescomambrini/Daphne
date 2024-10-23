@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 """
 Add the speaker metadata to each sentence in a CoNLL-U file, starting from a 
 CSV file with the speaker list. The CSV file must be structured so that:
@@ -29,7 +30,7 @@ with open(args.conllu) as f:
     sents = conllu.parse(f.read())
 
 with open(args.csv) as f:
-    reader = csv.reader(f)
+    reader = csv.reader(f, delimiter='\t')
     lines = [l for l in reader][1:]
 
 if len(sents) != len(lines):
