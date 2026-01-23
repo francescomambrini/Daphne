@@ -4,7 +4,7 @@
 # Speaker = Athena
 1	ἀεὶ	ἀεί	ADV	d--------	_	8	advmod	_	Ref=1
 2	μέν	μέν	ADV	d--------	PartType=Ptcl	8	advmod	_	Ref=1|SpaceAfter=No
-3	,	,	PUNCT	u--------	_	5	advmod	_	_
+3	,	,	PUNCT	u--------	_	5	punct	_	_
 4	ὦ	ὦ	INTJ	i--------	_	5	discourse	_	Ref=1
 5	παῖ	παῖς	NOUN	n-s---mv-	Case=Voc|Gender=Masc|Number=Sing	8	vocative	_	Ref=1
 6	Λαρτίου	Λαέρτης	PROPN	n-s---mg-	Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	Ref=1|SpaceAfter=No
@@ -751,7 +751,7 @@
 1	τί	τίς	PRON	p-s---nn-	Case=Nom|Gender=Neut|Number=Sing|PronType=Int	3	nsubj	3:nsubj	Ref=77
 2	μὴ	μή	SCONJ	c--------	_	3	mark	0.1:mark	Ref=77
 3	γένηται	γίγνομαι	VERB	v3sasm---	Mood=Sub|Number=Sing|Person=3|Voice=Mid	0	root	0.1:root	Ref=77|SpaceAfter=No
-4	;	;	PUNCT	u--------	_	0	punct	0.1:punct	_
+4	;	;	PUNCT	u--------	_	0	root	0.1:punct	_
 
 # sent_id = tlg0011.tlg003.48
 # text = πρόσθεν οὐκ ἀνὴρ ὅδ’ ἦν;
@@ -2049,8 +2049,8 @@
 # text = ὤμοι·
 # Speaker = Chorus
 0.1	E0.1	_	_	_	_	_	_	0:root	_
-1	ὤμοι	ὤμοι	INTJ	i--------	_	0	discourse	0.1:discourse	Ref=231|SpaceAfter=No
-2	·	·	PUNCT	u--------	_	0	punct	0.1:punct	_
+1	ὤμοι	ὤμοι	INTJ	i--------	_	0	root	0.1:discourse	Ref=231|SpaceAfter=No
+2	·	·	PUNCT	u--------	_	0	root	0.1:punct	_
 
 # sent_id = tlg0011.tlg003.133
 # text = κεῖθεν κεῖθεν ἄρ’ ἡμῖν δεσμῶτιν ἄγων ἤλυθε ποίμνην·
@@ -2942,8 +2942,8 @@
 0.1	E0.1	_	_	_	_	_	_	0:root	_
 1	ἰώ	ἰώ	INTJ	i--------	_	2	discourse	2:discourse	Ref=333
 2	μοί	ἐγώ	PRON	p-s---md-	Case=Dat|Gender=Masc|Number=Sing|Person=1|PronType=Prs	3	discourse	3:discourse	Ref=333
-3	μοι	ἐγώ	PRON	p-s---md-	Case=Dat|Gender=Masc|Number=Sing|Person=1|PronType=Prs	0	orphan	0.1:orphan	Ref=333|SpaceAfter=No
-4	.	.	PUNCT	u--------	_	0	punct	0.1:punct	_
+3	μοι	ἐγώ	PRON	p-s---md-	Case=Dat|Gender=Masc|Number=Sing|Person=1|PronType=Prs	0	root	0.1:orphan	Ref=333|SpaceAfter=No
+4	.	.	PUNCT	u--------	_	0	root	0.1:punct	_
 
 # sent_id = tlg0011.tlg003.185
 # text = τάχ’, ὡς ἔοικε, μᾶλλον·
@@ -2976,8 +2976,8 @@
 0.1	E0.1	_	_	_	_	_	_	0:root	_
 1	ἰώ	ἰώ	INTJ	i--------	_	2	discourse	2:discourse	Ref=336
 2	μοί	ἐγώ	PRON	p-s---md-	Case=Dat|Gender=Masc|Number=Sing|Person=1|PronType=Prs	3	discourse	3:discourse	Ref=336
-3	μοι	ἐγώ	PRON	p-s---md-	Case=Dat|Gender=Masc|Number=Sing|Person=1|PronType=Prs	0	orphan	0.1:orphan	Ref=336|SpaceAfter=No
-4	.	.	PUNCT	u--------	_	0	punct	0.1:punct	_
+3	μοι	ἐγώ	PRON	p-s---md-	Case=Dat|Gender=Masc|Number=Sing|Person=1|PronType=Prs	0	root	0.1:orphan	Ref=336|SpaceAfter=No
+4	.	.	PUNCT	u--------	_	0	root	0.1:punct	_
 
 # sent_id = tlg0011.tlg003.188
 # text = ἁνὴρ ἔοικεν ἢ νοσεῖν ἢ τοῖς πάλαι νοσήμασιν ξυνοῦσι λυπεῖσθαι παρών.
@@ -3309,9 +3309,9 @@
 # text = αἰαῖ αἰαῖ.
 # Speaker = Ajax
 0.1	E0.1	_	_	_	_	_	_	0:root	_
-1	αἰαῖ	αἰαῖ	INTJ	i--------	_	0	discourse	0.1:discourse	Ref=370
+1	αἰαῖ	αἰαῖ	INTJ	i--------	_	0	root	0.1:discourse	Ref=370
 2	αἰαῖ	αἰαῖ	INTJ	i--------	_	1	discourse	1:discourse	Ref=370|SpaceAfter=No
-3	.	.	PUNCT	u--------	_	0	punct	0.1:punct	_
+3	.	.	PUNCT	u--------	_	0	root	0.1:punct	_
 
 # sent_id = tlg0011.tlg003.216
 # text = ὦ πρὸς θεῶν ὕπεικε καὶ φρόνησον εὖ.
@@ -3436,9 +3436,9 @@
 # Speaker = Ajax
 0.1	E0.1	_	_	_	_	_	_	0:root	_
 1	ἰώ	ἰώ	INTJ	i--------	_	2	discourse	2:discourse	Ref=385
-2	μοί	ἐγώ	PRON	p-s---md-	Case=Dat|Gender=Masc|Number=Sing|Person=1|PronType=Prs	0	orphan	0.1:orphan	Ref=385
+2	μοί	ἐγώ	PRON	p-s---md-	Case=Dat|Gender=Masc|Number=Sing|Person=1|PronType=Prs	0	root	0.1:orphan	Ref=385
 3	μοι	ἐγώ	PRON	p-s---md-	Case=Dat|Gender=Masc|Number=Sing|Person=1|PronType=Prs	2	discourse	2:discourse	Ref=385|SpaceAfter=No
-4	.	.	PUNCT	u--------	_	0	punct	0.1:punct	_
+4	.	.	PUNCT	u--------	_	0	root	0.1:punct	_
 
 # sent_id = tlg0011.tlg003.224
 # text = μηδὲν μέγ’ εἴπῃς·
@@ -3748,8 +3748,8 @@
 # text = αἰαῖ·
 # Speaker = Ajax
 0.1	E0.1	_	_	_	_	_	_	0:root	_
-1	αἰαῖ	αἰαῖ	INTJ	i--------	_	0	discourse	0.1:discourse	Ref=430|SpaceAfter=No
-2	·	·	PUNCT	u--------	_	0	punct	0.1:punct	_
+1	αἰαῖ	αἰαῖ	INTJ	i--------	_	0	root	0.1:discourse	Ref=430|SpaceAfter=No
+2	·	·	PUNCT	u--------	_	0	root	0.1:punct	_
 
 # sent_id = tlg0011.tlg003.243
 # text = τίς ἄν ποτ’ ᾤεθ’ ὧδ’ ἐπώνυμον τοὐμὸν ξυνοίσειν ὄνομα τοῖς ἐμοῖς κακοῖς;
@@ -5492,7 +5492,7 @@
 13	μηνῶν	μείς	NOUN	n-p---mg-	Case=Gen|Gender=Masc|Number=Plur	14	nmod	_	Ref=601
 14	ἀνήριθμος	ἀνήριθμος	ADJ	a-s---mn-	Case=Nom|Gender=Masc|Number=Sing	1	acl:compl	_	Ref=602
 15	αἰὲν	ἀεί	ADV	d--------	_	14	advmod	_	Ref=602
-16	εὐνῶμαι	εὐνάω	VERB	v1spie---	Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=MidPass	0	root:relcl	_	Ref=602
+16	εὐνῶμαι	εὐνάω	VERB	v1spie---	Mood=Ind|Number=Sing|Person=1|Tense=Pres|Voice=MidPass	0	root	_	Ref=602
 17	χρόνῳ	χρόνος	NOUN	n-s---md-	Case=Dat|Gender=Masc|Number=Sing	18	obj	_	Ref=605
 18	τρυχόμενος	τρύχω	VERB	v-sppemn-	Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=MidPass	16	advcl	_	Ref=605|SpaceAfter=No
 19	,	,	PUNCT	u--------	_	22	punct	_	_
@@ -6448,9 +6448,9 @@
 # text = ἰοὺ ἰού·
 # Speaker = Messenger
 0.1	E0.1	_	_	_	_	_	_	0:root	_
-1	ἰοὺ	ἰού	INTJ	i--------	_	0	discourse	0.1:discourse	Ref=737
+1	ἰοὺ	ἰού	INTJ	i--------	_	0	root	0.1:discourse	Ref=737
 2	ἰού	ἰού	INTJ	i--------	_	1	discourse	1:discourse	Ref=737|SpaceAfter=No
-3	·	·	PUNCT	u--------	_	0	punct	0.1:punct	_
+3	·	·	PUNCT	u--------	_	0	root	0.1:punct	_
 
 # sent_id = tlg0011.tlg003.400
 # text = βραδεῖαν ἡμᾶς ἆρ’ ὁ τήνδε τὴν ὁδὸν πέμπων ἔπεμψεν ἢ ’φάνην ἐγὼ βραδύς.
@@ -7704,8 +7704,8 @@
 # text = ἰδού.
 # Speaker = Ἡμιχόριον 1
 0.1	E0.1	_	_	_	_	_	_	0:root	_
-1	ἰδού	ἰδού	ADV	d--------	_	0	orphan	0.1:orphan	Ref=870|SpaceAfter=No
-2	.	.	PUNCT	u--------	_	0	punct	0.1:punct	_
+1	ἰδού	ἰδού	ADV	d--------	_	0	root	0.1:orphan	Ref=870|SpaceAfter=No
+2	.	.	PUNCT	u--------	_	0	root	0.1:punct	_
 
 # sent_id = tlg0011.tlg003.470
 # text = δοῦπον αὖ κλύω τινά.
@@ -7848,9 +7848,9 @@
 # Speaker = Tecmessa
 0.1	E0.1	_	_	_	_	_	_	0:root	_
 1	ἰώ	ἰώ	INTJ	i--------	_	2	discourse	2:discourse	Ref=891
-2	μοί	ἐγώ	PRON	p-s---fd-	Case=Dat|Gender=Fem|Number=Sing|Person=1|PronType=Prs	0	orphan	0.1:orphan	Ref=891
+2	μοί	ἐγώ	PRON	p-s---fd-	Case=Dat|Gender=Fem|Number=Sing|Person=1|PronType=Prs	0	root	0.1:orphan	Ref=891
 3	μοι	ἐγώ	PRON	p-s---fd-	Case=Dat|Gender=Fem|Number=Sing|Person=1|PronType=Prs	2	discourse	2:discourse	Ref=891|SpaceAfter=No
-4	.	.	PUNCT	u--------	_	0	punct	0.1:punct	_
+4	.	.	PUNCT	u--------	_	0	root	0.1:punct	_
 
 # sent_id = tlg0011.tlg003.480
 # text = τίνος βοὴ πάραυλος ἐξέβη νάπους;
@@ -7924,10 +7924,10 @@
 # text = ὤμοι ἐμῶν νόστων·
 # Speaker = Chorus
 0.1	E0.1	_	_	_	_	_	_	0:root	_
-1	ὤμοι	ὤμοι	INTJ	i--------	_	0	discourse	0.1:discourse	Ref=900
+1	ὤμοι	ὤμοι	INTJ	i--------	_	0	root	0.1:discourse	Ref=900
 2	ἐμῶν	ἐμός	DET	p-p---mg-	Case=Gen|Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	3	det	3:det	Ref=900
 3	νόστων	νόστος	NOUN	n-p---mg-	Case=Gen|Gender=Masc|Number=Plur	1	obl	1:obl	Ref=900|SpaceAfter=No
-4	·	·	PUNCT	u--------	_	0	punct	0.1:punct	_
+4	·	·	PUNCT	u--------	_	0	root	0.1:punct	_
 
 # sent_id = tlg0011.tlg003.487
 # text = ὤμοι, κατέπεφνες, ἄναξ, τόνδε συνναύταν, τάλας ὦ ταλαίφρων γύναι·
@@ -8205,9 +8205,9 @@
 # Speaker = Tecmessa
 0.1	E0.1	_	_	_	_	_	_	0:root	_
 1	ἰώ	ἰώ	INTJ	i--------	_	2	discourse	2:discourse	Ref=937
-2	μοί	ἐγώ	PRON	p-s---fd-	Case=Dat|Gender=Fem|Number=Sing|Person=1|PronType=Prs	0	orphan	0.1:orphan	Ref=937
+2	μοί	ἐγώ	PRON	p-s---fd-	Case=Dat|Gender=Fem|Number=Sing|Person=1|PronType=Prs	0	root	0.1:orphan	Ref=937
 3	μοι	ἐγώ	PRON	p-s---fd-	Case=Dat|Gender=Fem|Number=Sing|Person=1|PronType=Prs	2	discourse	2:discourse	Ref=937|SpaceAfter=No
-4	.	.	PUNCT	u--------	_	0	punct	0.1:punct	_
+4	.	.	PUNCT	u--------	_	0	root	0.1:punct	_
 
 # sent_id = tlg0011.tlg003.506
 # text = χωρεῖ πρὸς ἧπαρ, οἶδα, γενναία δύη.
@@ -8227,9 +8227,9 @@
 # Speaker = Tecmessa
 0.1	E0.1	_	_	_	_	_	_	0:root	_
 1	ἰώ	ἰώ	INTJ	i--------	_	2	discourse	2:discourse	Ref=939
-2	μοί	ἐγώ	PRON	p-s---fd-	Case=Dat|Gender=Fem|Number=Sing|Person=1|PronType=Prs	0	orphan	0.1:orphan	Ref=939
+2	μοί	ἐγώ	PRON	p-s---fd-	Case=Dat|Gender=Fem|Number=Sing|Person=1|PronType=Prs	0	root	0.1:orphan	Ref=939
 3	μοι	ἐγώ	PRON	p-s---fd-	Case=Dat|Gender=Fem|Number=Sing|Person=1|PronType=Prs	2	discourse	2:discourse	Ref=939|SpaceAfter=No
-4	.	.	PUNCT	u--------	_	0	punct	0.1:punct	_
+4	.	.	PUNCT	u--------	_	0	root	0.1:punct	_
 
 # sent_id = tlg0011.tlg003.508
 # text = οὐδέν σ’ ἀπιστῶ καὶ δὶς οἰμῶξαι, γύναι, τοιοῦδ’ ἀποβλαφθεῖσαν ἀρτίως φίλου.
@@ -8523,9 +8523,9 @@
 # Speaker = Teucros
 0.1	E0.1	_	_	_	_	_	_	0:root	_
 1	ἰώ	ἰώ	INTJ	i--------	_	2	discourse	2:discourse	Ref=974
-2	μοί	ἐγώ	PRON	p-s---md-	Case=Dat|Gender=Masc|Number=Sing|Person=1|PronType=Prs	0	orphan	0.1:orphan	Ref=974
+2	μοί	ἐγώ	PRON	p-s---md-	Case=Dat|Gender=Masc|Number=Sing|Person=1|PronType=Prs	0	root	0.1:orphan	Ref=974
 3	μοι	ἐγώ	PRON	p-s---md-	Case=Dat|Gender=Masc|Number=Sing|Person=1|PronType=Prs	2	discourse	2:discourse	Ref=974|SpaceAfter=No
-4	.	.	PUNCT	u--------	_	0	punct	0.1:punct	_
+4	.	.	PUNCT	u--------	_	0	root	0.1:punct	_
 
 # sent_id = tlg0011.tlg003.528
 # text = σίγησον·
@@ -8827,8 +8827,8 @@
 # text = οἴμοι.
 # Speaker = Teucros
 0.1	E0.1	_	_	_	_	_	_	0:root	_
-1	οἴμοι	οἴμοι	INTJ	i--------	_	0	discourse	0.1:discourse	Ref=1002|SpaceAfter=No
-2	.	.	PUNCT	u--------	_	0	punct	0.1:punct	_
+1	οἴμοι	οἴμοι	INTJ	i--------	_	0	root	0.1:discourse	Ref=1002|SpaceAfter=No
+2	.	.	PUNCT	u--------	_	0	root	0.1:punct	_
 
 # sent_id = tlg0011.tlg003.550
 # text = ἴθ’, ἐκκάλυψον, ὡς ἴδω τὸ πᾶν κακόν.
@@ -9078,7 +9078,7 @@
 5	οὗ	ὅς	PRON	p-s---mg-	Case=Gen|Gender=Masc|Number=Sing|PronType=Rel	6	nmod	_	Ref=1025
 6	φονέως	φονεύς	NOUN	n-s---mg-	Case=Gen|Gender=Masc|Number=Sing	8	obl:arg	_	Ref=1026
 7	ἄρ’	ἄρα	ADV	d--------	PartType=Ptcl	8	advmod	_	Ref=1026
-8	ἐξέπνευσας	ἐκπνέω	VERB	v2saia---	Mood=Ind|Number=Sing|Person=2|Tense=Past|Voice=Act	0	root:relcl	_	Ref=1026|SpaceAfter=No
+8	ἐξέπνευσας	ἐκπνέω	VERB	v2saia---	Mood=Ind|Number=Sing|Person=2|Tense=Past|Voice=Act	0	root	_	Ref=1026|SpaceAfter=No
 9	;	;	PUNCT	u--------	_	8	punct	_	_
 
 # sent_id = tlg0011.tlg003.566
@@ -11295,8 +11295,8 @@
 # text = φεῦ·
 # Speaker = Teucros
 0.1	E0.1	_	_	_	_	_	_	0:root	_
-1	φεῦ	φεῦ	INTJ	i--------	_	0	discourse	0.1:discourse	Ref=1266|SpaceAfter=No
-2	·	·	PUNCT	u--------	_	0	punct	0.1:punct	_
+1	φεῦ	φεῦ	INTJ	i--------	_	0	root	0.1:discourse	Ref=1266|SpaceAfter=No
+2	·	·	PUNCT	u--------	_	0	root	0.1:punct	_
 
 # sent_id = tlg0011.tlg003.697
 # text = τοῦ θανόντος ὡς ταχεῖά τις βροτοῖς χάρις διαρρεῖ καὶ προδοῦσ’ ἁλίσκεται, εἰ σοῦ γ’ ὅδ’ ἁνὴρ οὐδ’ ἐπὶ σμικρῶν λόγων, Αἴας, ἔτ’ ἴσχει μνῆστιν, οὗ σὺ πολλάκις τὴν σὴν προτείνων προύκαμες ψυχὴν δόρει.
