@@ -7,6 +7,29 @@ annotation schema. If you want the old AGLDT-compliant XML files you can either:
   - check out the version tagged `v0.4.1-agldt`
   - retrieve them from the file `other/old_agldt_source.zip`
 
+## What's new in v0.6.0
+
+- The repository is organized around `data/` and `code/`: maintained data and
+  tooling are separated from archived legacy scripts.
+- Treebanks now live directly under `data/annotation/`, in canonical
+  author/work directories with uniform CTS-inspired filenames. The *Iliad* and
+  *Odyssey* remain split into four six-book files per work for practical editing.
+- `data/catalog.yaml`, its JSON schema, and documented status definitions provide
+  machine-readable coverage, conservative annotation statuses, validation state,
+  and the level of support for enhanced dependencies and ellipsis.
+- Supporting CTS/TEI editions are collected under `data/texts/data/`; existing
+  commentary and notes remain available pending a future reorganization.
+- A maintained validation framework checks catalog schema and coverage, CoNLL-U
+  syntax, and XML well-formedness. These basic checks run in GitHub Actions for
+  pushes and pull requests targeting `master`.
+- Active development takes place on the `dev` branch. No treebank is initially
+  presented as fully reviewed: current catalog statuses are deliberately
+  conservative.
+
+The complete pre-migration repository layout remains available under the
+[`v0.5.0-legacy-layout`](https://github.com/francescomambrini/Daphne/tree/v0.5.0-legacy-layout)
+tag.
+
 ## What is it?
 
 A collection of treebanks of poetic Ancient Greek texts, starting with drama and
@@ -21,7 +44,7 @@ The UD conversion is constantly revised and reviewed by hand.
 
 ## Sources
 
-Most of the treebanks now are based on existing annotations that I converted to UD and am gradually revising. For the attribution, see the Readme files in each subfolder of the [data](https://github.com/francescomambrini/Daphne/tree/master/data/annotation/latest) directory.
+Most of the treebanks now are based on existing annotations that I converted to UD and am gradually revising. For the attribution, see the Readme files in each subfolder of the [data](https://github.com/francescomambrini/Daphne/tree/master/data/annotation) directory.
 
 ## What kind of modification were introduced?
 

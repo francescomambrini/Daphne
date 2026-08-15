@@ -1,0 +1,35 @@
+name: Well-formed data
+
+on:
+  push:
+  pull_request:
+    branches:
+      - master
+
+permissions:
+  contents: read
+
+jobs:
+  check-data:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v7
+
+      - name: Set up Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+
+      - name: Install catalog-check dependencies
+        run: python -m pip install --requirement code/requirements-checks.txt
+
+      - name: Run checker tests
+        env:
+          PYTHONPATH: code/src
+        run: python -m unittest discover -s code/tests -v
+
+      - name: Check data well-formedness
+        env:
+          PYTHONPATH: code/src
+        run: python -m daphne_treebank.checks --root .

@@ -1,0 +1,324 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Daphne treebank catalog",
+  "description": "Schema for data/catalog.yaml.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "catalog_version",
+    "schema",
+    "status_definitions",
+    "path_exceptions",
+    "treebanks"
+  ],
+  "properties": {
+    "catalog_version": {
+      "const": 1
+    },
+    "schema": {
+      "const": "catalog.schema.json"
+    },
+    "status_definitions": {
+      "const": "STATUS.md"
+    },
+    "path_exceptions": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/path_exception"
+      }
+    },
+    "treebanks": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/treebank"
+      }
+    }
+  },
+  "$defs": {
+    "path_exception": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "path",
+        "role",
+        "reason"
+      ],
+      "properties": {
+        "path": {
+          "type": "string",
+          "pattern": "^annotation/(?!.*(?:^|/)\\.\\.(?:/|$)).*\\.conllu$"
+        },
+        "role": {
+          "enum": [
+            "legacy_backup"
+          ]
+        },
+        "reason": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "treebank": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "author_id",
+        "work_id",
+        "edition_id",
+        "role",
+        "annotation_status",
+        "enhanced_dependencies",
+        "validation",
+        "files"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^tlg[0-9]{4}\\.tlg[0-9]{3}\\.[a-z][a-z0-9_]*-grc[0-9]+$"
+        },
+        "urn": {
+          "type": "string",
+          "pattern": "^urn:cts:greekLit:tlg[0-9]{4}\\.tlg[0-9]{3}\\.[a-z][a-z0-9_]*-grc[0-9]+$"
+        },
+        "author_id": {
+          "type": "string",
+          "pattern": "^tlg[0-9]{4}$"
+        },
+        "work_id": {
+          "type": "string",
+          "pattern": "^tlg[0-9]{3}$"
+        },
+        "edition_id": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9_]*-grc[0-9]+$"
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "role": {
+          "enum": [
+            "primary",
+            "legacy_variant",
+            "legacy_external"
+          ]
+        },
+        "annotation_status": {
+          "enum": [
+            "converted",
+            "in_review",
+            "reviewed"
+          ]
+        },
+        "enhanced_dependencies": {
+          "$ref": "#/$defs/enhanced_dependencies"
+        },
+        "validation": {
+          "$ref": "#/$defs/validation"
+        },
+        "review": {
+          "$ref": "#/$defs/review"
+        },
+        "notes": {
+          "type": "string",
+          "minLength": 1
+        },
+        "files": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/file"
+          }
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "role": {
+                "const": "primary"
+              }
+            },
+            "required": [
+              "role"
+            ]
+          },
+          "then": {
+            "required": [
+              "urn"
+            ]
+          }
+        }
+      ]
+    },
+    "enhanced_dependencies": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "encoding",
+        "phenomena",
+        "review_status",
+        "validation"
+      ],
+      "properties": {
+        "encoding": {
+          "enum": [
+            "none",
+            "sparse",
+            "complete",
+            "mixed"
+          ]
+        },
+        "provenance": {
+          "enum": [
+            "converted",
+            "generated",
+            "manual",
+            "mixed",
+            "unknown"
+          ]
+        },
+        "phenomena": {
+          "$ref": "#/$defs/enhanced_phenomena"
+        },
+        "review_status": {
+          "enum": [
+            "not_reviewed",
+            "in_review",
+            "reviewed"
+          ]
+        },
+        "validation": {
+          "$ref": "#/$defs/validation"
+        }
+      }
+    },
+    "enhanced_phenomena": {
+      "type": "object",
+      "additionalProperties": false,
+      "minProperties": 1,
+      "properties": {
+        "ellipsis": {
+          "$ref": "#/$defs/phenomenon_support"
+        },
+        "coordination_incoming": {
+          "$ref": "#/$defs/phenomenon_support"
+        },
+        "coordination_outgoing": {
+          "$ref": "#/$defs/phenomenon_support"
+        },
+        "control_raising_subjects": {
+          "$ref": "#/$defs/phenomenon_support"
+        },
+        "relative_clause_coreference": {
+          "$ref": "#/$defs/phenomenon_support"
+        },
+        "case_information": {
+          "$ref": "#/$defs/phenomenon_support"
+        }
+      }
+    },
+    "phenomenon_support": {
+      "enum": [
+        "not_annotated",
+        "partial",
+        "systematic",
+        "unknown"
+      ]
+    },
+    "validation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "status"
+      ],
+      "properties": {
+        "status": {
+          "enum": [
+            "not_run",
+            "pass",
+            "fail"
+          ]
+        },
+        "validator": {
+          "type": "string",
+          "minLength": 1
+        },
+        "checked_at": {
+          "type": "string",
+          "format": "date"
+        },
+        "notes": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "status": {
+                "enum": [
+                  "pass",
+                  "fail"
+                ]
+              }
+            },
+            "required": [
+              "status"
+            ]
+          },
+          "then": {
+            "required": [
+              "validator",
+              "checked_at"
+            ]
+          }
+        }
+      ]
+    },
+    "review": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "scope": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "coverage": {
+          "type": "string",
+          "minLength": 1
+        },
+        "notes": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "minProperties": 1
+    },
+    "file": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "path"
+      ],
+      "properties": {
+        "path": {
+          "type": "string",
+          "pattern": "^annotation/(?!.*(?:^|/)\\.\\.(?:/|$)).*\\.conllu$"
+        },
+        "coverage": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    }
+  }
+}
