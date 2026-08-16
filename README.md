@@ -30,6 +30,22 @@ The complete pre-migration repository layout remains available under the
 [`v0.5.0-legacy-layout`](https://github.com/francescomambrini/Daphne/tree/v0.5.0-legacy-layout)
 tag.
 
+## Development environment
+
+Daphne uses [uv](https://docs.astral.sh/uv/) for its official, reproducible
+Python environment. From the repository root, create or update the local
+`.venv/` from the committed lockfile and run the complete validation suite with:
+
+```bash
+uv sync --locked
+uv run python -m unittest discover -s code/tests -v
+uv run daphne-check --root .
+```
+
+Use `uv add <package>` to expand the maintained environment. Commit both
+`pyproject.toml` and `uv.lock` whenever dependencies change; `.venv/` remains
+local and is not committed.
+
 ## What is it?
 
 A collection of treebanks of poetic Ancient Greek texts, starting with drama and

@@ -50,10 +50,15 @@ Run the tests and check all annotation and textual-edition files from the
 repository root:
 
 ```bash
-python -m pip install --requirement code/requirements-checks.txt
-PYTHONPATH=code/src python -m unittest discover -s code/tests -v
-PYTHONPATH=code/src python -m daphne_treebank.checks --root .
+uv sync --locked
+uv run python -m unittest discover -s code/tests -v
+uv run daphne-check --root .
 ```
 
 The same commands run in GitHub Actions on every push and on pull requests that
 target `master`.
+
+`pyproject.toml` is the dependency source of truth and `uv.lock` makes the
+environment reproducible. Add or update a dependency with `uv add`, and commit
+both files when the lock changes. The reusable local environment lives in the
+ignored `.venv/` directory.

@@ -7,6 +7,7 @@ __pycache__/
 .DS_Store
 *~
 *.lock
+!uv.lock
 *sync-conflict*
 
 # C extensions
@@ -80,6 +81,7 @@ target/
 
 # pyenv
 .python-version
+!/.python-version
 
 # celery beat schedule file
 celerybeat-schedule
@@ -112,3 +114,6 @@ venv.bak/
 # other
 other/
 code/legacy/ud_validate/
+
+# Local instructions for repository-aware coding agents
+/AGENTS.md

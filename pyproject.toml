@@ -1,0 +1,27 @@
+[project]
+name = "daphne-treebank"
+version = "0.6.0"
+description = "Maintained validation and maintenance tools for the Daphne Ancient Greek treebanks"
+readme = "README.md"
+requires-python = ">=3.12,<4"
+dependencies = [
+    "jsonschema==4.26.0",
+    "PyYAML==6.0.3",
+]
+classifiers = [
+    "Private :: Do Not Upload",
+]
+
+[project.scripts]
+daphne-check = "daphne_treebank.checks.cli:main"
+
+[build-system]
+requires = ["uv_build>=0.11.0,<0.12"]
+build-backend = "uv_build"
+
+[tool.uv]
+required-version = ">=0.11.0,<0.12"
+
+[tool.uv.build-backend]
+module-name = "daphne_treebank"
+module-root = "code/src"
