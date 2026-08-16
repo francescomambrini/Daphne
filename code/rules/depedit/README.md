@@ -69,6 +69,21 @@ For token-only scenarios, the runner also preserves the source ordering and
 spacing of comments, blank lines, and newline endings instead of accepting
 DepEdit's incidental comment reordering.
 
+Use `--report-tsv PATH` to atomically write a machine-readable manifest during
+preview. It contains one row per changed CoNLL-U column, including the
+repository-relative file, physical line number, sentence ID, token context,
+column name, old value, and new value:
+
+```bash
+uv run daphne-edit code/rules/depedit/<scenario-id>/scenario.ini \
+  --no-diff --report-tsv /tmp/daphne-depedit-preview.tsv
+```
+
+The TSV report supports located, line-preserving token changes. If a scenario
+adds or removes lines or changes sentence annotations, report generation fails
+instead of producing ambiguous locations. A report failure prevents `--apply`
+from writing corpus files.
+
 After reviewing the preview, repeat the command with `--apply` to replace each
 changed file atomically. All transformations are completed in memory first, and
 no file is written when any input fails. A run with no changes exits with status

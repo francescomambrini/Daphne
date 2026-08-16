@@ -3,7 +3,9 @@
 from __future__ import annotations
 
 import argparse
+import csv
 import difflib
+import io
 import os
 import stat
 import sys
@@ -21,6 +23,10 @@ DEPEDIT_VERSION = version("depedit")
 
 class DepEditConfigurationError(ValueError):
     """Raised when DepEdit rejects a scenario file."""
+
+
+class TsvReportError(ValueError):
+    """Raised when changes cannot be represented as located TSV rows."""
 
 
 @dataclass(frozen=True)
@@ -87,6 +93,36 @@ class RunReport:
     @property
     def match_count(self) -> int:
         return sum(result.match_count for result in self.results)
+
+
+CONLLU_COLUMNS = (
+    "ID",
+    "FORM",
+    "LEMMA",
+    "UPOS",
+    "XPOS",
+    "FEATS",
+    "HEAD",
+    "DEPREL",
+    "DEPS",
+    "MISC",
+)
+
+TSV_REPORT_COLUMNS = (
+    "file",
+    "line_number",
+    "sent_id",
+    "token_id",
+    "form",
+    "lemma",
+    "upos",
+    "feats",
+    "head",
+    "deps",
+    "column",
+    "old_value",
+    "new_value",
+)
 
 
 def _scenario_preserves_non_token_layout(scenario_text: str) -> bool:
@@ -223,7 +259,7 @@ def transform_files(transformer: DepEdit, paths: Sequence[Path]) -> RunReport:
 def atomic_write(path: Path, content: str) -> None:
     """Replace *path* atomically after writing and syncing a sibling temp file."""
 
-    mode = stat.S_IMODE(path.stat().st_mode)
+    mode = stat.S_IMODE(path.stat().st_mode) if path.exists() else 0o644
     descriptor, temporary_name = tempfile.mkstemp(
         prefix=f".{path.name}.", suffix=".tmp", dir=path.parent
     )
@@ -257,6 +293,63 @@ def _display_path(path: Path, root: Path) -> str:
         return str(path.relative_to(root))
     except ValueError:
         return str(path)
+
+
+def render_tsv_report(report: RunReport, root: Path) -> str:
+    """Render located, column-level token changes as a TSV manifest."""
+
+    output = io.StringIO(newline="")
+    writer = csv.writer(output, delimiter="\t", lineterminator="\n")
+    writer.writerow(TSV_REPORT_COLUMNS)
+    for result in report.results:
+        original_lines = result.original.splitlines()
+        transformed_lines = result.transformed.splitlines()
+        if len(original_lines) != len(transformed_lines):
+            raise TsvReportError(
+                f"cannot locate structural changes in {result.path}: line count changed"
+            )
+        sent_id = ""
+        for line_number, (old_line, new_line) in enumerate(
+            zip(original_lines, transformed_lines), start=1
+        ):
+            if old_line.startswith("# sent_id = "):
+                sent_id = old_line.removeprefix("# sent_id = ").strip()
+            if old_line == new_line:
+                continue
+            if not _is_token_line(old_line) or not _is_token_line(new_line):
+                raise TsvReportError(
+                    f"cannot represent non-token change at {result.path}:{line_number}"
+                )
+            old_columns = old_line.split("\t")
+            new_columns = new_line.split("\t")
+            if len(old_columns) != 10 or len(new_columns) != 10:
+                raise TsvReportError(
+                    f"cannot represent non-10-column change at "
+                    f"{result.path}:{line_number}"
+                )
+            for column_index, (old_value, new_value) in enumerate(
+                zip(old_columns, new_columns)
+            ):
+                if old_value == new_value:
+                    continue
+                writer.writerow(
+                    (
+                        _display_path(result.path, root),
+                        line_number,
+                        sent_id,
+                        old_columns[0],
+                        old_columns[1],
+                        old_columns[2],
+                        old_columns[3],
+                        old_columns[5],
+                        old_columns[6],
+                        old_columns[8],
+                        CONLLU_COLUMNS[column_index],
+                        old_value,
+                        new_value,
+                    )
+                )
+    return output.getvalue()
 
 
 def print_report(
@@ -323,6 +416,14 @@ def build_parser() -> argparse.ArgumentParser:
         action="store_true",
         help="suppress unified diffs in the report",
     )
+    parser.add_argument(
+        "--report-tsv",
+        type=Path,
+        help=(
+            "atomically write a TSV manifest with file, line, sentence, token, "
+            "and old/new column values"
+        ),
+    )
     return parser
 
 
@@ -352,6 +453,23 @@ def main(argv: Sequence[str] | None = None) -> int:
     if report.failures:
         print("No files were written because at least one input failed.", file=sys.stderr)
         return 2
+    if args.report_tsv is not None:
+        report_path = args.report_tsv.expanduser().resolve()
+        if report_path.suffix.lower() != ".tsv":
+            print("daphne-edit: TSV report path must end in .tsv", file=sys.stderr)
+            return 2
+        if report_path in paths or report_path == scenario:
+            print(
+                "daphne-edit: TSV report path must not overwrite an input or scenario",
+                file=sys.stderr,
+            )
+            return 2
+        try:
+            atomic_write(report_path, render_tsv_report(report, root))
+        except (OSError, TsvReportError) as error:
+            print(f"daphne-edit: TSV report failed: {error}", file=sys.stderr)
+            return 2
+        print(f"TSV report: {report_path}")
     if not report.changed_results:
         print("No matches found; review the scenario and target selection.", file=sys.stderr)
         return 1

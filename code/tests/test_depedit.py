@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import contextlib
+import csv
 import io
 import tempfile
 import unittest
@@ -11,6 +12,7 @@ from daphne_treebank.editing.depedit import (
     apply_report,
     load_scenario,
     main,
+    render_tsv_report,
     select_input_files,
     transform_files,
 )
@@ -58,6 +60,29 @@ class DepEditScenarioTests(unittest.TestCase):
             (FIXTURES / "expected.conllu").read_text(encoding="utf-8"),
         )
 
+    def test_tsv_report_contains_reproducible_locations(self):
+        input_path = FIXTURES / "input.conllu"
+        report = transform_files(load_scenario(SCENARIO), (input_path,))
+
+        rows = list(
+            csv.DictReader(
+                io.StringIO(render_tsv_report(report, ROOT)), delimiter="\t"
+            )
+        )
+
+        self.assertEqual(len(rows), 2)
+        self.assertEqual([row["line_number"] for row in rows], ["4", "5"])
+        self.assertEqual(
+            [row["sent_id"] for row in rows],
+            ["nonaccusative-objects.1"] * 2,
+        )
+        self.assertEqual([row["token_id"] for row in rows], ["2", "3"])
+        self.assertEqual([row["column"] for row in rows], ["DEPREL", "DEPREL"])
+        self.assertEqual([row["old_value"] for row in rows], ["obj", "iobj"])
+        self.assertEqual(
+            [row["new_value"] for row in rows], ["obl:arg", "obl:arg"]
+        )
+
     def test_token_only_scenario_preserves_comment_order(self):
         content = """#           <persName>Editor</persName>
 
@@ -97,6 +122,26 @@ class DepEditScenarioTests(unittest.TestCase):
             target.write_text(content, encoding="utf-8", newline="")
 
             result = transform_files(load_scenario(scenario), (target,)).results[0]
+            report_path = directory_path / "annotations.tsv"
+            stdout = io.StringIO()
+            stderr = io.StringIO()
+            with contextlib.redirect_stdout(stdout), contextlib.redirect_stderr(stderr):
+                exit_code = main(
+                    [
+                        str(scenario),
+                        "--input-file",
+                        str(target),
+                        "--root",
+                        str(ROOT),
+                        "--apply",
+                        "--report-tsv",
+                        str(report_path),
+                    ]
+                )
+            self.assertEqual(exit_code, 2)
+            self.assertIn("TSV report failed", stderr.getvalue())
+            self.assertEqual(target.read_text(encoding="utf-8"), content)
+            self.assertFalse(report_path.exists())
 
         self.assertIn("# review = needed\n", result.transformed)
 
@@ -141,11 +186,20 @@ class DepEditScenarioTests(unittest.TestCase):
             target = Path(directory) / "input.conllu"
             original = (FIXTURES / "input.conllu").read_text(encoding="utf-8")
             target.write_text(original, encoding="utf-8", newline="")
+            report_path = Path(directory) / "preview.tsv"
             stdout = io.StringIO()
 
             with contextlib.redirect_stdout(stdout):
                 exit_code = main(
-                    [str(SCENARIO), "--input-file", str(target), "--root", str(ROOT)]
+                    [
+                        str(SCENARIO),
+                        "--input-file",
+                        str(target),
+                        "--root",
+                        str(ROOT),
+                        "--report-tsv",
+                        str(report_path),
+                    ]
                 )
 
             self.assertEqual(exit_code, 0)
@@ -153,6 +207,10 @@ class DepEditScenarioTests(unittest.TestCase):
             self.assertIn("DepEdit version: 4.0.0.0", stdout.getvalue())
             self.assertIn("Matches/changed records: 2", stdout.getvalue())
             self.assertIn("Preview only; no files were written.", stdout.getvalue())
+            self.assertIn(f"TSV report: {report_path.resolve()}", stdout.getvalue())
+            self.assertEqual(
+                len(report_path.read_text(encoding="utf-8").splitlines()), 3
+            )
             self.assertEqual(target.read_text(encoding="utf-8"), original)
 
     def test_processing_failure_blocks_all_writes(self):
