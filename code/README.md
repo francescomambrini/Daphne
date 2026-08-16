@@ -1,11 +1,12 @@
 # Daphne code
 
 This directory is the home of tools for maintaining the Daphne treebanks. New
-code should support one of three main workflows:
+code should support one of four main workflows:
 
 - validation of CoNLL-U, catalog metadata, and supporting textual editions;
 - conversion from source formats into Daphne's current representations;
-- controlled correction or normalization of existing data.
+- controlled correction or normalization of existing data;
+- reviewable bulk editing through pinned DepEdit scenarios.
 
 The historical contents of the former `scripts/` directory are preserved under
 `legacy/`. They are reference material, not the foundation of the new toolset.
@@ -14,15 +15,28 @@ The historical contents of the former `scripts/` directory are preserved under
 
 ```text
 code/
-├── src/       maintained application and library code
-├── tests/     automated tests and small fixtures
-├── rules/     declarative, reviewable correction rules
-└── legacy/    archived historical scripts and artifacts
+├── src/               maintained application and library code
+│   └── daphne_treebank/editing/
+│       └── depedit.py DepEdit integration boundary
+├── tests/             automated tests and small fixtures
+├── rules/
+│   └── depedit/       documented, reviewable bulk-editing scenarios
+└── legacy/            archived historical scripts and artifacts
 ```
 
 The first maintained component is the basic data checker under `src/`. Additional
 tools should be introduced incrementally as specific legacy workflows are
 understood and replaced.
+
+DepEdit is pinned in the root `pyproject.toml` and `uv.lock`. Keep reusable
+scenario files under `rules/depedit/`; do not embed corpus-specific scenarios in
+the Python runner or migrate the files under `legacy/depedit/` without auditing
+and testing them.
+
+Use `daphne-edit` to preview a scenario against one `--input-file`, or omit that
+option to select every CoNLL-U file under `data/annotation/`. Preview is the
+default; `--apply` is required for atomic in-place replacement. See
+`rules/depedit/README.md` for the complete workflow.
 
 ## Requirements for new tools
 

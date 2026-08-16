@@ -5,6 +5,7 @@ description = "Maintained validation and maintenance tools for the Daphne Ancien
 readme = "README.md"
 requires-python = ">=3.12,<4"
 dependencies = [
+    "depedit==4.0.0.0",
     "jsonschema==4.26.0",
     "PyYAML==6.0.3",
 ]
@@ -14,6 +15,7 @@ classifiers = [
 
 [project.scripts]
 daphne-check = "daphne_treebank.checks.cli:main"
+daphne-edit = "daphne_treebank.editing.depedit:main"
 
 [build-system]
 requires = ["uv_build>=0.11.0,<0.12"]
