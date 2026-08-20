@@ -2,10 +2,7 @@ catalog_version: 1
 schema: catalog.schema.json
 status_definitions: STATUS.md
 
-path_exceptions:
-  - path: annotation/tlg0011/tlg002/BAK_tlg0011.tlg002.daphne_tb-grc1.bak.conllu
-    role: legacy_backup
-    reason: Historical editor backup retained temporarily during repository migration.
+path_exceptions: []
 
 treebanks:
   - id: tlg0006.tlg003.daphne_tb-grc1
